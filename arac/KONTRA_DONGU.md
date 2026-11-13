@@ -124,3 +124,5 @@
 | 11 | 14:05 | Arda frikiği Avrupa basınında (AS Beckham, Foot Mercato) + 65. dk 'Kimse yok' tepkisi | MİLLİ | manset_seridi (yeni) + milli_8_sut_euro2024 | olay cümlesi / kamera anı ile kapanış | 6af6eee766ff9797d87940ff |
 
 > 13.11 14:18 Enes: OTOMATİK DÖNGÜ KAPANDI. Artık sadece Enes haber gönderince: tweet metni + görsel hazırla, Enes'e ver; PAYLAŞMA (Buffer'a gönderme). Enes kendisi atıyor.
+
+> 13.11 14:19 Enes: tweetler emojisiz ama İLGİ ÇEKİCİ olacak; ilk satır kaydırmayı durdurmalı (çarpıcı rakam, zıtlık, beklenmedik detay, kısa vurucu cümle). Düz ajans dili yok.
