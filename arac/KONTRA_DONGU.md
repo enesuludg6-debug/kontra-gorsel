@@ -111,3 +111,5 @@
 | HAZIR | 11:52 | Sergen: Belçika maçına 2 günlük antrenmanla çıktık (foto onaylandı) | AÇIKLAMA | portre_sag (yeni), g/sergen_iki_gun.jpg push edildi | Marlon sonrası ilk tur |
 | BEKLEYEN | 11:30 | FB Marlon Gomes 20M, Emre-Arda Turan görüşmesi 25.11 (Fotomaç manşet) | İDDİA | foto: Marlon Gomes | - |
 | 3 | 11:40 | A1 Grubu puan durumu: 5 maç 0 puan, son sıra kesin | İSTATİSTİK | puan_tablosu (yeni) + milli_8_uzgun (filigran blur) | rakam başlık / kaynaksız, hedef cümlesiyle kapanış | 6af6ccebac315c828ef68933 |
+
+> 13.11 11:52 Enes: gönderdiği HER fotoğraf arşive (kontra-foto/foto + kontra-gorsel/foto + index.json) kaydedilir. Devirde güncel zip verilir.
