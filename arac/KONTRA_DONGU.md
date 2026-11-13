@@ -183,3 +183,4 @@
 - NOT: 00:40 turu (trig_01PVh7cb...) eski metninde 'tek kart + sabah turu kur' yazıyor. GEÇERSİZ: 00:40'ta sadece Hollanda-Yunanistan (4/5), 00:52'de Sırbistan-Almanya (5/5). Sabah turu KURULMAYACAK.
 - 23:12 AUTO 2/5: osimhen_juventus.jpg — Juventus danışmanı Penta: Osimhen ocak hedefi; Napoli'nin İtalya maddesi 1 Eylül 2027 | İDDİA | dergi (ilk kez) | foto: gs_45_maske.jpg
 - 23:48 AUTO 3/5: hollanda_18dk_3gol.jpg — NED 3-0 GRE ilk 18 dk (Summerville 6', Reijnders 12', 18'); GER 2-0 SRB 14 dk | CANLI | rakam_ikilisi (fotosuz)
+- 00:42 AUTO 4/5: hollanda_7_0.jpg — NED 7-0 GRE (Summerville 6', Reijnders 12/18/33, Timber 40/59, 62'), NED 11 puan | MAÇ SONU | veri_panel | foto: hollanda_milli_sevinc.jpg. (Eski 00:40 talimatındaki 'sabah turu' uygulanmadı.)
