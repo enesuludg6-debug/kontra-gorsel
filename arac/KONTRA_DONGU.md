@@ -170,3 +170,4 @@
 - 20:45 tur: doğrulanabilir taze haber bulunamadı (İlkay/Van Dijk başlıkları doğrulanamadı, Kim Min-jae bugün atılmıştı). 20:55 Ümit-Çekya turuna devredildi.
 - 21:00 AUTO: fb_kocaeli_hazirlik.jpg — FB Kocaelispor (21 Kasım Cmt) hazırlıklarına başladı (Enes gönderdi) | BUGÜN | capraz (ilk kez) | foto: fb_antrenman_kosu_grup.jpg
 - 21:12 AUTO: umit_cekya_sonuc.jpg — Türkiye U21 0-1 Çekya (Kačor 48', iSport + Onlajny) | SONUÇ | gazete (ilk kez) | foto: umit_milli_antrenman.jpg (isim yok)
+- 21:22 tur: Hollanda-Yunanistan zirve maçı seçildi, arşivde milli foto yok → Enes'ten istendi.
