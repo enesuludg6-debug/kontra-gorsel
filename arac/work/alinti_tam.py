@@ -14,7 +14,7 @@ def alinti_tam(photo, konusan, alinti, ikinci, hedef, kaynak, out, vurgu=KIRMIZI
     q = dev("“", 260, vurgu, egik=False, track=0, maxw=200); put(c, q, 50, 700)
     rect(c, (188, 766, 620, 852), zemin, alpha=200, radius=6)
     tracked(c, konusan, 200, 790, vurgu, 30, track=10)
-    tracked(c, "HEDEF: " + hedef, 200, 830, (180, 185, 200), 24, track=7)
+    tracked(c, hedef, 200, 830, (180, 185, 200), 24, track=7)
     y = 880
     for t in alinti:
         r = dev(t, 100, WHITE, egik=True, track=2, maxw=960); put(c, r, 54, y); y += r.height + 8
