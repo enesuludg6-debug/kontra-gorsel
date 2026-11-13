@@ -175,3 +175,4 @@
 - 21:35 tur: yeni taze haber yok; gece maç sonuçları planlandı (NED-GRE + SRB-GER ~00:40). Almanya fotosu istendi.
 - 21:50 tur: FB yeni doktor Halil Polat haberi seçildi, foto istendi.
 - 22:02 tur: Enes'ten bekleyen fotolar (Halil Polat, Almanya) gelmedi; yeni foto isteği yığmamak için tur aralığı açıldı. Sonraki: 22:35 kontrol, 00:40 maç sonuçları.
+- 22:36 tur: bekleyen fotolar gelmedi, arşivle eşleşen taze haber yok. Paylaşım yok. Sıradaki: 00:40 gece maç sonuçları.
