@@ -1,522 +1,532 @@
 [
- {
-  "dosya": "milli_8_uzgun_ispanya.jpg",
-  "aciklama": "Türkiye #8 (numaradan: Arda Güler), elleri yüzünde, rakip İspanya",
-  "filigran": "iHQGuler filigranı (orta üst)",
-  "boyut": [
-   1199,
-   1588
-  ],
-  "onay": false
- },
- {
-  "dosya": "fb_bilinmeyen_tanitim.jpg",
-  "aciklama": "Fenerbahçe forması, tanıtım çekimi, el yüzde",
-  "filigran": "-",
-  "boyut": [
-   1080,
-   1338
-  ],
-  "onay": false
- },
- {
-  "dosya": "milli_8_sut_euro2024.jpg",
-  "aciklama": "Türkiye #8 (numaradan: Arda Güler) yağmurda şut, Euro 2024",
-  "filigran": "-",
-  "boyut": [
-   1080,
-   1902
-  ],
-  "onay": false
- },
- {
-  "dosya": "milli_gol_sevinci_8_10_18_21.jpg",
-  "aciklama": "Türkiye gol sevinci, #8 önde; #10, #18, #21",
-  "filigran": "-",
-  "boyut": [
-   1080,
-   1888
-  ],
-  "onay": false
- },
- {
-  "dosya": "pochettino.jpg",
-  "aciklama": "Mauricio Pochettino, takım elbise, kenar çizgisi (Enes onayladı)",
-  "filigran": "SEVEN logosu (sağ alt)",
-  "boyut": [
-   1000,
-   1500
-  ],
-  "onay": true
- },
- {
-  "dosya": "tottenham_sarisin_bilinmeyen.jpg",
-  "aciklama": "Tottenham beyaz forma, sarışın oyuncu",
-  "filigran": "-",
-  "boyut": [
-   625,
-   1250
-  ],
-  "onay": false
- },
- {
-  "dosya": "bjk_7_sevinc.jpg",
-  "aciklama": "Beşiktaş siyah forma #7, gol sevinci",
-  "filigran": "-",
-  "boyut": [
-   1199,
-   1736
-  ],
-  "onay": false
- },
- {
-  "dosya": "fransa_10_sevinc.jpg",
-  "aciklama": "Fransa #10 (numaradan: Mbappé) takım arkadaşlarıyla sevinç",
-  "filigran": "-",
-  "boyut": [
-   1080,
-   1920
-  ],
-  "onay": false
- },
- {
-  "dosya": "italya_18_calafiori_5.jpg",
-  "aciklama": "İtalya #18 ve Calafiori #5 (formada yazıyor) sevinç",
-  "filigran": "-",
-  "boyut": [
-   1200,
-   1500
-  ],
-  "onay": false
- },
- {
-  "dosya": "fransa_11_20_diz.jpg",
-  "aciklama": "Fransa #11 ve #20 diz çöküp sevinç",
-  "filigran": "-",
-  "boyut": [
-   1170,
-   1560
-  ],
-  "onay": false
- },
- {
-  "dosya": "milli_beyaz_bayrak_11_9_8.jpg",
-  "aciklama": "Türkiye beyaz forma #11, #9 (bayrakla), #8; deplasman zaferi",
-  "filigran": "-",
-  "boyut": [
-   1080,
-   1350
-  ],
-  "onay": false
- },
- {
-  "dosya": "gs_45_maske.jpg",
-  "aciklama": "Galatasaray #45 (numaradan: Osimhen), maskeli, gol sevinci",
-  "filigran": "-",
-  "boyut": [
-   1199,
-   1741
-  ],
-  "onay": false
- },
- {
-  "dosya": "ts_grup_sevinc.jpg",
-  "aciklama": "Trabzonspor 4 oyuncu gece sevinci, #55",
-  "filigran": "-",
-  "boyut": [
-   1080,
-   1920
-  ],
-  "onay": false
- },
- {
-  "dosya": "belcika_7_kaptan.jpg",
-  "aciklama": "Belçika #7 kaptan (numaradan: De Bruyne) gol sevinci",
-  "filigran": "X:SALEDZ filigranı (küçük, orta)",
-  "boyut": [
-   1189,
-   2576
-  ],
-  "onay": false
- },
- {
-  "dosya": "fransa_sirt_mbappe_dembele.jpg",
-  "aciklama": "Fransa sırttan: Mbappe 10, Dembele 7, Rabiot 14, Kounde 5 (formalarda yazıyor)",
-  "filigran": "-",
-  "boyut": [
-   976,
-   1304
-  ],
-  "onay": false
- },
- {
-  "dosya": "manu_kaleci_arsenal.jpg",
-  "aciklama": "Manchester United kalecisi, Arsenal deplasmanı sevinç",
-  "filigran": "-",
-  "boyut": [
-   1199,
-   1495
-  ],
-  "onay": false
- },
- {
-  "dosya": "fransa_11_7_10_12.jpg",
-  "aciklama": "Fransa #11, #7, #10, #12 grup pozu",
-  "filigran": "-",
-  "boyut": [
-   736,
-   1308
-  ],
-  "onay": false
- },
- {
-  "dosya": "gs_bilinmeyen_kosu.jpg",
-  "aciklama": "Galatasaray forması, koşan oyuncu, kuşbakışı",
-  "filigran": "-",
-  "boyut": [
-   1200,
-   1499
-  ],
-  "onay": false
- },
- {
-  "dosya": "italya_retegui_raspadori.jpg",
-  "aciklama": "İtalya gol sevinci: Retegui 9, Raspadori 10 (formada yazıyor), #20, #3",
-  "filigran": "-",
-  "boyut": [
-   1080,
-   1350
-  ],
-  "onay": false
- },
- {
-  "dosya": "tottenham_9_sari.jpg",
-  "aciklama": "Tottenham sarı deplasman #9 (numaradan: Richarlison) gol sevinci",
-  "filigran": "-",
-  "boyut": [
-   1200,
-   1500
-  ],
-  "onay": false
- },
- {
-  "dosya": "inter_20_sevinc.jpg",
-  "aciklama": "Inter #20 kollar açık sevinç, arkada De Vrij #6 (formada yazıyor)",
-  "filigran": "-",
-  "boyut": [
-   969,
-   1215
-  ],
-  "onay": false
- },
- {
-  "dosya": "belcika_9_gol.jpg",
-  "aciklama": "Belçika kırmızı #9 gol sevinci, Uluslar Ligi",
-  "filigran": "-",
-  "boyut": [
-   894,
-   1280
-  ],
-  "onay": false
- },
- {
-  "dosya": "carrick_manu.jpg",
-  "aciklama": "Michael Carrick, Manchester United, paltolu, maç sonu alkış",
-  "filigran": "-",
-  "boyut": [
-   1125,
-   1125
-  ],
-  "onay": true
- },
- {
-  "dosya": "ts_10_ve_arkadasi.jpg",
-  "aciklama": "Trabzonspor #10 ayakta, diz çökmüş takım arkadaşı ayakkabısını boyuyor (gol sevinci)",
-  "filigran": "X:uw544 filigranı (çorapta)",
-  "boyut": [
-   943,
-   1676
-  ],
-  "onay": false
- },
- {
-  "dosya": "cska_sarisin.jpg",
-  "aciklama": "CSKA Moskova siyah forma, sarışın oyuncu",
-  "filigran": "-",
-  "boyut": [
-   739,
-   415
-  ],
-  "onay": false
- },
- {
-  "dosya": "brentford_kaptan.jpg",
-  "aciklama": "Brentford kırmızı-beyaz çizgili, kaptan bantlı oyuncu",
-  "filigran": "-",
-  "boyut": [
-   741,
-   414
-  ],
-  "onay": false
- },
- {
-  "dosya": "fb_antrenman_teknik_ekip.jpg",
-  "aciklama": "Fenerbahçe antrenmanı, beyaz tişörtlü teknik ekip üyesi el sallıyor",
-  "filigran": "-",
-  "boyut": [
-   596,
-   335
-  ],
-  "onay": false
- },
- {
-  "dosya": "arsenal_uzun_kollu_sevinc.jpg",
-  "aciklama": "Arsenal uzun kollu forma, koşarak sevinç",
-  "filigran": "-",
-  "boyut": [
-   399,
-   501
-  ],
-  "onay": false
- },
- {
-  "dosya": "ingiltere_antrenman_ikili.jpg",
-  "aciklama": "İngiltere antrenmanı, iki oyuncu topla",
-  "filigran": "-",
-  "boyut": [
-   1125,
-   823
-  ],
-  "onay": false
- },
- {
-  "dosya": "fildisi_26.jpg",
-  "aciklama": "Fildişi Sahili turuncu #26",
-  "filigran": "-",
-  "boyut": [
-   1024,
-   576
-  ],
-  "onay": false
- },
- {
-  "dosya": "arsenal_eller_agizda.jpg",
-  "aciklama": "Arsenal oyuncusu elleri ağzında sevinç",
-  "filigran": "-",
-  "boyut": [
-   495,
-   619
-  ],
-  "onay": false
- },
- {
-  "dosya": "arsenal_bagiran_sevinc.jpg",
-  "aciklama": "Arsenal oyuncusu yumruklar sıkılı bağırarak sevinç",
-  "filigran": "-",
-  "boyut": [
-   739,
-   415
-  ],
-  "onay": false
- },
- {
-  "dosya": "sergen_yalcin_milli.jpg",
-  "aciklama": "Sergen Yalçın, milli takım montu (Enes onayladı 11:49)",
-  "filigran": "HT SPOR logosu (sağ alt)",
-  "boyut": [
-   399,
-   501
-  ],
-  "onay": true
- },
- {
-  "dosya": "marlon_gomes_shakhtar.jpg",
-  "aciklama": "Marlon Gomes, Shakhtar turuncu forma, eller havada (Enes gönderdi, Marlon Gomes talebine yanıt)",
-  "filigran": "-",
-  "boyut": [
-   447,
-   447
-  ],
-  "onay": true
- },
- {
-  "dosya": "bruno_fernandes_manu.jpg",
-  "aciklama": "Bruno Fernandes, Manchester United #8, dizlerinde sevinç (Enes gönderdi, talebe yanıt)",
-  "filigran": "-",
-  "boyut": [
-   236,
-   342
-  ],
-  "onay": true
- },
- {
-  "dosya": "mert_muldur_fb.jpg",
-  "aciklama": "Mert Müldür, Fenerbahçe #18, Şampiyonlar Ligi maçı (Enes gönderdi, talebe yanıt)",
-  "filigran": "-",
-  "boyut": [
-   1080,
-   1343
-  ],
-  "onay": true
- },
- {
-  "dosya": "hakan_calhanoglu_inter_sirt.jpg",
-  "aciklama": "Hakan Çalhanoğlu, Inter #20 sırttan (formada ÇALHANOĞLU yazıyor), Curva Nord önünde kollar açık",
-  "filigran": "-",
-  "boyut": [
-   800,
-   1200
-  ],
-  "onay": true
- },
- {
-  "dosya": "oumar_solet_udinese.jpg",
-  "aciklama": "Oumar Solet, Udinese #28, topla (Enes gönderdi)",
-  "filigran": "-",
-  "boyut": [
-   400,
-   600
-  ],
-  "onay": true
- },
- {
-  "dosya": "nicolas_jackson_villa.jpg",
-  "aciklama": "Nicolas Jackson, Aston Villa #11, gol sevinci (Enes gönderdi)",
-  "filigran": "X @4kShotam (sol orta, küçük)",
-  "boyut": [
-   1200,
-   2133
-  ],
-  "onay": true
- },
- {
-  "dosya": "supercopa_kupa.jpg",
-  "aciklama": "İspanya Süper Kupası kupası, Supercopa de España zemin (Enes gönderdi)",
-  "filigran": "-",
-  "boyut": [
-   1200,
-   1500
-  ],
-  "onay": true
- },
- {
-  "dosya": "fabian_ruiz_psg.jpg",
-  "aciklama": "Fabián Ruiz, PSG #8 sırttan (formada FABIAN), yumruk sevinci (Enes gönderdi)",
-  "filigran": "-",
-  "boyut": [
-   1011,
-   1349
-  ],
-  "onay": true
- },
- {
-  "dosya": "van_dijk_liverpool.jpg",
-  "aciklama": "Virgil van Dijk, Liverpool kaptan, gol sevinci (Enes gönderdi)",
-  "filigran": "-",
-  "boyut": [
-   1080,
-   1920
-  ],
-  "onay": true
- },
- {
-  "dosya": "raphinha_barcelona.jpg",
-  "aciklama": "Raphinha, Barcelona kaptan bandı, profilden yumruk (Enes gönderdi)",
-  "filigran": "-",
-  "boyut": [
-   1080,
-   1920
-  ],
-  "onay": true
- },
- {
-  "dosya": "ronaldo_portekiz.jpg",
-  "aciklama": "Cristiano Ronaldo, Portekiz #7 kaptan, 'Siu' sevinci (Enes gönderdi)",
-  "filigran": "-",
-  "boyut": [
-   1026,
-   1401
-  ],
-  "onay": true
- },
- {
-  "dosya": "latif_issman_logrones.jpg",
-  "aciklama": "Latif Issman, Logroñés (SD) kırmızı-beyaz çizgili, topla (Enes gönderdi)",
-  "filigran": "-",
-  "boyut": [
-   968,
-   968
-  ],
-  "onay": true
- },
- {
-  "dosya": "camp_nou_koreografi.jpg",
-  "aciklama": "Spotify Camp Nou genel görünüm, Força Barça koreografisi, vinçler (Enes gönderdi)",
-  "filigran": "TW RVEENR (sağ, stat çatısı üstü)",
-  "boyut": [
-   1200,
-   2133
-  ],
-  "onay": true
- },
- {
-  "dosya": "gs_83_batrakov.jpg",
-  "aciklama": "Aleksey Batrakov, Galatasaray #83, Şampiyonlar Ligi gol sevinci (Enes gönderdi)",
-  "filigran": "-",
-  "boyut": [
-   1200,
-   1997
-  ],
-  "onay": true
- },
- {
-  "dosya": "de_zerbi_tottenham.jpg",
-  "aciklama": "Roberto De Zerbi, siyah mont, başparmak (Enes gönderdi)",
-  "filigran": "-",
-  "boyut": [
-   1125,
-   1125
-  ],
-  "onay": true
- },
- {
-  "dosya": "nico_paz_como.jpg",
-  "aciklama": "Nico Paz, Como beyaz forma portre (Enes gönderdi)",
-  "filigran": "-",
-  "boyut": [
-   1043,
-   1401
-  ],
-  "onay": true
- },
- {
-  "dosya": "gabri_veiga.jpg",
-  "aciklama": "Gabri Veiga, yeşil forma portre (Enes gönderdi)",
-  "filigran": "-",
-  "boyut": [
-   741,
-   414
-  ],
-  "onay": true
- },
- {
-  "dosya": "kulusevski_tottenham.jpg",
-  "aciklama": "Dejan Kulusevski, Tottenham mor deplasman forması (Enes gönderdi)",
-  "filigran": "-",
-  "boyut": [
-   2576,
-   1756
-  ],
-  "onay": true
- },
- {
-  "dosya": "kenan_yildiz_juventus.jpg",
-  "aciklama": "Kenan Yıldız, Juventus, el işareti sevinci (Enes gönderdi)",
-  "filigran": "-",
-  "boyut": [
-   853,
-   1279
-  ],
-  "onay": true
- }
+  {
+    "dosya": "milli_8_uzgun_ispanya.jpg",
+    "aciklama": "Türkiye #8 (numaradan: Arda Güler), elleri yüzünde, rakip İspanya",
+    "filigran": "iHQGuler filigranı (orta üst)",
+    "boyut": [
+      1199,
+      1588
+    ],
+    "onay": false
+  },
+  {
+    "dosya": "fb_bilinmeyen_tanitim.jpg",
+    "aciklama": "Fenerbahçe forması, tanıtım çekimi, el yüzde",
+    "filigran": "-",
+    "boyut": [
+      1080,
+      1338
+    ],
+    "onay": false
+  },
+  {
+    "dosya": "milli_8_sut_euro2024.jpg",
+    "aciklama": "Türkiye #8 (numaradan: Arda Güler) yağmurda şut, Euro 2024",
+    "filigran": "-",
+    "boyut": [
+      1080,
+      1902
+    ],
+    "onay": false
+  },
+  {
+    "dosya": "milli_gol_sevinci_8_10_18_21.jpg",
+    "aciklama": "Türkiye gol sevinci, #8 önde; #10, #18, #21",
+    "filigran": "-",
+    "boyut": [
+      1080,
+      1888
+    ],
+    "onay": false
+  },
+  {
+    "dosya": "pochettino.jpg",
+    "aciklama": "Mauricio Pochettino, takım elbise, kenar çizgisi (Enes onayladı)",
+    "filigran": "SEVEN logosu (sağ alt)",
+    "boyut": [
+      1000,
+      1500
+    ],
+    "onay": true
+  },
+  {
+    "dosya": "tottenham_sarisin_bilinmeyen.jpg",
+    "aciklama": "Tottenham beyaz forma, sarışın oyuncu",
+    "filigran": "-",
+    "boyut": [
+      625,
+      1250
+    ],
+    "onay": false
+  },
+  {
+    "dosya": "bjk_7_sevinc.jpg",
+    "aciklama": "Beşiktaş siyah forma #7, gol sevinci",
+    "filigran": "-",
+    "boyut": [
+      1199,
+      1736
+    ],
+    "onay": false
+  },
+  {
+    "dosya": "fransa_10_sevinc.jpg",
+    "aciklama": "Fransa #10 (numaradan: Mbappé) takım arkadaşlarıyla sevinç",
+    "filigran": "-",
+    "boyut": [
+      1080,
+      1920
+    ],
+    "onay": false
+  },
+  {
+    "dosya": "italya_18_calafiori_5.jpg",
+    "aciklama": "İtalya #18 ve Calafiori #5 (formada yazıyor) sevinç",
+    "filigran": "-",
+    "boyut": [
+      1200,
+      1500
+    ],
+    "onay": false
+  },
+  {
+    "dosya": "fransa_11_20_diz.jpg",
+    "aciklama": "Fransa #11 ve #20 diz çöküp sevinç",
+    "filigran": "-",
+    "boyut": [
+      1170,
+      1560
+    ],
+    "onay": false
+  },
+  {
+    "dosya": "milli_beyaz_bayrak_11_9_8.jpg",
+    "aciklama": "Türkiye beyaz forma #11, #9 (bayrakla), #8; deplasman zaferi",
+    "filigran": "-",
+    "boyut": [
+      1080,
+      1350
+    ],
+    "onay": false
+  },
+  {
+    "dosya": "gs_45_maske.jpg",
+    "aciklama": "Galatasaray #45 (numaradan: Osimhen), maskeli, gol sevinci",
+    "filigran": "-",
+    "boyut": [
+      1199,
+      1741
+    ],
+    "onay": false
+  },
+  {
+    "dosya": "ts_grup_sevinc.jpg",
+    "aciklama": "Trabzonspor 4 oyuncu gece sevinci, #55",
+    "filigran": "-",
+    "boyut": [
+      1080,
+      1920
+    ],
+    "onay": false
+  },
+  {
+    "dosya": "belcika_7_kaptan.jpg",
+    "aciklama": "Belçika #7 kaptan (numaradan: De Bruyne) gol sevinci",
+    "filigran": "X:SALEDZ filigranı (küçük, orta)",
+    "boyut": [
+      1189,
+      2576
+    ],
+    "onay": false
+  },
+  {
+    "dosya": "fransa_sirt_mbappe_dembele.jpg",
+    "aciklama": "Fransa sırttan: Mbappe 10, Dembele 7, Rabiot 14, Kounde 5 (formalarda yazıyor)",
+    "filigran": "-",
+    "boyut": [
+      976,
+      1304
+    ],
+    "onay": false
+  },
+  {
+    "dosya": "manu_kaleci_arsenal.jpg",
+    "aciklama": "Manchester United kalecisi, Arsenal deplasmanı sevinç",
+    "filigran": "-",
+    "boyut": [
+      1199,
+      1495
+    ],
+    "onay": false
+  },
+  {
+    "dosya": "fransa_11_7_10_12.jpg",
+    "aciklama": "Fransa #11, #7, #10, #12 grup pozu",
+    "filigran": "-",
+    "boyut": [
+      736,
+      1308
+    ],
+    "onay": false
+  },
+  {
+    "dosya": "gs_bilinmeyen_kosu.jpg",
+    "aciklama": "Galatasaray forması, koşan oyuncu, kuşbakışı",
+    "filigran": "-",
+    "boyut": [
+      1200,
+      1499
+    ],
+    "onay": false
+  },
+  {
+    "dosya": "italya_retegui_raspadori.jpg",
+    "aciklama": "İtalya gol sevinci: Retegui 9, Raspadori 10 (formada yazıyor), #20, #3",
+    "filigran": "-",
+    "boyut": [
+      1080,
+      1350
+    ],
+    "onay": false
+  },
+  {
+    "dosya": "tottenham_9_sari.jpg",
+    "aciklama": "Tottenham sarı deplasman #9 (numaradan: Richarlison) gol sevinci",
+    "filigran": "-",
+    "boyut": [
+      1200,
+      1500
+    ],
+    "onay": false
+  },
+  {
+    "dosya": "inter_20_sevinc.jpg",
+    "aciklama": "Inter #20 kollar açık sevinç, arkada De Vrij #6 (formada yazıyor)",
+    "filigran": "-",
+    "boyut": [
+      969,
+      1215
+    ],
+    "onay": false
+  },
+  {
+    "dosya": "belcika_9_gol.jpg",
+    "aciklama": "Belçika kırmızı #9 gol sevinci, Uluslar Ligi",
+    "filigran": "-",
+    "boyut": [
+      894,
+      1280
+    ],
+    "onay": false
+  },
+  {
+    "dosya": "carrick_manu.jpg",
+    "aciklama": "Michael Carrick, Manchester United, paltolu, maç sonu alkış",
+    "filigran": "-",
+    "boyut": [
+      1125,
+      1125
+    ],
+    "onay": true
+  },
+  {
+    "dosya": "ts_10_ve_arkadasi.jpg",
+    "aciklama": "Trabzonspor #10 ayakta, diz çökmüş takım arkadaşı ayakkabısını boyuyor (gol sevinci)",
+    "filigran": "X:uw544 filigranı (çorapta)",
+    "boyut": [
+      943,
+      1676
+    ],
+    "onay": false
+  },
+  {
+    "dosya": "cska_sarisin.jpg",
+    "aciklama": "CSKA Moskova siyah forma, sarışın oyuncu",
+    "filigran": "-",
+    "boyut": [
+      739,
+      415
+    ],
+    "onay": false
+  },
+  {
+    "dosya": "brentford_kaptan.jpg",
+    "aciklama": "Brentford kırmızı-beyaz çizgili, kaptan bantlı oyuncu",
+    "filigran": "-",
+    "boyut": [
+      741,
+      414
+    ],
+    "onay": false
+  },
+  {
+    "dosya": "fb_antrenman_teknik_ekip.jpg",
+    "aciklama": "Fenerbahçe antrenmanı, beyaz tişörtlü teknik ekip üyesi el sallıyor",
+    "filigran": "-",
+    "boyut": [
+      596,
+      335
+    ],
+    "onay": false
+  },
+  {
+    "dosya": "arsenal_uzun_kollu_sevinc.jpg",
+    "aciklama": "Arsenal uzun kollu forma, koşarak sevinç",
+    "filigran": "-",
+    "boyut": [
+      399,
+      501
+    ],
+    "onay": false
+  },
+  {
+    "dosya": "ingiltere_antrenman_ikili.jpg",
+    "aciklama": "İngiltere antrenmanı, iki oyuncu topla",
+    "filigran": "-",
+    "boyut": [
+      1125,
+      823
+    ],
+    "onay": false
+  },
+  {
+    "dosya": "fildisi_26.jpg",
+    "aciklama": "Fildişi Sahili turuncu #26",
+    "filigran": "-",
+    "boyut": [
+      1024,
+      576
+    ],
+    "onay": false
+  },
+  {
+    "dosya": "arsenal_eller_agizda.jpg",
+    "aciklama": "Arsenal oyuncusu elleri ağzında sevinç",
+    "filigran": "-",
+    "boyut": [
+      495,
+      619
+    ],
+    "onay": false
+  },
+  {
+    "dosya": "arsenal_bagiran_sevinc.jpg",
+    "aciklama": "Arsenal oyuncusu yumruklar sıkılı bağırarak sevinç",
+    "filigran": "-",
+    "boyut": [
+      739,
+      415
+    ],
+    "onay": false
+  },
+  {
+    "dosya": "sergen_yalcin_milli.jpg",
+    "aciklama": "Sergen Yalçın, milli takım montu (Enes onayladı 11:49)",
+    "filigran": "HT SPOR logosu (sağ alt)",
+    "boyut": [
+      399,
+      501
+    ],
+    "onay": true
+  },
+  {
+    "dosya": "marlon_gomes_shakhtar.jpg",
+    "aciklama": "Marlon Gomes, Shakhtar turuncu forma, eller havada (Enes gönderdi, Marlon Gomes talebine yanıt)",
+    "filigran": "-",
+    "boyut": [
+      447,
+      447
+    ],
+    "onay": true
+  },
+  {
+    "dosya": "bruno_fernandes_manu.jpg",
+    "aciklama": "Bruno Fernandes, Manchester United #8, dizlerinde sevinç (Enes gönderdi, talebe yanıt)",
+    "filigran": "-",
+    "boyut": [
+      236,
+      342
+    ],
+    "onay": true
+  },
+  {
+    "dosya": "mert_muldur_fb.jpg",
+    "aciklama": "Mert Müldür, Fenerbahçe #18, Şampiyonlar Ligi maçı (Enes gönderdi, talebe yanıt)",
+    "filigran": "-",
+    "boyut": [
+      1080,
+      1343
+    ],
+    "onay": true
+  },
+  {
+    "dosya": "hakan_calhanoglu_inter_sirt.jpg",
+    "aciklama": "Hakan Çalhanoğlu, Inter #20 sırttan (formada ÇALHANOĞLU yazıyor), Curva Nord önünde kollar açık",
+    "filigran": "-",
+    "boyut": [
+      800,
+      1200
+    ],
+    "onay": true
+  },
+  {
+    "dosya": "oumar_solet_udinese.jpg",
+    "aciklama": "Oumar Solet, Udinese #28, topla (Enes gönderdi)",
+    "filigran": "-",
+    "boyut": [
+      400,
+      600
+    ],
+    "onay": true
+  },
+  {
+    "dosya": "nicolas_jackson_villa.jpg",
+    "aciklama": "Nicolas Jackson, Aston Villa #11, gol sevinci (Enes gönderdi)",
+    "filigran": "X @4kShotam (sol orta, küçük)",
+    "boyut": [
+      1200,
+      2133
+    ],
+    "onay": true
+  },
+  {
+    "dosya": "supercopa_kupa.jpg",
+    "aciklama": "İspanya Süper Kupası kupası, Supercopa de España zemin (Enes gönderdi)",
+    "filigran": "-",
+    "boyut": [
+      1200,
+      1500
+    ],
+    "onay": true
+  },
+  {
+    "dosya": "fabian_ruiz_psg.jpg",
+    "aciklama": "Fabián Ruiz, PSG #8 sırttan (formada FABIAN), yumruk sevinci (Enes gönderdi)",
+    "filigran": "-",
+    "boyut": [
+      1011,
+      1349
+    ],
+    "onay": true
+  },
+  {
+    "dosya": "van_dijk_liverpool.jpg",
+    "aciklama": "Virgil van Dijk, Liverpool kaptan, gol sevinci (Enes gönderdi)",
+    "filigran": "-",
+    "boyut": [
+      1080,
+      1920
+    ],
+    "onay": true
+  },
+  {
+    "dosya": "raphinha_barcelona.jpg",
+    "aciklama": "Raphinha, Barcelona kaptan bandı, profilden yumruk (Enes gönderdi)",
+    "filigran": "-",
+    "boyut": [
+      1080,
+      1920
+    ],
+    "onay": true
+  },
+  {
+    "dosya": "ronaldo_portekiz.jpg",
+    "aciklama": "Cristiano Ronaldo, Portekiz #7 kaptan, 'Siu' sevinci (Enes gönderdi)",
+    "filigran": "-",
+    "boyut": [
+      1026,
+      1401
+    ],
+    "onay": true
+  },
+  {
+    "dosya": "latif_issman_logrones.jpg",
+    "aciklama": "Latif Issman, Logroñés (SD) kırmızı-beyaz çizgili, topla (Enes gönderdi)",
+    "filigran": "-",
+    "boyut": [
+      968,
+      968
+    ],
+    "onay": true
+  },
+  {
+    "dosya": "camp_nou_koreografi.jpg",
+    "aciklama": "Spotify Camp Nou genel görünüm, Força Barça koreografisi, vinçler (Enes gönderdi)",
+    "filigran": "TW RVEENR (sağ, stat çatısı üstü)",
+    "boyut": [
+      1200,
+      2133
+    ],
+    "onay": true
+  },
+  {
+    "dosya": "gs_83_batrakov.jpg",
+    "aciklama": "Aleksey Batrakov, Galatasaray #83, Şampiyonlar Ligi gol sevinci (Enes gönderdi)",
+    "filigran": "-",
+    "boyut": [
+      1200,
+      1997
+    ],
+    "onay": true
+  },
+  {
+    "dosya": "de_zerbi_tottenham.jpg",
+    "aciklama": "Roberto De Zerbi, siyah mont, başparmak (Enes gönderdi)",
+    "filigran": "-",
+    "boyut": [
+      1125,
+      1125
+    ],
+    "onay": true
+  },
+  {
+    "dosya": "nico_paz_como.jpg",
+    "aciklama": "Nico Paz, Como beyaz forma portre (Enes gönderdi)",
+    "filigran": "-",
+    "boyut": [
+      1043,
+      1401
+    ],
+    "onay": true
+  },
+  {
+    "dosya": "gabri_veiga.jpg",
+    "aciklama": "Gabri Veiga, yeşil forma portre (Enes gönderdi)",
+    "filigran": "-",
+    "boyut": [
+      741,
+      414
+    ],
+    "onay": true
+  },
+  {
+    "dosya": "kulusevski_tottenham.jpg",
+    "aciklama": "Dejan Kulusevski, Tottenham mor deplasman forması (Enes gönderdi)",
+    "filigran": "-",
+    "boyut": [
+      2576,
+      1756
+    ],
+    "onay": true
+  },
+  {
+    "dosya": "kenan_yildiz_juventus.jpg",
+    "aciklama": "Kenan Yıldız, Juventus, el işareti sevinci (Enes gönderdi)",
+    "filigran": "-",
+    "boyut": [
+      853,
+      1279
+    ],
+    "onay": true
+  },
+  {
+    "dosya": "necip_uysal_kurs.jpg",
+    "aciklama": "Necip Uysal, UEFA B lisans antrenörlük kursu, sahada eşofmanla anlatırken (Enes gönderdi)",
+    "filigran": "-",
+    "boyut": [
+      556,
+      695
+    ],
+    "onay": true
+  }
 ]

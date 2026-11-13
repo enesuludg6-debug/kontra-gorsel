@@ -147,3 +147,4 @@
 
 ## 13.11 18:00 DEVİR v2 — Mod: Hazırla, Enes atsın
 - 18:50 (manuel): oh_hyeongyu_suudi.jpg — Oh Hyeon-gyu 46' gol, Suudi Arabistan 1-1 Güney Kore (hazırlık, maç sürüyor) | BUGÜN | saha_sut (fotoğrafsız) | açılış: Türkiye bağı (Beşiktaş)
+- 18:55 (manuel): necip_uysal_uefab.jpg — Necip Uysal UEFA B kursu | RESMİ | polaroid (BJK siyah-beyaz) | yeni foto: necip_uysal_kurs.jpg
