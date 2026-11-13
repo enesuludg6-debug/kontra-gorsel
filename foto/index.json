@@ -571,12 +571,12 @@
   },
   {
     "dosya": "umit_milli_antrenman.jpg",
-    "aciklama": "Türkiye kırmızı antrenman üstü, koşu (Enes gönderdi, Ümit Milli-Çekya için); kişi adı bekleniyor",
+    "aciklama": "Türkiye kırmızı antrenman üstü, koşu (Enes gönderdi). İSİM KULLANMA (Enes 20:17), genel Ümit Milli görseli",
     "filigran": "-",
     "boyut": [
       750,
       422
     ],
-    "onay": false
+    "onay": true
   }
 ]
