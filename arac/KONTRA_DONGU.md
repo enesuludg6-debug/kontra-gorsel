@@ -98,3 +98,8 @@
 - OTOMATİK MOD 12.11 19:30'da kapandı. Toplam 26 tweet (otomatik modda 9: #18-#26). Zincir yok.
 - 27 | 21:05 | ENES HABERİ: Gaziantep FK Volkan Demirel ile büyük ölçüde anlaştı, Tekke ihtimali düştü (Ajansspor/Sporx) İDDİA | 'X te son dakika değişikliği' | puan durumu | rota_iptal (Vlahovic düzeni) + Enes fotosu volkan_demirel.jpg | NOT: #15 Tekke tweetini düzeltir
 - 28 | 21:58 | ENES HABERİ: Sergen ilk maçını kaybeden Lucescu sonrası ilk hoca, TR 1-2 BEL (Fanatik/CNN Türk/T24) İSTATİSTİK | istatistik cümlesi | 'Sağlık olsun' | ilk_mac_karti (work/sergen_ilk.py), Enes posteri KIRPILDI (yazı+filigran dışarıda), duoton
+
+## 13.11.2026 (yeni sohbet, otomatik mod 2-15 dk)
+| # | Saat | Haber | Etiket | Düzen | Açılış/Kapanış | Buffer id |
+|---|---|---|---|---|---|---|
+| 1 | 10:52 | Osimhen iki aşamalı dönüş planı (Villa 24.11 → BJK derbisi 90 dk) | İDDİA | iki_asama (yeni) + gs_45_maske | düz haber / "Fanatik'in haberine göre. Resmi açıklama yok." | 6af6c1bfba218f3263880c4f |
