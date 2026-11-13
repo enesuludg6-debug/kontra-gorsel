@@ -131,3 +131,5 @@
 | 12 | 15:06 | BJK-GS Kim Min-jae (BILD/Falk) | İDDİA | yazi_kart ust (fotoğrafsız) | zıtlık açılış / kaynakla gövde | 6af6fd53d414da1f7da2e7b1 |
 | 13 | 15:20 | FB Breno Bidon gözlemci (Fotomaç) | İDDİA | yazi_kart sol (fotoğrafsız) | geçiş/zıtlık açılış / 'Resmi bir adım yok.' | 6af7006fbd1182b0d3f17042 |
 | 14 | 15:32 | TS Wagner Pina Yeşil Burun kampından muaf (federasyon) | RESMİ | yazi_kart orta (fotoğrafsız) | kısa kötü haber açılışı / belirsizlik kapanışı | 6af7035a66ff9797d88162de |
+
+> 13.11 15:35 Enes: döngü 16:15'te bitecek (20:00 iptal).
