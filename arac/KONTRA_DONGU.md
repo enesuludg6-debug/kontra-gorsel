@@ -166,3 +166,4 @@
 - 20:23 AUTO: fransa_turkiye_hakem.jpg — Fransa-Türkiye hakemi Chris Kavanagh (UEFA/AA) | RESMİ | swiss (ilk kez) | foto: fransa_11_7_10_12.jpg
 - 20:33 tur: arşiv fotosuyla eşleşen taze haber yok (Arda/Fransa haberleri eski). Paylaşım yok; 20:55 Ümit-Çekya turu devralıyor.
 - 20:34 Enes kuralı: eşleşme yoksa haberi seç ve Enes'ten foto iste (atlamak yok). TFF saygı duruşu haberi için Kemal Batmaz fotosu istendi.
+- 20:39 AUTO: kemal_batmaz_saygi.jpg — TFF 14-15 Kasım saygı duruşu / Kemal Batmaz | SAYGI DURUŞU | editoryal_pill (gri) | foto: kemal_batmaz_milli.jpg (Enes)
