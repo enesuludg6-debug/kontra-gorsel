@@ -135,3 +135,5 @@
 > 13.11 15:35 Enes: döngü 16:15'te bitecek (20:00 iptal).
 
 > 13.11 15:36 Enes: OTOMATİK DÖNGÜ DURDU. Mod: Enes haber gönderir → Claude metin + görsel hazırlar, gönderir; Enes kendisi atar. Buffer'a GÖNDERME.
+
+> 13.11 15:55 YENİ DÜZEN SETİ: arac/font/pro2.py (Inter/Lora/Poppins + Anton). Fonksiyonlar: gazete (krem gazete manşeti, serif), swiss (beyaz minimal grid + 6 bilgi hücresi), sinema (letterbox + Lora italik altyazı alıntı), ticker (SON DAKİKA şeritleri), transfer_rota (nereden → nereye kulüp kartları), dergi (dergi kapağı, dev Anton + kapak satırları), capraz (çapraz bölünmüş foto/renk), veri_panel (yuvarlak avatar + 4 istatistik kutusu). Katalog: arac/pro2_katalog.jpg. Eski düzenlerle karışık kullan, art arda aynı yok.
