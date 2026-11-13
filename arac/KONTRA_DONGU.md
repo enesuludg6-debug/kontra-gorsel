@@ -130,3 +130,4 @@
 > 13.11 15:05 Enes: OTOMATİK MOD TEKRAR AÇIK. Aralık random.randint(5,10) dk, 20:00'de dur. Arşivde ilgili foto yoksa SORMA, kendin fotoğrafsız görsel yap (yazi_kart vb.). Enes'e hazırlanan 13.11 14:17-15:03 kartları (poch_manu_2029, jackson_ekim, supercopa_istanbul, fabian_betis, van_dijk_talipler, raphinha_sakatlik, ronaldo_7_saygi, issman_real, camp_nou_300m, shomurodov_batrakov, batrakov_real, poch_tek_isim) Enes'in elinde; ATMA (tekrar riski).
 | 12 | 15:06 | BJK-GS Kim Min-jae (BILD/Falk) | İDDİA | yazi_kart ust (fotoğrafsız) | zıtlık açılış / kaynakla gövde | 6af6fd53d414da1f7da2e7b1 |
 | 13 | 15:20 | FB Breno Bidon gözlemci (Fotomaç) | İDDİA | yazi_kart sol (fotoğrafsız) | geçiş/zıtlık açılış / 'Resmi bir adım yok.' | 6af7006fbd1182b0d3f17042 |
+| 14 | 15:32 | TS Wagner Pina Yeşil Burun kampından muaf (federasyon) | RESMİ | yazi_kart orta (fotoğrafsız) | kısa kötü haber açılışı / belirsizlik kapanışı | 6af7035a66ff9797d88162de |
