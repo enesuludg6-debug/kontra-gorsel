@@ -168,3 +168,4 @@
 - 20:34 Enes kuralı: eşleşme yoksa haberi seç ve Enes'ten foto iste (atlamak yok). TFF saygı duruşu haberi için Kemal Batmaz fotosu istendi.
 - 20:39 AUTO: kemal_batmaz_saygi.jpg — TFF 14-15 Kasım saygı duruşu / Kemal Batmaz | SAYGI DURUŞU | editoryal_pill (gri) | foto: kemal_batmaz_milli.jpg (Enes)
 - 20:45 tur: doğrulanabilir taze haber bulunamadı (İlkay/Van Dijk başlıkları doğrulanamadı, Kim Min-jae bugün atılmıştı). 20:55 Ümit-Çekya turuna devredildi.
+- 21:00 AUTO: fb_kocaeli_hazirlik.jpg — FB Kocaelispor (21 Kasım Cmt) hazırlıklarına başladı (Enes gönderdi) | BUGÜN | capraz (ilk kez) | foto: fb_antrenman_kosu_grup.jpg
