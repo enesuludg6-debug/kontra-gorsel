@@ -118,3 +118,5 @@
 | 8 | 13:05 | GS-Bruno Fernandes ayrılığı kafasına koydu (Fotomaç; maaş rakamı tek zayıf kaynak, çıkarıldı) | İDDİA | polaroid (yeni) + bruno_fernandes_manu | isimle düz haber / "Resmi bir adım yok." | 6af6e0c8df68225fc1b13d4d |
 | 9 | 13:23 | Tugay: Hakan vücut dili iyi değil (Yeniçağ) | AÇIKLAMA | alinti_tam (yeni) + hakan_calhanoglu_inter_sirt | hedef cümlesi + birebir alıntı / "Yeniçağın aktardığı sözler." | 6af6e52b69e5ecee127cb8ed |
 > DİKKAT: trig_01RCHRywWrWs2ACWGgg4ybNf gecikti, Tugay elle 13:23te atıldı. O uyanış gelirse Tugayı TEKRAR ATMA, normal yeni haber turu yap.
+
+> 13.11 13:42 Enes: foto isterken KISA yaz, sadece 'X fotosunu at' (gerekirse forma notu). Uzun açıklama yok.
