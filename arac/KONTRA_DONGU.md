@@ -171,3 +171,4 @@
 - 21:00 AUTO: fb_kocaeli_hazirlik.jpg — FB Kocaelispor (21 Kasım Cmt) hazırlıklarına başladı (Enes gönderdi) | BUGÜN | capraz (ilk kez) | foto: fb_antrenman_kosu_grup.jpg
 - 21:12 AUTO: umit_cekya_sonuc.jpg — Türkiye U21 0-1 Çekya (Kačor 48', iSport + Onlajny) | SONUÇ | gazete (ilk kez) | foto: umit_milli_antrenman.jpg (isim yok)
 - 21:22 tur: Hollanda-Yunanistan zirve maçı seçildi, arşivde milli foto yok → Enes'ten istendi.
+- 21:25 AUTO: hollanda_yunanistan_onizleme.jpg — A2 zirve önizleme | BUGÜN | puan_tablosu (turuncu) | foto: hollanda_milli_sevinc.jpg (Enes)
