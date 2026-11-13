@@ -138,3 +138,8 @@
 
 > 13.11 15:55 YENİ DÜZEN SETİ: arac/font/pro2.py (Inter/Lora/Poppins + Anton). Fonksiyonlar: gazete (krem gazete manşeti, serif), swiss (beyaz minimal grid + 6 bilgi hücresi), sinema (letterbox + Lora italik altyazı alıntı), ticker (SON DAKİKA şeritleri), transfer_rota (nereden → nereye kulüp kartları), dergi (dergi kapağı, dev Anton + kapak satırları), capraz (çapraz bölünmüş foto/renk), veri_panel (yuvarlak avatar + 4 istatistik kutusu). Katalog: arac/pro2_katalog.jpg. Eski düzenlerle karışık kullan, art arda aynı yok.
 > pro2.saha_sut eklendi: fotoğrafsız yarım saha + şut yayı + dev mesafe (uzak gol, frikik, şut haberleri).
+
+## 16:28 MOD DEGISTI: OTOMATIK (5-14 dk)
+- Enes: "otomatiğe geri dön 5-14 dk da bir". Buffer ile otomatik paylaşım yeniden aktif.
+- Duran ve Doku-Oguz kartlarını Enes kendisi atmış olabilir, otomatik döngüde TEKRAR ATMA.
+- Gece 01:00-08:00 arası tweet yok.
