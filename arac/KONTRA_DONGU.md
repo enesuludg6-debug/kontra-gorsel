@@ -152,3 +152,4 @@
 - 19:15 (manuel): bursaspor_ikili.jpg — Iheanacho 17G 3A + Lincoln 3G 6A = 29 skor katkısı | İSTATİSTİK | veri_panel (yeşil) | foto: iheanacho_bursaspor.jpg (teyit bekliyor)
 - 19:15 kubo_bjk (İDDİA) Buffer
 - 19:28 (manuel): exxen_uefa.jpg — UEFA kupaları 2027-28'den 4 yıl Exxen'de (Acun açıklaması, bedel iddia) | AÇIKLAMA | transfer_rota (TRT/tabii → EXXEN) | foto: acun_ilicali_exxen.jpg
+- 19:45 sane_ocak (İDDİA, yazi_kart sol) Buffer
