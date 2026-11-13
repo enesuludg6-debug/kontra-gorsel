@@ -153,3 +153,5 @@
 - 19:15 kubo_bjk (İDDİA) Buffer
 - 19:28 (manuel): exxen_uefa.jpg — UEFA kupaları 2027-28'den 4 yıl Exxen'de (Acun açıklaması, bedel iddia) | AÇIKLAMA | transfer_rota (TRT/tabii → EXXEN) | foto: acun_ilicali_exxen.jpg
 - 19:45 sane_ocak (İDDİA, yazi_kart sol) Buffer
+
+> 13.11 19:45 Enes: otomatik atan diğer sohbeti durdurdu. Bu sohbet devam ediyor, mod: Hazırla, Enes atsın (Buffer'a gönderme).
