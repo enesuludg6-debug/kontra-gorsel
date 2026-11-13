@@ -150,3 +150,4 @@
 - 18:55 (manuel): necip_uysal_uefab.jpg — Necip Uysal UEFA B kursu | RESMİ | polaroid (BJK siyah-beyaz) | yeni foto: necip_uysal_kurs.jpg
 - 19:10 (manuel): ts_zenit_hazirlik.jpg — TS Zenit hazırlığı başladı (15.11 Pazar 17.00 Rusya) | RESMİ | program_karti (bordo-mavi) | foto: ts_teknik_ekip_antrenman.jpg (kişi belirsiz)
 - 19:15 (manuel): bursaspor_ikili.jpg — Iheanacho 17G 3A + Lincoln 3G 6A = 29 skor katkısı | İSTATİSTİK | veri_panel (yeşil) | foto: iheanacho_bursaspor.jpg (teyit bekliyor)
+- 19:15 kubo_bjk (İDDİA) Buffer
