@@ -104,4 +104,4 @@
 |---|---|---|---|---|---|---|
 | 1 | 10:52 | Osimhen iki aşamalı dönüş planı (Villa 24.11 → BJK derbisi 90 dk) | İDDİA | iki_asama (yeni) + gs_45_maske | düz haber / "Fanatik'in haberine göre. Resmi açıklama yok." | 6af6c1bfba218f3263880c4f |
 
-> 13.11 10:59 Enes talimatı: aralık random.randint(7,14) dk, 20:00'de otomatik dur (20:00 sonrası yeni uyanış kurma). Günlük üst sınır 50. Foto eşleşmezse tweeti beklet, Enes'ten foto iste.
+> 13.11 10:59 Enes talimatı: aralık random.randint(7,14) dk, 20:00'de otomatik dur (20:00 sonrası yeni uyanış kurma). Günlük 50 sınırı Enes tarafından kaldırıldı (11:00); sınır 20:00 bitişi ve X 100/24s limiti. Foto eşleşmezse tweeti beklet, Enes'ten foto iste.
