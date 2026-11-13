@@ -187,6 +187,8 @@ Yeni haber için en uygun düzeni seç, parametreleri değiştir; uymuyorsa yeni
 
 Ayrıntılı log (açılış/kapanış tipleri, Buffer id'leri): `arac/KONTRA_DONGU.md`.
 
+> DİKKAT: Bu tablo yalnızca bu sohbetin attıklarıdır. 12.11 23:11 ile 13.11 00:43 arasında **başka bir sohbet** de aynı depoya görsel yükledi (İtalya-Fransa gol kartları, Olise istatistiği, Çekya 4 yenilgi, Sergen kolej havası, Tugay eleştiri, ilk yarı/ikinci yarı/maç sonu). Tekrar atmamak için Buffer `list_posts` ile son paylaşımlara bak. Push reddedilirse önce `git pull --rebase`.
+
 ---
 
 ## 9. YENİ SOHBETTE KURULUM
