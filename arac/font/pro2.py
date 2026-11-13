@@ -246,3 +246,44 @@ def veri_panel(photo, isim, alt_isim, kutular, not_satiri, kaynak, out, vurgu=(9
     yaz(c, not_satiri, (60, 1100), F("inter_med", 26), (190, 195, 205))
     _alt(c, kaynak)
     return kaydet(c, out)
+
+
+# 9 ---------- SAHA ÇİZİMİ / ŞUT HARİTASI (fotoğrafsız) ----------
+def saha_sut(mesafe, birim, kicker, baslik, satirlar, kaynak, out, zemin=(10, 22, 40), cizgi=(255, 255, 255), vurgu=SARI, pill_yazi="RESMİ",
+             sut_bas=(0.5, 0.98), sut_son=(0.47, 0.06)):
+    """Yarım saha çizimi + şut yayı + dev mesafe. sut_bas/son: saha kutusunda oransal (x,y)."""
+    c = Image.new("RGBA", (W, H), zemin + (255,))
+    for i in range(0, 14):
+        if i % 2 == 0: rect(c, (60, 130 + i * 50, 1020, 180 + i * 50), (255, 255, 255), alpha=6)
+    S = 2; L = Image.new("RGBA", (W * S, H * S), (0, 0, 0, 0)); d = ImageDraw.Draw(L)
+    x0, y0, x1, y1 = 60 * S, 130 * S, 1020 * S, 830 * S
+    col = cizgi + (150,); w = 3 * S
+    d.rectangle((x0, y0, x1, y1), outline=col, width=w)
+    cx = (x0 + x1) // 2
+    d.arc((cx - 130 * S, y1 - 130 * S, cx + 130 * S, y1 + 130 * S), 180, 360, fill=col, width=w)
+    d.rectangle((cx - 300 * S, y0, cx + 300 * S, y0 + 230 * S), outline=col, width=w)
+    d.rectangle((cx - 130 * S, y0, cx + 130 * S, y0 + 80 * S), outline=col, width=w)
+    d.arc((cx - 130 * S, y0 + 120 * S, cx + 130 * S, y0 + 320 * S), 20, 160, fill=col, width=w)
+    d.rectangle((cx - 55 * S, y0 - 22 * S, cx + 55 * S, y0), outline=cizgi + (230,), width=w)
+    bx = x0 + (x1 - x0) * sut_bas[0]; by = y0 + (y1 - y0) * sut_bas[1]
+    ex = x0 + (x1 - x0) * sut_son[0]; ey = y0 + (y1 - y0) * sut_son[1]
+    pts = []
+    for t in [i / 60 for i in range(61)]:
+        mx = (bx + ex) / 2 + 160 * S; my = (by + ey) / 2
+        px = (1 - t) ** 2 * bx + 2 * (1 - t) * t * mx + t ** 2 * ex; py = (1 - t) ** 2 * by + 2 * (1 - t) * t * my + t ** 2 * ey
+        pts.append((px, py))
+    for i in range(0, len(pts) - 1, 2): d.line([pts[i], pts[i + 1]], fill=vurgu + (255,), width=6 * S)
+    d.ellipse((bx - 16 * S, by - 16 * S, bx + 16 * S, by + 16 * S), fill=(255, 255, 255, 255))
+    d.ellipse((ex - 12 * S, ey - 12 * S, ex + 12 * S, ey + 12 * S), fill=vurgu + (255,))
+    c.alpha_composite(L.resize((W, H), Image.LANCZOS))
+    logo(c, 60, 46, 50); pill(c, pill_yazi, 1020, 50, vurgu, KOYU_YAZI, 30)
+    f = F("inter_black", 150); bb = yaz(c, mesafe, (60, 870), f, (255, 255, 255))
+    yaz(c, birim, (bb[2] + 18, 940), F("inter_black", 56), vurgu)
+    yaz(c, kicker, (62, 1040), F("inter_bold", 22), vurgu, track=4)
+    y = 1074
+    for line in baslik:
+        ff = sigdir(line, "inter_black", 56, 960); yaz(c, line, (60, y), ff, (255, 255, 255)); y += int(ff.size * 1.05)
+    for t in satirlar:
+        yaz(c, t, (60, y + 8), F("inter_med", 26), (200, 205, 215)); y += 40
+    _alt(c, kaynak, y=1310)
+    return kaydet(c, out)
