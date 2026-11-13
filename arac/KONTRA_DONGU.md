@@ -114,5 +114,5 @@
 
 > 13.11 11:52 Enes: gönderdiği HER fotoğraf arşive (kontra-foto/foto + kontra-gorsel/foto + index.json) kaydedilir. Devirde güncel zip verilir.
 | 6 | 12:21 | TS'de 13 farklı futbolcu skora katkı, Salah 11+5, Muçi 7 asist, 6 galibiyet 25 puan | İSTATİSTİK | dev_rakam + ts_grup_sevinc | rakam başlık / "(DHA)" | 6af6d69f562501e68e94f398 |
-| BEKLEYEN | 12:22 | GS Mert Müldür ilgisi, sezon sonu teklif (Takvim, A Spor) | İDDİA | foto: Mert Müldür | - |
-| BEKLEYEN | 12:22 | GS Bruno Fernandes, yazın serbest kalmak istiyor (Fotomaç) | İDDİA | foto: Bruno Fernandes | - |
+| 7 | 12:51 | GS radarında Mert Müldür (Takvim) | İDDİA | editoryal_pill + mert_muldur_fb | "radarında" açılış / "İddia aşamasında, taraflardan açıklama yok." | 6af6dd87b185663f9f992bdd |
+| HAZIR | 12:53 | GS-Bruno Fernandes ayrılığı kafasına koydu (Fotomaç) | İDDİA | polaroid (yeni), g/bruno_gs.jpg | - |
