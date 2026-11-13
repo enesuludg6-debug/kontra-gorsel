@@ -108,3 +108,5 @@
 
 > 13.11 11:01 Enes: aralık random.randint(10,15) dk (7-14 iptal). Bitiş 20:00.
 | 2 | 11:08 | Mbappé Türkiye maçı belirsiz (arka adale), Thuram/Tchouameni/Kalulu kamptan ayrıldı | AÇIKLAMA | durum_listesi (yeni) + fransa_sirt | durum cümlesi / kaynak cümle içinde (TF1) | 6af6c5915ec1c9d5be6c10f0 |
+| BEKLEYEN | 11:30 | Sergen: Belçika'ya 2 günlük antrenmanla çıktık, savunmaya zaman lazım (boldmedya) | AÇIKLAMA | foto: Sergen (montlu HT Spor = Sergen mi? Enes onayı) | - |
+| BEKLEYEN | 11:30 | FB Marlon Gomes 20M, Emre-Arda Turan görüşmesi 25.11 (Fotomaç manşet) | İDDİA | foto: Marlon Gomes | - |
