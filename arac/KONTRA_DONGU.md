@@ -144,3 +144,6 @@
 - Duran ve Doku-Oguz kartlarını Enes kendisi atmış olabilir, otomatik döngüde TEKRAR ATMA.
 - Gece 01:00-08:00 arası tweet yok.
 - 17:58 (manuel, Buffer 502): umit_cekya.jpg hazırlandı, Enes e gönderildi
+
+## 13.11 18:00 DEVİR v2 — Mod: Hazırla, Enes atsın
+- 18:50 (manuel): oh_hyeongyu_suudi.jpg — Oh Hyeon-gyu 46' gol, Suudi Arabistan 1-1 Güney Kore (hazırlık, maç sürüyor) | BUGÜN | saha_sut (fotoğrafsız) | açılış: Türkiye bağı (Beşiktaş)
