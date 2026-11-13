@@ -176,3 +176,7 @@
 - 21:50 tur: FB yeni doktor Halil Polat haberi seçildi, foto istendi.
 - 22:02 tur: Enes'ten bekleyen fotolar (Halil Polat, Almanya) gelmedi; yeni foto isteği yığmamak için tur aralığı açıldı. Sonraki: 22:35 kontrol, 00:40 maç sonuçları.
 - 22:36 tur: bekleyen fotolar gelmedi, arşivle eşleşen taze haber yok. Paylaşım yok. Sıradaki: 00:40 gece maç sonuçları.
+
+## 22:36 Enes: 'Gün sonuna kadar otomatik, bana sormadan at; görsel yoksa benden isteme, kendin oluştur (fotosuz şablon); son 5 tweet dağıt ve günü bitir.'
+- Plan: 22:40 Halil Polat, 23:10, 23:40, 00:35 NED-GRE sonucu, 00:52 SRB-GER sonucu. Sonra GÜN BİTTİ, sabah turu KURMA.
+- 22:40 AUTO 1/5: fb_halil_polat.jpg | RESMİ | yazi_kart orta (fotosuz)
