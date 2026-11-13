@@ -109,7 +109,7 @@
 > 13.11 11:01 Enes: aralık random.randint(10,15) dk (7-14 iptal). Bitiş 20:00.
 | 2 | 11:08 | Mbappé Türkiye maçı belirsiz (arka adale), Thuram/Tchouameni/Kalulu kamptan ayrıldı | AÇIKLAMA | durum_listesi (yeni) + fransa_sirt | durum cümlesi / kaynak cümle içinde (TF1) | 6af6c5915ec1c9d5be6c10f0 |
 | HAZIR | 11:52 | Sergen: Belçika maçına 2 günlük antrenmanla çıktık (foto onaylandı) | AÇIKLAMA | portre_sag (yeni), g/sergen_iki_gun.jpg push edildi | Marlon sonrası ilk tur |
-| BEKLEYEN | 11:30 | FB Marlon Gomes 20M, Emre-Arda Turan görüşmesi 25.11 (Fotomaç manşet) | İDDİA | foto: Marlon Gomes | - |
+| 4 | 11:54 | FB Marlon Gomes 20M, Emre-Arda Turan görüşmesi 25.11 | İDDİA | cerceveli_kare (yeni) + marlon_gomes_shakhtar | kaynakla açılış / "Kulüpten resmi açıklama yok." | 6af6d03df66277c9ba434c46 |
 | 3 | 11:40 | A1 Grubu puan durumu: 5 maç 0 puan, son sıra kesin | İSTATİSTİK | puan_tablosu (yeni) + milli_8_uzgun (filigran blur) | rakam başlık / kaynaksız, hedef cümlesiyle kapanış | 6af6ccebac315c828ef68933 |
 
 > 13.11 11:52 Enes: gönderdiği HER fotoğraf arşive (kontra-foto/foto + kontra-gorsel/foto + index.json) kaydedilir. Devirde güncel zip verilir.
