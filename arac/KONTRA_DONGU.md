@@ -181,3 +181,4 @@
 - Plan: 22:40 Halil Polat, 23:10, 23:40, 00:35 NED-GRE sonucu, 00:52 SRB-GER sonucu. Sonra GÜN BİTTİ, sabah turu KURMA.
 - 22:40 AUTO 1/5: fb_halil_polat.jpg | RESMİ | yazi_kart orta (fotosuz)
 - NOT: 00:40 turu (trig_01PVh7cb...) eski metninde 'tek kart + sabah turu kur' yazıyor. GEÇERSİZ: 00:40'ta sadece Hollanda-Yunanistan (4/5), 00:52'de Sırbistan-Almanya (5/5). Sabah turu KURULMAYACAK.
+- 23:12 AUTO 2/5: osimhen_juventus.jpg — Juventus danışmanı Penta: Osimhen ocak hedefi; Napoli'nin İtalya maddesi 1 Eylül 2027 | İDDİA | dergi (ilk kez) | foto: gs_45_maske.jpg
