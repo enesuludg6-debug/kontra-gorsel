@@ -287,3 +287,27 @@ def saha_sut(mesafe, birim, kicker, baslik, satirlar, kaynak, out, zemin=(10, 22
         yaz(c, t, (60, y + 8), F("inter_med", 26), (200, 205, 215)); y += 40
     _alt(c, kaynak, y=1310)
     return kaydet(c, out)
+
+
+# 10 ---------- RAKAM İKİLİSİ (fotoğrafsız) ----------
+def rakam_ikilisi(isim, takim, r1, e1, r2, e2, notlar, kaynak, out, zemin=(150, 10, 25), vurgu=(255, 255, 255), pill_yazi="İSTATİSTİK", hayalet=None):
+    c = Image.new("RGBA", (W, H), zemin + (255,))
+    vgrad(c, 0, H, (0, 0, 0), 0, 120)
+    if hayalet:
+        yaz(c, hayalet, (W // 2, 120), F("anton", 520), (255, 255, 255), anchor="ma", alpha=14)
+    logo(c, 60, 46, 50); pill(c, pill_yazi, 1020, 50, (255, 255, 255), KOYU_YAZI, 30)
+    yaz(c, takim, (60, 200), F("inter_bold", 24), (255, 220, 220), track=6)
+    f = sigdir(isim, "inter_black", 110, 960); yaz(c, isim, (56, 236), f, (255, 255, 255))
+    y = 470
+    for i, (r, e) in enumerate(((r1, e1), (r2, e2))):
+        x = 60 + i * 490
+        yaz(c, r, (x - 6, y), F("inter_black", 300), (255, 255, 255))
+        yaz(c, e, (x, y + 330), F("inter_black", 44), (255, 255, 255), track=6)
+    rect(c, (540, y + 40, 542, y + 380), (255, 255, 255), alpha=90)
+    yy = 960
+    for t in notlar:
+        rect(c, (60, yy + 14, 74, yy + 28), (255, 255, 255))
+        yaz(c, t, (96, yy), F("inter_med", 30), (255, 235, 235)); yy += 56
+    _alt(c, kaynak, renk=(255, 210, 210), cizgi_a=90)
+    grain(c, 6)
+    return kaydet(c, out)
