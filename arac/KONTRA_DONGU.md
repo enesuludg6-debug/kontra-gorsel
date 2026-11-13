@@ -162,3 +162,4 @@
 - 20:04 Enes kuralı: alakalı foto yoksa fotosuz ATMA, Enes'ten foto iste; Enes'in attığı her fotoyu arşive kaydet. Bekleyenler: arac/bekleyen.md
 - NOT: Eski send_later (trig_01BsCus..., 20:11) silinemedi (izin reddi). 20:11 firingi yeni kuralla çalıştırılır; 20:12 firingi (trig_01YAaP7...) MÜKERRER: son 5 dk içinde tweet atıldıysa atma ve yeni send_later KURMA (tek döngü kalsın).
 - 20:10 AUTO: ake_soleus.jpg — FB resmi: Ake rehab sırasında soleus yaralanması | RESMİ | ticker (lacivert, SAKATLIK) | foto: nathan_ake_fb.jpg (Enes)
+- 20:20 tur: fotolu taze haber bulunamadı (Kenan dönüş 12:59'da, Bruno/Batrakov/Osimhen bugün atıldı). Ümit-Çekya sonucu beklemeye alındı, Enes'ten Ümit Milli fotosu istendi. Sonraki tur 20:55.
