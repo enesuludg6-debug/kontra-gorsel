@@ -115,5 +115,5 @@
 > 13.11 11:52 Enes: gönderdiği HER fotoğraf arşive (kontra-foto/foto + kontra-gorsel/foto + index.json) kaydedilir. Devirde güncel zip verilir.
 | 6 | 12:21 | TS'de 13 farklı futbolcu skora katkı, Salah 11+5, Muçi 7 asist, 6 galibiyet 25 puan | İSTATİSTİK | dev_rakam + ts_grup_sevinc | rakam başlık / "(DHA)" | 6af6d69f562501e68e94f398 |
 | 7 | 12:51 | GS radarında Mert Müldür (Takvim) | İDDİA | editoryal_pill + mert_muldur_fb | "radarında" açılış / "İddia aşamasında, taraflardan açıklama yok." | 6af6dd87b185663f9f992bdd |
-| HAZIR | 12:53 | GS-Bruno Fernandes ayrılığı kafasına koydu (Fotomaç) | İDDİA | polaroid (yeni), g/bruno_gs.jpg | - |
+| 8 | 13:05 | GS-Bruno Fernandes ayrılığı kafasına koydu (Fotomaç; maaş rakamı tek zayıf kaynak, çıkarıldı) | İDDİA | polaroid (yeni) + bruno_fernandes_manu | isimle düz haber / "Resmi bir adım yok." | 6af6e0c8df68225fc1b13d4d |
 | HAZIR | 13:00 | Tugay: Hakan'ın vücut dili iyi değil (Yeniçağ, tek kaynak) | AÇIKLAMA | alinti_tam (yeni) + hakan_calhanoglu_inter_sirt, g/tugay_hakan.jpg | Bruno sonrası |
