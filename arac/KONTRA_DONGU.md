@@ -159,3 +159,5 @@
 ## 20:02 MOD DEGISTI: OTOMATIK (5-14 dk) — Enes: "sen otomatik at, arşivde alakalı foto varsa kullan yoksa foto iste"
 - Foto zip'i geldi: 53 foto, repodakiyle aynı (yeni foto yok).
 - 20:02 AUTO: exxen_uefa.jpg Buffer shareNow (6af742ab4d5a2b44be9e69ef)
+- 20:04 Enes kuralı: alakalı foto yoksa fotosuz ATMA, Enes'ten foto iste; Enes'in attığı her fotoyu arşive kaydet. Bekleyenler: arac/bekleyen.md
+- NOT: Eski send_later (trig_01BsCus..., 20:11) silinemedi (izin reddi). 20:11 firingi yeni kuralla çalıştırılır; 20:12 firingi (trig_01YAaP7...) MÜKERRER: son 5 dk içinde tweet atıldıysa atma ve yeni send_later KURMA (tek döngü kalsın).

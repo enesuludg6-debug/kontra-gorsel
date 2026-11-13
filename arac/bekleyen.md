@@ -1,0 +1,2 @@
+# Bekleyen haberler (foto bekleniyor)
+
