@@ -110,3 +110,4 @@
 | 2 | 11:08 | Mbappé Türkiye maçı belirsiz (arka adale), Thuram/Tchouameni/Kalulu kamptan ayrıldı | AÇIKLAMA | durum_listesi (yeni) + fransa_sirt | durum cümlesi / kaynak cümle içinde (TF1) | 6af6c5915ec1c9d5be6c10f0 |
 | BEKLEYEN | 11:30 | Sergen: Belçika'ya 2 günlük antrenmanla çıktık, savunmaya zaman lazım (boldmedya) | AÇIKLAMA | foto: Sergen (montlu HT Spor = Sergen mi? Enes onayı) | - |
 | BEKLEYEN | 11:30 | FB Marlon Gomes 20M, Emre-Arda Turan görüşmesi 25.11 (Fotomaç manşet) | İDDİA | foto: Marlon Gomes | - |
+| 3 | 11:40 | A1 Grubu puan durumu: 5 maç 0 puan, son sıra kesin | İSTATİSTİK | puan_tablosu (yeni) + milli_8_uzgun (filigran blur) | rakam başlık / kaynaksız, hedef cümlesiyle kapanış | 6af6ccebac315c828ef68933 |
