@@ -121,3 +121,4 @@
 
 > 13.11 13:42 Enes: foto isterken KISA yaz, sadece 'X fotosunu at' (gerekirse forma notu). Uzun açıklama yok.
 | 10 | 13:51 | BJK hedefi Oumar Solet (Nefes) | İDDİA | yarim_cizgili (yeni) + oumar_solet_udinese | "listede yeni isim" / "Kulüpten resmi açıklama yok." | 6af6ebc19a21933ffacbf55d |
+| 11 | 14:05 | Arda frikiği Avrupa basınında (AS Beckham, Foot Mercato) + 65. dk 'Kimse yok' tepkisi | MİLLİ | manset_seridi (yeni) + milli_8_sut_euro2024 | olay cümlesi / kamera anı ile kapanış | 6af6eee766ff9797d87940ff |
