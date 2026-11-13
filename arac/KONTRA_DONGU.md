@@ -143,3 +143,4 @@
 - Enes: "otomatiğe geri dön 5-14 dk da bir". Buffer ile otomatik paylaşım yeniden aktif.
 - Duran ve Doku-Oguz kartlarını Enes kendisi atmış olabilir, otomatik döngüde TEKRAR ATMA.
 - Gece 01:00-08:00 arası tweet yok.
+- 17:58 (manuel, Buffer 502): umit_cekya.jpg hazırlandı, Enes e gönderildi
