@@ -155,3 +155,7 @@
 - 19:45 sane_ocak (İDDİA, yazi_kart sol) Buffer
 
 > 13.11 19:45 Enes: otomatik atan diğer sohbeti durdurdu. Bu sohbet devam ediyor, mod: Hazırla, Enes atsın (Buffer'a gönderme).
+
+## 20:02 MOD DEGISTI: OTOMATIK (5-14 dk) — Enes: "sen otomatik at, arşivde alakalı foto varsa kullan yoksa foto iste"
+- Foto zip'i geldi: 53 foto, repodakiyle aynı (yeni foto yok).
+- 20:02 AUTO: exxen_uefa.jpg Buffer shareNow (6af742ab4d5a2b44be9e69ef)
