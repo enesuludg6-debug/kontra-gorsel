@@ -107,3 +107,4 @@
 > 13.11 10:59 Enes talimatı: aralık random.randint(7,14) dk, 20:00'de otomatik dur (20:00 sonrası yeni uyanış kurma). Günlük 50 sınırı Enes tarafından kaldırıldı (11:00); sınır 20:00 bitişi ve X 100/24s limiti. Foto eşleşmezse tweeti beklet, Enes'ten foto iste.
 
 > 13.11 11:01 Enes: aralık random.randint(10,15) dk (7-14 iptal). Bitiş 20:00.
+| 2 | 11:08 | Mbappé Türkiye maçı belirsiz (arka adale), Thuram/Tchouameni/Kalulu kamptan ayrıldı | AÇIKLAMA | durum_listesi (yeni) + fransa_sirt | durum cümlesi / kaynak cümle içinde (TF1) | 6af6c5915ec1c9d5be6c10f0 |
