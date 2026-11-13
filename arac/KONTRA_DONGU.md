@@ -113,3 +113,6 @@
 | 3 | 11:40 | A1 Grubu puan durumu: 5 maç 0 puan, son sıra kesin | İSTATİSTİK | puan_tablosu (yeni) + milli_8_uzgun (filigran blur) | rakam başlık / kaynaksız, hedef cümlesiyle kapanış | 6af6ccebac315c828ef68933 |
 
 > 13.11 11:52 Enes: gönderdiği HER fotoğraf arşive (kontra-foto/foto + kontra-gorsel/foto + index.json) kaydedilir. Devirde güncel zip verilir.
+| 6 | 12:21 | TS'de 13 farklı futbolcu skora katkı, Salah 11+5, Muçi 7 asist, 6 galibiyet 25 puan | İSTATİSTİK | dev_rakam + ts_grup_sevinc | rakam başlık / "(DHA)" | 6af6d69f562501e68e94f398 |
+| BEKLEYEN | 12:22 | GS Mert Müldür ilgisi, sezon sonu teklif (Takvim, A Spor) | İDDİA | foto: Mert Müldür | - |
+| BEKLEYEN | 12:22 | GS Bruno Fernandes, yazın serbest kalmak istiyor (Fotomaç) | İDDİA | foto: Bruno Fernandes | - |
