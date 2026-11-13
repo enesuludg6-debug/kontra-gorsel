@@ -120,3 +120,4 @@
 > DİKKAT: trig_01RCHRywWrWs2ACWGgg4ybNf gecikti, Tugay elle 13:23te atıldı. O uyanış gelirse Tugayı TEKRAR ATMA, normal yeni haber turu yap.
 
 > 13.11 13:42 Enes: foto isterken KISA yaz, sadece 'X fotosunu at' (gerekirse forma notu). Uzun açıklama yok.
+| HAZIR | 13:46 | BJK hedefi Oumar Solet (Nefes) | İDDİA | yarim_cizgili (yeni), g/solet_bjk.jpg | 13:51 turu |
