@@ -40,14 +40,14 @@
   "onay": false
  },
  {
-  "dosya": "hoca_takim_elbiseli_bilinmeyen.jpg",
-  "aciklama": "Takım elbiseli teknik direktör, kenar çizgisi",
+  "dosya": "pochettino.jpg",
+  "aciklama": "Mauricio Pochettino, takım elbise, kenar çizgisi (Enes onayladı)",
   "filigran": "SEVEN logosu (sağ alt)",
   "boyut": [
    1000,
    1500
   ],
-  "onay": false
+  "onay": true
  },
  {
   "dosya": "tottenham_sarisin_bilinmeyen.jpg",
