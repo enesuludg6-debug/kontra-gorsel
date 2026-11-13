@@ -172,3 +172,4 @@
 - 21:12 AUTO: umit_cekya_sonuc.jpg — Türkiye U21 0-1 Çekya (Kačor 48', iSport + Onlajny) | SONUÇ | gazete (ilk kez) | foto: umit_milli_antrenman.jpg (isim yok)
 - 21:22 tur: Hollanda-Yunanistan zirve maçı seçildi, arşivde milli foto yok → Enes'ten istendi.
 - 21:25 AUTO: hollanda_yunanistan_onizleme.jpg — A2 zirve önizleme | BUGÜN | puan_tablosu (turuncu) | foto: hollanda_milli_sevinc.jpg (Enes)
+- 21:35 tur: yeni taze haber yok; gece maç sonuçları planlandı (NED-GRE + SRB-GER ~00:40). Almanya fotosu istendi.
