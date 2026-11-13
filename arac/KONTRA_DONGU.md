@@ -164,3 +164,4 @@
 - 20:10 AUTO: ake_soleus.jpg — FB resmi: Ake rehab sırasında soleus yaralanması | RESMİ | ticker (lacivert, SAKATLIK) | foto: nathan_ake_fb.jpg (Enes)
 - 20:20 tur: fotolu taze haber bulunamadı (Kenan dönüş 12:59'da, Bruno/Batrakov/Osimhen bugün atıldı). Ümit-Çekya sonucu beklemeye alındı, Enes'ten Ümit Milli fotosu istendi. Sonraki tur 20:55.
 - 20:23 AUTO: fransa_turkiye_hakem.jpg — Fransa-Türkiye hakemi Chris Kavanagh (UEFA/AA) | RESMİ | swiss (ilk kez) | foto: fransa_11_7_10_12.jpg
+- 20:33 tur: arşiv fotosuyla eşleşen taze haber yok (Arda/Fransa haberleri eski). Paylaşım yok; 20:55 Ümit-Çekya turu devralıyor.
