@@ -223,3 +223,4 @@
 - 16:05 AUTO: van_dijk_anfield.jpg - Van Dijk Hollanda kadrosundan cekildi (9 Kasim, Liverpool FC), 'kucuk agri', donus tarihi yok; 22 Kasim Liverpool-Man Utd; Hollanda onsuz 7-0 | DURUM | durum_listesi | foto: van_dijk_liverpool.jpg
 - 16:14 AUTO: norvec_galler_onizleme.jpg - A4: Portekiz 12, Danimarka 6, Galler 3, Norvec 3 (Galler ikili averajla onde); 20:00 Oslo | ONIZLEME | puan_tablosu | yeni foto: norvec_milli_dk2026_sevinc.jpg (Enes, isim yok)
 - 16:37 AUTO: kulusevski_isvec.jpg - Kulusevski 17 ay patella sakatligi sonrasi iki yil aradan sonra Isvec kadrosunda (ESPN 4 Kasim); Ekim'de Coventry macinda kadroya dondu; bu aksam 22.45 Isvec-Bosna | ONIZLEME | dergi | foto: kulusevski_tottenham.jpg
+- 17:07 tur: Zidane-Bordeaux hikayesi secildi, foto istendi. Paylasim yok.
