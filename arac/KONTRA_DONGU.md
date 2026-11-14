@@ -208,3 +208,4 @@
 - 13:46 tur: son tweet 13:31; Gabriel Sara/PL ilgisi secildi, arsivde foto yok, Enes'ten istendi. Paylasim yok. Sonraki tur ~14:00 Japonya-Brezilya ilk yari.
 - 14:03 AUTO: ispanya_ingiltere_final.jpg - A3 yarin Madrid: Ispanya 15 (5/5, 43 mac yenilmezlik), Ingiltere 12; ikisi de ceyrek finalde, grup birinciligi; Tuchel 'kazanan her seyi alir'; Lamine Yamal donuyor | ONIZLEME | sinema | foto: ingiltere_antrenman_ikili.jpg (isim yok). Japonya-Brezilya canli skor tek kaynak (VAVEL 2-1 40'), atilmadi.
 - 14:18 AUTO: hakan_fb_10m.jpg - Sabah: FB, Calhanoglu icin ~10M EUR bonservis plani; Inter sozlesmesi Haziran 2027, yeni teklife sicak bakmiyor, Juventus takipte | IDDIA (tek kok kaynak: Sabah) | transfer_rota | foto: hakan_calhanoglu_inter_sirt.jpg
+- 14:20: Enes Gabriel Sara fotosu gonderdi, arsive eklendi; kart hazir (sara_premier_lig.jpg), son tweet 14:15 oldugu icin 14:29 turunda atilacak.
