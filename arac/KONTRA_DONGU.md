@@ -193,3 +193,5 @@
 
 ## 14.11 11:54 MOD DEĞİŞTİ: Enes "sen atma ben atıcam". Buffer'a GÖNDERME; kart + metin hazırla, Enes atsın. (fb_ocak_4_bolge 11:53'te mod değişmeden atılmıştı.)
 - 12:05 HAZIR (Enes atacak): doue_dis_turkiye.jpg — Doué, İtalya 3-1 Fransa maçında Frattesi dirseğiyle dişi yerinden oynadı (69'), Türkiye maçı belirsiz | sinema (Zidane alıntısı) | yeni foto: doue_dis_italya.jpg (Enes)
+
+## 14.11 12:02 MOD: OTOMATİK (gün sonuna kadar). Enes: "bugün 50 tweet, foto arşivden; yoksa benden iste; 5-15 dk arayla". Bugün atılan: 11:39 günaydın, 11:53 FB ocak (bot), 11:59 Doué (Enes elle). Sayaç 3/50. Döngü: send_later zinciri (her tur 1 tweet + sonraki turu kur). 01:00 sonrası paylaşım yok.
