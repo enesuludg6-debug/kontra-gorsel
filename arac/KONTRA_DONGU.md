@@ -200,3 +200,4 @@
 - 12:35 AUTO: portekiz_ronaldosuz_ilk.jpg — Portekiz-Danimarka bu akşam 22.45 Braga, Ronaldo 5 Kasım emekliliği sonrası ilk maç (234 maç 146 gol); Portekiz 4/4 12 puan | ÖNİZLEME | dergi (146 sağ üstte, yüz açık) | foto: ronaldo_portekiz.jpg
 - 12:48 AUTO: a1_son_hafta_tablo.jpg — A1 son hafta: İtalya 10 (11-6), Fransa 10 (8-5), Belçika 9 (8-6), Türkiye 0; yarın Belçika-İtalya, Fransa-Türkiye | İSTATİSTİK | puan_tablosu | foto: italya_retegui_raspadori.jpg
 - 12:58 tur: arsivle eslesen temiz haber yok (Nico Paz/PSG tek kaynak, Kenan dun islendi). Dorgu haberi secildi, Enes'ten foto istendi. Paylasim yok. Sonraki tur 13:05.
+- 13:00 AUTO: dorgu_kamptan_dondu.jpg - Dorgu Danimarka kampindan saglik testlerini gecemeyip dondu, Pochettino ilk mac 22 Kasim Anfield | SAKATLIK | ticker | yeni foto: patrick_dorgu_manu.jpg (Enes)

@@ -10,5 +10,5 @@
 - [ ] Sergen Yalçın Fransa maçı öncesi basın toplantısı (bugün, Bordeaux) — foto: sergen_yalcin_milli.jpg
 - [ ] Norveç-Galler 20:00 ve Portekiz-Danimarka 22:45 (Uluslar A) önizleme/sonuç — foto: ronaldo_portekiz.jpg (yalnızca Ronaldo kadroda/sahada ise)
 - [ ] Milli takım Bordeaux son antrenman (20:00) — foto: arşivde milli kareler (isim kullanma)
-- [ ] Patrick Dorgu (Man Utd) Danimarka kampından sağlık testlerini geçemeyip kulübüne döndü; Pochettino'nun 22 Kasım Anfield maçı öncesi endişe; Luke Shaw da şüpheli (Sports Mole 13.11 23:58 + Yahoo: Dorgu kadro dışı). Foto: Patrick Dorgu → Enes'ten istendi 13:00.
-- [ ] Patrick Dorgu (Man Utd) Danimarka kampindan saglik testlerini gecemeyip kulubune dondu; 22 Kasim Anfield oncesi endise, Luke Shaw da supheli (Sports Mole 13.11). Foto: Patrick Dorgu, Enes'ten istendi 13:00.
+- [x] Patrick Dorgu (Man Utd) Danimarka kampından sağlık testlerini geçemeyip kulübüne döndü; Pochettino'nun 22 Kasım Anfield maçı öncesi endişe; Luke Shaw da şüpheli (Sports Mole 13.11 23:58 + Yahoo: Dorgu kadro dışı). Foto: Patrick Dorgu → Enes'ten istendi 13:00.
+- [x] Patrick Dorgu (Man Utd) Danimarka kampindan saglik testlerini gecemeyip kulubune dondu; 22 Kasim Anfield oncesi endise, Luke Shaw da supheli (Sports Mole 13.11). Foto: Patrick Dorgu, Enes'ten istendi 13:00.
