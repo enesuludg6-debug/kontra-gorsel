@@ -219,3 +219,4 @@
 - 15:19 AUTO: japonya_brezilya_3_2.jpg - JPN 3-2 BRA (Kubo 15, Nakamura 19, Sakamoto 90+1; Vini 33, 75), Japonya'nin Brezilya'ya 2. galibiyeti (ilki Ekim 2025 3-2) | MAC SONU | ticker | foto: raphinha_barcelona.jpg (kaptan)
 - 15:24 AUTO (Enes gonderdi): erden_timur_2028.jpg - Nevzat Dindar: Erden Timur'un GS baskani olma arzusu var, 2028'i secti | IDDIA (tek kaynak, Enes) | editoryal_pill | yeni foto: erden_timur.jpg (Enes). Not: Timur bahis sorusturmasinda tutuklanip adli kontrolle tahliye edilmisti (Hurriyet); tweete eklenmedi.
 - 15:31 tur: son tweet 15:20 (Enes istegi). Enes aktif haber gonderiyor; arsivle eslesen yeni, tekrar olmayan haber yok (TS-Zenit dun hazirlanmisti, Kenan/Hakan tekrar). Paylasim yok.
+- 15:48 tur: dogrulanabilir + arsivle eslesen yeni haber bulunamadi (GS 12 farkli golcu istatistigi dogrulanamadi; GS istifa haberi 2 hafta once). Norvec-Galler icin Haaland fotosu istendi. Paylasim yok.
