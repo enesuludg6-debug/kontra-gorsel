@@ -221,3 +221,4 @@
 - 15:31 tur: son tweet 15:20 (Enes istegi). Enes aktif haber gonderiyor; arsivle eslesen yeni, tekrar olmayan haber yok (TS-Zenit dun hazirlanmisti, Kenan/Hakan tekrar). Paylasim yok.
 - 15:48 tur: dogrulanabilir + arsivle eslesen yeni haber bulunamadi (GS 12 farkli golcu istatistigi dogrulanamadi; GS istifa haberi 2 hafta once). Norvec-Galler icin Haaland fotosu istendi. Paylasim yok.
 - 16:05 AUTO: van_dijk_anfield.jpg - Van Dijk Hollanda kadrosundan cekildi (9 Kasim, Liverpool FC), 'kucuk agri', donus tarihi yok; 22 Kasim Liverpool-Man Utd; Hollanda onsuz 7-0 | DURUM | durum_listesi | foto: van_dijk_liverpool.jpg
+- 16:14 AUTO: norvec_galler_onizleme.jpg - A4: Portekiz 12, Danimarka 6, Galler 3, Norvec 3 (Galler ikili averajla onde); 20:00 Oslo | ONIZLEME | puan_tablosu | yeni foto: norvec_milli_dk2026_sevinc.jpg (Enes, isim yok)
