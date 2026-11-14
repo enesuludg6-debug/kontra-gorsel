@@ -203,3 +203,4 @@
 - 13:00 AUTO: dorgu_kamptan_dondu.jpg - Dorgu Danimarka kampindan saglik testlerini gecemeyip dondu, Pochettino ilk mac 22 Kasim Anfield | SAKATLIK | ticker | yeni foto: patrick_dorgu_manu.jpg (Enes)
 - 13:08 AUTO: raphinha_kaptan_japonya.jpg - Japonya-Brezilya 13.15 Singapur, Raphinha kaptan (Marquinhos sakat), ilk 11'de; Barca-CBF dakika yonetimi | BUGUN | capraz | foto: raphinha_barcelona.jpg. Plan: mac sonu (~15:10) sonuc tweeti.
 - 13:20 tur: son tweet 13:06; TS-Doumbia haberi secildi, arsivde foto yok, Enes'ten istendi. Paylasim yok.
+- 13:24 AUTO: doumbia_trabzonspor.jpg - TS hedefi Doumbia, Hacken SD Friberg 'masaya oturmadik' | IDDIA | transfer_rota | yeni foto: abdoulaye_doumbia_hacken.jpg (Enes)
