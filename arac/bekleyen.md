@@ -12,3 +12,4 @@
 - [ ] Milli takım Bordeaux son antrenman (20:00) — foto: arşivde milli kareler (isim kullanma)
 - [x] Patrick Dorgu (Man Utd) Danimarka kampından sağlık testlerini geçemeyip kulübüne döndü; Pochettino'nun 22 Kasım Anfield maçı öncesi endişe; Luke Shaw da şüpheli (Sports Mole 13.11 23:58 + Yahoo: Dorgu kadro dışı). Foto: Patrick Dorgu → Enes'ten istendi 13:00.
 - [x] Patrick Dorgu (Man Utd) Danimarka kampindan saglik testlerini gecemeyip kulubune dondu; 22 Kasim Anfield oncesi endise, Luke Shaw da supheli (Sports Mole 13.11). Foto: Patrick Dorgu, Enes'ten istendi 13:00.
+- [ ] TS hedefi Abdoulaye Doumbia (Hacken, 18 yas, 29 mac 2G 3A, piyasa 5M EUR). Hacken sportif direktoru Erik Friberg: 'Bizim icin onemli bir oyuncu. Su an onun icin hicbir kulupla masaya oturmadik.' (Fotomac 14.11 13:00). IDDIA. Foto: Abdoulaye Doumbia, Enes'ten istendi 13:20.

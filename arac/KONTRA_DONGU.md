@@ -202,3 +202,4 @@
 - 12:58 tur: arsivle eslesen temiz haber yok (Nico Paz/PSG tek kaynak, Kenan dun islendi). Dorgu haberi secildi, Enes'ten foto istendi. Paylasim yok. Sonraki tur 13:05.
 - 13:00 AUTO: dorgu_kamptan_dondu.jpg - Dorgu Danimarka kampindan saglik testlerini gecemeyip dondu, Pochettino ilk mac 22 Kasim Anfield | SAKATLIK | ticker | yeni foto: patrick_dorgu_manu.jpg (Enes)
 - 13:08 AUTO: raphinha_kaptan_japonya.jpg - Japonya-Brezilya 13.15 Singapur, Raphinha kaptan (Marquinhos sakat), ilk 11'de; Barca-CBF dakika yonetimi | BUGUN | capraz | foto: raphinha_barcelona.jpg. Plan: mac sonu (~15:10) sonuc tweeti.
+- 13:20 tur: son tweet 13:06; TS-Doumbia haberi secildi, arsivde foto yok, Enes'ten istendi. Paylasim yok.
