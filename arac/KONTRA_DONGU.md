@@ -230,3 +230,4 @@
 - 18:42 AUTO: fransa_son_durum.jpg - Upamecano kisisel nedenle kamptan ayrildi (RMC), Doue karari cumartesi (FFF), Dembele yok, Mbappe antrenmanda (Ouest-France/Foot Mercato) | DURUM | durum_listesi | foto: fransa_10_sevinc.jpg. Zidane mac oncesi basin toplantisi henuz yok.
 - 18:57 tur: Zidane mac oncesi basin toplantisi ve Doue karari henuz yok; arsivle eslesen yeni haber yok (Kosova-Israil icin foto yok). Paylasim yok.
 - 19:12 tur: Zidane basin toplantisi / Doue karari hala yok; yeni eslesen haber yok. Paylasim yok.
+- 19:20 Enes: 'eslesmemesine gerek yok, benden foto isteyebilirsin' -> arsivde foto yoksa haberi sec, Enes'ten foto iste. Kim Min-jae (BJK/GS, Bild) icin foto istendi.
