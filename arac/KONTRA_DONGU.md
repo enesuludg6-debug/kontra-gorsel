@@ -206,3 +206,4 @@
 - 13:24 AUTO: doumbia_trabzonspor.jpg - TS hedefi Doumbia, Hacken SD Friberg 'masaya oturmadik' | IDDIA | transfer_rota | yeni foto: abdoulaye_doumbia_hacken.jpg (Enes)
 - 13:36 AUTO: mbappe_idmanda.jpg - Mbappe Bordeaux'da tum antrenmani yapti (Foot Mercato), Ouest-France: Turkiye'ye karsi ilk 11 + santrfor, 70-75 dk | GUNCELLEME (dunku belirsizlik kartinin devami) | gazete | foto: fransa_sirt_mbappe_dembele.jpg
 - 13:46 tur: son tweet 13:31; Gabriel Sara/PL ilgisi secildi, arsivde foto yok, Enes'ten istendi. Paylasim yok. Sonraki tur ~14:00 Japonya-Brezilya ilk yari.
+- 14:03 AUTO: ispanya_ingiltere_final.jpg - A3 yarin Madrid: Ispanya 15 (5/5, 43 mac yenilmezlik), Ingiltere 12; ikisi de ceyrek finalde, grup birinciligi; Tuchel 'kazanan her seyi alir'; Lamine Yamal donuyor | ONIZLEME | sinema | foto: ingiltere_antrenman_ikili.jpg (isim yok). Japonya-Brezilya canli skor tek kaynak (VAVEL 2-1 40'), atilmadi.
