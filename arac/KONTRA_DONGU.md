@@ -198,3 +198,4 @@
 - 12:03 Enes: "50 sınırı yok". Sayaç sınırı KALDIRILDI; gün sonuna (01:00) kadar 5-15 dk arayla devam. Turlardaki "50'ye ulaştıysa bitir" maddesi GEÇERSİZ; yeni send_later metinlerinde bu madde olmayacak.
 - 12:22 AUTO: milli_5_mac_0_puan.jpg — Türkiye Uluslar A 5 maç 0 puan, 3-13 gol; Fransa yarın 22.45; Abdülkerim dönüyor, Ozan cezalı | İSTATİSTİK | veri_panel | foto: milli_8_uzgun_ispanya.jpg (isim yok)
 - 12:35 AUTO: portekiz_ronaldosuz_ilk.jpg — Portekiz-Danimarka bu akşam 22.45 Braga, Ronaldo 5 Kasım emekliliği sonrası ilk maç (234 maç 146 gol); Portekiz 4/4 12 puan | ÖNİZLEME | dergi (146 sağ üstte, yüz açık) | foto: ronaldo_portekiz.jpg
+- 12:48 AUTO: a1_son_hafta_tablo.jpg — A1 son hafta: İtalya 10 (11-6), Fransa 10 (8-5), Belçika 9 (8-6), Türkiye 0; yarın Belçika-İtalya, Fransa-Türkiye | İSTATİSTİK | puan_tablosu | foto: italya_retegui_raspadori.jpg
