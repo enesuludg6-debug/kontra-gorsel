@@ -242,3 +242,4 @@
 - 20:40 tur: son tweet 20:34 (Berke). Zidane 20:45'te konusacak, NOR-GAL devre ~20:47. Paylasim yok, 20:52 turunda devre skoru/Zidane.
 - 20:54 tur: Zidane + Lucas Da Cunha basin toplantisi suruyor (Ouest-France canli, sayfa okunamadi). NOR-GAL devre skoru guvenilir kaynakta yok. Paylasim yok; 21:07 turunda Zidane sozleri.
 - 21:08 AUTO: zidane_mbappe_yarin.jpg - Zidane basin toplantisi: 'Ca change tout... il sera avec nous demain', herkes normalde hazir/son antrenman, 1 puan yetse de hedef galibiyet (Footeo, Made in Real/Ouest-France) | ACIKLAMA | alinti_tam | foto: zidane_sl_kupa.jpg
+- 21:24 tur: son tweet 21:08. Zidane toplantisindan Mbappe disinda yeni dogrulanmis soz yok (Sporx: 'Turkiye bize zorluk yaratacak, dikkatli olmaliyiz' tek kaynak). Paylasim yok; NOR-GAL sonucu ~21:50.
