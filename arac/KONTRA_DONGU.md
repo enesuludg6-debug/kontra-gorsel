@@ -237,3 +237,4 @@
 - 19:42 tur: son tweet 19:34 (Sane). Sergen basin toplantisi suruyor, aciklamalar henuz yayinda yok. Zidane basin toplantisi 20:45 TSI (Fotomac). Paylasim yok.
 - 19:56 tur: Sergen basin toplantisi NTV canli: 'Ben bu grupta sadece Belcika macini oynadim. Onu lutfen bir kenara yazin. Diger maclari ben oynamadim.' Tek kaynak, AA/DHA bekleniyor -> 20:08 turunda tam aciklamalarla kart. Paylasim yok.
 - 20:09 AUTO: sergen_fransa_oncesi.jpg - Sergen: 'Ben bu grupta sadece Belcika macini oynadim. Diger maclari ben oynamadim.' sabir, 6 gunde 2 mac, fit takimla skorlar donecek; yaninda Berke Ozer (NTV Spor, Aksam) | ACIKLAMA | sinema | foto: sergen_yalcin_milli.jpg
+- 20:27 tur: son tweet 20:09. NOR-GAL canli skor belirsiz (kaynaklar 0-0, eski). Berke Ozer aciklamalari secildi, arsivde foto yok, Enes'ten istendi.
