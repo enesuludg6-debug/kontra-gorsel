@@ -229,3 +229,4 @@
 - 18:26 AUTO: turkiye_fransa_tarihce.jpg - TR-FRA 7 mac: 1G (8 Haz 2019 Konya 2-0), 1B (14 Eki 2019 Paris 1-1), 5M; gol 5-14 | TARIHCE | veri_panel | foto: milli_gol_sevinci_8_10_18_21.jpg (isim yok)
 - 18:42 AUTO: fransa_son_durum.jpg - Upamecano kisisel nedenle kamptan ayrildi (RMC), Doue karari cumartesi (FFF), Dembele yok, Mbappe antrenmanda (Ouest-France/Foot Mercato) | DURUM | durum_listesi | foto: fransa_10_sevinc.jpg. Zidane mac oncesi basin toplantisi henuz yok.
 - 18:57 tur: Zidane mac oncesi basin toplantisi ve Doue karari henuz yok; arsivle eslesen yeni haber yok (Kosova-Israil icin foto yok). Paylasim yok.
+- 19:12 tur: Zidane basin toplantisi / Doue karari hala yok; yeni eslesen haber yok. Paylasim yok.
