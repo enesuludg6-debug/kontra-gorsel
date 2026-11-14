@@ -248,3 +248,4 @@
 - 22:11 tur: son tweet 21:54. POR-DAN ilk 11 (Ronaldo sonrasi ilk mac, onizleme 12:35'te atildi -> tekrar yok). Gurcistan 0-2 Macaristan secildi, foto yok, Enes'ten istendi.
 - 22:25 tur: son tweet 21:54. Szoboszlai fotosu gelmedi. Doue karari hala aciklanmadi (L'Equipe: yemek yiyemiyor, ilk 11 zor ama kadroda). Yeni haber yok, paylasim yok.
 - 22:41 tur: maclar 22:45'te basliyor; yeni dogrulanmis haber yok, Szoboszlai fotosu gelmedi. Paylasim yok.
+- 22:45 AUTO (Enes foto): szoboszlai_gurcistan.jpg - GEO 0-2 HUN: 73' Dvali kk (Szoboszlai korner, Sallai kafa), 85' Varga (Szoboszlai orta); dizde bandaj; ust uste 3. galibiyet, grup lideri (Nemzeti Sport, nb1.hu, feol, kisalfold) | MAC SONU | capraz | yeni foto: szoboszlai_liverpool.jpg
