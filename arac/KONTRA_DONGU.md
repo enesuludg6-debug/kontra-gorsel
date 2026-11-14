@@ -247,3 +247,4 @@
 - 21:54 AUTO: norvec_galler_3_1.jpg - NOR 3-1 GAL (Nusa 59, Schjelderup 68, Brooks 79, Haaland 88 pen; beIN 87' + VAVEL 90+5'), NOR 6, GAL 3; 3 maclik yenilgi serisi bitti | MAC SONU | veri_panel | foto: norvec_milli_dk2026_sevinc.jpg (isim yok)
 - 22:11 tur: son tweet 21:54. POR-DAN ilk 11 (Ronaldo sonrasi ilk mac, onizleme 12:35'te atildi -> tekrar yok). Gurcistan 0-2 Macaristan secildi, foto yok, Enes'ten istendi.
 - 22:25 tur: son tweet 21:54. Szoboszlai fotosu gelmedi. Doue karari hala aciklanmadi (L'Equipe: yemek yiyemiyor, ilk 11 zor ama kadroda). Yeni haber yok, paylasim yok.
+- 22:41 tur: maclar 22:45'te basliyor; yeni dogrulanmis haber yok, Szoboszlai fotosu gelmedi. Paylasim yok.
