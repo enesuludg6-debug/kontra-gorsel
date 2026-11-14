@@ -226,3 +226,4 @@
 - 17:07 tur: Zidane-Bordeaux hikayesi secildi, foto istendi. Paylasim yok.
 - 17:10 AUTO: zidane_bordeaux.jpg - Zidane ilk milli maci Bordeaux'da Cekya'ya karsi 0-2 iken 22 yasinda girdi; Bordeaux'da 179 mac 39 gol (Goal); yarin Fransa-Turkiye Bordeaux | HIKAYE | gazete | yeni foto: zidane_sl_kupa.jpg (Enes)
 - 17:53 AUTO (Enes 15:22 haberi): hakan_inter_tuttosport.jpg - Tuttosport: Inter-Hakan yenileme 'in alto mare', ~6,5M maas, 2 yil istiyor; Inter 11 kas sakatligi/200+ gun ve yasi dusunuyor; Juventus ve Como takipte. Enes'in 640/144/140 kariyer rakamlari dogrulanamadi, kullanilmadi | IDDIA | swiss | foto: hakan_calhanoglu_inter_sirt.jpg
+- 18:26 AUTO: turkiye_fransa_tarihce.jpg - TR-FRA 7 mac: 1G (8 Haz 2019 Konya 2-0), 1B (14 Eki 2019 Paris 1-1), 5M; gol 5-14 | TARIHCE | veri_panel | foto: milli_gol_sevinci_8_10_18_21.jpg (isim yok)
