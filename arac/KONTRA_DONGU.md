@@ -232,3 +232,4 @@
 - 19:12 tur: Zidane basin toplantisi / Doue karari hala yok; yeni eslesen haber yok. Paylasim yok.
 - 19:20 Enes: 'eslesmemesine gerek yok, benden foto isteyebilirsin' -> arsivde foto yoksa haberi sec, Enes'ten foto iste. Kim Min-jae (BJK/GS, Bild) icin foto istendi.
 - 19:21 AUTO (Enes foto): kim_bjk_gs.jpg - Bild (Nefes): BJK devre arasi Kim'i takipte, GS izliyor; bu sezon 5 lig maci, sozlesme 2028, 15 Kasim 1996 dogumlu | IDDIA | swiss | yeni foto: kim_minjae_bayern.jpg
+- 19:28 tur: son tweet 19:21. Sane/Zahavi yalanlama secildi, arsivde Sane fotosu yok, Enes'ten istendi.
