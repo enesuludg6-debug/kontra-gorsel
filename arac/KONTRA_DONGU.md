@@ -252,3 +252,4 @@
 - 22:58 tur: son tweet 22:45 (Szoboszlai). Maclar 12. dk, paylasim yok.
 - 23:14 tur: POR-DAN 0-0 (26', Al Jazeera/VAVEL). Paylasim yok.
 - 23:30 tur: POR-DAN 0-0 (41', Al Jazeera). Paylasim yok.
+## 23:43 Enes: 'durdur' -> otomatik dongu DURDURULDU. 23:45 turu (trig_01NeGfZaPfg7UP45BYv7eSZu) silindi, yeni tur kurulmadi. Son tweet 22:45 (Szoboszlai).
