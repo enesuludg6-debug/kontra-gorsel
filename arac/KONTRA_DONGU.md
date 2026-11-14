@@ -233,3 +233,4 @@
 - 19:20 Enes: 'eslesmemesine gerek yok, benden foto isteyebilirsin' -> arsivde foto yoksa haberi sec, Enes'ten foto iste. Kim Min-jae (BJK/GS, Bild) icin foto istendi.
 - 19:21 AUTO (Enes foto): kim_bjk_gs.jpg - Bild (Nefes): BJK devre arasi Kim'i takipte, GS izliyor; bu sezon 5 lig maci, sozlesme 2028, 15 Kasim 1996 dogumlu | IDDIA | swiss | yeni foto: kim_minjae_bayern.jpg
 - 19:28 tur: son tweet 19:21. Sane/Zahavi yalanlama secildi, arsivde Sane fotosu yok, Enes'ten istendi.
+- 19:34 AUTO (Enes foto): sane_zahavi.jpg - Zahavi: ara transferde ayrilik haberleri dogru degil (Fotomac, Eagle Media); Alman basini ocak izni iddiasi; 15 mac 0 G+A; Buruk Samsunspor ilk 11 dusunuyor (Yenicag/Turkiye) | YALANLAMA | sinema | yeni foto: leroy_sane_gs.jpg
