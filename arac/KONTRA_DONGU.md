@@ -205,3 +205,4 @@
 - 13:20 tur: son tweet 13:06; TS-Doumbia haberi secildi, arsivde foto yok, Enes'ten istendi. Paylasim yok.
 - 13:24 AUTO: doumbia_trabzonspor.jpg - TS hedefi Doumbia, Hacken SD Friberg 'masaya oturmadik' | IDDIA | transfer_rota | yeni foto: abdoulaye_doumbia_hacken.jpg (Enes)
 - 13:36 AUTO: mbappe_idmanda.jpg - Mbappe Bordeaux'da tum antrenmani yapti (Foot Mercato), Ouest-France: Turkiye'ye karsi ilk 11 + santrfor, 70-75 dk | GUNCELLEME (dunku belirsizlik kartinin devami) | gazete | foto: fransa_sirt_mbappe_dembele.jpg
+- 13:46 tur: son tweet 13:31; Gabriel Sara/PL ilgisi secildi, arsivde foto yok, Enes'ten istendi. Paylasim yok. Sonraki tur ~14:00 Japonya-Brezilya ilk yari.
