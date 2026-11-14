@@ -224,3 +224,4 @@
 - 16:14 AUTO: norvec_galler_onizleme.jpg - A4: Portekiz 12, Danimarka 6, Galler 3, Norvec 3 (Galler ikili averajla onde); 20:00 Oslo | ONIZLEME | puan_tablosu | yeni foto: norvec_milli_dk2026_sevinc.jpg (Enes, isim yok)
 - 16:37 AUTO: kulusevski_isvec.jpg - Kulusevski 17 ay patella sakatligi sonrasi iki yil aradan sonra Isvec kadrosunda (ESPN 4 Kasim); Ekim'de Coventry macinda kadroya dondu; bu aksam 22.45 Isvec-Bosna | ONIZLEME | dergi | foto: kulusevski_tottenham.jpg
 - 17:07 tur: Zidane-Bordeaux hikayesi secildi, foto istendi. Paylasim yok.
+- 17:10 AUTO: zidane_bordeaux.jpg - Zidane ilk milli maci Bordeaux'da Cekya'ya karsi 0-2 iken 22 yasinda girdi; Bordeaux'da 179 mac 39 gol (Goal); yarin Fransa-Turkiye Bordeaux | HIKAYE | gazete | yeni foto: zidane_sl_kupa.jpg (Enes)
