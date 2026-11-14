@@ -192,3 +192,4 @@
 - 11:58 AUTO: fb_ocak_4_bolge.jpg — FB ocak planı: stoper, sağ bek, orta saha, hücum; hızlı stoper; orta saha Brezilya (Andre, Sabah+Takvim) | İDDİA | swiss | foto: fb_antrenman_kosu_grup.jpg (Enes haberi: Milliyet)
 
 ## 14.11 11:54 MOD DEĞİŞTİ: Enes "sen atma ben atıcam". Buffer'a GÖNDERME; kart + metin hazırla, Enes atsın. (fb_ocak_4_bolge 11:53'te mod değişmeden atılmıştı.)
+- 12:05 HAZIR (Enes atacak): doue_dis_turkiye.jpg — Doué, İtalya 3-1 Fransa maçında Frattesi dirseğiyle dişi yerinden oynadı (69'), Türkiye maçı belirsiz | sinema (Zidane alıntısı) | yeni foto: doue_dis_italya.jpg (Enes)
