@@ -210,3 +210,4 @@
 - 14:18 AUTO: hakan_fb_10m.jpg - Sabah: FB, Calhanoglu icin ~10M EUR bonservis plani; Inter sozlesmesi Haziran 2027, yeni teklife sicak bakmiyor, Juventus takipte | IDDIA (tek kok kaynak: Sabah) | transfer_rota | foto: hakan_calhanoglu_inter_sirt.jpg
 - 14:20: Enes Gabriel Sara fotosu gonderdi, arsive eklendi; kart hazir (sara_premier_lig.jpg), son tweet 14:15 oldugu icin 14:29 turunda atilacak.
 - 14:29 AUTO: sara_premier_lig.jpg - Gabriel Sara: Villa, Newcastle, Everton, Brighton; GS ~40M (TEAMtalk) | IDDIA | swiss | foto: gabriel_sara_gs.jpg (Enes)
+- 14:36 AUTO (Enes gonderdi): orkun_baskidan_kacmam.jpg - Orkun Kokcu TRT Spor: 'Liderlik yapmayi seven, baskidan kacmayan, vizyonlu bir oyuncu oldugumu dusunuyorum' (birebir metin web'de bulunamadi, Enes kaynagi TRT Spor) | ACIKLAMA | alinti_tam | yeni foto: orkun_kokcu_bjk.jpg (Enes)
