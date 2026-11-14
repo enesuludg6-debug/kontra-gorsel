@@ -189,3 +189,4 @@
 ## GÜN BİTTİ (13.11, 00:55). Sabah turu KURULMADI. Açık bekleyen: yok.
 
 ## 14.11 11:47 Yeni oturum devraldı (devir notu v3, TAM OTOMATİK). Push yetkisi add_repo ile çözüldü. Son paylaşım 11:39 günaydın; çakışan oturum yok. Bekleyen: yok.
+- 11:58 AUTO: fb_ocak_4_bolge.jpg — FB ocak planı: stoper, sağ bek, orta saha, hücum; hızlı stoper; orta saha Brezilya (Andre, Sabah+Takvim) | İDDİA | swiss | foto: fb_antrenman_kosu_grup.jpg (Enes haberi: Milliyet)
