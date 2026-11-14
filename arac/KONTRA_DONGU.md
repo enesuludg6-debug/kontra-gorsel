@@ -225,3 +225,4 @@
 - 16:37 AUTO: kulusevski_isvec.jpg - Kulusevski 17 ay patella sakatligi sonrasi iki yil aradan sonra Isvec kadrosunda (ESPN 4 Kasim); Ekim'de Coventry macinda kadroya dondu; bu aksam 22.45 Isvec-Bosna | ONIZLEME | dergi | foto: kulusevski_tottenham.jpg
 - 17:07 tur: Zidane-Bordeaux hikayesi secildi, foto istendi. Paylasim yok.
 - 17:10 AUTO: zidane_bordeaux.jpg - Zidane ilk milli maci Bordeaux'da Cekya'ya karsi 0-2 iken 22 yasinda girdi; Bordeaux'da 179 mac 39 gol (Goal); yarin Fransa-Turkiye Bordeaux | HIKAYE | gazete | yeni foto: zidane_sl_kupa.jpg (Enes)
+- 17:53 AUTO (Enes 15:22 haberi): hakan_inter_tuttosport.jpg - Tuttosport: Inter-Hakan yenileme 'in alto mare', ~6,5M maas, 2 yil istiyor; Inter 11 kas sakatligi/200+ gun ve yasi dusunuyor; Juventus ve Como takipte. Enes'in 640/144/140 kariyer rakamlari dogrulanamadi, kullanilmadi | IDDIA | swiss | foto: hakan_calhanoglu_inter_sirt.jpg
