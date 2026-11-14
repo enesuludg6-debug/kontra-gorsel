@@ -216,3 +216,4 @@
 - 14:47 AUTO (Enes gonderdi, Ingilizce yorum metni): tuchel_palmer.jpg - Palmer fit olmasina ragmen Kasim kadrosunda yok (6 Kasim, Evening Standard/Yahoo); Tuchel doneminde 3 mac, son Mart Japonya; DK kadrosunda da yoktu. Metindeki Alonso/Chelsea sahipleri spekulasyonu KULLANILMADI | KADRO | polaroid | yeni foto: thomas_tuchel_kenar.jpg (Enes, kucuk)
 - 14:46 tur: 14:29-14:38 arasi 4 tweet (Enes istekleri) atildi; tempo icin bu tur paylasim yok. Sonraki tur 15:12 Japonya-Brezilya mac sonu.
 - 15:01 tur: JPN-BRA devre 2-1 (Kubo 14', Nakamura 18', Vini 32'; NC News, Brasil em Folhas, Metropoles). VAVEL 78' 2-2 (tek kaynak). Mac bitmedi; sonuc 15:12 turunda atilacak.
+- 15:19 AUTO: japonya_brezilya_3_2.jpg - JPN 3-2 BRA (Kubo 15, Nakamura 19, Sakamoto 90+1; Vini 33, 75), Japonya'nin Brezilya'ya 2. galibiyeti (ilki Ekim 2025 3-2) | MAC SONU | ticker | foto: raphinha_barcelona.jpg (kaptan)
