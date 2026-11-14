@@ -250,3 +250,4 @@
 - 22:41 tur: maclar 22:45'te basliyor; yeni dogrulanmis haber yok, Szoboszlai fotosu gelmedi. Paylasim yok.
 - 22:45 AUTO (Enes foto): szoboszlai_gurcistan.jpg - GEO 0-2 HUN: 73' Dvali kk (Szoboszlai korner, Sallai kafa), 85' Varga (Szoboszlai orta); dizde bandaj; ust uste 3. galibiyet, grup lideri (Nemzeti Sport, nb1.hu, feol, kisalfold) | MAC SONU | capraz | yeni foto: szoboszlai_liverpool.jpg
 - 22:58 tur: son tweet 22:45 (Szoboszlai). Maclar 12. dk, paylasim yok.
+- 23:14 tur: POR-DAN 0-0 (26', Al Jazeera/VAVEL). Paylasim yok.
