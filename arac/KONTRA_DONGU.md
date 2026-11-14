@@ -215,3 +215,4 @@
 - 14:43 AUTO (Enes gonderdi): nico_paz_united.jpg - The Sun: Man Utd, Bruno'nun yerine Nico Paz'i izliyor (2027 yazi); 14 mac 6G 8A (Enes, football-talk 6G 8A); Madrid 80M geri alim; 21 Ekim Como 4-1 United, Paz 2G 1A | IDDIA | capraz | yeni foto: nico_paz_como_sevinc.jpg (Enes)
 - 14:47 AUTO (Enes gonderdi, Ingilizce yorum metni): tuchel_palmer.jpg - Palmer fit olmasina ragmen Kasim kadrosunda yok (6 Kasim, Evening Standard/Yahoo); Tuchel doneminde 3 mac, son Mart Japonya; DK kadrosunda da yoktu. Metindeki Alonso/Chelsea sahipleri spekulasyonu KULLANILMADI | KADRO | polaroid | yeni foto: thomas_tuchel_kenar.jpg (Enes, kucuk)
 - 14:46 tur: 14:29-14:38 arasi 4 tweet (Enes istekleri) atildi; tempo icin bu tur paylasim yok. Sonraki tur 15:12 Japonya-Brezilya mac sonu.
+- 15:01 tur: JPN-BRA devre 2-1 (Kubo 14', Nakamura 18', Vini 32'; NC News, Brasil em Folhas, Metropoles). VAVEL 78' 2-2 (tek kaynak). Mac bitmedi; sonuc 15:12 turunda atilacak.
