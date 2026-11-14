@@ -244,3 +244,4 @@
 - 21:08 AUTO: zidane_mbappe_yarin.jpg - Zidane basin toplantisi: 'Ca change tout... il sera avec nous demain', herkes normalde hazir/son antrenman, 1 puan yetse de hedef galibiyet (Footeo, Made in Real/Ouest-France) | ACIKLAMA | alinti_tam | foto: zidane_sl_kupa.jpg
 - 21:24 tur: son tweet 21:08. Zidane toplantisindan Mbappe disinda yeni dogrulanmis soz yok (Sporx: 'Turkiye bize zorluk yaratacak, dikkatli olmaliyiz' tek kaynak). Paylasim yok; NOR-GAL sonucu ~21:50.
 - 21:40 tur: NOR-GAL henuz bitmedi (~80'). Paylasim yok; 21:53 turunda mac sonucu.
+- 21:54 AUTO: norvec_galler_3_1.jpg - NOR 3-1 GAL (Nusa 59, Schjelderup 68, Brooks 79, Haaland 88 pen; beIN 87' + VAVEL 90+5'), NOR 6, GAL 3; 3 maclik yenilgi serisi bitti | MAC SONU | veri_panel | foto: norvec_milli_dk2026_sevinc.jpg (isim yok)
