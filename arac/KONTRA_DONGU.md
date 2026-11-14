@@ -196,3 +196,4 @@
 
 ## 14.11 12:02 MOD: OTOMATİK (gün sonuna kadar). Enes: "bugün 50 tweet, foto arşivden; yoksa benden iste; 5-15 dk arayla". Bugün atılan: 11:39 günaydın, 11:53 FB ocak (bot), 11:59 Doué (Enes elle). Sayaç 3/50. Döngü: send_later zinciri (her tur 1 tweet + sonraki turu kur). 01:00 sonrası paylaşım yok.
 - 12:03 Enes: "50 sınırı yok". Sayaç sınırı KALDIRILDI; gün sonuna (01:00) kadar 5-15 dk arayla devam. Turlardaki "50'ye ulaştıysa bitir" maddesi GEÇERSİZ; yeni send_later metinlerinde bu madde olmayacak.
+- 12:22 AUTO: milli_5_mac_0_puan.jpg — Türkiye Uluslar A 5 maç 0 puan, 3-13 gol; Fransa yarın 22.45; Abdülkerim dönüyor, Ozan cezalı | İSTATİSTİK | veri_panel | foto: milli_8_uzgun_ispanya.jpg (isim yok)
