@@ -68,3 +68,4 @@ Durdurmak için en alta `DURDUR` yazılı bir satır ekle (Enes ya da Claude, En
 - 20:42 Enes (canli): 10 dk'da 1 otomatik, tarz Enes'in attiklari/begendikleri, Enes'ten sadece foto istenir (DEVIR guncellendi).
 - 20:43 Enes: aralik 6-14 dk rastgele (tam 10 olmasin). Zincir guncellendi.
 - 20:50 Enes: logolar daha belirgin -> kart.py logo boyutlari ~1,4x (DEVIR 5b).
+- 21:00 Enes: daha dikkat cekici/profesyonel gorsel istedi -> kart2.py 8 yeni duzen (A spotlight, B split, C terminal, D son dakika, E once/sonra, F kapak(foto), G cam, H poster); ornekler g/ornek/. Enes secimi bekleniyor.
