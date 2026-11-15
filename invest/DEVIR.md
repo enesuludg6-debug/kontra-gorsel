@@ -94,8 +94,13 @@ Shay'in en çok izlenen tweetleri (14-15.11): "$SPCX just did the impossible." (
 - Grafik sadece doğrulanmış veriyle (şirket açıklaması / SEC). Tahmini, okunmuş-gibi veri yok.
 - Haber/olay fotoğrafı (Reuters, AP, Getty, şirket basın fotoğrafı, kişi fotoğrafı) internetten İNDİRME ve kullanma: telif hakkı. Enes kendi fotoğrafını gönderirse kullanılabilir.
 
+## 5e. Renk teması ve fotoğraf (Enes 15.11: "hep aynı renk olmasın, Warsh'ı koyabilirdin")
+- Her kartta önce `kart.tema(ad)` çağır. Temalar: gece, lacivert, zumrut, bordo, kagit, grafit, mor. Aynı tema arka arkaya gelmesin; son 4 kartın temasını DONGU.md'de `tema:<ad>` olarak yaz ve tekrar etme.
+- Konuya göre öneri: Fed/makro → lacivert; yükseliş/rekor → zumrut; düşüş/kötü bilanço → bordo; takvim/özet → kagit; uzay/teknoloji → mor veya grafit.
+- Kişi odaklı haberde (Warsh, Powell, Jensen, Musk, CEO) foto_kart() kullanılabilir AMA sadece Enes'in gönderdiği fotoğrafla. İnternetten kişi/haber fotoğrafı indirme. Fotoğraf yoksa Enes'e tek satır sor: "<Kişi>'nin fotosunu at" ve bekleme, diğer tweetlere devam et; foto gelince kartı yap. Enes'in fotoları invest/foto/ klasörüne kaydedilir.
+
 ## 6. Kart ve paylaşım akışı
-1. Kart: `sys.path.insert(0, "/home/claude/kontra-gorsel/invest"); from kart import haber, rakamlar, liste, dev_rakam, grafik, karsilastir, alinti` → çıktı `invest/g/<yyyymmdd_hhmm_konu>.jpg`. Read ile bak (taşma, okunurluk).
+1. Kart: `sys.path.insert(0, "/home/claude/kontra-gorsel/invest"); from kart import haber, rakamlar, liste, dev_rakam, grafik, karsilastir, alinti, foto_kart, tema` → çıktı `invest/g/<yyyymmdd_hhmm_konu>.jpg`. Read ile bak (taşma, okunurluk).
 2. `git add invest/ && git commit` (sonuna sistemin verdiği attribution satırları) → `git -c push.negotiate=true push origin HEAD:main` (çakışmada `git fetch --depth=50 origin main && git rebase origin/main`).
 3. URL: `https://raw.githubusercontent.com/enesuludg6-debug/kontra-gorsel/main/invest/g/<dosya>.jpg` → curl ile 200 dönüyor mu kontrol et.
 4. Buffer `create_post`: channelId `6af99a1aece6dfde5fd109c7`, schedulingType `automatic`, **saveToDraft: true** (mode verme / shareNow ASLA), text, assets [{image:{url, metadata:{altText}}}]. Taslak = Enes yayınlar.

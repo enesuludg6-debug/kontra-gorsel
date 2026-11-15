@@ -335,3 +335,50 @@ def alinti(ticker, soz, kim, baglam, kaynak, out, etiket="AÇIKLAMA"):
     d.text((80, y + 30), kim, font=mono(30, 600), fill=INK)
     _footer(d, kaynak)
     return _save(img, out)
+
+
+# ---------------- temalar ----------------
+TEMALAR = {
+    "gece":    dict(BG=(12, 12, 14),   INK=(238, 236, 230), MUTED=(128, 128, 136), LINE=(44, 44, 50),    ACC=(212, 175, 105)),
+    "lacivert":dict(BG=(10, 22, 44),   INK=(236, 240, 248), MUTED=(140, 156, 186), LINE=(34, 52, 86),    ACC=(110, 180, 255)),
+    "zumrut":  dict(BG=(8, 34, 28),    INK=(232, 244, 236), MUTED=(130, 170, 150), LINE=(28, 66, 54),    ACC=(120, 230, 170)),
+    "bordo":   dict(BG=(44, 10, 18),   INK=(248, 236, 236), MUTED=(190, 140, 150), LINE=(80, 30, 42),    ACC=(255, 150, 120)),
+    "kagit":   dict(BG=(242, 238, 230),INK=(22, 22, 24),    MUTED=(110, 106, 100), LINE=(206, 200, 190), ACC=(190, 60, 40)),
+    "grafit":  dict(BG=(30, 30, 34),   INK=(244, 244, 246), MUTED=(150, 150, 160), LINE=(60, 60, 68),    ACC=(255, 210, 60)),
+    "mor":     dict(BG=(26, 14, 44),   INK=(242, 236, 252), MUTED=(160, 140, 200), LINE=(58, 40, 90),    ACC=(190, 150, 255)),
+}
+
+
+def tema(ad):
+    """Kart temasını değiştir: gece, lacivert, zumrut, bordo, kagit, grafit, mor. Sonraki tüm kartlar bu renklerle çıkar."""
+    g = globals()
+    for k, v in TEMALAR[ad].items():
+        g[k] = v
+    return ad
+
+
+def foto_kart(photo, ticker, kicker, baslik, satirlar, kaynak, out, etiket="HABER", yb=0.3):
+    """Üst yarı fotoğraf (SADECE Enes'in gönderdiği foto), alt yarı yazı. Webden indirilmiş foto KULLANMA."""
+    img = Image.new("RGB", (W, H), BG); d = ImageDraw.Draw(img)
+    ph = Image.open(photo).convert("RGB")
+    tw, th = W, 720
+    k = max(tw / ph.width, th / ph.height); ph = ph.resize((int(ph.width * k) + 1, int(ph.height * k) + 1), Image.LANCZOS)
+    top = int((ph.height - th) * yb); left = (ph.width - tw) // 2
+    img.paste(ph.crop((left, top, left + tw, top + th)), (0, 0))
+    grad = Image.new("L", (1, 240)); [grad.putpixel((0, i), int(255 * i / 239)) for i in range(240)]
+    img.paste(Image.new("RGB", (W, 240), BG), (0, 480), grad.resize((W, 240)))
+    d.text((72, 60), etiket, font=mono(24, 700), fill=ACC)
+    if ticker.startswith("$"):
+        _logo_badge(img, ticker, W - 72, 50, 150)
+    d.text((72, 690), kicker.upper(), font=mono(24, 600), fill=ACC)
+    f, lines = _fit_serif(d, baslik, 92, W - 144, 3)
+    y = 735
+    for ln in lines:
+        d.text((72, y), ln, font=f, fill=INK); y += int(f.size * 1.05)
+    y += 24
+    for s_ in satirlar[:3]:
+        for ln in _wrap(d, s_, mono(28), W - 190)[:2]:
+            d.text((72, y), ln, font=mono(28), fill=MUTED); y += 42
+        y += 8
+    _footer(d, kaynak)
+    return _save(img, out)

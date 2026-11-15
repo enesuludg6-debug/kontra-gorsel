@@ -21,3 +21,4 @@ Durdurmak için en alta `DURDUR` yazılı bir satır ekle (Enes ya da Claude, En
 - 16:10 NOT: Gorev istemi shareNow diyordu ama DEVIR.md 16:06'da TASLAK MODUNA gecti; temkinli secenek olarak taslak kaydedildi, dogrudan paylasim yapilmadi.
 - 16:10 MOD: SOHBET MODU. Buffer yok; saatlik hazirlik ana sohbete send_later zinciriyle. Bulut 'taslak hazirlama' gorevi Enes tarafindan duraklatilacak.
 - 16:12 Enes: Buffer baglantisi kesiliyor. Buffer ARACLARI KULLANILMAZ.
+- 16:15 Enes: renkler cesitlensin, kisi fotolari olsun. kart.py: 7 tema + foto_kart (sadece Enes fotosu).
