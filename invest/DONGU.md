@@ -30,3 +30,4 @@ Durdurmak için en alta `DURDUR` yazılı bir satır ekle (Enes ya da Claude, En
 - 16:35 Enes: 'Benim gorusum:' gibi etiket/sunum kaliplari yasak, daha dogal akici (DEVIR 5).
 - 16:38 Enes: hedef okur borsayi az bilen biri; kisa ve basit (DEVIR 5.0, en onemli kural).
 - 16:40 Enes: 16:10 turundaki 2 Buffer taslagi (BRK 13F, Fed haftasi) oldugu gibi kalsin, dokunulmayacak. Buffer artik kullanilmiyor.
+- 16:50 HAZIR (Enes'e, Enes foto): 20261115_1650_nvda_tayvan.jpg - Huang istifasi sonrasi Tayvanli sunucu ureticileri musteri/teslimat kontrolunu sikilastirdi, bir sirket tanimadigi yeni/kucuk musteriden siparis almiyor (NVDA/AMD/INTC); Kress gecici CEO (Nikkei via UDN 13-14.11, Nvidia 12.11 aciklamasi/SEC, TrendForce). Hisse dususu kaynaklarda farkli (%4,3 vs premarket %10+) -> kullanilmadi. Hampden alintisi Enes metnindeki gibi degil (UDN: CEO degisimi tek basina arzi sikistirmaz) | HABER | duzen:foto_kart | tema:bordo | yeni foto: jensen_huang.jpg
