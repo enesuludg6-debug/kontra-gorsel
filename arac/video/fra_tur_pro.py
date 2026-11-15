@@ -11,7 +11,7 @@ from PIL import Image, ImageFilter
 W, H, FPS = 1080, 1920, 30
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 KLIP = os.path.join(ROOT, "klip")
-OUT = os.path.join(ROOT, "g", "tur_pro_edit_klipli.mp4")
+OUT = os.path.join(ROOT, "g", "tur_pro_edit_klipli.mp4" if "--yazisiz" in sys.argv else "tur_pro_edit_yazili_klipli.mp4")
 TMP = "/tmp/claude-0/edit_pro"; os.makedirs(TMP, exist_ok=True)
 BPM = 130; B = 60 / BPM; SR = 44100
 BU, DROP, OUTRO, END = 8, 16, 48, 56
@@ -154,6 +154,100 @@ def motion_blur(a, dx, dy, n=7):
 def ease(x): x = max(0.0, min(1.0, x)); return 1 - (1 - x) ** 3
 
 
+
+# ---------------- tipografi ----------------
+# Ana: Big Shoulders Display Black (dar, sert). Vurgu: Instrument Serif Italic. Etiket: Inter SemiBold, genis aralik.
+from PIL import ImageDraw, ImageFont
+FD = os.path.join(ROOT, "arac", "font")
+F_MAIN = os.path.join(FD, "BigShoulders-Black.ttf")
+F_SERIF = os.path.join(FD, "InstrumentSerif-Italic.ttf")
+F_LABEL = "/usr/share/fonts/opentype/inter/Inter-SemiBold.otf"
+WHITE = (255, 255, 255); RED = (255, 62, 62); SOFT = (255, 244, 236)
+YAZISIZ = "--yazisiz" in sys.argv
+
+# (bas_vurus, bitis_vurus, y_merkez_orani, [(tur, yazi, boyut, renk)])
+TITLES = [
+    (0.6, 3.8, 0.50, [("label", "UEFA ULUSLAR LİGİ  ·  15.11", 34, WHITE), ("serif", "son", 150, SOFT), ("main", "SINAV", 330, WHITE)]),
+    (4.4, 7.8, 0.50, [("label", "5 MAÇ  ·  0 PUAN", 34, WHITE), ("serif", "kaybedecek", 130, SOFT), ("main", "BİR ŞEYİMİZ YOK", 170, WHITE)]),
+    (10.2, 11.9, 0.70, [("serif", "karşımızda", 120, SOFT), ("main", "MBAPPÉ", 280, WHITE)]),
+    (28.2, 31.8, 0.50, [("serif", "bu gece", 140, SOFT), ("main", "PES YOK", 300, WHITE)]),
+    (40.2, 41.9, 0.70, [("serif", "haydi", 130, SOFT), ("main", "TÜRKİYE", 270, RED)]),
+    (49.0, 55.2, 0.47, [("label", "BORDEAUX  ·  22.45  ·  ATV", 34, WHITE), ("main", "FRANSA", 250, WHITE),
+                        ("serif", "ve", 120, SOFT), ("main", "TÜRKİYE", 250, RED)]),
+]
+
+
+def tracked_text(txt, font, color, track):
+    """Harf aralikli metin katmani (RGBA), tam bbox ile."""
+    asc, desc = font.getmetrics()
+    ws = [font.getlength(ch) for ch in txt]
+    w = int(sum(ws) + track * (len(txt) - 1)) + 40
+    lay = Image.new("RGBA", (w, asc + desc + 40), (0, 0, 0, 0)); d = ImageDraw.Draw(lay)
+    x = 20
+    for ch, cw in zip(txt, ws):
+        d.text((x, 20), ch, font=font, fill=color + (255,)); x += cw + track
+    return lay.crop(lay.getbbox())
+
+
+def line_layer(kind, txt, size, color):
+    if kind == "main":
+        t = tracked_text(txt, ImageFont.truetype(F_MAIN, size), color, size * 0.01)
+    elif kind == "serif":
+        t = tracked_text(txt, ImageFont.truetype(F_SERIF, size), color, 0)
+    else:
+        t = tracked_text(txt, ImageFont.truetype(F_LABEL, size), color, size * 0.42)
+        t.putalpha(t.getchannel("A").point(lambda v: int(v * 0.8)))
+    # yumusak golge (kontur yok)
+    pad = 40
+    out = Image.new("RGBA", (t.width + pad * 2, t.height + pad * 2), (0, 0, 0, 0))
+    sh = Image.new("RGBA", out.size, (0, 0, 0, 0)); sh.paste((0, 0, 0, 255), (pad, pad + 6), t)
+    sh = sh.filter(ImageFilter.GaussianBlur(14)); sh.putalpha(sh.getchannel("A").point(lambda v: int(v * 0.55)))
+    out.alpha_composite(sh); out.alpha_composite(t, (pad, pad))
+    return out
+
+
+GAP = {("label", "serif"): 30, ("label", "main"): 34, ("serif", "main"): -26,
+       ("main", "serif"): -6, ("main", "main"): 6}   # satir arasi (onceki, sonraki); serif ana kelimeye hafif biner
+_tl = {}
+
+
+def title_layers(i):
+    if i not in _tl:
+        _tl[i] = [line_layer(*ln) for ln in TITLES[i][3]]
+    return _tl[i]
+
+
+def draw_titles(img, bt):
+    for i, (b0, b1, yc, lines) in enumerate(TITLES):
+        if not (b0 <= bt < b1): continue
+        lays = title_layers(i)
+        hs = [l.height - 80 for l in lays]
+        total = sum(hs) + sum(GAP[(lines[j-1][0], lines[j][0])] for j in range(1, len(lines)))
+        y = H * yc - total / 2 - 40
+        lt = (bt - b0) * B; rem = (b1 - bt) * B
+        for k, (lay, ln) in enumerate(zip(lays, lines)):
+            if k: y += GAP[(lines[k-1][0], ln[0])]
+            d = lt - k * 0.11                         # satir satir giris
+            if d <= 0: y += hs[k]; continue
+            pin = ease(d / 0.42); pout = min(1.0, rem / 0.22)
+            a = pin * pout
+            l2 = lay
+            blur = (1 - pin) * 16 + (1 - pout) * 10
+            if blur > 0.6: l2 = l2.filter(ImageFilter.GaussianBlur(blur))
+            sc = 1.06 - 0.06 * pin
+            if abs(sc - 1) > 0.003: l2 = l2.resize((int(l2.width * sc), int(l2.height * sc)), Image.BILINEAR)
+            if a < 0.999: l2 = l2.copy(); l2.putalpha(l2.getchannel("A").point(lambda v: int(v * a)))
+            img.alpha_composite(l2, (int((W - l2.width) / 2), int(y - 40 + (1 - pin) * 26)))
+            y += hs[k]
+    # kapanista kucuk imza
+    if bt >= 50.5 and bt < 55.2:
+        a = ease((bt - 50.5) * B / 0.5) * min(1.0, (55.2 - bt) * B / 0.22)
+        sig = _tl.setdefault("sig", line_layer("label", "@KONTRA_11", 30, WHITE))
+        s2 = sig.copy(); s2.putalpha(s2.getchannel("A").point(lambda v: int(v * a)))
+        img.alpha_composite(s2, ((W - s2.width) // 2, int(H * 0.86)))
+    return img
+
+
 def frame(fi):
     t = fi / FPS; bt = t / B
     si = max(i for i, s in enumerate(S) if s["b"] <= bt) if bt < END else len(S) - 1
@@ -183,7 +277,10 @@ def frame(fi):
     if DROP <= bt < DROP + 0.5: a = a + (255 - a) * math.exp(-(bt - DROP) * B * 10) * 0.8
     if t < 0.6: a *= t / 0.6
     if t > TOTAL - 1.4: a *= max(0, (TOTAL - t) / 1.4)
-    return np.clip(a, 0, 255).astype(np.uint8)
+    out = np.clip(a, 0, 255).astype(np.uint8)
+    if YAZISIZ: return out
+    img = draw_titles(Image.fromarray(out).convert("RGBA"), bt)
+    return np.asarray(img.convert("RGB"))
 
 
 # ---------------- ses: phonk beat + whoosh + impact ----------------
