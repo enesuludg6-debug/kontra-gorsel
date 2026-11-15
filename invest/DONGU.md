@@ -25,3 +25,4 @@ Durdurmak için en alta `DURDUR` yazılı bir satır ekle (Enes ya da Claude, En
 - 16:18 HAZIR (Enes'e, Enes foto): 20261115_1615_fed_warsh.jpg - Fed haftasi, Warsh Pzt 20:00 TSI (federalreserve.gov) | MAKRO | duzen:foto_kart | tema:lacivert | yeni foto: kevin_warsh.jpg
 - 16:20 Enes: dil daha da sade, gunluk konusma dili (DEVIR 5 ornekler).
 - 16:22 Enes: sabit seriler + bilanco oncesi/sonrasi kisa+uzun (flood), genis ilgi listesi; gerektiginde bilanco disi olaylar.
+- 16:25 Enes: gunde 2-3 teknik analiz; sadece bugunun TA kaynaklari; Enes grafigi kendi uygulamasindan ekler (DEVIR 5h).

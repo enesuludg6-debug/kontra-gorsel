@@ -107,6 +107,21 @@ Shay'in en çok izlenen tweetleri (14-15.11): "$SPCX just did the impossible." (
 - Bilanço dışı büyük olaylarda da (Fed kararı, büyük satın alma, IPO, CEO değişikliği, sert düşüş/yükseliş) gerekirse aynı kısa + uzun formatı kullan.
 - Ana sohbete gönderim: zincirde her tweeti ayrı mesaj olarak, başında "1/6", "2/6" ile gönder; kartları ilgili tweetin hemen önünde SendUserFile ile.
 
+## 5h. TEKNİK ANALİZ — günde 2-3 (Enes 15.11 16:19)
+- Zaman: 15:00 turunda 1-2 tane (açılış öncesi), 22:00 turunda 1 tane (seans içi). Hafta sonu: Cumartesi/Pazar 12:00 turunda 1-2 (haftalık grafik).
+- SADECE BUGÜN yayımlanmış teknik analiz kaynaklarını araştır (Investing.com teknik, Barchart, MarketBeat, Benzinga, CNBC, FXStreet, TradingView haberleri vb.). 2+ gün eski analiz KULLANMA, seviyeler geçersiz olabilir. Güncel fiyatı ayrı bir kaynaktan (stockanalysis.com, Nasdaq.com, Yahoo) doğrula; seviyeler güncel fiyatla tutarlı değilse o hisseyi atla.
+- Hisse seçimi: portföy + ilgi listesi + günün çok konuşulanları. Aynı hisseyi 3 gün içinde tekrar TA'ya koyma.
+- Kart üretme: grafiği Enes kendi uygulamasından (TradingView varsayımı) ekran görüntüsü alıp ekleyecek.
+- Enes'e gönderilecek format (her TA ayrı mesaj):
+  TA <n> — $TICKER
+  Grafik: <Günlük / 4 saatlik / Haftalık>, son <X ay>
+  Ekle: <indikatörler, örn. EMA 20, EMA 50, RSI 14, Hacim, MACD, Bollinger>
+  Çiz: <yatay çizgiler/trend çizgisi: "Destek 182 $", "Direnç 196 $", "Yükselen trend çizgisi: Ağustos dibi - Ekim dibi">
+  Kontrol: <ekranda görmesi gerekeni: "RSI 70 üstünde olmalı", "fiyat EMA 50'nin üstünde">
+  Tweet: <kopyalanacak metin>
+- Tweet metni: sade konuşma dili, seviyeler net, "bence" ile görüş; "al/sat/hedef fiyatım/kesin" YOK. Örn: "$NVDA 182 $ desteğinin üstünde tutunuyor. RSI 60 civarı, şişmiş değil. 196 $'ı geçerse bilanço öncesi yer açılır bence. Altında 182 kırılırsa hava değişir."
+- Kaynakları DONGU.md'ye yaz (TA | kaynak tarih | seviyeler).
+
 ## 5b. Görsel çeşitliliği (Enes 15.11: "görseller hep aynı olmasın, logo kullan")
 - Düzenler: haber() | rakamlar() | liste() | dev_rakam() | grafik(tur='bar'/'cizgi') | karsilastir() | alinti(). Ayrıca dev_rakam(acik_tema=True) açık renk.
 - Son 5 paylaşımda en çok kullanılan düzeni bu turda KULLANMA (DONGU.md'de düzen adını yaz). Aynı düzen arka arkaya iki kez gelmesin.
