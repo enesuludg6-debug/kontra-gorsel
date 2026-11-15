@@ -452,3 +452,345 @@ def grafik2(ticker, baslik, etiketler, degerler, birim, not_satiri, kaynak, out,
         d.text((72, bot + 120), l, font=sans(40, "ExtraBold"), fill=br); bot += 50
     _footer(img, kaynak, acc=br)
     return _save(img, out)
+
+
+# ================= v3: daha profesyonel düzenler =================
+import numpy as np
+
+T_BG = (9, 9, 11)
+T_TILE = (22, 22, 27)
+
+
+def _on(c):
+    return (10, 10, 12) if (c[0] * 299 + c[1] * 587 + c[2] * 114) / 1000 > 150 else (255, 255, 255)
+
+
+def _lin(w, h, c1, c2, diag=True):
+    yy, xx = np.mgrid[0:h, 0:w]
+    t = ((xx / max(w, 1) + yy / max(h, 1)) / 2 if diag else yy / max(h, 1))[..., None]
+    return Image.fromarray((np.array(c1) * (1 - t) + np.array(c2) * t).astype(np.uint8))
+
+
+def _tile(img, box, fill, r=36, fill2=None, diag=True):
+    x0, y0, x1, y1 = map(int, box); w, h = x1 - x0, y1 - y0
+    t = _lin(w, h, fill, fill2, diag) if fill2 else Image.new("RGB", (w, h), fill)
+    m = Image.new("L", (w, h), 0); ImageDraw.Draw(m).rounded_rectangle((0, 0, w - 1, h - 1), radius=r, fill=255)
+    img.paste(t, (x0, y0), m)
+
+
+def _plate(lg, pad=30, r=36):
+    p = Image.new("RGBA", (lg.width + pad * 2, lg.height + pad * 2), (0, 0, 0, 0))
+    ImageDraw.Draw(p).rounded_rectangle((0, 0, p.width - 1, p.height - 1), radius=r, fill=_plate_fill(lg, 250))
+    p.paste(lg, (pad, pad), lg)
+    return p
+
+
+def _pill(d, xy, text, fill, size=24):
+    f = sans(size, "Bold"); w = d.textlength(text, font=f)
+    d.rounded_rectangle((xy[0], xy[1], xy[0] + w + 36, xy[1] + size + 20), radius=(size + 20) // 2, fill=fill)
+    d.text((xy[0] + 18, xy[1] + (size + 20) // 2), text, font=f, fill=_on(fill), anchor="lm")
+
+
+def _fitnum(d, t, mw, start, w="Black", mn=40):
+    fs = start
+    while d.textlength(t, font=sans(fs, w)) > mw and fs > mn:
+        fs -= 4
+    return sans(fs, w)
+
+
+# K — BENTO: Apple tarzı modüler kutular
+def bento(ticker, etiket, baslik, buyuk, buyuk_lbl, kutular, seri, seri_lbl, kaynak, out):
+    """kutular: [(etiket, değer, alt)] x3. seri: mini sütun grafik için sayılar (son vurgulu)."""
+    br = _brand(ticker, (110, 180, 255)); img = Image.new("RGB", (W, H), T_BG); M, G = 48, 20
+    _tile(img, (M, M, M + 640, 400), T_TILE)
+    _tile(img, (M + 640 + G, M, W - M, 400), _mix(br, (255, 255, 255), 0.1), fill2=_mix(br, (0, 0, 0), 0.45))
+    d = ImageDraw.Draw(img)
+    _pill(d, (M + 36, M + 36), etiket, br)
+    f, ls = _fit(d, baslik, "Black", 66, 640 - 72, 4); y = M + 112
+    for l in ls:
+        d.text((M + 36, y), l, font=f, fill=(255, 255, 255)); y += int(f.size * 1.08)
+    lg = _logo(ticker, 200)
+    if lg:
+        p = _plate(lg, 28, 40); cx = (M + 640 + G + W - M) // 2
+        _shadow_paste(img, p, (cx - p.width // 2, (M + 400) // 2 - p.height // 2), r=40)
+    # büyük rakam
+    _tile(img, (M, 420, M + 560, 840), _mix(br, (255, 255, 255), 0.06), fill2=_mix(br, (0, 0, 0), 0.5))
+    d = ImageDraw.Draw(img); on = _on(_mix(br, (0, 0, 0), 0.25))
+    d.text((M + 40, 462), buyuk_lbl.upper(), font=sans(28, "Bold"), fill=on)
+    fb = _fitnum(d, buyuk, 480, 200)
+    d.text((M + 36, 790), buyuk, font=fb, fill=on, anchor="ls")
+    # mini grafik
+    x0, x1 = M + 560 + G, W - M
+    _tile(img, (x0, 420, x1, 840), T_TILE); d = ImageDraw.Draw(img)
+    d.text((x0 + 32, 456), seri_lbl.upper(), font=sans(22, "Bold"), fill=(150, 150, 162))
+    n = len(seri); bx0, bx1, by0, by1 = x0 + 36, x1 - 36, 540, 800; st = (bx1 - bx0) / n; mx = max(seri)
+    for i, v in enumerate(seri):
+        hh = (by1 - by0) * v / mx; cx = bx0 + st * i + st / 2; last = i == n - 1
+        _tile(img, (cx - st * 0.34, by1 - hh, cx + st * 0.34, by1), br if last else (70, 70, 80), r=10)
+        ImageDraw.Draw(img).text((cx, by1 - hh - 10), str(v).replace(".", ","), font=sans(24, "Black"), fill=(255, 255, 255) if last else (170, 170, 180), anchor="mb")
+    # 3 kutu
+    cw = (W - 2 * M - 2 * G) / 3
+    for i, (k, v, a) in enumerate(kutular[:3]):
+        x = M + i * (cw + G)
+        _tile(img, (x, 860, x + cw, 1180), T_TILE); d = ImageDraw.Draw(img)
+        d.text((x + 28, 892), k.upper(), font=sans(21, "Bold"), fill=(150, 150, 162))
+        d.text((x + 28, 1040), v, font=_fitnum(d, v, cw - 56, 84), fill=(255, 255, 255), anchor="ls")
+        for j, l in enumerate(_wrap(d, a, sans(24, "Medium"), cw - 56)[:2]):
+            d.text((x + 28, 1070 + j * 32), l, font=sans(24, "Medium"), fill=K._tone(a) if a[:1] in "+-" else (170, 170, 182))
+    _footer(img, kaynak, acc=br, line=T_BG)
+    return _save(img, out)
+
+
+# L — HALKA: yüzde halkası
+def halka(ticker, yuzde, baslik, orta_alt, yan, kaynak, out, etiket="VERİ", renk=None):
+    br = renk or _brand(ticker, (88, 200, 140))
+    img = _radial((W, H), _mix(br, (0, 0, 0), 0.78), (7, 7, 9), cy=0.5, r=0.7)
+    d = ImageDraw.Draw(img)
+    _pill(d, (72, 64), etiket, br)
+    f, ls = _fit(d, baslik, "Black", 72, W - 144, 2); y = 140
+    for l in ls:
+        d.text((72, y), l, font=f, fill=(255, 255, 255)); y += int(f.size * 1.06)
+    S = 3; R, wd = 290, 64; cx, cy = W // 2, 640
+    ring = Image.new("RGBA", (W * S, H * S), (0, 0, 0, 0)); rd = ImageDraw.Draw(ring)
+    bb = ((cx - R) * S, (cy - R) * S, (cx + R) * S, (cy + R) * S)
+    rd.arc(bb, 0, 360, fill=(48, 48, 56, 255), width=wd * S)
+    end = -90 + 360 * yuzde / 100
+    rd.arc(bb, -90, end, fill=br + (255,), width=wd * S)
+    for ang in (-90, end):
+        px = cx + (R - wd / 2) * math.cos(math.radians(ang)); py = cy + (R - wd / 2) * math.sin(math.radians(ang))
+        rd.ellipse(((px - wd / 2) * S, (py - wd / 2) * S, (px + wd / 2) * S, (py + wd / 2) * S), fill=br + (255,))
+    ring = ring.resize((W, H), Image.LANCZOS)
+    glow = ring.filter(ImageFilter.GaussianBlur(28)); img.paste(glow, (0, 0), glow.split()[3].point(lambda v: v // 3))
+    img.paste(ring, (0, 0), ring); d = ImageDraw.Draw(img)
+    d.text((cx, cy - 10), f"%{yuzde:g}".replace(".", ","), font=sans(170, "Black"), fill=(255, 255, 255), anchor="mm")
+    d.text((cx, cy + 100), orta_alt, font=sans(30, "SemiBold"), fill=(190, 190, 200), anchor="mm")
+    y = 1000; cw = (W - 144) / len(yan)
+    for i, (k, v) in enumerate(yan):
+        x = 72 + i * cw
+        if i: d.line((x, y, x, y + 150), fill=(60, 60, 70), width=2)
+        d.text((x + cw / 2, y + 10), v, font=_fitnum(d, v, cw - 40, 76), fill=(255, 255, 255), anchor="ma")
+        for j, l in enumerate(_wrap(d, k, sans(24, "Medium"), cw - 40)[:2]):
+            d.text((x + cw / 2, y + 104 + j * 30), l, font=sans(24, "Medium"), fill=(165, 165, 178), anchor="ma")
+    _footer(img, kaynak, acc=br)
+    return _save(img, out)
+
+
+# M — ISI HARİTASI: yeşil/kırmızı kutular (kapanış, haftanın hareketleri)
+def isi(baslik, alt, kutular, kaynak, out, etiket="PİYASA", kolon=3):
+    """kutular: [(ticker, yüzde_float)]"""
+    img = Image.new("RGB", (W, H), T_BG); d = ImageDraw.Draw(img)
+    _pill(d, (56, 56), etiket, (255, 255, 255))
+    f, ls = _fit(d, baslik, "Black", 76, W - 112, 2); y = 126
+    for l in ls:
+        d.text((56, y), l, font=f, fill=(255, 255, 255)); y += int(f.size * 1.06)
+    d.text((56, y + 4), alt, font=sans(30, "Medium"), fill=(160, 160, 172)); y += 70
+    n = len(kutular); rows = math.ceil(n / kolon); G = 14
+    cw = (W - 112 - G * (kolon - 1)) / kolon; ch = (H - 150 - y - G * (rows - 1)) / rows
+    mx = max(abs(v) for _, v in kutular) or 1
+    for i, (t, v) in enumerate(kutular):
+        x = 56 + (i % kolon) * (cw + G); yy = y + (i // kolon) * (ch + G); k = 0.35 + 0.65 * abs(v) / mx
+        c = _mix((20, 44, 34), (24, 168, 96), k) if v >= 0 else _mix((52, 22, 26), (214, 48, 58), k)
+        _tile(img, (x, yy, x + cw, yy + ch), _mix(c, (255, 255, 255), 0.08), r=26, fill2=_mix(c, (0, 0, 0), 0.25))
+        lg = _logo(t, int(min(cw, ch) * 0.34))
+        if lg:
+            p = _plate(lg, 12, 18); img.paste(p, (int(x + 20), int(yy + 20)), p)
+        d = ImageDraw.Draw(img)
+        d.text((x + cw - 22, yy + 26), t.replace("$", ""), font=sans(34, "ExtraBold"), fill=(255, 255, 255), anchor="ra")
+        s = ("+" if v > 0 else "−" if v < 0 else "") + f"%{abs(v):.1f}".replace(".", ",")
+        d.text((x + 22, yy + ch - 22), s, font=_fitnum(d, s, cw - 44, 76), fill=(255, 255, 255), anchor="ls")
+    _footer(img, kaynak, acc=(255, 255, 255), line=T_BG)
+    return _save(img, out)
+
+
+# N — TAKVİM: haftalık program, logolu
+def takvim(baslik, alt, gunler, kaynak, out, etiket="TAKVİM", renk=(110, 180, 255)):
+    """gunler: [(gün, tarih, [(ticker_veya_metin, not)])]"""
+    img = _lin(W, H, (14, 18, 30), (7, 7, 9), diag=False); d = ImageDraw.Draw(img)
+    _pill(d, (56, 56), etiket, renk)
+    f, ls = _fit(d, baslik, "Black", 76, W - 112, 2); y = 126
+    for l in ls:
+        d.text((56, y), l, font=f, fill=(255, 255, 255)); y += int(f.size * 1.06)
+    d.text((56, y + 4), alt, font=sans(30, "Medium"), fill=(160, 166, 180)); y += 76
+    rh = (H - 150 - y) / len(gunler)
+    for gun, tarih, olaylar in gunler:
+        _tile(img, (56, y, W - 56, y + rh - 14), T_TILE, r=28); d = ImageDraw.Draw(img)
+        cy = y + (rh - 14) / 2
+        d.text((84, cy - 16), gun, font=sans(40, "Black"), fill=(255, 255, 255), anchor="lm")
+        d.text((84, cy + 26), tarih, font=sans(22, "Medium"), fill=(150, 150, 162), anchor="lm")
+        x = 300
+        if not olaylar:
+            d.text((x, cy), "—", font=sans(30, "Medium"), fill=(90, 90, 100), anchor="lm")
+        for t, nt in olaylar:
+            lg = _logo(t, int(rh * 0.42)) if t.startswith("$") else None
+            name = t.replace("$", ""); nf = sans(30, "ExtraBold"); sf = sans(20, "Medium")
+            tw = max(d.textlength(name, font=nf), d.textlength(nt, font=sf))
+            bw = (lg.width + 16 if lg else 0) + tw + 44
+            _tile(img, (x, cy - rh * 0.3, x + bw, cy + rh * 0.3), (38, 38, 46) if lg else _mix(renk, (0, 0, 0), 0.55), r=20); d = ImageDraw.Draw(img)
+            tx = x + 22
+            if lg:
+                img.paste(lg, (int(tx), int(cy - lg.height / 2)), lg); tx += lg.width + 16; d = ImageDraw.Draw(img)
+            d.text((tx, cy - 14), name, font=nf, fill=(255, 255, 255), anchor="lm")
+            d.text((tx, cy + 20), nt, font=sf, fill=(175, 175, 188), anchor="lm")
+            x += bw + 14
+        y += rh
+    _footer(img, kaynak, acc=renk, line=(7, 7, 9))
+    return _save(img, out)
+
+
+# O — ÇİZGİ: parlayan alan grafik + dev değer
+def cizgi(ticker, etiket, baslik, etiketler, degerler, buyuk, buyuk_lbl, kaynak, out, renk=None):
+    br = renk or _brand(ticker, (110, 180, 255))
+    img = _lin(W, H, _mix(br, (0, 0, 0), 0.88), (6, 6, 8), diag=False)
+    _watermark(img, ticker, 1000, alpha=10); d = ImageDraw.Draw(img)
+    _pill(d, (72, 64), etiket, br)
+    lg = _logo(ticker, 170)
+    if lg: img.paste(lg, (W - 72 - lg.width, 56), lg)
+    f, ls = _fit(d, baslik, "Black", 68, W - 144 - (200 if lg else 0), 2); y = 136
+    for l in ls:
+        d.text((72, y), l, font=f, fill=(255, 255, 255)); y += int(f.size * 1.06)
+    y = max(y, 250) + 20
+    d.text((72, y), buyuk, font=sans(170, "Black"), fill=br); y += 180
+    d.text((76, y), buyuk_lbl, font=sans(30, "SemiBold"), fill=(185, 185, 198))
+    top, bot, left, right = y + 110, H - 230, 90, W - 110
+    n = len(degerler); mn, mx = min(degerler), max(degerler); span = (mx - mn) or 1
+    pts = [(left + (right - left) * i / (n - 1), bot - (bot - top) * (v - mn * 0.6) / (mx - mn * 0.6)) for i, v in enumerate(degerler)]
+    for g in range(4):
+        gy = top + (bot - top) * g / 3; d.line((left - 20, gy, right + 20, gy), fill=(36, 36, 44), width=1)
+    area = Image.new("L", (W, H), 0); ImageDraw.Draw(area).polygon(pts + [(right, bot), (left, bot)], fill=255)
+    fade = Image.fromarray((np.clip(1 - (np.mgrid[0:H, 0:W][0] - top) / (bot - top), 0, 1) * 120).astype(np.uint8))
+    img.paste(Image.new("RGB", (W, H), br), (0, 0), Image.fromarray((np.asarray(area) / 255 * np.asarray(fade)).astype(np.uint8)))
+    gl = Image.new("RGBA", (W, H), (0, 0, 0, 0)); ImageDraw.Draw(gl).line(pts, fill=br + (255,), width=18, joint="curve")
+    gl = gl.filter(ImageFilter.GaussianBlur(16)); img.paste(gl, (0, 0), gl)
+    d = ImageDraw.Draw(img); d.line(pts, fill=_mix(br, (255, 255, 255), 0.35), width=7, joint="curve")
+    for i, ((px, py), e, v) in enumerate(zip(pts, etiketler, degerler)):
+        last = i == n - 1; r = 15 if last else 8
+        if last:
+            d.ellipse((px - 34, py - 34, px + 34, py + 34), outline=br, width=3)
+        d.ellipse((px - r, py - r, px + r, py + r), fill=(255, 255, 255))
+        d.text((px, bot + 24), e, font=sans(24, "SemiBold"), fill=(165, 165, 178), anchor="ma")
+        d.text((px, py - 30 - (16 if last else 0)), str(v).replace(".", ","), font=sans(30 if last else 24, "Black"), fill=(255, 255, 255) if last else (190, 190, 200), anchor="mb")
+    _footer(img, kaynak, acc=br)
+    return _save(img, out)
+
+
+# P — VERSUS: çapraz bölünmüş iki taraf
+def versus(sol, sag, baslik, satirlar, kaynak, out, renk1=(40, 110, 255), renk2=(255, 120, 40), etiket="KARŞILAŞTIRMA"):
+    """sol/sag: '$TICKER' ya da düz isim. satirlar: [(metrik, sol_değer, sağ_değer)]"""
+    c1 = _brand(sol, renk1) if sol.startswith("$") else renk1; c2 = _brand(sag, renk2) if sag.startswith("$") else renk2
+    img = Image.new("RGB", (W, H), T_BG); TOP = 600
+    left = _lin(W, TOP, _mix(c1, (255, 255, 255), 0.1), _mix(c1, (0, 0, 0), 0.45)); right = _lin(W, TOP, _mix(c2, (255, 255, 255), 0.1), _mix(c2, (0, 0, 0), 0.45))
+    m = Image.new("L", (W, TOP), 0); ImageDraw.Draw(m).polygon([(W * 0.58, 0), (W, 0), (W, TOP), (W * 0.42, TOP)], fill=255)
+    img.paste(left, (0, 0)); img.paste(right, (0, 0), m); d = ImageDraw.Draw(img)
+    d.text((56, 60), etiket, font=sans(26, "Bold"), fill=(255, 255, 255))
+    for name, cx, c in ((sol, W * 0.25, c1), (sag, W * 0.75, c2)):
+        lg = _logo(name, 220) if name.startswith("$") else None
+        if lg:
+            p = _plate(lg, 30, 40); _shadow_paste(img, p, (int(cx - p.width / 2), 170), r=40); d = ImageDraw.Draw(img)
+            d.text((cx, 170 + p.height + 30), name, font=sans(40, "Black"), fill=(255, 255, 255), anchor="ma")
+        else:
+            ff, ll = _fit(d, name, "Black", 76, W * 0.4, 2); yy = 300 - len(ll) * ff.size * 0.55
+            for l in ll:
+                d.text((cx, yy), l, font=ff, fill=(255, 255, 255), anchor="ma"); yy += ff.size * 1.05
+    d.ellipse((W / 2 - 62, TOP / 2 - 62, W / 2 + 62, TOP / 2 + 62), fill=(255, 255, 255))
+    d.text((W / 2, TOP / 2), "VS", font=sans(52, "Black"), fill=(10, 10, 12), anchor="mm")
+    f, ls = _fit(d, baslik, "Black", 60, W - 112, 2); y = TOP + 44
+    for l in ls:
+        d.text((W / 2, y), l, font=f, fill=(255, 255, 255), anchor="ma"); y += int(f.size * 1.08)
+    y += 26; rh = min(170, (H - 150 - y) / max(1, len(satirlar)))
+    for mt, a, b in satirlar:
+        _tile(img, (56, y, W - 56, y + rh - 12), T_TILE, r=22); d = ImageDraw.Draw(img); cy = y + (rh - 12) / 2
+        d.text((W / 2, cy), mt.upper(), font=sans(22, "Bold"), fill=(150, 150, 162), anchor="mm")
+        d.text((92, cy), a, font=sans(60, "Black"), fill=_mix(c1, (255, 255, 255), 0.45), anchor="lm")
+        d.text((W - 92, cy), b, font=sans(60, "Black"), fill=_mix(c2, (255, 255, 255), 0.45), anchor="rm")
+        y += rh
+    _footer(img, kaynak, acc=(255, 255, 255), line=T_BG)
+    return _save(img, out)
+
+
+# R — ÜÇ RAKAM: alt alta üç dev istatistik
+def uclu(ticker, etiket, baslik, satirlar, kaynak, out):
+    """satirlar: [(rakam, açıklama)] x3"""
+    br = _brand(ticker, (212, 175, 105))
+    img = _lin(W, H, (16, 16, 20), (6, 6, 8), diag=False); _watermark(img, ticker, 1100, alpha=12); d = ImageDraw.Draw(img)
+    _pill(d, (72, 64), etiket, br)
+    lg = _logo(ticker, 190)
+    if lg: img.paste(lg, (W - 72 - lg.width, 56), lg)
+    f, ls = _fit(d, baslik, "Black", 70, W - 144 - (220 if lg else 0), 3); y = 136
+    for l in ls:
+        d.text((72, y), l, font=f, fill=(255, 255, 255)); y += int(f.size * 1.06)
+    y = max(y, 300) + 30; rh = (H - 150 - y) / 3
+    for i, (r, a) in enumerate(satirlar[:3]):
+        d.line((72, y, W - 72, y), fill=(52, 52, 60), width=2)
+        col = K.UP if r[:1] == "+" else (K.DOWN if r[:1] in "-−" else (br if i == 0 else (255, 255, 255)))
+        fn = _fitnum(d, r, 520, 150); d.text((72, y + rh / 2), r, font=fn, fill=col, anchor="lm")
+        ll = _wrap(d, a, sans(34, "SemiBold"), W - 72 - 640)[:3]; ty = y + rh / 2 - len(ll) * 22
+        for l in ll:
+            d.text((640, ty), l, font=sans(34, "SemiBold"), fill=(205, 205, 215)); ty += 44
+        y += rh
+    _footer(img, kaynak, acc=br)
+    return _save(img, out)
+
+
+# S — ALINTI: dev tırnak, serif söz, imza
+def soz(ticker, alinti_metni, kim, unvan, kaynak, out, photo=None, etiket="SÖZ"):
+    br = _brand(ticker, (212, 175, 105))
+    img = _radial((W, H), _mix(br, (0, 0, 0), 0.7), (7, 7, 9), cx=0.15, cy=0.1, r=0.9); d = ImageDraw.Draw(img)
+    _pill(d, (72, 64), etiket, br)
+    d.text((56, 90), "“", font=K.serif(520), fill=_mix(br, (255, 255, 255), 0.15))
+    f = None
+    for fs in range(104, 50, -4):
+        f = K.serif(fs, italic=True); ls = _wrap(d, alinti_metni, f, W - 150)
+        if len(ls) <= 6: break
+    y = 430
+    for l in ls:
+        d.text((76, y), l, font=f, fill=(255, 255, 255)); y += int(f.size * 1.14)
+    y = max(y + 50, 980); d.rectangle((76, y, 196, y + 8), fill=br); y += 50
+    x = 76
+    if photo:
+        ph = Image.open(photo).convert("RGB"); s = min(ph.size); ph = ph.crop(((ph.width - s) // 2, 0, (ph.width - s) // 2 + s, s)).resize((150, 150), Image.LANCZOS)
+        m = Image.new("L", (150, 150), 0); ImageDraw.Draw(m).ellipse((0, 0, 149, 149), fill=255); img.paste(ph, (x, y), m); x += 180
+    else:
+        lg = _logo(ticker, 110)
+        if lg:
+            p = _plate(lg, 18, 26); img.paste(p, (x, y), p); x += p.width + 30
+    d = ImageDraw.Draw(img)
+    d.text((x, y + 44), kim, font=sans(44, "Black"), fill=(255, 255, 255), anchor="lm")
+    d.text((x, y + 100), unvan, font=sans(28, "Medium"), fill=(180, 180, 192), anchor="lm")
+    _footer(img, kaynak, acc=br)
+    return _save(img, out)
+
+
+# T — EDİTORYAL: FT/dergi havası, açık zemin, serif manşet
+def editoryal(ticker, kicker, baslik, spot, rakamlar3, kaynak, out, tarih="", zemin=(255, 241, 229)):
+    """rakamlar3: [(rakam, açıklama)] x3"""
+    INK, CL, TL = (26, 24, 22), (153, 15, 61), (13, 118, 128)
+    img = Image.new("RGB", (W, H), zemin); d = ImageDraw.Draw(img)
+    d.rectangle((72, 60, W - 72, 68), fill=INK)
+    d.text((72, 104), "P İ Y A S A   N O T U", font=sans(28, "Black"), fill=INK, anchor="lm")
+    d.text((W - 72, 104), tarih.upper(), font=K.mono(22), fill=(110, 104, 98), anchor="rm")
+    d.line((72, 138, W - 72, 138), fill=INK, width=2)
+    lg = _logo(ticker, 170)
+    if lg: img.paste(lg, (W - 72 - lg.width, 176), lg)
+    d.text((72, 190), kicker.upper(), font=sans(28, "ExtraBold"), fill=CL)
+    f = None
+    for fs in range(128, 60, -4):
+        f = K.serif(fs); ls = _wrap(d, baslik, f, W - 144 - (200 if lg else 0))
+        if len(ls) <= 4: break
+    y = 244
+    for l in ls:
+        d.text((72, y), l, font=f, fill=INK); y += int(f.size * 1.0)
+    y += 34
+    for l in _wrap(d, spot, sans(36, "Medium"), W - 144)[:4]:
+        d.text((72, y), l, font=sans(36, "Medium"), fill=(70, 66, 62)); y += 50
+    y = max(y + 40, 860); d.line((72, y, W - 72, y), fill=INK, width=2); y += 36
+    cw = (W - 144) / 3
+    for i, (r, a) in enumerate(rakamlar3[:3]):
+        x = 72 + i * cw
+        if i: d.line((x - 14, y, x - 14, y + 250), fill=(206, 190, 176), width=2)
+        fs = 124
+        while d.textlength(r, font=K.serif(fs)) > cw - 40 and fs > 60: fs -= 4
+        d.text((x, y), r, font=K.serif(fs), fill=TL if i else CL)
+        for j, l in enumerate(_wrap(d, a, sans(26, "SemiBold"), cw - 40)[:3]):
+            d.text((x, y + 150 + j * 34), l, font=sans(26, "SemiBold"), fill=(70, 66, 62))
+    _footer(img, kaynak, ink=INK, muted=(120, 112, 104), line=INK, acc=CL)
+    return _save(img, out, grain=False)

@@ -70,3 +70,4 @@ Durdurmak için en alta `DURDUR` yazılı bir satır ekle (Enes ya da Claude, En
 - 20:50 Enes: logolar daha belirgin -> kart.py logo boyutlari ~1,4x (DEVIR 5b).
 - 21:00 Enes: daha dikkat cekici/profesyonel gorsel istedi -> kart2.py 8 yeni duzen (A spotlight, B split, C terminal, D son dakika, E once/sonra, F kapak(foto), G cam, H poster); ornekler g/ornek/. Enes secimi bekleniyor.
 - 21:15 kart2 v2: gren dokusu, filigran logo, golgeli logo plakasi, E monogramli imza; yeni I siralama (logolu yatay cubuk), J guclu grafik. Ornekler g/ornek/.
+- 21:00 kart2 v3: 9 yeni duzen (bento, halka, isi, takvim, cizgi, versus, uclu, soz, editoryal). Ornekler g/ornek/00_hepsi_v3.jpg.
