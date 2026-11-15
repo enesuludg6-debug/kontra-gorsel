@@ -74,16 +74,52 @@ def _logo(ticker, size):
     return K.logo(ticker, size) if ticker and ticker.startswith("$") else None
 
 
-def _footer(img, kaynak, ink=(235, 235, 240), muted=(150, 150, 160), line=(60, 60, 70)):
+def _footer(img, kaynak, ink=(235, 235, 240), muted=(150, 150, 160), line=(60, 60, 70), acc=None):
     d = ImageDraw.Draw(img)
-    d.line((72, H - 112, W - 72, H - 112), fill=line, width=2)
-    d.text((72, H - 76), kaynak.upper(), font=K.mono(20), fill=muted, anchor="lm")
-    d.text((W - 72, H - 76), HANDLE, font=sans(24, "ExtraBold"), fill=ink, anchor="rm")
+    d.line((72, H - 120, W - 72, H - 120), fill=line, width=2)
+    d.text((72, H - 74), ("KAYNAK: " + kaynak).upper(), font=K.mono(19), fill=muted, anchor="lm")
+    # imza: monogram + isim
+    acc = acc or (212, 175, 105)
+    nf = sans(26, "ExtraBold")
+    tw = d.textlength(HANDLE, font=nf)
+    x1 = W - 72
+    d.text((x1, H - 74), HANDLE, font=nf, fill=ink, anchor="rm")
+    cx = int(x1 - tw - 34)
+    d.ellipse((cx - 22, H - 96, cx + 22, H - 52), fill=acc)
+    d.text((cx, H - 74), "E", font=sans(26, "Black"), fill=(10, 10, 12) if sum(acc) > 380 else (255, 255, 255), anchor="mm")
 
 
-def _save(img, out):
+def _grain(img, amt=7):
+    import numpy as np
+    a = np.asarray(img.convert("RGB")).astype(np.int16)
+    n = np.random.default_rng(7).normal(0, amt, a.shape[:2])[..., None]
+    return Image.fromarray(np.clip(a + n, 0, 255).astype(np.uint8))
+
+
+def _watermark(img, ticker, size=900, x=None, y=None, alpha=22):
+    lg = _logo(ticker, size)
+    if lg is None:
+        return
+    r, g, b, a = lg.split()
+    a = a.point(lambda v: v * alpha // 255)
+    lg.putalpha(a)
+    img.paste(lg, (W - int(lg.width * 0.62) if x is None else x, H - int(lg.height * 0.75) if y is None else y), lg)
+
+
+def _shadow_paste(img, tile, xy, r=40, blur=30, op=150):
+    sh = Image.new("RGBA", (tile.width + blur * 4, tile.height + blur * 4), (0, 0, 0, 0))
+    ImageDraw.Draw(sh).rounded_rectangle((blur * 2, blur * 2 + 14, blur * 2 + tile.width, blur * 2 + tile.height + 14), radius=r, fill=(0, 0, 0, op))
+    sh = sh.filter(ImageFilter.GaussianBlur(blur))
+    img.paste(sh, (xy[0] - blur * 2, xy[1] - blur * 2), sh)
+    img.paste(tile, xy, tile)
+
+
+def _save(img, out, grain=True):
     os.makedirs(os.path.dirname(os.path.abspath(out)) or ".", exist_ok=True)
-    img.convert("RGB").save(out, quality=93)
+    img = img.convert("RGB")
+    if grain:
+        img = _grain(img)
+    img.save(out, quality=93)
     return out
 
 
@@ -91,6 +127,7 @@ def _save(img, out):
 def spotlight(ticker, rakam, baslik, alt, kaynak, out, etiket="RAKAM"):
     br = _brand(ticker)
     img = _radial((W, H), _mix(br, (0, 0, 0), 0.55), (6, 6, 8), cy=0.28, r=0.75)
+    _watermark(img, ticker, 1000, alpha=14)
     d = ImageDraw.Draw(img)
     d.rounded_rectangle((72, 64, 72 + d.textlength(etiket, font=sans(26, "Bold")) + 40, 112), radius=24, fill=br)
     d.text((92, 88), etiket, font=sans(26, "Bold"), fill=(10, 10, 12), anchor="lm")
@@ -118,7 +155,7 @@ def spotlight(ticker, rakam, baslik, alt, kaynak, out, etiket="RAKAM"):
     y += 16
     for l in _wrap(d, alt, sans(32, "Medium"), W - 200)[:3]:
         d.text((W // 2, y), l, font=sans(32, "Medium"), fill=(190, 190, 200), anchor="ma"); y += 46
-    _footer(img, kaynak)
+    _footer(img, kaynak, acc=br)
     return _save(img, out)
 
 
@@ -136,7 +173,7 @@ def split(ticker, baslik, satirlar, kaynak, out, etiket="HABER"):
         plate = Image.new("RGBA", (lg.width + 80, lg.height + 80), (0, 0, 0, 0))
         ImageDraw.Draw(plate).rounded_rectangle((0, 0, plate.width - 1, plate.height - 1), radius=48, fill=_plate_fill(lg, 245))
         plate.paste(lg, (40, 40), lg)
-        img.paste(plate, ((W - plate.width) // 2, 280 - plate.height // 2), plate)
+        _shadow_paste(img, plate, ((W - plate.width) // 2, 280 - plate.height // 2), r=48)
     d = ImageDraw.Draw(img)
     y = 610
     f, ls = _fit(d, baslik, "Black", 84, W - 144, 3)
@@ -156,7 +193,10 @@ def split(ticker, baslik, satirlar, kaynak, out, etiket="HABER"):
 def terminal(ticker, baslik, satirlar, kaynak, out, etiket="PİYASA"):
     OR = (255, 152, 0)
     img = Image.new("RGB", (W, H), (0, 0, 0))
+    _watermark(img, ticker, 900, alpha=16)
     d = ImageDraw.Draw(img)
+    for gy in range(120, H - 120, 60):
+        d.line((0, gy, W, gy), fill=(14, 14, 14))
     d.rectangle((0, 0, W, 90), fill=OR)
     d.text((40, 45), f"{ticker}  <EQUITY>  {etiket}", font=K.mono(34, 800), fill=(0, 0, 0), anchor="lm")
     d.text((W - 40, 45), "ENES", font=K.mono(34, 800), fill=(0, 0, 0), anchor="rm")
@@ -185,8 +225,10 @@ def terminal(ticker, baslik, satirlar, kaynak, out, etiket="PİYASA"):
 def sondakika(ticker, baslik, alt, kaynak, out, bant="SON DAKİKA"):
     RED = (225, 30, 45)
     img = Image.new("RGB", (W, H), (250, 248, 244))
+    _watermark(img, ticker, 1000, alpha=20)
     d = ImageDraw.Draw(img)
     d.rectangle((0, 0, W, 130), fill=RED)
+    d.rectangle((0, 130, W, 140), fill=(20, 20, 22))
     d.text((72, 65), bant, font=sans(54, "Black"), fill=(255, 255, 255), anchor="lm")
     d.text((W - 72, 65), ticker, font=sans(40, "ExtraBold"), fill=(255, 255, 255), anchor="rm")
     lg = _logo(ticker, 280)
@@ -207,7 +249,8 @@ def sondakika(ticker, baslik, alt, kaynak, out, bant="SON DAKİKA"):
 # E — ÖNCE / SONRA: iki dev rakam, ok
 def once_sonra(ticker, baslik, once, sonra, once_lbl, sonra_lbl, degisim, kaynak, out, etiket="KARŞILAŞTIRMA"):
     br = _brand(ticker)
-    img = _vgrad((W, H), (16, 16, 20), (6, 6, 8))
+    img = _vgrad((W, H), _mix(br, (0, 0, 0), 0.85), (6, 6, 8))
+    _watermark(img, ticker, 1000, alpha=12)
     d = ImageDraw.Draw(img)
     d.text((72, 70), etiket, font=sans(28, "Bold"), fill=br)
     lg = _logo(ticker, 220)
@@ -263,7 +306,7 @@ def kapak(photo, ticker, ust, baslik, alt, kaynak, out):
         plate = Image.new("RGBA", (lg.width + 40, lg.height + 40), (0, 0, 0, 0))
         ImageDraw.Draw(plate).rounded_rectangle((0, 0, plate.width - 1, plate.height - 1), radius=28, fill=_plate_fill(lg, 240))
         plate.paste(lg, (20, 20), lg)
-        img.paste(plate, (W - 72 - plate.width, 50), plate)
+        _shadow_paste(img, plate, (W - 72 - plate.width, 50), r=30)
     d = ImageDraw.Draw(img)
     f, ls = _fit(d, baslik, "Black", 104, W - 144, 3, 60)
     y = H - 170 - len(ls) * int(f.size * 1.04) - 120
@@ -287,7 +330,7 @@ def cam(ticker, baslik, kutular, yorum, kaynak, out, etiket="BİLANÇO"):
         plate = Image.new("RGBA", (lg.width + 60, lg.height + 60), (0, 0, 0, 0))
         ImageDraw.Draw(plate).rounded_rectangle((0, 0, plate.width - 1, plate.height - 1), radius=40, fill=_plate_fill(lg, 235))
         plate.paste(lg, (30, 30), lg)
-        img.paste(plate, (W - 72 - plate.width, 60), plate)
+        _shadow_paste(img, plate, (W - 72 - plate.width, 60), r=40)
     d = ImageDraw.Draw(img, "RGBA")
     f, ls = _fit(d, baslik, "Black", 84, W - 144 - (320 if lg else 0), 3)
     y = 140
@@ -323,7 +366,7 @@ def poster(ticker, buyuk, ust, alt, kaynak, out, renk=None):
         plate = Image.new("RGBA", (lg.width + 40, lg.height + 40), (0, 0, 0, 0))
         ImageDraw.Draw(plate).rounded_rectangle((0, 0, plate.width - 1, plate.height - 1), radius=30, fill=_plate_fill(lg, 250))
         plate.paste(lg, (20, 20), lg)
-        img.paste(plate, (W - 72 - plate.width, 50), plate)
+        _shadow_paste(img, plate, (W - 72 - plate.width, 50), r=30)
     d = ImageDraw.Draw(img)
     fs = 520
     while d.textlength(buyuk, font=sans(fs, "Black")) > W - 100 and fs > 140:
@@ -333,4 +376,79 @@ def poster(ticker, buyuk, ust, alt, kaynak, out, renk=None):
     for l in _wrap(d, alt, sans(46, "Bold"), W - 144)[:3]:
         d.text((W // 2, y), l, font=sans(46, "Bold"), fill=ink, anchor="ma"); y += 60
     _footer(img, kaynak, ink=ink, muted=ink, line=ink)
+    return _save(img, out)
+
+
+# I — SIRALAMA: yatay çubuklar, her satırda logo (çoklu hisse karşılaştırma)
+def siralama(baslik, alt, satirlar, birim, kaynak, out, vurgu=(), etiket="SIRALAMA", renk=(110, 180, 255)):
+    """satirlar: [(ticker, deger_float, etiket_str), ...] büyükten küçüğe verilir. vurgu: portföy ticker'ları."""
+    img = _vgrad((W, H), (14, 16, 24), (6, 6, 8))
+    d = ImageDraw.Draw(img)
+    d.rounded_rectangle((72, 64, 72 + d.textlength(etiket, font=sans(24, "Bold")) + 36, 108), radius=22, fill=renk)
+    d.text((90, 86), etiket, font=sans(24, "Bold"), fill=(10, 10, 12), anchor="lm")
+    f, ls = _fit(d, baslik, "Black", 76, W - 144, 2)
+    y = 140
+    for l in ls:
+        d.text((72, y), l, font=f, fill=(255, 255, 255)); y += int(f.size * 1.06)
+    d.text((72, y + 6), alt, font=sans(30, "Medium"), fill=(160, 166, 180)); y += 70
+    rows = satirlar[:10]
+    rh = min(96, (H - 160 - y) // max(1, len(rows)))
+    mx = max(v for _, v, _ in rows)
+    x0, x1 = 72 + 70 + 150, W - 72 - 150
+    for t, v, lab in rows:
+        cy = y + rh // 2
+        lg = _logo(t, rh - 22)
+        if lg:
+            img.paste(lg, (72 + (56 - lg.width) // 2, cy - lg.height // 2), lg)
+        hl = t in vurgu
+        d.text((72 + 70, cy), t.replace("$", ""), font=sans(30, "ExtraBold"), fill=(255, 255, 255) if hl else (200, 204, 214), anchor="lm")
+        bw = int((x1 - x0) * v / mx)
+        col = (255, 196, 60) if hl else renk
+        d.rounded_rectangle((x0, cy - (rh - 34) // 2, x0 + max(bw, 12), cy + (rh - 34) // 2), radius=10, fill=col)
+        d.text((x0 + bw + 16, cy), lab, font=sans(32, "Black"), fill=(255, 255, 255), anchor="lm")
+        y += rh
+    d.text((72, y + 14), birim, font=K.mono(20), fill=(130, 136, 150))
+    if vurgu:
+        d.rounded_rectangle((72, y + 48, 96, y + 72), radius=6, fill=(255, 196, 60))
+        d.text((108, y + 60), "takip listem", font=sans(22, "Medium"), fill=(200, 200, 210), anchor="lm")
+    _footer(img, kaynak, acc=renk)
+    return _save(img, out)
+
+
+# J — GÜÇLÜ GRAFİK: kalın sütunlar, marka renginde gradyan, son değer etiketi
+def grafik2(ticker, baslik, etiketler, degerler, birim, not_satiri, kaynak, out, etiket="GRAFİK"):
+    br = _brand(ticker, (110, 180, 255))
+    img = _vgrad((W, H), _mix(br, (0, 0, 0), 0.86), (6, 6, 8))
+    _watermark(img, ticker, 1000, alpha=10)
+    d = ImageDraw.Draw(img)
+    d.text((72, 70), etiket, font=sans(28, "Bold"), fill=br)
+    lg = _logo(ticker, 200)
+    if lg:
+        img.paste(lg, (W - 72 - lg.width, 60), lg)
+    f, ls = _fit(d, baslik, "Black", 78, W - 144 - (230 if lg else 0), 3)
+    y = 130
+    for l in ls:
+        d.text((72, y), l, font=f, fill=(255, 255, 255)); y += int(f.size * 1.06)
+    top, bot = max(y, 290) + 90, H - 290
+    n = len(degerler); left, right = 80, W - 80; step = (right - left) / n
+    mx = max(degerler) * 1.1
+    for gy in range(4):
+        yy = bot - (bot - top) * gy / 3
+        d.line((left - 10, yy, right + 10, yy), fill=(40, 40, 48), width=1)
+    for i, (e, v) in enumerate(zip(etiketler, degerler)):
+        cx = left + step * i + step / 2; bw = step * (0.62 if n <= 10 else 0.74)
+        yy = bot - v / mx * (bot - top)
+        last = i == n - 1
+        bar = _vgrad((int(bw), max(2, int(bot - yy))), _mix(br, (255, 255, 255), 0.25) if last else (92, 92, 104), br if last else (56, 56, 66))
+        m = Image.new("L", bar.size, 0); ImageDraw.Draw(m).rounded_rectangle((0, 0, bar.width - 1, bar.height + 20), radius=12, fill=255)
+        img.paste(bar, (int(cx - bw / 2), int(yy)), m)
+        lab = (f"{v:,.1f}".rstrip("0").rstrip(".") if isinstance(v, float) else f"{v:,}").replace(",", "X").replace(".", ",").replace("X", ".")
+        if n <= 12 or i % 2 == 0 or last:
+            d.text((cx, yy - 12), lab, font=sans(30 if n <= 10 else 20, "Black"), fill=(255, 255, 255), anchor="mb")
+        if n <= 12 or i % 3 == 0 or last:
+            d.text((cx, bot + 20), e, font=sans(24 if n <= 10 else 18, "SemiBold"), fill=(170, 170, 182), anchor="ma")
+    d.text((72, bot + 80), birim, font=K.mono(22), fill=(130, 130, 140))
+    for l in _wrap(d, not_satiri, sans(40, "ExtraBold"), W - 144)[:2]:
+        d.text((72, bot + 120), l, font=sans(40, "ExtraBold"), fill=br); bot += 50
+    _footer(img, kaynak, acc=br)
     return _save(img, out)
