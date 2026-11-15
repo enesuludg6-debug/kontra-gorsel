@@ -41,3 +41,4 @@ Durdurmak için en alta `DURDUR` yazılı bir satır ekle (Enes ya da Claude, En
 - 17:15 Enes: TradingView icin Chrome/bilgisayar baglantisina izin; sart: X hesabina asla girilmeyecek (DEVIR basi).
 - 17:20 Enes: TradingView akisi (arastir > ciz > SS > indikator > SS > Enes'e) DEVIR 5j.
 - 17:30 Enes YENI KURAL: Claude kendisi tweet atmayacak; sadece Enes'in attiklarindan tweet yapilacak. 'Saatlik tweet hazirligi' gorevi kapatildi (trig_01DqTR9xdqwHkaLqzks8jm7d). DEVIR basina ISTEK MODU eklendi.
+- 17:35 HAZIR (Enes'e, Enes tweet atti): 20261115_1735_fk_sektor.jpg - ileri F/K: teknoloji 17,3 (Mart 2020'den beri en dusuk), S&P 17,7, temel tuketim 23,7 (FactSet 6.11, 5.11 kapanis); tuketim tech balonundan beri en yuksek bolge (Yardeni via Motley Fool, Subat). Orijinal tweetteki 17,2 / 24,2 dogrulanamadi -> FactSet rakamlari | RAKAM | duzen:grafik | tema:grafit
