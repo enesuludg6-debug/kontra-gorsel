@@ -184,6 +184,7 @@ Shay'in en çok izlenen tweetleri (14-15.11): "$SPCX just did the impossible." (
 ## 5b. Görsel çeşitliliği (Enes 15.11: "görseller hep aynı olmasın, logo kullan")
 - Düzenler: haber() | rakamlar() | liste() | dev_rakam() | grafik(tur='bar'/'cizgi') | karsilastir() | alinti(). Ayrıca dev_rakam(acik_tema=True) açık renk.
 - Son 5 paylaşımda en çok kullanılan düzeni bu turda KULLANMA (DONGU.md'de düzen adını yaz). Aynı düzen arka arkaya iki kez gelmesin.
+- Logolar BÜYÜK ve belirgin (Enes 15.11 20:50: "bu kadarı da yetmez"; kart.py ~1,4x büyütüldü: haber 300, rakamlar 270, dev_rakam 400, grafik 250, karsılaştır 250, alıntı 280, foto 220). Küçültme.
 - Ticker'lı her kartta şirket logosu otomatik (nvstly/icons, invest/logo önbelleği). Logo yoksa kart logosuz çıkar; uydurma logo çizme. Logoyu değiştirme, renklendirme.
 - Vurgu rengi logonun rengine göre otomatik (dev_rakam, grafik, alinti).
 - Grafik sadece doğrulanmış veriyle (şirket açıklaması / SEC). Tahmini, okunmuş-gibi veri yok.
