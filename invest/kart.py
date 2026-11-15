@@ -268,13 +268,17 @@ def grafik(ticker, baslik, etiketler, degerler, birim, not_satiri, kaynak, out, 
         cx = left + step * i + step / 2
         yy = bot - (v - mn) / (mx - mn) * (bot - top)
         if tur == "bar":
-            bw = step * 0.56
+            bw = step * (0.56 if n <= 10 else 0.72)
             last = i == n - 1
             d.rectangle((cx - bw / 2, yy, cx + bw / 2, bot), fill=acc if last else (70, 70, 78))
         pts.append((cx, yy))
         lab = (f"{v:,.1f}".rstrip("0").rstrip(".") if isinstance(v, float) else f"{v:,}").replace(",", "X").replace(".", ",").replace("X", ".")
-        d.text((cx, yy - 14), lab, font=mono(24, 600), fill=INK, anchor="mb")
-        d.text((cx, bot + 22), e, font=mono(22), fill=MUTED, anchor="ma")
+        lf = mono(24 if n <= 10 else (18 if n <= 20 else 14), 600)
+        if n <= 20 or i % 2 == 0 or i == n - 1:
+            d.text((cx, yy - 10), lab, font=lf, fill=INK, anchor="mb")
+        xs = 1 if n <= 10 else (2 if n <= 20 else 4)
+        if i % xs == 0 or i == n - 1:
+            d.text((cx, bot + 22), e, font=mono(22 if n <= 10 else 16), fill=MUTED, anchor="ma")
     if tur != "bar":
         d.line(pts, fill=acc, width=6)
         for p in pts:

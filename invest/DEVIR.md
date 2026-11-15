@@ -158,6 +158,13 @@ Shay'in en çok izlenen tweetleri (14-15.11): "$SPCX just did the impossible." (
 6. Enes'e: 2 görsel + kısa not (hangi indikatör neyi teyit ediyor/etmiyor) + tweet metni (5h kuralları).
 - TradingView'da paylaşım, yorum, fikir yayınlama, hesap/abonelik ayarı YOK. Kaydedilmiş çizim şablonlarını silme.
 
+## 5k. UZUN SERİ GRAFİKLER (Enes 15.11 18:45 — "bu tarz şeyler yapabilirsin")
+- Örnek: Fiscal.ai tarzı "AMAT çeyreklik hisse geri alımı 2017-2026" sütun grafiği. Uzun dönem (5-10 yıl, 20-40 çeyrek) tek metrik: geri alım, gelir, kâr marjı, serbest nakit, hisse sayısı, temettü, yatırım harcaması.
+- Kart: grafik(tur='bar' ya da 'cizgi'); 10+ çubukta etiketler otomatik küçülür/seyrelir. Son çubuk vurgu renginde.
+- Veri: şirket açıklamaları/10-Q/10-K (WebFetch ile SEC), stockanalysis.com çeyreklik tablolar. data.sec.gov API bu ortamda kapalı. En az son değeri şirketin kendi açıklamasından doğrula; kaynaklar çelişirse şirketin rakamı + DONGU'ya not.
+- Başlık hikâye anlatsın ("2018'den beri en büyük geri alım" gibi) ama sadece veri bunu gerçekten gösteriyorsa.
+- Başkasının grafiğini (Fiscal.ai, Koyfin vb.) tweete EKLEME; aynı veriyle kendi kartını çiz.
+
 ## 5b. Görsel çeşitliliği (Enes 15.11: "görseller hep aynı olmasın, logo kullan")
 - Düzenler: haber() | rakamlar() | liste() | dev_rakam() | grafik(tur='bar'/'cizgi') | karsilastir() | alinti(). Ayrıca dev_rakam(acik_tema=True) açık renk.
 - Son 5 paylaşımda en çok kullanılan düzeni bu turda KULLANMA (DONGU.md'de düzen adını yaz). Aynı düzen arka arkaya iki kez gelmesin.
