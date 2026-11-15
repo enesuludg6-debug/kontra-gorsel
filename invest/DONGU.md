@@ -91,3 +91,4 @@ Durdurmak için en alta `DURDUR` yazılı bir satır ekle (Enes ya da Claude, En
 - 22:12 AUTO: 20261115_2230_csco_skor.jpg - CISCO Q1 FY27 (12.11): gelir 18,5Mr (+%24, beklenti 18,1), EPS 1,40 (beklenti 1,32), FY27 gelir tahmini 72,2-73,4 -> 74,8-75,8Mr, hyperscaler AI hedefi 7,5 -> 9Mr$ (Cisco basin bulteni, Motley Fool, 24/7 Wall St, Que). Hisse tepkisi kaynaklarda celisti (-%2 premarket vs -%6) -> kullanilmadi. Buffer 6afa03d4e5a113497a0a01f9 | BILANCO RAKAMLARI | duzen:kart2.skor. Bugun ~36 (tavan 45).
 - 01:52 Enes: DEVIR_OZET 4b HABER HIZI KAYNAKLARI eklendi (IR/X/Bloomberg-Reuters-FT/takvim + hizli haber siteleri listesi). 01:00-09:00 penceresi: tur 09:05'e kuruldu.
 - 01:55 Enes: aralik 5-20 dk rastgele; onemli gelismede 01:00-09:00 siniri gevsetilir (DEVIR_OZET 2 guncellendi).
+- 01:55 Enes: gece gevsetmesi yalniz onceden bilinen aciklama icin (takvimli bilanco/veri); beklenmedik haber icin gece tur kurulmaz.
