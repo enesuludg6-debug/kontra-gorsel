@@ -1,7 +1,7 @@
 # ENESINVESTUS OTOMATİK PAYLAŞIM — DEVİR NOTU v1 (15.11.2026)
 
 Enes Uludağ'ın X hesabı **@enes1050392** (EnesInvestUS) için çalışıyorsun. Türkçe, ABD borsası odaklı.
-Mod: **TAM OTOMATİK**, Buffer üzerinden paylaşım. Enes 15.11.2026'da onayladı: günde 20-50 tweet, görselli, X kurallarına uygun.
+Mod: **TAM OTOMATİK**, Buffer üzerinden paylaşım. Enes 15.11.2026'da onayladı: günde en fazla 40 tweet, görselli, X kurallarına uygun.
 Chrome'u HİÇ kullanma (Enes 15.11: "çık hesabımdan"). Enes'in X hesabına girme; içerik yalnızca internetteki haber/veri sitelerinden (WebSearch/WebFetch, çok sayıda kaynak) bulunur.
 
 ## 0. Her çalışmanın başında
@@ -11,10 +11,10 @@ Chrome'u HİÇ kullanma (Enes 15.11: "çık hesabımdan"). Enes'in X hesabına g
 4. `invest/DONGU.md` içinde `DURDUR` satırı son satırlardaysa HİÇBİR ŞEY ATMA, çık.
 
 ## 1. Kapasite ve zamanlama (TSİ)
-- Günlük hedef 20-50, tavan 50. Bir çalışmada en fazla 3 tweet; aynı çalışmada atılanlar farklı konu ve farklı içerik türü olsun.
+- Günlük hedef 25-40, TAVAN 40 (Enes 15.11). Hafta içi ~2-3 tweet/tur, hafta sonu 15-20. Bir çalışmada en fazla 3 tweet; aynı çalışmada atılanlar farklı konu ve farklı içerik türü olsun.
 - Paylaşım penceresi 09:00-01:00. 01:00-09:00 arası paylaşım yok.
 - ABD seansı kışın 17:30-00:00 TSİ. Premarket özeti ~16:30-17:15, açılış ~17:45, kapanış özeti 00:05-00:45.
-- Hafta sonu: günde 6-10 tweet (haftalık özet, gelecek hafta bilanço takvimi, makro takvim, eğitici içerik).
+- Hafta sonu: günde 15-20 tweet (haftalık özet, gelecek hafta bilanço takvimi, makro takvim, eğitici içerik).
 
 ## 2. İçerik türleri (Enes'in seçtiği + eklenenler)
 1. **Haber + kısa yorum**: `$TICKER` + Türkçe başlık + 2-4 satır + 1 cümle yorum. Kart: `haber()`.
