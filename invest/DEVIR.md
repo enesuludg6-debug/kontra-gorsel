@@ -88,6 +88,14 @@ Enes'in güncel portföyü (15.11.2026 16:55): $AXON $NBIS $RKLB $CBRS $DOCN $VR
 - YASAK ETİKET/KALIP (Enes 15.11 16:23 — "ben böyle şeyler kullanmam"): "Benim görüşüm:", "Görüşüm:", "Sonuç olarak", "Özetle", "Kısaca", "Risk tarafı da var.", "Bir de şu var:", "X neden önemli?", "Kısa bir flood açayım", "Bu bence çok şey anlatıyor", "Ben bu tabloyu takip edeceğim", "mesaj net" gibi başlık/geçiş kalıpları. Görüşü etiketleyip sunma; cümlenin içine doğal yerleştir ("Bence bu fiyatlar daha bir süre yukarıda kalır.").
 - Flood'da her tweet bir öncekinin devamı gibi aksın, konuşur gibi. Numaralandırma (1/5) Enes'in kopyalaması için mesaj başında kalabilir ama metnin içinde "ilk olarak", "şimdi", "son olarak" gibi sunum dili yok.
 - Gerekirse "bence", "açıkçası", "fena değil", "beklediğimden iyi" gibi doğal ifadeler kullanılabilir (yorumsa yorum olduğu belli olsun).
+- KAPANIŞ ÇEŞİTLİLİĞİ (Enes 15.11 19:10): "... gösteriyor bana", "... gibi görünüyor bana", "... düşünüyorum", "... sanmıyorum" kalıpları çok tekrarlandı. Her tweetin son cümlesi FARKLI yapıda olsun; DONGU.md'deki son 5 tweetin kapanışına bak, aynı fiil/kalıbı kullanma. Seçenekler (döndür):
+  - Düz tespit: "Talep hâlâ arzı geçiyor." / "Eski çipe bile sıra var."
+  - Kısa yargı: "Fena değil bu." / "Bu bir tesadüf değil." / "Asıl haber bu."
+  - Sonuca bağlama: "Bu da kiralayan şirketlerin işine yarar."
+  - Karşıtlık: "Herkes eskidi derken fiyat yukarı gidiyor."
+  - Takip: "Gelecek çeyrekte bunun rakamlara yansıması lazım."
+  - Kişisel ama farklı fiil: "Açıkçası beklemiyordum." / "Bu tabloyu sevdim." / "Beni şaşırtan kısım bu."
+  - Bazen hiç yorum cümlesi yerine yorumu ilk cümleye koy ("Eskimesi gereken çip pahalandı.").
 - "BENCE" TEKRARI YOK (Enes 15.11 16:58): her tweete "bence" koyma, çok fazla oldu. Görüşü farklı kalıplarla, birinci tekil kur: "Bu sıkışmanın uzun sürebileceğini düşünmüyorum.", "... gibi görünüyor bana.", "Açıkçası beklediğimden iyi.", "Fena değil bu.", "Bunun abartı olduğunu düşünüyorum." Aynı turdaki tweetlerde aynı görüş kalıbı tekrar etmesin.
 - Sade, doğal Türkçe. Emoji yok. "Kritik nokta", "vb.", "dikkat çekici bir gelişme" gibi yapay kalıplar yok.
 - İlk satır durdurmalı: rakam, tezat veya net görüş. Örn: "$CRDO bu satış abartı. Gelir $479M, +%115 YoY."
