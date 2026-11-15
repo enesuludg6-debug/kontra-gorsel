@@ -74,6 +74,18 @@ Shay'in en çok izlenen tweetleri (14-15.11): "$SPCX just did the impossible." (
 - Bu hikayeleri X'ten değil, aynı olayı veren haber ve şirket kaynaklarından bul (CNBC, Reuters, GlobeNewswire, şirket IR, Bloomberg HT, Yahoo Finance, space.com vb.). Shay'in veya başkasının tweet metnini kopyalama, çevirip yapıştırma; kendi Türkçe cümlenle yaz.
 - Takip edilecek benzer büyük hesapların konu alanı (Enes'in takip listesinden): Shay Boloor, Chris Camillo, Gary Black, Walter Bloomberg (DeItaone), Sawyer Merritt, Wall Street Günlükleri. Bulut turları X'i okuyamaz; bu hesapların sık işlediği konuları web haberlerinden takip et.
 
+## 5c. GÜNDEM DOSYASI (X'teki büyük hesaplardan)
+- Enes'in bilgisayarındaki ayrı bir görev günde 5 kez (10, 13, 16, 19, 22) Chrome'dan büyük hesapları okuyup `invest/gundem.md`'ye konu listesi yazar (sadece konu + neden önemli, tweet metni değil).
+- Her turda önce `invest/gundem.md`'nin son 40 satırına bak. Oradaki konular öncelikli: aynı olayı web kaynaklarından DOĞRULA, sonra kendi görüşünle yaz. gundem.md tek başına kaynak değildir.
+- Kullandığın gündem satırının sonuna DONGU.md'de "(gündem)" yaz ki tekrar kullanılmasın.
+
+## 5d. GÖRÜŞ ZORUNLU (Enes 15.11)
+- Her tweet 1 cümle net görüş içersin: "bence", "açıkçası", "bu bana ... gibi geliyor", "beklediğimden iyi/kötü". Haber aktarıp bırakma.
+- Görüş yorumdur, tavsiye değildir: "al/sat", "kaçırmayın", "hedefim" yok.
+- BİLANÇO ÖNCESİ (açıklamadan 1 gün önce ve aynı gün): beklenti rakamları (kaynaklı) + "bence şuna bakılacak" (rehberlik, marj, belirli segment) + ne olursa sevinirim / ne olursa sorun olur.
+- BİLANÇO SONRASI (açıklamadan sonraki ilk turda): gerçekleşen vs beklenti, rehberlik, ilk fiyat tepkisi (doğrulanmışsa) + net görüş: "iyi çeyrek ama rehberlik zayıf", "satış abartı bence" gibi. Kart: rakamlar() veya grafik().
+- Portföy hisselerinde ($NBIS $RKLB $DOCN $AXON $SPCX $VRT) bilanço öncesi ve sonrası tweet KESİN atılır; tarihleri her pazartesi kontrol et.
+
 ## 5b. Görsel çeşitliliği (Enes 15.11: "görseller hep aynı olmasın, logo kullan")
 - Düzenler: haber() | rakamlar() | liste() | dev_rakam() | grafik(tur='bar'/'cizgi') | karsilastir() | alinti(). Ayrıca dev_rakam(acik_tema=True) açık renk.
 - Son 5 paylaşımda en çok kullanılan düzeni bu turda KULLANMA (DONGU.md'de düzen adını yaz). Aynı düzen arka arkaya iki kez gelmesin.
