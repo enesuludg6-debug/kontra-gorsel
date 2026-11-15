@@ -261,3 +261,4 @@
 - 11:13 HAZIR (Enes'e): a_ligi_hesabi.jpg - TR 0 puan -10 averaj; 4 grup sonuncusundan en kotu 2 direkt B, iyi 2 play-off; galibiyet play-off garanti (Takvim), 1 puan yetebilir (Timeturk), rakipler Sirbistan/Cekya (Ajansspor) | SENARYO | durum_listesi | foto: milli_gol_sevinci_8_10_18_21.jpg (isim yok)
 - 11:28 tur: Kislyak secildi, arsivde foto yok -> Enes'ten istendi.
 - 11:30 HAZIR (Enes'e, Enes foto): kislyak_teklif.jpg - Gurtskaya: GS ve FB'den teklif var, BJK'ninki kabul gormedi; Batrakov etkisi (A Spor, Aksam) | ACIKLAMA | alinti_tam | yeni foto: kislyak_cska.jpg
+- 11:44 HAZIR (Enes'e): hakan_fenerbahce.jpg - Sabah: FB, Hakan icin 10M euro bonservis plani, Hakan FB'ye sicak, Inter uzatmasina sicak degil, sozlesme 2027 yazi, Juventus'a da istekli degil | IDDIA | transfer_rota | foto: hakan_calhanoglu_inter_sirt.jpg (dun 17:50 Tuttosport kartinda da kullanildi)
