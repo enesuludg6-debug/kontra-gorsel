@@ -105,8 +105,11 @@ def logo(ticker, size=150):
         im = Image.open(p).convert("RGBA")
     except Exception:
         return None
-    im.thumbnail((size, size), Image.LANCZOS)
-    return im
+    bb = im.getbbox()
+    if bb:
+        im = im.crop(bb)
+    k = size / max(im.size)
+    return im.resize((max(1, int(im.width * k)), max(1, int(im.height * k))), Image.LANCZOS)
 
 
 def _accent(ticker, default=ACC):
@@ -142,9 +145,9 @@ def haber(ticker, kicker, baslik, satirlar, kaynak, out, etiket="HABER"):
     _frame(d, kicker.upper(), etiket)
     d.text((72, 190), ticker, font=mono(64, 700), fill=INK)
     if ticker.startswith("$"):
-        _logo_badge(img, ticker, W - 72, 150, 130)
+        _logo_badge(img, ticker, W - 72, 150, 210)
     f, lines = _fit_serif(d, baslik, 104, W - 144, 5)
-    y = 320
+    y = 400
     for ln in lines:
         d.text((72, y), ln, font=f, fill=INK); y += int(f.size * 1.05)
     y += 40
@@ -164,12 +167,12 @@ def rakamlar(ticker, baslik, kutular, yorum, kaynak, out, etiket="BİLANÇO"):
     """kutular: [(etiket, değer, alt_not), ...] en fazla 4."""
     img = Image.new("RGB", (W, H), BG); d = ImageDraw.Draw(img)
     _frame(d, ticker, etiket)
-    has = _logo_badge(img, ticker, W - 72, 150, 110)
-    f, lines = _fit_serif(d, baslik, 96, W - 144 - (140 if has else 0), 3)
+    has = _logo_badge(img, ticker, W - 72, 150, 190)
+    f, lines = _fit_serif(d, baslik, 96, W - 144 - (220 if has else 0), 3)
     y = 180
     for ln in lines:
         d.text((72, y), ln, font=f, fill=INK); y += int(f.size * 1.05)
-    y += 50
+    y = max(y, 360 if has else 0) + 50
     cw = (W - 144 - 30) // 2
     for i, (k, v, alt) in enumerate(kutular[:4]):
         x = 72 + (i % 2) * (cw + 30); yy = y + (i // 2) * 250
@@ -223,7 +226,7 @@ def dev_rakam(ticker, rakam, baslik, aciklama, kaynak, out, etiket="RAKAM", acik
     acc = _accent(ticker) if ticker else ACC
     d.text((72, 70), etiket, font=mono(24, 600), fill=acc)
     d.text((W - 72, 70), ticker, font=mono(26, 700), fill=ink, anchor="ra")
-    lg = logo(ticker, 170) if ticker.startswith("$") else None
+    lg = logo(ticker, 300) if ticker.startswith("$") else None
     y = 200
     if lg:
         img.paste(lg, ((W - lg.width) // 2, y), lg); y += lg.height + 40
@@ -251,12 +254,12 @@ def grafik(ticker, baslik, etiketler, degerler, birim, not_satiri, kaynak, out, 
     img = Image.new("RGB", (W, H), BG); d = ImageDraw.Draw(img)
     acc = _accent(ticker) if ticker else ACC
     _frame(d, ticker or etiket, etiket)
-    has = _logo_badge(img, ticker, W - 72, 145, 100) if ticker.startswith("$") else False
-    f, lines = _fit_serif(d, baslik, 84, W - 144 - (120 if has else 0), 2)
+    has = _logo_badge(img, ticker, W - 72, 145, 170) if ticker.startswith("$") else False
+    f, lines = _fit_serif(d, baslik, 84, W - 144 - (200 if has else 0), 2)
     y = 175
     for ln in lines:
         d.text((72, y), ln, font=f, fill=INK); y += int(f.size * 1.05)
-    top, bot = y + 70, H - 300
+    top, bot = max(y, 330 if has else 0) + 70, H - 300
     left, right = 90, W - 90
     mx = max(degerler) * 1.12; mn = 0 if tur == "bar" else min(degerler) * 0.9
     n = len(degerler); step = (right - left) / n
@@ -294,13 +297,13 @@ def karsilastir(t1, t2, baslik, satirlar, not_satiri, kaynak, out, etiket="KARŞ
     for ln in lines:
         d.text((72, y), ln, font=f, fill=INK); y += int(f.size * 1.05)
     y += 30
-    cx1, cx2 = 560, 860
+    cx1, cx2 = 600, 880
     for t, cx in ((t1, cx1), (t2, cx2)):
-        lg = logo(t, 120)
+        lg = logo(t, 190)
         if lg:
             img.paste(lg, (int(cx - lg.width / 2), y), lg)
-        d.text((cx, y + 140), t, font=mono(28, 700), fill=INK, anchor="ma")
-    y += 210
+        d.text((cx, y + 210), t, font=mono(28, 700), fill=INK, anchor="ma")
+    y += 280
     for m, v1, v2 in satirlar[:6]:
         d.line((72, y, W - 72, y), fill=LINE, width=1)
         d.text((72, y + 45), m, font=mono(26), fill=MUTED, anchor="lm")
@@ -320,7 +323,7 @@ def alinti(ticker, soz, kim, baglam, kaynak, out, etiket="AÇIKLAMA"):
     img = Image.new("RGB", (W, H), BG); d = ImageDraw.Draw(img)
     acc = _accent(ticker) if ticker.startswith("$") else ACC
     _frame(d, baglam.upper(), etiket)
-    _logo_badge(img, ticker, W - 72, 150, 110) if ticker.startswith("$") else None
+    _logo_badge(img, ticker, W - 72, 150, 200) if ticker.startswith("$") else None
     d.text((60, 160), "“", font=serif(260), fill=acc)
     f, lines = _fit_serif(d, soz, 86, W - 160, 7, 52)
     fi = serif(f.size, italic=True)
