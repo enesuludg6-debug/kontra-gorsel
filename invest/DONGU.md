@@ -27,3 +27,4 @@ Durdurmak için en alta `DURDUR` yazılı bir satır ekle (Enes ya da Claude, En
 - 16:22 Enes: sabit seriler + bilanco oncesi/sonrasi kisa+uzun (flood), genis ilgi listesi; gerektiginde bilanco disi olaylar.
 - 16:25 Enes: gunde 2-3 teknik analiz; sadece bugunun TA kaynaklari; Enes grafigi kendi uygulamasindan ekler (DEVIR 5h).
 - 16:30 HAZIR (Enes'e): compute fiyat tablosu (Enes gorseli) -> kisa tweet + 5'li flood. Dogrulanan: Anthropic 1,25Mr$/ay, Google 920Mn$/ay 110K GPU (S-1/SEC), IREN 40M$/MW kisa, 22M$/MW 5 yil, %90 pesin (IREN Q1 FY27, 24/7 Wall St). $/W-yil Google/Anthropic/H100 analist hesabi (* tahmini). Anthropic GPU sayisi kaynaklarda celisiyor (220K vs 325K) -> kullanilmadi | duzen:liste tema:mor, rakamlar tema:lacivert
+- 16:35 Enes: 'Benim gorusum:' gibi etiket/sunum kaliplari yasak, daha dogal akici (DEVIR 5).
