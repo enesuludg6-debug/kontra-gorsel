@@ -164,6 +164,9 @@ Shay'in en çok izlenen tweetleri (14-15.11): "$SPCX just did the impossible." (
 - Veri: şirket açıklamaları/10-Q/10-K (WebFetch ile SEC), stockanalysis.com çeyreklik tablolar. data.sec.gov API bu ortamda kapalı. En az son değeri şirketin kendi açıklamasından doğrula; kaynaklar çelişirse şirketin rakamı + DONGU'ya not.
 - Başlık hikâye anlatsın ("2018'den beri en büyük geri alım" gibi) ama sadece veri bunu gerçekten gösteriyorsa.
 - Başkasının grafiğini (Fiscal.ai, Koyfin vb.) tweete EKLEME; aynı veriyle kendi kartını çiz.
+- 2. ÖRNEK (Enes 15.11 18:50): ÇOKLU HİSSE KARŞILAŞTIRMA grafiği — aynı metrik, 6-12 hisse, küçükten büyüğe sıralı sütun (örn. "Forward F/K: SNDK 3,4 · MU 3,9 · NVDA 15,4 ... PLTR 69,8"). Metrikler: ileri F/K, gelir büyümesi, brüt marj, F/S, yılbaşından beri getiri, borç/özsermaye. Hisseler: AI/yarı iletken/altyapı grubu + portföy ($AXON $NBIS $RKLB $CBRS $DOCN $VRT $SPCX) + ilgi listesi.
+  - Hepsi AYNI kaynak ve AYNI tarihten (stockanalysis.com, Yahoo, FactSet vb.); tarihi kartta yaz. Bir hisse doğrulanamazsa grafikten çıkar.
+  - grafik(tur='bar') etiketler=ticker'lar; sıralı ver. Görüş cümlesi: tablo ne söylüyor ("hafıza şirketleri neden bu kadar ucuz" gibi), al-sat yok.
 
 ## 5b. Görsel çeşitliliği (Enes 15.11: "görseller hep aynı olmasın, logo kullan")
 - Düzenler: haber() | rakamlar() | liste() | dev_rakam() | grafik(tur='bar'/'cizgi') | karsilastir() | alinti(). Ayrıca dev_rakam(acik_tema=True) açık renk.

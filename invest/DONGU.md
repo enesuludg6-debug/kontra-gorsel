@@ -49,3 +49,4 @@ Durdurmak için en alta `DURDUR` yazılı bir satır ekle (Enes ya da Claude, En
 - 18:32 HAZIR (Enes'e, Enes gorsel): 20261115_1832_ant_ipo_foto.jpg - ANT kartinin Enes gorselli surumu (ayni tweet, 1830 kartinin yerine) | duzen:foto_kart | tema:kagit | yeni foto: anthropic_logo.jpg
 - 18:40 HAZIR (Enes'e, Enes Fiscal.ai grafigi): 20261115_1840_amat_geri_alim.jpg - AMAT FQ4: geri alim 2,00B$ (sirket; grafik 2,133B diyor -> sirket rakami), FY 3,18B, gelir 10,41B +%53, GM %50,4, FQ1 tahmin 11,1B (8-K 12.11). '2018'den beri en yuksek' iddiasi kullanilmadi (rakam celiskisi) | BILANCO | duzen:liste | tema:bordo
 - 18:45 Enes: uzun seri sutun grafikler (Fiscal.ai tarzi) yapilabilir -> DEVIR 5k; kart.py grafik() 10+ cubuk destegi.
+- 18:50 Enes: coklu hisse karsilastirma grafigi ornegi (forward F/K, 11 hisse) -> DEVIR 5k 2. ornek.
