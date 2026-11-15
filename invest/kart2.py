@@ -576,14 +576,14 @@ def halka(ticker, yuzde, baslik, orta_alt, yan, kaynak, out, etiket="VERİ", ren
 
 
 # M — ISI HARİTASI: yeşil/kırmızı kutular (kapanış, haftanın hareketleri)
-def isi(baslik, alt, kutular, kaynak, out, etiket="PİYASA", kolon=3):
+def isi(baslik, alt, kutular, kaynak, out, etiket="PİYASA", kolon=3, hane=1):
     """kutular: [(ticker, yüzde_float)]"""
     img = Image.new("RGB", (W, H), T_BG); d = ImageDraw.Draw(img)
     _pill(d, (56, 56), etiket, (255, 255, 255))
     f, ls = _fit(d, baslik, "Black", 76, W - 112, 2); y = 126
     for l in ls:
         d.text((56, y), l, font=f, fill=(255, 255, 255)); y += int(f.size * 1.06)
-    d.text((56, y + 4), alt, font=sans(30, "Medium"), fill=(160, 160, 172)); y += 70
+    d.text((56, y + 14), alt, font=sans(30, "Medium"), fill=(160, 160, 172)); y += 80
     n = len(kutular); rows = math.ceil(n / kolon); G = 14
     cw = (W - 112 - G * (kolon - 1)) / kolon; ch = (H - 150 - y - G * (rows - 1)) / rows
     mx = max(abs(v) for _, v in kutular) or 1
@@ -596,7 +596,7 @@ def isi(baslik, alt, kutular, kaynak, out, etiket="PİYASA", kolon=3):
             p = _plate(lg, 12, 18); img.paste(p, (int(x + 20), int(yy + 20)), p)
         d = ImageDraw.Draw(img)
         d.text((x + cw - 22, yy + 26), t.replace("$", ""), font=sans(34, "ExtraBold"), fill=(255, 255, 255), anchor="ra")
-        s = ("+" if v > 0 else "−" if v < 0 else "") + f"%{abs(v):.1f}".replace(".", ",")
+        s = ("+" if v > 0 else "−" if v < 0 else "") + f"%{abs(v):.{hane}f}".replace(".", ",")
         d.text((x + 22, yy + ch - 22), s, font=_fitnum(d, s, cw - 44, 76), fill=(255, 255, 255), anchor="ls")
     _footer(img, kaynak, acc=(255, 255, 255), line=T_BG)
     return _save(img, out)

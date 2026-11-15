@@ -92,3 +92,4 @@ Durdurmak için en alta `DURDUR` yazılı bir satır ekle (Enes ya da Claude, En
 - 01:52 Enes: DEVIR_OZET 4b HABER HIZI KAYNAKLARI eklendi (IR/X/Bloomberg-Reuters-FT/takvim + hizli haber siteleri listesi). 01:00-09:00 penceresi: tur 09:05'e kuruldu.
 - 01:55 Enes: aralik 5-20 dk rastgele; onemli gelismede 01:00-09:00 siniri gevsetilir (DEVIR_OZET 2 guncellendi).
 - 01:55 Enes: gece gevsetmesi yalniz onceden bilinen aciklama icin (takvimli bilanco/veri); beklenmedik haber icin gece tur kurulmaz.
+- 02:12 AUTO (Enes ekran goruntusu): 20261116_0212_vadeli.jpg - vadeli endeksler haftaya yukselisle basladi: Dow +%0,06 (52.377,6), S&P 500 +%0,19 (7.576,1), Nasdaq 100 +%0,58 (28.107,0), Russell 2000 +%0,24 (2.797,2); cuma kapanislariyla tutarli (S&P 7.561,67; Dow 52.347,55; AP) | VADELI | duzen:kart2.isi. DEVIR_OZET 4c: vadeli hep atilir.

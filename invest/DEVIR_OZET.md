@@ -43,6 +43,11 @@ B) Hızlı kaynak listesi (her turda önce bunlara bak, sırayla):
 - Sosyal sinyal (doğrulamadan KULLANMA): X'te şirket/CEO hesapları, Walter Bloomberg, DeItaone, Unusual Whales, FirstSquawk gibi hızlı haber hesapları; her haber 2 güvenilir kaynakla doğrulanmadan atılmaz.
 C) Uygulama: her turda önce (1) SEC/IR/bülten, (2) Reuters/CNBC/Bloomberg/Benzinga son dakika, (3) takvim, sonra (4) menü. Kaynak çelişirse atma. Hız için: son dakika ve bilanço rakamı en önce, analiz 30-90 dk sonra.
 
+## 4c. VADELİ İŞLEMLER (FUTURES) HEP ATILIR (Enes 16.11 02:05)
+- Her işlem günü vadeli endeks tweeti atılır: sabah 09:05 turunda (Dow, S&P 500, Nasdaq 100, Russell 2000 vadelileri, önceki kapanışa göre %) ve ABD açılışından önce (~15:00-15:25 TSİ) güncel durumla tekrar. Önemli sürprizde (örn. %1+ hareket) ek tweet.
+- Pazar akşamı vadeliler açılınca (~02:00 TSİ Pzt) Enes ekran görüntüsü atarsa o rakamlarla at; yoksa 2 kaynakla doğrula.
+- Düzen: kart2.isi(kolon=2, hane=2, etiket="VADELİ İŞLEMLER"); yüzde 2 basamak. Kapanışa göre değişim yazılır; vadeli = "açılışı gösteren işaret", garanti değil.
+
 ## 5. Yazım stili
 - Arkadaşına anlatır gibi, kısa cümle, 2-4 cümle, en fazla 2-3 rakam. Şirketi ilk geçtiği yerde ne iş yaptığıyla tanıt. Terimleri sadeleştir.
 - Her tweette tek cümle görüş (bilanço rakam tweeti hariç) ama "bence", "gösteriyor bana", "düşünüyorum" TEKRAR ETMESİN; kapanışları çeşitlendir (düz tespit, kısa yargı, karşıtlık, takip, yorumu başa koyma).
