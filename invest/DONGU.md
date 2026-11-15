@@ -74,3 +74,4 @@ Durdurmak için en alta `DURDUR` yazılı bir satır ekle (Enes ya da Claude, En
 - 20:54 AUTO: 20261115_2055_nbis_bento.jpg - NBIS Q3 gelir 980,8M (+%571, 6-K 12.11 + Zacks), adj FAVOK 465,8M (gecen yil -5,2M), 2026 tahmin 3,0-3,4 -> 3,0-3,2 Mr (3. taraf veri merkezi gecikmesi), 2027 12-13 Mr. Buffer 6af9f1d2ee359588b5423771 | BILANCO | duzen:kart2.bento
 - 21:00 Enes: K-T tarzlari cok iyi, bunlar kullanilacak, secenekleri cogalt.
 - 21:10 kart2 v4: U skor, V zaman, W ilerleme, X dilim, Y dortlu, Z manset. Ornekler g/ornek/00_hepsi_v4.jpg.
+- 21:10 Enes YENI KURALLAR: tekrar yok (once atilan konu tekrar atilmaz); oncelikli turler: son dakika, bu hafta ne var, bilanco rakamlari (yorumsuz), bilanco sonrasi analiz (yorumlu) - artirilacak (DEVIR ICERIK KURALLARI).
