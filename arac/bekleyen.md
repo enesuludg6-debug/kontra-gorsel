@@ -23,3 +23,4 @@
 - [21:54] Norvec-Galler sonucu atildi -> TAMAM.
 - [22:11] Gurcistan 0-2 Macaristan (VAVEL, footballnation, sportzcraazy): 73' Dvali kendi kalesine, 85' B. Varga (Szoboszlai asist, tek kaynak). Gurcistan UL'de 5 macta gol yok (onefootball: ilk 4'te gol yok). Enes'ten Szoboszlai/Macaristan fotosu istendi. -> TAMAM 22:45 atildi.
 - [10:56] Isvec 3-2 Bosna (UEFA): Svensson erken, Gyokeres 2 penalti (ilk yari) -> ust uste 8 macta gol, rekor; Bosna: Gigovic, Kolasinac (74. macinda ilk milli golu). Isvec ve Avusturya (1-0 Irlanda, Kalajdzic 79') A Ligi'ne yukseldi. Enes'ten Gyokeres fotosu istendi. -> TAMAM 11:00 hazirlandi.
+- [11:28] Kislyak (CSKA, 21): Rus menajer Timur Gurtskaya 'Hem GS'den hem FB'den teklif var. Ilk ilgilenen BJK'ydi ama teklifleri kabul gormedi' (A Spor, Aksam). Enes'ten Kislyak fotosu istendi. Yedek: Kubo-BJK (Todo Mercado/Hurriyet, IDDIA).

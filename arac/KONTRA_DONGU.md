@@ -259,3 +259,4 @@
 - 10:56 tur: Isvec-Bosna/Gyokeres secildi, arsivde Gyokeres fotosu yok -> Enes'ten istendi.
 - 11:00 HAZIR (Enes'e, Enes foto): gyokeres_8_mac.jpg - SWE 3-2 BIH, Gyokeres 2 pen, 8 mac ust uste gol rekoru, Isvec A Ligi'ne yukseldi, Kolasinac 74. macinda ilk milli gol (UEFA) | REKOR | veri_panel | yeni foto: gyokeres_arsenal.jpg
 - 11:13 HAZIR (Enes'e): a_ligi_hesabi.jpg - TR 0 puan -10 averaj; 4 grup sonuncusundan en kotu 2 direkt B, iyi 2 play-off; galibiyet play-off garanti (Takvim), 1 puan yetebilir (Timeturk), rakipler Sirbistan/Cekya (Ajansspor) | SENARYO | durum_listesi | foto: milli_gol_sevinci_8_10_18_21.jpg (isim yok)
+- 11:28 tur: Kislyak secildi, arsivde foto yok -> Enes'ten istendi.
