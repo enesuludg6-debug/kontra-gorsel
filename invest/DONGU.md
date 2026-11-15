@@ -58,3 +58,4 @@ Durdurmak için en alta `DURDUR` yazılı bir satır ekle (Enes ya da Claude, En
 - 18:55 HAZIR (Enes'e, Enes Michael Dell tweeti): 20261115_1855_h100_kira.jpg - H100 saatlik kira 1,96 -> 3,10 $ (+%58) bir yilda; Silicon Data SDH100RT 14.11 3,13$ (guncel dogrulandi), yil onceki 1,96 Dell'in Bloomberg grafiginden | RAKAM | duzen:dev_rakam acik | tema:zumrut. Sablon 1 (o zaman vs simdi).
 - 19:05 HAZIR (Enes'e, 10dk #3, portfoy hissesi): 20261115_1905_docn_buyume.jpg - DOCN Q3 gelir 321M +%40 (10 yilin en hizlisi), AI musteri ARR 376M +%288, Q4 tahmin +%44-45, 2027 %60+ (onceki %50+), FY26 ~%34 (8-K 3.11, Investing.com) | GRAFIK | duzen:grafik | tema:mor
 - 19:10 Enes: kapanis cumlesi cesitliligi (gosteriyor bana / dusunuyorum tekrari) -> DEVIR 5.
+- 19:15 Enes YENI KURAL: her tweette bilginin ne anlama geldigini Enes'e acikla (DEVIR OGRETME KURALI).
