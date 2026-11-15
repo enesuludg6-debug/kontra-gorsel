@@ -52,6 +52,32 @@ def big(name, mode):
     return im
 
 
+# ---------------- video klip destegi ----------------
+# Shot'taki isim "klip:dosya@baslangic_sn" ya da "klip:dosya@baslangic_sn@hiz" ise klip/<dosya>.mp4'ten okunur.
+# hiz < 1 = slow-motion (0.5 = yari hiz). Kareler sirayla, ffmpeg borusundan akar.
+KLIP = os.path.join(ROOT, "klip")
+_pipe = {"key": None, "proc": None}
+
+
+def klip_frame(spec, mode, shot_key, n_frames):
+    """Bu shot icin sradaki klip karesini 1.3x buyuk, renk islenmis PIL olarak dondurur."""
+    parts = spec[5:].split("@"); fn = parts[0]; st = float(parts[1]) if len(parts) > 1 else 0.0
+    spd = float(parts[2]) if len(parts) > 2 else 1.0
+    tw, th = int(W * 1.3) // 2 * 2, int(H * 1.3) // 2 * 2
+    if _pipe["key"] != shot_key:
+        if _pipe["proc"]: _pipe["proc"].kill()
+        src = next(os.path.join(KLIP, f) for f in os.listdir(KLIP) if os.path.splitext(f)[0] == fn)
+        vf = (f"setpts=PTS/{spd},fps={FPS},scale={tw}:{th}:force_original_aspect_ratio=increase,crop={tw}:{th}")
+        _pipe["proc"] = subprocess.Popen(["ffmpeg", "-v", "error", "-ss", str(st), "-i", src, "-an", "-vf", vf,
+                                          "-frames:v", str(n_frames + 2), "-f", "rawvideo", "-pix_fmt", "rgb24", "-"],
+                                         stdout=subprocess.PIPE, stderr=subprocess.DEVNULL)
+        _pipe["key"] = shot_key; _pipe["last"] = None
+    raw = _pipe["proc"].stdout.read(tw * th * 3)
+    if len(raw) == tw * th * 3:
+        _pipe["last"] = grade(Image.frombytes("RGB", (tw, th), raw), mode)
+    return _pipe["last"]
+
+
 # vinyet + grain
 yy, xx = np.mgrid[0:H, 0:W]
 r = np.sqrt(((xx - W / 2) / (W / 2)) ** 2 + ((yy - H / 2) / (H / 2)) ** 2)
@@ -158,7 +184,7 @@ def frame(fi):
     if mode == "black":
         frame_a = np.zeros((H, W, 3), np.float32)
     else:
-        src = big(name, mode)
+        src = (klip_frame(name, mode, (b0, name), int(sd * FPS) + 1) if name.startswith("klip:") else big(name, mode))
         cw, ch = W * 1.3 / zoom, H * 1.3 / zoom
         cx0 = (src.width - cw) / 2 + ox; cy0 = (src.height - ch) / 2 + oy
         im = src.resize((W, H), Image.BILINEAR, box=(cx0, cy0, cx0 + cw, cy0 + ch))
