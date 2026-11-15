@@ -10,7 +10,7 @@ Bu dosya, 15.11.2026 boyunca Enes Uludağ'ın canlı sohbette verdiği tüm kara
 
 ## 2. Paylaşım modu (son karar)
 - OTOMATİK: Buffer `create_post`, channelId `6af99a1aece6dfde5fd109c7`, organizationId `6af5719777bce44fa736607b`, schedulingType `automatic`, mode `shareNow`, görselli.
-- Aralık: her tur sonunda 6-14 dk arası RASTGELE `send_later` (zincir). Gece 01:00-09:00 TSİ paylaşım yok (09:05'e kur). Günde en fazla 40 tweet (Enes'in elle attıkları dahil, Buffer list_posts ile say).
+- Aralık: her tur sonunda 6-14 dk arası RASTGELE `send_later` (zincir). Gece 01:00-09:00 TSİ paylaşım yok (09:05'e kur). Günde en fazla 45 tweet (Enes 15.11 21:46; önceki 40) (Enes'in elle attıkları dahil, Buffer list_posts ile say).
 - Durdurma: Enes "durdur" derse DONGU.md'ye satır başında tek başına `DURDUR` yaz, zinciri kurma.
 - Her paylaşımdan sonra Enes'e SendUserMessage: paylaşılan metin + "Ne anlama geliyor?" öğretici bölüm.
 - Enes'ten SADECE fotoğraf istenir (kişi haberi için). Başka soru sorulmaz.

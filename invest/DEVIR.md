@@ -74,7 +74,7 @@ Amaç en iyi getiriyi yakalamak ya da borsayı en iyi bilen görünmek DEĞİL: 
 4. `invest/DONGU.md` içinde `DURDUR` satırı son satırlardaysa HİÇBİR ŞEY ATMA, çık.
 
 ## 1. Kapasite ve zamanlama (TSİ)
-- Günlük hedef 25-40, TAVAN 40 (Enes 15.11). Hafta içi ~2-3 tweet/tur, hafta sonu 15-20. Bir çalışmada en fazla 3 tweet; aynı çalışmada atılanlar farklı konu ve farklı içerik türü olsun.
+- Günlük hedef 25-40, TAVAN 45 (Enes 15.11 21:46; önceki 40). Hafta içi ~2-3 tweet/tur, hafta sonu 15-20. Bir çalışmada en fazla 3 tweet; aynı çalışmada atılanlar farklı konu ve farklı içerik türü olsun.
 - Paylaşım penceresi 09:00-01:00. 01:00-09:00 arası paylaşım yok.
 - ABD seansı kışın 17:30-00:00 TSİ. Premarket özeti ~16:30-17:15, açılış ~17:45, kapanış özeti 00:05-00:45.
 - Hafta sonu: günde 15-20 tweet (haftalık özet, gelecek hafta bilanço takvimi, makro takvim, eğitici içerik).
