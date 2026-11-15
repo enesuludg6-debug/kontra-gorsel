@@ -92,6 +92,21 @@ Shay'in en çok izlenen tweetleri (14-15.11): "$SPCX just did the impossible." (
 - BİLANÇO SONRASI (açıklamadan sonraki ilk turda): gerçekleşen vs beklenti, rehberlik, ilk fiyat tepkisi (doğrulanmışsa) + net görüş: "iyi çeyrek ama rehberlik zayıf", "satış abartı bence" gibi. Kart: rakamlar() veya grafik().
 - Portföy hisselerinde ($NBIS $RKLB $DOCN $AXON $SPCX $VRT) bilanço öncesi ve sonrası tweet KESİN atılır; tarihleri her pazartesi kontrol et.
 
+## 5f. SABİT SERİLER (Enes 15.11 16:18)
+- **Sabah notu** — her işlem günü 16:00 turunda (ABD açılışı 17:30 TSİ). Vadeli endeksler, premarket'te hareket edenler ve nedeni, günün takvimi (veri, bilanço, Fed). Tek tweet + liste() kartı, etiket "SABAH NOTU".
+- **Kapanış** — her işlem günü 00:05 (portföy sorusu ile birlikte, ana sohbette). Endeksler + günün 3 öne çıkanı + portföy güncellemesi.
+- **Haftanın karnesi** — Cuma kapanışı sonrası (Cumartesi 00:05): haftalık endeks performansı, haftanın en çok yükselen/düşen 3'er büyük hissesi, haftanın 1 olayı. Kart: liste() veya grafik().
+- **Gelecek hafta takvimi** — Pazar öğlen turu (12:00): bilanço takvimi (portföy + ilgi listesi önce) + makro takvim (Fed, CPI, istihdam).
+
+## 5g. BİLANÇO ÖNCESİ / SONRASI — KISA + UZUN (Enes 15.11 16:18)
+- Kapsam: portföy ($NBIS $RKLB $DOCN $AXON $SPCX $VRT) + ilgi listesi ($ON $AAOI $HOOD $TEM $CRDO $PLTR $ISRG $ASTS $MU) + Enes'in ilgi alanındaki büyükler (AI/yarı iletken/uzay/bulut/fintech: $NVDA $AMD $AVGO $TSM $MSFT $GOOGL $AMZN $META $ORCL $CRWV $SNOW vb.).
+- Her biri için İKİ içerik:
+  1. KISA: tek tweet + kart (öncesi: beklenti + bence neye bakılacak; sonrası: gelen vs beklenti + net görüş).
+  2. UZUN (flood/zincir): 5-7 tweet. Öncesi: 1) kanca 2) beklentiler (gelir, EPS, kaynaklı) 3) geçen çeyrek ne olmuştu 4) bu çeyrek bakılacak 2-3 şey 5) riskler 6) benim görüşüm. Sonrası: 1) kanca + net görüş 2) rakamlar vs beklenti 3) şirketin verdiği tahmin 4) segment/marj detayı 5) yönetimin söylediği önemli bir şey 6) hisse tepkisi (doğrulanmışsa) 7) özet görüş. İlk tweette kart, 2-3 tweette ek kart (rakamlar/grafik).
+- Zamanlama: öncesi = açıklamadan 1 gün önce akşam veya aynı gün sabah notunda; sonrası = açıklamadan sonraki ilk tur (gece açıklayanlar için ertesi sabah 09:00 turu).
+- Bilanço dışı büyük olaylarda da (Fed kararı, büyük satın alma, IPO, CEO değişikliği, sert düşüş/yükseliş) gerekirse aynı kısa + uzun formatı kullan.
+- Ana sohbete gönderim: zincirde her tweeti ayrı mesaj olarak, başında "1/6", "2/6" ile gönder; kartları ilgili tweetin hemen önünde SendUserFile ile.
+
 ## 5b. Görsel çeşitliliği (Enes 15.11: "görseller hep aynı olmasın, logo kullan")
 - Düzenler: haber() | rakamlar() | liste() | dev_rakam() | grafik(tur='bar'/'cizgi') | karsilastir() | alinti(). Ayrıca dev_rakam(acik_tema=True) açık renk.
 - Son 5 paylaşımda en çok kullanılan düzeni bu turda KULLANMA (DONGU.md'de düzen adını yaz). Aynı düzen arka arkaya iki kez gelmesin.
