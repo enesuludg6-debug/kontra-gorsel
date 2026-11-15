@@ -34,3 +34,4 @@ Durdurmak için en alta `DURDUR` yazılı bir satır ekle (Enes ya da Claude, En
 - 16:55 Enes: anlik portfoy AXON NBIS RKLB CBRS DOCN VRT SPCX (CBRS eklendi; agirlik/tutar yok). DEVIR guncellendi.
 - 16:47 Enes: 'EnesInvestUS taslak hazirlama' (Buffer taslak) zamanlanmis gorevi kapatildi. Saatlik hazirlik ve gunluk portfoy sorusu acik.
 - 16:55 HAZIR (Enes'e, Enes grafik): TA $TSLA haftalik, simetrik ucgen (2024 dibi yukselen cizgi / 2025 sonu zirvesinden inen cizgi). Kapanis 390,22 -%1,82 13.11 (stockanalysis). Seviyeler Enes grafiginden: 398,95 / 417,92 ust, 375,10 / 336,82 alt | TA | grafik Enes
+- 16:58 Enes: 'bence' cok tekrar ediyor; gorusu 'X'in uzun surebilecegini dusunmuyorum' gibi farkli kaliplarla kur (DEVIR 5).
