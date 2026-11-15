@@ -61,6 +61,12 @@ Enes'in güncel portföyü (15.11.2026): $NBIS $RKLB $DOCN $AXON $SPCX (SpaceX) 
   - "AI tarafının nabzını yine bu rakamlar tutacak." → "Piyasa yine buna bakacak."
   - "Şirket güçlü bir çeyrek geride bıraktı." → "Çeyrek iyi geçmiş, beklentinin üstünde."
 - Kart üstündeki başlık ve italik not da aynı sade dilde olsun.
+- GÜNLÜK KONUŞMA DİLİ (Enes 15.11 16:14, ikinci uyarı): kahvede arkadaşına anlatır gibi.
+  - Saatleri "20:00 TSİ" değil "akşam 8'de", "gece yarısı", "sabah" diye yaz.
+  - Teknik kelimeyi gündelik karşılığıyla değiştir: "tutanak" → "toplantı notları", "rehberlik" → "şirketin önümüzdeki çeyrek için verdiği tahmin", "faaliyet kârı" kalabilir ama açıklamasız jargon yığma.
+  - Kısa cümle, devrik cümle serbest: "Fena değil bu.", "Bence abartı.", "Asıl buna bakmak lazım."
+  - Örnek (iyi): "Bu hafta Fed tarafı da hareketli. Pazartesi akşam 8'de Warsh konuşacak. Çarşamba akşam 10'da da geçen toplantının notları çıkıyor. Bence asıl o notlara bakmak lazım."
+  - Örnek (kötü): "Bu hafta sadece Nvidia yok, Fed de konuşuyor. Bence piyasa en çok tutanaklara bakar, Aralık için ipucu varsa orada çıkar." 
 - Gerekirse "bence", "açıkçası", "fena değil", "beklediğimden iyi" gibi doğal ifadeler kullanılabilir (yorumsa yorum olduğu belli olsun).
 - Sade, doğal Türkçe. Emoji yok. "Kritik nokta", "vb.", "dikkat çekici bir gelişme" gibi yapay kalıplar yok.
 - İlk satır durdurmalı: rakam, tezat veya net görüş. Örn: "$CRDO bu satış abartı. Gelir $479M, +%115 YoY."
