@@ -166,6 +166,7 @@ Shay'in en çok izlenen tweetleri (14-15.11): "$SPCX just did the impossible." (
 - Başkasının grafiğini (Fiscal.ai, Koyfin vb.) tweete EKLEME; aynı veriyle kendi kartını çiz.
 - 2. ÖRNEK (Enes 15.11 18:50): ÇOKLU HİSSE KARŞILAŞTIRMA grafiği — aynı metrik, 6-12 hisse, küçükten büyüğe sıralı sütun (örn. "Forward F/K: SNDK 3,4 · MU 3,9 · NVDA 15,4 ... PLTR 69,8"). Metrikler: ileri F/K, gelir büyümesi, brüt marj, F/S, yılbaşından beri getiri, borç/özsermaye. Hisseler: AI/yarı iletken/altyapı grubu + portföy ($AXON $NBIS $RKLB $CBRS $DOCN $VRT $SPCX) + ilgi listesi.
   - Hepsi AYNI kaynak ve AYNI tarihten (stockanalysis.com, Yahoo, FactSet vb.); tarihi kartta yaz. Bir hisse doğrulanamazsa grafikten çıkar.
+  - 3. ÖRNEK (Enes 15.11 18:55): "SaaS şirketleri, önümüzdeki 12 ay gelir büyümesi beklentisi" sıralaması (FROG 22% ... DOCN 55%, PLTR 63%). Sektör bazlı sıralama (yazılım, yarı iletken, uzay, siber güvenlik) + portföy hissesi listedeyse vurgula (ör. $DOCN 2. sırada). NTM = analist beklentisi: kartta "beklenti" diye yaz, tek kaynak ve tarih.
   - grafik(tur='bar') etiketler=ticker'lar; sıralı ver. Görüş cümlesi: tablo ne söylüyor ("hafıza şirketleri neden bu kadar ucuz" gibi), al-sat yok.
 
 ## 5b. Görsel çeşitliliği (Enes 15.11: "görseller hep aynı olmasın, logo kullan")
