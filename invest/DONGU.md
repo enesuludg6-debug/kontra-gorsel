@@ -40,3 +40,4 @@ Durdurmak için en alta `DURDUR` yazılı bir satır ekle (Enes ya da Claude, En
 - 17:05 HAZIR (Enes'e): 20261115_1700_crwv_siparis.jpg - CoreWeave Q3: gelir 3,66Mr$ (+%168), backlog 132,5Mr$, borc ~47Mr$ (CNBC, SEC, implicator) | HABER | duzen:dev_rakam | tema:kagit
 - 17:15 Enes: TradingView icin Chrome/bilgisayar baglantisina izin; sart: X hesabina asla girilmeyecek (DEVIR basi).
 - 17:20 Enes: TradingView akisi (arastir > ciz > SS > indikator > SS > Enes'e) DEVIR 5j.
+- 17:30 Enes YENI KURAL: Claude kendisi tweet atmayacak; sadece Enes'in attiklarindan tweet yapilacak. 'Saatlik tweet hazirligi' gorevi kapatildi (trig_01DqTR9xdqwHkaLqzks8jm7d). DEVIR basina ISTEK MODU eklendi.
