@@ -123,9 +123,10 @@ def T(txt, size=170, color=WHITE, font=ANTON, shear=0.18):
 
 # ---------------- kurgu (zaman: vurus cinsinden) ----------------
 # (bas_vurus, vurus_sayisi, foto|None, mod, [ (yazi, boyut, renk, y, gecikme_vurus) ], efekt)
-I0 = 0; BU = 8; DROP = 16; OUTRO = 40; END = 48
+I0 = 0; BU = 8; DROP = 16; OUTRO = 48; END = 56
+OUT = os.path.join(ROOT, "g", "fra_tur_edit_klipli.mp4")
 SHOTS = [
-    (0, 4, "milli_8_uzgun_ispanya", "dark", [("5 MAÇ.", 190, WHITE, 0.40, 0), ("0 PUAN.", 190, KIRMIZI, 0.52, 2)], "slow"),
+    (0, 4, "klip:k5_dortmund_taraftar@2.0@0.5", "dark", [("5 MAÇ.", 190, WHITE, 0.40, 0), ("0 PUAN.", 190, KIRMIZI, 0.52, 2)], "slow"),
     (4, 4, "sergen_yalcin_milli", "dark", [("SON", 230, WHITE, 0.36, 0), ("ŞANS.", 230, KIRMIZI, 0.49, 1.5)], "slow"),
     (8, 2, "fransa_10_sevinc", "fra", [("MBAPPÉ", 200, WHITE, 0.72, 0)], "build"),
     (10, 2, "fransa_sirt_mbappe_dembele", "fra", [("10 PUAN", 190, WHITE, 0.72, 0)], "build"),
@@ -134,25 +135,33 @@ SHOTS = [
     (14, 0.5, "fransa_11_7_10_12", "fra", [], "build"),
     (14.5, 0.5, "fransa_10_sevinc", "fra", [], "build"),
     (15, 1, None, "black", [("AMA...", 210, WHITE, 0.46, 0)], "none"),
-    # ---- DROP ----
-    (16, 2, "milli_gol_sevinci_8_10_18_21", "tur", [("AY", 260, WHITE, 0.30, 0), ("YILDIZ", 260, KIRMIZI, 0.43, 0.5)], "drop"),
-    (18, 2, "milli_8_sut_euro2024", "tur", [("PES", 260, WHITE, 0.70, 0), ("YOK.", 260, KIRMIZI, 0.83, 0.5)], "drop"),
-    (20, 2, "milli_beyaz_bayrak_11_9_8", "tur", [("BİZ", 330, WHITE, 0.72, 0)], "drop"),
-    (22, 2, "hakan_calhanoglu_inter_sirt", "tur", [], "drop"),
-    (24, 1, "sergen_yalcin_milli", "tur", [], "drop"),
-    (25, 1, "milli_gol_sevinci_8_10_18_21", "tur", [], "drop"),
-    (26, 1, "milli_8_sut_euro2024", "tur", [], "drop"),
-    (27, 0.5, "milli_beyaz_bayrak_11_9_8", "tur", [], "drop"),
-    (27.5, 0.5, "hakan_calhanoglu_inter_sirt", "tur", [], "drop"),
-    (28, 4, "milli_beyaz_bayrak_11_9_8", "tur", [("90", 420, WHITE, 0.62, 0), ("DAKİKA", 200, KIRMIZI, 0.80, 1)], "push"),
-    (32, 2, "milli_gol_sevinci_8_10_18_21", "tur", [("İNAN.", 280, WHITE, 0.72, 0)], "drop"),
-    (34, 1, "milli_8_sut_euro2024", "tur", [], "drop"),
-    (35, 1, "hakan_calhanoglu_inter_sirt", "tur", [], "drop"),
-    (36, 2, "sergen_yalcin_milli", "tur", [("HAYDİ", 230, WHITE, 0.68, 0)], "drop"),
-    (38, 2, "milli_gol_sevinci_8_10_18_21", "tur", [("TÜRKİYE", 220, KIRMIZI, 0.70, 0)], "drop"),
+    # ---- DROP: hepsi video kesiti ----
+    (16, 2, "klip:k6_kerem@0.0", "tur", [("AY", 260, WHITE, 0.30, 0), ("YILDIZ", 260, KIRMIZI, 0.43, 0.5)], "drop"),
+    (18, 2, "klip:k8_arda_euro@3.7@0.5", "tur", [("PES", 260, WHITE, 0.70, 0), ("YOK.", 260, KIRMIZI, 0.83, 0.5)], "drop"),
+    (20, 1, "klip:k8_arda_euro@5.5", "tur", [], "drop"),
+    (21, 1, "klip:k6_kerem@3.0", "tur", [], "drop"),
+    (22, 2, "klip:k2_arda_dortmund@3.0", "tur", [("BİZ", 330, WHITE, 0.72, 0)], "drop"),
+    (24, 1, "klip:k10_milli_mac@4.0", "tur", [], "drop"),
+    (25, 1, "klip:k9_futbolcular@22.0", "tur", [], "drop"),
+    (26, 1, "klip:k9_futbolcular@24.0", "tur", [], "drop"),
+    (27, 0.5, "klip:k6_kerem@12.9", "tur", [], "drop"),
+    (27.5, 0.5, "klip:k10_milli_mac@2.6", "tur", [], "drop"),
+    (28, 4, "klip:k5_dortmund_taraftar@6.0@0.6", "tur", [("90", 420, WHITE, 0.62, 0), ("DAKİKA", 200, KIRMIZI, 0.80, 1)], "push"),
+    (32, 2, "klip:k9_futbolcular@18.9@0.6", "tur", [("İNAN.", 280, WHITE, 0.72, 0)], "drop"),
+    (34, 1, "klip:k1_milli@1.3", "tur", [], "drop"),
+    (35, 1, "klip:k6_kerem@4.2", "tur", [], "drop"),
+    (36, 1, "klip:k10_milli_mac@0.0", "tur", [], "drop"),
+    (37, 1, "klip:k1_milli@9.1", "tur", [], "drop"),
+    (38, 2, "klip:k9_futbolcular@29.5", "tur", [("HAYDİ", 230, WHITE, 0.70, 0)], "drop"),
+    (40, 2, "klip:k6_kerem@21.0", "tur", [], "drop"),
+    (42, 1, "klip:k8_arda_euro@5.9", "tur", [], "drop"),
+    (43, 1, "klip:k10_milli_mac@12.0", "tur", [], "drop"),
+    (44, 2, "klip:k2_arda_dortmund@6.0", "tur", [("TÜRKİYE", 220, KIRMIZI, 0.72, 0)], "drop"),
+    (46, 1, "klip:k1_milli@14.4", "tur", [], "drop"),
+    (47, 1, "klip:k9_futbolcular@26.0", "tur", [], "drop"),
     # ---- OUTRO ----
-    (40, 8, "milli_beyaz_bayrak_11_9_8", "tur", [("FRANSA", 190, WHITE, 0.30, 0.5), ("TÜRKİYE", 190, KIRMIZI, 0.40, 1.5),
-                                                 ("BU AKŞAM 22.45", 92, WHITE, 0.52, 2.5)], "outro"),
+    (48, 8, "klip:k5_dortmund_taraftar@0.0@0.5", "tur", [("FRANSA", 190, WHITE, 0.30, 0.5), ("TÜRKİYE", 190, KIRMIZI, 0.40, 1.5),
+                                                          ("BU AKŞAM 22.45", 92, WHITE, 0.52, 2.5)], "outro"),
 ]
 TOTAL = END * B + 0.4
 NF = int(TOTAL * FPS)
