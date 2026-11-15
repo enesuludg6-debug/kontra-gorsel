@@ -49,6 +49,14 @@ Enes'in güncel portföyü (15.11.2026): $NBIS $RKLB $DOCN $AXON $SPCX (SpaceX) 
 - Spam görünmesin: içerik türlerini karıştır, aynı ticker'ı 3 saat içinde tekrar etme.
 - Gerçek kişi fotoğrafı, logo kopyası, başkasının görseli yok. Sadece `invest/kart.py` ile üretilen kartlar.
 
+## 5.0 HEDEF OKUR — EN ÖNEMLİ KURAL (Enes 15.11 16:25)
+- Her tweet, ABD borsası hakkında çok bilgisi olmayan birinin de anlayacağı şekilde yazılır. Olabildiğince KISA ve BASİT.
+- Bir tweette tek fikir. 2-4 kısa cümle yeter. Rakam en fazla 2-3 tane.
+- Teknik terim kullanırsan aynı cümlede basitçe açıkla ya da hiç kullanma: "EPS" → "hisse başı kâr"; "guidance/rehberlik" → "şirketin önümüzdeki dönem için verdiği tahmin"; "capex" → "yatırım harcaması"; "$/W-yıl" → "1 watt gücün yıllık kirası"; "YoY" → "geçen yıla göre".
+- Şirketi ilk geçtiği yerde ne iş yaptığıyla tanıt: "$NBIS (yapay zeka şirketlerine bilgisayar gücü kiralıyor)".
+- Görüş de basit olsun: neden önemli, kime iyi/kötü, tek cümle.
+- Test: "Borsayla ilgilenmeyen bir arkadaşım bu tweeti okuyunca ne demek istediğimi anlar mı?" Anlamazsa sadeleştir.
+
 ## 5. Yazım stili — KONUŞMA DİLİ (Enes 15.11: "daha sade, daha az AI gibi, sadece konuşma dilinde")
 - Arkadaşına yazar gibi yaz. Kısa cümle. Süslü benzetme, edebi laf, "nabız tutmak", "sınavda", "mercek altında", "gözler ... üzerinde", "dikkat çekiyor", "öne çıkıyor", "önemli bir gelişme", "kritik", "ayrıca", "bununla birlikte" YOK.
 - Haber ajansı/gazete dili yok. Slogan gibi kapanış cümlesi yok.
