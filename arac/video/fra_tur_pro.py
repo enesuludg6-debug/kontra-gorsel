@@ -22,11 +22,13 @@ BU, DROP, OUTRO, END = 8, 16, 48, 56
 S = [
     dict(b=0, n=4, k="f4_bayrak", t=3.0, v=0.55),
     dict(b=4, n=4, k="f2_atmosfer", t=8.0, v=0.8),
-    dict(b=8, n=2, k="f3_red_aesthetic", t=6.0, v=0.9),
-    dict(b=10, n=2, k="k5_dortmund_taraftar", t=1.0, v=0.7),
-    dict(b=12, n=1, k="f6_soyunma", t=14.0, v=1.0, whip=True),
-    dict(b=13, n=1, k="f2_atmosfer", t=15.0, v=1.0, whip=True),
-    dict(b=14, n=2, k="f9_futbolcular", t=27.6, v=0.35, z=1.15, oy=160),          # Arda sirttan, gerilim
+    # ---------------- FRANSA (gerilim) ----------------
+    dict(b=8, n=2, k="r3_fransa", t=0.5, v=0.85),                         # Fransa isinmaya cikiyor
+    dict(b=10, n=2, k="r1_mbappe_final", t=9.6, v=0.55, whip=True),       # sirtta MBAPPE 10
+    dict(b=12, n=1, k="r2_mbappe_legend", t=4.8, v=1.1, whip=True),       # Mbappe depar
+    dict(b=13, n=1, k="r4_fransa_son", t=0.3, v=0.9, whip=True, z=1.28, oy=500, hit=[0.0]),  # Mbappe bagiriyor
+    dict(b=14, n=1, k="r1_mbappe_final", t=15.2, v=0.6, whip=True),       # Mbappe yakin
+    dict(b=15, n=1, k="f9_futbolcular", t=27.6, v=0.35, z=1.15, oy=160),  # cevap: Arda sirttan
     # ---------------- DROP ----------------
     dict(b=16, n=2, k="k8_arda_euro", t=("ramp", 4.28), whip=True, hit=[0.8]),
     dict(b=18, n=1, k="k8_arda_euro", t=5.45, v=1.0, whip=True),
