@@ -8,3 +8,4 @@ Durdurmak için en alta `DURDUR` yazılı bir satır ekle (Enes ya da Claude, En
 - 15:25 Enes: portfoy NBIS RKLB DOCN AXON SPCX VRT (agirlik/tutar yok). Gunluk portfoy guncellemesi ABD kapanisi sonrasi ana sohbetten, Enes onayiyla. Saatlik turlar portfoy tweeti atmaz.
 - 15:30 AUTO: 20261115_1530_haftalik_takvim.jpg - HD sali, NVDA sali AMC, TGT carsamba, WMT persembe (sirket IR sayfalari, ifyouspent ozeti) | TAKVIM. Chrome kullanimi kapatildi (Enes).
 - 15:27 Enes: kartlarda kullanici adi yerine 'ENES ULUDAĞ' yazilacak (kart.py HANDLE guncellendi).
+- 15:30 Enes: tweetler daha sade, konusma dilinde, AI kokmayan (DEVIR.md bolum 5 guncellendi).

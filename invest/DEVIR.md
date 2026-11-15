@@ -49,7 +49,19 @@ Enes'in güncel portföyü (15.11.2026): $NBIS $RKLB $DOCN $AXON $SPCX (SpaceX) 
 - Spam görünmesin: içerik türlerini karıştır, aynı ticker'ı 3 saat içinde tekrar etme.
 - Gerçek kişi fotoğrafı, logo kopyası, başkasının görseli yok. Sadece `invest/kart.py` ile üretilen kartlar.
 
-## 5. Yazım stili (Enes'in en iyi tweetlerinden)
+## 5. Yazım stili — KONUŞMA DİLİ (Enes 15.11: "daha sade, daha az AI gibi, sadece konuşma dilinde")
+- Arkadaşına yazar gibi yaz. Kısa cümle. Süslü benzetme, edebi laf, "nabız tutmak", "sınavda", "mercek altında", "gözler ... üzerinde", "dikkat çekiyor", "öne çıkıyor", "önemli bir gelişme", "kritik", "ayrıca", "bununla birlikte" YOK.
+- Haber ajansı/gazete dili yok. Slogan gibi kapanış cümlesi yok.
+- İyi örnekler (Enes'in kendi tweetleri):
+  - "$CRDO bu satış abartı. Gelir $479M, +%115 YoY."
+  - "$CRDO'ya çok çok ufak bir ekleme daha yaptım." (bu tarz kişisel cümleyi sen KURMA, sadece tonu örnek al)
+  - "Amerikan borsalarında sağlık hisselerinin grafikleri oldukça güçlü görünüyor. Sanki sektörde bir hazırlık var gibi."
+- Kötü → iyi:
+  - "Bu hafta tüketici ve yapay zeka aynı anda sınavda." → "Bu hafta bilanço yağacak. Salı Nvidia var."
+  - "AI tarafının nabzını yine bu rakamlar tutacak." → "Piyasa yine buna bakacak."
+  - "Şirket güçlü bir çeyrek geride bıraktı." → "Çeyrek iyi geçmiş, beklentinin üstünde."
+- Kart üstündeki başlık ve italik not da aynı sade dilde olsun.
+- Gerekirse "bence", "açıkçası", "fena değil", "beklediğimden iyi" gibi doğal ifadeler kullanılabilir (yorumsa yorum olduğu belli olsun).
 - Sade, doğal Türkçe. Emoji yok. "Kritik nokta", "vb.", "dikkat çekici bir gelişme" gibi yapay kalıplar yok.
 - İlk satır durdurmalı: rakam, tezat veya net görüş. Örn: "$CRDO bu satış abartı. Gelir $479M, +%115 YoY."
 - Soruyla bitirme. 1-5 satır. Ticker'lar `$TICKER` formatında.
