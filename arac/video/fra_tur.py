@@ -296,6 +296,60 @@ S.append(Scene(7, (BG_SPLIT, ST_W), [
     it(k, cx(k), 360, 0.1), it(q1, cx(q1), 450, 0.3), it(q2, cx(q2), 640, 0.6, dy=150),
     it(q3, 90, 1080, 1.2), it(hk, cx(hk), 1270, 1.6), it(hd, cx(hd), 1480, 2.2)]))
 
+# ---------- seslendirme ----------
+# Yabanci isimler Turkce okunusa gore yazildi (TTS dogru telaffuz etsin diye).
+NARR = [
+    "Merhaba futbolseverler. KONTRA ekibi olarak sizler için bu akşamki Fransa Türkiye maçına özel bir ön analiz videosu hazırladık. "
+    "Maç Bordo'da, saat yirmi iki kırk beşte başlayacak ve A Te Ve'den şifresiz yayınlanacak.",
+    "Önce tabloya bakalım. Türkiye grupta oynadığı beş maçın beşini de kaybetti, puanı yok. "
+    "Fransa ise on puanla ikinci sırada. Raporlara göre bir puan bile ona yetiyor.",
+    "Milli takımda Sergen Yalçın dönemi yeni başladı. İlk maçta İzmir'de Belçika'ya iki bir yenildik. "
+    "Abdülkerim Bardakcı cezasını tamamladı ve geri dönüyor. Kenan Yıldız ise sakatlığı nedeniyle kadroda yok. "
+    "Sergen Yalçın'ın mesajı net: santrforla oynayacağız.",
+    "Fransa tarafında savunmada ciddi alarm var. Upamekano kamptan ayrıldı. Saliba, Kunde, Lakrua ve Kalulu sakat. "
+    "Mbape İtalya maçını kaçırdı, ama Zidan oynayabileceğini söyledi.",
+    "Fransa'nın muhtemel on biri şöyle. Kalede Menyan. Savunmada Güsto, Jake, Konate ve Trüfer. "
+    "Orta sahada Kamavinga ve Rabiyo. Önde Olis, Şerki ve Due. En uçta ise Mbape.",
+    "Peki Türkiye nasıl oynamalı? Birinci adım: kompakt orta blok. Mbape, Due ve Olis çok hızlı. "
+    "Savunmanın arkasında boşluk bırakmamak ve hatları birbirine yakın tutmak şart.",
+    "İkinci adım: yeni stoperlere baskı. Saliba ve Upamekano olmayınca Fransa'nın stoper ikilisi yeni. "
+    "Santrfora direkt toplar atmalı, ikinci toplarda agresif olmalı ve hücumcu bek Trüfer'in arkasına koşular yapmalıyız.",
+    "Üçüncü adım: duran toplar. Bardakcı'nın dönüşü hava toplarında güç demek. Kornerler ve serbest vuruşlar en net fırsat olabilir. "
+    "İlk yirmi dakika sabırlı olmak ve erken gol yememek çok önemli.",
+    "Eylül'deki maçı Fransa, Mbape'nin golüyle bir sıfır kazanmıştı. Bu akşam grubu puansız kapatmamak için son şans. "
+    "Maçın hakemi Kris Kavana. Daha fazlası için KONTRA'yı takip etmeyi unutmayın.",
+]
+VOICE = os.environ.get("KONTRA_TTS", "/tmp/claude-0/tts/vits-piper-tr_TR-fahrettin-medium/tr_TR-fahrettin-medium.onnx")
+TTS_DIR = "/tmp/claude-0/tts/sahne"
+LEAD, TAIL = 0.45, 0.75   # sahne basinda bekleme, sonunda nefes payi
+
+
+def synth():
+    import wave, numpy as np
+    os.makedirs(TTS_DIR, exist_ok=True)
+    clips = []
+    for i, txt in enumerate(NARR):
+        fp = os.path.join(TTS_DIR, f"s{i}.wav")
+        subprocess.run([sys.executable, "-m", "piper", "-m", VOICE, "-f", fp, "--length-scale", "0.93",
+                        "--sentence-silence", "0.25"], input=txt.encode(), check=True, capture_output=True)
+        with wave.open(fp) as w:
+            sr = w.getframerate(); a = np.frombuffer(w.readframes(w.getnframes()), dtype=np.int16)
+        clips.append(a)
+    for s, a in zip(S, clips):
+        s.dur = max(s.dur, LEAD + len(a) / sr + TAIL)
+    total = sum(s.dur for s in S)
+    track = np.zeros(int(total * sr) + sr, dtype=np.float32); acc = 0
+    for s, a in zip(S, clips):
+        st = int((acc + LEAD) * sr); track[st:st + len(a)] += a.astype(np.float32) / 32768; acc += s.dur
+    out = os.path.join(TTS_DIR, "voice.wav")
+    with wave.open(out, "wb") as w:
+        w.setnchannels(1); w.setsampwidth(2); w.setframerate(sr)
+        w.writeframes((np.clip(track, -1, 1) * 32767).astype(np.int16).tobytes())
+    return out
+
+
+VOICE_WAV = synth() if "--still" not in sys.argv else None
+
 # ---------- render ----------
 LOGO = logo_layer(66)
 TOTAL = sum(s.dur for s in S)
@@ -352,7 +406,12 @@ if __name__ == "__main__":
              f"+0.05*(random(0)*2-1)*exp(-40*mod(t+{bpm/2},{bpm}))"
              f"+0.07*sin(2*PI*220*t)*(0.5+0.5*sin(2*PI*0.125*t))':s=44100:d={TOTAL}")
     cmd = ["ffmpeg", "-y", "-loglevel", "error", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}", "-r", str(FPS), "-i", "-",
-           "-f", "lavfi", "-i", audio, "-af", f"afade=t=in:d=1,afade=t=out:st={TOTAL-1.5}:d=1.5,volume=0.8",
+           "-f", "lavfi", "-i", audio, "-i", VOICE_WAV,
+           "-filter_complex",
+           f"[1:a]afade=t=in:d=1,afade=t=out:st={TOTAL-1.5}:d=1.5,volume=0.22[m];"
+           f"[2:a]aresample=44100,highpass=f=70,acompressor=threshold=-18dB:ratio=3:makeup=2,volume=1.6,apad[v];"
+           f"[m][v]amix=inputs=2:duration=first:normalize=0,alimiter=limit=0.95[a]",
+           "-map", "0:v", "-map", "[a]",
            "-c:v", "libx264", "-preset", "medium", "-crf", "20", "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "160k",
            "-shortest", "-movflags", "+faststart", OUT]
     p = subprocess.Popen(cmd, stdin=subprocess.PIPE)
