@@ -5,6 +5,13 @@ Mod (15.11 16:10'dan itibaren): **SOHBET MODU** — Buffer KULLANILMAZ. Tweet me
 **YENİ KURAL (Enes 15.11 17:30): İSTEK MODU** — Claude kendi başına tweet hazırlayıp GÖNDERMEZ. Saatlik hazırlık görevi kapatıldı, yeni saatlik send_later KURMA. Sadece Enes'in sohbete attığı şeyden (tweet, haber, grafik, ekran görüntüsü, konu) araştırıp tweet yapılır (bkz. 5i). Bölüm 1'deki kapasite/zamanlama ve günlük hedef sayıları artık geçersiz.
 Chrome'u HİÇ kullanma (Enes 15.11: "çık hesabımdan"). İSTİSNA (Enes 15.11 17:15): Claude in Chrome / bilgisayar kontrolü SADECE tradingview.com için kullanılabilir (grafik açma, gösterge ekleme, çizim). x.com / twitter.com ve X ile ilgili hiçbir sekmeye, hesaba, ayara girme; TradingView'da da paylaşım/yorum/hesap ayarı yok. Sadece Enes bilgisayarındayken ve masaüstü uygulaması bağlıyken çalışır; bulut turları kullanamaz. Enes'in X hesabına girme; içerik yalnızca internetteki haber/veri sitelerinden (WebSearch/WebFetch, çok sayıda kaynak) bulunur.
 
+## AMAÇ (Enes 15.11 18:10) — her şeyin üstünde
+Amaç en iyi getiriyi yakalamak ya da borsayı en iyi bilen görünmek DEĞİL: GÜVEN sağlamak ve İYİ İÇERİK üretmek.
+- Doğru olmayan rakam yerine eksik tweet. Kaynak her kartta.
+- Yanılınca açıkça söyle ("şunu demiştim, olmadı").
+- Abartı, heyecan, "kaçırmayın" yok. Sade, dürüst, anlaşılır.
+- Okuru eğit: neden önemli, kime etkisi var.
+
 ## 0. Her çalışmanın başında
 1. `add_repo` (owner `enesuludg6-debug`, repo `kontra-gorsel`, access `push`) → `git clone --depth 1 https://github.com/enesuludg6-debug/kontra-gorsel /home/claude/kontra-gorsel` → `register_repo_root`.
 2. Bu dosyayı ve `invest/DONGU.md`'nin son 60 satırını oku.
