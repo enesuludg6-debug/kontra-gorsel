@@ -53,3 +53,4 @@ Durdurmak için en alta `DURDUR` yazılı bir satır ekle (Enes ya da Claude, En
 - 18:55 Enes: SaaS NTM gelir buyumesi siralamasi ornegi (DOCN %55, AXON %26) -> DEVIR 5k 3. ornek.
 - 19:00 Enes YENI KURAL: attigi tweetlerin konsept/sekli invest/ORNEKLER.md'ye kaydedilir, yeni tweetler bunlara benzer uretilir (10 sablon kaydedildi).
 - 18:35 HAZIR (Enes'e, 10dk #2, sablon 2): 20261115_1835_sp500_fiyat_kar.jpg - S&P 30.09'dan beri fiyat -%0,8, ileri EPS tahmini +%3,3; ileri F/K 18,3 (5y 19,8) (FactSet 13.11) | RAKAM | duzen:karsilastir | tema:gece
+- 18:45 HAZIR (Enes'e, Enes FUNDA raporu): 20261115_1845_nvda_cpo.jpg - FUNDA 13.11: Nvidia CPO seri uretimi 2027 sonu-2028 (hibrit bonding W2W araclari + Insertion 2 test tedarikcisi), 2027 100k Spectrum-X CPO hedefinin altinda; talep etkilenmiyor. Tek kaynak (Enes ekran goruntusu), rapor bagimsiz dogrulanamadi -> atifli | ARASTIRMA | duzen:alinti | tema:grafit. ORNEKLER 11.

@@ -56,3 +56,8 @@ Format: ## Şablon adı / Örnek (kaynak hesap) / Yapı / Bizim versiyon / Kulla
 ## 10. Yanıt (reply) kalıpları
 - Örnek: @AboveGrndLvl (Reddit Google trafiği), @babafinans (Anthropic halka arz), @muratifyai (Elon-Huang).
 - Yapı: karşı tarafın haklı olduğu kısmı kabul et → kaynaklı ek veri → kısa görüş. Al/sat yok, kibar düzeltme.
+
+## 11. Araştırma raporu ekran görüntüsü (sektör içgörüsü)
+- Örnek: FUNDA 13.11 "What's Holding Back Co-Packaged Optics Mass Production?" — Nvidia CPO seri üretimi 2027 sonu-2028'e kayıyor; talep değil zamanlama değişiyor.
+- Yapı: rapor adı/tarih → tek ana bulgu → kimi etkiler (hangi hisseler) → kısa görüş. Kaynağa atıf şart, raporu kopyalama.
+- Bizim: 20261115_1845_nvda_cpo.jpg (alinti).
