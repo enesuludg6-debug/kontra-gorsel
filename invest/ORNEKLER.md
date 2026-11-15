@@ -67,3 +67,9 @@ Format: ## Şablon adı / Örnek (kaynak hesap) / Yapı / Bizim versiyon / Kulla
 - Yapı: iki hisse → çeyrek sonu (13F tarihi) kapanışı → son kapanış → % değişim → işin kendisi (bilanço) ne diyor → kısa görüş. Kart: panel (versus kaldırıldı).
 - Kurallar: kurumsal pay % artışlarını SADECE 13F verisi tamamlanınca ve 2 kaynakla yaz (Q3 13F son günü 16 Kasım 2026, 14 Kasım cumartesiye denk geldiği için; erken veriler eksik). "Büyük bahis oynayın / şimdi alın" gibi çağrı YOK; düşüşü fırsat diye pazarlama yok.
 - Bizim: 20261115_2129_nbis_cbrs_panel.jpg (panel).
+
+## 13. Kurum araştırma grafiği (BofA, GS, MS vb. tek grafik)
+- Örnek: Enes 15.11 21:38 — BofA "Diamonds in the rough": ABD yatırım yapılabilir teknoloji tahvillerinin genel tahvil endeksine göre getirisi 30 yılın dibinde (Ekim 2026).
+- Yapı: grafiğin tek mesajı (sade dille) → sebep (rakamla) → kurumun yorumu "X böyle diyor" diye atıfla → bizim tek cümle görüş. Kurumun "alın" çağrısı bizim ağzımızdan tavsiye olarak yazılmaz.
+- Görsel: grafiği KOPYALAMA; kendi kartımız (ilerleme/cizgi), kaynağa kurum adı.
+- Bizim: 20261115_2142_tech_tahvil.jpg (ilerleme).

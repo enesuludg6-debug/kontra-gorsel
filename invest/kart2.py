@@ -875,7 +875,7 @@ def ilerleme(ticker, etiket, baslik, alt, satirlar, kaynak, out, renk=None):
     f, ls = _fit(d, baslik, "Black", 72, W - 144 - (200 if lg else 0), 3); y = 136
     for l in ls:
         d.text((72, y), l, font=f, fill=(255, 255, 255)); y += int(f.size * 1.06)
-    d.text((72, y + 8), alt, font=sans(30, "Medium"), fill=(160, 160, 172)); y = max(y + 80, 330)
+    d.text((72, y + 22), alt, font=sans(30, "Medium"), fill=(160, 160, 172)); y = max(y + 110, 330)
     rh = min(210, (H - 170 - y) / len(satirlar))
     for i, (k, o, v) in enumerate(satirlar):
         d.text((72, y), k, font=sans(34, "Bold"), fill=(235, 235, 242))
