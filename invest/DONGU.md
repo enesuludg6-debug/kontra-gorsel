@@ -46,3 +46,4 @@ Durdurmak için en alta `DURDUR` yazılı bir satır ekle (Enes ya da Claude, En
 - 18:10 Enes: amac getiri degil guven + iyi icerik (DEVIR AMAC bolumu).
 - 18:15 HAZIR (Enes'e, Enes tweet atti): 20261115_1815_sp500_bilanco.jpg - S&P 500 Q3: %91 acikladi, EPS beat %84 (5y %78), gelir beat %74 (5y %70; orijinal tweet %75 diyordu), kar +%31,9, gelir +%14,4, 8 ceyrek cift hane (FactSet 13.11) | BILANCO | duzen:rakamlar | tema:zumrut
 - 18:30 HAZIR (Enes'e, 10dk modu #1): 20261115_1830_ant_ipo.jpg - Anthropic halka arz Per 19.11 Nasdaq $ANT, 70-78$, 825M hisse, %20 bireysel (CNBC baslik 10.11, CoinCentral 15.11) | HALKA ARZ | duzen:haber | tema:mor. Enes 10 dk'da bir tweet istedi (DEVIR guncellendi).
+- 18:32 HAZIR (Enes'e, Enes gorsel): 20261115_1832_ant_ipo_foto.jpg - ANT kartinin Enes gorselli surumu (ayni tweet, 1830 kartinin yerine) | duzen:foto_kart | tema:kagit | yeni foto: anthropic_logo.jpg
