@@ -66,3 +66,4 @@ Durdurmak için en alta `DURDUR` yazılı bir satır ekle (Enes ya da Claude, En
 - 19:17 AUTO: 20261115_1919_ppi.jpg - ABD PPI Ekim yillik %6,5 (Kasim 2022'den beri en yuksek, o zaman %7,4), aylik +%0,3, gida +%1,3, enerji -%0,1 (BLS via Tribune/CNBC/Globe and Mail 13.11). Buffer 6af9daf0c5b364e06268c38a sent | MAKRO | duzen:dev_rakam | tema:grafit
 - 20:41 AUTO: 20261115_1935_vrt_temettu.jpg - VRT yillik temettu 0,25 -> 0,40 $ (+%60, 8-K 13.11, kayit 24.11, odeme 17.12); Q3 satis +%61, organik siparis +%100 ustu, 2026 satis tahmini orta 14,65B (+650M) (Q3 aciklamasi 28.10). Buffer 6af9eedde5a113497a027439 sent | TEMETTU | duzen:rakamlar | tema:zumrut
 - 20:42 Enes (canli): 10 dk'da 1 otomatik, tarz Enes'in attiklari/begendikleri, Enes'ten sadece foto istenir (DEVIR guncellendi).
+- 20:43 Enes: aralik 6-14 dk rastgele (tam 10 olmasin). Zincir guncellendi.
