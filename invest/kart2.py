@@ -969,3 +969,53 @@ def manset(photo, ticker, etiket, baslik, kutular, kaynak, out):
             d.text((x + 32, y + 262 + j * 36), l, font=sans(28, "Medium"), fill=(185, 185, 196))
     _footer(img, kaynak, acc=br, line=T_BG)
     return _save(img, out)
+
+
+# AA — PANEL: sade, profesyonel iki hisse karşılaştırması (versus yerine; Enes 15.11 21:23)
+def panel(sol, sag, kicker, baslik, satirlar, cubuk, kaynak, out, notu=""):
+    """sol/sag: '$TICKER'. satirlar: [(etiket, sol_değer, sağ_değer)].
+    cubuk: (etiket, sol_oran, sag_oran) 0-1 arası (ör. fiyatın kalan kısmı) ya da None. notu: alt kısa satır."""
+    BG, INK, MUT, LINE, GOLD = (12, 12, 14), (236, 234, 228), (128, 126, 122), (44, 43, 42), (201, 168, 106)
+    img = Image.new("RGB", (W, H), BG); d = ImageDraw.Draw(img); M = 72
+    d.text((M, 92), kicker.replace("i", "İ").upper(), font=K.mono(22), fill=GOLD, anchor="lm")
+    d.line((M, 124, W - M, 124), fill=LINE, width=2)
+    f = None
+    for fs in range(96, 50, -4):
+        f = K.serif(fs); ls = _wrap(d, baslik, f, W - 2 * M)
+        if len(ls) <= 2: break
+    y = 156
+    for l in ls:
+        d.text((M, y), l, font=f, fill=INK); y += int(f.size * 1.02)
+    # kolon başlıkları
+    y = y + 70; cx = [W * 0.56, W - M]
+    for i, t in enumerate((sol, sag)):
+        S = 140; lg = _logo(t, S - 36); x = cx[i]
+        d.rounded_rectangle((x - S, y, x, y + S), radius=28, fill=(30, 30, 33) if not lg or _plate_fill(lg)[0] < 100 else (245, 245, 245))
+        if lg:
+            img.paste(lg, (int(x - S / 2 - lg.width / 2), int(y + S / 2 - lg.height / 2)), lg)
+        else:
+            d.text((x - S / 2, y + S / 2), t.replace("$", "")[:1], font=K.serif(96), fill=INK, anchor="mm")
+        d = ImageDraw.Draw(img); d.text((x, y + S + 24), t, font=K.mono(26), fill=INK, anchor="ra")
+    d = ImageDraw.Draw(img); y += 140 + 84
+    d.line((M, y, W - M, y), fill=LINE, width=2)
+    rh = 118
+    for lab, a, b in satirlar:
+        cy = y + rh / 2
+        d.text((M, cy), lab.upper(), font=K.mono(21), fill=MUT, anchor="lm")
+        for i, v in enumerate((a, b)):
+            neg = v.strip()[:1] in "-−"; col = (226, 112, 98) if neg else ((126, 196, 140) if v.strip()[:1] == "+" else INK)
+            d.text((cx[i], cy), v, font=sans(50, "SemiBold"), fill=col, anchor="rm")
+        y += rh; d.line((M, y, W - M, y), fill=LINE, width=1)
+    if cubuk:
+        lab, ra, rb = cubuk; y += 48
+        d.text((M, y), lab.upper(), font=K.mono(21), fill=MUT, anchor="la"); y += 48
+        for t, r in ((sol, ra), (sag, rb)):
+            d.text((M, y + 10), t, font=K.mono(22), fill=INK, anchor="lm")
+            x0, x1 = M + 150, W - M
+            d.rounded_rectangle((x0, y, x1, y + 20), radius=10, fill=(32, 32, 35))
+            d.rounded_rectangle((x0, y, x0 + (x1 - x0) * max(0.02, min(1, r)), y + 20), radius=10, fill=GOLD)
+            y += 50
+    if notu:
+        d.text((M, H - 170), notu, font=sans(28, "Medium"), fill=MUT, anchor="ls")
+    _footer(img, kaynak, ink=INK, muted=MUT, line=LINE, acc=GOLD)
+    return _save(img, out, grain=False)

@@ -64,6 +64,6 @@ Format: ## Şablon adı / Örnek (kaynak hesap) / Yapı / Bizim versiyon / Kulla
 
 ## 12. "Çeyrek sonu fiyatı vs bugün" (fon birikimi / ucuzlama)
 - Örnek: Enes 15.11 21:20 — "Perakende panik satarken kurumlar Q3'te $NBIS ve $CBRS biriktirdi" (Trade Filings: NBIS +%22, CBRS +%30 kurumsal pay; Q3 sonu ~236/~178 → cuma 115,88/108,72; "%40-50 daha ucuz").
-- Yapı: iki hisse → çeyrek sonu (13F tarihi) kapanışı → son kapanış → % değişim → işin kendisi (bilanço) ne diyor → kısa görüş. Kart: versus.
+- Yapı: iki hisse → çeyrek sonu (13F tarihi) kapanışı → son kapanış → % değişim → işin kendisi (bilanço) ne diyor → kısa görüş. Kart: panel (versus kaldırıldı).
 - Kurallar: kurumsal pay % artışlarını SADECE 13F verisi tamamlanınca ve 2 kaynakla yaz (Q3 13F son günü 14 Kasım; erken veriler eksik). "Büyük bahis oynayın / şimdi alın" gibi çağrı YOK; düşüşü fırsat diye pazarlama yok.
-- Bizim: 20261115_2128_nbis_cbrs_versus.jpg (versus).
+- Bizim: 20261115_2129_nbis_cbrs_panel.jpg (panel).

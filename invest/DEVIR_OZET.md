@@ -37,8 +37,9 @@ Bu dosya, 15.11.2026 boyunca Enes Uludağ'ın canlı sohbette verdiği tüm kara
 
 ## 6. Görseller
 - Kod: invest/kart2.py (yeni), kart.py (eski/yedek). Fontlar invest/font (Inter Display + Instrument Serif + JetBrains Mono).
-- Enes'in seçtiği/beğendiği düzenler (K-Z, ÖNCE BUNLAR): bento, halka, isi, takvim, cizgi, versus, uclu, soz, editoryal, skor, zaman, ilerleme, dilim, dortlu, manset. Yedek A-J: spotlight, split, terminal, sondakika, once_sonra, kapak, cam, poster, siralama, grafik2.
-- Tür → düzen: bilanço rakam = skor/terminal; analiz = bento/uclu/versus; takvim = takvim; kapanış = isi/dortlu; son dakika = sondakika/manset; içeriden = uclu/skor; kişi = manset/soz (Enes fotosu).
+- Enes'in seçtiği/beğendiği düzenler (K-Z, ÖNCE BUNLAR): bento, halka, isi, takvim, cizgi, panel, uclu, soz, editoryal, skor, zaman, ilerleme, dilim, dortlu, manset. Yedek A-J: spotlight, split, terminal, sondakika, once_sonra, kapak, cam, poster, siralama, grafik2.
+- KALDIRILDI (Enes 15.11 21:23 "kaba, beğenmedim"): versus (çapraz renkli iki taraf). Yerine kart2.panel (koyu, serif başlık, mono etiket, ince çizgili tablo, altın çubuk). Benzer kaba/renkli blok tarzından kaçın; sade ve profesyonel.
+- Tür → düzen: bilanço rakam = skor/terminal; analiz = bento/uclu/panel; iki hisse karşılaştırma = panel; takvim = takvim; kapanış = isi/dortlu; son dakika = sondakika/manset; içeriden = uclu/skor; kişi = manset/soz (Enes fotosu).
 - Logolar büyük ve belirgin (küçültme). Son 3 turda kullanılan düzen tekrar edilmez. Read ile kontrol; taşma varsa YENİ dosya adıyla düzelt (raw URL önbelleği). Örnekler: invest/g/ornek/.
 - Kart dosyası: invest/g/YYYYMMDD_HHMM_konu.jpg → commit + push → raw URL 200 kontrol → Buffer.
 

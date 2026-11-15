@@ -11,7 +11,7 @@ Mod (15.11 16:10'dan itibaren): **SOHBET MODU** — Buffer KULLANILMAZ. Tweet me
    a) SON DAKİKA: son 1-3 saatin önemli piyasa/şirket haberi. Düzen: sondakika (D) ya da manset (Z). 2 kaynak, hızlı.
    b) BU HAFTA NE VAR: haftalık takvim (bilançolar, Fed, makro veri, halka arz). Düzen: takvim (N). Pazar/pazartesi sabahı mutlaka; hafta içi "yarın ne var" kısa versiyonu.
    c) BİLANÇO RAKAMLARI (YORUMSUZ): şirket açıklayınca ilk tweet SADECE rakamlar: gelir, hisse başı kâr, beklentiye göre, rehberlik. Görüş cümlesi YOK. Düzen: skor (U) ya da terminal (C).
-   d) BİLANÇO ANALİZİ (YORUMLU): rakam tweetinden sonra (ayrı tur, 30-90 dk sonra) analiz: ne iyi, ne kötü, rehberlik ne diyor, hisse tepkisi, net görüş. Düzen: bento (K), uclu (R), versus (P).
+   d) BİLANÇO ANALİZİ (YORUMLU): rakam tweetinden sonra (ayrı tur, 30-90 dk sonra) analiz: ne iyi, ne kötü, rehberlik ne diyor, hisse tepkisi, net görüş. Düzen: bento (K), uclu (R), panel (AA).
    Kalan turlar: aşağıdaki İÇERİK MENÜSÜ.
 3. İÇERİK MENÜSÜ (Enes 15.11 21:15 "daha da arttır"): her turda listeden bugün KULLANILMAMIŞ ve saate uyan bir tür seç; aynı tür arka arkaya gelmesin.
    ZAMANA BAĞLI (TSİ, kış):
