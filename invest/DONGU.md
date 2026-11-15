@@ -80,3 +80,5 @@ Durdurmak için en alta `DURDUR` yazılı bir satır ekle (Enes ya da Claude, En
 - 21:04 AUTO: 20261115_2109_team_iceriden.jpg - ICERIDEN ALIM: TEAM CEO Cannon-Brookes 12.11 13.400 hisse ~2,0M$ ort ~150$ kod P, 10b5-1 plan 9.8 (SEC Form 4 + rallies.ai). Buffer 6af9f43de5a113497a0480df | ICERIDEN | duzen:kart2.uclu
 - 21:06 Enes: devir notu istendi -> invest/DEVIR_OZET.md (tum gunun kararlari, temiz ozet). 8 oneri (olcum, bilanco aninda, alarm vb.) kurallara EKLENMEDI.
 - 21:08 Enes (canli): 'tamam dur' -> otomatik paylasim durduruldu, zincir trig_01YSyHEj9QdUuz285pn5QGhz kapatildi.
+- 21:15 Enes (canli, yeni oturum): 'oto atmaya devam' -> DURDUR kaldirildi, zincir bu oturumdan yeniden kuruldu.
+- 21:17 AUTO: 20261115_2122_axon_editoryal.jpg - AXON Q3 gelir 909M (+%28), yazilim-hizmet 437M (+%43), 2026 buyume tahmini %32-34 -> ~%30 (3 federal drone projesi ertelendi, ~130M gelir) (Axon PR 5.11, Zacks, Kalkine). Buffer 6af9f72cee359588b544708a | BILANCO ANALIZI | duzen:kart2.editoryal (logo plakasi eklendi)
