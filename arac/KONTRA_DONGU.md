@@ -256,3 +256,4 @@
 
 ## 15.11 10:39 Enes: 'basla ama sen atma, sen bul hazirla bana at ben aticam, alakali foto yoksa iste' -> MANUEL MOD: Buffer'a ATMA, karti+metni Enes'e gonder.
 - 10:45 HAZIR (Enes'e): portekiz_danimarka_1_4.jpg - POR 1-4 DAN (Hojbjerg 43 pen, Hojlund 50 57, Andersen 75, B. Silva 90+3; UL tarihindeki en agir yenilgi; POR 12 DAN 9 NOR 6 GAL 3) ESPN, beIN, FotMob, Al Jazeera | MAC SONU | gazete | foto: ronaldo_portekiz.jpg
+- 10:56 tur: Isvec-Bosna/Gyokeres secildi, arsivde Gyokeres fotosu yok -> Enes'ten istendi.
