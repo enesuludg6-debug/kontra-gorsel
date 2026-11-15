@@ -28,7 +28,13 @@ Chrome'dan ASLA tweet atma; Chrome yalnızca okuma içindir (çoğu çalışmada
 9. **Haftanın rakamı / tek sayı** : tek çarpıcı veri + bağlam. Kart: `haber(etiket="RAKAM")`.
 10. **13F / büyük fon hareketleri** (dönemsel): hangi fon neyi aldı/sattı. Kart: `liste(etiket="13F")`.
 
-Takip listesinden öncelikli hisseler (Enes'in portföyü/ilgisi): $ON $NBIS $RKLB $AAOI $HOOD $TEM $CRDO $PLTR $ISRG $DOCN $ASTS $MU. Bunlarda haber varsa öne al.
+Enes'in güncel portföyü (15.11.2026): $NBIS $RKLB $DOCN $AXON $SPCX (SpaceX) $VRT (Vertiv). Bunlarda haber, bilanço, analist notu, içeriden işlem varsa öne al.
+İlgi listesi: $ON $AAOI $HOOD $TEM $CRDO $PLTR $ISRG $ASTS $MU.
+
+## 2b. PORTFÖY GÜNCELLEMESİ — OTOMATİK TURLAR ATMAZ
+- Günlük portföy güncellemesi SADECE Enes'in ana sohbetinden, ABD kapanışından sonra Enes'e sorulup onay alınınca atılır.
+- Saatlik otomatik turlar portföy tweeti, "portföyümdeki" ifadesi, ağırlık veya tutar yazmaz.
+- Portföyde ağırlık/para/tutar ASLA paylaşılmaz (Enes kuralı).
 
 ## 3. YASAKLAR (kesin)
 - Enes'in ağzından işlem/portföy cümlesi YOK: "aldım", "sattım", "ekleme yaptım", "portföyüm", "YTD %" yazma. Onu sadece Enes yazar.
