@@ -75,7 +75,7 @@ Shay'in en çok izlenen tweetleri (14-15.11): "$SPCX just did the impossible." (
 - Takip edilecek benzer büyük hesapların konu alanı (Enes'in takip listesinden): Shay Boloor, Chris Camillo, Gary Black, Walter Bloomberg (DeItaone), Sawyer Merritt, Wall Street Günlükleri. Bulut turları X'i okuyamaz; bu hesapların sık işlediği konuları web haberlerinden takip et.
 
 ## 5c. GÜNDEM DOSYASI (X'teki büyük hesaplardan)
-- Enes'in bilgisayarındaki ayrı bir görev günde 5 kez (10, 13, 16, 19, 22) Chrome'dan büyük hesapları okuyup `invest/gundem.md`'ye konu listesi yazar (sadece konu + neden önemli, tweet metni değil).
+- X'i tarayıcıyla okuyan Chrome görevi 15.11'de KAPATILDI: X kuralları tarayıcı otomasyonu/scraping'i yasaklıyor (kalıcı askı riski). X'e hiçbir şekilde tarayıcı otomasyonuyla girme. gundem.md şimdilik sadece Enes'in elle eklediği konuları içerir.
 - Her turda önce `invest/gundem.md`'nin son 40 satırına bak. Oradaki konular öncelikli: aynı olayı web kaynaklarından DOĞRULA, sonra kendi görüşünle yaz. gundem.md tek başına kaynak değildir.
 - Kullandığın gündem satırının sonuna DONGU.md'de "(gündem)" yaz ki tekrar kullanılmasın.
 

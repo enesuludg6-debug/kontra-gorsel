@@ -14,3 +14,4 @@ Durdurmak için en alta `DURDUR` yazılı bir satır ekle (Enes ya da Claude, En
 - 15:50 AUTO: 20261115_1545_rklb_100.jpg - RKLB Electron 100. firlatma, en hizli ticari roket, 100+ backlog (Rocket Lab GlobeNewswire, space.com) | REKOR | duzen:dev_rakam. DEVIR'e Shay Boloor tarzi bolumu eklendi.
 - 15:55 Enes: gorus zorunlu, bilanco oncesi/sonrasi gorus tweetleri; X buyuk hesaplar duzenli okunacak (gundem.md, Chrome gorevi).
 - 15:45 Enes: gunluk tavan 40 tweet.
+- 15:58 X gundem Chrome gorevi kapatildi (X kurallari: browser otomasyonu/scraping yasak, kalici aski riski).
