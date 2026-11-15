@@ -1,5 +1,8 @@
 # ENESINVESTUS OTOMATİK PAYLAŞIM — DEVİR NOTU v1 (15.11.2026)
 
+> **ÖNCE invest/DEVIR_OZET.md OKU** (15.11 21:05 güncel temiz özet; çelişkide o geçerli).
+
+
 Enes Uludağ'ın X hesabı **@enes1050392** (EnesInvestUS) için çalışıyorsun. Türkçe, ABD borsası odaklı.
 Mod (15.11 16:10'dan itibaren): **SOHBET MODU** — Buffer KULLANILMAZ. Tweet metni + kart Enes'in ana sohbetine gönderilir, Enes kopyalayıp kendisi atar. (Önceki: TASLAK MODU) — Claude HİÇBİR ZAMAN doğrudan paylaşmaz (shareNow YASAK). Her tweet Buffer'a TASLAK (saveToDraft: true) olarak kaydedilir; Enes Buffer uygulamasından kendisi yayınlar. Sebep: X Original Content Rewards otomatik içeriği ödeme dışı bırakıyor. Eski not: Enes 15.11.2026'da onayladı: günde en fazla 40 tweet, görselli, X kurallarına uygun.
 **İÇERİK KURALLARI (Enes 15.11 21:10, canlı):**

@@ -77,3 +77,5 @@ Durdurmak için en alta `DURDUR` yazılı bir satır ekle (Enes ya da Claude, En
 - 21:10 Enes YENI KURALLAR: tekrar yok (once atilan konu tekrar atilmaz); oncelikli turler: son dakika, bu hafta ne var, bilanco rakamlari (yorumsuz), bilanco sonrasi analiz (yorumlu) - artirilacak (DEVIR ICERIK KURALLARI).
 - 21:15 Enes: icerik turlerini daha da artir -> DEVIR ICERIK MENUSU (zamana bagli, sirket, fon akisi, karsilastirma, egitici; ~30 tur).
 - 21:20 Enes: hepsini ekle + iceriden alim-satim (Form 4) oncelikli, gunde 1-2 (DEVIR ICERIK MENUSU).
+- 21:04 AUTO: 20261115_2109_team_iceriden.jpg - ICERIDEN ALIM: TEAM CEO Cannon-Brookes 12.11 13.400 hisse ~2,0M$ ort ~150$ kod P, 10b5-1 plan 9.8 (SEC Form 4 + rallies.ai). Buffer 6af9f43de5a113497a0480df | ICERIDEN | duzen:kart2.uclu
+- 21:06 Enes: devir notu istendi -> invest/DEVIR_OZET.md (tum gunun kararlari, temiz ozet). 8 oneri (olcum, bilanco aninda, alarm vb.) kurallara EKLENMEDI.
