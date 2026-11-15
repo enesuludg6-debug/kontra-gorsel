@@ -263,3 +263,4 @@
 - 11:30 HAZIR (Enes'e, Enes foto): kislyak_teklif.jpg - Gurtskaya: GS ve FB'den teklif var, BJK'ninki kabul gormedi; Batrakov etkisi (A Spor, Aksam) | ACIKLAMA | alinti_tam | yeni foto: kislyak_cska.jpg
 - 11:44 HAZIR (Enes'e): hakan_fenerbahce.jpg - Sabah: FB, Hakan icin 10M euro bonservis plani, Hakan FB'ye sicak, Inter uzatmasina sicak degil, sozlesme 2027 yazi, Juventus'a da istekli degil | IDDIA | transfer_rota | foto: hakan_calhanoglu_inter_sirt.jpg (dun 17:50 Tuttosport kartinda da kullanildi)
 - 12:00 tur: Kubo-BJK secildi, foto yok -> Enes'ten istendi.
+- 12:10 HAZIR (Enes'e, Enes foto): kubo_besiktas.jpg - Todo Mercado (Hurriyet): BJK kanat icin Kubo'yu listeye aldi, Cerny/Poku memnuniyetsizlik, Kubo La Liga disina sicak, engel bonservis | IDDIA | transfer_rota | yeni foto: kubo_japonya.jpg
