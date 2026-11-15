@@ -163,6 +163,10 @@ SHOTS = [
     (48, 8, "klip:k5_dortmund_taraftar@0.0@0.5", "tur", [("FRANSA", 190, WHITE, 0.30, 0.5), ("TÜRKİYE", 190, KIRMIZI, 0.40, 1.5),
                                                           ("BU AKŞAM 22.45", 92, WHITE, 0.52, 2.5)], "outro"),
 ]
+YAZISIZ = "--yazisiz" in sys.argv   # hic yazi/logo yok
+if YAZISIZ:
+    SHOTS = [s[:4] + ([],) + s[5:] for s in SHOTS]
+    OUT = OUT.replace(".mp4", "_yazisiz.mp4")
 TOTAL = END * B + 0.4
 NF = int(TOTAL * FPS)
 
@@ -214,10 +218,10 @@ def frame(fi):
         if abs(pop - 1) > 0.01: lay = lay.resize((int(lay.width * pop), int(lay.height * pop)), Image.BILINEAR)
         jx = int(6 * math.sin(fi * 2.1) * math.exp(-tl * 6)) if fx in ("drop", "push") else 0
         im.alpha_composite(lay, ((W - lay.width) // 2 + jx, int(H * yr - lay.height / 2)))
-    if fx == "outro" and lt > 3.5 * B and p <= 0.82:
+    if not YAZISIZ and fx == "outro" and lt > 3.5 * B and p <= 0.82:
         a = ease((lt - 3.5 * B) / 0.4); lg = LOGO.copy(); lg.putalpha(lg.getchannel("A").point(lambda v: int(v * a)))
         im.alpha_composite(lg, ((W - lg.width) // 2, int(H * 0.88)))
-    im.alpha_composite(T("@KONTRA_11", 44, WHITE, BEBAS, 0), (W - 60 - T("@KONTRA_11", 44, WHITE, BEBAS, 0).width, 120))
+    if not YAZISIZ: im.alpha_composite(T("@KONTRA_11", 44, WHITE, BEBAS, 0), (W - 60 - T("@KONTRA_11", 44, WHITE, BEBAS, 0).width, 120))
     return im.convert("RGB")
 
 
