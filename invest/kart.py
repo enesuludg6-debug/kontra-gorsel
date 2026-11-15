@@ -87,6 +87,50 @@ def _footer(d, kaynak):
     d.text((W - 72, H - 76), HANDLE, font=mono(22, 600), fill=INK, anchor="rm")
 
 
+LOGO_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "logo")
+
+
+def logo(ticker, size=150):
+    """Şirket logosu (nvstly/icons, şeffaf PNG). Önce invest/logo/ önbelleği, yoksa GitHub raw'dan indirir. Yoksa None."""
+    t = ticker.replace("$", "").upper()
+    os.makedirs(LOGO_DIR, exist_ok=True)
+    p = os.path.join(LOGO_DIR, t + ".png")
+    if not os.path.exists(p):
+        import urllib.request
+        try:
+            urllib.request.urlretrieve(f"https://raw.githubusercontent.com/nvstly/icons/main/ticker_icons/{t}.png", p)
+        except Exception:
+            return None
+    try:
+        im = Image.open(p).convert("RGBA")
+    except Exception:
+        return None
+    im.thumbnail((size, size), Image.LANCZOS)
+    return im
+
+
+def _accent(ticker, default=ACC):
+    """Logonun baskın rengi (çok koyu/çok açık değilse) -> vurgu rengi."""
+    im = logo(ticker, 64) if ticker else None
+    if im is None:
+        return default
+    px = [p for p in im.getdata() if p[3] > 200 and 60 < sum(p[:3]) / 3 < 220 and max(p[:3]) - min(p[:3]) > 40]
+    if len(px) < 20:
+        return default
+    r = sum(p[0] for p in px) // len(px); g = sum(p[1] for p in px) // len(px); b = sum(p[2] for p in px) // len(px)
+    return (r, g, b)
+
+
+def _logo_badge(img, ticker, x, y, size=150, anchor="ra"):
+    im = logo(ticker, size)
+    if im is None:
+        return False
+    if anchor == "ra":
+        x = x - im.width
+    img.paste(im, (int(x), int(y)), im)
+    return True
+
+
 def _save(img, out):
     os.makedirs(os.path.dirname(os.path.abspath(out)) or ".", exist_ok=True)
     img.convert("RGB").save(out, quality=92)
@@ -97,6 +141,8 @@ def haber(ticker, kicker, baslik, satirlar, kaynak, out, etiket="HABER"):
     img = Image.new("RGB", (W, H), BG); d = ImageDraw.Draw(img)
     _frame(d, kicker.upper(), etiket)
     d.text((72, 190), ticker, font=mono(64, 700), fill=INK)
+    if ticker.startswith("$"):
+        _logo_badge(img, ticker, W - 72, 150, 130)
     f, lines = _fit_serif(d, baslik, 104, W - 144, 5)
     y = 320
     for ln in lines:
@@ -118,7 +164,8 @@ def rakamlar(ticker, baslik, kutular, yorum, kaynak, out, etiket="BİLANÇO"):
     """kutular: [(etiket, değer, alt_not), ...] en fazla 4."""
     img = Image.new("RGB", (W, H), BG); d = ImageDraw.Draw(img)
     _frame(d, ticker, etiket)
-    f, lines = _fit_serif(d, baslik, 96, W - 144, 3)
+    has = _logo_badge(img, ticker, W - 72, 150, 110)
+    f, lines = _fit_serif(d, baslik, 96, W - 144 - (140 if has else 0), 3)
     y = 180
     for ln in lines:
         d.text((72, y), ln, font=f, fill=INK); y += int(f.size * 1.05)
@@ -163,5 +210,125 @@ def liste(baslik, alt_baslik, satirlar, kaynak, out, etiket="ÖZET", not_satiri=
         yy = y + 40
         for ln in _wrap(d, not_satiri, fi, W - 144)[:2]:
             d.text((72, yy), ln, font=fi, fill=ACC); yy += 52
+    _footer(d, kaynak)
+    return _save(img, out)
+
+
+# ---------------- yeni düzenler ----------------
+
+def dev_rakam(ticker, rakam, baslik, aciklama, kaynak, out, etiket="RAKAM", acik_tema=False):
+    """Tek dev sayı. Logo ortada üstte, rakam devasa, altında 1-2 satır."""
+    bg, ink = ((242, 238, 230), (20, 20, 22)) if acik_tema else (BG, INK)
+    img = Image.new("RGB", (W, H), bg); d = ImageDraw.Draw(img)
+    acc = _accent(ticker) if ticker else ACC
+    d.text((72, 70), etiket, font=mono(24, 600), fill=acc)
+    d.text((W - 72, 70), ticker, font=mono(26, 700), fill=ink, anchor="ra")
+    lg = logo(ticker, 170) if ticker.startswith("$") else None
+    y = 200
+    if lg:
+        img.paste(lg, ((W - lg.width) // 2, y), lg); y += lg.height + 40
+    else:
+        y += 60
+    fs = 300
+    while d.textlength(rakam, font=serif(fs)) > W - 144 and fs > 120:
+        fs -= 10
+    d.text((W // 2, y), rakam, font=serif(fs), fill=_tone(rakam) if rakam[:1] in "+-−" else acc, anchor="ma")
+    y += int(fs * 1.0) + 30
+    f, lines = _fit_serif(d, baslik, 76, W - 160, 2, 48)
+    for ln in lines:
+        d.text((W // 2, y), ln, font=f, fill=ink, anchor="ma"); y += int(f.size * 1.08)
+    y += 20
+    for ln in _wrap(d, aciklama, mono(28), W - 200)[:4]:
+        d.text((W // 2, y), ln, font=mono(28), fill=MUTED, anchor="ma"); y += 42
+    d.line((72, H - 112, W - 72, H - 112), fill=LINE if not acik_tema else (200, 196, 188), width=2)
+    d.text((72, H - 76), kaynak.upper(), font=mono(20), fill=MUTED, anchor="lm")
+    d.text((W - 72, H - 76), HANDLE, font=mono(22, 600), fill=ink, anchor="rm")
+    return _save(img, out)
+
+
+def grafik(ticker, baslik, etiketler, degerler, birim, not_satiri, kaynak, out, etiket="GRAFİK", tur="bar"):
+    """Doğrulanmış az sayıda veri noktası (örn. 4-8 çeyrek gelir). tur: 'bar' veya 'cizgi'."""
+    img = Image.new("RGB", (W, H), BG); d = ImageDraw.Draw(img)
+    acc = _accent(ticker) if ticker else ACC
+    _frame(d, ticker or etiket, etiket)
+    has = _logo_badge(img, ticker, W - 72, 145, 100) if ticker.startswith("$") else False
+    f, lines = _fit_serif(d, baslik, 84, W - 144 - (120 if has else 0), 2)
+    y = 175
+    for ln in lines:
+        d.text((72, y), ln, font=f, fill=INK); y += int(f.size * 1.05)
+    top, bot = y + 70, H - 300
+    left, right = 90, W - 90
+    mx = max(degerler) * 1.12; mn = 0 if tur == "bar" else min(degerler) * 0.9
+    n = len(degerler); step = (right - left) / n
+    pts = []
+    for i, (e, v) in enumerate(zip(etiketler, degerler)):
+        cx = left + step * i + step / 2
+        yy = bot - (v - mn) / (mx - mn) * (bot - top)
+        if tur == "bar":
+            bw = step * 0.56
+            last = i == n - 1
+            d.rectangle((cx - bw / 2, yy, cx + bw / 2, bot), fill=acc if last else (70, 70, 78))
+        pts.append((cx, yy))
+        lab = (f"{v:,.1f}".rstrip("0").rstrip(".") if isinstance(v, float) else f"{v:,}").replace(",", "X").replace(".", ",").replace("X", ".")
+        d.text((cx, yy - 14), lab, font=mono(24, 600), fill=INK, anchor="mb")
+        d.text((cx, bot + 22), e, font=mono(22), fill=MUTED, anchor="ma")
+    if tur != "bar":
+        d.line(pts, fill=acc, width=6)
+        for p in pts:
+            d.ellipse((p[0] - 9, p[1] - 9, p[0] + 9, p[1] + 9), fill=acc)
+    d.line((left - 20, bot, right + 20, bot), fill=LINE, width=2)
+    d.text((72, bot + 70), birim, font=mono(22), fill=MUTED)
+    fi = serif(44, italic=True); yy = bot + 120
+    for ln in _wrap(d, not_satiri, fi, W - 144)[:2]:
+        d.text((72, yy), ln, font=fi, fill=acc); yy += 54
+    _footer(d, kaynak)
+    return _save(img, out)
+
+
+def karsilastir(t1, t2, baslik, satirlar, not_satiri, kaynak, out, etiket="KARŞILAŞTIRMA"):
+    """İki şirket yan yana. satirlar: [(metrik, deger1, deger2), ...] en fazla 6."""
+    img = Image.new("RGB", (W, H), BG); d = ImageDraw.Draw(img)
+    _frame(d, f"{t1} vs {t2}", etiket)
+    f, lines = _fit_serif(d, baslik, 88, W - 144, 2)
+    y = 170
+    for ln in lines:
+        d.text((72, y), ln, font=f, fill=INK); y += int(f.size * 1.05)
+    y += 30
+    cx1, cx2 = 560, 860
+    for t, cx in ((t1, cx1), (t2, cx2)):
+        lg = logo(t, 120)
+        if lg:
+            img.paste(lg, (int(cx - lg.width / 2), y), lg)
+        d.text((cx, y + 140), t, font=mono(28, 700), fill=INK, anchor="ma")
+    y += 210
+    for m, v1, v2 in satirlar[:6]:
+        d.line((72, y, W - 72, y), fill=LINE, width=1)
+        d.text((72, y + 45), m, font=mono(26), fill=MUTED, anchor="lm")
+        d.text((cx1, y + 45), v1, font=mono(32, 600), fill=_tone(v1), anchor="mm")
+        d.text((cx2, y + 45), v2, font=mono(32, 600), fill=_tone(v2), anchor="mm")
+        y += 90
+    d.line((72, y, W - 72, y), fill=LINE, width=1)
+    fi = serif(42, italic=True); y += 40
+    for ln in _wrap(d, not_satiri, fi, W - 144)[:2]:
+        d.text((72, y), ln, font=fi, fill=ACC); y += 52
+    _footer(d, kaynak)
+    return _save(img, out)
+
+
+def alinti(ticker, soz, kim, baglam, kaynak, out, etiket="AÇIKLAMA"):
+    """CEO/CFO/Fed sözü. Büyük italik tırnak, logo üstte."""
+    img = Image.new("RGB", (W, H), BG); d = ImageDraw.Draw(img)
+    acc = _accent(ticker) if ticker.startswith("$") else ACC
+    _frame(d, baglam.upper(), etiket)
+    _logo_badge(img, ticker, W - 72, 150, 110) if ticker.startswith("$") else None
+    d.text((60, 160), "“", font=serif(260), fill=acc)
+    f, lines = _fit_serif(d, soz, 86, W - 160, 7, 52)
+    fi = serif(f.size, italic=True)
+    y = 400
+    for ln in lines:
+        d.text((80, y), ln, font=fi, fill=INK); y += int(f.size * 1.12)
+    y += 40
+    d.line((80, y, 200, y), fill=acc, width=4)
+    d.text((80, y + 30), kim, font=mono(30, 600), fill=INK)
     _footer(d, kaynak)
     return _save(img, out)

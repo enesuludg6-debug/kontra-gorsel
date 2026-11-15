@@ -67,12 +67,20 @@ Enes'in güncel portföyü (15.11.2026): $NBIS $RKLB $DOCN $AXON $SPCX (SpaceX) 
 - Soruyla bitirme. 1-5 satır. Ticker'lar `$TICKER` formatında.
 - Kısa olan kazanıyor: uzun bilanço dökümleri 300-400 görüntülenmede kaldı; kısa görüşlü tweetler 1.500-4.500 aldı.
 
+## 5b. Görsel çeşitliliği (Enes 15.11: "görseller hep aynı olmasın, logo kullan")
+- Düzenler: haber() | rakamlar() | liste() | dev_rakam() | grafik(tur='bar'/'cizgi') | karsilastir() | alinti(). Ayrıca dev_rakam(acik_tema=True) açık renk.
+- Son 5 paylaşımda en çok kullanılan düzeni bu turda KULLANMA (DONGU.md'de düzen adını yaz). Aynı düzen arka arkaya iki kez gelmesin.
+- Ticker'lı her kartta şirket logosu otomatik (nvstly/icons, invest/logo önbelleği). Logo yoksa kart logosuz çıkar; uydurma logo çizme. Logoyu değiştirme, renklendirme.
+- Vurgu rengi logonun rengine göre otomatik (dev_rakam, grafik, alinti).
+- Grafik sadece doğrulanmış veriyle (şirket açıklaması / SEC). Tahmini, okunmuş-gibi veri yok.
+- Haber/olay fotoğrafı (Reuters, AP, Getty, şirket basın fotoğrafı, kişi fotoğrafı) internetten İNDİRME ve kullanma: telif hakkı. Enes kendi fotoğrafını gönderirse kullanılabilir.
+
 ## 6. Kart ve paylaşım akışı
-1. Kart: `sys.path.insert(0, "/home/claude/kontra-gorsel/invest"); from kart import haber, rakamlar, liste` → çıktı `invest/g/<yyyymmdd_hhmm_konu>.jpg`. Read ile bak (taşma, okunurluk).
+1. Kart: `sys.path.insert(0, "/home/claude/kontra-gorsel/invest"); from kart import haber, rakamlar, liste, dev_rakam, grafik, karsilastir, alinti` → çıktı `invest/g/<yyyymmdd_hhmm_konu>.jpg`. Read ile bak (taşma, okunurluk).
 2. `git add invest/ && git commit` (sonuna sistemin verdiği attribution satırları) → `git -c push.negotiate=true push origin HEAD:main` (çakışmada `git fetch --depth=50 origin main && git rebase origin/main`).
 3. URL: `https://raw.githubusercontent.com/enesuludg6-debug/kontra-gorsel/main/invest/g/<dosya>.jpg` → curl ile 200 dönüyor mu kontrol et.
 4. Buffer `create_post`: channelId `6af99a1aece6dfde5fd109c7`, schedulingType `automatic`, mode `shareNow`, text, assets [{image:{url, metadata:{altText}}}], metadata.twitter.isAiGenerated true değil (gerekmez).
-5. `invest/DONGU.md`'ye satır ekle: `- HH:MM AUTO: dosya.jpg - özet (kaynaklar) | TÜR`. Commit + push.
+5. `invest/DONGU.md`'ye satır ekle: `- HH:MM AUTO: dosya.jpg - özet (kaynaklar) | TÜR | düzen:<fonksiyon>`. Commit + push.
 
 ## 7. Hata durumu
 - Buffer hata verirse 1 kez tekrar dene; yine olmazsa DONGU.md'ye yaz, o tweeti atla.

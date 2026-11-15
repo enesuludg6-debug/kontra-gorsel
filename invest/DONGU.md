@@ -9,3 +9,4 @@ Durdurmak için en alta `DURDUR` yazılı bir satır ekle (Enes ya da Claude, En
 - 15:30 AUTO: 20261115_1530_haftalik_takvim.jpg - HD sali, NVDA sali AMC, TGT carsamba, WMT persembe (sirket IR sayfalari, ifyouspent ozeti) | TAKVIM. Chrome kullanimi kapatildi (Enes).
 - 15:27 Enes: kartlarda kullanici adi yerine 'ENES ULUDAĞ' yazilacak (kart.py HANDLE guncellendi).
 - 15:30 Enes: tweetler daha sade, konusma dilinde, AI kokmayan (DEVIR.md bolum 5 guncellendi).
+- 15:40 Enes: gorseller cesitli olsun, logo kullanilsin. kart.py: logo + dev_rakam, grafik, karsilastir, alinti eklendi. Haber fotografi telif nedeniyle kullanilmiyor.
