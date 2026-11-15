@@ -23,7 +23,7 @@ Mod (15.11 16:10'dan itibaren): **SOHBET MODU** — Buffer KULLANILMAZ. Tweet me
    - Bilanço öncesi beklenti (terminal C) → bilanço rakamları yorumsuz (skor U) → analiz yorumlu (bento K / uclu R).
    - Opsiyon piyasasının bilanço için beklediği hareket (%±), kaynak varsa.
    - Analist not değişikliği: yükseltme/düşürme, hedef fiyat (kurum + eski/yeni) (versus P / skor U).
-   - İçeriden alım-satım (SEC Form 4): kim, ne kadar, hangi fiyattan (uclu R).
+   - İÇERİDEN ALIM-SATIM (Enes 15.11 21:20, öncelikli; günde en az 1-2): SEC Form 4 (sec.gov EDGAR, openinsider.com, secform4.com, MarketBeat insider sayfaları). Kim (CEO/CFO/yönetim kurulu), alım mı satım mı, kaç hisse, ortalama fiyat, toplam $, işlem tarihi. Öncelik: (1) piyasadan ALIM (kod P) — daha anlamlı sinyal, (2) 1 milyon $ üstü işlemler, (3) portföy + ilgi listesi + büyük teknoloji, (4) aynı şirkette birden fazla yöneticinin alımı (küme alımı). Satışta "planlı satış (10b5-1)" ya da vergi için hisse bırakma (kod F) ise bunu açıkça yaz, abartma. Düzen: uclu R, skor U, siralama I (günün en büyük içeriden alımları). Öğretici notta Form 4 / 10b5-1 / kod P-S-F anlamını açıkla.
    - Hisse geri alımı / temettü artırımı duyurusu (spotlight A / uclu R).
    - Büyük anlaşma/sözleşme, satın alma, birleşme (sondakika D / manset Z).
    - Endekse giriş-çıkış (S&P 500'e dahil edilme vb.) (sondakika D).

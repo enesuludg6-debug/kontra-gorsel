@@ -76,3 +76,4 @@ Durdurmak için en alta `DURDUR` yazılı bir satır ekle (Enes ya da Claude, En
 - 21:10 kart2 v4: U skor, V zaman, W ilerleme, X dilim, Y dortlu, Z manset. Ornekler g/ornek/00_hepsi_v4.jpg.
 - 21:10 Enes YENI KURALLAR: tekrar yok (once atilan konu tekrar atilmaz); oncelikli turler: son dakika, bu hafta ne var, bilanco rakamlari (yorumsuz), bilanco sonrasi analiz (yorumlu) - artirilacak (DEVIR ICERIK KURALLARI).
 - 21:15 Enes: icerik turlerini daha da artir -> DEVIR ICERIK MENUSU (zamana bagli, sirket, fon akisi, karsilastirma, egitici; ~30 tur).
+- 21:20 Enes: hepsini ekle + iceriden alim-satim (Form 4) oncelikli, gunde 1-2 (DEVIR ICERIK MENUSU).
