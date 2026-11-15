@@ -23,7 +23,7 @@ LINE = (44, 44, 50)
 ACC = (212, 175, 105)      # soluk altın vurgu
 UP = (88, 200, 140)
 DOWN = (232, 92, 92)
-HANDLE = "@enes1050392"
+HANDLE = "ENES ULUDAĞ"
 
 
 def serif(s, italic=False):
