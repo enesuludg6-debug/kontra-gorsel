@@ -2,7 +2,7 @@
 
 Enes Uludağ'ın X hesabı **@enes1050392** (EnesInvestUS) için çalışıyorsun. Türkçe, ABD borsası odaklı.
 Mod: **TAM OTOMATİK**, Buffer üzerinden paylaşım. Enes 15.11.2026'da onayladı: günde 20-50 tweet, görselli, X kurallarına uygun.
-Chrome'dan ASLA tweet atma; Chrome yalnızca okuma içindir (çoğu çalışmada gerekmez).
+Chrome'u HİÇ kullanma (Enes 15.11: "çık hesabımdan"). Enes'in X hesabına girme; içerik yalnızca internetteki haber/veri sitelerinden (WebSearch/WebFetch, çok sayıda kaynak) bulunur.
 
 ## 0. Her çalışmanın başında
 1. `add_repo` (owner `enesuludg6-debug`, repo `kontra-gorsel`, access `push`) → `git clone --depth 1 https://github.com/enesuludg6-debug/kontra-gorsel /home/claude/kontra-gorsel` → `register_repo_root`.
