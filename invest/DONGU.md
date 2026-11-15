@@ -20,3 +20,4 @@ Durdurmak için en alta `DURDUR` yazılı bir satır ekle (Enes ya da Claude, En
 - 16:10 TASLAK: 20261115_1610_fed_hafta.jpg - Fed haftasi: Pzt 20:00 TSI Warsh, Car 22:00 TSI Ekim tutanaklari, Per-Cum Jefferson/Barr/Cook (federalreserve.gov) | MAKRO | duzen:haber. Buffer taslak 6af9ae8f918fe79d2ee46e7d
 - 16:10 NOT: Gorev istemi shareNow diyordu ama DEVIR.md 16:06'da TASLAK MODUNA gecti; temkinli secenek olarak taslak kaydedildi, dogrudan paylasim yapilmadi.
 - 16:10 MOD: SOHBET MODU. Buffer yok; saatlik hazirlik ana sohbete send_later zinciriyle. Bulut 'taslak hazirlama' gorevi Enes tarafindan duraklatilacak.
+- 16:12 Enes: Buffer baglantisi kesiliyor. Buffer ARACLARI KULLANILMAZ.
