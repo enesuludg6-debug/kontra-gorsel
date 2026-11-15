@@ -52,3 +52,4 @@ Durdurmak için en alta `DURDUR` yazılı bir satır ekle (Enes ya da Claude, En
 - 18:50 Enes: coklu hisse karsilastirma grafigi ornegi (forward F/K, 11 hisse) -> DEVIR 5k 2. ornek.
 - 18:55 Enes: SaaS NTM gelir buyumesi siralamasi ornegi (DOCN %55, AXON %26) -> DEVIR 5k 3. ornek.
 - 19:00 Enes YENI KURAL: attigi tweetlerin konsept/sekli invest/ORNEKLER.md'ye kaydedilir, yeni tweetler bunlara benzer uretilir (10 sablon kaydedildi).
+- 18:35 HAZIR (Enes'e, 10dk #2, sablon 2): 20261115_1835_sp500_fiyat_kar.jpg - S&P 30.09'dan beri fiyat -%0,8, ileri EPS tahmini +%3,3; ileri F/K 18,3 (5y 19,8) (FactSet 13.11) | RAKAM | duzen:karsilastir | tema:gece
