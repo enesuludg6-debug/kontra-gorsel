@@ -15,3 +15,4 @@ Durdurmak için en alta `DURDUR` yazılı bir satır ekle (Enes ya da Claude, En
 - 15:55 Enes: gorus zorunlu, bilanco oncesi/sonrasi gorus tweetleri; X buyuk hesaplar duzenli okunacak (gundem.md, Chrome gorevi).
 - 15:45 Enes: gunluk tavan 40 tweet.
 - 15:58 X gundem Chrome gorevi kapatildi (X kurallari: browser otomasyonu/scraping yasak, kalici aski riski).
+- 16:08 MOD DEGISTI: Enes kendisi yayinlayacak. Turlar Buffer'a TASLAK kaydeder, shareNow yok. Gunluk 25-40 taslak.

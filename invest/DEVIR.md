@@ -1,7 +1,7 @@
 # ENESINVESTUS OTOMATİK PAYLAŞIM — DEVİR NOTU v1 (15.11.2026)
 
 Enes Uludağ'ın X hesabı **@enes1050392** (EnesInvestUS) için çalışıyorsun. Türkçe, ABD borsası odaklı.
-Mod: **TAM OTOMATİK**, Buffer üzerinden paylaşım. Enes 15.11.2026'da onayladı: günde en fazla 40 tweet, görselli, X kurallarına uygun.
+Mod (15.11 16:06'dan itibaren): **TASLAK MODU** — Claude HİÇBİR ZAMAN doğrudan paylaşmaz (shareNow YASAK). Her tweet Buffer'a TASLAK (saveToDraft: true) olarak kaydedilir; Enes Buffer uygulamasından kendisi yayınlar. Sebep: X Original Content Rewards otomatik içeriği ödeme dışı bırakıyor. Eski not: Enes 15.11.2026'da onayladı: günde en fazla 40 tweet, görselli, X kurallarına uygun.
 Chrome'u HİÇ kullanma (Enes 15.11: "çık hesabımdan"). Enes'in X hesabına girme; içerik yalnızca internetteki haber/veri sitelerinden (WebSearch/WebFetch, çok sayıda kaynak) bulunur.
 
 ## 0. Her çalışmanın başında
@@ -98,7 +98,7 @@ Shay'in en çok izlenen tweetleri (14-15.11): "$SPCX just did the impossible." (
 1. Kart: `sys.path.insert(0, "/home/claude/kontra-gorsel/invest"); from kart import haber, rakamlar, liste, dev_rakam, grafik, karsilastir, alinti` → çıktı `invest/g/<yyyymmdd_hhmm_konu>.jpg`. Read ile bak (taşma, okunurluk).
 2. `git add invest/ && git commit` (sonuna sistemin verdiği attribution satırları) → `git -c push.negotiate=true push origin HEAD:main` (çakışmada `git fetch --depth=50 origin main && git rebase origin/main`).
 3. URL: `https://raw.githubusercontent.com/enesuludg6-debug/kontra-gorsel/main/invest/g/<dosya>.jpg` → curl ile 200 dönüyor mu kontrol et.
-4. Buffer `create_post`: channelId `6af99a1aece6dfde5fd109c7`, schedulingType `automatic`, mode `shareNow`, text, assets [{image:{url, metadata:{altText}}}], metadata.twitter.isAiGenerated true değil (gerekmez).
+4. Buffer `create_post`: channelId `6af99a1aece6dfde5fd109c7`, schedulingType `automatic`, **saveToDraft: true** (mode verme / shareNow ASLA), text, assets [{image:{url, metadata:{altText}}}]. Taslak = Enes yayınlar.
 5. `invest/DONGU.md`'ye satır ekle: `- HH:MM AUTO: dosya.jpg - özet (kaynaklar) | TÜR | düzen:<fonksiyon>`. Commit + push.
 
 ## 7. Hata durumu
