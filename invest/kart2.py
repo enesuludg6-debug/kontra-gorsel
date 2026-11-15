@@ -769,9 +769,11 @@ def editoryal(ticker, kicker, baslik, spot, rakamlar3, kaynak, out, tarih="", ze
     d.text((72, 104), "P İ Y A S A   N O T U", font=sans(28, "Black"), fill=INK, anchor="lm")
     d.text((W - 72, 104), tarih.upper(), font=K.mono(22), fill=(110, 104, 98), anchor="rm")
     d.line((72, 138, W - 72, 138), fill=INK, width=2)
-    lg = _logo(ticker, 170)
-    if lg: img.paste(lg, (W - 72 - lg.width, 176), lg)
-    d.text((72, 190), kicker.upper(), font=sans(28, "ExtraBold"), fill=CL)
+    lg = _logo(ticker, 150)
+    if lg:
+        if _plate_fill(lg)[0] < 100: lg = _plate(lg, 22, 28)
+        img.paste(lg, (W - 72 - lg.width, 170), lg)
+    d.text((72, 190), kicker.replace("i", "İ").upper(), font=sans(28, "ExtraBold"), fill=CL)
     f = None
     for fs in range(128, 60, -4):
         f = K.serif(fs); ls = _wrap(d, baslik, f, W - 144 - (200 if lg else 0))
