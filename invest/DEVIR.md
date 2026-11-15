@@ -28,7 +28,7 @@ Chrome'u HİÇ kullanma (Enes 15.11: "çık hesabımdan"). Enes'in X hesabına g
 9. **Haftanın rakamı / tek sayı** : tek çarpıcı veri + bağlam. Kart: `haber(etiket="RAKAM")`.
 10. **13F / büyük fon hareketleri** (dönemsel): hangi fon neyi aldı/sattı. Kart: `liste(etiket="13F")`.
 
-Enes'in güncel portföyü (15.11.2026): $NBIS $RKLB $DOCN $AXON $SPCX (SpaceX) $VRT (Vertiv). Bunlarda haber, bilanço, analist notu, içeriden işlem varsa öne al.
+Enes'in güncel portföyü (15.11.2026 16:55): $AXON $NBIS $RKLB $CBRS $DOCN $VRT (Vertiv) $SPCX (SpaceX). Bunlarda haber, bilanço, analist notu, içeriden işlem varsa öne al.
 İlgi listesi: $ON $AAOI $HOOD $TEM $CRDO $PLTR $ISRG $ASTS $MU.
 
 ## 2b. PORTFÖY GÜNCELLEMESİ — OTOMATİK TURLAR ATMAZ
@@ -100,7 +100,7 @@ Shay'in en çok izlenen tweetleri (14-15.11): "$SPCX just did the impossible." (
 - Görüş yorumdur, tavsiye değildir: "al/sat", "kaçırmayın", "hedefim" yok.
 - BİLANÇO ÖNCESİ (açıklamadan 1 gün önce ve aynı gün): beklenti rakamları (kaynaklı) + "bence şuna bakılacak" (rehberlik, marj, belirli segment) + ne olursa sevinirim / ne olursa sorun olur.
 - BİLANÇO SONRASI (açıklamadan sonraki ilk turda): gerçekleşen vs beklenti, rehberlik, ilk fiyat tepkisi (doğrulanmışsa) + net görüş: "iyi çeyrek ama rehberlik zayıf", "satış abartı bence" gibi. Kart: rakamlar() veya grafik().
-- Portföy hisselerinde ($NBIS $RKLB $DOCN $AXON $SPCX $VRT) bilanço öncesi ve sonrası tweet KESİN atılır; tarihleri her pazartesi kontrol et.
+- Portföy hisselerinde ($AXON $NBIS $RKLB $CBRS $DOCN $VRT $SPCX) bilanço öncesi ve sonrası tweet KESİN atılır; tarihleri her pazartesi kontrol et.
 
 ## 5f. SABİT SERİLER (Enes 15.11 16:18)
 - **Sabah notu** — her işlem günü 16:00 turunda (ABD açılışı 17:30 TSİ). Vadeli endeksler, premarket'te hareket edenler ve nedeni, günün takvimi (veri, bilanço, Fed). Tek tweet + liste() kartı, etiket "SABAH NOTU".
@@ -109,7 +109,7 @@ Shay'in en çok izlenen tweetleri (14-15.11): "$SPCX just did the impossible." (
 - **Gelecek hafta takvimi** — Pazar öğlen turu (12:00): bilanço takvimi (portföy + ilgi listesi önce) + makro takvim (Fed, CPI, istihdam).
 
 ## 5g. BİLANÇO ÖNCESİ / SONRASI — KISA + UZUN (Enes 15.11 16:18)
-- Kapsam: portföy ($NBIS $RKLB $DOCN $AXON $SPCX $VRT) + ilgi listesi ($ON $AAOI $HOOD $TEM $CRDO $PLTR $ISRG $ASTS $MU) + Enes'in ilgi alanındaki büyükler (AI/yarı iletken/uzay/bulut/fintech: $NVDA $AMD $AVGO $TSM $MSFT $GOOGL $AMZN $META $ORCL $CRWV $SNOW vb.).
+- Kapsam: portföy ($AXON $NBIS $RKLB $CBRS $DOCN $VRT $SPCX) + ilgi listesi ($ON $AAOI $HOOD $TEM $CRDO $PLTR $ISRG $ASTS $MU) + Enes'in ilgi alanındaki büyükler (AI/yarı iletken/uzay/bulut/fintech: $NVDA $AMD $AVGO $TSM $MSFT $GOOGL $AMZN $META $ORCL $CRWV $SNOW vb.).
 - Her biri için İKİ içerik:
   1. KISA: tek tweet + kart (öncesi: beklenti + bence neye bakılacak; sonrası: gelen vs beklenti + net görüş).
   2. UZUN (flood/zincir): 5-7 tweet. Öncesi: 1) kanca 2) beklentiler (gelir, EPS, kaynaklı) 3) geçen çeyrek ne olmuştu 4) bu çeyrek bakılacak 2-3 şey 5) riskler 6) benim görüşüm. Sonrası: 1) kanca + net görüş 2) rakamlar vs beklenti 3) şirketin verdiği tahmin 4) segment/marj detayı 5) yönetimin söylediği önemli bir şey 6) hisse tepkisi (doğrulanmışsa) 7) özet görüş. İlk tweette kart, 2-3 tweette ek kart (rakamlar/grafik).
