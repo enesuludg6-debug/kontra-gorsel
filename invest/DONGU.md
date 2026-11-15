@@ -51,3 +51,4 @@ Durdurmak için en alta `DURDUR` yazılı bir satır ekle (Enes ya da Claude, En
 - 18:45 Enes: uzun seri sutun grafikler (Fiscal.ai tarzi) yapilabilir -> DEVIR 5k; kart.py grafik() 10+ cubuk destegi.
 - 18:50 Enes: coklu hisse karsilastirma grafigi ornegi (forward F/K, 11 hisse) -> DEVIR 5k 2. ornek.
 - 18:55 Enes: SaaS NTM gelir buyumesi siralamasi ornegi (DOCN %55, AXON %26) -> DEVIR 5k 3. ornek.
+- 19:00 Enes YENI KURAL: attigi tweetlerin konsept/sekli invest/ORNEKLER.md'ye kaydedilir, yeni tweetler bunlara benzer uretilir (10 sablon kaydedildi).
