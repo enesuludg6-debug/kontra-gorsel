@@ -9,7 +9,44 @@ Mod (15.11 16:10'dan itibaren): **SOHBET MODU** — Buffer KULLANILMAZ. Tweet me
    b) BU HAFTA NE VAR: haftalık takvim (bilançolar, Fed, makro veri, halka arz). Düzen: takvim (N). Pazar/pazartesi sabahı mutlaka; hafta içi "yarın ne var" kısa versiyonu.
    c) BİLANÇO RAKAMLARI (YORUMSUZ): şirket açıklayınca ilk tweet SADECE rakamlar: gelir, hisse başı kâr, beklentiye göre, rehberlik. Görüş cümlesi YOK. Düzen: skor (U) ya da terminal (C).
    d) BİLANÇO ANALİZİ (YORUMLU): rakam tweetinden sonra (ayrı tur, 30-90 dk sonra) analiz: ne iyi, ne kötü, rehberlik ne diyor, hisse tepkisi, net görüş. Düzen: bento (K), uclu (R), versus (P).
-   Kalan turlar: makro, grafik, eğitici, sıralama.
+   Kalan turlar: aşağıdaki İÇERİK MENÜSÜ.
+3. İÇERİK MENÜSÜ (Enes 15.11 21:15 "daha da arttır"): her turda listeden bugün KULLANILMAMIŞ ve saate uyan bir tür seç; aynı tür arka arkaya gelmesin.
+   ZAMANA BAĞLI (TSİ, kış):
+   - 09:30-11:00 SABAH NOTU: gece Asya/Avrupa, ABD vadeli, bugünün takvimi (takvim N / dortlu Y).
+   - 16:15-17:15 PREMARKET: vadeli endeksler + açılış öncesi en çok hareket eden 3-5 hisse ve nedeni (isi M / dortlu Y).
+   - 17:30-18:30 AÇILIŞ: ilk saatte sert hareket eden hisse + haberi (sondakika D).
+   - 00:05-00:45 KAPANIŞ: endeksler + günün en çok yükselen/düşen 5'i (isi M).
+   - Cuma gece / Cumartesi: HAFTANIN KARNESİ (isi M + uclu R).
+   - Pazar akşamı / Pazartesi sabahı: BU HAFTA NE VAR (takvim N). Hafta içi 22:00 civarı: YARIN NE VAR (takvim N, kısa).
+   - Makro veri günü (TÜFE, istihdam, ÜFE, perakende satış, Fed kararı/notları): önce BEKLENTİ (veriden 1 gün/saatler önce), sonra SONUÇ (açıklanınca, yorumsuz), sonra ETKİSİ (yorumlu).
+   ŞİRKET HABERLERİ:
+   - Bilanço öncesi beklenti (terminal C) → bilanço rakamları yorumsuz (skor U) → analiz yorumlu (bento K / uclu R).
+   - Opsiyon piyasasının bilanço için beklediği hareket (%±), kaynak varsa.
+   - Analist not değişikliği: yükseltme/düşürme, hedef fiyat (kurum + eski/yeni) (versus P / skor U).
+   - İçeriden alım-satım (SEC Form 4): kim, ne kadar, hangi fiyattan (uclu R).
+   - Hisse geri alımı / temettü artırımı duyurusu (spotlight A / uclu R).
+   - Büyük anlaşma/sözleşme, satın alma, birleşme (sondakika D / manset Z).
+   - Endekse giriş-çıkış (S&P 500'e dahil edilme vb.) (sondakika D).
+   - Halka arz: fiyatlama, ilk gün açılış/kapanış, ilk bilanço (zaman V / skor U).
+   - Rekor/kilometre taşı (100. fırlatma, 1 trilyon $ değer vb.) (zaman V / poster H).
+   - CEO/CFO/Fed sözü (soz S; foto için Enes'e sor).
+   FON VE PARA AKIŞI:
+   - 13F (Berkshire, büyük fonlar ne aldı/sattı; dönemi 15 Şubat/Mayıs/Ağustos/Kasım civarı) (dortlu Y / siralama I).
+   - Haftalık fon giriş-çıkışları (BofA/EPFR/LSEG) (halka L / cizgi O).
+   - Açığa satış oranı en yüksek hisseler (siralama I).
+   KARŞILAŞTIRMA VE VERİ:
+   - "1 yıl önce vs bugün" (once_sonra E).
+   - İki rakip yan yana (NVDA-AMD, MU-SNDK...) (versus P).
+   - Sektör/grup sıralaması: F/K, büyüme, marj, yılbaşından beri getiri (siralama I).
+   - Uzun dönem tek metrik grafiği (cizgi O / grafik2 J).
+   - Yapay zeka yatırım harcaması takibi (büyük bulut şirketlerinin capex'i) (siralama I / cizgi O).
+   - Emtia/dolar/tahvil/kripto büyük hareket (editoryal T / spotlight A).
+   - Haftanın rakamı (poster H).
+   EĞİTİCİ (haftada 3-5):
+   - Terim sözlüğü: F/K, FAVÖK, rehberlik, geri alım, temettü, tahvil faizi, ETF, açığa satış... sade, tek kart (editoryal T).
+   - "Bu şirket ne iş yapar": portföy/ilgi listesi şirketlerini 3 maddede tanıt (bento K / uclu R).
+   - Strateji/psikoloji (Enes'in "büyük hisselere geç" tweeti gibi) (editoryal T).
+   - Teknik analiz (Enes grafiği/TradingView, DEVIR 5h-5j).
 **GÖRSEL TERCİHİ (Enes 15.11 21:00): "son yaptıkların (K-T: bento, halka, isi, takvim, cizgi, versus, uclu, soz, editoryal) çok iyi, bunları yapacağız; seçenekleri çoğalt."** Otomatik turlarda ÖNCE v3/v4 düzenlerini kullan: K-T + U skor (beklenti vs gerçek, tik/çarpı; bilanço sonrası), V zaman (kilometre taşları), W ilerleme (doluluk çubukları), X dilim (dağılım halkası), Y dortlu (4 hisse mini kart), Z manset (Enes fotosu + 2 kutu). A-J yedek.
 **GÖRSEL v2 (Enes 15.11 21:15: "bunları beğendim, daha da geliştir"):** Otomatik turlarda artık `invest/kart2.py` kullan: spotlight (tek dev rakam), split (haber), terminal (bilanço/veri satırları), sondakika (sıcak haber), once_sonra (önce/sonra iki rakam), kapak (Enes fotoğrafıyla, kişi haberi), cam (4 kutulu bilanço), poster (tek rakam, marka renginde zemin), siralama (çoklu hisse, logolu yatay çubuk; portföy vurgu=), grafik2 (sütun grafik). v3 ekleri (Enes 15.11 21:00 "daha çok yöntem, en profesyonel"): bento (modüler kutular: büyük rakam + mini grafik + 3 kutu; bilanço için en iyisi), halka (yüzde halkası), isi (yeşil/kırmızı ısı haritası; kapanış/haftanın hareketleri), takvim (haftalık program, logolu), cizgi (parlayan alan grafik + dev değer), versus (çapraz iki taraf), uclu (alt alta 3 dev rakam), soz (alıntı; Enes fotosu varsa photo=), editoryal (açık zemin, serif manşet, 3 rakam; makro için). Örnekler invest/g/ornek/. Kullanım: `import kart2 as V; V.spotlight(...)`. Son 3 turda kullanılan düzeni tekrar etme. kart.py yedek.
 **GÜNCELLEME (Enes 15.11 20:40, canlı):** "Haberleri, sana attığım tweetleri, ne tarz gönderileri beğendiğimi inceleyerek 10 dakikada 1 tweet hazırla ve otomatik at; benden sadece fotoğraf iste." → Aralık 6-14 dk rastgele (Enes 20:43: "tam 10 dakika olmasın"). İçerik seçerken ORNEKLER.md şablonları + Enes'in bugün attığı/beğendiği tarz (kısa, rakamlı, net görüşlü, eğitici, büyük olaylar/bilanço/makro/grafik) esas. Enes'ten SADECE fotoğraf istenir: kişi odaklı habere (CEO, Fed başkanı vb.) foto_kart gerekiyorsa SendUserMessage ile "<kişi>'nin fotoğrafını at" yaz, bekleme; o tur fotosuz başka konu at, foto gelince sonraki turda kullan. Başka soru sorma.
