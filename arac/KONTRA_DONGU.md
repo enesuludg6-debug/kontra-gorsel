@@ -257,3 +257,4 @@
 ## 15.11 10:39 Enes: 'basla ama sen atma, sen bul hazirla bana at ben aticam, alakali foto yoksa iste' -> MANUEL MOD: Buffer'a ATMA, karti+metni Enes'e gonder.
 - 10:45 HAZIR (Enes'e): portekiz_danimarka_1_4.jpg - POR 1-4 DAN (Hojbjerg 43 pen, Hojlund 50 57, Andersen 75, B. Silva 90+3; UL tarihindeki en agir yenilgi; POR 12 DAN 9 NOR 6 GAL 3) ESPN, beIN, FotMob, Al Jazeera | MAC SONU | gazete | foto: ronaldo_portekiz.jpg
 - 10:56 tur: Isvec-Bosna/Gyokeres secildi, arsivde Gyokeres fotosu yok -> Enes'ten istendi.
+- 11:00 HAZIR (Enes'e, Enes foto): gyokeres_8_mac.jpg - SWE 3-2 BIH, Gyokeres 2 pen, 8 mac ust uste gol rekoru, Isvec A Ligi'ne yukseldi, Kolasinac 74. macinda ilk milli gol (UEFA) | REKOR | veri_panel | yeni foto: gyokeres_arsenal.jpg
