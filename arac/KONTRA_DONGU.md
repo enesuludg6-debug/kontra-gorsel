@@ -253,3 +253,6 @@
 - 23:14 tur: POR-DAN 0-0 (26', Al Jazeera/VAVEL). Paylasim yok.
 - 23:30 tur: POR-DAN 0-0 (41', Al Jazeera). Paylasim yok.
 ## 23:43 Enes: 'durdur' -> otomatik dongu DURDURULDU. 23:45 turu (trig_01NeGfZaPfg7UP45BYv7eSZu) silindi, yeni tur kurulmadi. Son tweet 22:45 (Szoboszlai).
+
+## 15.11 10:39 Enes: 'basla ama sen atma, sen bul hazirla bana at ben aticam, alakali foto yoksa iste' -> MANUEL MOD: Buffer'a ATMA, karti+metni Enes'e gonder.
+- 10:45 HAZIR (Enes'e): portekiz_danimarka_1_4.jpg - POR 1-4 DAN (Hojbjerg 43 pen, Hojlund 50 57, Andersen 75, B. Silva 90+3; UL tarihindeki en agir yenilgi; POR 12 DAN 9 NOR 6 GAL 3) ESPN, beIN, FotMob, Al Jazeera | MAC SONU | gazete | foto: ronaldo_portekiz.jpg
