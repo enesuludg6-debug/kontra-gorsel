@@ -140,6 +140,15 @@ Shay'in en çok izlenen tweetleri (14-15.11): "$SPCX just did the impossible." (
 - Kaynakları DONGU.md'ye yaz (TA | kaynak tarih | seviyeler).
 - 2. YOL (Enes 15.11 16:21): Enes grafik ekran görüntüsü gönderirse: grafiği oku (ticker, zaman aralığı, indikatörler, fiyatın EMA/destek/dirence göre yeri, RSI/MACD durumu), güncel fiyatı bir kaynaktan doğrula, varsa bugünün haber/TA bağlamını ekle ve sadece o görsele uygun TA tweetini yaz. Grafikte okunamayan değeri uydurma; emin değilsen "ekranda X göremedim" de.
 
+## 5j. TRADINGVIEW AKIŞI (Enes 15.11 17:20) — sadece bilgisayar bağlıyken (Claude in Chrome, sadece tradingview.com)
+1. Araştır: hissenin BUGÜNKÜ teknik analizlerini bul (5h kaynakları) + güncel fiyatı ayrı kaynaktan doğrula + kendi okuman (dip/tepe, hacim, önceki kırılımlar).
+2. Çiz: TradingView'da hisseyi aç, uygun zaman aralığı, destek/direnç yatay çizgileri, trend çizgileri, gerekiyorsa formasyon (üçgen, kanal). Seviyelerin yanına fiyat etiketi.
+3. Ekran görüntüsü 1: sadece çizimler.
+4. İndikatör ekle: EMA 20/50/200, RSI 14, MACD, hacim (gerekirse Bollinger). Amaç çizimi TEST etmek: teyit edenleri de çelişenleri de yaz, sadece teyit edeni seçip göstermek YOK.
+5. Ekran görüntüsü 2: çizim + indikatörler.
+6. Enes'e: 2 görsel + kısa not (hangi indikatör neyi teyit ediyor/etmiyor) + tweet metni (5h kuralları).
+- TradingView'da paylaşım, yorum, fikir yayınlama, hesap/abonelik ayarı YOK. Kaydedilmiş çizim şablonlarını silme.
+
 ## 5b. Görsel çeşitliliği (Enes 15.11: "görseller hep aynı olmasın, logo kullan")
 - Düzenler: haber() | rakamlar() | liste() | dev_rakam() | grafik(tur='bar'/'cizgi') | karsilastir() | alinti(). Ayrıca dev_rakam(acik_tema=True) açık renk.
 - Son 5 paylaşımda en çok kullanılan düzeni bu turda KULLANMA (DONGU.md'de düzen adını yaz). Aynı düzen arka arkaya iki kez gelmesin.
