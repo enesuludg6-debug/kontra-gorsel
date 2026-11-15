@@ -121,6 +121,7 @@ Shay'in en çok izlenen tweetleri (14-15.11): "$SPCX just did the impossible." (
   Tweet: <kopyalanacak metin>
 - Tweet metni: sade konuşma dili, seviyeler net, "bence" ile görüş; "al/sat/hedef fiyatım/kesin" YOK. Örn: "$NVDA 182 $ desteğinin üstünde tutunuyor. RSI 60 civarı, şişmiş değil. 196 $'ı geçerse bilanço öncesi yer açılır bence. Altında 182 kırılırsa hava değişir."
 - Kaynakları DONGU.md'ye yaz (TA | kaynak tarih | seviyeler).
+- 2. YOL (Enes 15.11 16:21): Enes grafik ekran görüntüsü gönderirse: grafiği oku (ticker, zaman aralığı, indikatörler, fiyatın EMA/destek/dirence göre yeri, RSI/MACD durumu), güncel fiyatı bir kaynaktan doğrula, varsa bugünün haber/TA bağlamını ekle ve sadece o görsele uygun TA tweetini yaz. Grafikte okunamayan değeri uydurma; emin değilsen "ekranda X göremedim" de.
 
 ## 5b. Görsel çeşitliliği (Enes 15.11: "görseller hep aynı olmasın, logo kullan")
 - Düzenler: haber() | rakamlar() | liste() | dev_rakam() | grafik(tur='bar'/'cizgi') | karsilastir() | alinti(). Ayrıca dev_rakam(acik_tema=True) açık renk.
