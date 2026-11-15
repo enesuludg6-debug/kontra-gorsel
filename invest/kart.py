@@ -361,21 +361,23 @@ def foto_kart(photo, ticker, kicker, baslik, satirlar, kaynak, out, etiket="HABE
     """Üst yarı fotoğraf (SADECE Enes'in gönderdiği foto), alt yarı yazı. Webden indirilmiş foto KULLANMA."""
     img = Image.new("RGB", (W, H), BG); d = ImageDraw.Draw(img)
     ph = Image.open(photo).convert("RGB")
-    tw, th = W, 720
+    tw, th = W, 860
     k = max(tw / ph.width, th / ph.height); ph = ph.resize((int(ph.width * k) + 1, int(ph.height * k) + 1), Image.LANCZOS)
     top = int((ph.height - th) * yb); left = (ph.width - tw) // 2
     img.paste(ph.crop((left, top, left + tw, top + th)), (0, 0))
     grad = Image.new("L", (1, 240)); [grad.putpixel((0, i), int(255 * i / 239)) for i in range(240)]
-    img.paste(Image.new("RGB", (W, 240), BG), (0, 480), grad.resize((W, 240)))
-    d.text((72, 60), etiket, font=mono(24, 700), fill=ACC)
+    img.paste(Image.new("RGB", (W, 240), BG), (0, 620), grad.resize((W, 240)))
+    tw_ = d.textlength(etiket, font=mono(24, 700))
+    d.rounded_rectangle((60, 52, 60 + tw_ + 32, 96), radius=22, fill=BG)
+    d.text((76, 74), etiket, font=mono(24, 700), fill=ACC, anchor="lm")
     if ticker.startswith("$"):
         _logo_badge(img, ticker, W - 72, 50, 150)
-    d.text((72, 690), kicker.upper(), font=mono(24, 600), fill=ACC)
-    f, lines = _fit_serif(d, baslik, 92, W - 144, 3)
-    y = 735
+    d.text((72, 850), kicker.upper(), font=mono(24, 600), fill=ACC)
+    f, lines = _fit_serif(d, baslik, 92, W - 144, 2)
+    y = 892
     for ln in lines:
         d.text((72, y), ln, font=f, fill=INK); y += int(f.size * 1.05)
-    y += 24
+    y += 18
     for s_ in satirlar[:3]:
         for ln in _wrap(d, s_, mono(28), W - 190)[:2]:
             d.text((72, y), ln, font=mono(28), fill=MUTED); y += 42

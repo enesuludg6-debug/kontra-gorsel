@@ -22,3 +22,4 @@ Durdurmak için en alta `DURDUR` yazılı bir satır ekle (Enes ya da Claude, En
 - 16:10 MOD: SOHBET MODU. Buffer yok; saatlik hazirlik ana sohbete send_later zinciriyle. Bulut 'taslak hazirlama' gorevi Enes tarafindan duraklatilacak.
 - 16:12 Enes: Buffer baglantisi kesiliyor. Buffer ARACLARI KULLANILMAZ.
 - 16:15 Enes: renkler cesitlensin, kisi fotolari olsun. kart.py: 7 tema + foto_kart (sadece Enes fotosu).
+- 16:18 HAZIR (Enes'e, Enes foto): 20261115_1615_fed_warsh.jpg - Fed haftasi, Warsh Pzt 20:00 TSI (federalreserve.gov) | MAKRO | duzen:foto_kart | tema:lacivert | yeni foto: kevin_warsh.jpg
