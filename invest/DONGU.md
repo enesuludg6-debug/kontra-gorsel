@@ -59,3 +59,4 @@ Durdurmak için en alta `DURDUR` yazılı bir satır ekle (Enes ya da Claude, En
 - 19:05 HAZIR (Enes'e, 10dk #3, portfoy hissesi): 20261115_1905_docn_buyume.jpg - DOCN Q3 gelir 321M +%40 (10 yilin en hizlisi), AI musteri ARR 376M +%288, Q4 tahmin +%44-45, 2027 %60+ (onceki %50+), FY26 ~%34 (8-K 3.11, Investing.com) | GRAFIK | duzen:grafik | tema:mor
 - 19:10 Enes: kapanis cumlesi cesitliligi (gosteriyor bana / dusunuyorum tekrari) -> DEVIR 5.
 - 19:15 Enes YENI KURAL: her tweette bilginin ne anlama geldigini Enes'e acikla (DEVIR OGRETME KURALI).
+- 19:20 HAZIR (Enes'e, Enes tweet 'pods/CTA gold'): 20261115_1920_altin_hafta.jpg - Altin hafta ~-%5 (4.066 -> ~3.884, dip 3.852), 1 yilin en kotu haftasi; Ekim TUFE +%0,4 beklenti ustu, Aralik artirim konusmasi, ABD 10y %5,13, DXY 103 (Kitco 13.11, Rio Times). CTA/pod satisi iddiasi kaynakta yok -> tweette 'olabilir' | EMTIA | duzen:haber | tema:bordo
