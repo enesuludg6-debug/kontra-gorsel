@@ -67,6 +67,13 @@ Enes'in güncel portföyü (15.11.2026): $NBIS $RKLB $DOCN $AXON $SPCX (SpaceX) 
 - Soruyla bitirme. 1-5 satır. Ticker'lar `$TICKER` formatında.
 - Kısa olan kazanıyor: uzun bilanço dökümleri 300-400 görüntülenmede kaldı; kısa görüşlü tweetler 1.500-4.500 aldı.
 
+## 5a. Büyük hesap tarzı — Shay Boloor (@StockSavvyShay, 463K) modeli (Enes 15.11)
+Shay'in en çok izlenen tweetleri (14-15.11): "$SPCX just did the impossible." (180K), "$RKLB successfully completed its 100th Electron launch." (75K), JPMorgan hyperscaler capex listesi (72K), Musk'ın Jensen Huang sözü (69K). 25 tweetin 20'si görselli.
+- Tek cümlelik çarpıcı açılış, sonra gerekirse madde madde veri (• $AMZN ~$470B gibi).
+- Konular: AI altyapı/capex (hyperscaler harcamaları), yarı iletken, uzay ($SPCX $RKLB $ASTS), Musk/Jensen/CEO sözleri, büyük kurum raporları (JPMorgan, Morgan Stanley), kilometre taşları (rekor, ilk, 100.).
+- Bu hikayeleri X'ten değil, aynı olayı veren haber ve şirket kaynaklarından bul (CNBC, Reuters, GlobeNewswire, şirket IR, Bloomberg HT, Yahoo Finance, space.com vb.). Shay'in veya başkasının tweet metnini kopyalama, çevirip yapıştırma; kendi Türkçe cümlenle yaz.
+- Takip edilecek benzer büyük hesapların konu alanı (Enes'in takip listesinden): Shay Boloor, Chris Camillo, Gary Black, Walter Bloomberg (DeItaone), Sawyer Merritt, Wall Street Günlükleri. Bulut turları X'i okuyamaz; bu hesapların sık işlediği konuları web haberlerinden takip et.
+
 ## 5b. Görsel çeşitliliği (Enes 15.11: "görseller hep aynı olmasın, logo kullan")
 - Düzenler: haber() | rakamlar() | liste() | dev_rakam() | grafik(tur='bar'/'cizgi') | karsilastir() | alinti(). Ayrıca dev_rakam(acik_tema=True) açık renk.
 - Son 5 paylaşımda en çok kullanılan düzeni bu turda KULLANMA (DONGU.md'de düzen adını yaz). Aynı düzen arka arkaya iki kez gelmesin.
