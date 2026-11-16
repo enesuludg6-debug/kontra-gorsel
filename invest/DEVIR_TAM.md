@@ -110,7 +110,7 @@ OTOMATİK PAYLAŞIM TURU (Enes 15.11 21:15 "oto atmaya devam"). ÖNCE invest/DEV
 - Enes'i geliştirmek de amaç: her tweetle birlikte "Ne anlama geliyor?" öğretici bölümü gönderilir (bölüm 9).
 
 ## 1. PORTFÖY VE LİSTELER
-- GÜNCEL PORTFÖY (16.11 23:44, Enes'in uygulama ekran görüntüsü): DOCN RKLB SITM AXON CBRS VRT AVGO. NBIS çıktı, AVGO girdi (23:30 kontrolündeki NBIS -> AVGO kıyası sonrası). (eski 16.11 12:49: NBIS RKLB DOCN SITM AXON CBRS VRT)
+- GÜNCEL PORTFÖY (16.11 23:44, Enes'in uygulama ekran görüntüsü): DOCN RKLB SITM AXON CBRS VRT AVGO. NBIS çıktı, AVGO girdi (23:30 kontrolündeki NBIS -> AVGO kıyası sonrası). 16.11 23:48 Enes: "NBIS YOK" -> NBIS portföyde değil; teknik kontrollerde ve portföy notlarında NBIS'e bakılmaz, aday/izleme listesine de konmaz (Enes yeniden isterse eklenir). (eski 16.11 12:49: NBIS RKLB DOCN SITM AXON CBRS VRT)
   - SPCX çıktı, SITM girdi.
   - Enes piyasa açılışında hepsini EŞİT AĞIRLIKLA alacağını söyledi. Benim "ben olsam" görüşüm kademeli girmekti; karar onun.
   - (eski 15.11 16:55: AXON NBIS RKLB CBRS DOCN VRT SPCX)
