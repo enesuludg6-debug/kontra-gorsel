@@ -28,6 +28,7 @@ Rotasyon sırası (eksik/eskiden başla): NBIS RKLB SITM AXON CBRS VRT ECL TSM A
 | AXON | 16.11 19:55 | 4 | 2 | 2 | 3 | 3 | 1 | 3 | 1 | 5 | 3 | 27/50 | hendek çok güçlü (NRR %126), ama rehber düşürüldü, SBC yüksek, trend çok zayıf |
 | CBRS | 16.11 20:20 | 4 | 2 | 1 | 4 | 2 | 4 | 2 | 2 | 3 | 2 | 26/50 | çekirdek gelir +%70, rehber 3. kez aşıldı/yükseltildi; FCF -1,4 Mr$, müşteri yoğunlaşması aşırı, pahalı |
 | ECL | 16.11 21:20 | 3 | 4 | 3 | 3 | 2 | 4 | 3 | 5 | 5 | 4 | 36/50 | kaliteli, düşük beta, trend güçlü; ama büyüme orta (%7 organik), pahalı (ileri F/K ~34), borçlu |
+| TSM | 16.11 21:40 | 5 | 5 | 4 | 5 | 4 | 4 | 3 | 2 | 5 | 2 | 39/50 | gelir +%41 ($), marj %66, net nakit 100 Mr$, ileri F/K ~18; risk Tayvan + 2nm marj seyrelmesi |
 | VRT | 16.11 20:45 | 5 | 5 | 5 | 5 | 4 | 4 | 3 | 1 | 4 | 3 | 39/50 | satış +%61, sipariş 2 katı, net nakit, ileri F/K ~20; fiyat 200 günlüğün %30 altında, sipariş verisi artık açıklanmayacak |
 | ECL | - | | | | | | | | | | | eksik | |
 | TSM | - | | | | | | | | | | | eksik | |
@@ -178,3 +179,21 @@ Kaynaklar: şirket bülteni 8-K (SEC), last10k (bülten), Benzinga, Quartr, Indi
 SEKTÖR KPI (kimya/hijyen): organik satış +%7, fiyat +%5 / hacim +%2, organik brüt marj sabit, High-Tech +%63.
 DENETİM (14i): A1 eski veri (27.10) -> F/K bugünkü fiyatla ~38; A9 GÖRECELİ GÜÇ 5 teknikle çakışıyor -> /45 = 31; A10 organik %7 ile puanlandı; A14 WF yükseltmesi yalnız MOMENTUM'a girdi. Sonucu en çok değiştiren: değerleme (ileri F/K 34-38).
 SONUÇ: TEMEL 36/50. Kalite, istikrar ve teknik trend çok güçlü; büyüme orta, değerleme pahalı, borç satın almalarla arttı. Portföyün yüksek beta'lı hisselerine karşı savunmacı bir denge adayı; ama "dip avcısı" açısından fiyat dipte değil, trendin tepesinde (k1 291,7-308 geri çekilmesi beklenmeli).
+
+
+## TSM — 16.11.2026 21:40 (/50, bölüm 14h) — Q3 2026 (açıklama 15.10) — ADAY
+Kaynaklar: şirket bülteni 6-K (SEC), TSMC IR rehber tablosu, FourWeekMBA, CryptoBriefing, ValueTheMarkets, CRN Asia, Longbridge (çağrı), Xenospectrum, ifyouspent, stockanalysis istatistik (veri 13.11, fiyat 398,73). Bugün 375,4 (Yahoo 21:40, -%5,9).
+1) BÜYÜME 5/5 — Q3 gelir 46,72 Mr$ (dolar bazında yıllık +%41,2; NT$ bazında +%50,9), çeyreklik +%16-17,6 (6-K, CRN Asia, FourWeekMBA, Longbridge). Rehberin (44,6-45,8) üstü (FourWeekMBA, IR). Q4 rehberi 52,3-54,3 Mr$ (ortası ~+%14 çeyreklik) (6-K, CryptoBriefing, ValueTheMarkets). 2026 ~+%44 (Xenospectrum, ifyouspent "yükseltildi"). HPC payı %68, çeyreklik +%22 (CRN Asia, Longbridge).
+2) KÂRLILIK 5/5 — Brüt marj %66,4 (Q2 %67,7; 2nm başlangıcı seyreltiyor), faaliyet marjı %58,7, net marj %51,1 (6-K, CRN, CryptoBriefing). Q4 brüt marj rehberi %65-67 (ValueTheMarkets). ROIC %60, ROE %42 (stockanalysis, tek kaynak); ROE %45,5 (Longbridge). Akranlara göre (Samsung foundry, Intel foundry) çok üstün.
+3) NAKİT 4/5 — TTM FCF 45 Mr$, FCF marjı %30, capex 50 Mr$ (gelirin ~%32) (stockanalysis, tek kaynak). Capex yükü ağır ama nakitle karşılanıyor; yatırımcıların endişesi marj + capex (CRN Asia/Investing).
+4) BİLANÇO 5/5 — Nakit 126 Mr$, borç 25,7 Mr$, net nakit 100 Mr$, cari oran 2,5, hisse sayısı değişmiyor (stockanalysis, tek kaynak; güven orta).
+5) DEĞERLEME 4/5 — 398,7$ ile ileri F/K 19,0, EV/FAVÖK 15,5, FCF getirisi %2,4 (stockanalysis); bugün 375,4 ile ileri F/K ~17,9 (A1 düzeltmesi). %40+ büyüme için F/K 18 ucuz; EV/Satış 11 yüksek görünse de %51 net marjla anlamlı. Akranlar (NVDA ileri ~25-30 kaba, AVGO) -> TSM en ucuz büyük yapay zeka tedarikçisi (kaba, çapa yok). Analist ort. hedef 587$ (21 analist, tek kaynak).
+   KABA SENARYO (12 ay; 2027 HBK bilinmiyor): AYI F/K 14 (Tayvan riski primi) -> ~295$; BAZ 19 -> ~400$; BOĞA 24 -> ~505$.
+6) MOMENTUM 4/5 — 2026'da her çeyrek gelir rehberin üstünde (Xenospectrum), yıllık hedef yükseldi; EKSİ: brüt marj düşüşü sonrası hisse geriledi (CRN Asia/Investing), bugün çip satışında -%5,9.
+7) SAHİPLİK/AKIŞ 3/5 — Açığa satış hisse sayısının %0,66'sı (düşük) (stockanalysis). ADR yapısı, kurum verisi bilinmiyor (güven düşük).
+8) GÖRECELİ GÜÇ 2/5 — 375 ile 50 günlük ort. 430'un ~%13, 200 günlük 403'ün ~%7 altında; 52 hafta +%37 (stockanalysis). Kısa vadede zayıf, uzun vadede güçlü.
+9) KALİTE/YÖNETİM 5/5 — İleri düğüm (3nm/2nm) üretiminde fiilen tekel; fiyatlama gücü (marj %66). CEO C.C. Wei, CFO Wendell Huang. Müşteri yoğunlaşması (Nvidia, Apple payları): bilinmiyor, sonraki yenilemede yıllık rapor.
+10) RİSK/KATALİZÖR 2/5 — Tayvan/Çin jeopolitiği (en büyük tek risk), ihracat kontrolleri, yurt dışı fabrikaların marjı ~%2 seyreltmesi (CRN Asia), 2nm başlangıç maliyeti. Katalizör: NVDA bilançosu (17.11), aylık satış verisi (Kasım ortası/Aralık), Q4 bilançosu (Ocak).
+SEKTÖR KPI (yarı iletken/dökümhane): HPC payı %68; brüt marj %66,4; düğüm karışımı (2nm başlangıç) seyrelme yaratıyor; kapasite kullanımı ve stok günleri bilinmiyor.
+DENETİM (14i): A1 fiyat 13.11 -> bugünkü 375 ile F/K yeniden hesaplandı; A2 dolar vs NT$ büyümesi ayrıldı (+%41 $ vs +%50,9 NT$; puan dolarla); A3 Stocktwits sonucu (marj %59,5, Q4 32-33 Mr$) ESKİ YILA ait (2024) -> KULLANILMADI; A4 NAKİT/BİLANÇO tek kaynak; A9 GÖRECELİ GÜÇ 2 -> /45 = 37. Sonucu en çok değiştiren: jeopolitik risk iskontosu (ayı senaryosu F/K 14).
+SONUÇ: TEMEL 39/50 (/45: 37) — VRT ile eşit en yüksek. Büyüme, marj, bilanço olağanüstü, değerleme büyümeye göre ucuz; puanı aşağı çeken tek büyük kalem Tayvan riski. Bugünkü çip satışıyla fiyat 200 günlüğün altına indi -> dip avcısı açısından izlenecek aday.
