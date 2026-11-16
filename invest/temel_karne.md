@@ -26,7 +26,7 @@ Rotasyon sırası (eksik/eskiden başla): NBIS RKLB SITM AXON CBRS VRT ECL TSM A
 | RKLB | 16.11 19:15 | 5 | 2 | 3 | 4 | 1 | 3 | 3 | 3 | 4 | 2 | 30/50 | büyüme ve backlog çok güçlü, nakit bol; değerleme çok pahalı, Neutron 2027'ye kaydı |
 | SITM | 16.11 19:55 | 5 | 4 | 3 | 4 | 3 | 4 | 3 | 3 | 4 | 3 | 36/50 | AI veri merkezi talebiyle %257 büyüme, düz. marj %70; GAAP kâr ince, wafer arzı kısıtlı |
 | AXON | 16.11 19:55 | 4 | 2 | 2 | 3 | 3 | 1 | 3 | 1 | 5 | 3 | 27/50 | hendek çok güçlü (NRR %126), ama rehber düşürüldü, SBC yüksek, trend çok zayıf |
-| CBRS | - | | | | | | | | | | | eksik | |
+| CBRS | 16.11 20:20 | 4 | 2 | 1 | 4 | 2 | 4 | 2 | 2 | 3 | 2 | 26/50 | çekirdek gelir +%70, rehber 3. kez aşıldı/yükseltildi; FCF -1,4 Mr$, müşteri yoğunlaşması aşırı, pahalı |
 | VRT | - | | | | | | | | | | | eksik | |
 | ECL | - | | | | | | | | | | | eksik | |
 | TSM | - | | | | | | | | | | | eksik | |
@@ -110,3 +110,20 @@ Kaynaklar: şirket bülteni (PR Newswire/Finviz), MarketBeat çağrı, Zacks (2)
 10) RİSK/KATALİZÖR 3/5 — Federal sözleşme zamanlaması (Dedrone), Skydio entegrasyonu, SBC, konvertibl; düzenleme/gizlilik. Katalizör: Q4 bilançosu (Şubat), federal projelerin imzalanması, AI ürünlerinin büyümesi.
 SEKTÖR KPI (kamu güvenliği SaaS): ARR 1,75 Mr$ (+%40), NRR %126, yazılım payı ~%48, gelecek rezervasyon 15,8 Mr$.
 SONUÇ: TEMEL 27/50. İş kalitesi en üst düzey; zayıflık kısa vadeli momentum, rehber kesintisi, düşük FCF ve yüksek SBC. Uzun vade kaliteli + fiyat düşmüş; ama trend çok zayıf, acele yok.
+
+
+## CBRS — 16.11.2026 20:20 (/50, bölüm 14h) — Q3 2026 (açıklama 12.11)
+Kaynaklar: şirket bülteni 8-K (SEC EDGAR), Investing çağrı özeti, KuCoin/Odaily, Leafy substack bilanço incelemesi, S-1/424B4 (SEC), stockanalysis istatistik (veri 15.11; ima edilen fiyat ~108,7). Bugün ~101,4 (Yahoo 20:15).
+1) BÜYÜME 4/5 — GAAP gelir 210,8 Mn$ (+%55 yıllık), çekirdek gelir 230,9 Mn$ (+%70 yıllık, +%10 çeyreklik) (8-K, Investing, KuCoin). Çekirdek bulut 144,9 Mn$ +%272 (8-K, KuCoin). Q4 rehberi 310-330 Mn$ (~%40 çeyreklik) (Investing; tek kaynak). 2026 çekirdek gelir rehberi 880-890'dan 940-960 Mn$'a yükseldi (Investing, Leafy). Sözleşmeli kapasite 700 MW (Q2: 600) (8-K x2). RPO 26,1 Mr$ (önceki 25,4; gecikme kredileri düşülmüş) (Leafy, tek kaynak). OpenAI ile 750 MW, 20 Mr$+ çok yıllık anlaşma (Q1 8-K, tek kaynak). İki yeni hiperölçekli müşteri (8-K).
+2) KÂRLILIK 2/5 — TTM brüt marj %29,7, faaliyet marjı -%99, net marj -%86, net zarar -639,6 Mn$ (stockanalysis, tek kaynak). Çekirdek net kâr halka arzdan beri ilk kez pozitif (Investing, tek kaynak). GAAP–çekirdek farkı ve SBC: bilinmiyor (sonraki yenilemede 10-Q).
+3) NAKİT 1/5 — TTM faaliyet nakdi -264,7 Mn$, capex -1,13 Mr$, FCF -1,39 Mr$ (stockanalysis, tek kaynak). Kapasite inşası nakit yakıyor; runway için aşağıdaki net nakit yeterli (~4 yıl bu hızla, kaba).
+4) BİLANÇO 4/5 — Nakit 7,36 Mr$, borç 1,45 Mr$, net nakit 5,91 Mr$ (hisse başı 24,3$), cari oran 5,3 (stockanalysis, tek kaynak). Halka arzda 6,4 Mr$ toplandı (Q1 8-K). EKSİ: hisse sayısı yıllık +%147 (halka arz + dönüşümler) (stockanalysis, tek kaynak).
+5) DEĞERLEME 2/5 — Piyasa değeri ~26,4 Mr$ (15.11), EV 20,5 Mr$, EV/Satış 27 (TTM), ileri F/S 12,5, ileri F/K ~101 (stockanalysis). Q4 rehberi ortası 320 Mn$ x 4 = ~1,28 Mr$ yıllık hız -> EV/yıllık hız ~16 (kaba). Akran (NVDA ~10x kâr Fool; AVGO, AMD): CBRS çok daha pahalı, büyüme hızıyla kısmen açıklanıyor. Analist ort. hedef 210$ (11 analist, Güçlü Al) (stockanalysis, tek kaynak).
+   KABA SENARYO (12 ay): AYI EV/yıllık hız 8 -> ~10 Mr$ EV + 5,9 nakit = ~65$; BAZ 14 -> ~100$; BOĞA 22 (2027 rehberi güçlü gelirse) -> ~140$. Bugün ~101 = baz senaryo fiyatlanmış.
+6) MOMENTUM 4/5 — Üst üste 3. çeyrek kendi rehberini aştı, çekirdek gelir LSEG konsensüsü 214,7 Mn$'ı ~%7 aştı (Investing, Leafy); yıllık rehber yükseltildi; bilanço sonrası mesai dışı +%17 (KuCoin, Investing başlığı). Tahmin revizyonları 7/30/90 gün: bilinmiyor.
+7) SAHİPLİK/AKIŞ 2/5 — Açığa satış float'ın %14,5'i (tek kaynak) -> yüksek. Float 153 Mn / 243 Mn hisse -> kilit (lock-up) bitişiyle yeni arz riski; lock-up tarihi bilinmiyor, DOĞRULANACAK. İçeriden işlemler, 13F: bilinmiyor.
+8) GÖRECELİ GÜÇ 2/5 — 52 hafta verisi yok (yeni halka arz). Yahoo ta2 20:15: günlük 2 yukarı / 12 aşağı; haftalık hesap için veri yetersiz. 18:00 teknik: 1. kademe 96,6-98,7, tez biter 77,8.
+9) KALİTE/YÖNETİM 3/5 — Wafer ölçekli çip ile hızlı çıkarım (inference) teknolojisinde hız avantajı; OpenAI, AWS, AMD ortaklıkları (8-K'lar). Kurucu CEO Andrew Feldman. EKSİ: müşteri yoğunlaşması aşırı — 2025'te MBZUAI %62, G42 %24 (toplam %86), 2024'te G42 %85 (S-1 + 424B4).
+10) RİSK/KATALİZÖR 2/5 — BAE (G42/MBZUAI) bağımlılığı ve ihracat düzenlemeleri, veri merkezi gecikmeleri (RPO'dan gecikme kredisi düşüldü, iptal riski taahhüt edilen MW'ın %5'inden az; takvime dönüş 2027 2. yarı) (Leafy, tek kaynak), yüksek açığa satış, lock-up. Katalizör: Q4 bilançosu (Şubat), NVDA bilançosu (AI talep algısı), yeni hiperölçekli anlaşmalar.
+SEKTÖR KPI (AI donanım/yeni halka arz): sözleşmeli kapasite 700 MW; RPO 26,1 Mr$; müşteri yoğunlaşması %86 (2025); çekirdek bulut payı ~%63 (Leafy); halka arz fiyatına göre konum: bilinmiyor.
+SONUÇ: TEMEL 26/50. Büyüme ve sipariş görünürlüğü çok güçlü, bilançoda bol nakit; ama nakit yakımı büyük, değerleme pahalı, müşteri yoğunlaşması ve açığa satış yüksek. Portföydeki en riskli temel profillerden biri (NBIS 23, AXON 27 ile birlikte alt grup).
