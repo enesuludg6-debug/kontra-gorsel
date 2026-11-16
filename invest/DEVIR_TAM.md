@@ -8,6 +8,7 @@ Kaynaklar: invest/DEVIR.md (15.11 v1), invest/DEVIR_OZET.md (15.11 21:05 + 16.11
 2) (tam test: 21 gösterge x 4 dilim, ta2.py -v + TradingView 2'şerli rotasyon, bölüm 13) GÜNDE 2 SABİT TEKNİK KONTROL: her ABD işlem günü 18:00 TSİ (açılış +30 dk) ve 23:30 TSİ (kapanış -30 dk). Portföyün tamamı + Claude'un yatırıma uygun bulduğu en iyi 3-4 hisse. 21 gösterge, 4 zaman dilimi, TradingView varsa. Enes'e her seferinde "ben olsam" kararlarıyla mesaj (değişiklik olmasa da). Tweet değil. (bölüm 14b)
 3) HİSSE SEÇİMİ PROFESYONEL YÖNTEMLE: temel (13 maddelik kontrol listesi) + teknik (bölüm 13) puan kartı; adaylar portföyle aynı kartla karşılaştırılır; daha iyisi varsa önerilir, yoksa önerilmez. (bölüm 14c)
 4) TEKNİK ANALİZ TWEETİ: 'bence dibe yakın / ben şuradan kademe eklerim, orayı kırarsa şuradan' dili serbest; tavsiye ve emir kipi yok; sade konuşma dili. (bölüm 6)
+5) TEKNİK ANALİZ TWEETLERİ: her kontrolde bakılan HER hisse için ayrı görsel + ayrı tweet taslağı Enes'e gönderilir; Claude teknik analiz tweeti PAYLAŞMAZ (Enes paylaşır). Her kademe/stop/hedef seviyesinin nedeni (çakışan göstergeler ve dilimler) yazılır. (bölüm 14d, 14e)
 Yeni oturum A5'te bu iki teknik kontrol zincirini MUTLAKA kurar. Devir notu yeniden yazılırsa bu 3 kural aynen korunur.
 
 YENİ OTURUMSAN ÖNCE A BÖLÜMÜNÜ UYGULA. Her turun başında bu dosya BAŞTAN SONA okunur. Sonra DEVIR_OZET.md (ek ayrıntı) ve DONGU.md'nin TAMAMI okunur.
@@ -425,6 +426,25 @@ E) DİL VE SINIRLAR
 - Kaynak belirtilir; tek kaynaklı bilgi "doğrulanmadı" diye işaretlenir ya da kullanılmaz.
 - Bu yöntem 18:00 ve 23:30 teknik kontrollerinde (bölüm 14b) ve her fırsat önerisinde uygulanır. Kullanım limitine dikkat: temel analiz günde bir kez derinlemesine (18:00), 23:30'da yalnız değişenler güncellenir.
 
+## 14d. TEKNİK ANALİZ TWEETLERİ VE GÖRSELLERİ — ENES PAYLAŞIR (16.11 14:15, Enes, KESİN KURAL)
+- 18:00 ve 23:30 kontrollerinde bakılan HER hisse için (portföydeki 7 hisse + aday/fırsat hisseleri + test amaçlı bakılanlar) AYRI AYRI hazırlanır:
+  1. Göstergeli grafik görseli (g/ta/YYYYMMDD_HHMM_<ticker>_teknik.jpg, koyu tema, seviyeler ve gerekçeler işaretli) + varsa TradingView ekran görüntüleri.
+  2. O hisseye özel teknik analiz tweet taslağı (bölüm 6 "TEKNİK ANALİZ TWEETİ DİLİ").
+  - Enes'e her hisse ayrı mesaj + ayrı SendUserFile olarak gönderilir (tweet metni + görsel birlikte).
+- TEKNİK ANALİZ TWEETLERİNİ CLAUDE PAYLAŞMAZ. Buffer'a gönderilmez. Enes kendisi teyit edip paylaşır (Buffer aylık 1000 gönderi hakkı korunur). Otomatik turlar teknik analiz tweeti atmaz.
+- KANIT ZORUNLU (16.11 14:15): "şuradan kademe eklerim / orayı kırarsa şuradan eklerim / şunun altında tez biter / hedef şu" denen HER seviyenin NEDENİ yazılır: hangi göstergeler ve hangi zaman dilimleri o bölgede çakışıyor.
+  - Tweette sade dille kısa gerekçe: ör. "79-84'ü seçmemin sebebi: günlükte doldurulmamış bir boşluk var, 1 saatlikte trend göstergesi orada destek veriyor ve fiyat daha önce burada alıcı buldu."
+  - Enes'e özel notta tam gerekçe: "79,2-84,3 = günlük bull FVG + 1s Supertrend AL 83,5 + 1s Ichimoku bulutu 78,9-81,8 + 4s bull FVG 79,2". En az 2 bağımsız gösterge/dilim çakışmayan seviye kademe olarak verilmez.
+  - Görselde her seviyenin yanında gerekçe etiketi olur.
+- Bu kurallar devir notu yeniden yazılırsa aynen korunur.
+
+## 14e. 16.11 YAPILAN ÇALIŞMALAR (referans/örnek)
+- 13:52 kripto düşüş tweeti (COIN/MSTR, sondakika), 14:08 NVO CagriSema tweeti (editoryal) — otomatik turlar, Buffer.
+- 14:15 RKLB TEKNİK DENEME: ta2 -v 21x4. 1s 5/6/12, 4s 8/3/12, G 7/7/9, H 4/8/11 (yukarı/aşağı/nötr). Gerekçe: günlük CHoCH yukarı 61,13; G+4s Supertrend AL (50,6 / 55,6); MACD +; OBV uyumlu; fiyat Fib OTE 43,9-66,8 içinde; haftalık bull FVG 55,3-59,8 + 4s bull FVG 59,4-59,6 çakışması. Ben olsam: 1. kademe ~59,5, 2. kademe 53-55 (günlük bull FVG 53,1-55,0 + VWAP 20g ~55,3), azalt <50,6 günlük kapanış, tez biter <43,9; hedef 63,5 (POC) ve 68-71 (son tepe + EMA 200). Görseller g/ta/20261116_1405_rklb_tradingview.jpg, 1415_rklb_teknik.jpg.
+- 14:25 DOCN TEKNİK DENEME: ta2 -v + TradingView (Supertrend+SMC 1s/4s/G/H, RSI+MACD G; ctrl+z ile geri, ctrl+s). 1s 9/4/10, 4s 5/9/9, G 3/13/7, H 3/12/8. TV 4s Supertrend AL 73,3 (ta2 92,3 SAT; TV esas). Gerekçe: G/4s/1s OBV pozitif uyumsuzluk, TV RSI 41,7 ortalamasını yukarı kesti, MACD sıfır altı yukarı kesişim, fiyat OTE içinde. Ben olsam: 1. kademe 79-84 (G bull FVG 79,2-84,3 + 1s Supertrend 83,5 + 1s bulut 78,9-81,8), 2. kademe 70-73 (son dip 69,8 + haftalık EMA 200 70,0 + TV 4s Supertrend 73,3), tez biter haftalık kapanış <69,8; direnç 93,8-97,3 (G bear FVG), 102,2 (G Supertrend). Görseller g/ta/20261116_1420_docn_*.jpg, 1425_docn_teknik.jpg.
+- Grafik çizim kodu: bu iki görselin matplotlib kodu (koyu tema, sağda gerekçeli seviye etiketleri, altta RSI/MACD/OBV) yeni görseller için şablondur -> invest/ta_grafik.py.
+- TradingView rotasyon yöntemi: legend'e tıkla + Delete ile göstergeyi kaldır; Indicators (üst menü) -> ara -> yerleşik göstergeyi tıkla; ekran görüntüsü; ctrl+z ile tüm değişiklikleri geri al (özel ayarlar korunur); ctrl+s. URL'de interval=60/240/D/W ile dilim değişir; yüklenmesi için 8-10 sn bekle.
+
 ## 15. TAKVİM (16-19 Kasım 2026, TSİ)
 - Pzt 16.11:
   - Tyson (TSN) Q4 açılış öncesi. Konsensus EPS kaynağa göre 0,53-0,61$, gelir ~14,1 Mr$. Çağrı 17:00 TSİ. Rakamlar 13:33'te henüz yoktu; 2026 tarihli olduğunu doğrula.
@@ -487,6 +507,7 @@ E) DİL VE SINIRLAR
 | 13:32 | Amacım en dipleri bulmak, yatırımcıyım | 0, 14 |
 | 13:54 | Portföy güncellemesi tweetlerini kaldır, onları ben atarım | 1, başlık |
 | 13:55 | Günde 2 kez (açılış +30, kapanış -30) portföy + en iyi 3-4 hisse teknik kontrol, 'ben olsam' kararları | 14b, başlık |
+| 14:15 | Tüm çalışmaları ve kuralları ekle; kademelerin nedenini yaz; 18:00/23:30'da bakılan her hisse için ayrı görsel + tweet bana gönder, teknik analizi ben paylaşırım (Buffer 1000/ay) | 14d, 14e, başlık |
 | 14:07 | Teknik analiz tweetinde 'bence dibe yakın / ben şuradan kademe eklerim, kırarsa şuradan' dili; tavsiye yok, oyun planı başlığı yok, sade konuşma dili | 6, başlık |
 | 14:05 | 21 göstergenin hepsi, tüm zaman dilimlerinde test edilecek; TradingView'da 2'şerli kapat-aç | 13, başlık |
 | 14:00 | Teknik kontrollerde kararı destekleyen göstergeli grafik ekran görüntüsünü sohbete at | 14b |
