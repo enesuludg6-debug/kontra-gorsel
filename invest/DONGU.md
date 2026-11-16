@@ -186,3 +186,4 @@ Durdurmak için en alta `DURDUR` yazılı bir satır ekle (Enes ya da Claude, En
 - 21:40 Enes: TradingView hesabi fark etmez, Supertrend + SMC kur (Adsiz QdeLE4v4 duzeni).
 - 21:45 TradingView: Adsiz (QdeLE4v4) duzeninde RSI+MACD kaldirildi, Supertrend (10,3) + LuxAlgo SMC eklendi, ctrl+s (Enes onayi 21:34). RKLB 1s Supertrend TV 61,16 sat / ta2 61,41 sat (fark ~%0,4). SMC: ikisi de 1s'te dusen yapi, ~59,76 asagi kirilim. 23:30 kontrolu bu duzenle yapilacak.
 - 21:42 Enes: TA ekran goruntusu karari belirleyen gostergeler acikken -> kesin kural 5e, 14b, 14d, bolum 18.
+- 21:44 Enes: ekran goruntusunu Enes alir; Claude talimat (hisse/dilim/2 gosterge/neye bakilacak) + tweet + dusunceler -> kesin kural 5f, 14b, 14d, bolum 18; 23:30 ve 18:00 teknik kontrol gorevleri yeni kuralla yeniden kuruldu.
