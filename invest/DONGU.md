@@ -130,3 +130,4 @@ Durdurmak için en alta `DURDUR` yazılı bir satır ekle (Enes ya da Claude, En
 - 13:54 Enes: portföy güncellemesi tweetlerini Enes kendisi atacak -> Claude portföy tweeti hazırlamaz/atmaz; eski portföy sorusu görevi durduruldu; DEVIR_TAM bölüm 1 ve 16 güncellendi.
 - 13:55 Enes: her islem gunu 18:00 ve 23:30 TSI portfoy + en iyi 3-4 firsat hissesi teknik kontrolu, 'ben olsam' kararlariyla Enes'e mesaj -> DEVIR_TAM 14b. Zincir kuruldu.
 - 13:58 Enes: hisse secimi profesyonel yontemle (temel 13 madde + teknik puan karti, portfoyle karsilastir, daha iyisi yoksa onerme) -> DEVIR_TAM 14c + baslik kural 3.
+- 14:15 TEKNIK DENEME (Enes istegi): portfoyde alim icin en uygun = RKLB (gunluk+4s Supertrend AL, gunluk CHoCH yukari 61,13, MACD +, OBV uyumlu, fiyat OTE ve bull FVG 59,7-63,2 icinde; premarket 59,46). Gorseller g/ta/20261116_1405_rklb_tradingview.jpg + 20261116_1415_rklb_teknik.jpg Enes'e gonderildi. Tweet taslagi Enes'e verildi, PAYLASILMADI.
