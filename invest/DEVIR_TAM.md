@@ -358,6 +358,14 @@ OTOMATİK PAYLAŞIM TURU (Enes 15.11 21:15 "oto atmaya devam"). ÖNCE invest/DEV
 - 13:31'de Enes'e verilen "ben olsam" planı: RKLB 58-60 al (stop 52, hedef 63,5 ve 70-71); VRT 202-205 geri alınırsa (stop 176, hedef 242); DOCN 79-84 küçük (stop 69,8 altı, hedef 97-102); SITM 398-426 (stop 355, hedef 491-494); CBRS 90 civarı bekle (stop 77,8 altı); NBIS alma, 109 altı kapanışta azalt; AXON girme, 291,5 tutar ve 1 saatlikte 323 üstü gelirse dönüş ara.
   - Bu plan 13:32 dip-avcısı kuralından ÖNCE yazıldı. Sonraki notlar dip bölgesi + kademeli alım mantığıyla yazılmalı.
 
+## 14b. GÜNDE 2 SABİT TEKNİK KONTROL (16.11 13:55, Enes)
+- Her ABD işlem günü İKİ kez: açılıştan 30 dk sonra (18:00 TSİ) ve kapanıştan 30 dk önce (23:30 TSİ). (ABD yaz saatinde 17:00 ve 23:00; yarım günlerde kapanış 21:00 TSİ ise 20:30.)
+- Kapsam: portföyün tamamı (NBIS RKLB DOCN SITM AXON CBRS VRT) + benim yatırıma uygun bulduğum EN İYİ 3-4 hisse (portföy dışı, herhangi bir ABD hissesi; temel + teknik gerekçeyle).
+- Yöntem: `python3 ta2.py <tickerlar> > /tmp/ta.txt` (21 gösterge, 1s/4s/günlük/haftalık) + bilgisayar açıksa TradingView (UN09ZFN8, SMC + Supertrend). Gün içi fiyatı mutlaka kullan.
+- Çıktı: Enes'e tek SendUserMessage, her hisse için "ben olsam ..." kararı (bölüm 14 dili): dip bölgesi, kademeli alım seviyeleri, tezin bozulduğu seviye, hedef. Değişiklik olmasa da bu iki kontrolde mesaj HER ZAMAN atılır.
+- Tweet değildir; al/sat tweette yok kuralı aynen geçerli. Portföy güncellemesi tweetini Enes atar.
+- Zincir: her kontrol sonunda bir sonraki kontrol için send_later kurulur (18:00 -> 23:30 aynı gün; 23:30 -> sonraki işlem günü 18:00). Hafta sonu ve ABD tatilleri atlanır (26.11.2026 Şükran Günü kapalı; 27.11 yarım gün).
+
 ## 15. TAKVİM (16-19 Kasım 2026, TSİ)
 - Pzt 16.11:
   - Tyson (TSN) Q4 açılış öncesi. Konsensus EPS kaynağa göre 0,53-0,61$, gelir ~14,1 Mr$. Çağrı 17:00 TSİ. Rakamlar 13:33'te henüz yoktu; 2026 tarihli olduğunu doğrula.

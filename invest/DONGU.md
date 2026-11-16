@@ -128,3 +128,4 @@ Durdurmak için en alta `DURDUR` yazılı bir satır ekle (Enes ya da Claude, En
 - 13:55 PORTFOY TARAMA: ta2.py Cuma kapanisi verisi, 13:30 referansindan degisim yok -> Enes'e not atilmadi. Acilistan (17:30) sonra gercek fiyatla tekrar bak.
 - SIRADAKI: Tyson Q4 (14:30 TSI sonrasi), vadeli 15:00-15:25 (isi kolon=2 hane=2), Warsh 20:00. Ticker saatleri: SITM 13:05, NBIS 13:20, BIDU 13:33, COIN/MSTR 13:52, NVDA 11:40 (14:40'tan sonra serbest). Son 3 duzen: uclu, bento, sondakika.
 - 13:54 Enes: portföy güncellemesi tweetlerini Enes kendisi atacak -> Claude portföy tweeti hazırlamaz/atmaz; eski portföy sorusu görevi durduruldu; DEVIR_TAM bölüm 1 ve 16 güncellendi.
+- 13:55 Enes: her islem gunu 18:00 ve 23:30 TSI portfoy + en iyi 3-4 firsat hissesi teknik kontrolu, 'ben olsam' kararlariyla Enes'e mesaj -> DEVIR_TAM 14b. Zincir kuruldu.
