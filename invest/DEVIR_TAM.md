@@ -7,6 +7,7 @@ Kaynaklar: invest/DEVIR.md (15.11 v1), invest/DEVIR_OZET.md (15.11 21:05 + 16.11
 1) PORTFÖY GÜNCELLEMESİ TWEETİNİ ENES ATAR. Claude portföy güncellemesi tweeti/kartı HAZIRLAMAZ, ATMAZ, SORMAZ. Eski "günlük portföy sorusu" görevi durduruldu, yeniden KURULMAZ. (bölüm 1)
 2) (tam test: 21 gösterge x 4 dilim, ta2.py -v + TradingView 2'şerli rotasyon, bölüm 13) GÜNDE 2 SABİT TEKNİK KONTROL: her ABD işlem günü 18:00 TSİ (açılış +30 dk) ve 23:30 TSİ (kapanış -30 dk). Portföyün tamamı + Claude'un yatırıma uygun bulduğu en iyi 3-4 hisse. 21 gösterge, 4 zaman dilimi, TradingView varsa. Enes'e her seferinde "ben olsam" kararlarıyla mesaj (değişiklik olmasa da). Tweet değil. (bölüm 14b)
 3) HİSSE SEÇİMİ PROFESYONEL YÖNTEMLE: temel (13 maddelik kontrol listesi) + teknik (bölüm 13) puan kartı; adaylar portföyle aynı kartla karşılaştırılır; daha iyisi varsa önerilir, yoksa önerilmez. (bölüm 14c)
+4) TEKNİK ANALİZ TWEETİ: 'bence dibe yakın / ben şuradan kademe eklerim, orayı kırarsa şuradan' dili serbest; tavsiye ve emir kipi yok; sade konuşma dili. (bölüm 6)
 Yeni oturum A5'te bu iki teknik kontrol zincirini MUTLAKA kurar. Devir notu yeniden yazılırsa bu 3 kural aynen korunur.
 
 YENİ OTURUMSAN ÖNCE A BÖLÜMÜNÜ UYGULA. Her turun başında bu dosya BAŞTAN SONA okunur. Sonra DEVIR_OZET.md (ek ayrıntı) ve DONGU.md'nin TAMAMI okunur.
@@ -240,6 +241,12 @@ OTOMATİK PAYLAŞIM TURU (Enes 15.11 21:15 "oto atmaya devam"). ÖNCE invest/DEV
   - Kişisel/özel hayat detayı (Huang olayında yalnız şirket/piyasa yönü).
   - Başkasının tweetini kopyalamak/çevirmek.
   - Gerçek kişi fotoğrafını internetten indirmek.
+- TEKNİK ANALİZ TWEETİ DİLİ (16.11 14:07, Enes, KESİN KURAL): teknik analiz tweetlerinde Enes'in kendi bakışı ve planı anlatılır, ama tavsiye verilmez ve "oyun planı" diye başlık atılmaz. Arkadaşa anlatır gibi, konuşma dili, sade.
+  - Örnek dil: "Bence bu hisse dibe yakın." / "Bence daha dip arıyor." / "Ben 80-82 arasından bir kademe eklerim, orayı da aşağı kırarsa 70-72'den bir kademe daha eklerim." / "69'un altında kapanırsa benim için hikaye değişir."
+  - Seviyeler bölüm 13 tam testinden gelir (21 gösterge x 4 dilim). Teknik terimleri sadeleştir: FVG -> "boşluk", order block -> "alıcıların daha önce toplandığı bölge", OTE -> "geri çekilmenin ideal bölgesi", Supertrend -> "trend göstergesi".
+  - YASAK kalır: "alın / satın / siz de ekleyin / kaçırmayın / hedef fiyatım kesin", miktar/ağırlık/para, "portföyümün %X'i". Okura yönelik emir kipi yok; sadece "ben" dili.
+  - (eski: "Enes'in ağzından aldım/ekledim cümlesi kurulmaz" -> teknik analiz tweetlerinde "ben şuradan kademe eklerim" planı ARTIK SERBEST; gerçekleşmiş alım ("aldım") ve portföy güncellemesi yine yazılmaz, onu Enes atar.)
+  - Teknik analiz tweeti görseli: göstergeli grafik (g/ta/ matplotlib koyu tema veya TradingView ekran görüntüsü), seviyeler işaretli.
 - Şablonlar: invest/ORNEKLER.md (13 şablon). O zaman/şimdi, iki çarpıcı istatistik, bilanço skor kartı, haber + sektör etkisi, teknik analiz, uzun dönem sütun, çoklu hisse sıralama, uzun tez, eğitici strateji, yanıt kalıbı, araştırma raporu, çeyrek sonu vs bugün, kurum araştırma grafiği. Enes'in attığı her yeni tweet buraya şablon olarak eklenir.
 
 ## 7. GÖRSELLER (KART)
@@ -480,6 +487,7 @@ E) DİL VE SINIRLAR
 | 13:32 | Amacım en dipleri bulmak, yatırımcıyım | 0, 14 |
 | 13:54 | Portföy güncellemesi tweetlerini kaldır, onları ben atarım | 1, başlık |
 | 13:55 | Günde 2 kez (açılış +30, kapanış -30) portföy + en iyi 3-4 hisse teknik kontrol, 'ben olsam' kararları | 14b, başlık |
+| 14:07 | Teknik analiz tweetinde 'bence dibe yakın / ben şuradan kademe eklerim, kırarsa şuradan' dili; tavsiye yok, oyun planı başlığı yok, sade konuşma dili | 6, başlık |
 | 14:05 | 21 göstergenin hepsi, tüm zaman dilimlerinde test edilecek; TradingView'da 2'şerli kapat-aç | 13, başlık |
 | 14:00 | Teknik kontrollerde kararı destekleyen göstergeli grafik ekran görüntüsünü sohbete at | 14b |
 | 13:58 | Profesyonel yatırımcı/analist yöntemi: temel + teknik, adayları portföyle karşılaştır, daha iyisi varsa öner yoksa önerme; sonraki devir notu bu kurallarla | 14c, başlık |
