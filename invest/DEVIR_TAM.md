@@ -257,6 +257,7 @@ OTOMATİK PAYLAŞIM TURU (Enes 15.11 21:15 "oto atmaya devam"). ÖNCE invest/DEV
   - "Bence" tekrarı yok (15.11 16:58).
   - Kapanışlar çeşitli olsun: "gösteriyor bana / düşünüyorum / sanmıyorum" tekrar etmez. Son 5 tweetin kapanışına bak.
   - Seçenekler: düz tespit, kısa yargı, sonuca bağlama, karşıtlık, takip, farklı fiilli kişisel cümle, yorumu başa koyma.
+- ENES'İN EN SEVDİĞİ TARZ — GÖRÜŞLÜ BAĞLAM TWEETİ (16.11 22:44, Enes: "olaya çok hakim yazmış, çok iyi bağ kurmuş, bu tarz tweetleri çok sevdiğimi not al"): haberi tekrar etmek yerine arkasındaki yapıyı anlatan, farklı olayları birbirine bağlayan, karşılaştırmayla (ör. "Nvidia, Apple ya da McDonald's değil") net görüş savunan, kısa ve kendinden emin tweet. Kalıp: tez cümlesi -> 2-3 doğrulanmış olgu -> iki taraf/çatışma -> karşılaştırma/tarih -> net görüş. Büyük olaylarda düz haber yerine bu tarz tercih edilir, günde en az 1-2 hedef. Örnek ve kalıp: ORNEKLER.md 18. Olgular yine 2 kaynak, al/sat yok.
 - ENES'İN BEĞENDİĞİ TARZ (16.11 12:22): kısa, haber odaklı, analist/kaynak adı + rakam + net sonuç. Tahmin "tahmin" diye belirtilir.
   - Örnek: Ming-Chi Kuo'nun "GOOGL 2029'da 16-18 milyon TPU" tahmini.
   - Enes bir tweet yapıştırırsa: tarzını öğren + konuyu hemen araştır (2 kaynak) + tur beklemeden hemen tweet at.
@@ -709,6 +710,8 @@ Bu bölüm devir notu yeniden yazılırsa aynen korunur.
 | 18:05 | Teknik analiz görsellerini kendin oluşturma, TradingView ekran görüntüsü at | başlık 5b, 14b, 14d |
 | 18:09 | Sırayla at: ekran görüntüsü, tweet, ekran görüntüsü, tweet (tek tek toplu değil) | başlık 5d |
 | 18:14 | Neden temelleri yapmadın, turlarda vaktin vardı; çözüm bul, devir notuna ekle, hiçbir şey çıkarma, sürekli kontrol et | başlık 3b, 14c-E, 14g, B, temel_karne.md |
+| 22:44 | Başkasının NVDA/CEO tweetini yapıştırdı: 'olaya hakim, bağ kurmuş, bunun gibi at, bu tarz tweetleri çok sevdiğimi not al' | 6, ORNEKLER 18 |
+| 21:59 | Warsh 'AI boom başarısız olursa' haberi: tweet + çok detaylı araştırma, her olasılık, ilgili olaylar | 4, 8 (thread + rapor) |
 | 21:43 | Ekran görüntüsünü ben alırım; sen hangi hisse, hangi dilim, hangi göstergeler açık olacak onu söyle, tweeti ve düşüncelerini yaz (kıyas, ekleme/azaltma bölgeleri) | başlık 5f, 14b, 14d |
 | 21:41 | Ekran görüntüsü sadece Supertrend+SMC açıkken değil, karar için en etkili göstergeler açıkken alınsın | başlık 5e, 14b, 14d |
 | 21:34 | TradingView hesabı fark etmez; Adsız düzene Supertrend + SMC kur | 12 |

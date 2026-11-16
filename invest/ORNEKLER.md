@@ -102,3 +102,11 @@ FY26 Guidance
 • CapEx $38B vs. Est. $36B
 • Exit ARR: $21B
 Türkçe karşılığı: "$CRWV 3. ÇEYREK BİLANÇOSU / • Gelir: 3,66 Mr $ / Beklenti: 3,54 Mr $ ..." + boş satır + "2026 TAHMİNİ" bloğu. 15 dk sonra kapsamlı analiz.
+
+## 18. GÖRÜŞLÜ BAĞLAM TWEETİ — "olaya hakim, bağ kuran" (Enes 16.11 22:44: "olaya çok hakim yazmış, çok iyi bağ kurmuş, bunun gibi bir şey at; bu tarz tweetleri çok sevdiğimi not al")
+Enes'in örneği (başkasının tweeti, aynen kopyalanmaz):
+  "I don't know what it takes to convince the Taco Bell board member or Washington at this point? $NVDA is not the same thing as Apple or McDonalds. You also cannot replace Jensen with ARM CEO or Palo Alto Networks CEO... then expect local Taiwanese factories to move as fast."
+Neden sevdi: (1) haberi tekrar etmiyor, haberin ARKASINDAKİ yapıyı anlatıyor; (2) farklı olayları birbirine bağlıyor (yönetim kurulu, Washington, aday CEO'lar, Tayvan tedarik zinciri); (3) net bir görüşü var ve onu karşılaştırmayla savunuyor (Nvidia ≠ Apple/McDonald's); (4) kısa, konuşma dili, kendinden emin.
+Kalıp: [asıl soru/tez cümlesi] -> [kısa bağlam: 2-3 doğrulanmış olgu] -> [iki taraf / çatışma] -> [karşılaştırma ya da tarihten örnek] -> [net görüş cümlesi]. Rakam ve olgular yine 2 kaynak; görüş cümlesi "ben" diliyle ya da düz tespit; al/sat yok.
+Bizim versiyon (16.11 22:45, Buffer 6afb5d41405379d57097ab0b): "$NVDA'da asıl soru yarınki rakamlar değil, şirketi kimin yöneteceği. ... Apple'da Jobs'tan Cook'a geçiş yıllar içinde hazırlanmıştı. Nvidia'da ise ürün takvimini, dev müşterileri ve Tayvan'daki tedarik zincirini aynı masada tutan kişiyi bir haftada değiştirmeye çalışıyorlar."
+KURAL: Bu tarz tweetler Enes'in EN SEVDİĞİ türlerden. Büyük bir olayda (CEO değişikliği, politika kararı, büyük anlaşma, sektör krizi) düz haber yerine bu "bağlam + görüş" tarzı tercih edilir; günde en az 1-2 tane hedeflenir.
