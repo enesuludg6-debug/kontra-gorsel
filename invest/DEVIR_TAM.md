@@ -1,4 +1,4 @@
-# ENESINVESTUS — TAM DEVİR NOTU (v4, 16.11.2026 14:25 TSİ)
+# ENESINVESTUS — TAM DEVİR NOTU (v5, 16.11.2026 16:40 TSİ)
 
 Bu dosya, Enes Uludağ'ın 15-16 Kasım 2026 boyunca verdiği TÜM kuralların birleşik ve güncel hâlidir.
 Kaynaklar: invest/DEVIR.md (15.11 v1), invest/DEVIR_OZET.md (15.11 21:05 + 16.11 ekleri), invest/ORNEKLER.md, invest/DONGU.md ve 16.11 canlı sohbet.
@@ -10,6 +10,7 @@ Kaynaklar: invest/DEVIR.md (15.11 v1), invest/DEVIR_OZET.md (15.11 21:05 + 16.11
 4) TEKNİK ANALİZ TWEETİ: 'bence dibe yakın / ben şuradan kademe eklerim, orayı kırarsa şuradan' dili serbest; tavsiye ve emir kipi yok; sade konuşma dili. (bölüm 6)
 5) TEKNİK ANALİZ TWEETLERİ: her kontrolde bakılan HER hisse için ayrı görsel + ayrı tweet taslağı Enes'e gönderilir; Claude teknik analiz tweeti PAYLAŞMAZ (Enes paylaşır). Her kademe/stop/hedef seviyesinin nedeni (çakışan göstergeler ve dilimler) yazılır. (bölüm 14d, 14e)
 6) TWEET AKIŞI: her turda analist notu akışları (TheFly, StreetInsider, Investing, MarketBeat, TipRanks, Benzinga, Futu) + lansman/ortaklık kaynakları taranır; boş tur geçilmez, 09:00-01:00 her tur bir tweet hedefi (günde en çok 45). (bölüm 4)
+7) BİLANÇO TWEETİ: ilk tweet madde madde "metrik: gerçek / Beklenti" + şirkete özgü metrikler + tahmin bloğu (Enes'in $CRWV formatı); sayfa stiline uyan hisselerde 15 dk sonra kapsamlı analiz tweeti. (bölüm 4)
 Yeni oturum A5'te bu iki teknik kontrol zincirini MUTLAKA kurar. Devir notu yeniden yazılırsa bu 3 kural aynen korunur.
 
 YENİ OTURUMSAN ÖNCE A BÖLÜMÜNÜ UYGULA. Her turun başında bu dosya BAŞTAN SONA okunur. Sonra DEVIR_OZET.md (ek ayrıntı) ve DONGU.md'nin TAMAMI okunur.
@@ -193,6 +194,19 @@ OTOMATİK PAYLAŞIM TURU (Enes 15.11 21:15 "oto atmaya devam"). ÖNCE invest/DEV
   - Fon: 13F, haftalık fon akışları, açığa satış oranı.
   - Karşılaştırma ve veri: 1 yıl önce vs bugün, iki rakip, sektör sıralaması, uzun dönem tek metrik, yapay zeka capex, emtia/dolar/tahvil/kripto, haftanın rakamı.
   - Eğitici (haftada 3-5): terim sözlüğü, "bu şirket ne iş yapar", strateji/psikoloji, teknik analiz.
+- BİLANÇO TWEETİ FORMATI (16.11 16:33, Enes, KESİN KURAL): bilanço açıklanınca İLK tweet aşağıdaki sayfa düzeninde, madde madde, yorumsuz yazılır (Enes'in $CRWV örneği):
+    $TICKER 3. ÇEYREK BİLANÇOSU
+    • Gelir: 3,66 Mr $ / Beklenti: 3,54 Mr $
+    • Hisse başı kâr: -1,24 $ / Beklenti: -1,55 $
+    • Düzeltilmiş faaliyet kârı: 379 Mn $ / Beklenti: 246 Mn $
+    • (şirkete özgü ana metrikler: ör. sözleşmeli güç ~3,7 GW, aktif güç ~1,7 GW, sipariş birikimi 133 Mr $ (+%30 çeyreklik))
+    (boş satır)
+    2026 TAHMİNİ
+    • Gelir: 13,2 Mr $ / Beklenti: 12,5 Mr $
+    • Yatırım harcaması: 38 Mr $ / Beklenti: 36 Mr $
+    • Yıl sonu yıllık gelir hızı: 21 Mr $
+  - Kurallar: başlık satırı ticker + çeyrek; her satır "metrik: gerçek / Beklenti: X"; şirkete özgü 2-3 metrik (bulut için güç/backlog, yazılım için ARR/NRR, çip için brüt marj/veri merkezi geliri, perakende için aynı mağaza satışı); ardından tahmin (guidance) bloğu. Terimler Türkçe ve sade (EPS -> hisse başı kâr, guidance -> tahmin, capex -> yatırım harcaması, backlog -> sipariş birikimi, ARR -> yıllık gelir hızı). Madde işareti "•" kullanılır (emoji değil). Her rakam 2 kaynak (birincil kaynak: şirket bülteni + 1 haber). Görsel: skor/terminal düzeni.
+  - KAPSAMLI ANALİZ 15 DK SONRA: hisse sayfanın stiline uyuyorsa (portföy, ilgi listesi, yapay zeka/yarı iletken/bulut/uzay/büyük teknoloji ve benzerleri) bilanço açıklandıktan 15 dakika sonra kapsamlı analiz tweeti atılır (ilk tweetin hemen ardından send_later ile 15 dk sonrasına tur kurulur). İçerik: ne iyi ne kötü, tahminin anlamı, kusur/şart varsa ne kadar (bölüm 6), hisse tepkisi, tek cümle görüş. Sayfa stiline uymayan şirketlerde (ör. gıda) analiz 30-90 dk içinde ve kısa olabilir. (eski: analiz 30-90 dk sonra ayrı tur)
 - Bilanço öncesi ve sonrası, kısa + uzun (DEVIR 5g):
   - Portföy ve ilgi listesi şirketlerinde öncesi ve sonrası KESİN atılır.
   - Uzun format 5-7 tweetlik flood. Zamanlama: öncesi 1 gün önce akşam ya da sabah; sonrası ilk tur.
@@ -262,7 +276,7 @@ OTOMATİK PAYLAŞIM TURU (Enes 15.11 21:15 "oto atmaya devam"). ÖNCE invest/DEV
 - Kod: invest/kart2.py (ana), kart.py (yedek). Fontlar invest/font: Inter Display, Instrument Serif, JetBrains Mono. Enes koyu tema + minimal sever.
 - Düzenler (önce bunlar): bento, halka, isi, takvim, cizgi, panel, uclu, soz, editoryal, skor, zaman, ilerleme, dilim, dortlu, manset. Yedek: spotlight, split, terminal, sondakika, once_sonra, kapak, cam, poster, siralama, grafik2.
 - KALDIRILDI: versus (15.11 21:23 "kaba"). Yerine panel.
-- Son 3 turda kullanılan düzen tekrar edilmez. Şu an son 3: bento (13:33), sondakika (13:52), editoryal (14:08). (eski 13:40: editoryal, uclu, bento) Bunu tur mesajında güncelle.
+- Son 3 turda kullanılan düzen tekrar edilmez. Şu an son 3: skor (15:55), uclu (16:12), cizgi (16:33). (eski 13:40: editoryal, uclu, bento) Bunu tur mesajında güncelle.
 - Tür → düzen:
   - Bilanço rakam: skor/terminal. Analiz: bento/uclu/panel.
   - İki hisse: panel. Takvim: takvim. Kapanış: isi/dortlu.
@@ -533,6 +547,8 @@ E) DİL VE SINIRLAR
 | 13:55 | Günde 2 kez (açılış +30, kapanış -30) portföy + en iyi 3-4 hisse teknik kontrol, 'ben olsam' kararları | 14b, başlık |
 | 15:15 | WebFetch onayı (ir.tyson.com) | 3 |
 | 15:29 | Haberleri istersen Chrome'dan araştır (açık) | 10 |
+| 16:33 | $CRWV bilanço formatı: bilançolar bu sayfa düzeninde yazılacak; sayfa stiline uyan hissede 15 dk sonra kapsamlı analiz; devir notuna ekle ve bana tekrar at | 4, başlık 7 |
+| 15:45 | Raymond James/SPCX yapıştırdı (hemen atıldı) | 4, 8 |
 | 15:39 | Uber/Zoox tweeti yapıştırdı (hemen araştırılıp atıldı) | 4, 8 |
 | 15:42 | Citi/NBIS hedef indirimi yapıştırdı; attığım tweetlerden hangi sitelere bakacağını ve ne kadar tweet atacağını öğren | 4, başlık 6 |
 | 15:31 | Her haber için en iyi ve kapsamlı hangi araçsa onu kullan | 10 |

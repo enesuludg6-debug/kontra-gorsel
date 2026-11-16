@@ -88,3 +88,17 @@ Bizim versiyon (Buffer 6afafa6a6c00cddca547ea26): "Citi, $NBIS (...) için hedef
 Kaynak: "Raymond James on $SPCX (Strong Buy, $800 PT): ... Starship Flight 15 ... Ship 42 ~14 orbits, 26 Starlink V3, returned ~22.5h ... booster not recovered ... challenge shifts to simultaneous recovery, rapid refurbishment, repeatable reflight."
 Kalıp: kurum + tavsiye/hedef + hedefin fiyata göre katı (kendi fiyatımızla hesapla) + notu tetikleyen olayın 2-3 somut rakamı + olumsuz detay (booster kaybı) + kurumun "sıradaki soru" çerçevesi.
 Bizim versiyon: Buffer 6afafb126c00cddca5482fd8. Kaynaktaki %550 bizim fiyatla (139$) tutmadı -> "yaklaşık 5,7 katı" yazıldı.
+
+## Enes örneği (16.11 16:33) — BİLANÇO İLK TWEETİ FORMATI (kesin kural 7)
+$CRWV Q3 EARNINGS
+• Revenue: $3.66B vs. Est. $3.54B
+• EPS: ($1.24) vs. Est. ($1.55)
+• Adj. Operating Income: $379M vs. Est. $246M
+• Total Contracted Power: ~3.7 GW
+• Active Power: ~1.7 GW (doubled since start of year)
+• Backlog: $133B (+30% sequential growth)
+FY26 Guidance
+• Revenue: $13.2B vs. Est. $12.5B
+• CapEx $38B vs. Est. $36B
+• Exit ARR: $21B
+Türkçe karşılığı: "$CRWV 3. ÇEYREK BİLANÇOSU / • Gelir: 3,66 Mr $ / Beklenti: 3,54 Mr $ ..." + boş satır + "2026 TAHMİNİ" bloğu. 15 dk sonra kapsamlı analiz.
