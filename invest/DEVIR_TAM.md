@@ -110,13 +110,14 @@ OTOMATİK PAYLAŞIM TURU (Enes 15.11 21:15 "oto atmaya devam"). ÖNCE invest/DEV
 - Enes'i geliştirmek de amaç: her tweetle birlikte "Ne anlama geliyor?" öğretici bölümü gönderilir (bölüm 9).
 
 ## 1. PORTFÖY VE LİSTELER
-- GÜNCEL PORTFÖY (16.11 12:49): NBIS RKLB DOCN SITM AXON CBRS VRT.
+- GÜNCEL PORTFÖY (16.11 23:44, Enes'in uygulama ekran görüntüsü): DOCN RKLB SITM AXON CBRS VRT AVGO. NBIS çıktı, AVGO girdi (23:30 kontrolündeki NBIS -> AVGO kıyası sonrası). (eski 16.11 12:49: NBIS RKLB DOCN SITM AXON CBRS VRT)
   - SPCX çıktı, SITM girdi.
   - Enes piyasa açılışında hepsini EŞİT AĞIRLIKLA alacağını söyledi. Benim "ben olsam" görüşüm kademeli girmekti; karar onun.
   - (eski 15.11 16:55: AXON NBIS RKLB CBRS DOCN VRT SPCX)
 - İLGİ LİSTESİ: ON AAOI HOOD TEM CRDO PLTR ISRG ASTS MU + büyük yapay zeka/yarı iletken/bulut/uzay şirketleri (NVDA AMD AVGO TSM MSFT GOOGL AMZN META ORCL CRWV SNOW vb.).
 - FIRSAT HİSSESİ SINIRSIZ (16.11 13:25): fırsat önerisi ilgi listesiyle sınırlı değil. ABD borsasında yatırıma uygun bulduğum HERHANGİ bir hisse önerilebilir; gerekçesi (temel + teknik), seviyesi ve riskiyle.
 - Portföyde ağırlık/tutar/para ASLA tweete yazılmaz. Enes'in ağzından "aldım / sattım / ekledim / portföyüm / YTD %" cümlesi kurulmaz.
+- PORTFÖY GÜNCELLEMESİ TWEETİ (16.11 23:44 EK): Enes açıkça isterse atılır. Format (Enes 23:44): ilk satır 'PORTFÖY GÜNCELLEMESİ', altında Enes'in verdiği 'YTD %X' ve 'Günlük değişim %Y' satırları aynen, boş satır, sonra ABD hisseleri alt alta $TICKER. Tutar, para, ağırlık ASLA yazılmaz; rakamlar Enes'in verdiği gibi değiştirilmeden. Enes istemedikçe otomatik atılmaz (aşağıdaki kural geçerli).
 - PORTFÖY GÜNCELLEMESİ TWEETİ YOK (16.11 13:54): Portföy güncellemesi tweetini Enes kendisi atar. Claude portföy güncellemesi tweeti/kartı hazırlamaz, atmaz, sormaz. (eski: ana sohbetten Enes onayıyla atılırdı)
 - Eski 'EnesInvestUS günlük portföy sorusu' görevi (trig_019TTCnsx74Nsi9DjkY7M5MF) 16.11 13:54'te DURDURULDU. Kapanış tweeti normal turların içerik menüsünden (00:05-00:45) atılır.
 
@@ -711,6 +712,7 @@ Bu bölüm devir notu yeniden yazılırsa aynen korunur.
 | 18:05 | Teknik analiz görsellerini kendin oluşturma, TradingView ekran görüntüsü at | başlık 5b, 14b, 14d |
 | 18:09 | Sırayla at: ekran görüntüsü, tweet, ekran görüntüsü, tweet (tek tek toplu değil) | başlık 5d |
 | 18:14 | Neden temelleri yapmadın, turlarda vaktin vardı; çözüm bul, devir notuna ekle, hiçbir şey çıkarma, sürekli kontrol et | başlık 3b, 14c-E, 14g, B, temel_karne.md |
+| 23:44 | Portföy güncellemesi tweetini bu kez benden istedi: başlık 'PORTFÖY GÜNCELLEMESİ', altında 'YTD %53.36 / Günlük değişim -%5.19', hisseler alt alta; tutar ve ağırlık YOK. Atıldı. Portföy: DOCN RKLB SITM AXON CBRS VRT AVGO | 1 |
 | 22:48 | Tweet sınırını kaldır; TradingView'a bağlanıp analiz yapabiliyor musun kontrol et (yapıldı: RKLB 4s Supertrend 55,90 okundu) | başlık 9, 2, A6, B |
 | 22:44 | Başkasının NVDA/CEO tweetini yapıştırdı: 'olaya hakim, bağ kurmuş, bunun gibi at, bu tarz tweetleri çok sevdiğimi not al' | 6, ORNEKLER 18 |
 | 21:59 | Warsh 'AI boom başarısız olursa' haberi: tweet + çok detaylı araştırma, her olasılık, ilgili olaylar | 4, 8 (thread + rapor) |
