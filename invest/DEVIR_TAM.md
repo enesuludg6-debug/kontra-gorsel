@@ -5,7 +5,7 @@ Kaynaklar: invest/DEVIR.md (15.11 v1), invest/DEVIR_OZET.md (15.11 21:05 + 16.11
 Çelişki çözümü: EN YENİ tarihli kural geçerlidir. Eski hâli "(eski: ...)" diye not edildi, böylece hiçbir şey kaybolmadı.
 !!! KESİN KURALLAR (Enes 16.11 13:54-13:56, "bir sonraki devirde kesinlikle bu şekilde devam edilecek") !!!
 1) PORTFÖY GÜNCELLEMESİ TWEETİNİ ENES ATAR. Claude portföy güncellemesi tweeti/kartı HAZIRLAMAZ, ATMAZ, SORMAZ. Eski "günlük portföy sorusu" görevi durduruldu, yeniden KURULMAZ. (bölüm 1)
-2) GÜNDE 2 SABİT TEKNİK KONTROL: her ABD işlem günü 18:00 TSİ (açılış +30 dk) ve 23:30 TSİ (kapanış -30 dk). Portföyün tamamı + Claude'un yatırıma uygun bulduğu en iyi 3-4 hisse. 21 gösterge, 4 zaman dilimi, TradingView varsa. Enes'e her seferinde "ben olsam" kararlarıyla mesaj (değişiklik olmasa da). Tweet değil. (bölüm 14b)
+2) (tam test: 21 gösterge x 4 dilim, ta2.py -v + TradingView 2'şerli rotasyon, bölüm 13) GÜNDE 2 SABİT TEKNİK KONTROL: her ABD işlem günü 18:00 TSİ (açılış +30 dk) ve 23:30 TSİ (kapanış -30 dk). Portföyün tamamı + Claude'un yatırıma uygun bulduğu en iyi 3-4 hisse. 21 gösterge, 4 zaman dilimi, TradingView varsa. Enes'e her seferinde "ben olsam" kararlarıyla mesaj (değişiklik olmasa da). Tweet değil. (bölüm 14b)
 3) HİSSE SEÇİMİ PROFESYONEL YÖNTEMLE: temel (13 maddelik kontrol listesi) + teknik (bölüm 13) puan kartı; adaylar portföyle aynı kartla karşılaştırılır; daha iyisi varsa önerilir, yoksa önerilmez. (bölüm 14c)
 Yeni oturum A5'te bu iki teknik kontrol zincirini MUTLAKA kurar. Devir notu yeniden yazılırsa bu 3 kural aynen korunur.
 
@@ -339,6 +339,11 @@ OTOMATİK PAYLAŞIM TURU (Enes 15.11 21:15 "oto atmaya devam"). ÖNCE invest/DEV
   - OBV: hacim akışı ve olası uyumsuzluklar.
 - SMC İÇİN ANA KOMBİNASYON (teyit): SMC + EMA 200 + VWAP + RSI 14 + ATR + Volume Profile + Fibonacci.
   - SMC zaten fiyat yapısını, order block, FVG, BOS, CHoCH ve likidite süpürmelerini analiz eder. Diğerleri teyit içindir.
+- TAM TEST ZORUNLU (16.11 14:05, Enes, KESİN KURAL): kararı vermeden önce 21 göstergenin HEPSİ, 4 zaman diliminin HEPSİNDE (1s / 4s / günlük / haftalık) tek tek kontrol edilir. "Birkaç göstergeye bakıp karar" YASAK.
+  1. `python3 ta2.py -v <tickerlar> > /tmp/ta.txt` (-v ŞART: tüm dilimlerde 21 göstergenin hepsini basar). Çıktının tamamı okunur.
+  2. Bilgisayar açıksa TradingView'da da test edilir: Basic plan aynı anda 2 gösterge -> göstergeleri 2'şerli kapat-aç: (Supertrend + SMC), (RSI + MACD), (EMA 200 + VWAP), (Bollinger + Stoch RSI), (ADX + Ichimoku), (ATR + OBV), (CCI + Williams %R), (Parabolic SAR + MFI), (Fibonacci + Keltner), (Aroon + Volume Profile), (SMA). Her çift 1s/4s/G/H dillimlerinde bakılır, kararı destekleyenlerin ekran görüntüsü alınır. Sonunda varsayılan düzen geri kurulur (Supertrend + LuxAlgo SMC) ve ctrl+s.
+  3. Karar mesajında her zaman dilimi için özet: "yukarı / aşağı / nötr" sayısı + kararı belirleyen göstergeler + dilimler arası çelişki (örn. 1s aşağı, 4s yukarı) açıkça yazılır.
+  4. Kullanım limiti: TradingView rotasyonu her hisse için uzun sürer. Tam rotasyon karar verilen / değişen hisseler için yapılır; diğerleri ta2.py -v ile 21x4 tam test edilir (o da tam testtir, atlanmaz).
 - Araç: invest/ta2.py. Günlükte 23 sinyalin hepsini, diğer dilimlerde özet basar; `-v` ile tüm dilimlerde hepsini. Her dilim için "yukarı / aşağı / nötr" sayısı verir.
 
 ## 14. ENES'E PORTFÖY NOTU — DİL VE İÇERİK
@@ -475,6 +480,7 @@ E) DİL VE SINIRLAR
 | 13:32 | Amacım en dipleri bulmak, yatırımcıyım | 0, 14 |
 | 13:54 | Portföy güncellemesi tweetlerini kaldır, onları ben atarım | 1, başlık |
 | 13:55 | Günde 2 kez (açılış +30, kapanış -30) portföy + en iyi 3-4 hisse teknik kontrol, 'ben olsam' kararları | 14b, başlık |
+| 14:05 | 21 göstergenin hepsi, tüm zaman dilimlerinde test edilecek; TradingView'da 2'şerli kapat-aç | 13, başlık |
 | 14:00 | Teknik kontrollerde kararı destekleyen göstergeli grafik ekran görüntüsünü sohbete at | 14b |
 | 13:58 | Profesyonel yatırımcı/analist yöntemi: temel + teknik, adayları portföyle karşılaştır, daha iyisi varsa öner yoksa önerme; sonraki devir notu bu kurallarla | 14c, başlık |
 | 13:56 | Bu iki kuralı ekle, sonraki devirde kesinlikle böyle devam | başlık, A5, B |
