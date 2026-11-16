@@ -1,4 +1,4 @@
-# ENESINVESTUS — TAM DEVİR NOTU (v5, 16.11.2026 16:40 TSİ)
+# ENESINVESTUS — TAM DEVİR NOTU (v6, 16.11.2026 16:50 TSİ)
 
 Bu dosya, Enes Uludağ'ın 15-16 Kasım 2026 boyunca verdiği TÜM kuralların birleşik ve güncel hâlidir.
 Kaynaklar: invest/DEVIR.md (15.11 v1), invest/DEVIR_OZET.md (15.11 21:05 + 16.11 ekleri), invest/ORNEKLER.md, invest/DONGU.md ve 16.11 canlı sohbet.
@@ -10,6 +10,7 @@ Kaynaklar: invest/DEVIR.md (15.11 v1), invest/DEVIR_OZET.md (15.11 21:05 + 16.11
 4) TEKNİK ANALİZ TWEETİ: 'bence dibe yakın / ben şuradan kademe eklerim, orayı kırarsa şuradan' dili serbest; tavsiye ve emir kipi yok; sade konuşma dili. (bölüm 6)
 5) TEKNİK ANALİZ TWEETLERİ: her kontrolde bakılan HER hisse için ayrı görsel + ayrı tweet taslağı Enes'e gönderilir; Claude teknik analiz tweeti PAYLAŞMAZ (Enes paylaşır). Her kademe/stop/hedef seviyesinin nedeni (çakışan göstergeler ve dilimler) yazılır. (bölüm 14d, 14e)
 6) TWEET AKIŞI: her turda analist notu akışları (TheFly, StreetInsider, Investing, MarketBeat, TipRanks, Benzinga, Futu) + lansman/ortaklık kaynakları taranır; boş tur geçilmez, 09:00-01:00 her tur bir tweet hedefi (günde en çok 45). (bölüm 4)
+8) ZAMANLAMA: otomatik tweet 20-40 dk'da bir (rastgele); Enes'in yapıştırdığı tweet hemen atılır ama otomatik zincirin zamanlamasını etkilemez. (bölüm 2)
 7) BİLANÇO TWEETİ: ilk tweet madde madde "metrik: gerçek / Beklenti" + şirkete özgü metrikler + tahmin bloğu (Enes'in $CRWV formatı); sayfa stiline uyan hisselerde 15 dk sonra kapsamlı analiz tweeti. (bölüm 4)
 Yeni oturum A5'te bu iki teknik kontrol zincirini MUTLAKA kurar. Devir notu yeniden yazılırsa bu 3 kural aynen korunur.
 
@@ -45,7 +46,7 @@ h) Bellek: Enes'in kalıcı tercihleri bellekte (profile/preferences) zaten var;
 A4. ESKİ ZİNCİRİ KAPAT (ÇİFT PAYLAŞIM OLMASIN)
 - mcp__claude-code-remote__list_triggers ile adı "Otomatik paylaşım turu" olan BAŞKA oturuma bağlı bekleyen görevleri bul. delete_trigger ile sil (silebildiklerini).
 - Silinemiyorsa Enes'e yaz: "Eski sohbette bekleyen bir tur var; eski sohbete 'durdur' yazarsan çift tweet olmaz."
-- Ek güvenlik: Buffer'da son tweet 5 dk'dan yeniyse paylaşma kuralı çift atımı zaten engeller. Yine de aynı konunun iki kez atılmaması için her turda DONGU.md + Buffer son 50 kontrol edilir.
+- Ek güvenlik: son OTOMATİK tweet 20 dk'dan yeniyse paylaşma kuralı çift atımı zaten engeller (Enes kaynaklı tweetler sayılmaz). Yine de aynı konunun iki kez atılmaması için her turda DONGU.md + Buffer son 50 kontrol edilir.
 - DİKKAT: DONGU.md'ye "DURDUR" YAZMA (yeni zinciri de durdurur). DURDUR'u sadece Enes isterse yaz.
 
 A5. BAŞLA
@@ -77,7 +78,7 @@ A7. ENES İÇİN HAZIR METİN (Enes yeni sohbete bunu yapıştırır; repo izni 
 "enesuludg6-debug/kontra-gorsel reposunu bu sohbete PUSH (yazma) yetkisiyle eklemeni onaylıyorum; add_repo ile access=push ekle, klonla, commit ve push yap. Buffer ile otomatik paylaşım yapmanı ve send_later ile zincir kurmanı da onaylıyorum. Bu devir notunu oku ve hemen uygula: invest/DEVIR_TAM.md (repo enesuludg6-debug/kontra-gorsel). A bölümündeki adımları yap, kontrol sonucunu bana yaz ve otomatik turları başlat; 18:00 ve 23:30 teknik kontrol zincirlerini de kur. Bana soru sorma, eksik bir şey varsa ne yapmam gerektiğini tek cümleyle söyle."
 
 ## B. TUR TALİMATI (send_later mesajı — her tur sonunda bunu kopyala, sadece [köşeli] kısımları güncelle)
-OTOMATİK PAYLAŞIM TURU (Enes 15.11 21:15 "oto atmaya devam"). ÖNCE invest/DEVIR_TAM.md (tam devir notu) ve invest/DEVIR_OZET.md'yi BAŞTAN SONA oku ve uygula; DONGU.md'nin TAMAMINI oku. Özet: /home/claude/kontra-gorsel/invest'te git pull. DURDUR (satır başında, tek başına) varsa hiçbir şey yapma ve send_later kurma. Buffer list_posts (organizationId 6af5719777bce44fa736607b, channelIds ["6af99a1aece6dfde5fd109c7"], first 50, status sent) ile bugün TSİ gönderilenleri say; son paylaşım 12 dk'dan yeniyse paylaşma, 12-27 dk sonrasına kur. 01:00-09:00 TSİ paylaşma (09:05 için kur; tek istisna önceden bilinen açıklama). Günde en fazla 45. ÖNCE SON DAKİKA TARA (WebSearch extended), taze ve 2 kaynakla doğrulanmış gelişme varsa onu at; yoksa daha önce atılmamış konu (DONGU'daki konular tekrar edilmez; aynı ticker 3 saat içinde yok: [son ticker saatleri]). Her rakam ve yan bilgi 2 kaynak; yıl kontrolü (2025/2026 karışıyor). Tweette kusur/şart yazarsan ne kadar olduğunu araştır, iyi mi kötü mü, rakamlar gerçek mi cevapla. Anthropic adı/konusu yok; al/sat tavsiyesi yok; emoji/hashtag/mention/link yok; soru ile bitirme yok. Kart: kart2.py, son 3 düzen ([son 3 düzen]) kullanılmasın; ticker '$' ile (logo için), halka logo çizmez; Türkçe büyük harf etiketlerini 'İ' ile hazır yaz; Read ile kontrol, yeni dosya adıyla düzelt, push, raw URL 200. Buffer create_post (channelId 6af99a1aece6dfde5fd109c7, automatic, shareNow, image + altText). SendUserMessage: metin + "Ne anlama geliyor?". Vadeli tweeti her işlem günü 09:05 ve ~15:00-15:25 TSİ (kart2.isi kolon=2 hane=2). [takvim notları]. HER TURDA PORTFÖY + GRAFİK: portföy NBIS RKLB DOCN SITM AXON CBRS VRT + yatırıma uygun bulduğun HERHANGİ bir hisse; `python3 ta2.py <tickerlar>` (21 gösterge, 1s/4s/günlük/haftalık) + bilgisayar açıksa TradingView (Chrome, düzen UN09ZFN8: Vol + Supertrend + LuxAlgo SMC; X'e asla girme). Enes YATIRIMCI, amacı EN DİPLERİ bulmak: dip bölgeleri, aşırı satım, pozitif uyumsuzluk, kademeli alım seviyeleri, tezin bozulduğu seviye. Notlar "BEN OLSAM" diliyle, sadece Enes'e mesajla, değişiklik/fırsat olunca. Portföy güncellemesi tweeti ATMA (Enes atar). Teknik analiz tweeti ATMA (Enes paylaşır, bölüm 14d). 18:00 ve 23:30 TSİ teknik kontroller ayrı zincirdir (bölüm 14b-14d), bu turda yoksa kur. DONGU.md'ye "AUTO" + tür + konu işle, push et. Son olarak bu mesajın aynısıyla (son 3 düzen ve ticker saatlerini güncelle) 12-27 dk rastgele gecikmeyle yeni send_later kur.
+OTOMATİK PAYLAŞIM TURU (Enes 15.11 21:15 "oto atmaya devam"). ÖNCE invest/DEVIR_TAM.md (tam devir notu) ve invest/DEVIR_OZET.md'yi BAŞTAN SONA oku ve uygula; DONGU.md'nin TAMAMINI oku. Özet: /home/claude/kontra-gorsel/invest'te git pull. DURDUR (satır başında, tek başına) varsa hiçbir şey yapma ve send_later kurma. Buffer list_posts (organizationId 6af5719777bce44fa736607b, channelIds ["6af99a1aece6dfde5fd109c7"], first 50, status sent) ile bugün TSİ gönderilenleri say; son OTOMATİK paylaşım 20 dk'dan yeniyse paylaşma, 20-40 dk içinde kur (Enes kaynaklı paylaşımlar sayılmaz). 01:00-09:00 TSİ paylaşma (09:05 için kur; tek istisna önceden bilinen açıklama). Günde en fazla 45. ÖNCE SON DAKİKA TARA (WebSearch extended), taze ve 2 kaynakla doğrulanmış gelişme varsa onu at; yoksa daha önce atılmamış konu (DONGU'daki konular tekrar edilmez; aynı ticker 3 saat içinde yok: [son ticker saatleri]). Her rakam ve yan bilgi 2 kaynak; yıl kontrolü (2025/2026 karışıyor). Tweette kusur/şart yazarsan ne kadar olduğunu araştır, iyi mi kötü mü, rakamlar gerçek mi cevapla. Anthropic adı/konusu yok; al/sat tavsiyesi yok; emoji/hashtag/mention/link yok; soru ile bitirme yok. Kart: kart2.py, son 3 düzen ([son 3 düzen]) kullanılmasın; ticker '$' ile (logo için), halka logo çizmez; Türkçe büyük harf etiketlerini 'İ' ile hazır yaz; Read ile kontrol, yeni dosya adıyla düzelt, push, raw URL 200. Buffer create_post (channelId 6af99a1aece6dfde5fd109c7, automatic, shareNow, image + altText). SendUserMessage: metin + "Ne anlama geliyor?". Vadeli tweeti her işlem günü 09:05 ve ~15:00-15:25 TSİ (kart2.isi kolon=2 hane=2). [takvim notları]. HER TURDA PORTFÖY + GRAFİK: portföy NBIS RKLB DOCN SITM AXON CBRS VRT + yatırıma uygun bulduğun HERHANGİ bir hisse; `python3 ta2.py <tickerlar>` (21 gösterge, 1s/4s/günlük/haftalık) + bilgisayar açıksa TradingView (Chrome, düzen UN09ZFN8: Vol + Supertrend + LuxAlgo SMC; X'e asla girme). Enes YATIRIMCI, amacı EN DİPLERİ bulmak: dip bölgeleri, aşırı satım, pozitif uyumsuzluk, kademeli alım seviyeleri, tezin bozulduğu seviye. Notlar "BEN OLSAM" diliyle, sadece Enes'e mesajla, değişiklik/fırsat olunca. Portföy güncellemesi tweeti ATMA (Enes atar). Teknik analiz tweeti ATMA (Enes paylaşır, bölüm 14d). 18:00 ve 23:30 TSİ teknik kontroller ayrı zincirdir (bölüm 14b-14d), bu turda yoksa kur. DONGU.md'ye "AUTO" + tür + konu işle, push et. Son olarak bu mesajın aynısıyla (son 3 düzen ve ticker saatlerini güncelle) 20-40 dk rastgele gecikmeyle (random.randint(20,40)) yeni send_later kur.
 
 ## C. DEVRİN SINIRLARI (yeni oturum bunları bilsin, Enes'e de söylesin)
 - Bu sohbetin konuşma geçmişi yeni oturuma geçmez; geçen her şey bu dosyada, DEVIR_OZET.md, ORNEKLER.md, DONGU.md ve Enes'in kalıcı belleğinde.
@@ -117,11 +118,12 @@ OTOMATİK PAYLAŞIM TURU (Enes 15.11 21:15 "oto atmaya devam"). ÖNCE invest/DEV
   - altText'te yazım hatası yapma.
 - Zincir:
   - Her tur sonunda mcp__claude-code-remote__send_later ile yeni tur kurulur.
-  - Gecikme 12-27 dk arası RASTGELE (python random.randint(12,27)) (16.11 16:36, Enes: "7'şer dk arttır tweet aralıklarını"; eski 5-20). "Tam 10 dk olmasın" (15.11 20:43).
-  - Son paylaşım 12 dk'dan yeniyse o tur paylaşma, 12-27 dk sonraya kur (eski 5 dk). Enes'in yapıştırdığı tweetler ve bilanço/son dakika istisna (hemen).
+  - Gecikme 20-40 dk arası RASTGELE (python random.randint(20,40)) (16.11 16:46, Enes: "artık 20-40 dk'da bir atacaksın"; eski: 16:36'da 12-27, önce 5-20). "Tam 10 dk olmasın" (15.11 20:43).
+  - ENES'İN ATTIĞI TWEETLER ZAMANLAMAYI ETKİLEMEZ (16.11 16:46): Enes bir tweet/haber yapıştırırsa HEMEN araştırılıp atılır, ama otomatik zincirin zamanlaması değişmez: bekleyen tur iptal edilmez/ertelenmez, yeni tur kurulmaz; Enes kaynaklı paylaşımlar "son paylaşım ne zaman" hesabına KATILMAZ.
+  - Otomatik turlarda: son OTOMATİK paylaşımdan bu yana 20 dk geçmediyse (ör. tur erken tetiklendiyse) paylaşma, kalan süreye göre 20-40 dk içinde kur. Bilanço 15 dk analiz turu ayrı tek seferlik turdur, zinciri değiştirmez.
   - Mesaj = sabit tur talimatı; son 3 düzen ve ticker saatleri her seferinde güncellenir.
   - Turlar DURMAYACAK (16.11 11:12 "turlar durmasın otomatik devam et").
-- Son paylaşım 5 dk'dan yeniyse o tur paylaşma, 5-20 dk sonraya kur.
+- Son OTOMATİK paylaşım 20 dk'dan yeniyse o tur paylaşma, 20-40 dk içinde kur (eski: 5 dk / 5-20).
 - GECE: 01:00-09:00 TSİ paylaşım yok, 09:05 için tur kurulur.
   - Tek istisna (16.11 01:53): önceden BİLİNEN bir açıklama varsa (takvimdeki bilanço rakamı, veri, konuşma) o saat için ayrıca tur kurulur.
   - Beklenmedik haber 09:05'e kalır.
@@ -148,7 +150,7 @@ OTOMATİK PAYLAŞIM TURU (Enes 15.11 21:15 "oto atmaya devam"). ÖNCE invest/DEV
 8. Enes'e SendUserMessage: paylaşılan metin + "Ne anlama geliyor?" (bölüm 9).
 9. PORTFÖY + GRAFİK TARAMASI (bölüm 11-14): her turda grafiklere bakılır. Değişiklik ya da fırsat varsa Enes'e "ben olsam" notu atılır.
 10. DONGU.md'ye `- HH:MM AUTO (TÜR): dosya.jpg - özet (kaynaklar) | düzen:...` yaz. Commit ve push.
-11. Yeni send_later kur (5-20 dk).
+11. Yeni send_later kur (20-40 dk rastgele).
 - Bash "classifier no verdict" verirse bir kez tekrar dene. Olmazsa o tur paylaşma, 5-10 dk sonrasına aynı mesajla kur.
 - WebFetch PROVENANCE_REQUIRED derse tekrar deneme, WebSearch ile devam et.
 - Buffer hata verirse 1 kez tekrar dene; olmazsa DONGU'ya yaz, atla.
@@ -173,7 +175,7 @@ OTOMATİK PAYLAŞIM TURU (Enes 15.11 21:15 "oto atmaya devam"). ÖNCE invest/DEV
   - Enes'in örnekleri (12:22 Kuo/TPU, 15:39 Uber/Zoox, 15:42 Citi/NBIS) üç tür: (a) ANALİST NOTU: "X price target lowered/raised to $A from $B at Kurum" (TheFly/StreetInsider formatı), (b) ŞİRKET/ORTAKLIK LANSMANI (bugün başlayan ürün, şehir, anlaşma), (c) ANALİST TAHMİNİ (Kuo gibi tanınmış isim + rakam).
   - HER TURDA BAKILACAK KAYNAKLAR (son dakika taramasına ek): analist not akışları: TheFly (thefly.com/news), StreetInsider ratings, Investing.com "analyst ratings", MarketBeat ratings, TipRanks news, Benzinga analyst ratings, Futu/Moomoo haber başlıkları, aktiencheck/finanzen (Almanca ama hızlı). Lansman/ortaklık: Business Wire, PR Newswire, GlobeNewswire, şirket IR, TechCrunch, The Verge, Electrek. Gerekirse Chrome'da açılır (bölüm 10). Portföy + ilgi listesi + büyük yapay zeka/yarı iletken/bulut/uzay/robotaksi şirketleri öncelikli.
   - ANALİST NOTU TWEETİ KALIBI: kurum + analist (biliniyorsa) + eski → yeni hedef + tavsiye + neden (notun gerekçesi) + bağlam (son 2-4 haftadaki önceki değişiklik, bilanço) + mevcut fiyata göre fark (Yahoo fiyatıyla hesapla) + tek cümle görüş. Hedef ve tavsiye 2 kaynakla (ör. Futu + aktiencheck/TipRanks); notun içeriği (gerekçe) tek kaynaktaysa sadece doğrulanmış kısmı yaz.
-  - NE KADAR TWEET: Enes daha sık ve sürekli akış istiyor. 09:00-01:00 arasında her tur (5-20 dk) bir tweet hedeflenir, günlük tavan 45. "Taze haber yok" diye BOŞ TUR GEÇİLMEZ: son dakika yoksa sırasıyla (1) son 24 saatin analist notları, (2) bugünkü lansman/ortaklık/anlaşmalar, (3) bu hafta takvimi, (4) menü. Boş tur yalnızca hiçbir şey 2 kaynakla doğrulanamazsa olur ve DONGU'ya nedeni yazılır.
+  - NE KADAR TWEET: Enes daha sık ve sürekli akış istiyor. 09:00-01:00 arasında her otomatik tur (20-40 dk) bir tweet hedeflenir, günlük tavan 45. "Taze haber yok" diye BOŞ TUR GEÇİLMEZ: son dakika yoksa sırasıyla (1) son 24 saatin analist notları, (2) bugünkü lansman/ortaklık/anlaşmalar, (3) bu hafta takvimi, (4) menü. Boş tur yalnızca hiçbir şey 2 kaynakla doğrulanamazsa olur ve DONGU'ya nedeni yazılır.
   - Enes tweet yapıştırınca: 3 saat ticker kuralı ve tur sırası beklenmez, hemen araştırılıp atılır; örnek ORNEKLER.md'ye eklenir.
 - VADELİ İŞLEMLER HER İŞLEM GÜNÜ (16.11 02:05):
   - 09:05 turunda ve ABD açılışından önce (~15:00-15:25 TSİ) tekrar. Dow, S&P 500, Nasdaq 100, Russell 2000 vadelilerinin önceki kapanışa göre %'si.
@@ -493,7 +495,7 @@ E) DİL VE SINIRLAR
 ## 16. DİĞER GÖREVLER / BEKLEYENLER
 - "EnesInvestUS günlük portföy sorusu" (trig_019TTCnsx74Nsi9DjkY7M5MF): 16.11 13:54 Enes isteğiyle DURDURULDU (portföy tweetini Enes atar).
 - Saatlik hazırlık ve Buffer taslak görevleri KAPALI.
-- AKTİF ZİNCİRLER (bu oturum session_01EmZ47ojykRADiBmC9CvV5D, 16.11 14:25): "Otomatik paylaşım turu" (5-20 dk, her tur yeni ID), "Teknik kontrol (açılış +30 dk)" 18:00 TSİ ve "Teknik kontrol (kapanış -30 dk)" 23:30 TSİ (her gün yeni ID; ikisi Enes'in bilgisayarına bağlı). Yeni oturum list_triggers ile bu ADLARLA bulur, eski oturumunkileri siler (delete_trigger), kendisi yeniden kurar.
+- AKTİF ZİNCİRLER (bu oturum session_01EmZ47ojykRADiBmC9CvV5D, 16.11 14:25): "Otomatik paylaşım turu" (20-40 dk, her tur yeni ID), "Teknik kontrol (açılış +30 dk)" 18:00 TSİ ve "Teknik kontrol (kapanış -30 dk)" 23:30 TSİ (her gün yeni ID; ikisi Enes'in bilgisayarına bağlı). Yeni oturum list_triggers ile bu ADLARLA bulur, eski oturumunkileri siler (delete_trigger), kendisi yeniden kurar.
 - Enes'ten cevap beklenenler:
   - Anthropic adı yasağı gevşesin mi?
   - Portföy ağırlıkları (eşit ağırlık dedi).
@@ -548,6 +550,7 @@ E) DİL VE SINIRLAR
 | 13:55 | Günde 2 kez (açılış +30, kapanış -30) portföy + en iyi 3-4 hisse teknik kontrol, 'ben olsam' kararları | 14b, başlık |
 | 15:15 | WebFetch onayı (ir.tyson.com) | 3 |
 | 15:29 | Haberleri istersen Chrome'dan araştır (açık) | 10 |
+| 16:46 | Artık 20-40 dk'da bir at; benim attıklarımı hemen at ama senin zamanlamanı etkilemesin; devir notuna ekle, hiçbir kuralı atlama, tekrar tekrar kontrol et | 2, B, başlık 8 |
 | 16:36 | Tweet aralıklarını 7'şer dk arttır (5-20 -> 12-27 dk) | 2, B |
 | 16:33 | $CRWV bilanço formatı: bilançolar bu sayfa düzeninde yazılacak; sayfa stiline uyan hissede 15 dk sonra kapsamlı analiz; devir notuna ekle ve bana tekrar at | 4, başlık 7 |
 | 15:45 | Raymond James/SPCX yapıştırdı (hemen atıldı) | 4, 8 |
