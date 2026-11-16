@@ -163,3 +163,5 @@ Durdurmak için en alta `DURDUR` yazılı bir satır ekle (Enes ya da Claude, En
 - 19:15 KARNE: RKLB 30/50 (BUY 5, KAR 2, NAKIT 3, BILANCO 4, DEG 1, MOM 3, AKIS 3, GOR 3, KALITE 4, RISK 2). Siradaki: SITM AXON CBRS VRT ECL TSM AVGO DOCN.
 - 19:49 AUTO (FED ONCESI): 20261116_1953_warsh_once.jpg (terminal) - Warsh 20:00 TSI San Francisco Fed verimlilik/istihdam gorev gucu konferansi (SF Fed etkinlik sayfasi 9:00 PT; Reuters/Investing 28.10 duyuru + 'verimlilik mucizesi mi' sozu; sonuclar mevcut politikaya pek yansimaz - Investing). Ilk deneme terminal degerleri uzun tasti -> kisa degerle yeniden. Buffer 6afb34382325e6c7b3e0cac6. Bugun 36. Son 3 duzen: split, spotlight, terminal. Son OTOMATIK 19:49. SONRAKI TUR: Warsh ne dedi (2 kaynak).
 - 19:55 KARNE: SITM 36/50, AXON 27/50. Siradaki: CBRS VRT ECL TSM AVGO DOCN.
+- 19:56 Enes: 'dur' -> otomatik tur zinciri durduruldu (bekleyen tur trig_01AmkZcqsfG39fAv7jnF2nkr silindi). Teknik kontroller (23:30, yarin 18:00) Enes'e soruldu.
+DURDUR
