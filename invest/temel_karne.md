@@ -24,8 +24,8 @@ Rotasyon sırası (eksik/eskiden başla): NBIS RKLB SITM AXON CBRS VRT ECL TSM A
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | NBIS | 16.11 18:45 | 5 | 2 | 1 | 2 | 3 | 2 | 2 | 1 | 3 | 2 | 23/50 | büyüme dev, nakit/borç çok ağır, 2026 rehberi alt banda çekildi |
 | RKLB | 16.11 19:15 | 5 | 2 | 3 | 4 | 1 | 3 | 3 | 3 | 4 | 2 | 30/50 | büyüme ve backlog çok güçlü, nakit bol; değerleme çok pahalı, Neutron 2027'ye kaydı |
-| SITM | - | | | | | | | | | | | eksik | |
-| AXON | - | | | | | | | | | | | eksik | |
+| SITM | 16.11 19:55 | 5 | 4 | 3 | 4 | 3 | 4 | 3 | 3 | 4 | 3 | 36/50 | AI veri merkezi talebiyle %257 büyüme, düz. marj %70; GAAP kâr ince, wafer arzı kısıtlı |
+| AXON | 16.11 19:55 | 4 | 2 | 2 | 3 | 3 | 1 | 3 | 1 | 5 | 3 | 27/50 | hendek çok güçlü (NRR %126), ama rehber düşürüldü, SBC yüksek, trend çok zayıf |
 | CBRS | - | | | | | | | | | | | eksik | |
 | VRT | - | | | | | | | | | | | eksik | |
 | ECL | - | | | | | | | | | | | eksik | |
@@ -78,3 +78,35 @@ Kaynaklar: şirket 8-K/GlobeNewswire bülteni (SEC), çağrı metni (Motley Fool
 10) RİSK/KATALİZÖR 2/5 — Riskler: Neutron gecikmesi/başarısızlık (değerlemenin büyük kısmı buna bağlı), seyrelme, çok yüksek değerleme + beta 3,2, devlet/savunma bütçe zamanlaması, satın alma maliyetleri. Katalizörler: Q4 bilançosu (Şubat 2027), Neutron ilk uçuş tarihi, SDA/savunma sözleşmeleri, SPCX (SpaceX) halka arzının sektör değerlemesine etkisi.
 SEKTÖR KPI (uzay): backlog 3,57 Mr$ (117 fırlatma + 55+ uzay aracı), 12 ay dönüşüm %32,9, Neutron 16 görev, taban fiyat 70 Mn$, fırlatma/uzay sistemleri karışımı ~%52/48 (backlog).
 SONUÇ: TEMEL 30/50. İş kalitesi, büyüme ve bilanço güçlü; zayıflık değerleme (çok pahalı) ve Neutron zamanlaması. Teknik 18:00'de olumlu (trend yukarı dönmüş). Şimdiye kadar NBIS'ten (23/50) belirgin şekilde daha iyi.
+
+## SITM — 16.11.2026 19:55 (/50, bölüm 14h) — Q3 2026 (açıklama 4.11)
+Kaynaklar: şirket bülteni (GlobeNewswire/Finviz), MarketBeat çağrı özeti, Earnings Whispers, Zacks (2 haber), Futurum, finsee, 24/7 Wall St, stockanalysis istatistik (veri tarihi sayfada yok; fiyat ~470 ima ediliyor -> eski olabilir). Bugün ~418,6 (18:00).
+1) BÜYÜME 5/5 — Q3 gelir 298,7 Mn$, yıllık +%257, rehber 285-295 ve konsensüs ~290-293 aşıldı (bülten, Futurum, EW). Çekirdek CED (iletişim/kurumsal/veri merkezi) +%202 (Zacks, finsee). Renesas'tan alınan TPD bölümü ilk tam çeyrek -> inorganik katkı büyük; finsee hesabı: bir yıl önce sahip olunan işler +%156 (TPD 85 Mn$ planına göre) (tek kaynak). Dizi: Q2 157,4 (+%127) -> Q3 298,7 (MarketBeat Ağu, bülten). Q4 rehber 331-341 Mn$ (MarketBeat, Zacks).
+2) KÂRLILIK 4/5 — Düz. brüt marj %70,7 (Q1 64,5 -> Q2 67,1 -> Q3 70,7), düz. faaliyet marjı %43,4 (EW, MarketBeat, 24/7). Q4 düz. brüt marj ~%70 ±1 (Zacks). GAAP ince: GAAP brüt marj %51,6, GAAP faaliyet kârı 8,3 Mn$, net 4,4 Mn$ (bülten); fark = 61,8 Mn$ maddi olmayan varlık amortismanı + 21,3 Mn$ satın alma maliyeti + 35,0 Mn$ SBC (EW). Uzun vadeli hedef düz. brüt marj %60-65 -> şu an hedefin üstünde (finsee).
+3) NAKİT 3/5 — TTM faaliyet nakdi 87,2 Mn$, capex 52,0 Mn$, FCF 35,1 Mn$ (%10,8) (stockanalysis, tek kaynak). Q3'te işletme sermayesi baskısı, Q4'te tahsilatla düzelmesi bekleniyor (Zacks).
+4) BİLANÇO 4/5 — Nakit ~808 Mn$, borç ~3,6 Mn$, net nakit ~805 Mn$, cari oran 11,3, Altman Z 25,6 (stockanalysis, tek kaynak). Hisse sayısı yıllık +%8 (tek kaynak; TPD alımında hisse kullanımı olabilir, doğrulanacak). Hisse bölünmesi açıklandı (MarketBeat, tek kaynak; oran doğrulanacak).
+5) DEĞERLEME 3/5 — TTM bazında pahalı: EV/Satış 35, F/S 37,7, ileri F/K ~92 (stockanalysis, eski fiyatla). AMA çalışma hızıyla: Q4 rehberi ~336 Mn$ x 4 = ~1,34 Mr$ yıllık gelir; bugünkü fiyatla piyasa değeri yaklaşık 11 Mr$ -> EV/yıllık hız ~7-8; Q4 düz. HBK ~4,76$ x 4 = ~19$ -> ~22 kat (bölünme öncesi hisse başına; kaba hesap). Büyüme hızına göre makul. Analist ort. hedef 405$ (7 analist) bugünkü fiyatın altında -> hedefler güncellenmemiş olabilir, DOĞRULANMADI.
+   KABA SENARYO (12 ay): AYI düz. HBK 16$ x 18 = ~290$; BAZ 19$ x 24 = ~455$; BOĞA 22$ x 30 = ~660$ (bölünme öncesi bazda).
+6) MOMENTUM 4/5 — Düz. HBK 4,01$ vs konsensüs 3,41-3,56 (+%13-18) (EW, 24/7, Zacks), gelir aşımı, her rehber kalemi aşıldı (EW). AMA hisse bir önceki bilançodan bu yana ~%35 düşmüştü (EW başlığı) ve 18:00 teknik "daha dip arıyor" dedi.
+7) SAHİPLİK/AKIŞ 3/5 — Kurum %91,9, içeriden %1,3, açığa satış %4,9 / 2,6 gün (stockanalysis, tek kaynak). İçeriden satışlar: bilinmiyor.
+8) GÖRECELİ GÜÇ 3/5 — 52 hafta +%240, 50 günlük ort. ~382, 200 günlük ~309 (stockanalysis); fiyat ~418 her ikisinin de üstünde ama zirveden geri çekilmede; beta 2,57 (çok oynak).
+9) KALİTE/YÖNETİM 4/5 — MEMS zamanlama çiplerinde öncü, AI veri merkezi/optik modüllerde içerik artışı (Futurum), Renesas TPD ile ürün ve müşteri genişlemesi; CEO Rajesh Vashist uzun süredir görevde. Müşteri yoğunlaşması: bilinmiyor (bir sonraki yenilemede 10-Q).
+10) RİSK/KATALİZÖR 3/5 — Wafer arzı baskısı 2027'ye kadar (Zacks başlığı), TPD entegrasyonu, yarı iletken döngüsü, yüksek beta. Katalizör: Q4 bilançosu (Şubat), hisse bölünmesi, NVDA bilançosu (17.11) AI talep algısı.
+SEKTÖR KPI (yarı iletken): CED büyümesi +%202; düz. brüt marj %70,7; stok günleri ve book-to-bill bilinmiyor (sonraki yenileme).
+SONUÇ: TEMEL 36/50 — şimdiye kadarki en yüksek. Büyüme, marj, bilanço güçlü; değerleme çalışma hızına göre makul. Teknik 18:00'de zayıf (dip arıyor) -> temel güçlü + teknik zayıf = kademeli alım adayı.
+
+## AXON — 16.11.2026 19:55 (/50, bölüm 14h) — Q3 2026 (açıklama 5.11)
+Kaynaklar: şirket bülteni (PR Newswire/Finviz), MarketBeat çağrı, Zacks (2), Earnings Whispers (2), StockStory, finsee, Panabee, walnut, stockanalysis istatistik (14.11 verisi, 13.11 kapanış 315,43). Bugün ~315,7 (18:00).
+1) BÜYÜME 4/5 — Gelir 909 Mn$, yıllık +%28 (bülten, walnut, StockStory). Yazılım ve hizmetler 437 Mn$ +%43 (Q2'de +%36'dan hızlandı) (EW, Panabee, MarketBeat). ARR 1,75 Mr$ +%40, NRR %126 (Zacks, EW, MarketBeat); gelecek sözleşmeli rezervasyon 15,8 Mr$ +%39 (Zacks). Platform çözümleri +%106 (bülten). AI ARR 100 Mn$+, AI rezervasyonu yılbaşından beri +%50 (bülten, Zacks). EKSİ: 2026 gelir rehberi 3,61-3,63 Mr$'a düşürüldü (3 federal Dedrone projesi gecikti) (Zacks, EW); Q4 rehberi ~1,0 Mr$ konsensüs 1,07'nin %6,8 altında (StockStory).
+2) KÂRLILIK 2/5 — Düz. FAVÖK 235,7 Mn$, marj %25,9 (beklentiyi %3,4 aştı) (StockStory, bülten 236). Net kâr 57 Mn$ (geçen yıl zarar) (bülten). AMA düz. HBK 1,72$ beklentinin %9 altında (StockStory). TTM GAAP faaliyet marjı %1,5, ROIC %1 (stockanalysis, tek kaynak). SBC 2026 rehberi 570-600 Mn$ = gelirin %16'sından fazla (finsee, tek kaynak) -> büyük seyrelme maliyeti.
+3) NAKİT 2/5 — TTM faaliyet nakdi 225,5 Mn$, capex 144,6 Mn$, FCF 80,9 Mn$ (%2,4) (stockanalysis, tek kaynak) -> düşük.
+4) BİLANÇO 3/5 — 1,15 Mr$ konvertibl ile net borç ~1,2 Mr$ (EW); stockanalysis: nakit 1,66 Mr$, borç 2,99 Mr$, net -1,33 Mr$. Skydio'ya 1,2 Mr$ yatırım (~%60 nakit / %40 hisse), pay %37'ye çıktı, ABD-Kanada kamu güvenliği münhasır dağıtım (EW, tek kaynak). Altman Z 5,96 (iyi), hisse sayısı +%1,1 (tek kaynak).
+5) DEĞERLEME 3/5 — İleri F/K 37, EV/Satış 7,9, ileri F/S 6,0, PEG 1,37 (stockanalysis); 52 haftada -%44,6 -> son yılların en ucuz çarpanları (5 yıllık aralığın alt kısmı, kaba). EV/FAVÖK 154 (GAAP bazlı, yanıltıcı).
+   KABA SENARYO (12 ay): AYI ileri F/K 28 -> ~240$; BAZ 37 -> ~315$; BOĞA 50 -> ~430$. Analist ort. hedef 541$ (21 analist, stockanalysis) -> bilanço öncesi hedefler, düşürülüyor olabilir, DOĞRULANMADI.
+6) MOMENTUM 1/5 — Gelir ve HBK kaçırdı, yılın ilk rehber düşürmesi (EW, StockStory), piyasa tepkisi olumsuz (StockStory).
+7) SAHİPLİK/AKIŞ 3/5 — Kurum %88,2, içeriden %4,7, açığa satış %5,3 / 4,2 gün (stockanalysis, tek kaynak).
+8) GÖRECELİ GÜÇ 1/5 — RSI ~30, fiyat 50 günlük ort. 418 ve 200 günlük 466'nın çok altında, 52 hafta -%44,6 (stockanalysis). 18:00 teknik: düşüş trendi güçlü ama destek bölgesinde.
+9) KALİTE/YÖNETİM 5/5 — Kamu güvenliğinde ekosistem tekeline yakın konum (TASER + kamera + bulut yazılım + AI), NRR %126, ARR +%40, rezervasyon 15,8 Mr$ -> çok güçlü hendek. Kurucu CEO Rick Smith.
+10) RİSK/KATALİZÖR 3/5 — Federal sözleşme zamanlaması (Dedrone), Skydio entegrasyonu, SBC, konvertibl; düzenleme/gizlilik. Katalizör: Q4 bilançosu (Şubat), federal projelerin imzalanması, AI ürünlerinin büyümesi.
+SEKTÖR KPI (kamu güvenliği SaaS): ARR 1,75 Mr$ (+%40), NRR %126, yazılım payı ~%48, gelecek rezervasyon 15,8 Mr$.
+SONUÇ: TEMEL 27/50. İş kalitesi en üst düzey; zayıflık kısa vadeli momentum, rehber kesintisi, düşük FCF ve yüksek SBC. Uzun vade kaliteli + fiyat düşmüş; ama trend çok zayıf, acele yok.
