@@ -136,3 +136,4 @@ Durdurmak için en alta `DURDUR` yazılı bir satır ekle (Enes ya da Claude, En
 - 14:15 Enes: 18:00/23:30'da bakilan her hisse icin ayri gorsel + tweet taslagi Enes'e; TA tweetlerini Enes paylasir (Claude Buffer'a atmaz); her seviyenin nedeni yazilir -> DEVIR_TAM 14d/14e + kesin kural 5.
 - 14:25 DEVIR_TAM v4 yazildi (Enes 14:19). Bu oturum devam ediyor; zincirler aktif.
 - 14:22 AUTO: taze+2 kaynakli yeni konu yok (AMD Cuma -%8,75 + acilis oncesi eksi: premarket % ve 5 seans getirisi kaynaklarda celisiyor -> kullanilmadi). Tyson Q4 henuz yok (beklenti EPS 0,53-0,65$ kaynaga gore, gelir ~14,0-14,2 Mr$). Paylasim yok; Tyson icin 12 dk sonra tur.
+- 14:34 AUTO: Tyson Q4 FY2026 hala yayinlanmamis (sonuclar Q3/2025); yeni taze 2 kaynakli konu yok -> paylasim yok. Sonraki tur ~14:55 (Tyson + 15:00-15:25 vadeli tweeti).
