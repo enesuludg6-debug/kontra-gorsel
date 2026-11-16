@@ -73,3 +73,8 @@ Format: ## Şablon adı / Örnek (kaynak hesap) / Yapı / Bizim versiyon / Kulla
 - Yapı: grafiğin tek mesajı (sade dille) → sebep (rakamla) → kurumun yorumu "X böyle diyor" diye atıfla → bizim tek cümle görüş. Kurumun "alın" çağrısı bizim ağzımızdan tavsiye olarak yazılmaz.
 - Görsel: grafiği KOPYALAMA; kendi kartımız (ilerleme/cizgi), kaynağa kurum adı.
 - Bizim: 20261115_2142_tech_tahvil.jpg (ilerleme).
+
+## Enes örneği (16.11 15:39) — Ortaklık / ürün lansmanı haberi
+Kaynak tweet (İngilizce, başkasının): "$UBER just added $AMZN Zoox's steering-wheel-free robotaxis in Las Vegas ... Los Angeles is next in 2027 as Uber continues expanding its robotaxi network betting it can become the place people book autonomous rides regardless of who builds the cars."
+Tarz: 1) iki ticker + somut olay + ayırt edici detay (direksiyonsuz), 2) sıradaki adım + tarih, 3) şirketin stratejisini tek cümlede anlatan kapanış. Kısa, haber odaklı, abartısız.
+Bizim versiyon (Buffer 6afaf9a76c00cddca5478e1e): "$UBER bugünden itibaren Las Vegas'ta $AMZN'un robotaksi şirketi Zoox'un araçlarını da uygulamasına ekledi... Uber arabayı kim yaparsa yapsın, robotaksiyi çağırdığın yer olmaya oynuyor."
