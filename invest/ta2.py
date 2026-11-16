@@ -5,11 +5,18 @@ def fetch(s,interval,rng):
     u=f"https://query1.finance.yahoo.com/v8/finance/chart/{s}?range={rng}&interval={interval}"
     d=json.load(urllib.request.urlopen(urllib.request.Request(u,headers=UA),timeout=20))["chart"]["result"][0]
     q=d["indicators"]["quote"][0];t=d["timestamp"]
-    return [(t[i],q["open"][i],q["high"][i],q["low"][i],q["close"][i],q["volume"][i] or 0) for i in range(len(t)) if q["close"][i] is not None and q["high"][i] is not None]
+    r=[(t[i],q["open"][i],q["high"][i],q["low"][i],q["close"][i],q["volume"][i] or 0) for i in range(len(t)) if q["close"][i] is not None and q["high"][i] is not None]
+    # 16.11 21:35 TradingView karsilastirmasi: Yahoo sona hacmi 0 olan anlik "tick" mumu ekliyor (ör. 18:30 mumundan 2 dk sonra) -> ayri mum sayilmasin
+    if interval=="60m" and len(r)>2 and r[-1][0]-r[-2][0]<3600 and r[-1][5]==0: r=r[:-1]
+    return r
 def resample(r,k):
-    o=[]
-    for i in range(0,len(r),k):
-        g=r[i:i+k]; o.append((g[0][0],g[0][1],max(x[2] for x in g),min(x[3] for x in g),g[-1][4],sum(x[5] for x in g)))
+    # 16.11 21:35: 4 saatlik mumlar TradingView gibi her islem gunu icinde hizalanir (09:30-13:30, 13:30-16:00 ET); eskiden gunler arasi kayiyordu
+    o=[];gun={}
+    for x in r: gun.setdefault(datetime.datetime.utcfromtimestamp(x[0]-5*3600).date(),[]).append(x)
+    for d in sorted(gun):
+        b=gun[d]
+        for i in range(0,len(b),k):
+            g=b[i:i+k]; o.append((g[0][0],g[0][1],max(x[2] for x in g),min(x[3] for x in g),g[-1][4],sum(x[5] for x in g)))
     return o
 def ema(a,n):
     k=2/(n+1);e=a[0];o=[]
