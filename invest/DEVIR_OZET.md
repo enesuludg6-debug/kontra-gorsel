@@ -81,3 +81,8 @@ PORTFOY YONETIMI (Enes 16.11 12:47, EN ONEMLI YENI KURAL): Arastirma turlarinda 
 - Rakam bulunamiyorsa ya da tek kaynaktaysa tahmin yurutme; "ne kadari belli degil" de ya da o kusur cumlesini yazma. Tahmin yazarsan acikca "tahminen" de ve dayanagini (hangi rakamdan hesapladigini) belirt.
 - Her iki yonu de ver: neden iyi isaret, neden dikkat edilmeli (iyi/kotu cevabi net olsun, tek cumle yorum kurali korunur).
 - Ayni kural bilanco, satin alma, kar/zarar, hisse bolunmesi, geri alim gibi okuyucuyu "bu gercek mi?" diye dusunduren her konu icin gecerli. Tweet uzunsa kisa tut, en onemli cevabi sec.
+
+## TEKNIK ANALIZ HER TURDA (Enes 16.11 13:09)
+- Enes grafik/indikator kaynagi baglayacak (TradingView istedi; TradingView connector'i yok -> tarayici veya Twelve Data / Alpha Vantage connector onerildi). Baglaninca HER TURDA: portfoy (NBIS RKLB DOCN SITM AXON CBRS VRT) + firsat gorulen hisseler icin grafik ve indikatorlere bak (trend, 50/200 gunluk ortalama, RSI, MACD, hacim, destek/direnc, Bollinger vb.), Enes'e kisa karar notu ver (tut / ekle / azalt / izle + gerekce + seviye). Kararlar Enes'in; notlar sadece SendUserMessage ile, tweette al/sat yok.
+- Kaynak bagli degilse eski kural: sadece son 2 gun tarihli grafik analizleri.
+- X hesabina asla girilmez.
