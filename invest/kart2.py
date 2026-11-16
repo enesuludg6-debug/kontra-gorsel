@@ -652,8 +652,9 @@ def cizgi(ticker, etiket, baslik, etiketler, degerler, buyuk, buyuk_lbl, kaynak,
     _watermark(img, ticker, 1000, alpha=10); d = ImageDraw.Draw(img)
     _pill(d, (72, 64), etiket, br)
     lg = _logo(ticker, 170)
+    if lg: lg = _plate(lg, 22, 28)  # logo her zaman beyaz plakada, belirgin olsun
     if lg: img.paste(lg, (W - 72 - lg.width, 56), lg)
-    f, ls = _fit(d, baslik, "Black", 68, W - 144 - (330 if lg else 0), 2); y = 136
+    f, ls = _fit(d, baslik, "Black", 68, W - 144 - (420 if lg else 0), 2); y = 136
     for l in ls:
         d.text((72, y), l, font=f, fill=(255, 255, 255)); y += int(f.size * 1.06)
     y = max(y, 250) + 20
