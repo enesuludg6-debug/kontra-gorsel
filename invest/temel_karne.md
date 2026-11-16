@@ -28,6 +28,7 @@ Rotasyon sırası (eksik/eskiden başla): NBIS RKLB SITM AXON CBRS VRT ECL TSM A
 | AXON | 16.11 19:55 | 4 | 2 | 2 | 3 | 3 | 1 | 3 | 1 | 5 | 3 | 27/50 | hendek çok güçlü (NRR %126), ama rehber düşürüldü, SBC yüksek, trend çok zayıf |
 | CBRS | 16.11 20:20 | 4 | 2 | 1 | 4 | 2 | 4 | 2 | 2 | 3 | 2 | 26/50 | çekirdek gelir +%70, rehber 3. kez aşıldı/yükseltildi; FCF -1,4 Mr$, müşteri yoğunlaşması aşırı, pahalı |
 | ECL | 16.11 21:20 | 3 | 4 | 3 | 3 | 2 | 4 | 3 | 5 | 5 | 4 | 36/50 | kaliteli, düşük beta, trend güçlü; ama büyüme orta (%7 organik), pahalı (ileri F/K ~34), borçlu |
+| DOCN | 16.11 22:35 | 5 | 2 | 2 | 2 | 3 | 5 | 2 | 1 | 3 | 2 | 27/50 | büyüme 5 çeyrektir hızlanıyor (+%40, 2027 +%60), ama kapasite maliyeti marjı eziyor, net borç, %15 seyrelme, 1 Mr$ ATM |
 | AVGO | 16.11 22:05 | 5 | 5 | 5 | 4 | 4 | 4 | 3 | 2 | 5 | 3 | 40/50 | gelir +%86, yapay zeka çipi +%221, FCF marjı %46, ileri F/K ~19; net borç (VMware), müşteri yoğunlaşması bilinmiyor |
 | TSM | 16.11 21:40 | 5 | 5 | 4 | 5 | 4 | 4 | 3 | 2 | 5 | 2 | 39/50 | gelir +%41 ($), marj %66, net nakit 100 Mr$, ileri F/K ~18; risk Tayvan + 2nm marj seyrelmesi |
 | VRT | 16.11 20:45 | 5 | 5 | 5 | 5 | 4 | 4 | 3 | 1 | 4 | 3 | 39/50 | satış +%61, sipariş 2 katı, net nakit, ileri F/K ~20; fiyat 200 günlüğün %30 altında, sipariş verisi artık açıklanmayacak |
@@ -48,7 +49,7 @@ Rotasyon sırası (eksik/eskiden başla): NBIS RKLB SITM AXON CBRS VRT ECL TSM A
 | AXON | 27 | 1 | 26 | MOM 1, KÂR/NAKİT 2 | rehber düşürüldü (1 kez; 2. olursa bayrak) | orta |
 | CBRS | 26 | 2 | 24 | NAKİT 1, KÂR/DEĞ/AKIŞ/RİSK 2 | VAR: müşteri yoğunlaşması %86 (2025), açığa satış float %14,5 (sınırda) | düşük-orta (çok tek kaynak) |
 | NBIS | 23 | 1 | 22 | NAKİT 1, GÖR.GÜÇ 1 | kontrol edilecek (nakit/borç ağır, 14i-B eşikleriyle sonraki yenilemede) | orta |
-| DOCN | 24/35 (eski format) | - | - | - | - | /50 yenilemesi sırada |
+| DOCN | 27 | 1 | 26 | BİLANÇO 2, NAKİT 2, KÂR 2 | VAR: net borç/FAVÖK 4,1 (>4), hisse sayısı +%15 (>%10), 1 Mr$ ATM | orta |
 Not: sıralama /45'e göre de aynı kaldı (VRT > SITM > ECL > RKLB > AXON > CBRS > NBIS); fark: ECL'in yüksek puanının 5 puanı fiyat trendinden geliyordu.
 
 ## DOCN — 16.11.2026 18:30 (Q3 2026, açıklama 3.11)
@@ -219,3 +220,21 @@ SONUÇ: TEMEL 40/50 (/45: 38) — şimdiye kadarki en yüksek (TSM 39/37, VRT 39
 
 ### 14i-C KALİBRASYON (16.11 22:05, 5 karne doldu: CBRS VRT ECL TSM AVGO)
 Sıralama (/45): VRT 38 = AVGO 38 > TSM 37 > SITM 33 > ECL 31 > RKLB 27 > AXON 26 > CBRS 24 > NBIS 22. Kontrol: BÜYÜME 5 alanlar (NBIS, RKLB, SITM, CBRS?, VRT, TSM, AVGO) -> CBRS 4 (çekirdek +%70, yapay zeka çipi akranları +%200+ büyürken) tutarlı. KÂRLILIK 5: VRT (marj %25 ama ROIC %44, sektöre göre üst %20), TSM, AVGO -> A8 akran mantığıyla tutarlı. DEĞERLEME: AVGO/TSM/VRT 4 (F/K 18-20, yüksek büyüme), ECL 2 (F/K 38, %7 büyüme), RKLB 1 -> tutarlı. Puan değişikliği yok. Not: büyük yarı iletkenlerde (TSM, AVGO) BÜYÜME 5 verilirken küçük şirketlerdeki yüksek büyümeyle aynı ölçek kullanıldı; sektör çapası (yarı iletken akran medyanı) eklenmeli -> 14i-D'ye yazıldı.
+
+
+## DOCN — 16.11.2026 22:35 (/50, bölüm 14h, eski 24/35 yenilendi) — Q3 2026 (açıklama 3.11)
+Kaynaklar: şirket bülteni 8-K (SEC), MarketBeat çağrı özeti, Benzinga/Webull çağrı metni, StockStory/Webull, Finviz, CryptoBriefing, SaaSRise, stockanalysis istatistik (veri 5.11, fiyat 4.11 kapanışı 84,02 -> ESKİ). Bugün ~80,1 (Yahoo 22:30).
+1) BÜYÜME 5/5 — Q3 gelir 321 Mn$ (+%40, son 10 yılın en hızlısı), 5. çeyrek üst üste hızlanma (%18 -> %22 -> %29 -> %40) (8-K, MarketBeat, Finviz, CryptoBriefing). Rehber üst sınırını 14 Mn$+ aştı (MarketBeat). Yıllık gelir hızı (ARR) ~1,28 Mr$ (+%40), rekor 160 Mn$ yeni ARR (8-K, MarketBeat, Benzinga). Yapay zeka müşteri ARR 376 Mn$ (+%288), 1 Mn$+ müşteri ARR 386 Mn$ (+%273) (8-K, Finviz, CryptoBriefing). Q4 rehberi 348-351 Mn$ (+%44-45), 2027 büyüme hedefi %60+ (eski %50+) (8-K, Finviz, SaaSRise). Organik (satın alma yok).
+2) KÂRLILIK 2/5 — Faaliyet marjı %10,3 (geçen yıl %19,6) (StockStory/Webull, tek kaynak); TTM net marj %3,1, ROIC %4,2 (stockanalysis). Düz. HBK 0,45$ beklentinin %40 üstü (StockStory, SaaSRise) AMA Q4 HBK rehberi 0,30-0,32$ (Q3'ün altında; kapasite maliyetleri gelirden önce geliyor) (Finviz). Düz. FAVÖK marjı %45 (SaaSRise, tek kaynak) -> GAAP ile büyük fark (A5).
+3) NAKİT 2/5 — Q3 FCF marjı ~%0 (Q2 %21,5) (StockStory, tek kaynak); TTM FCF 117 Mn$ (%10,6), capex 258 Mn$ ve artıyor (stockanalysis). Kapasite inşası nakdi yutuyor.
+4) BİLANÇO 2/5 — Nakit 845 Mn$, borç 2,05 Mr$, net borç 1,21 Mr$, borç/FAVÖK 4,1, Altman Z 2,9, cari oran 1,15 (stockanalysis, tek kaynak). Hisse sayısı yıllık +%15 (stockanalysis), yeni 1 Mr$ ATM hisse satış programı (Finviz, tek kaynak) -> seyrelme riski. 14i-B kırmızı bayrak x2.
+5) DEĞERLEME 3/5 — 84$ ile ileri F/K 51, ileri F/S 5,9, EV/Satış 10 (stockanalysis); bugün 80 ile ileri F/K ~49, ileri F/S ~5,6 (A1). %40-60 büyüme için F/S 5-6 makul; F/K yüksek. Akran (NBIS, CRWV) bilinmiyor/çapa yok. Analist ort. hedef 168$ (17 analist; fiyatın 2 katı -> eski hedefler, DOĞRULANMADI, puana girmedi).
+   KABA SENARYO (12 ay; 2027 gelir ~1,9 Mr$ = 1,21 x 1,6): AYI F/S 3 -> ~55$ (seyrelme dahil kaba); BAZ F/S 5 -> ~90$; BOĞA F/S 7 -> ~125$.
+6) MOMENTUM 5/5 — Gelir, HBK ve ARR beklentiyi aştı, Q4 ve 2027 rehberi yükseltildi (8-K, Finviz, StockStory, SaaSRise).
+7) SAHİPLİK/AKIŞ 2/5 — Açığa satış float'ın %11'i (stockanalysis, tek kaynak), ATM satış baskısı ihtimali.
+8) GÖRECELİ GÜÇ 1/5 — Fiyat ~80, 50 günlük 118 ve 200 günlük 112'nin çok altında (stockanalysis); 18:00 teknik: dibe yakın, OBV pozitif uyumsuzluk, teyit yok.
+9) KALİTE/YÖNETİM 3/5 — Geliştirici ve KOBİ bulutunda güçlü marka, yapay zeka çıkarım (inference) motorunda token hacmi çeyreklik ~10 kat (MarketBeat, tek kaynak). EKSİ: ilk 25 müşteri yoğunlaşması artıyor (Finviz, oran bilinmiyor).
+10) RİSK/KATALİZÖR 2/5 — Seyrelme (ATM), borç, kapasite maliyetinin geliri önden yemesi, müşteri yoğunlaşması, Warsh'ın "hayal kırıklığı" senaryosunda neo-bulutlar en hassas grup. Katalizör: Q4 bilançosu (Şubat), 2027 kapasite devreye girişi (60 MW, 2027 — AllInvestView eski çeyrek, tek kaynak).
+SEKTÖR KPI (yapay zeka bulutu): ARR 1,28 Mr$; yapay zeka ARR 376 Mn$ (toplamın ~%29); 1 Mn$+ müşteri payı ~%30; sözleşmeli güç/GPU kullanım oranı bilinmiyor.
+DENETİM (14i): A1 fiyat 84 -> 80 ile çarpanlar yeniden; A4 NAKİT/BİLANÇO/KÂR büyük ölçüde tek kaynak -> güven orta-düşük; A5 düz. FAVÖK %45 vs GAAP faaliyet %10 -> büyük fark, KÂRLILIK 2; A7 analist hedefi 168$ eski -> puana girmedi; A9 GÖRECELİ GÜÇ 1 -> /45 = 26; 14i-B iki kırmızı bayrak. Eski /35 kart (24/35, 18:30) bu kartla değişti: BİLANÇO puanı düştü (eski NAKİT/BİLANÇO 2 aynı), BÜYÜME/MOMENTUM 5 korundu. Sonucu en çok değiştiren: seyrelme + kapasite maliyetinin ne zaman gelire döneceği.
+SONUÇ: TEMEL 27/50 (/45: 26). Büyüme hikâyesi çok güçlü ve hızlanıyor; finansman tarafı (borç + seyrelme) zayıf. AXON (26/45) ile aynı seviyede, CBRS (24) ve NBIS (22) üstünde. Dip avcısı açısından: fiyat dipte ama kırmızı bayraklar küçük ve kademeli giriş gerektiriyor.
