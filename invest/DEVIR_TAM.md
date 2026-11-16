@@ -3,8 +3,75 @@
 Bu dosya, Enes Uludağ'ın 15-16 Kasım 2026 boyunca verdiği TÜM kuralların birleşik ve güncel hâlidir.
 Kaynaklar: invest/DEVIR.md (15.11 v1), invest/DEVIR_OZET.md (15.11 21:05 + 16.11 ekleri), invest/ORNEKLER.md, invest/DONGU.md ve 16.11 canlı sohbet.
 Çelişki çözümü: EN YENİ tarihli kural geçerlidir. Eski hâli "(eski: ...)" diye not edildi, böylece hiçbir şey kaybolmadı.
-Her turun başında bu dosya BAŞTAN SONA okunur. Sonra DEVIR_OZET.md (ek ayrıntı) ve DONGU.md'nin TAMAMI okunur.
+YENİ OTURUMSAN ÖNCE A BÖLÜMÜNÜ UYGULA. Her turun başında bu dosya BAŞTAN SONA okunur. Sonra DEVIR_OZET.md (ek ayrıntı) ve DONGU.md'nin TAMAMI okunur.
 Bölüm 18'de her kuralın hangi Enes mesajından geldiğini gösteren kontrol listesi var.
+
+## A. YENİ OTURUM — İLK 15 DAKİKA (bu bölümü ilk iş uygula)
+Enes bu dosyayı yeni bir sohbete attıysa, bu sohbeti yürüten oturum kapanmış ya da devredilmiş demektir. Amaç: HİÇBİR ŞEY SORMADAN aynı işi aynı kalitede sürdürmek. Adımları sırayla yap. Bir adım başarısız olursa "A6 SORUN ÇÖZÜM" tablosundaki çözümü uygula ya da Enes'e oradaki tek cümlelik talimatı yaz, sonra kalan adımlara devam et.
+
+A1. REPO
+- mcp__claude-code-remote__add_repo(owner="enesuludg6-debug", repo="kontra-gorsel", access="push").
+- Ardından: `git clone --depth 1 https://github.com/enesuludg6-debug/kontra-gorsel /home/claude/kontra-gorsel`. Klasör zaten varsa `git pull`.
+- mcp__claude-code-remote__register_repo_root(owner, repo, directory="/home/claude/kontra-gorsel").
+- Git kimliği yoksa: `git config user.email "noreply@anthropic.com"; git config user.name "Claude"`.
+- Kontrol: `ls invest/` içinde kart2.py, ta2.py, font/, logo/, DONGU.md görünmeli.
+- `pip install pillow --break-system-packages` (PIL yoksa).
+
+A2. ARAÇLARI YÜKLE (tek ToolSearch çağrısıyla)
+- ToolSearch "select:mcp__buffer__list_posts,mcp__buffer__create_post,mcp__claude-code-remote__send_later,mcp__claude-code-remote__list_triggers,mcp__claude-code-remote__delete_trigger".
+- Chrome için ayrı tek çağrı: ToolSearch "select:mcp__claude-in-chrome__list_connected_browsers,mcp__claude-in-chrome__tabs_context_mcp,mcp__claude-in-chrome__navigate,mcp__claude-in-chrome__computer,mcp__claude-in-chrome__browser_batch,mcp__claude-in-chrome__find".
+
+A3. SİSTEM KONTROLÜ (hepsini yap, sonucu Enes'e tek mesajda bildir)
+a) Buffer: list_posts(organizationId 6af5719777bce44fa736607b, channelIds ["6af99a1aece6dfde5fd109c7"], status ["sent"], first 5). Cevap gelirse ✓.
+b) Kart: `cd /home/claude/kontra-gorsel/invest && python3 -c "import kart2"` hatasız olmalı.
+c) Push: boş olmayan küçük bir değişikliği (DONGU.md'ye "oturum devraldı" satırı) commit + push et. Sonra raw URL testi yap:
+   `curl -s -o /dev/null -w "%{http_code}" https://raw.githubusercontent.com/enesuludg6-debug/kontra-gorsel/main/invest/DONGU.md` → 200 olmalı.
+d) Yahoo verisi: `python3 ta2.py RKLB > /tmp/ta.txt; head -5 /tmp/ta.txt` (pipe ile head kullanma, BrokenPipe verir) → "[1H] son ..." satırı gelmeli.
+e) Zamanlayıcı: send_later aracı var mı? (A2'de yüklendiyse ✓.)
+f) Chrome/TradingView: list_connected_browsers. Tarayıcı listeleniyorsa ✓. Yoksa "bilgisayar kapalı", Yahoo ile devam (sorun sayılmaz).
+g) Web arama: WebSearch "stock market news today" (mode standard) sonuç vermeli.
+h) Bellek: Enes'in kalıcı tercihleri bellekte (profile/preferences) zaten var; bu dosyayla çelişirse bu dosya geçerli.
+
+A4. ESKİ ZİNCİRİ KAPAT (ÇİFT PAYLAŞIM OLMASIN)
+- mcp__claude-code-remote__list_triggers ile adı "Otomatik paylaşım turu" olan BAŞKA oturuma bağlı bekleyen görevleri bul. delete_trigger ile sil (silebildiklerini).
+- Silinemiyorsa Enes'e yaz: "Eski sohbette bekleyen bir tur var; eski sohbete 'durdur' yazarsan çift tweet olmaz."
+- Ek güvenlik: Buffer'da son tweet 5 dk'dan yeniyse paylaşma kuralı çift atımı zaten engeller. Yine de aynı konunun iki kez atılmaması için her turda DONGU.md + Buffer son 50 kontrol edilir.
+- DİKKAT: DONGU.md'ye "DURDUR" YAZMA (yeni zinciri de durdurur). DURDUR'u sadece Enes isterse yaz.
+
+A5. BAŞLA
+- DONGU.md'nin TAMAMINI ve DEVIR_OZET.md'yi oku (bu dosya bunların hepsini içerir, ama son satırlardaki "SIRADAKİ" notları ve son 3 düzen orada).
+- HEMEN ilk otomatik turu çalıştır: aşağıdaki B bölümündeki tur talimatını (B'deki metni) kendine görev say, uygula. Turun sonunda aynı metinle send_later kur.
+- Enes'e kısa başlangıç mesajı: "Devraldım. Kontroller: Buffer ✓/✗, repo/push ✓/✗, kart ✓/✗, Yahoo ✓/✗, zamanlayıcı ✓/✗, TradingView ✓/✗ (kapalıysa Yahoo). İlk tur başladı." Eksik varsa A6'daki tek cümlelik talimatı ekle.
+
+A6. SORUN → ÇÖZÜM (Enes'e ne yaptırılacağı dahil)
+| Sorun | Belirti | Senin yapacağın | Enes'e yazılacak (aynen) |
+|---|---|---|---|
+| Repo eklenemiyor | add_repo yetki/politika hatası | Hata metnini aynen ilet | "GitHub bağlantısı lazım: claude.ai > Ayarlar > Connectors'tan GitHub'ı yeniden bağla, sonra bana 'tamam' yaz." |
+| Buffer araçları yok | ToolSearch'te mcp__buffer yok | SearchMcpRegistry ["buffer"] → SuggestConnectors | "Buffer bu sohbete bağlı değil, çıkan karttan Buffer'ı bağla (aynı hesap: EnesInvestUS)." |
+| Buffer yetki hatası | list_posts "unauthorized" | Bir kez tekrar dene | "Buffer oturumu düşmüş, Connectors'tan Buffer'ı yeniden bağla." |
+| send_later yok | claude-code-remote araçları yok | Bu oturum zincir kuramaz | "Bu sohbet otomatik zamanlayıcıyı desteklemiyor. Bu notu Claude Code (web, claude.ai/code) oturumunda aç, oradan başlat." |
+| Yahoo kapalı | ta2.py "connect_rejected"/HATA | Grafik turunda son 2 gün tarihli web TA kaynaklarına dön | "claude.ai > Ayarlar > Yetenekler > izin verilen alan adlarına query1.finance.yahoo.com ekle." |
+| Ağ izinleri farklı | raw.githubusercontent.com 200 vermiyor | Buffer görseli göremez, paylaşma | "İzinli alan adlarına raw.githubusercontent.com ve github.com ekle." |
+| Chrome yok | list_connected_browsers boş | Yahoo ile devam, TradingView'u atla | Sadece TradingView istenirse: "Bilgisayarında Chrome'u ve Claude eklentisini aç." |
+| TradingView 'Leave site?' | navigate engellendi | ctrl+s ile kaydet, sonra git | — |
+| TradingView gösterge sınırı | "maximum 2 indicators" | Bir göstergeyi çıkar, gerekeni ekle, bak, ctrl+s (Enes izni var) | — |
+| Font/kart hatası | kart2 import hatası | `pip install pillow --break-system-packages`, font/ klasörünü kontrol et | — |
+| Bash "classifier no verdict" | geçici hata | 1 kez tekrar; yine olmazsa o tur paylaşma, 5-10 dk sonrasına kur | — |
+| WebFetch PROVENANCE_REQUIRED | onay ister | Tekrar deneme, WebSearch kullan | — |
+| Buffer günlük 45 doldu | sayım ≥45 | Ertesi gün 09:05'e kur | — |
+| Alpha Vantage | "premium gerekir" | KULLANMA | — |
+
+A7. ENES İÇİN HAZIR METİN (Enes yeni sohbete bunu yapıştırır)
+"Bu devir notunu oku ve hemen uygula: invest/DEVIR_TAM.md (repo enesuludg6-debug/kontra-gorsel). A bölümündeki adımları yap, kontrol sonucunu bana yaz ve otomatik turları başlat. Bana soru sorma, eksik bir şey varsa ne yapmam gerektiğini tek cümleyle söyle."
+
+## B. TUR TALİMATI (send_later mesajı — her tur sonunda bunu kopyala, sadece [köşeli] kısımları güncelle)
+OTOMATİK PAYLAŞIM TURU (Enes 15.11 21:15 "oto atmaya devam"). ÖNCE invest/DEVIR_TAM.md (tam devir notu) ve invest/DEVIR_OZET.md'yi BAŞTAN SONA oku ve uygula; DONGU.md'nin TAMAMINI oku. Özet: /home/claude/kontra-gorsel/invest'te git pull. DURDUR (satır başında, tek başına) varsa hiçbir şey yapma ve send_later kurma. Buffer list_posts (organizationId 6af5719777bce44fa736607b, channelIds ["6af99a1aece6dfde5fd109c7"], first 50, status sent) ile bugün TSİ gönderilenleri say; son paylaşım 5 dk'dan yeniyse paylaşma, 5-20 dk sonrasına kur. 01:00-09:00 TSİ paylaşma (09:05 için kur; tek istisna önceden bilinen açıklama). Günde en fazla 45. ÖNCE SON DAKİKA TARA (WebSearch extended), taze ve 2 kaynakla doğrulanmış gelişme varsa onu at; yoksa daha önce atılmamış konu (DONGU'daki konular tekrar edilmez; aynı ticker 3 saat içinde yok: [son ticker saatleri]). Her rakam ve yan bilgi 2 kaynak; yıl kontrolü (2025/2026 karışıyor). Tweette kusur/şart yazarsan ne kadar olduğunu araştır, iyi mi kötü mü, rakamlar gerçek mi cevapla. Anthropic adı/konusu yok; al/sat tavsiyesi yok; emoji/hashtag/mention/link yok; soru ile bitirme yok. Kart: kart2.py, son 3 düzen ([son 3 düzen]) kullanılmasın; ticker '$' ile (logo için), halka logo çizmez; Türkçe büyük harf etiketlerini 'İ' ile hazır yaz; Read ile kontrol, yeni dosya adıyla düzelt, push, raw URL 200. Buffer create_post (channelId 6af99a1aece6dfde5fd109c7, automatic, shareNow, image + altText). SendUserMessage: metin + "Ne anlama geliyor?". Vadeli tweeti her işlem günü 09:05 ve ~15:00-15:25 TSİ (kart2.isi kolon=2 hane=2). [takvim notları]. HER TURDA PORTFÖY + GRAFİK: portföy NBIS RKLB DOCN SITM AXON CBRS VRT + yatırıma uygun bulduğun HERHANGİ bir hisse; `python3 ta2.py <tickerlar>` (21 gösterge, 1s/4s/günlük/haftalık) + bilgisayar açıksa TradingView (Chrome, düzen UN09ZFN8: Vol + Supertrend + LuxAlgo SMC; X'e asla girme). Enes YATIRIMCI, amacı EN DİPLERİ bulmak: dip bölgeleri, aşırı satım, pozitif uyumsuzluk, kademeli alım seviyeleri, tezin bozulduğu seviye. Notlar "BEN OLSAM" diliyle, sadece Enes'e mesajla, değişiklik/fırsat olunca. DONGU.md'ye "AUTO" + tür + konu işle, push et. Son olarak bu mesajın aynısıyla (son 3 düzen ve ticker saatlerini güncelle) 5-20 dk rastgele gecikmeyle yeni send_later kur.
+
+## C. DEVRİN SINIRLARI (yeni oturum bunları bilsin, Enes'e de söylesin)
+- Bu sohbetin konuşma geçmişi yeni oturuma geçmez; geçen her şey bu dosyada, DEVIR_OZET.md, ORNEKLER.md, DONGU.md ve Enes'in kalıcı belleğinde.
+- send_later görevleri oturuma bağlıdır: eski oturumun kurduğu tur, eski oturumda çalışır (A4).
+- TradingView yalnız Enes'in bilgisayarı ve Chrome açıkken çalışır; değilse Yahoo hesapları kullanılır (sonuç aynı göstergeler, sadece SMC/Supertrend yaklaşık).
+- Enes'in Claude planı en düşük ücretli plan: uzun oturumlar kullanım limitine takılabilir. Limit dolarsa zincir durur; Enes'e "limit doldu, şu saatte yeniden başlat" diye söylenir ve DONGU'ya not düşülür. Kullanımı azaltmak için gereksiz tekrar araması yapma, grafik taramasında ta2.py çıktısını özetle.
 
 ---------------------------------------------------------------------------------------------------
 
@@ -352,3 +419,9 @@ Bölüm 18'de her kuralın hangi Enes mesajından geldiğini gösteren kontrol l
 | 13:32 | Amacım en dipleri bulmak, yatırımcıyım | 0, 14 |
 | 13:33 | Tüm kurallarla kapsamlı devir notu yaz, hiçbir şeyi atlama, kanıtla | bu dosya |
 | 13:07 kalıcı tercihleri (bellek): basit doğal tweet dili, soru ile bitirme yok, doğrulanmamış rakam yok, koyu minimal kart, X'e girme | 5, 6, 7, 10 |
+
+## 19. DEVİR TESTİ (16.11 13:47)
+- Temiz bir klasöre sıfırdan clone yapıldı. Dosyalar tam: DEVIR*, DONGU, ORNEKLER, kart.py, kart2.py, ta.py, ta2.py, font/, logo/, foto/, g/, gundem.md.
+- Sıfır clone'dan kart2 ile kart üretildi ✓. ta2.py Yahoo'dan veri çekti ✓. raw.githubusercontent DEVIR_TAM.md 200 ✓. git kimliği tanımlı ✓.
+- Tek bulunan sorun: ta2.py çıktısı `| head` ile kesilince BrokenPipe hatası veriyor. Çıktıyı dosyaya yaz, sonra oku (A3 d'ye işlendi).
+- Test edilemeyen (yeni oturumda A3'te kontrol edilecek): yeni sohbette Buffer, GitHub ve zamanlayıcı araçlarının bağlı olması; Chrome eklentisinin o sohbete görünmesi.
