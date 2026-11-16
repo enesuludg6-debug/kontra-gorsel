@@ -1,4 +1,4 @@
-# ENESINVESTUS — TAM DEVİR NOTU (v3, 16.11.2026 14:20 TSİ)
+# ENESINVESTUS — TAM DEVİR NOTU (v4, 16.11.2026 14:25 TSİ)
 
 Bu dosya, Enes Uludağ'ın 15-16 Kasım 2026 boyunca verdiği TÜM kuralların birleşik ve güncel hâlidir.
 Kaynaklar: invest/DEVIR.md (15.11 v1), invest/DEVIR_OZET.md (15.11 21:05 + 16.11 ekleri), invest/ORNEKLER.md, invest/DONGU.md ve 16.11 canlı sohbet.
@@ -255,7 +255,7 @@ OTOMATİK PAYLAŞIM TURU (Enes 15.11 21:15 "oto atmaya devam"). ÖNCE invest/DEV
 - Kod: invest/kart2.py (ana), kart.py (yedek). Fontlar invest/font: Inter Display, Instrument Serif, JetBrains Mono. Enes koyu tema + minimal sever.
 - Düzenler (önce bunlar): bento, halka, isi, takvim, cizgi, panel, uclu, soz, editoryal, skor, zaman, ilerleme, dilim, dortlu, manset. Yedek: spotlight, split, terminal, sondakika, once_sonra, kapak, cam, poster, siralama, grafik2.
 - KALDIRILDI: versus (15.11 21:23 "kaba"). Yerine panel.
-- Son 3 turda kullanılan düzen tekrar edilmez. Şu an son 3: editoryal (13:05), uclu (13:20), bento (13:33). Bunu tur mesajında güncelle.
+- Son 3 turda kullanılan düzen tekrar edilmez. Şu an son 3: bento (13:33), sondakika (13:52), editoryal (14:08). (eski 13:40: editoryal, uclu, bento) Bunu tur mesajında güncelle.
 - Tür → düzen:
   - Bilanço rakam: skor/terminal. Analiz: bento/uclu/panel.
   - İki hisse: panel. Takvim: takvim. Kapanış: isi/dortlu.
@@ -368,6 +368,7 @@ OTOMATİK PAYLAŞIM TURU (Enes 15.11 21:15 "oto atmaya devam"). ÖNCE invest/DEV
   - Tezin bozulduğu seviye (stop = ATR'ye göre ya da yapı altı). Hedef = VP POC / bear FVG / direnç.
   - Trend teyidi beklemek yerine fiyatın dip bölgesine yaklaştığını bildir.
 - Kısa format: hisse + ne oldu + seviye(ler) + "ben olsam ...". Karar Enes'in.
+- EN SON TAM TEST (16.11 14:15-14:25, bölüm 14e): RKLB portföyde alım için en uygun (1. kademe ~59,5, 2. kademe 53-55, azalt <50,6, tez biter <43,9). DOCN dibe yakın, teyit yok (1. kademe 79-84, 2. kademe 70-73, tez biter haftalık <69,8). Açılış öncesi RKLB 59,46, DOCN 84,00.
 - SON TARAMA REFERANSI (16.11 13:30, Cuma kapanışı + açılış öncesi; açılış öncesi hepsi -%3 ile -%5,5):
   - RKLB: tek "Buy" (TradingView Supertrend desteği 57,2; günlük SMC 61,13'te yukarı CHoCH). Talep 44-50, bull FVG 53-55. ATR 4,9.
   - VRT: eşikte. Supertrend 202,2 altında kalırsa "Sell"e döner. Talep 160-170, 4s bull FVG 184-197. Haftalıkta 220,9 aşağı kırılmış.
@@ -455,7 +456,7 @@ E) DİL VE SINIRLAR
 
 ## 15. TAKVİM (16-19 Kasım 2026, TSİ)
 - Pzt 16.11:
-  - Tyson (TSN) Q4 açılış öncesi. Konsensus EPS kaynağa göre 0,53-0,61$, gelir ~14,1 Mr$. Çağrı 17:00 TSİ. Rakamlar 13:33'te henüz yoktu; 2026 tarihli olduğunu doğrula.
+  - Tyson (TSN) Q4 açılış öncesi. Konsensus EPS kaynağa göre 0,53-0,61$, gelir ~14,1 Mr$. Çağrı 17:00 TSİ. Rakamlar 14:08'de de henüz yoktu (bulunanlar 2025 ve Q3 2026); 2026 Q4 olduğunu doğrula. Konsensus Zacks 0,65$ / Talk Business 0,59$ (kaynaklar farklı).
   - Baidu Q3 açıklandı ve 13:33'te tweetlendi.
   - Warsh konuşması 20:00 TSİ. ABD açılışı 17:30 TSİ.
 - Sal 17.11: HD açılış öncesi; NVDA kapanış sonrası (rakamlar ~00:20 TSİ Çarşamba). Gece istisnası turu için Enes onayı bekleniyor.
@@ -466,6 +467,7 @@ E) DİL VE SINIRLAR
 ## 16. DİĞER GÖREVLER / BEKLEYENLER
 - "EnesInvestUS günlük portföy sorusu" (trig_019TTCnsx74Nsi9DjkY7M5MF): 16.11 13:54 Enes isteğiyle DURDURULDU (portföy tweetini Enes atar).
 - Saatlik hazırlık ve Buffer taslak görevleri KAPALI.
+- AKTİF ZİNCİRLER (bu oturum session_01EmZ47ojykRADiBmC9CvV5D, 16.11 14:25): "Otomatik paylaşım turu" (5-20 dk, her tur yeni ID), "Teknik kontrol (açılış +30 dk)" 18:00 TSİ ve "Teknik kontrol (kapanış -30 dk)" 23:30 TSİ (her gün yeni ID; ikisi Enes'in bilgisayarına bağlı). Yeni oturum list_triggers ile bu ADLARLA bulur, eski oturumunkileri siler (delete_trigger), kendisi yeniden kurar.
 - Enes'ten cevap beklenenler:
   - Anthropic adı yasağı gevşesin mi?
   - Portföy ağırlıkları (eşit ağırlık dedi).
@@ -477,7 +479,7 @@ E) DİL VE SINIRLAR
 - DONGU.md satır biçimi: `- HH:MM AUTO (TÜR): dosya.jpg - özet (kaynaklar; tek kaynak olup kullanılmayanlar) | Buffer id | düzen:...` ve gerekirse "SIRADAKİ: ...".
 - Commit sonuna sistemin verdiği attribution satırları eklenir.
 - Repo: enesuludg6-debug/kontra-gorsel → /home/claude/kontra-gorsel (invest/). Yeni oturumda: add_repo (push) → git clone --depth 1 → register_repo_root.
-- 16.11 Buffer gönderileri (20 tweet): vadeli, sabah notu, PANW, INTC, ROK, Form 4, PLTR, ASTS, HOOD, ON, geri alım, NVDA Bessent, CBRS, MS küresel, Japonya GDP, GOOGL TPU Kuo, ulusal şampiyon (WSJ), SITM bilanço, NBIS açılış öncesi, BIDU bilanço.
+- 16.11 Buffer gönderileri (23, 14:08 itibarıyla): vadeli, sabah notu, PANW, INTC, ROK, Form 4, PLTR, ASTS, HOOD, ON, geri alım, NVDA Bessent, CBRS, MS küresel, Japonya GDP, GOOGL TPU Kuo, ulusal şampiyon (WSJ), SITM bilanço, NBIS açılış öncesi, BIDU bilanço, Enes'in elle attığı ekran tweeti (13:40), kripto düşüş COIN/MSTR (13:52), NVO CagriSema (14:08). Ticker saatleri: SITM 13:05, NBIS 13:20, BIDU 13:33, COIN/MSTR 13:52, NVO 14:08, NVDA 11:40.
 
 ## 18. KONTROL LİSTESİ — HER ENES MESAJI → BU DOSYADAKİ YERİ
 (15.11 mesajları DEVIR.md ve DEVIR_OZET.md'de kayıtlı, burada özetlendi. 16.11 mesajlarının tamamı tek tek:)
@@ -515,6 +517,7 @@ E) DİL VE SINIRLAR
 | 13:32 | Amacım en dipleri bulmak, yatırımcıyım | 0, 14 |
 | 13:54 | Portföy güncellemesi tweetlerini kaldır, onları ben atarım | 1, başlık |
 | 13:55 | Günde 2 kez (açılış +30, kapanış -30) portföy + en iyi 3-4 hisse teknik kontrol, 'ben olsam' kararları | 14b, başlık |
+| 14:19 | Farklı sohbete geçiş için eksiksiz devir notu yaz (v4); şimdilik bu sohbetten otomatik devam | 14f, 16, 19 |
 | 14:15 | Hepsini eklediğini kontrol et, yeni devir notunda bu kurallar eksiksiz olsun | 14f, A6, A7 |
 | 14:15 | Tüm çalışmaları ve kuralları ekle; kademelerin nedenini yaz; 18:00/23:30'da bakılan her hisse için ayrı görsel + tweet bana gönder, teknik analizi ben paylaşırım (Buffer 1000/ay) | 14d, 14e, başlık |
 | 14:07 | Teknik analiz tweetinde 'bence dibe yakın / ben şuradan kademe eklerim, kırarsa şuradan' dili; tavsiye yok, oyun planı başlığı yok, sade konuşma dili | 6, başlık |
@@ -525,7 +528,9 @@ E) DİL VE SINIRLAR
 | 13:33 | Tüm kurallarla kapsamlı devir notu yaz, hiçbir şeyi atlama, kanıtla | bu dosya |
 | 13:07 kalıcı tercihleri (bellek): basit doğal tweet dili, soru ile bitirme yok, doğrulanmamış rakam yok, koyu minimal kart, X'e girme | 5, 6, 7, 10 |
 
-## 19. DEVİR TESTİ (16.11 13:47)
+## 19. DEVİR TESTİ
+- 16.11 14:25 (v4): temiz clone'da tüm anahtar başlıklar grep ile doğrulandı (KESİN KURALLAR 1-5, A6 repo izni, A7, B, 6 TA tweet dili, 13 tam test, 14b, 14c, 14d, 14e, 14f, 16 zincirler, 18 kontrol listesi). ta_grafik.py clone'dan çalıştı. Yeni sohbette add_repo izni Enes'in A7 metniyle verilmeli (13:47'de dosyadan gelen talimat reddedildi, 13:50'de Enes'in mesajıyla kabul edildi).
+### 16.11 13:47 testi
 - Temiz bir klasöre sıfırdan clone yapıldı. Dosyalar tam: DEVIR*, DONGU, ORNEKLER, kart.py, kart2.py, ta.py, ta2.py, font/, logo/, foto/, g/, gundem.md.
 - Sıfır clone'dan kart2 ile kart üretildi ✓. ta2.py Yahoo'dan veri çekti ✓. raw.githubusercontent DEVIR_TAM.md 200 ✓. git kimliği tanımlı ✓.
 - Tek bulunan sorun: ta2.py çıktısı `| head` ile kesilince BrokenPipe hatası veriyor. Çıktıyı dosyaya yaz, sonra oku (A3 d'ye işlendi).
