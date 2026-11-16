@@ -27,6 +27,7 @@ Rotasyon sırası (eksik/eskiden başla): NBIS RKLB SITM AXON CBRS VRT ECL TSM A
 | SITM | 16.11 19:55 | 5 | 4 | 3 | 4 | 3 | 4 | 3 | 3 | 4 | 3 | 36/50 | AI veri merkezi talebiyle %257 büyüme, düz. marj %70; GAAP kâr ince, wafer arzı kısıtlı |
 | AXON | 16.11 19:55 | 4 | 2 | 2 | 3 | 3 | 1 | 3 | 1 | 5 | 3 | 27/50 | hendek çok güçlü (NRR %126), ama rehber düşürüldü, SBC yüksek, trend çok zayıf |
 | CBRS | 16.11 20:20 | 4 | 2 | 1 | 4 | 2 | 4 | 2 | 2 | 3 | 2 | 26/50 | çekirdek gelir +%70, rehber 3. kez aşıldı/yükseltildi; FCF -1,4 Mr$, müşteri yoğunlaşması aşırı, pahalı |
+| ECL | 16.11 21:20 | 3 | 4 | 3 | 3 | 2 | 4 | 3 | 5 | 5 | 4 | 36/50 | kaliteli, düşük beta, trend güçlü; ama büyüme orta (%7 organik), pahalı (ileri F/K ~34), borçlu |
 | VRT | 16.11 20:45 | 5 | 5 | 5 | 5 | 4 | 4 | 3 | 1 | 4 | 3 | 39/50 | satış +%61, sipariş 2 katı, net nakit, ileri F/K ~20; fiyat 200 günlüğün %30 altında, sipariş verisi artık açıklanmayacak |
 | ECL | - | | | | | | | | | | | eksik | |
 | TSM | - | | | | | | | | | | | eksik | |
@@ -144,3 +145,20 @@ Kaynaklar: şirket bültenleri 8-K (Q3, Q2, Q1 2026, Q4 2025; SEC EDGAR), Invest
 10) RİSK/KATALİZÖR 3/5 — Yapay zeka veri merkezi harcama döngüsüne bağımlılık (Warsh'ın 16.11 "yatırım karşılık vermezse" senaryosu tam bu risk), yüksek beta, kapasite artırımında uygulama riski. Katalizör: NVDA bilançosu (bu hafta), Q4 bilançosu (Şubat), 2027 rehberi.
 SEKTÖR KPI (elektrik/soğutma altyapısı): organik sipariş +%100 üstü (Q3), book-to-bill ~2,9 ve birikim 15 Mr$ (Q4 2025, son açıklanan), veri merkezi payı bilinmiyor, kapasite artışı (chiller 2x).
 SONUÇ: TEMEL 39/50 — portföyün en yüksek temel puanı (SITM 36). Büyüme, marj, nakit, bilanço en üst seviyede; değerleme büyümeye göre ucuz. Zayıf taraf tamamen fiyat trendi (göreceli güç 1/5). Temel çok güçlü + teknik zayıf = dip bölgesinde kademeli alım için portföyün en iyi adayı.
+
+
+## ECL — 16.11.2026 21:20 (/50, bölüm 14h) — Q3 2026 (açıklama 27-28.10) — ADAY (portföy dışı)
+Kaynaklar: şirket bülteni 8-K (SEC), last10k (bülten), Benzinga, Quartr, Indian Chemical News (Q3 + Q2), AllInvestView, Seeking Alpha PR, stockanalysis istatistik (veri 27.10, fiyat 26.10 kapanışı -> ESKİ, değerleme bugüne göre kaba). Wells Fargo 13.11 EW->OW 315->380 (16:12 tweeti; CNBC, Benzinga, MarketBeat). Cuma kapanışı 309,27 (Benzinga).
+1) BÜYÜME 3/5 — Q3 satış 4.694,8 Mn$ (+%13), organik +%7 (Q2 +%5'ten hızlandı) (8-K, Benzinga, Quartr, ICN). Hacim +%2, fiyat +%5 (Benzinga, Quartr). Global High-Tech organik +%63, Life Sciences +%17, Digital +%34 (129 Mn$) (8-K, Benzinga, ICN). Ovivo Electronics + CoolIT satın alımları bir yıl sonra organiğe ~2 puan katkı (last10k, tek kaynak). Q4 rehberi: satış +%12-14, organik +%6-7 (Benzinga, Quartr). Rapor edilen büyümenin ~6 puanı satın almalardan (13 - 7).
+2) KÂRLILIK 4/5 — Brüt marj %44,1 (Q2 ve Q3 aynı) (ICN x2, Seeking Alpha PR); organik faaliyet marjı %19,6 (+70 bp) (ICN, SA PR); rapor edilen faaliyet marjı %17,3 (last10k, ICN). Organik brüt marj fiyatlamayla emtia maliyetine rağmen sabit (8-K, ICN) = fiyatlama gücü. ROE %22, ROIC %13,4 (stockanalysis, tek kaynak) > sermaye maliyeti.
+3) NAKİT 3/5 — TTM FCF 1,87 Mr$, FCF marjı %11, capex 1,18 Mr$, FCF getirisi %2,3, temettü verimi %1,0 (stockanalysis, tek kaynak).
+4) BİLANÇO 3/5 — Nakit 5,14 Mr$, borç 13,92 Mr$, net borç 8,78 Mr$, borç/FAVÖK 3,2, faiz karşılama 9,4 (stockanalysis, tek kaynak). Satın alma finansmanı nedeniyle net faiz gideri Q3'te +70 Mn$ (8-K). Altman Z 4,05; hisse sayısı yıllık -%0,6 (geri alım).
+5) DEĞERLEME 2/5 — 26.10 fiyatıyla ileri F/K 33,6, PEG 2,5, EV/FAVÖK 21,7, EV/Satış 5,3 (stockanalysis). 2026 düz. HBK rehberi 8,10-8,20 (Benzinga, Quartr, last10k) -> 309$ ile 2026 F/K ~38. Uzun vadeli HBK büyüme hedefi %12-15 (SA PR, tek kaynak) -> büyümeye göre pahalı. Analist ort. hedef 325$ (24 analist, eski veri); WF 380$.
+   KABA SENARYO (12 ay; 2027 HBK ~9,2$ = 8,15 x %13): AYI F/K 28 -> ~260$; BAZ 33 -> ~305$; BOĞA 38 -> ~350$. Bugünden risk/ödül dengeli, ucuz değil.
+6) MOMENTUM 4/5 — Q3 düz. HBK 2,18$ beklentiyle aynı (AllInvestView), satış beklentiyi kaçırdı (Benzinga) -> karışık; yıllık rehber daraltıldı (8,05-8,25 -> 8,10-8,20) (Benzinga). ARTI: WF yükseltmesi 13.11 (sıvı soğutma/CoolIT tezi), hisse bilançoya +%0,8 tepki (AllInvestView).
+7) SAHİPLİK/AKIŞ 3/5 — Kurum %92,4, açığa satış %1,9 (stockanalysis, tek kaynak). İçeriden işlemler: bilinmiyor.
+8) GÖRECELİ GÜÇ 5/5 — 18:00 teknik: günlük 17 yukarı / 0 aşağı, haftalık 17/0 (ta2), k1 291,7-308. Beta 0,88 (düşük), 50 ve 200 günlük ortalamaların üstünde (stockanalysis eski veri + 18:00 teknik). Bugünkü teknoloji satışında savunmacı profil.
+9) KALİTE/YÖNETİM 5/5 — Su arıtma, hijyen, haşere kontrolünde küresel lider; tekrarlayan hizmet geliri, en büyük 35 müşteriyle 400 Mn$+ büyüme (Quartr, tek kaynak); fiyatlama gücü (fiyat +%5 ile emtia maliyetini karşıladı). CEO Christophe Beck. Veri merkezi sıvı soğutma (CoolIT) ve yarı iletken su arıtma (Ovivo) ile yapay zeka temasına giriş.
+10) RİSK/KATALİZÖR 4/5 — Emtia maliyetleri yüksek kalacak (AllInvestView), CoolIT entegrasyonu ve maliyetleri (2026 HBK'ya ~6 puan baskı, Quartr), Orta Doğu aksaklıkları (last10k), Institutional & Specialty zayıf (AllInvestView). Düşük beta. Katalizör: Q4 bilançosu (Şubat), 2027 rehberi (%12-15 HBK büyümesi hedefi), CoolIT siparişleri.
+SEKTÖR KPI (kimya/hijyen): organik satış +%7, fiyat +%5 / hacim +%2, organik brüt marj sabit, High-Tech +%63.
+SONUÇ: TEMEL 36/50. Kalite, istikrar ve teknik trend çok güçlü; büyüme orta, değerleme pahalı, borç satın almalarla arttı. Portföyün yüksek beta'lı hisselerine karşı savunmacı bir denge adayı; ama "dip avcısı" açısından fiyat dipte değil, trendin tepesinde (k1 291,7-308 geri çekilmesi beklenmeli).
