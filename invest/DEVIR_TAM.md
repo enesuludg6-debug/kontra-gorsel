@@ -614,6 +614,9 @@ D) HATA GÜNLÜĞÜ (bulunan her hata buraya; tekrar eden hata türü A'ya yeni 
 - 16.11 21:20 | CBRS VRT ECL | A4 tek kaynak: NAKİT ve BİLANÇO başlıkları büyük ölçüde tek kaynağa (stockanalysis) dayanıyor -> "(güven düşük)" işareti; sonraki yenilemede 10-Q ile ikinci kaynak.
 - 16.11 21:20 | SITM ECL VRT | A10 inorganik büyüme: SITM puanı (5) rapor edilen +%257'ye dayanıyordu; organik +%156 (tek kaynak) ile de 5 kalıyor ama gerekçe organik rakama çevrilecek. VRT organik +%55 ile 5 doğru. ECL organik %7 ile 3 doğru.
 - 16.11 21:20 | DOCN | eski /35 formatı -> /50 yenilemesi sırada.
+- 16.11 21:40 | TSM | A3 eski yıl: Stocktwits sonucu (marj %59,5, Q4 32-33 Mr$) 2024 verisiydi -> kullanılmadı.
+- 16.11 22:05 | KALİBRASYON | büyüme puanı için sektör içi çapa yok (yarı iletken akran medyan büyümesi) -> sonraki karnelerde akran medyanı yazılacak (A8'in uygulaması).
+- 16.11 22:00 | haber taraması | Diamondback/Double Eagle (2025 anlaşması 2026 diye görünüyor) ve Telus teklifi yıl/rakam karışıklığı -> A3 tweet taramasında da geçerli, atılmadı.
 
 E) GELİŞTİRME DÖNGÜSÜ
 - Her turda karneden sonra "bu karnede hangi varsayım en çok sonucu değiştirdi?" sorusu sorulur, cevap karnenin DENETİM satırına yazılır.

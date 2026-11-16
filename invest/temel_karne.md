@@ -28,6 +28,7 @@ Rotasyon sırası (eksik/eskiden başla): NBIS RKLB SITM AXON CBRS VRT ECL TSM A
 | AXON | 16.11 19:55 | 4 | 2 | 2 | 3 | 3 | 1 | 3 | 1 | 5 | 3 | 27/50 | hendek çok güçlü (NRR %126), ama rehber düşürüldü, SBC yüksek, trend çok zayıf |
 | CBRS | 16.11 20:20 | 4 | 2 | 1 | 4 | 2 | 4 | 2 | 2 | 3 | 2 | 26/50 | çekirdek gelir +%70, rehber 3. kez aşıldı/yükseltildi; FCF -1,4 Mr$, müşteri yoğunlaşması aşırı, pahalı |
 | ECL | 16.11 21:20 | 3 | 4 | 3 | 3 | 2 | 4 | 3 | 5 | 5 | 4 | 36/50 | kaliteli, düşük beta, trend güçlü; ama büyüme orta (%7 organik), pahalı (ileri F/K ~34), borçlu |
+| AVGO | 16.11 22:05 | 5 | 5 | 5 | 4 | 4 | 4 | 3 | 2 | 5 | 3 | 40/50 | gelir +%86, yapay zeka çipi +%221, FCF marjı %46, ileri F/K ~19; net borç (VMware), müşteri yoğunlaşması bilinmiyor |
 | TSM | 16.11 21:40 | 5 | 5 | 4 | 5 | 4 | 4 | 3 | 2 | 5 | 2 | 39/50 | gelir +%41 ($), marj %66, net nakit 100 Mr$, ileri F/K ~18; risk Tayvan + 2nm marj seyrelmesi |
 | VRT | 16.11 20:45 | 5 | 5 | 5 | 5 | 4 | 4 | 3 | 1 | 4 | 3 | 39/50 | satış +%61, sipariş 2 katı, net nakit, ileri F/K ~20; fiyat 200 günlüğün %30 altında, sipariş verisi artık açıklanmayacak |
 | ECL | - | | | | | | | | | | | eksik | |
@@ -197,3 +198,24 @@ Kaynaklar: şirket bülteni 6-K (SEC), TSMC IR rehber tablosu, FourWeekMBA, Cryp
 SEKTÖR KPI (yarı iletken/dökümhane): HPC payı %68; brüt marj %66,4; düğüm karışımı (2nm başlangıç) seyrelme yaratıyor; kapasite kullanımı ve stok günleri bilinmiyor.
 DENETİM (14i): A1 fiyat 13.11 -> bugünkü 375 ile F/K yeniden hesaplandı; A2 dolar vs NT$ büyümesi ayrıldı (+%41 $ vs +%50,9 NT$; puan dolarla); A3 Stocktwits sonucu (marj %59,5, Q4 32-33 Mr$) ESKİ YILA ait (2024) -> KULLANILMADI; A4 NAKİT/BİLANÇO tek kaynak; A9 GÖRECELİ GÜÇ 2 -> /45 = 37. Sonucu en çok değiştiren: jeopolitik risk iskontosu (ayı senaryosu F/K 14).
 SONUÇ: TEMEL 39/50 (/45: 37) — VRT ile eşit en yüksek. Büyüme, marj, bilanço olağanüstü, değerleme büyümeye göre ucuz; puanı aşağı çeken tek büyük kalem Tayvan riski. Bugünkü çip satışıyla fiyat 200 günlüğün altına indi -> dip avcısı açısından izlenecek aday.
+
+
+## AVGO — 16.11.2026 22:05 (/50, bölüm 14h) — Q3 FY2026 (açıklama 2.9; Q4 bilançosu Aralık başı) — ADAY
+Kaynaklar: şirket bülteni 8-K (SEC) + IR PDF, Unite.AI (3 yazı), 36Kr, Pulse 2.0, StorageNewsletter, stockanalysis istatistik (veri 15.11, fiyat 13.11 kapanışı 347,01). Bugün ~332 (Yahoo 21:10, -%4,3). TD Cowen 475->425 hedef indirimi 16.11 (price-target.com, tek kaynak -> puana girmedi).
+1) BÜYÜME 5/5 — Q3 gelir 29,6 Mr$ (+%86 yıllık, +%33 çeyreklik) (8-K, Unite, Pulse2, StorageNewsletter). Yapay zeka yarı iletken geliri 16,7 Mr$ (+%221 yıllık, +%54 çeyreklik) (Unite, 36Kr, Pulse2). Q4 rehberi 34,8 Mr$ (+%93), yapay zeka çipi 21,7 Mr$ (+%236) (8-K, Unite, 36Kr). Dizi: Q2 22,2 Mr$ (+%48) -> Q3 +%86 = sert hızlanma (Unite). VMware 2023 sonunda alındı -> artık baz yılda, büyüme organik (A10).
+2) KÂRLILIK 5/5 — Düzeltilmiş faaliyet kârı 20,1 Mr$ (+%92), Q4 düzeltilmiş faaliyet marjı rehberi ~%66 (Pulse2, StorageNewsletter); GAAP faaliyet kârı 16,0 Mr$ (8-K). GAAP-düzeltilmiş farkı ~4,1 Mr$ = gelirin ~%14 (amortisman + SBC) -> A5 kuralı: %10'u aşıyor ama puan zaten çok yüksek marjlarda, 5 korunur, not edildi. TTM brüt marj %75,5, ROIC %31 (stockanalysis, tek kaynak).
+3) NAKİT 5/5 — Q3 FCF 13,7 Mr$ (gelirin %46), capex sadece 0,5 Mr$ (8-K, Unite, Pulse2). TTM FCF 39,4 Mr$ (stockanalysis). Çeyreklik temettü 0,65$.
+4) BİLANÇO 4/5 — Nakit 24 Mr$, borç 59,4 Mr$, net borç 35,4 Mr$, borç/FAVÖK 1,1, faiz karşılama 14x, Altman Z 13 (stockanalysis, tek kaynak; güven orta). VMware borcu hızla azalıyor (FCF ile). Hisse sayısı +%1 (SBC).
+5) DEĞERLEME 4/5 — 347$ ile ileri F/K 19,9, PEG 0,36, ileri F/S 10,5, EV/FAVÖK 32 (stockanalysis); bugün ~332 ile ileri F/K ~19 (A1). %90'a yakın büyüyen bir şirket için F/K 19 ucuz; TSM ~18, NVDA kaba ~17-20 (bugünkü haberler) ile benzer bantta. Analist ort. hedef 529$ (51 analist).
+   KABA SENARYO (12 ay): AYI F/K 15 -> ~260$; BAZ 20 -> ~350$; BOĞA 26 -> ~455$.
+6) MOMENTUM 4/5 — Q3 rehberi (29,4) aşıldı (Unite), Q4 rehberi güçlü. EKSİ: bugün TD Cowen hedef indirimi (tek kaynak), hisse NVDA bilançosu öncesi çip satışında -%4,3.
+7) SAHİPLİK/AKIŞ 3/5 — Açığa satış float'ın %1,1'i (düşük) (stockanalysis); 51 analist, Güçlü Al. İçeriden işlemler bilinmiyor.
+8) GÖRECELİ GÜÇ 2/5 — Fiyat ~332, 50 günlük 345 ve 200 günlük 367'nin altında, 52 hafta -%2,3 (stockanalysis). Kısa vadede zayıf.
+9) KALİTE/YÖNETİM 5/5 — Özel yapay zeka hızlandırıcıları (XPU) ve ağ çiplerinde lider + VMware yazılım (tekrarlayan gelir, gelirin %30'u) (IR PDF). CEO Hock Tan, sermaye dağıtımı ve satın alma geçmişi güçlü.
+10) RİSK/KATALİZÖR 3/5 — Yapay zeka gelirinin birkaç hiperölçekli müşteride yoğunlaşması (oranlar bilinmiyor, 10-K'da bakılacak), yapay zeka harcama döngüsü, Çin. Katalizör: NVDA bilançosu (17.11), Q4 bilançosu (Aralık başı), 2027 yapay zeka gelir hedefleri.
+SEKTÖR KPI (yarı iletken): yapay zeka çipi geliri +%221 (Q3), Q4 rehber +%236; yarı iletken segmenti +%127, yazılım +%29; brüt marj %75; book-to-bill ve stok günleri bilinmiyor.
+DENETİM (14i): A1 fiyat 347 -> 332 ile F/K ~19; A4 BİLANÇO tek kaynak; A5 GAAP-düzeltilmiş farkı %14 not edildi; A7 TD Cowen tek kaynak -> puana girmedi; A9 GÖRECELİ GÜÇ 2 -> /45 = 38; A10 VMware artık bazda, büyüme organik; A14 bugünkü çip satışı sadece MOMENTUM notunda. Sonucu en çok değiştiren: yapay zeka gelirinin sürdürülebilirliği (müşteri yoğunlaşması bilinmiyor).
+SONUÇ: TEMEL 40/50 (/45: 38) — şimdiye kadarki en yüksek (TSM 39/37, VRT 39/38 ile birlikte üst grup). Büyüme + marj + nakit olağanüstü, değerleme büyümeye göre ucuz; fiyat trendi zayıf.
+
+### 14i-C KALİBRASYON (16.11 22:05, 5 karne doldu: CBRS VRT ECL TSM AVGO)
+Sıralama (/45): VRT 38 = AVGO 38 > TSM 37 > SITM 33 > ECL 31 > RKLB 27 > AXON 26 > CBRS 24 > NBIS 22. Kontrol: BÜYÜME 5 alanlar (NBIS, RKLB, SITM, CBRS?, VRT, TSM, AVGO) -> CBRS 4 (çekirdek +%70, yapay zeka çipi akranları +%200+ büyürken) tutarlı. KÂRLILIK 5: VRT (marj %25 ama ROIC %44, sektöre göre üst %20), TSM, AVGO -> A8 akran mantığıyla tutarlı. DEĞERLEME: AVGO/TSM/VRT 4 (F/K 18-20, yüksek büyüme), ECL 2 (F/K 38, %7 büyüme), RKLB 1 -> tutarlı. Puan değişikliği yok. Not: büyük yarı iletkenlerde (TSM, AVGO) BÜYÜME 5 verilirken küçük şirketlerdeki yüksek büyümeyle aynı ölçek kullanıldı; sektör çapası (yarı iletken akran medyanı) eklenmeli -> 14i-D'ye yazıldı.
