@@ -10,7 +10,12 @@ W, H = 1080, 1350
 HANDLE = "ENES ULUDAĞ"
 
 
+# Enes 16.11 10:34: kaba/kalın yazı değil, daha ince ve keskin yazı sever. Eldeki en ince ağırlık Medium.
+INCE = {"Black": "Medium", "ExtraBold": "Medium", "Bold": "Medium", "SemiBold": "Medium"}
+
+
 def sans(s, w="Bold"):
+    w = INCE.get(w, w)
     return ImageFont.truetype(os.path.join(D, f"InterDisplay-{w}.otf"), s)
 
 

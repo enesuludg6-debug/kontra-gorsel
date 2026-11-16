@@ -59,6 +59,7 @@ C) Uygulama: her turda önce (1) SEC/IR/bülten, (2) Reuters/CNBC/Bloomberg/Benz
 - KALDIRILDI (Enes 15.11 21:23 "kaba, beğenmedim"): versus (çapraz renkli iki taraf). Yerine kart2.panel (koyu, serif başlık, mono etiket, ince çizgili tablo, altın çubuk). Benzer kaba/renkli blok tarzından kaçın; sade ve profesyonel.
 - Tür → düzen: bilanço rakam = skor/terminal; analiz = bento/uclu/panel; iki hisse karşılaştırma = panel; takvim = takvim; kapanış = isi/dortlu; son dakika = sondakika/manset; içeriden = uclu/skor; kişi = manset/soz (Enes fotosu).
 - Logolar büyük ve belirgin (küçültme). Enes 16.11 10:30: "logolar daha da belirgin olmalı" -> kart2.LOGO_BUYUT=1.8 (10:32 "daha da belirgin": önce 1,4 sonra 1,8; tüm düzenlerde logo 1,8 kat); yeni düzen/render'da logoyu bundan küçük yapma, gerekirse daha da büyüt. Son 3 turda kullanılan düzen tekrar edilmez. Read ile kontrol; taşma varsa YENİ dosya adıyla düzelt (raw URL önbelleği). Örnekler: invest/g/ornek/.
+- YAZI TİPİ (Enes 16.11 10:34): kaba/kalın yazı değil, daha İNCE ve KESKİN yazı sever. kart2.sans() artık Black/ExtraBold/Bold/SemiBold isteklerini Inter Display Medium'a çevirir (INCE sözlüğü; eldeki en ince ağırlık Medium). Başlıkta ince serif (Instrument Serif) tercih edilir; yeni düzende de kalın ağırlık kullanma. Render'da taşma/satır kırılması değişebilir, Read ile kontrol et. Örnek: g/ornek/ince_*.jpg (henüz çizilmedi, ilk fırsatta çiz).
 - Kart dosyası: invest/g/YYYYMMDD_HHMM_konu.jpg → commit + push → raw URL 200 kontrol → Buffer.
 
 ## 7. Diğer görevler
