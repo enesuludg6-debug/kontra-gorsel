@@ -1,5 +1,7 @@
 # ENESINVESTUS — GÜNCEL DEVİR NOTU (15.11.2026 21:05 TSİ)
 
+> **16.11.2026 13:40: EN GÜNCEL VE TAM NOT invest/DEVIR_TAM.md. ÖNCE ONU OKU (çelişkide o geçerli).**
+
 Bu dosya, 15.11.2026 boyunca Enes Uludağ'ın canlı sohbette verdiği tüm kararların temiz özetidir. invest/DEVIR.md'deki eski bölümlerle çelişirse BU DOSYA geçerlidir. Ayrıntılar için DEVIR.md'ye bak.
 
 ## 1. Hesap ve amaç

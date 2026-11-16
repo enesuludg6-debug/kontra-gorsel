@@ -1,5 +1,7 @@
 # ENESINVESTUS OTOMATİK PAYLAŞIM — DEVİR NOTU v1 (15.11.2026)
 
+> **16.11.2026 13:40: EN GÜNCEL VE TAM NOT invest/DEVIR_TAM.md. ÖNCE ONU OKU (çelişkide o geçerli).**
+
 > **ÖNCE invest/DEVIR_OZET.md OKU** (15.11 21:05 güncel temiz özet; çelişkide o geçerli).
 
 
