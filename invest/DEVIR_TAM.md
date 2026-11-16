@@ -8,6 +8,7 @@ Kaynaklar: invest/DEVIR.md (15.11 v1), invest/DEVIR_OZET.md (15.11 21:05 + 16.11
 2) (tam test: 21 gösterge x 4 dilim, ta2.py -v + TradingView 2'şerli rotasyon, bölüm 13) GÜNDE 2 SABİT TEKNİK KONTROL: her ABD işlem günü 18:00 TSİ (açılış +30 dk) ve 23:30 TSİ (kapanış -30 dk). Portföyün tamamı + Claude'un yatırıma uygun bulduğu en iyi 3-4 hisse. 21 gösterge, 4 zaman dilimi, TradingView varsa. Enes'e her seferinde "ben olsam" kararlarıyla mesaj (değişiklik olmasa da). Tweet değil. (bölüm 14b)
 3) HİSSE SEÇİMİ PROFESYONEL YÖNTEMLE: temel (13 maddelik kontrol listesi) + teknik (bölüm 13) puan kartı; adaylar portföyle aynı kartla karşılaştırılır; daha iyisi varsa önerilir, yoksa önerilmez. (bölüm 14c)
 4) TEKNİK ANALİZ TWEETİ: 'bence dibe yakın / ben şuradan kademe eklerim, orayı kırarsa şuradan' dili serbest; tavsiye ve emir kipi yok; sade konuşma dili. (bölüm 6)
+5b) TEKNİK ANALİZ GÖRSELİ = TRADINGVIEW EKRAN GÖRÜNTÜSÜ (16.11 18:05, Enes: "kendin oluşturma teknik analiz görsellerini, ss at bana"). Kendi çizdiğimiz grafik (ta_grafik.py) teknik analiz görseli olarak GÖNDERİLMEZ. Her hisse için TradingView (UN09ZFN8) ekran görüntüsü alınır (gerekirse ilgili dilim ve göstergeler), SendUserFile ile gönderilir. tk_auto.py yalnız seviye hesabı için kullanılır. Bilgisayar/Chrome kapalıysa görsel gönderilemez, Enes'e söylenir. (eski: matplotlib grafik)
 5) TEKNİK ANALİZ TWEETLERİ: her kontrolde bakılan HER hisse için ayrı görsel + ayrı tweet taslağı Enes'e gönderilir; Claude teknik analiz tweeti PAYLAŞMAZ (Enes paylaşır). Her kademe/stop/hedef seviyesinin nedeni (çakışan göstergeler ve dilimler) yazılır. (bölüm 14d, 14e)
 6) TWEET AKIŞI: her turda analist notu akışları (TheFly, StreetInsider, Investing, MarketBeat, TipRanks, Benzinga, Futu) + lansman/ortaklık kaynakları taranır; boş tur geçilmez, 09:00-01:00 her tur bir tweet hedefi (günde en çok 45). (bölüm 4)
 8) ZAMANLAMA: otomatik tweet 20-40 dk'da bir (rastgele); Enes'in yapıştırdığı tweet hemen atılır ama otomatik zincirin zamanlamasını etkilemez. (bölüm 2)
@@ -415,7 +416,7 @@ OTOMATİK PAYLAŞIM TURU (Enes 15.11 21:15 "oto atmaya devam"). ÖNCE invest/DEV
 - Çıktı: Enes'e tek SendUserMessage, her hisse için "ben olsam ..." kararı (bölüm 14 dili): dip bölgesi, kademeli alım seviyeleri, tezin bozulduğu seviye, hedef. Değişiklik olmasa da bu iki kontrolde mesaj HER ZAMAN atılır.
 - GRAFİK EKRAN GÖRÜNTÜSÜ (16.11 14:00, Enes): "ben olsam" kararının dayandığı göstergeleri gösteren grafik görüntüsü Enes'e SendUserFile ile atılır (önemli karar/değişiklik olan hisseler için, her kontrolde en çok 3-4 görsel; kullanım limiti).
   - Bilgisayar açıksa: TradingView (UN09ZFN8, ilgili zaman dilimi), mcp__claude-in-chrome__computer screenshot save_to_disk=true. Basic plan 2 gösterge sınırı: gerekirse göstergeyi değiştir, görüntüyü al, ctrl+s. X'e girme.
-  - Ek olarak ya da bilgisayar kapalıysa: Yahoo verisinden matplotlib ile koyu temalı grafik çiz (fiyat + EMA 200 + VWAP + dip bölgesi/FVG/OB kutuları + Fib OTE + alt panelde RSI/MACD/OBV), kararı destekleyen seviyeler işaretli. invest/g/ta/ altına kaydet.
+  - (İPTAL 16.11 18:05: kendi çizimi grafik gönderilmez, yalnız TradingView ekran görüntüsü. Bilgisayar kapalıysa görsel yok, Enes'e söylenir.) Eski: Yahoo verisinden matplotlib ile koyu temalı grafik çiz (fiyat + EMA 200 + VWAP + dip bölgesi/FVG/OB kutuları + Fib OTE + alt panelde RSI/MACD/OBV), kararı destekleyen seviyeler işaretli. invest/g/ta/ altına kaydet.
   - Görsele kısa açıklama: hangi gösterge neyi gösteriyor, karar neden bu.
 - Tweet değildir; al/sat tweette yok kuralı aynen geçerli. Portföy güncellemesi tweetini Enes atar.
 - Zincir: her kontrol sonunda bir sonraki kontrol için send_later kurulur (18:00 -> 23:30 aynı gün; 23:30 -> sonraki işlem günü 18:00). Hafta sonu ve ABD tatilleri atlanır (26.11.2026 Şükran Günü kapalı; 27.11 yarım gün).
@@ -458,7 +459,7 @@ E) DİL VE SINIRLAR
 
 ## 14d. TEKNİK ANALİZ TWEETLERİ VE GÖRSELLERİ — ENES PAYLAŞIR (16.11 14:15, Enes, KESİN KURAL)
 - 18:00 ve 23:30 kontrollerinde bakılan HER hisse için (portföydeki 7 hisse + aday/fırsat hisseleri + test amaçlı bakılanlar) AYRI AYRI hazırlanır:
-  1. Göstergeli grafik görseli (g/ta/YYYYMMDD_HHMM_<ticker>_teknik.jpg, koyu tema, seviyeler ve gerekçeler işaretli) + varsa TradingView ekran görüntüleri.
+  1. TradingView ekran görüntüsü (UN09ZFN8, ilgili dilim; gerekiyorsa göstergeler 2'şerli değiştirilerek birkaç görüntü). Kendi çizimimiz gönderilmez (kural 5b).
   2. O hisseye özel teknik analiz tweet taslağı (bölüm 6 "TEKNİK ANALİZ TWEETİ DİLİ").
   - Enes'e her hisse ayrı mesaj + ayrı SendUserFile olarak gönderilir (tweet metni + görsel birlikte).
 - TEKNİK ANALİZ TWEETLERİNİ CLAUDE PAYLAŞMAZ. Buffer'a gönderilmez. Enes kendisi teyit edip paylaşır (Buffer aylık 1000 gönderi hakkı korunur). Otomatik turlar teknik analiz tweeti atmaz.
@@ -550,6 +551,7 @@ E) DİL VE SINIRLAR
 | 13:55 | Günde 2 kez (açılış +30, kapanış -30) portföy + en iyi 3-4 hisse teknik kontrol, 'ben olsam' kararları | 14b, başlık |
 | 15:15 | WebFetch onayı (ir.tyson.com) | 3 |
 | 15:29 | Haberleri istersen Chrome'dan araştır (açık) | 10 |
+| 18:05 | Teknik analiz görsellerini kendin oluşturma, TradingView ekran görüntüsü at | başlık 5b, 14b, 14d |
 | 16:46 | Artık 20-40 dk'da bir at; benim attıklarımı hemen at ama senin zamanlamanı etkilemesin; devir notuna ekle, hiçbir kuralı atlama, tekrar tekrar kontrol et | 2, B, başlık 8 |
 | 16:36 | Tweet aralıklarını 7'şer dk arttır (5-20 -> 12-27 dk) | 2, B |
 | 16:33 | $CRWV bilanço formatı: bilançolar bu sayfa düzeninde yazılacak; sayfa stiline uyan hissede 15 dk sonra kapsamlı analiz; devir notuna ekle ve bana tekrar at | 4, başlık 7 |
