@@ -515,12 +515,17 @@ E) DİL VE SINIRLAR
 | 13:28 | 21 göstergenin hepsi + farklı zaman dilimleri + SMC kombinasyonu | 13 |
 | 13:31 | "Ben olsam" diye konuş, kurala ekle | 14 |
 | 13:32 | Amacım en dipleri bulmak, yatırımcıyım | 0, 14 |
+| 13:47 (yeni sohbet) | Devir notunu yeni sohbete yükledi, A bölümünü uygula | A |
+| 13:49 | Eski portföy görevini güncelle (başka oturuma bağlı olduğu için güncellenemedi, 13:54'te durduruldu) | 16 |
+| 13:50 | Repoyu PUSH yetkisiyle ekle, Buffer otomatik paylaşım ve send_later zinciri onayı (A7 metni buradan) | A6, A7 |
 | 13:54 | Portföy güncellemesi tweetlerini kaldır, onları ben atarım | 1, başlık |
 | 13:55 | Günde 2 kez (açılış +30, kapanış -30) portföy + en iyi 3-4 hisse teknik kontrol, 'ben olsam' kararları | 14b, başlık |
 | 14:19 | Farklı sohbete geçiş için eksiksiz devir notu yaz (v4); şimdilik bu sohbetten otomatik devam | 14f, 16, 19 |
 | 14:15 | Hepsini eklediğini kontrol et, yeni devir notunda bu kurallar eksiksiz olsun | 14f, A6, A7 |
 | 14:15 | Tüm çalışmaları ve kuralları ekle; kademelerin nedenini yaz; 18:00/23:30'da bakılan her hisse için ayrı görsel + tweet bana gönder, teknik analizi ben paylaşırım (Buffer 1000/ay) | 14d, 14e, başlık |
 | 14:07 | Teknik analiz tweetinde 'bence dibe yakın / ben şuradan kademe eklerim, kırarsa şuradan' dili; tavsiye yok, oyun planı başlığı yok, sade konuşma dili | 6, başlık |
+| 14:01 | Deneme: portföyde alım için en uygun hisseyi tüm göstergelerle bul, göstergeli ekran görüntüsü + tweet yaz (RKLB) | 14e |
+| 14:07 | DOCN'u da bu kurallarla yap | 14e |
 | 14:05 | 21 göstergenin hepsi, tüm zaman dilimlerinde test edilecek; TradingView'da 2'şerli kapat-aç | 13, başlık |
 | 14:00 | Teknik kontrollerde kararı destekleyen göstergeli grafik ekran görüntüsünü sohbete at | 14b |
 | 13:58 | Profesyonel yatırımcı/analist yöntemi: temel + teknik, adayları portföyle karşılaştır, daha iyisi varsa öner yoksa önerme; sonraki devir notu bu kurallarla | 14c, başlık |
