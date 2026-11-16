@@ -6,7 +6,8 @@ Kaynaklar: invest/DEVIR.md (15.11 v1), invest/DEVIR_OZET.md (15.11 21:05 + 16.11
 !!! KESİN KURALLAR (Enes 16.11 13:54-13:56, "bir sonraki devirde kesinlikle bu şekilde devam edilecek") !!!
 1) PORTFÖY GÜNCELLEMESİ TWEETİNİ ENES ATAR. Claude portföy güncellemesi tweeti/kartı HAZIRLAMAZ, ATMAZ, SORMAZ. Eski "günlük portföy sorusu" görevi durduruldu, yeniden KURULMAZ. (bölüm 1)
 2) GÜNDE 2 SABİT TEKNİK KONTROL: her ABD işlem günü 18:00 TSİ (açılış +30 dk) ve 23:30 TSİ (kapanış -30 dk). Portföyün tamamı + Claude'un yatırıma uygun bulduğu en iyi 3-4 hisse. 21 gösterge, 4 zaman dilimi, TradingView varsa. Enes'e her seferinde "ben olsam" kararlarıyla mesaj (değişiklik olmasa da). Tweet değil. (bölüm 14b)
-Yeni oturum A5'te bu iki teknik kontrol zincirini MUTLAKA kurar.
+3) HİSSE SEÇİMİ PROFESYONEL YÖNTEMLE: temel (13 maddelik kontrol listesi) + teknik (bölüm 13) puan kartı; adaylar portföyle aynı kartla karşılaştırılır; daha iyisi varsa önerilir, yoksa önerilmez. (bölüm 14c)
+Yeni oturum A5'te bu iki teknik kontrol zincirini MUTLAKA kurar. Devir notu yeniden yazılırsa bu 3 kural aynen korunur.
 
 YENİ OTURUMSAN ÖNCE A BÖLÜMÜNÜ UYGULA. Her turun başında bu dosya BAŞTAN SONA okunur. Sonra DEVIR_OZET.md (ek ayrıntı) ve DONGU.md'nin TAMAMI okunur.
 Bölüm 18'de her kuralın hangi Enes mesajından geldiğini gösteren kontrol listesi var.
@@ -372,6 +373,42 @@ OTOMATİK PAYLAŞIM TURU (Enes 15.11 21:15 "oto atmaya devam"). ÖNCE invest/DEV
 - Tweet değildir; al/sat tweette yok kuralı aynen geçerli. Portföy güncellemesi tweetini Enes atar.
 - Zincir: her kontrol sonunda bir sonraki kontrol için send_later kurulur (18:00 -> 23:30 aynı gün; 23:30 -> sonraki işlem günü 18:00). Hafta sonu ve ABD tatilleri atlanır (26.11.2026 Şükran Günü kapalı; 27.11 yarım gün).
 
+## 14c. HİSSE SEÇİMİ = PROFESYONEL YÖNTEM (16.11 13:58, Enes, KESİN KURAL)
+Hisse araştırırken, beğenirken ve portföyle karşılaştırırken profesyonel bir yatırımcı / portföy yöneticisi / aracı kurum analisti neye bakıyorsa ona bakılır. HEM TEMEL HEM TEKNİK. Teknik taraf Enes'in verdiği set (bölüm 13: 21 gösterge + SMC kombinasyonu, 4 zaman dilimi). Temel taraf aşağıdaki kontrol listesi. Her rakam 2 kaynak, yıl kontrolü; bulunamayan "bilinmiyor" diye yazılır, uydurulmaz.
+
+A) TEMEL KONTROL LİSTESİ (her aday ve her portföy hissesi için aynı liste)
+1. İş ve hendek: ne satıyor, pazar büyüklüğü, rakipler, rekabet avantajı (teknoloji, ölçek, geçiş maliyeti, ağ etkisi), müşteri yoğunlaşması (tek müşteri %20+ ise risk).
+2. Büyüme: gelir büyümesi (YoY ve çeyrekten çeyreğe), hızlanıyor mu yavaşlıyor mu, organik mi satın almalı mı (organik payı hesaplanır), sipariş birikimi / RPO / backlog.
+3. Kârlılık: brüt marj ve trendi, faaliyet marjı, net kâr; zarardaysa kâra geçiş yolu. GAAP ile düzeltilmiş arası fark ve hisse bazlı ödeme (SBC) büyüklüğü.
+4. Nakit: serbest nakit akışı (FCF) ve marjı, capex yükü, nakit yakma hızı ve kaç çeyrek yeteceği.
+5. Bilanço: net nakit / net borç, borç vadesi, faiz karşılama, likidite. Hisse seyrelmesi (hisse sayısı artışı, konvertibl, ATM satışları).
+6. Değerleme: ileri F/K, EV/Satış, EV/FAVÖK, PEG, FCF getirisi; rakiplere ve kendi 3-5 yıllık geçmişine göre ucuz mu pahalı mı. Büyümeye göre fiyat (Rule of 40 yazılım/bulut için).
+7. Beklenti momentumu: son 30-90 günde EPS ve gelir tahmin revizyonları (yukarı/aşağı), son bilançoda beklenti aşımı/kaçırma, şirketin kendi tahmininin (guidance) yükseltilmesi/düşürülmesi.
+8. Analist ve kurum: not/hedef değişiklikleri (kurum + eski/yeni hedef), 13F'de kurum giriş/çıkışları, içeriden alım-satım (Form 4; kod P alım anlamlı, 10b5-1 ve vergi satışları ayrılır).
+9. Pozisyonlanma: açığa satış oranı ve kapanma günleri, opsiyon ima edilen hareket, hacim ve likidite (günlük işlem hacmi), piyasa değeri.
+10. Katalizör ve takvim: sonraki bilanço tarihi, ürün/sözleşme duyuruları, lock-up bitişi, endeks girişi, düzenleme kararları.
+11. Riskler: dava, düzenleme, ihracat kontrolleri, yönetim değişikliği, muhasebe uyarıları, short raporları (tek kaynaksa doğrulanmamış diye belirtilir), müşteri kaybı, makro duyarlılık (faiz, dolar, emtia).
+12. Yönetim ve sermaye dağıtımı: geri alım/temettü, satın alma geçmişi, yöneticinin hisse sahipliği.
+13. Makro ve sektör rejimi: faiz beklentisi, sektör rotasyonu, sektörün göreceli gücü (S&P 500 ve sektör ETF'ine göre), risk iştahı.
+
+B) TEKNİK (bölüm 13 aynen): EMA 200 trend, SMC yapısı (BOS/CHoCH, order block, FVG, likidite süpürmesi), VWAP, RSI 14, MACD, ATR (stop/hedef mesafesi), Volume Profile (POC, değer alanı), ADX, Fibonacci OTE 0.618-0.786, OBV uyumsuzluğu + kalan göstergeler; 1s/4s/günlük/haftalık. Enes dip avcısı: dip bölgesi ve kademeli alım seviyesi öncelikli.
+
+C) ADAY BULMA SÜRECİ
+1. Tarama: güncel haberler, tahmin revizyonu yukarı olanlar, güçlü bilanço + düşük değerleme, sektör gücü, aşırı satılmış kaliteli hisseler (dip bölgesine gelen). Evren: tüm ABD borsası, izleme listesiyle sınırlı değil.
+2. Kısa liste (6-10) -> A listesi + B tekniğiyle eleme -> en iyi 3-4.
+3. Her aday için PUAN KARTI: Temel (iş/hendek, büyüme, kârlılık, nakit/bilanço, değerleme, beklenti momentumu, risk) ve Teknik (trend, dip bölgesine uzaklık, momentum/uyumsuzluk, risk/ödül = hedef mesafesi / stop mesafesi). Her başlık 1-5. Toplam ve kısa gerekçe.
+
+D) PORTFÖYLE KARŞILAŞTIRMA (zorunlu)
+- Portföydeki 7 hisse AYNI puan kartıyla puanlanır.
+- Aday, portföydeki en zayıf hisseden AÇIKÇA daha iyiyse (toplamda belirgin üstün ve risk/ödülü daha iyi) önerilir: "Ben olsam X'i azaltıp/çıkarıp Y'ye geçerdim, çünkü ..." + seviyeler.
+- Daha iyi seçenek YOKSA önerilmez; "portföyündekilerden daha iyisini bulamadım" denir ve neden kısaca söylenir. Zorla öneri yapılmaz.
+- Portföy hissesi için de: tez bozulduysa (temel ya da yapı) açıkça söylenir.
+
+E) DİL VE SINIRLAR
+- Enes'e özel mesaj, "ben olsam" dili (bölüm 14). Karar Enes'in. Tweette al/sat yok.
+- Kaynak belirtilir; tek kaynaklı bilgi "doğrulanmadı" diye işaretlenir ya da kullanılmaz.
+- Bu yöntem 18:00 ve 23:30 teknik kontrollerinde (bölüm 14b) ve her fırsat önerisinde uygulanır. Kullanım limitine dikkat: temel analiz günde bir kez derinlemesine (18:00), 23:30'da yalnız değişenler güncellenir.
+
 ## 15. TAKVİM (16-19 Kasım 2026, TSİ)
 - Pzt 16.11:
   - Tyson (TSN) Q4 açılış öncesi. Konsensus EPS kaynağa göre 0,53-0,61$, gelir ~14,1 Mr$. Çağrı 17:00 TSİ. Rakamlar 13:33'te henüz yoktu; 2026 tarihli olduğunu doğrula.
@@ -434,6 +471,7 @@ OTOMATİK PAYLAŞIM TURU (Enes 15.11 21:15 "oto atmaya devam"). ÖNCE invest/DEV
 | 13:32 | Amacım en dipleri bulmak, yatırımcıyım | 0, 14 |
 | 13:54 | Portföy güncellemesi tweetlerini kaldır, onları ben atarım | 1, başlık |
 | 13:55 | Günde 2 kez (açılış +30, kapanış -30) portföy + en iyi 3-4 hisse teknik kontrol, 'ben olsam' kararları | 14b, başlık |
+| 13:58 | Profesyonel yatırımcı/analist yöntemi: temel + teknik, adayları portföyle karşılaştır, daha iyisi varsa öner yoksa önerme; sonraki devir notu bu kurallarla | 14c, başlık |
 | 13:56 | Bu iki kuralı ekle, sonraki devirde kesinlikle böyle devam | başlık, A5, B |
 | 13:33 | Tüm kurallarla kapsamlı devir notu yaz, hiçbir şeyi atlama, kanıtla | bu dosya |
 | 13:07 kalıcı tercihleri (bellek): basit doğal tweet dili, soru ile bitirme yok, doğrulanmamış rakam yok, koyu minimal kart, X'e girme | 5, 6, 7, 10 |
