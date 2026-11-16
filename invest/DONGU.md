@@ -171,3 +171,6 @@ Durdurmak için en alta `DURDUR` yazılı bir satır ekle (Enes ya da Claude, En
 - 20:15 PORTFOY (ta2): AXON 310 -> 18:00 k1 bolgesi 301-314 icine girdi (H 0/19, G 1/18 asagi) -> Enes'e not; RKLB 58,9 k1 icinde; digerleri degisim yok. CBRS haftalik veri yetersiz (ta2 hatasi).
 
 - 20:20 KARNE: CBRS 26/50 (BUY 4, KAR 2, NAKIT 1, BILANCO 4, DEG 2, MOM 4, AKIS 2, GOR 2, KALITE 3, RISK 2). Siradaki: VRT ECL TSM AVGO DOCN(/50 yenileme).
+- 20:36 AUTO (FED): 20261116_2040_warsh_yz.jpg (editoryal) - Warsh SF Fed acilis: SI/AI verimlilik + buyume uzun vade ortalamasinin ustu (CNBC, InvestingLive, Seeking Alpha); kotu senaryo: yatirim karsilik vermezse degerleme dususu, yavaslama, issizlik (Mezha/WSJ, Seeking Alpha); para politikasi isareti yok (InvestingLive, CNBC 'down the road'). 'Verimlilik guclu ama kalici sicrama yok' tek kaynak -> yok. Buffer 6afb3f26606b091c7f611ebe. Bugun 37 (Buffer). Son 3 duzen: terminal, uclu, editoryal. Son OTOMATIK 20:36.
+- 20:40 PORTFOY (ta2): 20:15'e gore degisim yok (AXON 309, RKLB 58,1, VRT 189). Mesaj yok.
+- 20:45 KARNE: VRT 39/50 (BUY 5, KAR 5, NAKIT 5, BILANCO 5, DEG 4, MOM 4, AKIS 3, GOR 1, KALITE 4, RISK 3) - portfoyun en yuksek temel puani. Siradaki: ECL TSM AVGO DOCN(/50 yenileme).

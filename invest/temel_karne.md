@@ -27,7 +27,7 @@ Rotasyon sırası (eksik/eskiden başla): NBIS RKLB SITM AXON CBRS VRT ECL TSM A
 | SITM | 16.11 19:55 | 5 | 4 | 3 | 4 | 3 | 4 | 3 | 3 | 4 | 3 | 36/50 | AI veri merkezi talebiyle %257 büyüme, düz. marj %70; GAAP kâr ince, wafer arzı kısıtlı |
 | AXON | 16.11 19:55 | 4 | 2 | 2 | 3 | 3 | 1 | 3 | 1 | 5 | 3 | 27/50 | hendek çok güçlü (NRR %126), ama rehber düşürüldü, SBC yüksek, trend çok zayıf |
 | CBRS | 16.11 20:20 | 4 | 2 | 1 | 4 | 2 | 4 | 2 | 2 | 3 | 2 | 26/50 | çekirdek gelir +%70, rehber 3. kez aşıldı/yükseltildi; FCF -1,4 Mr$, müşteri yoğunlaşması aşırı, pahalı |
-| VRT | - | | | | | | | | | | | eksik | |
+| VRT | 16.11 20:45 | 5 | 5 | 5 | 5 | 4 | 4 | 3 | 1 | 4 | 3 | 39/50 | satış +%61, sipariş 2 katı, net nakit, ileri F/K ~20; fiyat 200 günlüğün %30 altında, sipariş verisi artık açıklanmayacak |
 | ECL | - | | | | | | | | | | | eksik | |
 | TSM | - | | | | | | | | | | | eksik | |
 | AVGO | - | | | | | | | | | | | eksik | |
@@ -127,3 +127,20 @@ Kaynaklar: şirket bülteni 8-K (SEC EDGAR), Investing çağrı özeti, KuCoin/O
 10) RİSK/KATALİZÖR 2/5 — BAE (G42/MBZUAI) bağımlılığı ve ihracat düzenlemeleri, veri merkezi gecikmeleri (RPO'dan gecikme kredisi düşüldü, iptal riski taahhüt edilen MW'ın %5'inden az; takvime dönüş 2027 2. yarı) (Leafy, tek kaynak), yüksek açığa satış, lock-up. Katalizör: Q4 bilançosu (Şubat), NVDA bilançosu (AI talep algısı), yeni hiperölçekli anlaşmalar.
 SEKTÖR KPI (AI donanım/yeni halka arz): sözleşmeli kapasite 700 MW; RPO 26,1 Mr$; müşteri yoğunlaşması %86 (2025); çekirdek bulut payı ~%63 (Leafy); halka arz fiyatına göre konum: bilinmiyor.
 SONUÇ: TEMEL 26/50. Büyüme ve sipariş görünürlüğü çok güçlü, bilançoda bol nakit; ama nakit yakımı büyük, değerleme pahalı, müşteri yoğunlaşması ve açığa satış yüksek. Portföydeki en riskli temel profillerden biri (NBIS 23, AXON 27 ile birlikte alt grup).
+
+
+## VRT — 16.11.2026 20:45 (/50, bölüm 14h) — Q3 2026 (açıklama 28.10)
+Kaynaklar: şirket bültenleri 8-K (Q3, Q2, Q1 2026, Q4 2025; SEC EDGAR), Investing (sunum + çağrı), Yahoo/StockStory (2), Benzinga çağrı metni, 24/7 Wall St, stockanalysis istatistik (veri 16.11, fiyat 13.11 kapanışı ~202). Bugün ~189 (Yahoo 20:40).
+1) BÜYÜME 5/5 — Q3 net satış 4.313 Mn$ (+%61) (8-K, Investing, Yahoo); organik ~%55, satın almalar +6 puan (Yahoo x2). Dizi: Q1 +%30 -> Q2 +%24 -> Q3 +%61 (8-K'lar) = güçlü hızlanma. Organik sipariş yıllık +%100 üstü (Benzinga, Investing, 24/7). Bölge: Amerika +%75, Asya-Pasifik +%50, EMEA +%23 (Investing sunum, tek kaynak). 2026 satış rehberi 14,45-14,85 Mr$'a yükseldi (ortası 14,65; Temmuz'a göre +650 Mn$) (24/7, Investing, Yahoo); Q4 rehberi 4.413 Mn$, organik +%50 (8-K). Sipariş birikimi Şubat'ta 15 Mr$ (+%109), book-to-bill ~2,9 (Q4 2025 8-K, Yahoo). EKSİ: şirket sipariş verisini artık açıklamayacak (Benzinga, Yahoo x2) -> görünürlük azalıyor.
+2) KÂRLILIK 5/5 — Düz. faaliyet marjı %25,2 (+290 bp) (8-K, Investing, 24/7); dizi Q1 %20,8 -> Q2 %22,6 -> Q3 %25,2 (8-K'lar). Düz. HBK 2,21$ (+%78) vs beklenti 1,82$ (+%21) (Investing, 24/7); 5. üst üste aşım (24/7, tek kaynak). TTM brüt marj %38,1, net marj %16, ROE %46,6, ROIC %43,8 (stockanalysis, tek kaynak) -> sermaye maliyetinin çok üstünde.
+3) NAKİT 5/5 — Q3 faaliyet nakdi 794 Mn$ (+%64), düz. FCF 652 Mn$ (+%50) (8-K). TTM FCF 3,15 Mr$, FCF marjı %24, capex 518 Mn$ (gelirin ~%4) (stockanalysis, tek kaynak). Rehber FCF'yi de yükseltti (Investing, Yahoo).
+4) BİLANÇO 5/5 — Net nakit pozisyonu, kaldıraç -0,2x (Benzinga çağrı, Q2 8-K). Nakit 3,71 Mr$, borç 3,36 Mr$, faiz karşılama 77x, Altman Z 6,1, cari oran 1,39 (stockanalysis, tek kaynak). Hisse sayısı +%0,8 (seyrelme yok denecek kadar az).
+5) DEĞERLEME 4/5 — 202$ ile: ileri F/K 21,7, PEG 0,55, EV/FAVÖK 24, FCF getirisi %4 (stockanalysis); bugün ~189 ile ileri F/K ~20. Büyüme %50-60 iken F/K 20 = büyümeye göre ucuz. Kendi geçmişi ve akranlar (ETN, SU, JCI): bilinmiyor, sonraki yenilemede. Analist ort. hedef 334$ (31 analist, Güçlü Al) (stockanalysis, tek kaynak).
+   KABA SENARYO (12 ay, 2027 düz. HBK tahmini bilinmiyor; 2026 Q4 x4 ~10-11$ kaba): AYI F/K 15 x 9$ = ~135$; BAZ 22 x 10,5$ = ~230$; BOĞA 28 x 12$ = ~335$. Risk/ödül bugünden olumlu (kaba).
+6) MOMENTUM 4/5 — Her çeyrek rehber yükseltildi (Q1, Q2, Q3 8-K'ları), Q3 gelir ve HBK beklentiyi rahat aştı. EKSİ: hisse bilançodan sonra düştü (50 günlük ort. 231, 200 günlük 272 -> fiyat çok altında). Tahmin revizyonları 7/30/90 gün: bilinmiyor.
+7) SAHİPLİK/AKIŞ 3/5 — Kurum %82, içeriden %0,19, açığa satış float'ın %2,9'u / 1,65 gün (stockanalysis, tek kaynak). İçeriden işlemler: bilinmiyor.
+8) GÖRECELİ GÜÇ 1/5 — Fiyat ~189, 50 günlük ort. 231'in ~%18, 200 günlük 272'nin ~%30 altında; 52 hafta +%16,6, beta 2,1 (stockanalysis). Yahoo ta2 20:40: günlük 1 yukarı / 14 aşağı, haftalık 2/14. 18:00 teknik: k1 170,8, tez biter 153,8.
+9) KALİTE/YÖNETİM 4/5 — Veri merkezi güç ve soğutma altyapısında lider (sıvı soğutma, chiller kapasitesi yıl sonuna 2 katına çıkıyor — Yahoo, tek kaynak); marj ve ROIC istikrarlı yükseliyor = fiyatlama gücü kanıtı. EKSİ: sipariş verisini gizleme kararı şeffaflığı azaltıyor.
+10) RİSK/KATALİZÖR 3/5 — Yapay zeka veri merkezi harcama döngüsüne bağımlılık (Warsh'ın 16.11 "yatırım karşılık vermezse" senaryosu tam bu risk), yüksek beta, kapasite artırımında uygulama riski. Katalizör: NVDA bilançosu (bu hafta), Q4 bilançosu (Şubat), 2027 rehberi.
+SEKTÖR KPI (elektrik/soğutma altyapısı): organik sipariş +%100 üstü (Q3), book-to-bill ~2,9 ve birikim 15 Mr$ (Q4 2025, son açıklanan), veri merkezi payı bilinmiyor, kapasite artışı (chiller 2x).
+SONUÇ: TEMEL 39/50 — portföyün en yüksek temel puanı (SITM 36). Büyüme, marj, nakit, bilanço en üst seviyede; değerleme büyümeye göre ucuz. Zayıf taraf tamamen fiyat trendi (göreceli güç 1/5). Temel çok güçlü + teknik zayıf = dip bölgesinde kademeli alım için portföyün en iyi adayı.
