@@ -94,7 +94,8 @@ OTOMATİK PAYLAŞIM TURU (Enes 15.11 21:15 "oto atmaya devam"). ÖNCE invest/DEV
 - İLGİ LİSTESİ: ON AAOI HOOD TEM CRDO PLTR ISRG ASTS MU + büyük yapay zeka/yarı iletken/bulut/uzay şirketleri (NVDA AMD AVGO TSM MSFT GOOGL AMZN META ORCL CRWV SNOW vb.).
 - FIRSAT HİSSESİ SINIRSIZ (16.11 13:25): fırsat önerisi ilgi listesiyle sınırlı değil. ABD borsasında yatırıma uygun bulduğum HERHANGİ bir hisse önerilebilir; gerekçesi (temel + teknik), seviyesi ve riskiyle.
 - Portföyde ağırlık/tutar/para ASLA tweete yazılmaz. Enes'in ağzından "aldım / sattım / ekledim / portföyüm / YTD %" cümlesi kurulmaz.
-- Otomatik turlar portföy tweeti atmaz. Günlük portföy güncellemesi yalnız Enes'in ana sohbetinden, onayıyla atılır (DEVIR 2b).
+- PORTFÖY GÜNCELLEMESİ TWEETİ YOK (16.11 13:54): Portföy güncellemesi tweetini Enes kendisi atar. Claude portföy güncellemesi tweeti/kartı hazırlamaz, atmaz, sormaz. (eski: ana sohbetten Enes onayıyla atılırdı)
+- Eski 'EnesInvestUS günlük portföy sorusu' görevi (trig_019TTCnsx74Nsi9DjkY7M5MF) 16.11 13:54'te DURDURULDU. Kapanış tweeti normal turların içerik menüsünden (00:05-00:45) atılır.
 
 ## 2. PAYLAŞIM MODU (güncel: TAM OTOMATİK)
 - Buffer create_post:
@@ -368,7 +369,7 @@ OTOMATİK PAYLAŞIM TURU (Enes 15.11 21:15 "oto atmaya devam"). ÖNCE invest/DEV
 - Q3 13F son günü 16 Kasım 2026.
 
 ## 16. DİĞER GÖREVLER / BEKLEYENLER
-- "EnesInvestUS günlük portföy sorusu" (trig_019TTCnsx74Nsi9DjkY7M5MF): Pzt gece 00:05. Talimatı eski (sohbet modu, eski portföy); çalışınca bu dosya esas alınır. Başka oturumdan kurulduğu için buradan düzeltilemedi.
+- "EnesInvestUS günlük portföy sorusu" (trig_019TTCnsx74Nsi9DjkY7M5MF): 16.11 13:54 Enes isteğiyle DURDURULDU (portföy tweetini Enes atar).
 - Saatlik hazırlık ve Buffer taslak görevleri KAPALI.
 - Enes'ten cevap beklenenler:
   - Anthropic adı yasağı gevşesin mi?
