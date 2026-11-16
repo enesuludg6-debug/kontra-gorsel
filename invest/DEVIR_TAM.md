@@ -13,6 +13,7 @@ Kaynaklar: invest/DEVIR.md (15.11 v1), invest/DEVIR_OZET.md (15.11 21:05 + 16.11
 4) TEKNİK ANALİZ TWEETİ: 'bence dibe yakın / ben şuradan kademe eklerim, orayı kırarsa şuradan' dili serbest; tavsiye ve emir kipi yok; sade konuşma dili. (bölüm 6)
 5b) TEKNİK ANALİZ GÖRSELİ = TRADINGVIEW EKRAN GÖRÜNTÜSÜ (16.11 18:05, Enes: "kendin oluşturma teknik analiz görsellerini, ss at bana"). Kendi çizdiğimiz grafik (ta_grafik.py) teknik analiz görseli olarak GÖNDERİLMEZ. Her hisse için TradingView (UN09ZFN8) ekran görüntüsü alınır (gerekirse ilgili dilim ve göstergeler), SendUserFile ile gönderilir. tk_auto.py yalnız seviye hesabı için kullanılır. Bilgisayar/Chrome kapalıysa görsel gönderilemez, Enes'e söylenir. (eski: matplotlib grafik)
 5d) GÖNDERİM SIRASI (16.11 18:09, Enes: "tweet ekran görüntüsü tweet ekran görüntüsü"): her hisse SIRAYLA gönderilir: önce o hissenin TradingView ekran görüntüsü (SendUserFile, başlık "1/10 RKLB" gibi), HEMEN ARDINDAN o hissenin tweet taslağı (SendUserMessage, sadece tweet metni, kopyalanmaya hazır). Görseller toplu, tweetler ayrı mesajda GÖNDERİLMEZ. Sonra kısa özet mesajı.
+5e) EKRAN GÖRÜNTÜSÜNDE KARARI BELİRLEYEN GÖSTERGELER AÇIK OLUR (16.11 21:41, Enes: "sadece o ikisi açıkken yapma, karar vermende en etkili indikatörler açıkken yap"). Her hissenin TradingView ekran görüntüsü, varsayılan Supertrend + SMC ile DEĞİL, o hissenin kararını en çok belirleyen 2 gösterge açıkken ve kararı belirleyen dilimde alınır (ör. DOCN'da OBV uyumsuzluğu + RSI belirleyiciyse onlar açılır; kademe seviyesi FVG + Supertrend çakışmasından geliyorsa SMC + Supertrend). Belirleyici gösterge 2'den fazlaysa 2'şerli birden fazla görüntü (en çok 2-3). Hangi göstergelerin açık olduğu görselin başlığında yazılır ("1/10 RKLB - 4s - OBV + RSI"). Bitince varsayılan düzen (Supertrend + LuxAlgo SMC) geri kurulur, ctrl+s. (eski: görüntüler varsayılan Supertrend + SMC ile alınıyordu)
 5) TEKNİK ANALİZ TWEETLERİ: her kontrolde bakılan HER hisse için ayrı görsel + ayrı tweet taslağı Enes'e gönderilir; Claude teknik analiz tweeti PAYLAŞMAZ (Enes paylaşır). Her kademe/stop/hedef seviyesinin nedeni (çakışan göstergeler ve dilimler) yazılır. (bölüm 14d, 14e)
 6) TWEET AKIŞI: her turda analist notu akışları (TheFly, StreetInsider, Investing, MarketBeat, TipRanks, Benzinga, Futu) + lansman/ortaklık kaynakları taranır; boş tur geçilmez, 09:00-01:00 her tur bir tweet hedefi (günde en çok 45). (bölüm 4)
 8) ZAMANLAMA: otomatik tweet 20-40 dk'da bir (rastgele); Enes'in yapıştırdığı tweet hemen atılır ama otomatik zincirin zamanlamasını etkilemez. (bölüm 2)
@@ -466,7 +467,7 @@ E) DİL VE SINIRLAR
 
 ## 14d. TEKNİK ANALİZ TWEETLERİ VE GÖRSELLERİ — ENES PAYLAŞIR (16.11 14:15, Enes, KESİN KURAL)
 - 18:00 ve 23:30 kontrollerinde bakılan HER hisse için (portföydeki 7 hisse + aday/fırsat hisseleri + test amaçlı bakılanlar) AYRI AYRI hazırlanır:
-  1. TradingView ekran görüntüsü (UN09ZFN8, ilgili dilim; gerekiyorsa göstergeler 2'şerli değiştirilerek birkaç görüntü). Kendi çizimimiz gönderilmez (kural 5b).
+  1. TradingView ekran görüntüsü (kural 5e: kararı belirleyen 2 gösterge açık; düzen QdeLE4v4; eski UN09ZFN8, ilgili dilim; gerekiyorsa göstergeler 2'şerli değiştirilerek birkaç görüntü). Kendi çizimimiz gönderilmez (kural 5b).
   2. O hisseye özel teknik analiz tweet taslağı (bölüm 6 "TEKNİK ANALİZ TWEETİ DİLİ").
   - Enes'e her hisse ayrı mesaj + ayrı SendUserFile olarak gönderilir (tweet metni + görsel birlikte).
 - TEKNİK ANALİZ TWEETLERİNİ CLAUDE PAYLAŞMAZ. Buffer'a gönderilmez. Enes kendisi teyit edip paylaşır (Buffer aylık 1000 gönderi hakkı korunur). Otomatik turlar teknik analiz tweeti atmaz.
@@ -702,6 +703,8 @@ Bu bölüm devir notu yeniden yazılırsa aynen korunur.
 | 18:05 | Teknik analiz görsellerini kendin oluşturma, TradingView ekran görüntüsü at | başlık 5b, 14b, 14d |
 | 18:09 | Sırayla at: ekran görüntüsü, tweet, ekran görüntüsü, tweet (tek tek toplu değil) | başlık 5d |
 | 18:14 | Neden temelleri yapmadın, turlarda vaktin vardı; çözüm bul, devir notuna ekle, hiçbir şey çıkarma, sürekli kontrol et | başlık 3b, 14c-E, 14g, B, temel_karne.md |
+| 21:41 | Ekran görüntüsü sadece Supertrend+SMC açıkken değil, karar için en etkili göstergeler açıkken alınsın | başlık 5e, 14b, 14d |
+| 21:34 | TradingView hesabı fark etmez; Adsız düzene Supertrend + SMC kur | 12 |
 | 21:16 | Temel analizde yanlış/adaletsiz sonuç nasıl çıkar düşün, ne eklenebilir düşün, sürekli geliştir; devir notuna ekle | başlık 3d, 14i, B-EK2 |
 | 20:09 | Otomatik çalışmaya başla (bu akşam günlük sayım yalnız Buffer kaynaklı) | 2 |
 | 20:00 | Yeni oturuma devir, A7 onayı (push, Buffer, send_later) | A, A7 |

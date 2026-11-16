@@ -185,3 +185,4 @@ Durdurmak için en alta `DURDUR` yazılı bir satır ekle (Enes ya da Claude, En
 - 21:40 KARNE: TSM 39/50 (/45: 37) (BUY 5, KAR 5, NAKIT 4, BILANCO 5, DEG 4, MOM 4, AKIS 3, GOR 2, KALITE 5, RISK 2). 14i A3 ile Stocktwits'in eski yil verisi yakalandi. Siradaki: AVGO, DOCN /50.
 - 21:40 Enes: TradingView hesabi fark etmez, Supertrend + SMC kur (Adsiz QdeLE4v4 duzeni).
 - 21:45 TradingView: Adsiz (QdeLE4v4) duzeninde RSI+MACD kaldirildi, Supertrend (10,3) + LuxAlgo SMC eklendi, ctrl+s (Enes onayi 21:34). RKLB 1s Supertrend TV 61,16 sat / ta2 61,41 sat (fark ~%0,4). SMC: ikisi de 1s'te dusen yapi, ~59,76 asagi kirilim. 23:30 kontrolu bu duzenle yapilacak.
+- 21:42 Enes: TA ekran goruntusu karari belirleyen gostergeler acikken -> kesin kural 5e, 14b, 14d, bolum 18.
