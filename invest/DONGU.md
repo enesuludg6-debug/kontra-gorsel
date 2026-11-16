@@ -164,4 +164,5 @@ Durdurmak için en alta `DURDUR` yazılı bir satır ekle (Enes ya da Claude, En
 - 19:49 AUTO (FED ONCESI): 20261116_1953_warsh_once.jpg (terminal) - Warsh 20:00 TSI San Francisco Fed verimlilik/istihdam gorev gucu konferansi (SF Fed etkinlik sayfasi 9:00 PT; Reuters/Investing 28.10 duyuru + 'verimlilik mucizesi mi' sozu; sonuclar mevcut politikaya pek yansimaz - Investing). Ilk deneme terminal degerleri uzun tasti -> kisa degerle yeniden. Buffer 6afb34382325e6c7b3e0cac6. Bugun 36. Son 3 duzen: split, spotlight, terminal. Son OTOMATIK 19:49. SONRAKI TUR: Warsh ne dedi (2 kaynak).
 - 19:55 KARNE: SITM 36/50, AXON 27/50. Siradaki: CBRS VRT ECL TSM AVGO DOCN.
 - 19:56 Enes: 'dur' -> otomatik tur zinciri durduruldu (bekleyen tur trig_01AmkZcqsfG39fAv7jnF2nkr silindi). Teknik kontroller (23:30, yarin 18:00) Enes'e soruldu.
-DURDUR
+
+- 20:00 YENI OTURUM DEVRALDI (Enes 20:00 A7 onayi: otomatik turlar + teknik kontroller baslasin; 19:56 DURDUR satiri kaldirildi). Kontrol: Buffer OK, repo/push OK, kart OK, raw 200, Yahoo 403 (proxy engeli), Chrome bagli degil (Enes mobilde). Bugun Buffer'da 58 gonderi (35 Buffer + 23 Enes elle) -> 45 tavan doldu (bolum 2: elle atilanlar dahil) -> bu aksam otomatik tweet yok, ilk otomatik tur 17.11 09:05. Teknik kontrol 23:30 ve 17.11 18:00 kuruldu. SIRADAKI KARNE: CBRS VRT ECL TSM AVGO DOCN.
