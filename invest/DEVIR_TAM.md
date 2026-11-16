@@ -306,7 +306,10 @@ OTOMATİK PAYLAŞIM TURU (Enes 15.11 21:15 "oto atmaya devam"). ÖNCE invest/DEV
 
 ## 10. TARAYICI / BİLGİSAYAR ERİŞİMİ
 - Enes'in X hesabına HİÇBİR ŞEKİLDE girilmez. Tarayıcı otomasyonu ve scraping X kurallarına aykırı.
-- Tarayıcı ve bilgisayar SADECE tradingview.com için (Enes'in X hesabına zararı olmayacak şekilde).
+- Tarayıcı ve bilgisayar: tradingview.com + HABER ARAŞTIRMASI (16.11 15:29, Enes: "istersen Chrome'dan araştır haberleri"). (eski: SADECE tradingview.com)
+  - Haber için Chrome kullanım sırası: önce WebSearch; sonuç gelmezse, sayfa JS ile yükleniyorsa (ör. ir.tyson.com haber listesi) veya WebFetch PROVENANCE_REQUIRED/izin isterse Chrome'da YENİ sekme aç (tabs_create_mcp), navigate + get_page_text ile oku, iş bitince sekmeyi kapat (tabs_close_mcp). TradingView sekmesine dokunma.
+  - Sadece okuma: form doldurma, giriş, abonelik, yorum, paylaşım YOK. Çerez bannerlarında en gizli seçenek. X.com'a ASLA girilmez.
+  - Kullanım limiti: Chrome adımları pahalı; günlük haber taramasında WebSearch esas, Chrome yalnız gerektiğinde.
   - TradingView'da paylaşım, yorum, fikir yayınlama, hesap/abonelik ayarı YOK. Kayıtlı çizim şablonları silinmez.
 - Enes'in bilgisayarı: Windows, Claude in Chrome eklentisi, deviceId 2c13b0fb-418e-4a79-aee9-34fd79d23bef. Bilgisayar ve Chrome açıksa çalışır, kapalıysa Yahoo hesaplarına geçilir.
 - TradingView planı Basic: grafik başına en fazla 2 gösterge.
@@ -456,7 +459,7 @@ E) DİL VE SINIRLAR
 
 ## 15. TAKVİM (16-19 Kasım 2026, TSİ)
 - Pzt 16.11:
-  - Tyson (TSN) Q4 açılış öncesi. Konsensus EPS kaynağa göre 0,53-0,61$, gelir ~14,1 Mr$. Çağrı 17:00 TSİ. Rakamlar 14:08'de de henüz yoktu (bulunanlar 2025 ve Q3 2026); 2026 Q4 olduğunu doğrula. Konsensus Zacks 0,65$ / Talk Business 0,59$ (kaynaklar farklı).
+  - Tyson (TSN) Q4 açılış öncesi. Konsensus EPS kaynağa göre 0,53-0,61$, gelir ~14,1 Mr$. Çağrı 17:00 TSİ. Tyson IR (Chrome ile, 15:30): 24.09 duyurusu -> sonuçlar 16.11 açılış öncesi, çağrı 9:00 ET (17:00 TSİ). 15:30'da IR listesinde Q4 bülteni henüz yoktu. Rakamlar 14:08'de de henüz yoktu (bulunanlar 2025 ve Q3 2026); 2026 Q4 olduğunu doğrula. Konsensus Zacks 0,65$ / Talk Business 0,59$ (kaynaklar farklı).
   - Baidu Q3 açıklandı ve 13:33'te tweetlendi.
   - Warsh konuşması 20:00 TSİ. ABD açılışı 17:30 TSİ.
 - Sal 17.11: HD açılış öncesi; NVDA kapanış sonrası (rakamlar ~00:20 TSİ Çarşamba). Gece istisnası turu için Enes onayı bekleniyor.
@@ -520,6 +523,8 @@ E) DİL VE SINIRLAR
 | 13:50 | Repoyu PUSH yetkisiyle ekle, Buffer otomatik paylaşım ve send_later zinciri onayı (A7 metni buradan) | A6, A7 |
 | 13:54 | Portföy güncellemesi tweetlerini kaldır, onları ben atarım | 1, başlık |
 | 13:55 | Günde 2 kez (açılış +30, kapanış -30) portföy + en iyi 3-4 hisse teknik kontrol, 'ben olsam' kararları | 14b, başlık |
+| 15:15 | WebFetch onayı (ir.tyson.com) | 3 |
+| 15:29 | Haberleri istersen Chrome'dan araştır (açık) | 10 |
 | 14:19 | Farklı sohbete geçiş için eksiksiz devir notu yaz (v4); şimdilik bu sohbetten otomatik devam | 14f, 16, 19 |
 | 14:15 | Hepsini eklediğini kontrol et, yeni devir notunda bu kurallar eksiksiz olsun | 14f, A6, A7 |
 | 14:15 | Tüm çalışmaları ve kuralları ekle; kademelerin nedenini yaz; 18:00/23:30'da bakılan her hisse için ayrı görsel + tweet bana gönder, teknik analizi ben paylaşırım (Buffer 1000/ay) | 14d, 14e, başlık |
