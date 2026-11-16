@@ -370,6 +370,10 @@ OTOMATİK PAYLAŞIM TURU (Enes 15.11 21:15 "oto atmaya devam"). ÖNCE invest/DEV
 - Kapsam: portföyün tamamı (NBIS RKLB DOCN SITM AXON CBRS VRT) + benim yatırıma uygun bulduğum EN İYİ 3-4 hisse (portföy dışı, herhangi bir ABD hissesi; temel + teknik gerekçeyle).
 - Yöntem: `python3 ta2.py <tickerlar> > /tmp/ta.txt` (21 gösterge, 1s/4s/günlük/haftalık) + bilgisayar açıksa TradingView (UN09ZFN8, SMC + Supertrend). Gün içi fiyatı mutlaka kullan.
 - Çıktı: Enes'e tek SendUserMessage, her hisse için "ben olsam ..." kararı (bölüm 14 dili): dip bölgesi, kademeli alım seviyeleri, tezin bozulduğu seviye, hedef. Değişiklik olmasa da bu iki kontrolde mesaj HER ZAMAN atılır.
+- GRAFİK EKRAN GÖRÜNTÜSÜ (16.11 14:00, Enes): "ben olsam" kararının dayandığı göstergeleri gösteren grafik görüntüsü Enes'e SendUserFile ile atılır (önemli karar/değişiklik olan hisseler için, her kontrolde en çok 3-4 görsel; kullanım limiti).
+  - Bilgisayar açıksa: TradingView (UN09ZFN8, ilgili zaman dilimi), mcp__claude-in-chrome__computer screenshot save_to_disk=true. Basic plan 2 gösterge sınırı: gerekirse göstergeyi değiştir, görüntüyü al, ctrl+s. X'e girme.
+  - Ek olarak ya da bilgisayar kapalıysa: Yahoo verisinden matplotlib ile koyu temalı grafik çiz (fiyat + EMA 200 + VWAP + dip bölgesi/FVG/OB kutuları + Fib OTE + alt panelde RSI/MACD/OBV), kararı destekleyen seviyeler işaretli. invest/g/ta/ altına kaydet.
+  - Görsele kısa açıklama: hangi gösterge neyi gösteriyor, karar neden bu.
 - Tweet değildir; al/sat tweette yok kuralı aynen geçerli. Portföy güncellemesi tweetini Enes atar.
 - Zincir: her kontrol sonunda bir sonraki kontrol için send_later kurulur (18:00 -> 23:30 aynı gün; 23:30 -> sonraki işlem günü 18:00). Hafta sonu ve ABD tatilleri atlanır (26.11.2026 Şükran Günü kapalı; 27.11 yarım gün).
 
@@ -471,6 +475,7 @@ E) DİL VE SINIRLAR
 | 13:32 | Amacım en dipleri bulmak, yatırımcıyım | 0, 14 |
 | 13:54 | Portföy güncellemesi tweetlerini kaldır, onları ben atarım | 1, başlık |
 | 13:55 | Günde 2 kez (açılış +30, kapanış -30) portföy + en iyi 3-4 hisse teknik kontrol, 'ben olsam' kararları | 14b, başlık |
+| 14:00 | Teknik kontrollerde kararı destekleyen göstergeli grafik ekran görüntüsünü sohbete at | 14b |
 | 13:58 | Profesyonel yatırımcı/analist yöntemi: temel + teknik, adayları portföyle karşılaştır, daha iyisi varsa öner yoksa önerme; sonraki devir notu bu kurallarla | 14c, başlık |
 | 13:56 | Bu iki kuralı ekle, sonraki devirde kesinlikle böyle devam | başlık, A5, B |
 | 13:33 | Tüm kurallarla kapsamlı devir notu yaz, hiçbir şeyi atlama, kanıtla | bu dosya |
