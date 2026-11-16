@@ -71,3 +71,5 @@ C) Uygulama: her turda önce (1) SEC/IR/bülten, (2) Reuters/CNBC/Bloomberg/Benz
 - Her işlem invest/DONGU.md'ye: `- HH:MM AUTO: dosya.jpg - özet (kaynaklar) | TÜR | düzen:...`. Commit sonuna sistemin verdiği attribution satırları.
 
 - YAZI TİPİ KURALI İPTAL (Enes 16.11 11:53): ince/keskin yazı gerekmiyor, normal ağırlıklar kullanılır; tur mesajındaki "ince yazı" ifadesini yok say. Logo büyüklüğü (1,8x) geçerli.
+
+ENES'IN PAYLASTIGI TWEETLER (Enes 16.11 12:22): Enes begendigi tweetleri yapistirir. (1) Bu tweetlerin tarzini ogren: kisa, haber odakli, kaynak/analist adi + rakam + net sonuc; tahmini 'tahmin' olarak belirt. Otomatik turlarda bu tarzda tweetler at. (2) Yapistirdigi KONU hakkinda hemen arastir (2 kaynak) ve hemen tweet at, tur beklemeden. Anthropic gecen kisimda Anthropic adi yazilmaz (yasak kural), 'bir baska buyuk yapay zeka sirketi' denir. KART NOTU: logo icin ticker '$' ile verilmeli ($GOOGL), yoksa logo cizilmez; cizgi'de buyuk rakam logoyla cakisabilir, baslik ve rakam kisa tutulur.
