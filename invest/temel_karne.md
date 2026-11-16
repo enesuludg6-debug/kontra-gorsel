@@ -3,6 +3,7 @@
 Kurallar: her kart tarihli; her rakam 2 kaynak (tek kaynaksa "(tek kaynak)"); bulunamayan "bilinmiyor"; yıl kontrolü.
 Puan 1-5: İŞ (hendek), BÜYÜME, KÂRLILIK, NAKİT/BİLANÇO, DEĞERLEME, BEKLENTİ MOMENTUMU, RİSK (5 = düşük risk). TEMEL TOPLAM /35.
 Tazelik: kart 7 günden eskiyse veya arada bilanço/büyük haber varsa yenilenir.
+16.11 18:19 EK: karne artık bölüm 14h GENİŞLETİLMİŞ METRİK LİSTESİYLE yapılır, 10 başlık /50 (BÜYÜME, KÂRLILIK, NAKİT, BİLANÇO, DEĞERLEME, MOMENTUM, SAHİPLİK/AKIŞ, GÖRECELİ GÜÇ, KALİTE/YÖNETİM, RİSK/KATALİZÖR). Aşağıdaki /35 tablo eski format; DOCN /50 ile yenilenecek. Yeni kartlar alttaki /50 tablosuna yazılır.
 Rotasyon sırası (eksik/eskiden başla): NBIS RKLB SITM AXON CBRS VRT ECL TSM AVGO DOCN + yeni adaylar.
 
 | Hisse | Tarih | İŞ | BÜY | KÂR | NAKİT | DEĞ | MOM | RİSK | TOPLAM | Not |
@@ -17,6 +18,20 @@ Rotasyon sırası (eksik/eskiden başla): NBIS RKLB SITM AXON CBRS VRT ECL TSM A
 | ECL | - | | | | | | | | eksik | |
 | TSM | - | | | | | | | | eksik | |
 | AVGO | - | | | | | | | | eksik | |
+
+### /50 TABLO (14h)
+| Hisse | Tarih | BÜY | KÂR | NAKİT | BİLANÇO | DEĞ | MOM | AKIŞ | GÖR.GÜÇ | KALİTE | RİSK | TOPLAM | Not |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| NBIS | - | | | | | | | | | | | eksik | |
+| RKLB | - | | | | | | | | | | | eksik | |
+| SITM | - | | | | | | | | | | | eksik | |
+| AXON | - | | | | | | | | | | | eksik | |
+| CBRS | - | | | | | | | | | | | eksik | |
+| VRT | - | | | | | | | | | | | eksik | |
+| ECL | - | | | | | | | | | | | eksik | |
+| TSM | - | | | | | | | | | | | eksik | |
+| AVGO | - | | | | | | | | | | | eksik | |
+| DOCN | - | | | | | | | | | | | yenilenecek (/35: 24) | |
 
 ---
 
