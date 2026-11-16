@@ -70,8 +70,11 @@ def _plate_fill(lg, a=245):
     return (255, 255, 255, a)
 
 
+LOGO_BUYUT = 1.4  # Enes 16.11 10:30: logolar daha belirgin olsun
+
+
 def _logo(ticker, size):
-    return K.logo(ticker, size) if ticker and ticker.startswith("$") else None
+    return K.logo(ticker, int(size * LOGO_BUYUT)) if ticker and ticker.startswith("$") else None
 
 
 def _footer(img, kaynak, ink=(235, 235, 240), muted=(150, 150, 160), line=(60, 60, 70), acc=None):
@@ -776,7 +779,7 @@ def editoryal(ticker, kicker, baslik, spot, rakamlar3, kaynak, out, tarih="", ze
     d.text((72, 190), kicker.replace("i", "İ").upper(), font=sans(28, "ExtraBold"), fill=CL)
     f = None
     for fs in range(128, 60, -4):
-        f = K.serif(fs); ls = _wrap(d, baslik, f, W - 144 - (200 if lg else 0))
+        f = K.serif(fs); ls = _wrap(d, baslik, f, W - 144 - (300 if lg else 0))
         if len(ls) <= 4: break
     y = 244
     for l in ls:
