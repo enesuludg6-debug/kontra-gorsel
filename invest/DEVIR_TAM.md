@@ -9,7 +9,7 @@ Kaynaklar: invest/DEVIR.md (15.11 v1), invest/DEVIR_OZET.md (15.11 21:05 + 16.11
 3) HİSSE SEÇİMİ PROFESYONEL YÖNTEMLE: temel (13 maddelik kontrol listesi) + teknik (bölüm 13) puan kartı; adaylar portföyle aynı kartla karşılaştırılır; daha iyisi varsa önerilir, yoksa önerilmez. (bölüm 14c)
 4) TEKNİK ANALİZ TWEETİ: 'bence dibe yakın / ben şuradan kademe eklerim, orayı kırarsa şuradan' dili serbest; tavsiye ve emir kipi yok; sade konuşma dili. (bölüm 6)
 5b) TEKNİK ANALİZ GÖRSELİ = TRADINGVIEW EKRAN GÖRÜNTÜSÜ (16.11 18:05, Enes: "kendin oluşturma teknik analiz görsellerini, ss at bana"). Kendi çizdiğimiz grafik (ta_grafik.py) teknik analiz görseli olarak GÖNDERİLMEZ. Her hisse için TradingView (UN09ZFN8) ekran görüntüsü alınır (gerekirse ilgili dilim ve göstergeler), SendUserFile ile gönderilir. tk_auto.py yalnız seviye hesabı için kullanılır. Bilgisayar/Chrome kapalıysa görsel gönderilemez, Enes'e söylenir. (eski: matplotlib grafik)
-5c) GÖNDERİM SIRASI (16.11 18:09, Enes: "tweet ekran görüntüsü tweet ekran görüntüsü"): her hisse SIRAYLA gönderilir: önce o hissenin TradingView ekran görüntüsü (SendUserFile, başlık "1/10 RKLB" gibi), HEMEN ARDINDAN o hissenin tweet taslağı (SendUserMessage, sadece tweet metni, kopyalanmaya hazır). Görseller toplu, tweetler ayrı mesajda GÖNDERİLMEZ. Sonra kısa özet mesajı.
+5d) GÖNDERİM SIRASI (16.11 18:09, Enes: "tweet ekran görüntüsü tweet ekran görüntüsü"): her hisse SIRAYLA gönderilir: önce o hissenin TradingView ekran görüntüsü (SendUserFile, başlık "1/10 RKLB" gibi), HEMEN ARDINDAN o hissenin tweet taslağı (SendUserMessage, sadece tweet metni, kopyalanmaya hazır). Görseller toplu, tweetler ayrı mesajda GÖNDERİLMEZ. Sonra kısa özet mesajı.
 5) TEKNİK ANALİZ TWEETLERİ: her kontrolde bakılan HER hisse için ayrı görsel + ayrı tweet taslağı Enes'e gönderilir; Claude teknik analiz tweeti PAYLAŞMAZ (Enes paylaşır). Her kademe/stop/hedef seviyesinin nedeni (çakışan göstergeler ve dilimler) yazılır. (bölüm 14d, 14e)
 6) TWEET AKIŞI: her turda analist notu akışları (TheFly, StreetInsider, Investing, MarketBeat, TipRanks, Benzinga, Futu) + lansman/ortaklık kaynakları taranır; boş tur geçilmez, 09:00-01:00 her tur bir tweet hedefi (günde en çok 45). (bölüm 4)
 8) ZAMANLAMA: otomatik tweet 20-40 dk'da bir (rastgele); Enes'in yapıştırdığı tweet hemen atılır ama otomatik zincirin zamanlamasını etkilemez. (bölüm 2)
@@ -553,7 +553,7 @@ E) DİL VE SINIRLAR
 | 15:15 | WebFetch onayı (ir.tyson.com) | 3 |
 | 15:29 | Haberleri istersen Chrome'dan araştır (açık) | 10 |
 | 18:05 | Teknik analiz görsellerini kendin oluşturma, TradingView ekran görüntüsü at | başlık 5b, 14b, 14d |
-| 18:09 | Sırayla at: ekran görüntüsü, tweet, ekran görüntüsü, tweet (tek tek toplu değil) | başlık 5c |
+| 18:09 | Sırayla at: ekran görüntüsü, tweet, ekran görüntüsü, tweet (tek tek toplu değil) | başlık 5d |
 | 16:46 | Artık 20-40 dk'da bir at; benim attıklarımı hemen at ama senin zamanlamanı etkilemesin; devir notuna ekle, hiçbir kuralı atlama, tekrar tekrar kontrol et | 2, B, başlık 8 |
 | 16:36 | Tweet aralıklarını 7'şer dk arttır (5-20 -> 12-27 dk) | 2, B |
 | 16:33 | $CRWV bilanço formatı: bilançolar bu sayfa düzeninde yazılacak; sayfa stiline uyan hissede 15 dk sonra kapsamlı analiz; devir notuna ekle ve bana tekrar at | 4, başlık 7 |
