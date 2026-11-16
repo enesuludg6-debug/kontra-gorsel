@@ -92,9 +92,13 @@ def ciz(ticker, baslik, bolgeler, cizgiler, etiketler, panel_notlari, son_fiyat,
         ax.set_ylim(*ylim)
     ax.yaxis.tick_right()
     fig.canvas.draw()
-    for y, k, txt in etiketler:
-        fy = ax.transData.transform((0, y))[1] / fig.dpi / 13.5
-        fig.text(0.695, fy, txt, color=RENK[k], fontsize=11, va="center")
+    pos = sorted([(ax.transData.transform((0, y))[1] / fig.dpi / 13.5, k, txt) for y, k, txt in etiketler], reverse=True)
+    son = None
+    for fy, k, txt in pos:
+        if son is not None and son - fy < 0.022:
+            fy = son - 0.022
+        son = fy
+        fig.text(0.695, fy, txt, color=RENK[k], fontsize=10.5, va="center", wrap=True)
     axes[1].plot(idx, [R[s + i] for i in idx], color=RENK["fiyat"], lw=1.5)
     axes[1].axhline(70, color=RENK["sat"], lw=0.7, ls="--")
     axes[1].axhline(30, color=RENK["al"], lw=0.7, ls="--")
