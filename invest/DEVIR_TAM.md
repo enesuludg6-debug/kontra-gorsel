@@ -9,6 +9,7 @@ Kaynaklar: invest/DEVIR.md (15.11 v1), invest/DEVIR_OZET.md (15.11 21:05 + 16.11
 3) HİSSE SEÇİMİ PROFESYONEL YÖNTEMLE: temel (13 maddelik kontrol listesi) + teknik (bölüm 13) puan kartı; adaylar portföyle aynı kartla karşılaştırılır; daha iyisi varsa önerilir, yoksa önerilmez. (bölüm 14c)
 4) TEKNİK ANALİZ TWEETİ: 'bence dibe yakın / ben şuradan kademe eklerim, orayı kırarsa şuradan' dili serbest; tavsiye ve emir kipi yok; sade konuşma dili. (bölüm 6)
 5) TEKNİK ANALİZ TWEETLERİ: her kontrolde bakılan HER hisse için ayrı görsel + ayrı tweet taslağı Enes'e gönderilir; Claude teknik analiz tweeti PAYLAŞMAZ (Enes paylaşır). Her kademe/stop/hedef seviyesinin nedeni (çakışan göstergeler ve dilimler) yazılır. (bölüm 14d, 14e)
+6) TWEET AKIŞI: her turda analist notu akışları (TheFly, StreetInsider, Investing, MarketBeat, TipRanks, Benzinga, Futu) + lansman/ortaklık kaynakları taranır; boş tur geçilmez, 09:00-01:00 her tur bir tweet hedefi (günde en çok 45). (bölüm 4)
 Yeni oturum A5'te bu iki teknik kontrol zincirini MUTLAKA kurar. Devir notu yeniden yazılırsa bu 3 kural aynen korunur.
 
 YENİ OTURUMSAN ÖNCE A BÖLÜMÜNÜ UYGULA. Her turun başında bu dosya BAŞTAN SONA okunur. Sonra DEVIR_OZET.md (ek ayrıntı) ve DONGU.md'nin TAMAMI okunur.
@@ -166,6 +167,12 @@ OTOMATİK PAYLAŞIM TURU (Enes 15.11 21:15 "oto atmaya devam"). ÖNCE invest/DEV
     - Derin: Semianalysis, The Information, Nikkei, DigiTimes, TrendForce, Axios, Techmeme, SpaceNews.
   - Sosyal sinyal (Walter Bloomberg, DeItaone, FirstSquawk vb.) 2 güvenilir kaynakla doğrulanmadan KULLANILMAZ.
   - X hesaplarına Claude girmez.
+- ENES'İN ATTIĞI TWEETLERDEN DERS (16.11 15:42, Enes: "attığım tweetlerden öğren hangi sitelere bakman gerektiğini ve ne kadar tweet atman gerektiğini"):
+  - Enes'in örnekleri (12:22 Kuo/TPU, 15:39 Uber/Zoox, 15:42 Citi/NBIS) üç tür: (a) ANALİST NOTU: "X price target lowered/raised to $A from $B at Kurum" (TheFly/StreetInsider formatı), (b) ŞİRKET/ORTAKLIK LANSMANI (bugün başlayan ürün, şehir, anlaşma), (c) ANALİST TAHMİNİ (Kuo gibi tanınmış isim + rakam).
+  - HER TURDA BAKILACAK KAYNAKLAR (son dakika taramasına ek): analist not akışları: TheFly (thefly.com/news), StreetInsider ratings, Investing.com "analyst ratings", MarketBeat ratings, TipRanks news, Benzinga analyst ratings, Futu/Moomoo haber başlıkları, aktiencheck/finanzen (Almanca ama hızlı). Lansman/ortaklık: Business Wire, PR Newswire, GlobeNewswire, şirket IR, TechCrunch, The Verge, Electrek. Gerekirse Chrome'da açılır (bölüm 10). Portföy + ilgi listesi + büyük yapay zeka/yarı iletken/bulut/uzay/robotaksi şirketleri öncelikli.
+  - ANALİST NOTU TWEETİ KALIBI: kurum + analist (biliniyorsa) + eski → yeni hedef + tavsiye + neden (notun gerekçesi) + bağlam (son 2-4 haftadaki önceki değişiklik, bilanço) + mevcut fiyata göre fark (Yahoo fiyatıyla hesapla) + tek cümle görüş. Hedef ve tavsiye 2 kaynakla (ör. Futu + aktiencheck/TipRanks); notun içeriği (gerekçe) tek kaynaktaysa sadece doğrulanmış kısmı yaz.
+  - NE KADAR TWEET: Enes daha sık ve sürekli akış istiyor. 09:00-01:00 arasında her tur (5-20 dk) bir tweet hedeflenir, günlük tavan 45. "Taze haber yok" diye BOŞ TUR GEÇİLMEZ: son dakika yoksa sırasıyla (1) son 24 saatin analist notları, (2) bugünkü lansman/ortaklık/anlaşmalar, (3) bu hafta takvimi, (4) menü. Boş tur yalnızca hiçbir şey 2 kaynakla doğrulanamazsa olur ve DONGU'ya nedeni yazılır.
+  - Enes tweet yapıştırınca: 3 saat ticker kuralı ve tur sırası beklenmez, hemen araştırılıp atılır; örnek ORNEKLER.md'ye eklenir.
 - VADELİ İŞLEMLER HER İŞLEM GÜNÜ (16.11 02:05):
   - 09:05 turunda ve ABD açılışından önce (~15:00-15:25 TSİ) tekrar. Dow, S&P 500, Nasdaq 100, Russell 2000 vadelilerinin önceki kapanışa göre %'si.
   - %1+ sürprizde ek tweet.
@@ -526,6 +533,8 @@ E) DİL VE SINIRLAR
 | 13:55 | Günde 2 kez (açılış +30, kapanış -30) portföy + en iyi 3-4 hisse teknik kontrol, 'ben olsam' kararları | 14b, başlık |
 | 15:15 | WebFetch onayı (ir.tyson.com) | 3 |
 | 15:29 | Haberleri istersen Chrome'dan araştır (açık) | 10 |
+| 15:39 | Uber/Zoox tweeti yapıştırdı (hemen araştırılıp atıldı) | 4, 8 |
+| 15:42 | Citi/NBIS hedef indirimi yapıştırdı; attığım tweetlerden hangi sitelere bakacağını ve ne kadar tweet atacağını öğren | 4, başlık 6 |
 | 15:31 | Her haber için en iyi ve kapsamlı hangi araçsa onu kullan | 10 |
 | 14:19 | Farklı sohbete geçiş için eksiksiz devir notu yaz (v4); şimdilik bu sohbetten otomatik devam | 14f, 16, 19 |
 | 14:15 | Hepsini eklediğini kontrol et, yeni devir notunda bu kurallar eksiksiz olsun | 14f, A6, A7 |

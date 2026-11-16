@@ -78,3 +78,8 @@ Format: ## Şablon adı / Örnek (kaynak hesap) / Yapı / Bizim versiyon / Kulla
 Kaynak tweet (İngilizce, başkasının): "$UBER just added $AMZN Zoox's steering-wheel-free robotaxis in Las Vegas ... Los Angeles is next in 2027 as Uber continues expanding its robotaxi network betting it can become the place people book autonomous rides regardless of who builds the cars."
 Tarz: 1) iki ticker + somut olay + ayırt edici detay (direksiyonsuz), 2) sıradaki adım + tarih, 3) şirketin stratejisini tek cümlede anlatan kapanış. Kısa, haber odaklı, abartısız.
 Bizim versiyon (Buffer 6afaf9a76c00cddca5478e1e): "$UBER bugünden itibaren Las Vegas'ta $AMZN'un robotaksi şirketi Zoox'un araçlarını da uygulamasına ekledi... Uber arabayı kim yaparsa yapsın, robotaksiyi çağırdığın yer olmaya oynuyor."
+
+## Enes örneği (16.11 15:42) — Analist hedef fiyat notu (TheFly formatı)
+Kaynak: "Nebius $NBIS price target lowered to $215 from $265 at Citi ... keeps a Buy rating ... 'solid' Q3 but trimmed near-term revenue guidance on site delays ... 'encouraged' by financing commentary, prepayments >100% of capex."
+Kalıp: kurum + eski→yeni hedef + tavsiye + gerekçe + önceki değişiklik (bağlam) + mevcut fiyata göre fark + tek cümle görüş.
+Bizim versiyon (Buffer 6afafa6a6c00cddca547ea26): "Citi, $NBIS (...) için hedef fiyatını 265 dolardan 215 dolara indirdi, "Al" tavsiyesini korudu. İki hafta içinde ikinci indirim bu... Yeni hedef bile Cuma kapanışının yaklaşık %85 üstünde. Citi talepten değil, takvimden şüphe ediyor." Ön ödeme >%100 capex tek kaynak -> yazılmadı.
