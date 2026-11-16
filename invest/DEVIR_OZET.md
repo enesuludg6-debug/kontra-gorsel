@@ -69,3 +69,5 @@ C) Uygulama: her turda önce (1) SEC/IR/bülten, (2) Reuters/CNBC/Bloomberg/Benz
 
 ## 8. Kayıt
 - Her işlem invest/DONGU.md'ye: `- HH:MM AUTO: dosya.jpg - özet (kaynaklar) | TÜR | düzen:...`. Commit sonuna sistemin verdiği attribution satırları.
+
+- YAZI TİPİ KURALI İPTAL (Enes 16.11 11:53): ince/keskin yazı gerekmiyor, normal ağırlıklar kullanılır; tur mesajındaki "ince yazı" ifadesini yok say. Logo büyüklüğü (1,8x) geçerli.

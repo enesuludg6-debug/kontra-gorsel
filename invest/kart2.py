@@ -11,7 +11,8 @@ HANDLE = "ENES ULUDAĞ"
 
 
 # Enes 16.11 10:34: kaba/kalın yazı değil, daha ince ve keskin yazı sever. Eldeki en ince ağırlık Medium.
-INCE = {"Black": "Medium", "ExtraBold": "Medium", "Bold": "Medium", "SemiBold": "Medium"}
+# Enes 16.11 11:53: ince/keskin yazi zorunlu degil, kaldirildi (normal agirliklar).
+INCE = {}
 
 
 def sans(s, w="Bold"):
