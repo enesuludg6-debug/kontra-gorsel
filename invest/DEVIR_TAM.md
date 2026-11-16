@@ -309,7 +309,8 @@ OTOMATİK PAYLAŞIM TURU (Enes 15.11 21:15 "oto atmaya devam"). ÖNCE invest/DEV
 - Tarayıcı ve bilgisayar: tradingview.com + HABER ARAŞTIRMASI (16.11 15:29, Enes: "istersen Chrome'dan araştır haberleri"). (eski: SADECE tradingview.com)
   - Haber için Chrome kullanım sırası: önce WebSearch; sonuç gelmezse, sayfa JS ile yükleniyorsa (ör. ir.tyson.com haber listesi) veya WebFetch PROVENANCE_REQUIRED/izin isterse Chrome'da YENİ sekme aç (tabs_create_mcp), navigate + get_page_text ile oku, iş bitince sekmeyi kapat (tabs_close_mcp). TradingView sekmesine dokunma.
   - Sadece okuma: form doldurma, giriş, abonelik, yorum, paylaşım YOK. Çerez bannerlarında en gizli seçenek. X.com'a ASLA girilmez.
-  - Kullanım limiti: Chrome adımları pahalı; günlük haber taramasında WebSearch esas, Chrome yalnız gerektiğinde.
+  - HER HABERDE EN İYİ ARAÇ (16.11 15:31, Enes: "her haber için nasıl daha iyi ve kapsamlı yapabileceksen onu kullan"): haberi en doğru ve kapsamlı hâliyle almak için hangi araç gerekiyorsa o kullanılır: WebSearch, WebFetch, Chrome'da birincil kaynak (şirket IR, SEC EDGAR, Fed/BLS, Reuters/CNBC/Bloomberg sayfası), Yahoo verisi. Birincil kaynağı Chrome'dan açıp okumak kaliteyi artıracaksa açılır. (eski 15:29: Chrome yalnız gerektiğinde)
+  - Kullanım limiti yine dikkate alınır: aynı bilgi WebSearch ile 2 kaynaktan netse Chrome açılmaz; limit dolmaya yaklaşırsa Enes'e söylenir.
   - TradingView'da paylaşım, yorum, fikir yayınlama, hesap/abonelik ayarı YOK. Kayıtlı çizim şablonları silinmez.
 - Enes'in bilgisayarı: Windows, Claude in Chrome eklentisi, deviceId 2c13b0fb-418e-4a79-aee9-34fd79d23bef. Bilgisayar ve Chrome açıksa çalışır, kapalıysa Yahoo hesaplarına geçilir.
 - TradingView planı Basic: grafik başına en fazla 2 gösterge.
@@ -525,6 +526,7 @@ E) DİL VE SINIRLAR
 | 13:55 | Günde 2 kez (açılış +30, kapanış -30) portföy + en iyi 3-4 hisse teknik kontrol, 'ben olsam' kararları | 14b, başlık |
 | 15:15 | WebFetch onayı (ir.tyson.com) | 3 |
 | 15:29 | Haberleri istersen Chrome'dan araştır (açık) | 10 |
+| 15:31 | Her haber için en iyi ve kapsamlı hangi araçsa onu kullan | 10 |
 | 14:19 | Farklı sohbete geçiş için eksiksiz devir notu yaz (v4); şimdilik bu sohbetten otomatik devam | 14f, 16, 19 |
 | 14:15 | Hepsini eklediğini kontrol et, yeni devir notunda bu kurallar eksiksiz olsun | 14f, A6, A7 |
 | 14:15 | Tüm çalışmaları ve kuralları ekle; kademelerin nedenini yaz; 18:00/23:30'da bakılan her hisse için ayrı görsel + tweet bana gönder, teknik analizi ben paylaşırım (Buffer 1000/ay) | 14d, 14e, başlık |
