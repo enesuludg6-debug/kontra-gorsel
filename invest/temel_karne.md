@@ -36,6 +36,19 @@ Rotasyon sırası (eksik/eskiden başla): NBIS RKLB SITM AXON CBRS VRT ECL TSM A
 
 ---
 
+### 14i DENETİM ÖZETİ (16.11 21:20) — GÖRECELİ GÜÇ HARİÇ /45 (teknikle çift sayımı önlemek için; 14c-D karşılaştırması bununla + teknik puanla yapılır)
+| Hisse | /50 | GÖR.GÜÇ | /45 (temel, fiyat trendi hariç) | En zayıf 2 başlık | Kırmızı bayrak (14i-B) | Güven |
+|---|---|---|---|---|---|---|
+| VRT | 39 | 1 | 38 | GÖR.GÜÇ 1, AKIŞ 3 / RİSK 3 | yok | orta (nakit/bilanço tek kaynak) |
+| SITM | 36 | 3 | 33 | DEĞ 3, NAKİT 3 | yok | orta (organik büyüme tek kaynak) |
+| ECL | 36 | 5 | 31 | DEĞ 2, BÜY/NAKİT/BİLANÇO 3 | yok | orta (değerleme verisi eski -> bugünkü fiyatla düzeltildi) |
+| RKLB | 30 | 3 | 27 | DEĞ 1, KÂR/RİSK 2 | yok | orta |
+| AXON | 27 | 1 | 26 | MOM 1, KÂR/NAKİT 2 | rehber düşürüldü (1 kez; 2. olursa bayrak) | orta |
+| CBRS | 26 | 2 | 24 | NAKİT 1, KÂR/DEĞ/AKIŞ/RİSK 2 | VAR: müşteri yoğunlaşması %86 (2025), açığa satış float %14,5 (sınırda) | düşük-orta (çok tek kaynak) |
+| NBIS | 23 | 1 | 22 | NAKİT 1, GÖR.GÜÇ 1 | kontrol edilecek (nakit/borç ağır, 14i-B eşikleriyle sonraki yenilemede) | orta |
+| DOCN | 24/35 (eski format) | - | - | - | - | /50 yenilemesi sırada |
+Not: sıralama /45'e göre de aynı kaldı (VRT > SITM > ECL > RKLB > AXON > CBRS > NBIS); fark: ECL'in yüksek puanının 5 puanı fiyat trendinden geliyordu.
+
 ## DOCN — 16.11.2026 18:30 (Q3 2026, açıklama 3.11)
 Kaynaklar: stockanalysis.com istatistik (5.11 verisi), Barchart/Webull, MarketBeat çağrı özeti, Earnings Whispers/Finviz, finsee.ai, cryptobriefing.
 1. İş/hendek (3): geliştirici ve küçük-orta işletme bulutu, AI çıkarım (Inference Engine) hızla büyüyor; AI müşteri ARR 376 Mn$ +%288 (cryptobriefing; MarketBeat token hacmi ~10 kat). Rakipler AWS/Azure/GCP + neo-bulutlar; hendek orta.
@@ -127,6 +140,7 @@ Kaynaklar: şirket bülteni 8-K (SEC EDGAR), Investing çağrı özeti, KuCoin/O
 9) KALİTE/YÖNETİM 3/5 — Wafer ölçekli çip ile hızlı çıkarım (inference) teknolojisinde hız avantajı; OpenAI, AWS, AMD ortaklıkları (8-K'lar). Kurucu CEO Andrew Feldman. EKSİ: müşteri yoğunlaşması aşırı — 2025'te MBZUAI %62, G42 %24 (toplam %86), 2024'te G42 %85 (S-1 + 424B4).
 10) RİSK/KATALİZÖR 2/5 — BAE (G42/MBZUAI) bağımlılığı ve ihracat düzenlemeleri, veri merkezi gecikmeleri (RPO'dan gecikme kredisi düşüldü, iptal riski taahhüt edilen MW'ın %5'inden az; takvime dönüş 2027 2. yarı) (Leafy, tek kaynak), yüksek açığa satış, lock-up. Katalizör: Q4 bilançosu (Şubat), NVDA bilançosu (AI talep algısı), yeni hiperölçekli anlaşmalar.
 SEKTÖR KPI (AI donanım/yeni halka arz): sözleşmeli kapasite 700 MW; RPO 26,1 Mr$; müşteri yoğunlaşması %86 (2025); çekirdek bulut payı ~%63 (Leafy); halka arz fiyatına göre konum: bilinmiyor.
+DENETİM (14i): A2 birim hatası (KuCoin 9,4 Mr$) düzeltildi; A4 NAKİT/BİLANÇO/AKIŞ tek kaynak -> güven düşük; A8 erken aşama şirket, negatif FCF runway ile birlikte değerlendirildi (NAKİT 1 kalır: runway ~4 yıl ama FCF/gelir -%180); A12 52 hafta yok, ceza verilmedi; 14i-B kırmızı bayrak: müşteri yoğunlaşması. Sonucu en çok değiştiren varsayım: değerleme çarpanı (EV/yıllık hız 8-22).
 SONUÇ: TEMEL 26/50. Büyüme ve sipariş görünürlüğü çok güçlü, bilançoda bol nakit; ama nakit yakımı büyük, değerleme pahalı, müşteri yoğunlaşması ve açığa satış yüksek. Portföydeki en riskli temel profillerden biri (NBIS 23, AXON 27 ile birlikte alt grup).
 
 
@@ -144,6 +158,7 @@ Kaynaklar: şirket bültenleri 8-K (Q3, Q2, Q1 2026, Q4 2025; SEC EDGAR), Invest
 9) KALİTE/YÖNETİM 4/5 — Veri merkezi güç ve soğutma altyapısında lider (sıvı soğutma, chiller kapasitesi yıl sonuna 2 katına çıkıyor — Yahoo, tek kaynak); marj ve ROIC istikrarlı yükseliyor = fiyatlama gücü kanıtı. EKSİ: sipariş verisini gizleme kararı şeffaflığı azaltıyor.
 10) RİSK/KATALİZÖR 3/5 — Yapay zeka veri merkezi harcama döngüsüne bağımlılık (Warsh'ın 16.11 "yatırım karşılık vermezse" senaryosu tam bu risk), yüksek beta, kapasite artırımında uygulama riski. Katalizör: NVDA bilançosu (bu hafta), Q4 bilançosu (Şubat), 2027 rehberi.
 SEKTÖR KPI (elektrik/soğutma altyapısı): organik sipariş +%100 üstü (Q3), book-to-bill ~2,9 ve birikim 15 Mr$ (Q4 2025, son açıklanan), veri merkezi payı bilinmiyor, kapasite artışı (chiller 2x).
+DENETİM (14i): A1 fiyat 13.11 (202$) -> bugün 189 ile ileri F/K ~20 yazıldı; A4 NAKİT/BİLANÇO tek kaynak (stockanalysis) -> 8-K ile kısmen teyit (FCF 652 Mn$, net nakit); A9 GÖRECELİ GÜÇ 1 teknikle çakışıyor -> /45 = 38; A10 BÜYÜME organik %55 ile verildi. Sonucu en çok değiştiren: sipariş verisinin artık açıklanmaması (görünürlük).
 SONUÇ: TEMEL 39/50 — portföyün en yüksek temel puanı (SITM 36). Büyüme, marj, nakit, bilanço en üst seviyede; değerleme büyümeye göre ucuz. Zayıf taraf tamamen fiyat trendi (göreceli güç 1/5). Temel çok güçlü + teknik zayıf = dip bölgesinde kademeli alım için portföyün en iyi adayı.
 
 
@@ -161,4 +176,5 @@ Kaynaklar: şirket bülteni 8-K (SEC), last10k (bülten), Benzinga, Quartr, Indi
 9) KALİTE/YÖNETİM 5/5 — Su arıtma, hijyen, haşere kontrolünde küresel lider; tekrarlayan hizmet geliri, en büyük 35 müşteriyle 400 Mn$+ büyüme (Quartr, tek kaynak); fiyatlama gücü (fiyat +%5 ile emtia maliyetini karşıladı). CEO Christophe Beck. Veri merkezi sıvı soğutma (CoolIT) ve yarı iletken su arıtma (Ovivo) ile yapay zeka temasına giriş.
 10) RİSK/KATALİZÖR 4/5 — Emtia maliyetleri yüksek kalacak (AllInvestView), CoolIT entegrasyonu ve maliyetleri (2026 HBK'ya ~6 puan baskı, Quartr), Orta Doğu aksaklıkları (last10k), Institutional & Specialty zayıf (AllInvestView). Düşük beta. Katalizör: Q4 bilançosu (Şubat), 2027 rehberi (%12-15 HBK büyümesi hedefi), CoolIT siparişleri.
 SEKTÖR KPI (kimya/hijyen): organik satış +%7, fiyat +%5 / hacim +%2, organik brüt marj sabit, High-Tech +%63.
+DENETİM (14i): A1 eski veri (27.10) -> F/K bugünkü fiyatla ~38; A9 GÖRECELİ GÜÇ 5 teknikle çakışıyor -> /45 = 31; A10 organik %7 ile puanlandı; A14 WF yükseltmesi yalnız MOMENTUM'a girdi. Sonucu en çok değiştiren: değerleme (ileri F/K 34-38).
 SONUÇ: TEMEL 36/50. Kalite, istikrar ve teknik trend çok güçlü; büyüme orta, değerleme pahalı, borç satın almalarla arttı. Portföyün yüksek beta'lı hisselerine karşı savunmacı bir denge adayı; ama "dip avcısı" açısından fiyat dipte değil, trendin tepesinde (k1 291,7-308 geri çekilmesi beklenmeli).

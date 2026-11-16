@@ -1,4 +1,4 @@
-# ENESINVESTUS — TAM DEVİR NOTU (v6, 16.11.2026 16:50 TSİ)
+# ENESINVESTUS — TAM DEVİR NOTU (v7, 16.11.2026 21:20 TSİ) (eski: v6, 16:50)
 
 Bu dosya, Enes Uludağ'ın 15-16 Kasım 2026 boyunca verdiği TÜM kuralların birleşik ve güncel hâlidir.
 Kaynaklar: invest/DEVIR.md (15.11 v1), invest/DEVIR_OZET.md (15.11 21:05 + 16.11 ekleri), invest/ORNEKLER.md, invest/DONGU.md ve 16.11 canlı sohbet.
@@ -9,6 +9,7 @@ Kaynaklar: invest/DEVIR.md (15.11 v1), invest/DEVIR_OZET.md (15.11 21:05 + 16.11
 3) HİSSE SEÇİMİ PROFESYONEL YÖNTEMLE: temel (13 maddelik kontrol listesi) + teknik (bölüm 13) puan kartı; adaylar portföyle aynı kartla karşılaştırılır; daha iyisi varsa önerilir, yoksa önerilmez. (bölüm 14c)
 3b) TEMEL KARNE ÖNCEDEN HAZIR OLUR (16.11 18:14, Enes: "neden temelleri yapmadın, turlarda vaktin vardı"). Temel analiz 18:00/23:30 kontrolünün içine SIKIŞTIRILMAZ. Otomatik turlarda, tweet atıldıktan sonra her turda 1-2 hissenin temel kartı invest/temel_karne.md dosyasına yazılır/yenilenir (bölüm 14g). Kontroller kartı buradan okur. "Temel puan kartı kısmi" diye geçmek YASAK; kart eksikse kontrol mesajında hangi hissenin eksik olduğu açıkça yazılır ve bir sonraki tur o hisseyle başlar.
 3c) TEMEL KARNE = PROFESYONEL DERİNLİK (16.11 18:19, Enes: "daha çok metrikle, profesyonel bir borsacı gibi çok fazla detaya bak"). Karne bölüm 14h'deki GENİŞLETİLMİŞ METRİK LİSTESİYLE yapılır: 10 başlık, ~120 metrik, sektöre özel KPI'lar, değerleme senaryoları (ayı/baz/boğa), akran karşılaştırması. Puan 10 başlık x 1-5 = /50. 14c-A ve 14g aynen geçerli, 14h onların üstüne eklenir.
+3d) TEMEL KARNE ÖZ-DENETİMİ (16.11 21:16, Enes: "sürekli temel analiz yaparken yanlış veya adaletsiz sonuç nasıl çıkar düşün, ne eklenebilir düşün ve gittikçe geliştir"). Her karne yazıldıktan sonra bölüm 14i HATA/ADALETSİZLİK KONTROL LİSTESİ tek tek uygulanır, bulunan sorun karnede düzeltilir ve 14i-D HATA GÜNLÜĞÜ'ne yazılır. Her 5 karnede bir (ve her gün ilk turda) tüm tablo birlikte yeniden kalibre edilir (14i-C). Liste sabit değildir: her yeni hata türü 14i-A'ya yeni madde olarak eklenir (gittikçe geliştir).
 4) TEKNİK ANALİZ TWEETİ: 'bence dibe yakın / ben şuradan kademe eklerim, orayı kırarsa şuradan' dili serbest; tavsiye ve emir kipi yok; sade konuşma dili. (bölüm 6)
 5b) TEKNİK ANALİZ GÖRSELİ = TRADINGVIEW EKRAN GÖRÜNTÜSÜ (16.11 18:05, Enes: "kendin oluşturma teknik analiz görsellerini, ss at bana"). Kendi çizdiğimiz grafik (ta_grafik.py) teknik analiz görseli olarak GÖNDERİLMEZ. Her hisse için TradingView (UN09ZFN8) ekran görüntüsü alınır (gerekirse ilgili dilim ve göstergeler), SendUserFile ile gönderilir. tk_auto.py yalnız seviye hesabı için kullanılır. Bilgisayar/Chrome kapalıysa görsel gönderilemez, Enes'e söylenir. (eski: matplotlib grafik)
 5d) GÖNDERİM SIRASI (16.11 18:09, Enes: "tweet ekran görüntüsü tweet ekran görüntüsü"): her hisse SIRAYLA gönderilir: önce o hissenin TradingView ekran görüntüsü (SendUserFile, başlık "1/10 RKLB" gibi), HEMEN ARDINDAN o hissenin tweet taslağı (SendUserMessage, sadece tweet metni, kopyalanmaya hazır). Görseller toplu, tweetler ayrı mesajda GÖNDERİLMEZ. Sonra kısa özet mesajı.
@@ -82,6 +83,7 @@ A7. ENES İÇİN HAZIR METİN (Enes yeni sohbete bunu yapıştırır; repo izni 
 "enesuludg6-debug/kontra-gorsel reposunu bu sohbete PUSH (yazma) yetkisiyle eklemeni onaylıyorum; add_repo ile access=push ekle, klonla, commit ve push yap. Buffer ile otomatik paylaşım yapmanı ve send_later ile zincir kurmanı da onaylıyorum. Bu devir notunu oku ve hemen uygula: invest/DEVIR_TAM.md (repo enesuludg6-debug/kontra-gorsel). A bölümündeki adımları yap, kontrol sonucunu bana yaz ve otomatik turları başlat; 18:00 ve 23:30 teknik kontrol zincirlerini de kur. Bana soru sorma, eksik bir şey varsa ne yapmam gerektiğini tek cümleyle söyle."
 
 ## B. TUR TALİMATI (send_later mesajı — her tur sonunda bunu kopyala, sadece [köşeli] kısımları güncelle)
+B-EK2 (16.11 21:16): karneden sonra 14i öz-denetimi: 14i-A listesi tek tek, sorun varsa düzelt + 14i-D günlüğüne yaz, yeni hata türüyse 14i-A'ya madde ekle; 5 karnede bir 14i-C kalibrasyonu.
 B-EK (16.11 18:14 + 18:19, aşağıdaki satıra ek; satır değiştirilmedi): send_later mesajına şu da yazılır -> "DONGU'dan sonra TEMEL KARNE: invest/temel_karne.md'de eksik/en eski 1-2 hissenin kartını bölüm 14g yöntemi ve 14h GENİŞLETİLMİŞ METRİK LİSTESİYLE yaz (/50), DONGU'ya KARNE satırı, push."
 OTOMATİK PAYLAŞIM TURU (Enes 15.11 21:15 "oto atmaya devam"). ÖNCE invest/DEVIR_TAM.md (tam devir notu) ve invest/DEVIR_OZET.md'yi BAŞTAN SONA oku ve uygula; DONGU.md'nin TAMAMINI oku. Özet: /home/claude/kontra-gorsel/invest'te git pull. DURDUR (satır başında, tek başına) varsa hiçbir şey yapma ve send_later kurma. Buffer list_posts (organizationId 6af5719777bce44fa736607b, channelIds ["6af99a1aece6dfde5fd109c7"], first 50, status sent) ile bugün TSİ gönderilenleri say; son OTOMATİK paylaşım 20 dk'dan yeniyse paylaşma, 20-40 dk içinde kur (Enes kaynaklı paylaşımlar sayılmaz). 01:00-09:00 TSİ paylaşma (09:05 için kur; tek istisna önceden bilinen açıklama). Günde en fazla 45. ÖNCE SON DAKİKA TARA (WebSearch extended), taze ve 2 kaynakla doğrulanmış gelişme varsa onu at; yoksa daha önce atılmamış konu (DONGU'daki konular tekrar edilmez; aynı ticker 3 saat içinde yok: [son ticker saatleri]). Her rakam ve yan bilgi 2 kaynak; yıl kontrolü (2025/2026 karışıyor). Tweette kusur/şart yazarsan ne kadar olduğunu araştır, iyi mi kötü mü, rakamlar gerçek mi cevapla. Anthropic adı/konusu yok; al/sat tavsiyesi yok; emoji/hashtag/mention/link yok; soru ile bitirme yok. Kart: kart2.py, son 3 düzen ([son 3 düzen]) kullanılmasın; ticker '$' ile (logo için), halka logo çizmez; Türkçe büyük harf etiketlerini 'İ' ile hazır yaz; Read ile kontrol, yeni dosya adıyla düzelt, push, raw URL 200. Buffer create_post (channelId 6af99a1aece6dfde5fd109c7, automatic, shareNow, image + altText). SendUserMessage: metin + "Ne anlama geliyor?". Vadeli tweeti her işlem günü 09:05 ve ~15:00-15:25 TSİ (kart2.isi kolon=2 hane=2). [takvim notları]. HER TURDA PORTFÖY + GRAFİK: portföy NBIS RKLB DOCN SITM AXON CBRS VRT + yatırıma uygun bulduğun HERHANGİ bir hisse; `python3 ta2.py <tickerlar>` (21 gösterge, 1s/4s/günlük/haftalık) + bilgisayar açıksa TradingView (Chrome, düzen UN09ZFN8: Vol + Supertrend + LuxAlgo SMC; X'e asla girme). Enes YATIRIMCI, amacı EN DİPLERİ bulmak: dip bölgeleri, aşırı satım, pozitif uyumsuzluk, kademeli alım seviyeleri, tezin bozulduğu seviye. Notlar "BEN OLSAM" diliyle, sadece Enes'e mesajla, değişiklik/fırsat olunca. Portföy güncellemesi tweeti ATMA (Enes atar). Teknik analiz tweeti ATMA (Enes paylaşır, bölüm 14d). 18:00 ve 23:30 TSİ teknik kontroller ayrı zincirdir (bölüm 14b-14d), bu turda yoksa kur. DONGU.md'ye "AUTO" + tür + konu işle, push et. Ardından TEMEL KARNE: invest/temel_karne.md'de eksik ya da en eski 1-2 hissenin kartını yaz/yenile (bölüm 14g), DONGU'ya "KARNE", push. Son olarak bu mesajın aynısıyla (son 3 düzen ve ticker saatlerini güncelle) 20-40 dk rastgele gecikmeyle (random.randint(20,40)) yeni send_later kur.
 
@@ -561,6 +563,60 @@ KAYNAKLAR (karne için, sırayla): WebFetch stockanalysis.com/stocks/<t>/statist
 SÜRE: tek kart çok uzarsa (kullanım limiti) o turda 1 hisse yapılır; kart en az 10 başlığın hepsini puanlamadan "tamam" sayılmaz, eksik metrik "bilinmiyor" diye geçilebilir ama başlık boş geçilemez.
 Bu bölüm devir notu yeniden yazılırsa aynen korunur.
 
+
+## 14i. TEMEL KARNE ÖZ-DENETİMİ — YANLIŞ VE ADALETSİZ SONUÇ ÖNLEME (16.11 21:16, Enes: "yanlış veya adaletsiz sonuç nasıl çıkar düşün, ne eklenebilir düşün ve gittikçe geliştir", KESİN KURAL)
+Amaç: karne puanı gerçeği yansıtsın, hisseler arasında adil karşılaştırılabilsin. 14c, 14g, 14h aynen geçerli; 14i onların üstüne eklenir. Bu bölüm silinmez, sadece büyür.
+
+A) HATA / ADALETSİZLİK KONTROL LİSTESİ (her karneden sonra tek tek, karnenin sonuna "DENETİM: A1 ✓, A2 düzeltildi (...) ..." satırı yazılır)
+VERİ DOĞRULUĞU
+A1. ESKİ FİYAT / ESKİ VERİ: kaynağın veri tarihi yazıldı mı? Değerleme çarpanları (F/K, EV/Satış, FCF getirisi, piyasa değeri) BUGÜNKÜ fiyatla yeniden hesaplandı mı? (16.11 örnek: ECL stockanalysis verisi 27.10 tarihli, fiyat 26.10 -> ileri F/K eski fiyatla.) 7 günden eski çarpan doğrudan puana giremez.
+A2. BİRİM / BÜYÜKLÜK: milyon-milyar, çeyrek-yıl, TTM-çeyrek karışmış mı? Rakamın büyüklüğü şirketin gelirine göre makul mü? (16.11 örnek: KuCoin CBRS yıllık rehberini 9,4-9,6 Mr$ yazdı, doğrusu 940-960 Mn$.)
+A3. YIL / DÖNEM: 2025-2026 karışması; şirketin mali yılı takvim yılından farklı mı (TSN, NVDA)? Çeyrek adı doğru mu?
+A4. TEK KAYNAK AĞIRLIĞI: bir başlığın puanı ağırlıkla tek kaynaklı rakamlara mı dayanıyor? Öyleyse o başlığa "(güven düşük)" yazılır ve puan uç değer (1 veya 5) olamaz, en fazla 2-4.
+A5. DÜZELTİLMİŞ vs GAAP TUTARLILIĞI: bütün hisselerde aynı tanım mı kullanıldı? Bir hissede düzeltilmiş marj, diğerinde GAAP marj ile puan vermek adaletsiz. Kural: KÂRLILIK puanı iki ayağa bakar (düzeltilmiş + GAAP farkı/SBC); fark gelirin %10'undan büyükse 1 puan kırılır.
+A6. HİSSE BÖLÜNMESİ / SEYRELME: hisse başı rakamlar (HBK, hedef fiyat) bölünme öncesi/sonrası karışmış mı? Hisse sayısı değişimi halka arz veya satın alma kaynaklıysa açıklandı mı?
+A7. ANALİST HEDEFİ: ortalama hedef bugünkü fiyatla tutarsızsa (çok üstte/altta ve tarihi eski) puana girmez, "DOĞRULANMADI" yazılır.
+ADALET (aynı ölçüyle ölçme)
+A8. SEKTÖRE GÖRE ADALET: mutlak eşik yerine AKRAN eşiği. Ör. erken aşama büyüme şirketinde negatif FCF tek başına 1 puan değildir; nakit yakma süresi (runway) ve yatırımın gelir dönüşü de bakılır. Olgun şirkette %7 büyüme "orta" değil sektör içinde iyi olabilir. Her başlıkta gerekçeye "akrana göre" bir cümle eklenir.
+A9. ÇİFT SAYIM: aynı olgu iki başlıkta cezalandırıldı/ödüllendirildi mi? Ör. fiyat düşüşü hem MOMENTUM hem GÖRECELİ GÜÇ'te; düşük FCF hem NAKİT hem BİLANÇO'da; müşteri yoğunlaşması hem KALİTE hem RİSK'te. Kural: bir olgu tek başlıkta puanı belirler, diğerinde sadece not edilir. ÖNEMLİ: GÖRECELİ GÜÇ fiyat trendidir ve teknik puanla (bölüm 13) çakışır -> 14c-D karşılaştırmasında "temel" toplam, GÖRECELİ GÜÇ HARİÇ /45 olarak da yazılır; teknik ayrı puanlanır. Böylece teknik zayıflık iki kez sayılmaz.
+A10. İNORGANİK BÜYÜME: satın almalı büyüme organik gibi puanlandı mı? BÜYÜME puanı organik büyümeyle verilir; satın alma katkısı ayrıca yazılır. (16.11: SITM TPD, ECL Ovivo/CoolIT, VRT +6 puan.)
+A11. BİLİNMEYEN = CEZA DEĞİL: "bilinmiyor" metrik puanı otomatik düşürmez de yükseltmez de; ama bir başlıktaki metriklerin yarısından fazlası bilinmiyorsa o başlık "(güven düşük)" ve puan 2-4 arası.
+A12. YENİ HALKA ARZ / KISA GEÇMİŞ: 52 hafta, 5 yıllık çarpan geçmişi yoksa bu eksiklik ceza değildir; yerine halka arz fiyatı ve akranlar kullanılır.
+A13. PORTFÖY YANLILIĞI: portföydeki hisseye "sahip olduğumuz için" kolay puan, adaya zor puan verilmedi mi? Kontrol: puanı yazmadan önce rakamlara bakıp "bu rakamlar tanımadığım bir şirketin olsaydı kaç verirdim?" sorusu.
+A14. GÜNCEL HABER YANLILIĞI: o günün haberi (Fed konuşması, sektör satışı, analist notu) uzun vadeli başlıkları (KALİTE, BİLANÇO) etkiledi mi? Günlük haber sadece MOMENTUM ve RİSK/KATALİZÖR'e girer.
+A15. ANLATI YANLILIĞI: "yapay zeka hikayesi" gibi bir tema rakamla desteklenmeden puan yükseltti mi? Her puan en az 1 rakama dayanmalı.
+A16. SENARYO ÇARPANLARI KEYFİ Mİ: ayı/baz/boğa çarpanları şirketin kendi geçmiş aralığına veya akran medyanına bağlandı mı? Bağlanamıyorsa "kaba" etiketi zorunlu.
+A17. EŞİT AĞIRLIK ADALETSİZLİĞİ: 10 başlık eşit ağırlıklı; büyüme şirketi ile savunmacı şirketi aynı toplamla kıyaslamak yanıltabilir. Kontrol: karşılaştırmada toplamın yanında "en zayıf 2 başlık" ve "kırmızı bayrak var/yok" da yazılır; toplam tek başına karar değildir.
+
+B) KIRMIZI BAYRAK (toplam ne olursa olsun karar notunda ayrıca yazılır)
+- Tek müşteri gelirin %25'inden fazla (ör. CBRS 2025: MBZUAI %62, G42 %24).
+- Nakit 4 çeyrekten az yetiyor ve finansman garantisi yok.
+- Net borç / FAVÖK > 4 ya da yakın vadede karşılanamayan borç.
+- Rehber üst üste 2 çeyrek düşürüldü.
+- Muhasebe uyarısı, yeniden düzenleme, denetçi değişikliği, SEC soruşturması.
+- Yıllık hisse seyrelmesi %10'dan fazla (halka arz yılı hariç, o da not edilir).
+- Açığa satış float'ın %15'inden fazla.
+
+C) KALİBRASYON (her 5 karnede bir + her gün ilk turda)
+1. Tablodaki bütün karneler yan yana okunur: sıralama mantıklı mı? Ör. "X, Y'den 3 puan yüksek; rakamlar bunu destekliyor mu?" Her başlık için en yüksek ve en düşük puanlı hisse kontrol edilir; ölçek kaymışsa (bugün 4 verilen şey dün 3 verildiyse) düzeltilir.
+2. Puan çapaları (sektör içi): 5 = akranların en iyi %20'si, 4 = üst-orta, 3 = medyan civarı, 2 = alt-orta, 1 = en kötü %20 ya da kırmızı bayrak. Çapa için akran rakamı yoksa "(çapa yok)" yazılır.
+3. Tarihi 7 günden eski karneler ve arada bilanço/büyük haber olanlar yenileme sırasına öne alınır.
+4. Kalibrasyon sonucu DONGU'ya "KALİBRASYON: değişen puanlar ..." diye yazılır.
+
+D) HATA GÜNLÜĞÜ (bulunan her hata buraya; tekrar eden hata türü A'ya yeni madde olarak eklenir)
+- 16.11 21:20 | ECL | A1 eski veri: stockanalysis 27.10 fiyatıyla ileri F/K 33,6 -> bugünkü ~309$ ile 2026 F/K ~38 olarak düzeltildi, DEĞERLEME 2 korundu.
+- 16.11 21:20 | CBRS | A2 birim: KuCoin "9,4-9,6 Mr$" rehberi yanlış -> 940-960 Mn$ (Investing, Leafy) kullanıldı.
+- 16.11 21:20 | NBIS RKLB SITM AXON CBRS VRT ECL | A9 çift sayım: GÖRECELİ GÜÇ fiyat trendi teknik puanla çakışıyor -> 14c-D karşılaştırmasında GÖRECELİ GÜÇ hariç /45 de yazılacak (temel_karne.md tablosuna "/45" sütunu eklendi).
+- 16.11 21:20 | CBRS VRT ECL | A4 tek kaynak: NAKİT ve BİLANÇO başlıkları büyük ölçüde tek kaynağa (stockanalysis) dayanıyor -> "(güven düşük)" işareti; sonraki yenilemede 10-Q ile ikinci kaynak.
+- 16.11 21:20 | SITM ECL VRT | A10 inorganik büyüme: SITM puanı (5) rapor edilen +%257'ye dayanıyordu; organik +%156 (tek kaynak) ile de 5 kalıyor ama gerekçe organik rakama çevrilecek. VRT organik +%55 ile 5 doğru. ECL organik %7 ile 3 doğru.
+- 16.11 21:20 | DOCN | eski /35 formatı -> /50 yenilemesi sırada.
+
+E) GELİŞTİRME DÖNGÜSÜ
+- Her turda karneden sonra "bu karnede hangi varsayım en çok sonucu değiştirdi?" sorusu sorulur, cevap karnenin DENETİM satırına yazılır.
+- Haftada bir (Pazar) 14i-A listesi gözden geçirilir: hiç tetiklenmeyen madde de kalır; yeni hata türleri eklenir; Enes'e "karne sisteminde bu hafta düzelttiklerim" diye kısa özet gönderilir.
+- Enes bir puana itiraz ederse itiraz 14i-D'ye yazılır ve aynı türden hata diğer karnelerde de aranır.
+Bu bölüm devir notu yeniden yazılırsa aynen korunur.
+
 ## 14e. 16.11 YAPILAN ÇALIŞMALAR (referans/örnek)
 - 13:52 kripto düşüş tweeti (COIN/MSTR, sondakika), 14:08 NVO CagriSema tweeti (editoryal) — otomatik turlar, Buffer.
 - 14:15 RKLB TEKNİK DENEME: ta2 -v 21x4. 1s 5/6/12, 4s 8/3/12, G 7/7/9, H 4/8/11 (yukarı/aşağı/nötr). Gerekçe: günlük CHoCH yukarı 61,13; G+4s Supertrend AL (50,6 / 55,6); MACD +; OBV uyumlu; fiyat Fib OTE 43,9-66,8 içinde; haftalık bull FVG 55,3-59,8 + 4s bull FVG 59,4-59,6 çakışması. Ben olsam: 1. kademe ~59,5, 2. kademe 53-55 (günlük bull FVG 53,1-55,0 + VWAP 20g ~55,3), azalt <50,6 günlük kapanış, tez biter <43,9; hedef 63,5 (POC) ve 68-71 (son tepe + EMA 200). Görseller g/ta/20261116_1405_rklb_tradingview.jpg, 1415_rklb_teknik.jpg.
@@ -646,6 +702,9 @@ Bu bölüm devir notu yeniden yazılırsa aynen korunur.
 | 18:05 | Teknik analiz görsellerini kendin oluşturma, TradingView ekran görüntüsü at | başlık 5b, 14b, 14d |
 | 18:09 | Sırayla at: ekran görüntüsü, tweet, ekran görüntüsü, tweet (tek tek toplu değil) | başlık 5d |
 | 18:14 | Neden temelleri yapmadın, turlarda vaktin vardı; çözüm bul, devir notuna ekle, hiçbir şey çıkarma, sürekli kontrol et | başlık 3b, 14c-E, 14g, B, temel_karne.md |
+| 21:16 | Temel analizde yanlış/adaletsiz sonuç nasıl çıkar düşün, ne eklenebilir düşün, sürekli geliştir; devir notuna ekle | başlık 3d, 14i, B-EK2 |
+| 20:09 | Otomatik çalışmaya başla (bu akşam günlük sayım yalnız Buffer kaynaklı) | 2 |
+| 20:00 | Yeni oturuma devir, A7 onayı (push, Buffer, send_later) | A, A7 |
 | 18:19 | Daha da geliştir, çok daha fazla metrik, profesyonel borsacı gibi detay; devir notuna ekle, hiçbir şey çıkarma, kanıt ver | başlık 3c, 14h, B-EK |
 | 16:46 | Artık 20-40 dk'da bir at; benim attıklarımı hemen at ama senin zamanlamanı etkilemesin; devir notuna ekle, hiçbir kuralı atlama, tekrar tekrar kontrol et | 2, B, başlık 8 |
 | 16:36 | Tweet aralıklarını 7'şer dk arttır (5-20 -> 12-27 dk) | 2, B |
