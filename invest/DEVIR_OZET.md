@@ -58,7 +58,7 @@ C) Uygulama: her turda önce (1) SEC/IR/bülten, (2) Reuters/CNBC/Bloomberg/Benz
 - Enes'in seçtiği/beğendiği düzenler (K-Z, ÖNCE BUNLAR): bento, halka, isi, takvim, cizgi, panel, uclu, soz, editoryal, skor, zaman, ilerleme, dilim, dortlu, manset. Yedek A-J: spotlight, split, terminal, sondakika, once_sonra, kapak, cam, poster, siralama, grafik2.
 - KALDIRILDI (Enes 15.11 21:23 "kaba, beğenmedim"): versus (çapraz renkli iki taraf). Yerine kart2.panel (koyu, serif başlık, mono etiket, ince çizgili tablo, altın çubuk). Benzer kaba/renkli blok tarzından kaçın; sade ve profesyonel.
 - Tür → düzen: bilanço rakam = skor/terminal; analiz = bento/uclu/panel; iki hisse karşılaştırma = panel; takvim = takvim; kapanış = isi/dortlu; son dakika = sondakika/manset; içeriden = uclu/skor; kişi = manset/soz (Enes fotosu).
-- Logolar büyük ve belirgin (küçültme). Enes 16.11 10:30: "logolar daha da belirgin olmalı" -> kart2.LOGO_BUYUT=1.4 (tüm düzenlerde logo 1,4 kat); yeni düzen/render'da logoyu bundan küçük yapma, gerekirse daha da büyüt. Son 3 turda kullanılan düzen tekrar edilmez. Read ile kontrol; taşma varsa YENİ dosya adıyla düzelt (raw URL önbelleği). Örnekler: invest/g/ornek/.
+- Logolar büyük ve belirgin (küçültme). Enes 16.11 10:30: "logolar daha da belirgin olmalı" -> kart2.LOGO_BUYUT=1.8 (10:32 "daha da belirgin": önce 1,4 sonra 1,8; tüm düzenlerde logo 1,8 kat); yeni düzen/render'da logoyu bundan küçük yapma, gerekirse daha da büyüt. Son 3 turda kullanılan düzen tekrar edilmez. Read ile kontrol; taşma varsa YENİ dosya adıyla düzelt (raw URL önbelleği). Örnekler: invest/g/ornek/.
 - Kart dosyası: invest/g/YYYYMMDD_HHMM_konu.jpg → commit + push → raw URL 200 kontrol → Buffer.
 
 ## 7. Diğer görevler

@@ -70,7 +70,7 @@ def _plate_fill(lg, a=245):
     return (255, 255, 255, a)
 
 
-LOGO_BUYUT = 1.4  # Enes 16.11 10:30: logolar daha belirgin olsun
+LOGO_BUYUT = 1.8  # Enes 16.11 10:30+10:32: logolar daha da belirgin olsun
 
 
 def _logo(ticker, size):
@@ -206,7 +206,7 @@ def terminal(ticker, baslik, satirlar, kaynak, out, etiket="PİYASA"):
     lg = _logo(ticker, 200)
     if lg:
         img.paste(lg, (W - 60 - lg.width, 130), lg)
-    f, ls = _fit(d, baslik, "Black", 78, W - 120 - (240 if lg else 0), 3)
+    f, ls = _fit(d, baslik, "Black", 78, W - 120 - (380 if lg else 0), 3)
     y = 140
     for l in ls:
         d.text((40, y), l, font=f, fill=(255, 255, 255)); y += int(f.size * 1.1)
@@ -259,7 +259,7 @@ def once_sonra(ticker, baslik, once, sonra, once_lbl, sonra_lbl, degisim, kaynak
     lg = _logo(ticker, 220)
     if lg:
         img.paste(lg, (W - 72 - lg.width, 60), lg)
-    f, ls = _fit(d, baslik, "Black", 80, W - 144 - (240 if lg else 0), 3)
+    f, ls = _fit(d, baslik, "Black", 80, W - 144 - (400 if lg else 0), 3)
     y = 140
     for l in ls:
         d.text((72, y), l, font=f, fill=(255, 255, 255)); y += int(f.size * 1.08)
@@ -335,7 +335,7 @@ def cam(ticker, baslik, kutular, yorum, kaynak, out, etiket="BİLANÇO"):
         plate.paste(lg, (30, 30), lg)
         _shadow_paste(img, plate, (W - 72 - plate.width, 60), r=40)
     d = ImageDraw.Draw(img, "RGBA")
-    f, ls = _fit(d, baslik, "Black", 84, W - 144 - (320 if lg else 0), 3)
+    f, ls = _fit(d, baslik, "Black", 84, W - 144 - (460 if lg else 0), 3)
     y = 140
     for l in ls:
         d.text((72, y), l, font=f, fill=(255, 255, 255)); y += int(f.size * 1.06)
@@ -428,7 +428,7 @@ def grafik2(ticker, baslik, etiketler, degerler, birim, not_satiri, kaynak, out,
     lg = _logo(ticker, 200)
     if lg:
         img.paste(lg, (W - 72 - lg.width, 60), lg)
-    f, ls = _fit(d, baslik, "Black", 78, W - 144 - (230 if lg else 0), 3)
+    f, ls = _fit(d, baslik, "Black", 78, W - 144 - (380 if lg else 0), 3)
     y = 130
     for l in ls:
         d.text((72, y), l, font=f, fill=(255, 255, 255)); y += int(f.size * 1.06)
@@ -648,7 +648,7 @@ def cizgi(ticker, etiket, baslik, etiketler, degerler, buyuk, buyuk_lbl, kaynak,
     _pill(d, (72, 64), etiket, br)
     lg = _logo(ticker, 170)
     if lg: img.paste(lg, (W - 72 - lg.width, 56), lg)
-    f, ls = _fit(d, baslik, "Black", 68, W - 144 - (200 if lg else 0), 2); y = 136
+    f, ls = _fit(d, baslik, "Black", 68, W - 144 - (330 if lg else 0), 2); y = 136
     for l in ls:
         d.text((72, y), l, font=f, fill=(255, 255, 255)); y += int(f.size * 1.06)
     y = max(y, 250) + 20
@@ -718,10 +718,10 @@ def uclu(ticker, etiket, baslik, satirlar, kaynak, out):
     _pill(d, (72, 64), etiket, br)
     lg = _logo(ticker, 190)
     if lg: img.paste(lg, (W - 72 - lg.width, 56), lg)
-    f, ls = _fit(d, baslik, "Black", 70, W - 144 - (220 if lg else 0), 3); y = 136
+    f, ls = _fit(d, baslik, "Black", 70, W - 144 - (370 if lg else 0), 3); y = 136
     for l in ls:
         d.text((72, y), l, font=f, fill=(255, 255, 255)); y += int(f.size * 1.06)
-    y = max(y, 300) + 30; rh = (H - 150 - y) / 3
+    y = max(y, 410 if lg else 300) + 20; rh = (H - 150 - y) / 3
     for i, (r, a) in enumerate(satirlar[:3]):
         d.line((72, y, W - 72, y), fill=(52, 52, 60), width=2)
         col = K.UP if r[:1] == "+" else (K.DOWN if r[:1] in "-−" else (br if i == 0 else (255, 255, 255)))
@@ -779,7 +779,7 @@ def editoryal(ticker, kicker, baslik, spot, rakamlar3, kaynak, out, tarih="", ze
     d.text((72, 190), kicker.replace("i", "İ").upper(), font=sans(28, "ExtraBold"), fill=CL)
     f = None
     for fs in range(128, 60, -4):
-        f = K.serif(fs); ls = _wrap(d, baslik, f, W - 144 - (300 if lg else 0))
+        f = K.serif(fs); ls = _wrap(d, baslik, f, W - 144 - (340 if lg else 0))
         if len(ls) <= 4: break
     y = 244
     for l in ls:
@@ -812,7 +812,7 @@ def skor(ticker, etiket, baslik, satirlar, sonuc, kaynak, out):
     lg = _logo(ticker, 200)
     if lg:
         p = _plate(lg, 24, 36); _shadow_paste(img, p, (W - M - 36 - p.width, M + 40), r=36); d = ImageDraw.Draw(img)
-    f, ls = _fit(d, baslik, "Black", 64, W - 2 * M - 72 - (300 if lg else 0), 3); y = M + 112
+    f, ls = _fit(d, baslik, "Black", 64, W - 2 * M - 72 - (440 if lg else 0), 3); y = M + 112
     for l in ls:
         d.text((M + 36, y), l, font=f, fill=(255, 255, 255)); y += int(f.size * 1.08)
     y = 390
@@ -849,7 +849,7 @@ def zaman(ticker, etiket, baslik, adimlar, kaynak, out):
     _pill(d, (72, 64), etiket, br)
     lg = _logo(ticker, 170)
     if lg: img.paste(lg, (W - 72 - lg.width, 56), lg)
-    f, ls = _fit(d, baslik, "Black", 70, W - 144 - (200 if lg else 0), 2); y = 136
+    f, ls = _fit(d, baslik, "Black", 70, W - 144 - (330 if lg else 0), 2); y = 136
     for l in ls:
         d.text((72, y), l, font=f, fill=(255, 255, 255)); y += int(f.size * 1.06)
     y = max(y, 260) + 40; n = len(adimlar); rh = (H - 170 - y) / n; X = 130
@@ -875,10 +875,10 @@ def ilerleme(ticker, etiket, baslik, alt, satirlar, kaynak, out, renk=None):
     _pill(d, (72, 64), etiket, br)
     lg = _logo(ticker, 170)
     if lg: img.paste(lg, (W - 72 - lg.width, 56), lg)
-    f, ls = _fit(d, baslik, "Black", 72, W - 144 - (200 if lg else 0), 3); y = 136
+    f, ls = _fit(d, baslik, "Black", 72, W - 144 - (330 if lg else 0), 3); y = 136
     for l in ls:
         d.text((72, y), l, font=f, fill=(255, 255, 255)); y += int(f.size * 1.06)
-    d.text((72, y + 22), alt, font=sans(30, "Medium"), fill=(160, 160, 172)); y = max(y + 110, 330)
+    d.text((72, y + 22), alt, font=sans(30, "Medium"), fill=(160, 160, 172)); y = max(y + 110, 410 if lg else 330)
     rh = min(210, (H - 170 - y) / len(satirlar))
     for i, (k, o, v) in enumerate(satirlar):
         d.text((72, y), k, font=sans(34, "Bold"), fill=(235, 235, 242))
