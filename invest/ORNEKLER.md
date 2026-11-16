@@ -83,3 +83,8 @@ Bizim versiyon (Buffer 6afaf9a76c00cddca5478e1e): "$UBER bugünden itibaren Las 
 Kaynak: "Nebius $NBIS price target lowered to $215 from $265 at Citi ... keeps a Buy rating ... 'solid' Q3 but trimmed near-term revenue guidance on site delays ... 'encouraged' by financing commentary, prepayments >100% of capex."
 Kalıp: kurum + eski→yeni hedef + tavsiye + gerekçe + önceki değişiklik (bağlam) + mevcut fiyata göre fark + tek cümle görüş.
 Bizim versiyon (Buffer 6afafa6a6c00cddca547ea26): "Citi, $NBIS (...) için hedef fiyatını 265 dolardan 215 dolara indirdi, "Al" tavsiyesini korudu. İki hafta içinde ikinci indirim bu... Yeni hedef bile Cuma kapanışının yaklaşık %85 üstünde. Citi talepten değil, takvimden şüphe ediyor." Ön ödeme >%100 capex tek kaynak -> yazılmadı.
+
+## Enes örneği (16.11 15:45) — Analist notu + olay (Raymond James / SpaceX)
+Kaynak: "Raymond James on $SPCX (Strong Buy, $800 PT): ... Starship Flight 15 ... Ship 42 ~14 orbits, 26 Starlink V3, returned ~22.5h ... booster not recovered ... challenge shifts to simultaneous recovery, rapid refurbishment, repeatable reflight."
+Kalıp: kurum + tavsiye/hedef + hedefin fiyata göre katı (kendi fiyatımızla hesapla) + notu tetikleyen olayın 2-3 somut rakamı + olumsuz detay (booster kaybı) + kurumun "sıradaki soru" çerçevesi.
+Bizim versiyon: Buffer 6afafb126c00cddca5482fd8. Kaynaktaki %550 bizim fiyatla (139$) tutmadı -> "yaklaşık 5,7 katı" yazıldı.
