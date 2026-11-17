@@ -1,10 +1,10 @@
 # DURUM — tek sayfa güncel durum (kesin kural 18)
-Son güncelleme: 17.11.2026 16:02 TSİ. Her tur ve görev sonunda güncellenir (en çok 80 satır). Turlar DEVIR_TAM'ı baştan okumaz: skill + bu dosya + DONGU.md son 30 satır. DEVIR_TAM'dan yalnız gereken bölüm grep ile açılır.
+Son güncelleme: 17.11.2026 16:33 TSİ. Her tur ve görev sonunda güncellenir (en çok 80 satır). Turlar DEVIR_TAM'ı baştan okumaz: skill + bu dosya + DONGU.md son 30 satır. DEVIR_TAM'dan yalnız gereken bölüm grep ile açılır.
 
-## !!! BUGÜNLÜK KURAL (Enes 17.11 15:23): KALAN TWEET HAKKI = 10 (paylaşım günü sonu 01:00 TSİ'ye kadar) !!!
+## !!! BUGÜNLÜK KURAL (Enes 17.11 15:23): KALAN TWEET HAKKI = 9 (paylaşım günü sonu 01:00 TSİ'ye kadar) !!!
 - Her tweet atan tur/görev ÖNCE bu sayıya bakar; 0 ise ATMAZ. Atınca sayıyı 1 düşürür, DONGU satırına "hak: kalan N" yazar, push.
 - Ayrılan: perakende satış 16:30 (1), NVDA rakam 00:20 (1), NVDA analiz (1), kapanış 00:05 (1; "Kapanış tweeti" görevi kuruldu). Serbest: 6 → 13F (en çok 2), büyük son dakika, Enes isteği. Vadeli, FED-TAHVIL, analist notu, ikinci bilanço analizi gibi ikincil tweetler bugün YOK. Otomatik tur paylaşım için en az 60 dk arayla; değerli konu yoksa paylaşmadan geçer.
-- KULLANILAN (15:23'ten sonra): -
+- KULLANILAN (15:23'ten sonra): 16:31 perakende
 
 ## Hesap
 - AKTIF: A (invest/AKTIF_HESAP.md). Görev mesajları HESAP=A ile başlar.
@@ -22,7 +22,7 @@ RKLB k1 55-57 k2 53-55 tez 43,9 | DOCN k1 69-72 k2 56-60 tez hf<55 | SITM k1 395
 17.11 key levels: S&P destek 7380-7400, 7340-7370 (DONGU 13:16 satırı).
 
 ## Kart
-- Son 3 düzen: uclu (DIS), dortlu (DIS analiz), isi (vadeli). LOGO_BUYUT 1.8, küçültme YOK; bento ve skor kare logoyu taşımıyor → bilanço rakamı uclu.
+- Son 3 düzen: dortlu (DIS analiz), isi (vadeli), editoryal (perakende). LOGO_BUYUT 1.8, küçültme YOK; bento ve skor kare logoyu taşımıyor → bilanço rakamı uclu.
 
 ## 13F serisi (Q3 2026)
 Atılanlar: Berkshire, Ackman, Druckenmiller, Tepper, Soros, Third Point/Loeb. Sıradaki: Greenlight/Einhorn → Coatue → Tiger Global → Baupost → Himalaya → Pabrai → Icahn → Bridgewater → Lone Pine/Viking. Bitince Enes'e özet. Burry yok (SEC kaydı silindi).

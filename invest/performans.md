@@ -24,3 +24,4 @@ Türler: VADELI, 13F, BILANCO-RAKAM, BILANCO-ANALIZ, BILANCO-ONIZLEME, ANALIST, 
 
 ## Haftalık raporlar
 (Pazar 21:30'da eklenir: türe göre ortalama, en iyi/en kötü 5, saat dilimi, düzen, önerilen karışım.)
+| 17.11 | 16:31 | MAKRO-SONUC | Ekim perakende satislari | editoryal | 6afc5731686bdd2a3c12d718 |
