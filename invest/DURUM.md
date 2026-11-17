@@ -8,8 +8,12 @@ Son güncelleme: 17.11.2026 16:33 TSİ. Her tur ve görev sonunda güncellenir (
 
 ## Kural 25 (Enes 17.11 16:51): her haber/veri tweeti = haber + YORUM (ne demek, büyük resim, Fed ne düşünür, piyasaya/hisselere etkisi, net düşüncemiz). Şablon 7 güncellendi.
 
+## Kural 26-27 (17.11 17:18)
+- 26: tur başında invest/DERSLER.md 'AKTİF DERSLER' okunur ve uygulanır (günde 12-15 tweet, 18-21 en çok 2, görüşlü analiz 12-15 / 21-24, 13F en çok 2). Sabah 09:00 gözlem ekler, Pazar 21:30 dersleri günceller.
+- 27: teknik analizde TradingView ekran görüntüsünü CLAUDE alır (Chrome zoom save_to_disk → SendUserFile), sıra: görüntü → taslak + ben olsam. Chrome yoksa talimat satırı.
+
 ## Periyot defteri (kural 24)
-- Karışım önerisi 3 haftada bir (Pazar 21:30 raporu `periyot.py kontrol karisim_onerisi` UYGUN ise üretir, sonra `yap`). #1 17.11'de verildi (performans.md), Enes onayı bekliyor.
+- Karışım önerisi 3 haftada bir (Pazar 21:30 raporu `periyot.py kontrol karisim_onerisi` UYGUN ise üretir, sonra `yap`). #1 17.11'de verildi (performans.md), Enes ONAYLADI (17.11 17:18) → DERSLER.md AKTİF DERSLER.
 - Haftalık/aylık/N günlük ya da adet sınırlı HER iş: önce `python3 periyot.py durum` / `kontrol <anahtar>`, yapınca `python3 periyot.py yap <anahtar> "<not>"` + push. Sözlük cümlesi: `python3 periyot.py sozluk "<Veri>"`. Hafızadan tahmin yok.
 
 ## Hesap

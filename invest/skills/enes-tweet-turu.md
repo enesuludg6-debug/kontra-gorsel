@@ -173,3 +173,10 @@ Sohbet her gün değişebilir; yeni sohbet "en son ne zaman yapıldı, bu hafta 
 - Yeni periyodik kural gelirse (ör. "üç haftada bir"): `python3 periyot.py ekle <anahtar> min_gun 21 "<açıklama>"`. Türler: min_gun, gunluk_max, haftalik_min/max, aylik_min/max, ayin_pazari, baslangic_gun, her_n.
 - Sabit görevler (cron) her çalışmada yeni oturumda açılır; saatleri cron'dan gelir, "bu ay/bu hafta zaten yapıldı mı" kontrolünü periyot.py ile yapar. Sabit görevler sohbet değişince silinmez; devirde yalnız send_later zinciri (oturuma bağlı) yeniden kurulur.
 - DONGU.md 7 günde arşive taşındığı için "son 2 hafta / bu ay" sorusunun cevabı DONGU'dan değil defterden alınır.
+
+## 14. Ölç, ders al, uygula (kesin kural 26, Enes 17.11 17:18)
+- Her tur konu seçmeden ve yazmadan önce `invest/DERSLER.md` "AKTİF DERSLER"i okur ve uygular (adet, saat dilimi, tür karışımı, biçim).
+- Sabah 09:00 görevi: önceki günün metrikleri performans.md'ye + 1-2 gözlem DERSLER.md "Gözlemler"e.
+- Pazar 21:30 performans raporu: 2 hafta ve 5+ tweetle desteklenen gözlem AKTİF DERS olur, tutmayan silinir; Enes'e "bu hafta öğrendiklerim" 3-5 madde. 3 haftada bir karışım önerisi (periyot.py karisim_onerisi).
+- Belirsiz ders için 1 haftalık deney (A/B) yazılır, sonucu DERSLER.md'ye.
+- Dersler kuralları değiştirmez (al/sat yok, 2 kaynak, kural 23, 25); yalnız konu, saat, biçim, adet, kart tercihlerini değiştirir.
