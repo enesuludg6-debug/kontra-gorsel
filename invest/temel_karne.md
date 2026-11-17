@@ -4,6 +4,8 @@ Kurallar: her kart tarihli; her rakam 2 kaynak (tek kaynaksa "(tek kaynak)"); bu
 Puan 1-5: İŞ (hendek), BÜYÜME, KÂRLILIK, NAKİT/BİLANÇO, DEĞERLEME, BEKLENTİ MOMENTUMU, RİSK (5 = düşük risk). TEMEL TOPLAM /35.
 Tazelik: kart 7 günden eskiyse veya arada bilanço/büyük haber varsa yenilenir.
 16.11 18:19 EK: karne artık bölüm 14h GENİŞLETİLMİŞ METRİK LİSTESİYLE yapılır, 10 başlık /50 (BÜYÜME, KÂRLILIK, NAKİT, BİLANÇO, DEĞERLEME, MOMENTUM, SAHİPLİK/AKIŞ, GÖRECELİ GÜÇ, KALİTE/YÖNETİM, RİSK/KATALİZÖR). Aşağıdaki /35 tablo eski format; DOCN /50 ile yenilenecek. Yeni kartlar alttaki /50 tablosuna yazılır.
+17.11 21:50 EK (kural 34): her karneye ayrıca karne trendi, revizyon genişliği, kazanç kalitesi, artımlı marj, KPI ivmesi, bilanço stresi (Altman Z, nakit pisti), değerleme bandı, bilanço tepki geçmişi ve TEZ KARTI (3-5 madde + tezi bozan 3 sinyal) eklenir. Kural 35: 18:00/23:30 kararları bu dosyadan okunur (ek araştırma yok).
+ÖNCELİK (kural 34): portföy eksikleri önce: RKLB SITM AXON CBRS VRT (DOCN 27/50, AVGO 40/50 var; NBIS portföyde değil).
 Rotasyon sırası (eksik/eskiden başla): NBIS RKLB SITM AXON CBRS VRT ECL TSM AVGO DOCN + yeni adaylar.
 
 | Hisse | Tarih | İŞ | BÜY | KÂR | NAKİT | DEĞ | MOM | RİSK | TOPLAM | Not |
