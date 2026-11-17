@@ -8,7 +8,7 @@ Son güncelleme: 18.11.2026 01:32 TSİ. Her tur ve görev sonunda güncellenir (
 
 ## !!! Kural 43 (Enes 18.11 01:29): İŞ DEFTERİ `python3 invest/isler.py` — zamanlı her iş ve bilanço adımları burada; devirde tek kaynak; iptal yalnız en dar kapsam ve Enes'in aynen sözüyle.
 
-## !!! Kural 44 (Enes 18.11 01:51): TEMEL ANALİZ TAMAMEN KALDIRILDI. 18:00 temel analiz ve 23:30 kontrol görevleri YOK (zincirler silindi/kapalı), turlarda/bilanço sonrasında karne, kalibrasyon, tez kartı, KARAR tablosu YOK; enes-portfoy-analiz skill'i kullanılmaz. Kural 34-35 iptal.
+## !!! Kural 44 (Enes 18.11 01:51-01:54): YALNIZ 18:00 (temel1800) ve 23:30 (teknik2330) analiz görevleri kaldırıldı, bir daha kurulmaz. Karne, tez kartı, ben olsam ve diğer temel işler AYNEN sürer.
 
 ## !!! Kural 42 (Enes 18.11 01:13; 01:18: 18-21 sınırı da kaldırıldı): tweet penceresi 11:00-02:00; Pzt-Cmt günde EN AZ 30 EN ÇOK 40 tweet; Pazar üst sınır (Enes rakam verene kadar 40), alt yok; tweet aralığı SERBEST (sabit aralık yok, Enes 01:15); 10:30 görevi 11:00'e kaydı; 09:05 vadeli tweeti yok.
 
@@ -24,7 +24,7 @@ Son güncelleme: 18.11.2026 01:32 TSİ. Her tur ve görev sonunda güncellenir (
 
 ## Kural 36 (21:46-22:00): tur 20-40 dk ama tweet günde en çok 15 + 18-21 en çok 2 (`kontrol tweet_gunluk`); bugünlük blok yalnız kendi tarihinde; skill-kopya çelişkisinde kopya; yayın 60 dk içindeyse ağır görev yayından 15 dk önce biter; Pazar sistem denetimi.
 
-## Kural 34-35 (21:43): karneye 9 ek (trend, revizyon, kazanç kalitesi, artımlı marj, KPI ivmesi, stres, değerleme bandı, tepki geçmişi, tez kartı); 18:00/23:30'da her hisse için tek satır KARAR = temel sınıf (karneden okunur) + teknik durum A-E tablosu. (Kural 44 ile İPTAL.)
+## Kural 34-35 (21:43): karneye 9 ek (trend, revizyon, kazanç kalitesi, artımlı marj, KPI ivmesi, stres, değerleme bandı, tepki geçmişi, tez kartı); 18:00/23:30'da her hisse için tek satır KARAR = temel sınıf (karneden okunur) + teknik durum A-E tablosu. Portföy karne eksikleri önce: RKLB SITM AXON CBRS VRT.
 
 ## Kural 33 (21:37): teknik analizde ayrıca `ta_ek.py` (MTF hizalama, göreli güç, hacim teyidi, sıkışma, pivot, uyumsuzluk, mum, boşluk, kanal/üçgen ipucu, AVWAP, ölçümlü hedef, risk/ödül, piyasa rejimi) + seviye_takip.csv.
 

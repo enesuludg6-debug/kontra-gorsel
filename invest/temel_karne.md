@@ -1,4 +1,3 @@
-# ARŞİV — kesin kural 44 (18.11 01:51) ile kullanılmaz, güncellenmez
 # TEMEL KARNE (bölüm 14g) — 18:00 / 23:30 kontrolleri BURADAN okur
 
 Kurallar: her kart tarihli; her rakam 2 kaynak (tek kaynaksa "(tek kaynak)"); bulunamayan "bilinmiyor"; yıl kontrolü.

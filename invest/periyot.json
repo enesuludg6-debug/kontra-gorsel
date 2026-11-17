@@ -24,6 +24,15 @@
    "min_gun": 21,
    "aciklama": "Icerik karisimi onerisi (22a): 3 haftada bir, Pazar 21:30 performans raporunda; ilki 17.11 (Enes istegiyle erken). Sonraki tarih: periyot.py kontrol karisim_onerisi"
   },
+  "karne": {
+   "aciklama": "Temel karne sayaci: her karne yazilinca 'yap karne <hisse>'"
+  },
+  "kalibrasyon": {
+   "her_n": 5,
+   "sayac": "karne",
+   "son_sayac": 0,
+   "aciklama": "Karne kalibrasyonu her 5 karnede bir (+ her gun ilk tur)"
+  },
   "analist_ozet": {
    "ayin_pazari": 1,
    "aciklama": "Analist hedef ozeti ayin ilk Pazari 12:25 (22k)"
@@ -51,6 +60,10 @@
   "performans_raporu": {
    "min_gun": 6,
    "aciklama": "Pazar 21:30 performans raporu (kural 14)"
+  },
+  "karne_sistemi_ozet": {
+   "min_gun": 6,
+   "aciklama": "Pazar: Enes'e 'karne sisteminde bu hafta duzelttiklerim' (14i)"
   },
   "dongu_arsiv": {
    "min_gun": 6,
