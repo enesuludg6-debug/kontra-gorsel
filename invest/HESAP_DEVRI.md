@@ -1,3 +1,18 @@
+# >>> ENES İÇİN: AYNI HESAPTA YENİ SOHBETE GEÇİŞ (SOHBET DEVRİ) — YAPIŞTIRILACAK TEK MESAJ <<<
+```
+enesuludg6-debug/kontra-gorsel reposunu bu sohbete PUSH yetkisiyle eklemeni onaylıyorum (add_repo access=push), klonla. invest/HESAP_DEVRI.md dosyasındaki "SOHBET DEVRİ" bölümünü baştan sona uygula; bu sohbetin etiketi A2. Buffer ile otomatik paylaşımı, send_later zincirini ve sabit görevleri bu sohbette kurmanı onaylıyorum.
+```
+(Her yeni sohbette etiketi bir artır: A2 → A3 → A4 ... Başka bir Claude HESABINA geçişte aşağıdaki "YENİ HESAPTA" mesajı kullanılır.)
+
+## SOHBET DEVRİ (aynı Claude hesabı, yeni sohbet)
+Neden gerekli: send_later zincirleri ve tek seferlik görevler KURULDUKLARI SOHBETE bağlıdır; Enes yeni sohbete geçince eski sohbetteki görevler orada çalışmaya devam eder ve mesajlar eski sohbete düşer (kural 29: her şey Enes'in kullandığı sohbete gelmeli). Çözüm: hesap kilidini yeni etikete çevir (eski sohbetin görevleri kilidi görüp kendini kapatır, çift tweet olmaz), bütün zincirleri yeni sohbette yeniden kur.
+1. Repo: add_repo (push) → `git clone --depth 1 https://github.com/enesuludg6-debug/kontra-gorsel /home/claude/kontra-gorsel` (varsa `git pull`), register_repo_root, `git config user.email noreply@anthropic.com; git config user.name Claude`.
+2. Kilit: `invest/AKTIF_HESAP.md` → `AKTIF: <yeni etiket>` (ör. A2), Geçmiş'e "GG.AA SS:DD <etiket> devraldı (sohbet devri)"; DONGU'ya "SOHBET DEVRİ: <etiket> aktif"; commit + push. Bundan sonra bu sohbetteki BÜTÜN görev/send_later mesajları "HESAP=<etiket>. Önce invest/AKTIF_HESAP.md oku; AKTIF: <etiket> değilse hiçbir şey yapma ve bu görevi kapat." ile başlar.
+3. Oku (sırayla, baştan sona değil grep ile gerektiği kadar): `invest/DURUM.md` (tamamı), `tail -n 40 invest/DONGU.md`, `invest/DEVIR_TAM.md` en üstteki KESİN KURAL 42 → 36 (en yeniler üstte), `invest/skills/*.md` (hesaptaki skill'lerle çelişirse KOPYA geçerli), `invest/DERSLER.md` aktif + operasyon dersleri, `invest/gorevler/_ORTAK.md`.
+4. Zincirler: `python3 invest/sonraki.py hepsi` → her satır için o zamana, o adla send_later kur; mesaj `python3 -c "import sonraki;print(sonraki.mesaj('<anahtar>','<etiket>'))"` (invest/ içinde) ile üretilir. Ayrıca "Otomatik paylaşım turu": 11:00-02:00 penceresindeyse hemen (sonraki 5 dk), değilse 11:15 (kural 42; mesaj şablonu DURUM.md / gorevler/_ORTAK.md; tweet aralığı serbest).
+5. Tek seferlik görevler: DURUM.md "Bekleyen tek seferlik görevler" bölümündeki her görevi (zamanı geçmemişse) aynı ad ve içerikle, HESAP=<etiket> ile yeniden kur. Zamanı geçmiş olanı DONGU'da yapıldı mı bak; yapılmadıysa hemen yap ya da Enes'e tek satır yaz.
+6. Enes'e tek mesaj: "Devraldım (<etiket>): N zincir + M tek seferlik görev kuruldu, ilk tur SS:DD." Sonra normal çalışmaya devam.
+
 # >>> ENES İÇİN: YENİ HESAPTA SOHBETE YAPIŞTIRILACAK TEK MESAJ <<<
 ```
 enesuludg6-debug/kontra-gorsel reposunu bu sohbete PUSH yetkisiyle eklemeni onaylıyorum (add_repo access=push), klonla. invest/HESAP_DEVRI.md dosyasını oku ve baştan sona uygula; bu hesabın etiketi B. Buffer ile otomatik paylaşımı, send_later zincirini ve sabit görevleri kurmanı onaylıyorum. Bana soru sorma, eksik bir şey varsa ne yapmam gerektiğini tek cümleyle söyle.

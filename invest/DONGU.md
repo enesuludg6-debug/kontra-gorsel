@@ -313,3 +313,4 @@ Durdurmak için en alta `DURDUR` yazılı bir satır ekle (Enes ya da Claude, En
 - CAGRI: NVDA kapsam disi (Enes)
 - 01:16 (18.11) ENES: kural 42 pencere 11:00-02:00, Pzt-Cmt gunde 30-40 tweet, Pazar ust sinir (rakam bekleniyor, simdilik 40). keylevels 11:00, ilk oto tur 11:15.
 - 01:17 (18.11) ENES: tweet araligi serbest (sabit aralik kurali kaldirildi; 1 dk-1 saat Claude secer).
+- 01:20 (18.11) ENES: yeni sohbete geciyor -> HESAP_DEVRI.md basina SOHBET DEVRI bolumu + DURUM 'Bekleyen tek seferlik gorevler'.

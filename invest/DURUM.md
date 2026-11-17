@@ -97,3 +97,13 @@ Kural 22 (17.11 14:40): radar hf 14:20 trig_016SbofaS65yjLJA3vxEJFJn | sektör C
 - Henüz yok (3 haftalık veri bekleniyor).
 
 ## NVDA hazır (17.11 23:27): /tmp/hazir_NVDA.py (uclu; JSON: gelir, gelir_b, hbk, hbk_b, q4, q4_b, kaynak, out, baslik). Beklenti tweet: gelir 109,3 Mr $, HBK 2,47 $, veri merkezi 101-102 Mr $, brüt marj %74,0 (şirket rehberi). Q4 rehber konsensüsü bulunamadı → tweette Q4 satırı 'Beklenti' yazmadan ya da yayın anında 2 kaynakla. NOT: Q1 FY27'den beri düzeltilmiş rakamlar hisse bazlı ödemeyi DÜŞMÜYOR (FourWeekMBA) → 'düzeltilmiş' etiketi bültenden. Opsiyon beklenen hareket: ±%8,5 (Analytics Insight + Reuters, 17.11), Saxo 11.11 kapanışta ±%7,8.
+
+## Bekleyen tek seferlik görevler (sohbet devrinde yeniden kurulur; her görev sonrası güncelle)
+- 18.11 11:00 "Sabit: key levels 10:30" zinciri (günün başlıkları, 11:00; TGT hazırlık/yayın görevlerini ve kural 39-41 görevlerini kurar)
+- 18.11 11:15 "Otomatik paylaşım turu" (kural 42)
+- 18.11 17:45 "Beklenen hareket: NVDA" (opsiyon ±%8,5 vs açılıştaki gerçek hareket; 15 dk içinde bitir)
+- 18.11 18:00 "Sabit: temel analiz 18:00" (zincir)
+- 18.11 19:20 "Çağrı: TGT" (kural 40; görüşme tweetleri ayrı ayrı, 18-21 dilimine düşeni 21:00 sonrasına)
+- 18.11 ~14:30 TGT bilanço rakam yayını + hazırlık (13:30) + analiz + "Detay: TGT" (kural 41, beklemeden) — 11:00 görevi kurar
+- 19.11 ~00:05 PANW bilanço yayını + hazırlık + analiz + "Detay: PANW"; 19.11 sabah "Çağrı: PANW"
+- İPTAL: Detay/Çağrı NVDA (Enes kendisi attı), teknik1800/teknik2330 (kural 37)
