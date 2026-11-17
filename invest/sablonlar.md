@@ -68,12 +68,16 @@ Son çeyrekte $[A] gelirini %[x], $[B] %[y] büyüttü. Brüt marj [x] / [y]. Ö
 ```
 `kart2.panel("$A", "$B", "[kicker]", "[başlık]", [("Gelir büyümesi", "%x", "%y"), ("Brüt marj", "%x", "%y"), ("İleri F/K", "x", "y"), ("Gelecek çeyrek tahmini", "x", "y")], None, "[kaynaklar]", OUT)`
 
-## 7. Makro veri (beklenti → sonuç → etki)
+## 7. Makro veri (beklenti → sonuç + YORUM, kural 25)
 ```
-ABD [veri] [ay] [x] geldi, beklenti [y]'ydi. [Önceki ay [z].]
-[Sözlükten tek cümle: makro_sozluk.md, A/B varyasyonu.]
-[Tek cümle görüş: piyasanın ilk tepkisi, vadeli/tahvil.]
+ABD [veri] [ay] [x] geldi, beklenti [y]'ydi. [Önemli alt kalem: x vs beklenti y.] [Önceki ay [z], revizyon.]
+[Sade dille ne demek: tüketici/işveren/fiyatlar ne yapıyor, tek cümle.]
+[Büyük resim: büyüme ve enflasyon açısından ne söylüyor; sözlükten cümle buraya kaynaşabilir (periyot.py sozluk).]
+[Fed ne düşünür: bir sonraki toplantı fiyatlaması veriden önce %a, sonra %b (FedWatch + 1 kaynak); veri Fed'in elini nasıl etkiler.]
+[Piyasa ve hisseler: vadeli/10 yıllık/dolar ilk tepki; hangi sektör ve takip edilen hisseler için ne anlama gelir.]
+[Net düşüncemiz: tek-iki cümle, etiketsiz.]
 ```
+Örnek (17.11 perakende için olması gereken): manşet %0,2 beklentiye denk ama araç ve benzin dışı %0,5 → tüketici fiyatlar yüksekken bile harcıyor, ekonomi soğumuyor → Aralık'ta faiz artırımı beklentisi güçlenir, uzun vadeli faizler baskıda kalır → büyüme hisseleri için bu "iyi haber kötü haber" senaryosu; perakendecilerde talep sağlam.
 
 ## 8. Fed ve tahvil (FED-TAHVIL, kural 22g)
 ```

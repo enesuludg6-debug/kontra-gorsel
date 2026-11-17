@@ -6,6 +6,8 @@ Son güncelleme: 17.11.2026 16:33 TSİ. Her tur ve görev sonunda güncellenir (
 - Ayrılan: perakende satış 16:30 (1), NVDA rakam 00:20 (1), NVDA analiz (1), kapanış 00:05 (1; "Kapanış tweeti" görevi kuruldu). Serbest: 6 → 13F (en çok 2), büyük son dakika, Enes isteği. Vadeli, FED-TAHVIL, analist notu, ikinci bilanço analizi gibi ikincil tweetler bugün YOK. Otomatik tur paylaşım için en az 60 dk arayla; değerli konu yoksa paylaşmadan geçer.
 - KULLANILAN (15:23'ten sonra): 16:31 perakende
 
+## Kural 25 (Enes 17.11 16:51): her haber/veri tweeti = haber + YORUM (ne demek, büyük resim, Fed ne düşünür, piyasaya/hisselere etkisi, net düşüncemiz). Şablon 7 güncellendi.
+
 ## Periyot defteri (kural 24)
 - Haftalık/aylık/N günlük ya da adet sınırlı HER iş: önce `python3 periyot.py durum` / `kontrol <anahtar>`, yapınca `python3 periyot.py yap <anahtar> "<not>"` + push. Sözlük cümlesi: `python3 periyot.py sozluk "<Veri>"`. Hafızadan tahmin yok.
 
@@ -44,7 +46,7 @@ Kural 22 (17.11 14:40): radar hf 14:20 trig_016SbofaS65yjLJA3vxEJFJn | sektör C
 18:00 trig_01LCT69YkpVZvjjW6ueTGftC | 23:30 trig_01Me3Zwdnufk6rkLKNmZ2YF5 | key levels 10:30 trig_01BGRz55RsS87Nko3XpCmXRE | takvim Pazar 20:00 trig_01XKuwGwLJwQbLzfPfbdjAX8 | performans Pazar 21:30 trig_017HiX433Vy7u15V1a6wfbec | sabah 09:00 trig_01C56vPfmWMnsPMFTV6wU6CM | 13F Şub/Ağu/Kas trig_01X4fnNMsC1i6wo8kXaMLqmf | 13F May trig_014UMzEahLeqQdKb27x5skDU | haftalık özet Cmt 11:00 trig_01LRGPzzrcF327Pqe67n55Qa | ayın özeti (ayın 1-7'si 10:55, ilk işlem günü kontrolü) trig_01X3YVaH2z1Yv7RyptTiUKok | Pazar 20:00 görevine 'gelecek hafta' tweeti + DONGU arşivi eklendi.
 
 ## Zincir
-- Otomatik tur zinciri: sıradaki trig_01NbRbHd7g9o4NWpF7XoNmXx 17:35 (16:02 turu paylaşmadı: son tweet 15:21, 60 dk kuralı + perakende 16:28; sıradaki konu 13F Greenlight)
+- Otomatik tur zinciri: sıradaki trig_01NbRbHd7g9o4NWpF7XoNmXx 17:35 (16:02 turu paylaşmadı: son tweet 15:21, 60 dk kuralı + perakende 16:28; sıradaki konu: ÖNCE perakende YORUM tweeti (kural 25, gundem.md), Greenlight sonraki tura)
 - Bu oturumdaki tek seferlikler (HESAP=A): HD yayın 13:58, DIS yayın 14:38, perakende 15:40/16:28, NVDA 23:25/00:18.
 
 ## Bekleyen kararlar
