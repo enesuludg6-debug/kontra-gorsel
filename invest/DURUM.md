@@ -3,7 +3,7 @@ Son güncelleme: 17.11.2026 13:38 TSİ. Her tur ve görev sonunda güncellenir (
 
 ## !!! BUGÜNLÜK KURAL (Enes 17.11 15:23): KALAN TWEET HAKKI = 10 (paylaşım günü sonu 01:00 TSİ'ye kadar) !!!
 - Her tweet atan tur/görev ÖNCE bu sayıya bakar; 0 ise ATMAZ. Atınca sayıyı 1 düşürür, DONGU satırına "hak: kalan N" yazar, push.
-- Ayrılan: perakende satış 16:30 (1), NVDA rakam 00:20 (1), NVDA analiz (1), kapanış (1). Serbest: 6 → 13F (en çok 2), büyük son dakika, Enes isteği. Vadeli, FED-TAHVIL, analist notu, ikinci bilanço analizi gibi ikincil tweetler bugün YOK. Otomatik tur paylaşım için en az 60 dk arayla; değerli konu yoksa paylaşmadan geçer.
+- Ayrılan: perakende satış 16:30 (1), NVDA rakam 00:20 (1), NVDA analiz (1), kapanış 00:05 (1; "Kapanış tweeti" görevi kuruldu). Serbest: 6 → 13F (en çok 2), büyük son dakika, Enes isteği. Vadeli, FED-TAHVIL, analist notu, ikinci bilanço analizi gibi ikincil tweetler bugün YOK. Otomatik tur paylaşım için en az 60 dk arayla; değerli konu yoksa paylaşmadan geçer.
 - KULLANILAN (15:23'ten sonra): -
 
 ## Hesap
