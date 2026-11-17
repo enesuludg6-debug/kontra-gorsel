@@ -17,7 +17,7 @@ RKLB k1 55-57 k2 53-55 tez 43,9 | DOCN k1 69-72 k2 56-60 tez hf<55 | SITM k1 395
 17.11 key levels: S&P destek 7380-7400, 7340-7370 (DONGU 13:16 satırı).
 
 ## Kart
-- Son 3 düzen: editoryal (NVDA komite), ilerleme (HD analiz), uclu (DIS). LOGO_BUYUT 1.8, küçültme YOK; bento ve skor kare logoyu taşımıyor; bento ve skor kare logoyu taşımıyor; skor logoyu taşımıyor → bilanço rakamı uclu.
+- Son 3 düzen: ilerleme (HD analiz), uclu (DIS), dortlu (DIS analiz). LOGO_BUYUT 1.8, küçültme YOK; bento ve skor kare logoyu taşımıyor; bento ve skor kare logoyu taşımıyor; bento ve skor kare logoyu taşımıyor; skor logoyu taşımıyor → bilanço rakamı uclu.
 
 ## 13F serisi (Q3 2026)
 Atılanlar: Berkshire, Ackman, Druckenmiller, Tepper, Soros, Third Point/Loeb. Sıradaki: Greenlight/Einhorn → Coatue → Tiger Global → Baupost → Himalaya → Pabrai → Icahn → Bridgewater → Lone Pine/Viking. Bitince Enes'e özet. Burry yok (SEC kaydı silindi).
@@ -28,8 +28,8 @@ Atılanlar: Berkshire, Ackman, Druckenmiller, Tepper, Soros, Third Point/Loeb. S
 - Cumartesi 21.11 11:00 haftalık özet (kural 19). Pazar 22.11 20:00 takvim + "gelecek hafta" tweeti (kural 20), 21:30 performans raporu.
 
 ## Son 10 tweet (17.11)
-09:06 vadeli | 09:38 13F Berkshire | 10:13 13F Ackman | 10:48 13F Druckenmiller | 11:13 13F Tepper | 11:41 13F Soros | 12:14 düşüş analizi (Enes) | 12:22 NVDA önizleme (Enes) | 12:48 13F Loeb | 13:16 key levels + başlıklar | 14:07 HD bilanço rakamı | 14:25 HD analiz | 14:44 DIS bilanço rakamı (analiz 15:00) | 14:16 NVDA ihracat komitesi (Enes)
-Ticker 3 saat: DIS 14:44; HD 14:25; NVDA 14:16 (Enes); META/NVDA/MSFT/GOOGL 12:48; NVDA 12:22.
+09:06 vadeli | 09:38 13F Berkshire | 10:13 13F Ackman | 10:48 13F Druckenmiller | 11:13 13F Tepper | 11:41 13F Soros | 12:14 düşüş analizi (Enes) | 12:22 NVDA önizleme (Enes) | 12:48 13F Loeb | 13:16 key levels + başlıklar | 14:07 HD bilanço rakamı | 14:25 HD analiz | 14:44 DIS bilanço rakamı | 15:01 DIS analiz | 14:16 NVDA ihracat komitesi (Enes)
+Ticker 3 saat: DIS 15:01; HD 14:25; NVDA 14:16 (Enes); META/NVDA/MSFT/GOOGL 12:48; NVDA 12:22.
 
 ## Sabit görevler (kimlikler)
 Kural 22 (17.11 14:40): radar hf 14:20 trig_016SbofaS65yjLJA3vxEJFJn | sektör Cmt 13:25 trig_01UJ5gbaa8MpWRkeNfCZfdcb | ilgi sıralama Cmt 16:25 trig_01R8djvwKF63qvV4cwdsivEK | sezon karnesi Pz 14:25 trig_01DgnmwSnDP8dT1HdLPGKch3 | analist hedef / değerleme Pz 12:25 trig_01LGJqeSfkqAMg3YAbsecQvA | ayın özeti + mevsimsellik trig_01X3YVaH2z1Yv7RyptTiUKok | haftalık özet trig_01LRGPzzrcF327Pqe67n55Qa | performans Pz 21:30 trig_017HiX433Vy7u15V1a6wfbec | sabah 09:00 trig_01C56vPfmWMnsPMFTV6wU6CM
