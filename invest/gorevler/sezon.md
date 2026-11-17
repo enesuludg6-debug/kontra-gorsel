@@ -1,0 +1,2 @@
+# Bilanço sezonu karnesi Pazar 14:25 (kural 22h)
+FactSet Earnings Insight + LSEG/Reuters: S&P 500'ün yüzde kaçı açıkladı. `periyot.py kontrol sezon_karnesi_50` / `_90` + DONGU/arsiv kontrolü: %50 geçildi ve atılmadıysa %50 karnesi, %90 geçildi ve atılmadıysa %90 (ikisi uygunsa %90). Değilse bitir, DONGU'ya yazma. Şablon 19: açıklayan oran, HBK/gelir aşım oranları, 5 ve 10 yıllık ortalama kıyası, kâr büyümesi, en güçlü/zayıf sektör, görüş; 2 kaynak. Kart ilerleme/dortlu. Tür SEZON-KARNESI.

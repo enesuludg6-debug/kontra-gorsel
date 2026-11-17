@@ -1,0 +1,6 @@
+# SABİT GÖREVLERİN ORTAK KURALLARI (kesin kural 29: hepsi bu sohbette send_later zinciri)
+- Başlangıç: `bash invest/tur_basi.sh A` (kilit, DURDUR, DURUM, DONGU son 30, dersler, periyot, takvim). Çıkış 2/3 → dur. DEVIR_TAM baştan okunmaz.
+- Skill: ilgili skill (enes-tweet-turu / enes-bilanco-13f / enes-portfoy-analiz; yoksa invest/skills/*.md).
+- Periyot: işi yapmadan `python3 invest/periyot.py kontrol <anahtar>`; yapınca `yap`.
+- YAYIN (tweet atan görevlerde): yazım kuralları (sade, etiketli görüş girişi yok, satır başında kelime + iki nokta yok, al/sat/emoji/hashtag/link/soru yok, Anthropic yok, her rakam 2 kaynak, kural 23 yalnız doğrular, kural 25 haber + yorum). DERSLER.md aktif + operasyon dersleri. LOGO_BUYUT 1.8 küçültme yok, son 3 düzen kuralı, Read ile tek bakış, `bash invest/yayinla_gorsel.sh g/<dosya>` OK değilse atma. Paylaşmadan önce Buffer list_posts first 5 + DONGU son satır (son 20 dk aynı konu varsa atma; bugünlük hak sayacı varsa uy). Buffer create_post (channelId 6af99a1aece6dfde5fd109c7, automatic, shareNow, image + altText). Enes'e SendUserMessage: tweet metni + "Ne anlama geliyor?" (3-6 madde). Kayıt: `CS=<bu oturum linki> python3 invest/kayit.py ...`.
+- Mesajlar Türkçe ve BU SOHBETE. Kurulan her görev/send_later mesajı HESAP=A ile başlar.

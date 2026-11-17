@@ -1,0 +1,2 @@
+# Teknik kontrol 23:30 (hafta içi; kural 15b, 27) — BU SOHBETTE, ekran görüntüleriyle
+teknik1800.md ile aynı yöntem; ek: aynı günün 18:00 kontrolüne göre değişim, bu gece kapanış sonrası bilanço varsa (takvim.md) notlarda belirt. Yarım gün (27.11, 24.12) kapanış 21:00 TSİ: o gün 20:30'a tek seferlik görev olmalı, bu çalışmada yalnız kısa kapanış notu. Zaman darsa (gece bilanço yayını 00:15 öncesi) portföy için kısa okuma + yine ekran görüntüsü. DONGU "- SS:DD (GG.AA) TEKNIK 23:30: ...", DURUM.md, push. Tweet yok.
