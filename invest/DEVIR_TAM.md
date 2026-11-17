@@ -48,6 +48,9 @@ Kaynaklar: invest/DEVIR.md (15.11 v1), invest/DEVIR_OZET.md (15.11 21:05 + 16.11
  r) İLGİ LİSTESİ GENİŞLEDİ: ON AAOI HOOD TEM CRDO PLTR ISRG ASTS MU + yeni adaylar ANET ALAB MRVL COHR LITE ETN GEV CRWD NET DDOG APP RBRK PL LUNR. Yeni adayların temel karnesi (/50) turlarda zaman kaldıkça (günde 1-2) çıkarılır; 30 altı listeden çıkar. Güncel liste DURUM.md "İlgi listesi" bölümünde.
  Sabit görev ID'leri bölüm 16-G ve DURUM.md'de.
 
+!!! KESİN KURAL 28 — KREDİ TASARRUFU, KURALLAR AYNEN (Enes 17.11 17:41) !!!
+- Hiçbir kural değişmez; tasarruf ekleme yoluyla: tur_basi.sh (tur başı tek çağrı), yayinla_gorsel.sh (push + raw 200), kayit.py (DURUM/DONGU/performans/csv/periyot/push tek çağrı), paralel çağrı, tek ToolSearch, grep ile okuma, büyük çıktıyı dosyada süzme, standard arama önce, Chrome get_page_text önce ve browser_batch, Buffer metriksiz kontrol. Ayrıntı: skills/enes-tweet-turu.md bölüm 15. Çelişkide kural kazanır.
+
 !!! KESİN KURAL 26 — ÖLÇ, DERS AL, UYGULA (Enes 17.11 17:18: "kontrol edeceksin, ders alacaksın, bir sonrakileri ona göre yapacaksın") !!!
 - invest/DERSLER.md: performanstan çıkan dersler (kısa, uygulanabilir maddeler, tarih + kanıt). Her tur konu seçmeden ve yazmadan önce DERSLER.md'nin "AKTİF DERSLER" bölümünü okur ve uygular.
 - Döngü: (1) Her gün 09:00 sabah görevi önceki günün tweet metriklerini performans.md'ye yazar ve önceki güne göre dikkat çeken 1-2 gözlemi DERSLER.md "Gözlemler"e ekler. (2) Her Pazar 21:30 performans raporu: gözlemleri en az 2 hafta ve 5+ tweetle destekleniyorsa "AKTİF DERSLER"e taşır, tutmayanları siler, Enes'e "bu hafta öğrendiklerim" 3-5 madde. (3) 3 haftada bir (periyot.py karisim_onerisi) içerik karışımı yeniden önerilir. (4) Deney: bir ders belirsizse 1 hafta A/B dener (ör. aynı tür 12-15 vs 18-21), sonuç DERSLER.md'ye.

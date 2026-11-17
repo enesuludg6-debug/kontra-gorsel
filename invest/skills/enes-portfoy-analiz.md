@@ -67,3 +67,4 @@ D) Portföyle karşılaştırma: portföydeki 7 hisse aynı kartla; aday en zay�
 - PERİYOT DEFTERİ (kural 24): karne, kalibrasyon (her 5 karnede bir), analist özeti (ayın 1. Pazarı) ve değerleme bandı (2. Pazar), Pazar karne sistemi özeti `python3 periyot.py kontrol <anahtar>` ile kontrol edilir, yapılınca `python3 periyot.py yap <anahtar>`. Hafızadan "bu ay yapılmış mıydı" tahmini yapılmaz.
 
 - PERFORMANS DERSLERİ (kural 26): sabah görevi ve Pazar 21:30 raporu DERSLER.md'yi günceller; Pazar raporunda "bu hafta öğrendiklerim" Enes'e gider.
+- TASARRUF (kural 28, kuralları değiştirmeden): ta2 tam çıktısı dosyaya yazılır ve teknik kontrolde tamamı okunur (kural aynı), turlardaki kısa taramada yalnız özet satırları; TradingView'da gezinme/gösterge ekleme tıklamaları `browser_batch` ile toplu; okuma için ekran görüntüsü `scale 0.5`, Enes'e gidecek görüntü tam çözünürlük + zoom; karne verisi stockanalysis sayfalarından tek seferde dosyaya.
