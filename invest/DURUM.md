@@ -31,6 +31,10 @@ Son güncelleme: 17.11.2026 19:32 TSİ. Her tur ve görev sonunda güncellenir (
 - Büyük takip: NVDA AMD TSM MSFT GOOGL AMZN META ORCL CRWV SNOW.
 - Kural 23: tutmayan tahmin tweette anılmaz, yalnız doğru çıkanlar. Yanlış rakamda kural 21 düzeltme.
 
+## Aday rotasyonu (teknik analizlerde her gün farklı 3-4 aday)
+- 17.11: TSM (39/50), DDOG (karne yok), ANET (karne yok; ekran görüntüsü alındı, mesaj 23:30'a) — tekrar etme: 18-20.11.
+- TradingView düzeni şu an DMI + Aroon ile kayıtlı: sonraki teknik çalışmada rotasyona devam et, sonunda Supertrend + SMC geri koy.
+
 ## Son teknik seviyeler (17.11 18:25 TradingView + ta2 tam)
 NDX 26.990 (4s ST AL) / 26.600 kritik | DOCN k1 72-74 k2 69-70 tez hf<69,8 | RKLB k1 55-57 k2 50-52 tez G<43,9 | SITM k1 395-405 k2 345-365 tez G<335 | AXON k1 291-298 k2 255-270 tez hf<255 | CBRS k1 96-99 k2 88-91 tez G<77,8 | VRT k1 178-183 k2 169-174 tez hf<150 | AVGO k1 323-330 k2 300-311 tez G<289,8 | TSM k1 351-360 | ECL 294-301
 

@@ -271,3 +271,4 @@ Durdurmak için en alta `DURDUR` yazılı bir satır ekle (Enes ya da Claude, En
 - 13F SERİSİ: Greenlight atıldı / sıradaki: Coatue
 - 20:20 (17.11) ENES: bulut sabit 18:00 (trig_01LCT69YkpVZvjjW6ueTGftC) ve 23:30 (trig_01Me3Zwdnufk6rkLKNmZ2YF5) teknik kontrol gorevleri DEVRE DISI (enabled=false, silinmedi). Teknik kontroller artik ana sohbetteki zincirden (kural 29).
 - 20:20 (17.11) ENES: kural 30 teknik analizde sade dil (deyim yok). 18:00/23:30 bulut teknik cron kapatildi; teknik analizler yalniz bu sohbetteki zincirden (teknik1800/teknik2330).
+- 20:26 (17.11) ENES: adaylar ayri degil 18:00/23:30 teknik analizlerin icinde, her gun farkli 3-4 aday + portfoyun en zayif 2 hissesiyle kiyas (gorevler/teknik1800-2330, skill kopyasi, DURUM Aday rotasyonu). Bugun TSM ve DDOG gonderildi, ANET 23:30'da.
