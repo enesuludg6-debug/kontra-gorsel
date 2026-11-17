@@ -304,3 +304,4 @@ Durdurmak için en alta `DURDUR` yazılı bir satır ekle (Enes ya da Claude, En
 - DETAY: HD kapsam disi
 - DETAY: DIS kapsam disi (kural 41 oncesi)
 - DETAY: DIS kapsam disi
+- 01:07 (18.11) ENES: kural 40/41 netlestirme -> detay tweetleri beklemeden (gece dahil), gorusme tweetleri gece bilancosunda ayni sabah. NVDA detay 1 simdi, kalanlar 15-25 dk arayla.
