@@ -1,0 +1,36 @@
+# DURUM — tek sayfa güncel durum (kesin kural 18)
+Son güncelleme: 17.11.2026 13:35 TSİ. Her tur ve görev sonunda güncellenir (en çok 80 satır). Turlar DEVIR_TAM'ı baştan okumaz: skill + bu dosya + DONGU.md son 30 satır. DEVIR_TAM'dan yalnız gereken bölüm grep ile açılır.
+
+## Hesap
+- AKTIF: A (invest/AKTIF_HESAP.md). Görev mesajları HESAP=A ile başlar.
+- Oturum: session_01JKiyuk5Mhinmn4mL9usBPz (zincir + tek seferlik yayınlar). Sabit görevler bulut (persist_session false).
+
+## Portföy ve listeler
+- Portföy: DOCN RKLB SITM AXON CBRS VRT AVGO. NBIS YOK.
+- Kartlı adaylar: TSM (/50 39), ECL (36). Karne: temel_karne.md.
+- İlgi: ON AAOI HOOD TEM CRDO PLTR ISRG ASTS MU + NVDA AMD TSM MSFT GOOGL AMZN META ORCL CRWV SNOW.
+
+## Son teknik seviyeler (16.11 23:30; 17.11 18:00'de güncellenecek)
+RKLB k1 55-57 k2 53-55 tez 43,9 | DOCN k1 69-72 k2 56-60 tez hf<55 | SITM k1 395-405 k2 335-348 tez <276 | AXON k1 291-300 k2 255-273 | CBRS k1 94-98 k2 88-91 tez 77,8 | VRT k1 170-178 k2 150-155 tez hf<150 | AVGO k1 323-330 k2 290-300 tez G<289,8 | TSM k1 351-360 | ECL 294-301
+17.11 key levels: S&P destek 7380-7400, 7340-7370 (DONGU 13:16 satırı).
+
+## Kart
+- Son 3 düzen: dortlu (13F Loeb), takvim (key levels), + bilanço kartları uclu. LOGO_BUYUT 1.8, küçültme YOK; skor logoyu taşımıyor → bilanço rakamı uclu.
+
+## 13F serisi (Q3 2026)
+Atılanlar: Berkshire, Ackman, Druckenmiller, Tepper, Soros, Third Point/Loeb. Sıradaki: Greenlight/Einhorn → Coatue → Tiger Global → Baupost → Himalaya → Pabrai → Icahn → Bridgewater → Lone Pine/Viking. Bitince Enes'e özet. Burry yok (SEC kaydı silindi).
+
+## Bugün / yarın (takvim.md ayrıntılı)
+- 17.11: HD yayın 13:58, DIS yayın 14:38, vadeli ~15:00-15:25, perakende satış hazırlık 15:40 yayın 16:28, teknik 18:00, teknik 23:30, NVDA hazırlık 23:25 yayın 00:18 (+15 dk analiz; 12:22 önizleme tahminleriyle kıyas: gelir 111-113, DC 103-105, GM %74,2-74,5, HBK 2,53-2,58; Q4 rehber 122-126, marj ~%72).
+- 18.11: TGT (açılış öncesi), FOMC notları 22:00, PANW. 19.11: WMT.
+- Cumartesi 21.11 11:00 haftalık özet (kural 19). Pazar 22.11 20:00 takvim + "gelecek hafta" tweeti (kural 20), 21:30 performans raporu.
+
+## Son 10 tweet (17.11)
+09:06 vadeli | 09:38 13F Berkshire | 10:13 13F Ackman | 10:48 13F Druckenmiller | 11:13 13F Tepper | 11:41 13F Soros | 12:14 düşüş analizi (Enes) | 12:22 NVDA önizleme (Enes) | 12:48 13F Loeb | 13:16 key levels + başlıklar
+Ticker 3 saat: META/NVDA/MSFT/GOOGL 12:48; NVDA 12:22.
+
+## Sabit görevler (kimlikler)
+18:00 trig_01LCT69YkpVZvjjW6ueTGftC | 23:30 trig_01Me3Zwdnufk6rkLKNmZ2YF5 | key levels 10:30 trig_01BGRz55RsS87Nko3XpCmXRE | takvim Pazar 20:00 trig_01XKuwGwLJwQbLzfPfbdjAX8 | performans Pazar 21:30 trig_017HiX433Vy7u15V1a6wfbec | sabah 09:00 trig_01C56vPfmWMnsPMFTV6wU6CM | 13F Şub/Ağu/Kas trig_01X4fnNMsC1i6wo8kXaMLqmf | 13F May trig_014UMzEahLeqQdKb27x5skDU | haftalık özet Cumartesi 11:00 ve ayın özeti: bölüm 16-G'ye bak.
+
+## Bekleyen kararlar
+- Yok (kaynak istisnası 12:58'de onaylandı).
