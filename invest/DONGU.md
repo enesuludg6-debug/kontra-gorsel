@@ -307,3 +307,7 @@ Durdurmak için en alta `DURDUR` yazılı bir satır ekle (Enes ya da Claude, En
 - 01:07 (18.11) ENES: kural 40/41 netlestirme -> detay tweetleri beklemeden (gece dahil), gorusme tweetleri gece bilancosunda ayni sabah. NVDA detay 1 simdi, kalanlar 15-25 dk arayla.
 - 01:08 (18.11) AUTO (DETAY): 20261118_0112_nvda_taahhut.jpg (grafik2) - CFO yorumu SEC 8-K (q3fy27cfocommentary.htm): tedarik 279->390, toplam 518, nakit 53,5; Q2 yorumu 119->279; FourWeekMBA/Quartz/Proactive teyit. Taslaklar 2-7: invest/taslak/nvda_detay_20261118.md Buffer 6afcd043536cf08383ca8135. Son 3 duzen: uclu, ilerleme, grafik2.
 - DETAY: NVDA taahhutler (01:08, Buffer 6afcd043536cf08383ca8135)
+- 01:11 (18.11) ENES: 'ornekleri ben attim, bu bilanco icin atman gereken bir sey kalmadi, onumuzdeki bilancolarda uygula' -> 'Detay: NVDA' zinciri ve 'Cagri: NVDA' (11:40) devre disi. Kural 40-41 TGT ve sonrasindan itibaren.
+- DETAY: NVDA kapsam disi (Enes kendisi atti)
+- DETAY: NVDA kapsam disi
+- CAGRI: NVDA kapsam disi (Enes)
