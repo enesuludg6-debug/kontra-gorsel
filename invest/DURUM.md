@@ -76,7 +76,11 @@ Atılanlar: Berkshire, Ackman, Druckenmiller, Tepper, Soros, Third Point/Loeb. A
 09:06 vadeli | 09:38 13F Berkshire | 10:13 13F Ackman | 10:48 13F Druckenmiller | 11:13 13F Tepper | 11:41 13F Soros | 12:14 düşüş analizi (Enes) | 12:22 NVDA önizleme (Enes) | 12:48 13F Loeb | 13:16 key levels + başlıklar | 14:07 HD bilanço rakamı | 14:25 HD analiz | 14:44 DIS bilanço rakamı | 15:01 DIS analiz | 15:21 vadeli | 14:16 NVDA ihracat komitesi (Enes)
 Ticker 3 saat: DIS 15:01; HD 14:25; NVDA 14:16 (Enes); META/NVDA/MSFT/GOOGL 12:48; NVDA 12:22.
 
-## Sabit görevler (kural 29: BU SOHBETTE send_later zinciri; `python3 sonraki.py hepsi`)
+## Sabit görevler A2 (18.11 01:24 sohbet devri, session_01JKiyukU5wB8Xm26NDD6m99)
+sabah trig_01Y2HE9jpJ1HxtCgDLPw9wsY | keylevels trig_01MtFa8vPDj98fPsEHEFkXQ7 | radar trig_011hBn9NzYUqsLA9H3sxjTaU | temel1800 trig_01BG2RVddfrniDZ3kF8FB5rJ | haftalikozet trig_01WdCCVcVUdUH4PTvapMAiUk | sektor trig_01CLY9FkshP5VsSR7HfGTd7r | ilgisira trig_01HmdehZpTUqTMS7ib2xQmJW | analist trig_01ToiAEZR2azSBwmNTB2aRim | sezon trig_01AsGEUyWLG78gu9jczvP2DG | takvim trig_01GSk4e6zDur9Qe5KPWtDiyF | performans trig_01VuGwf6NEdZjnviXGhyqou3 | ayinozeti trig_012hEULzCuEmJGki2qJDVPZj | 13f trig_018WMPgmsvBXmwsrWRTSFFqc
+Tek seferlik A2: tur 01:29 trig_01Qbj8KoEDhmYphZpPAMEmei | tur 11:15 trig_01B1n1AKy7aRNppmDzU9K7cz | Beklenen hareket NVDA 17:45 trig_01R5Jz9iMFsJ7oio6nsdfeNp | Çağrı TGT 19:20 trig_013ixAYQMgEVvehVA1xg7xqb
+Eski sohbet (A) görevleri 01:22'de eski sohbette devre dışı bırakıldı; kilit AKTIF: A2 (tur_basi tam eşleşme).
+## (A, eski) Sabit görevler (kural 29: BU SOHBETTE send_later zinciri; `python3 sonraki.py hepsi`)
 17.11 18:12 kuruldu: sabah trig_012ce3N7txgyPgMe7NExSdXk | keylevels trig_015KcRGTBLUf5FgoyTgM4aPx | radar trig_01JPKB6q6hoSbr7aUvc1tZdT | teknik1800 trig_01YGd9XSQVBPaEvPzUxn58KR | teknik2330 trig_01FrJLYoFpaVNWBML1X51T6Q (bugün 23:30) | haftalikozet trig_01N9oJUV6yDkcy1dHi2UedGi | sektor trig_01H9bcdWG66a46bi8y9XRWGr | ilgisira trig_01VUaoQm8x7ekUc2N4ihwqeF | analist trig_01YPoX9xAnKJ2GkrM1KCvFFj | sezon trig_016jw1UgF9rXmU77P7S3AuBB | takvim trig_01NgZxB2262tvbJv5eirvc9L | performans trig_01TtCSqsEgbDoVwJtAdzyanC | ayinozeti trig_017GsHAih4s9BHpfQCssPh5S | 13f trig_019tLt3qvMWqMLPcNqTQ3kj8. (Her çalışmada yeni ID; güncel liste list_triggers.)
 ESKİ bulut cron (kapalı): aşağıdakiler; 18:00 ve 23:30 bulut cron da 20:19'da kapatıldı. 23:42 TV teyidi kapatıldı (23:30 zinciri ekran görüntülü).
 ## (eski) Sabit görevler (kimlikler)
