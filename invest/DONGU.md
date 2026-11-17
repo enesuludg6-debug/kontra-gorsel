@@ -315,3 +315,4 @@ Durdurmak için en alta `DURDUR` yazılı bir satır ekle (Enes ya da Claude, En
 - 01:17 (18.11) ENES: tweet araligi serbest (sabit aralik kurali kaldirildi; 1 dk-1 saat Claude secer).
 - 01:20 (18.11) ENES: yeni sohbete geciyor -> HESAP_DEVRI.md basina SOHBET DEVRI bolumu + DURUM 'Bekleyen tek seferlik gorevler'.
 - 01:19 (18.11) ENES: 18-21 tweet siniri kaldirildi (D-003 iptal).
+- 01:21 (18.11) SOHBET DEVRİ: A2 aktif
