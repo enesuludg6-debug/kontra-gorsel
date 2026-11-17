@@ -1,5 +1,5 @@
 # DURUM — tek sayfa güncel durum (kesin kural 18)
-Son güncelleme: 17.11.2026 13:38 TSİ. Her tur ve görev sonunda güncellenir (en çok 80 satır). Turlar DEVIR_TAM'ı baştan okumaz: skill + bu dosya + DONGU.md son 30 satır. DEVIR_TAM'dan yalnız gereken bölüm grep ile açılır.
+Son güncelleme: 17.11.2026 16:02 TSİ. Her tur ve görev sonunda güncellenir (en çok 80 satır). Turlar DEVIR_TAM'ı baştan okumaz: skill + bu dosya + DONGU.md son 30 satır. DEVIR_TAM'dan yalnız gereken bölüm grep ile açılır.
 
 ## !!! BUGÜNLÜK KURAL (Enes 17.11 15:23): KALAN TWEET HAKKI = 10 (paylaşım günü sonu 01:00 TSİ'ye kadar) !!!
 - Her tweet atan tur/görev ÖNCE bu sayıya bakar; 0 ise ATMAZ. Atınca sayıyı 1 düşürür, DONGU satırına "hak: kalan N" yazar, push.
@@ -41,7 +41,7 @@ Kural 22 (17.11 14:40): radar hf 14:20 trig_016SbofaS65yjLJA3vxEJFJn | sektör C
 18:00 trig_01LCT69YkpVZvjjW6ueTGftC | 23:30 trig_01Me3Zwdnufk6rkLKNmZ2YF5 | key levels 10:30 trig_01BGRz55RsS87Nko3XpCmXRE | takvim Pazar 20:00 trig_01XKuwGwLJwQbLzfPfbdjAX8 | performans Pazar 21:30 trig_017HiX433Vy7u15V1a6wfbec | sabah 09:00 trig_01C56vPfmWMnsPMFTV6wU6CM | 13F Şub/Ağu/Kas trig_01X4fnNMsC1i6wo8kXaMLqmf | 13F May trig_014UMzEahLeqQdKb27x5skDU | haftalık özet Cmt 11:00 trig_01LRGPzzrcF327Pqe67n55Qa | ayın özeti (ayın 1-7'si 10:55, ilk işlem günü kontrolü) trig_01X3YVaH2z1Yv7RyptTiUKok | Pazar 20:00 görevine 'gelecek hafta' tweeti + DONGU arşivi eklendi.
 
 ## Zincir
-- Otomatik tur zinciri: sıradaki trig_019XNBkK1n7f7u9fgBv2nox7 15:59 (13F Greenlight). Kısa şablon (kural 18).
+- Otomatik tur zinciri: sıradaki 17:35 (16:02 turu paylaşmadı: son tweet 15:21, 60 dk kuralı + perakende 16:28; sıradaki konu 13F Greenlight)
 - Bu oturumdaki tek seferlikler (HESAP=A): HD yayın 13:58, DIS yayın 14:38, perakende 15:40/16:28, NVDA 23:25/00:18.
 
 ## Bekleyen kararlar
