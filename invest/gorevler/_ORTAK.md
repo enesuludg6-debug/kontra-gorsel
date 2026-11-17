@@ -6,3 +6,4 @@
 - Mesajlar Türkçe ve BU SOHBETE. Kurulan her görev/send_later mesajı HESAP=A ile başlar.
 - TEKNİK ANALİZ DİLİ (kural 30): deyim/mecaz yok ("hikâye değişir", "resim bozulur", "sınav" vb.); düz, ölçülebilir cümle.
 - KURAL 36: skill ile invest/skills/ kopyası çelişirse kopya geçerli; 60 dk içinde YAYIN görevi varsa bu görev yayından 15 dk önce bitecek şekilde kısaltılır; günlük tweet sınırı `periyot.py kontrol tweet_gunluk` (15) ve 18-21 en çok 2.
+- KURAL 37 (Enes 17.11 22:17): TEKNİK ANALİZ YOK (gösterge, grafik, TradingView, seviye, ta2/ta_ek kullanılmaz). Yerine temel analize yoğunlaş: 18:00 temel1800 görevi; turlarda portföy haber taraması.

@@ -11,7 +11,7 @@ Her zaman Türkçe yaz. Enes'e giden mesajlar da Türkçe.
 
 Hesabın amacı (her şeyin üstünde): en iyi getiriyi yakalamak ya da en bilgili görünmek değil, GÜVEN ve İYİ İÇERİK. Doğru olmayan rakam yerine eksik tweet; tutmayan tahminden bahsedilmez, yalnız doğru çıkanlar (kural 23); abartı ve heyecan yok. Hedef okur ABD borsasını az bilen biri: kısa, sade, anlaşılır. X hesabı @enes1050392 (Enes Uludağ, EnesInvestUS).
 
-Bilanço önizleme/rakam/analiz ve 13F serisi için `enes-bilanco-13f`, 18:00/23:30 teknik kontrol, portföy notları ve temel karne için `enes-portfoy-analiz` skill'ini de yükle.
+Bilanço önizleme/rakam/analiz ve 13F serisi için `enes-bilanco-13f`, 18:00 temel analiz (kural 37: teknik analiz yok), portföy notları ve temel karne için `enes-portfoy-analiz` skill'ini de yükle.
 
 ## 1. Tur başı kontrol (sırayla)
 
@@ -43,7 +43,7 @@ Vadeli işlemler (her işlem günü 09:05 ve ~15:00-15:25): Yahoo `ES=F NQ=F YM=
 Enes bir şey atarsa:
 - Başkasının tweeti/grafiği: tur beklemeden hemen araştır, her rakamı 2 kaynakla doğrula, KENDİ cümlenle yaz, kendi kartını çiz; tutmayan rakamı Enes'e söyle; tarzını `ORNEKLER.md`'ye şablon olarak ekle. Başkasının tweeti kopyalanmaz/çevrilmez.
 - "Yorum yaz" derse yanıt metni hazırla (Enes kendisi atar, otomatik yanıt yok); istenirse İngilizcesi.
-- Grafik ekran görüntüsü atarsa teknik analiz tweet taslağı (Claude paylaşmaz); okunamayan değer uydurulmaz.
+- (Kural 37) Teknik analiz yapılmaz; Enes grafik atarsa yalnız temel tarafla ilgili not.
 - Kişi haberinde fotoğraf gerekiyorsa internetten indirme; Enes'e "X'in fotosunu at" de, bekleme, o tur başka konu at. Enes'in fotoları `invest/foto/`.
 - Enes'in istediği tweetler otomatik zincirin zamanlamasını değiştirmez; ama sonraki otomatik paylaşım en az 20 dk sonra olur.
 - Anthropic adı/konusu (halka arzı dahil) ASLA tweete girmez.
@@ -101,7 +101,7 @@ $TICKER 3. ÇEYREK BİLANÇOSU
 - Ardından Enes'e `SendUserMessage`: başlık "Paylaşıldı (SS:DD): TÜR", tweet metninin aynısı, sonra "Ne anlama geliyor?" (terimler, tweete konmayan tek kaynaklı bilgiler, Enes'in hisseleri etkileniyor mu).
 - "Ne anlama geliyor?" 3-6 kısa madde: terim/bilgi sade anlatım, piyasada neden önemli, iyi/kötü sinyal nasıl okunur, varsa tarihten örnek, doğrulanamayıp tweete girmeyen rakamlar. Bu bölüm tweete girmez.
 - Enes'in portföyündeki hisseleri (DEVIR_TAM bölüm 1; şu an DOCN RKLB SITM AXON CBRS VRT AVGO, NBIS YOK) etkileyen büyük hareket varsa ayrıca kısa "ben olsam" notu.
-- Her turda tweetten sonra portföy taraması: `python3 ta2.py DOCN RKLB SITM AXON CBRS VRT AVGO > /tmp/ta.txt` (pipe ile head kullanma, BrokenPipe) + Chrome bağlıysa TradingView okuma; önceki duruma göre değişiklik, ekleme fırsatı, azaltma işareti ya da portföy dışı fırsat varsa Enes'e "ben olsam" notu (dil ve yöntem `enes-portfoy-analiz`). Değişiklik yoksa mesaj zorunlu değil.
+- Her turda tweetten sonra portföy taraması (kural 37): 7 portföy hissesinde son haber/8-K/Form 4/analist revizyonu; teze dokunan bir gelişme varsa Enes'e kısa "ben olsam" notu (değerleme bölgesi + tez durumu). Değişiklik yoksa mesaj zorunlu değil.
 
 Tarayıcı: Enes'in X hesabına ve x.com'a HİÇBİR ŞEKİLDE girilmez. Chrome yalnız tradingview.com ve haber/birincil kaynak okumak için (yeni sekme, get_page_text, iş bitince sekmeyi kapat, TradingView sekmesine dokunma). Form, giriş, abonelik, yorum, paylaşım yok; çerez bannerında en gizli seçenek.
 
@@ -225,3 +225,11 @@ d) GÖREV ÇAKIŞMASI (tek oturum sırayla çalışır): bilanço/veri YAYIN gö
 e) KART DÜZENLERİ (O-007 eki): isi ve siralama 17.11 21:55'te düzeltildi (siralama negatif değerleri sıfır ekseniyle çizer; isi logoya çarpan ticker yazısını gizler, rakamı kalan yüksekliğe sığdırır; LOGO_BUYUT 1.8 korunur). Yeni kart düzeni kullanmadan önce Read ile tek bakış zorunlu kalır.
 f) ÖLÇÜM FARKI: ta2.py ile TradingView arasında %2'den büyük fark olursa (ör. 17.11 DOCN 4s Supertrend ta2 91,4 SAT / TV 73,30 AL) TradingView esas; fark DONGU'ya "TA-FARK" etiketiyle yazılır, Pazar raporu farkların sık olduğu göstergeyi inceler.
 g) DENETİM DÖNGÜSÜ: her Pazar performans raporundan sonra kısa sistem denetimi: (1) bütün zincirler bekliyor mu (sonraki.py hepsi vs list_triggers), (2) DURUM.md 100 satırı aştı mı (eski bölümler arsiv/'e), (3) HATA_GUNLUGU ve TA-FARK satırlarından tekrar eden hata var mı (varsa O-xxx operasyon dersi), (4) skill kopyası ile DEVIR_TAM kesin kurallar listesi aynı numaraya kadar mı. Sonuç Enes'e 3-5 madde.
+
+## 18. Teknik analiz yok (kesin kural 37)
+TEKNİK ANALİZ KALDIRILDI, TEMEL ANALİZE YOĞUNLAŞ (kesin kural 37, Enes 17.11 22:17: "teknik analize bakmıyoruz bir daha, onunla alakalı her şeyi kaldır, onun yerine temel analize daha da yoğunlaş").
+- Kaldırılan: 18:00 ve 23:30 teknik kontrol zincirleri (devre dışı), TradingView ve ekran görüntüleri (kural 27), teknik tweet taslakları, gösterge rotasyonu, çizimler (kural 31), ta_ek ve seviye karnesi (kural 33), KARAR'ın teknik ayağı (kural 35), key levels tweetindeki destek/direnç seviyeleri, turlardaki ta2 portföy taraması, TA-FARK (36f). ta2.py, ta_ek.py, seviye_takip.csv repoda arşiv olarak durur, KULLANILMAZ. Kural 12, 27, 31, 33 ve 30/35/36'nın teknik kısımları geçersiz.
+- Yerine: her ABD işlem günü 18:00 TEMEL ANALİZ görevi (zincir temel1800, gorevler/temel1800.md): haber/8-K/Form 4/analist revizyonu taraması, günde en az 2 karne, tez kartı kontrolü (tez_kartlari.md), değerleme bölgeleri (kendi 3 yıllık bandı + akran + ters DCF; ucuz/adil/pahalı fiyat aralığı), temel KARAR tablosu, her gün 2-3 yeni aday tam karneyle, adayların en zayıf 2 portföy hissesiyle kıyası, özet tablo. Ben olsam notları değerleme bölgesi ve tez durumuna dayanır, grafik seviyesine değil.
+- Key levels 10:30 görevi: seviye yok; "günün başlıkları" tweeti (takvim, vadeliler yönü, bilanço/veri beklentileri, kural 25 yorum) + takvim güncelleme + hazırlık/yayın görevleri.
+- Turlarda tweetten sonra portföy hisselerinde haber taraması (ta2 yerine).
+- Tweetlerde grafik/teknik görüş yok; görüş temel veriye dayanır.
