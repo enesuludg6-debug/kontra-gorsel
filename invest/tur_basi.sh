@@ -8,10 +8,17 @@ echo "=== KILIT: $(grep -m1 '^AKTIF:' AKTIF_HESAP.md) (bu gorev HESAP=$H)"
 grep -q "^AKTIF: $H" AKTIF_HESAP.md || { echo "!!! AKTIF $H DEGIL -> HICBIR SEY YAPMA, GOREVI KAPAT"; exit 2; }
 tail -n 40 DONGU.md | grep -q '^DURDUR' && { echo "!!! DURDUR VAR -> DUR"; exit 3; }
 echo "=== SAAT (TSI): $(TZ=Europe/Istanbul date '+%d.%m %a %H:%M')"
-echo "=== DURUM.md (ilk 60 satir)"; head -n 60 DURUM.md
+echo "=== DURUM.md"; cat DURUM.md
 echo "=== DONGU son 30"; tail -n 30 DONGU.md | cut -c1-400
 echo "=== SON OTOMATIK/ENES PAYLASIM"; grep -E '^- [0-9]{2}:[0-9]{2} \([0-9.]+\) (AUTO|ENES-ISTEGI)' DONGU.md | tail -n 3 | cut -c1-120
 echo "=== DERSLER (aktif + operasyon basliklari)"; sed -n '/^## AKTİF DERSLER/,/^## Gözlemler/p' DERSLER.md | grep -E '^(D|O)-0' | cut -c1-140
+echo "=== BUGUN SISTEM TWEETI"; python3 - <<'P'
+import csv,datetime as dt
+b=dt.datetime.now(dt.timezone(dt.timedelta(hours=3))).strftime("%Y-%m-%d")
+R=[r for r in csv.DictReader(open("performans_veri.csv",encoding="utf-8")) if r["tarih"]==b and r["kaynak"]=="sistem"]
+ak=sum(1 for r in R if 18<=int(r["saat"][:2])<21)
+print(f"  bugun {len(R)} tweet (hedef 12-15, ust sinir 15; D-002) | 18-21 dilimi {ak}/2 (D-003)")
+P
 echo "=== PERIYOT"; python3 periyot.py durum | grep -E 'YAPILMALI|BEKLE' | head -n 12
 echo "=== TAKVIM (bugun/yarin)"; D1=$(TZ=Europe/Istanbul date +%d.%m); D2=$(TZ=Europe/Istanbul date -d tomorrow +%d.%m); grep -E "$D1|$D2" takvim.md | head -n 15 | cut -c1-200
 echo "=== GUNDEM (son 5)"; tail -n 5 gundem.md | cut -c1-250

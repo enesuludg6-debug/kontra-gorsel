@@ -20,6 +20,9 @@ gun = bugun.strftime("%d.%m"); iso = bugun.strftime("%Y-%m-%d")
 
 s = open("DURUM.md", encoding="utf-8").read(); kalan = None
 m = re.search(r"KALAN TWEET HAKKI = (\d+)", s)
+blok = re.search(r"BUGÜNLÜK KURAL \(Enes (\d\d\.\d\d)", s)
+pgun = (bugun - dt.timedelta(hours=1)).strftime("%d.%m")  # paylasim gunu 01:00'da biter
+if m and blok and blok.group(1) != pgun: m = None  # 17.11 22:00: eski gunun sayaci dusurulmez
 if m and x.hak != "yok":
     kalan = max(0, int(m.group(1)) - 1)
     s = s.replace(m.group(0), f"KALAN TWEET HAKKI = {kalan}", 1)
@@ -36,6 +39,7 @@ satir = f"- {x.saat} ({gun}) AUTO ({x.tur}): {x.dosya} ({x.duzen}) - {x.dongu} B
 open("DONGU.md", "a", encoding="utf-8").write(satir + "\n")
 open("performans.md", "a", encoding="utf-8").write(f"| {gun} | {x.saat} | {x.tur} | {x.konu} | {x.duzen} | {x.buffer} |\n")
 open("performans_veri.csv", "a", encoding="utf-8").write(f"{iso},{x.saat},{x.kaynak},{x.tur},{x.gorus},{x.konu.replace(',', ' ')},{x.duzen},{x.buffer},,,,,,\n")
+subprocess.run([sys.executable, "periyot.py", "yap", "tweet_gunluk", f"{x.saat} {x.tur}"], check=False)
 if x.periyot:
     for p in x.periyot.split(";"): subprocess.run([sys.executable, "periyot.py", "yap", p, f"{x.saat} {x.konu}"], check=False)
 msg = x.mesaj or f"{x.saat} {x.tur} {x.konu}"

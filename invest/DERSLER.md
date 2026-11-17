@@ -55,7 +55,7 @@ O-003 Göndermeden önce satır başı "kelime + iki nokta" taraması (key level
 O-004 Makro veri tweeti tek tweet bile olsa yorumlu (kural 25); Fed beklentisini (artırım mı indirim mi) o an 2 kaynakla kontrol et, varsayma.
 O-005 Census sayfası Chrome'da metin vermiyor: doğrudan `census.gov/retail/marts/www/marts_current.pdf` aç, ekran görüntüsünden oku; kontrol grubu 4. sayfa tablosunda (hız için hazırlıkta sayfa koordinatını bul).
 O-006 Yayından sonra 10 dk içinde ikinci kaynak: arama indeksi ~10-15 dk geride; Chrome ile Reuters/CNBC canlı sayfası daha hızlı.
-O-007 skor ve bento 1.8 logoyu taşımıyor: bilanço rakamı uclu, analiz ilerleme/dortlu; logo rakama yakınsa başlığı tek satıra indir.
+O-007 skor ve bento 1.8 logoyu taşımıyor (17.11 21:55: isi ve siralama kodda düzeltildi): bilanço rakamı uclu, analiz ilerleme/dortlu; logo rakama yakınsa başlığı tek satıra indir.
 O-008 WebFetch "PROVENANCE_REQUIRED" cevapsız kalıyor: tekrar deneme, WebSearch ya da Chrome get_page_text.
 O-009 60 dk ara kuralı varken zinciri yayın saatine göre kur (perakende 16:31 → sonraki tur 17:35).
 O-010 Buffer'da sistem dışı gönderiler olabilir (Enes elle atıyor): tekrar kontrolünde onları da konu tekrarı sayarak bak.

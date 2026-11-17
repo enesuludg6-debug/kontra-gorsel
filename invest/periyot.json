@@ -98,6 +98,10 @@
   "13f_gunluk": {
    "gunluk_max": 2,
    "aciklama": "13F tweeti gunde en cok 2 (D-004)"
+  },
+  "tweet_gunluk": {
+   "gunluk_max": 15,
+   "aciklama": "Sistem tweeti gunde en cok 15 (D-002 12-15; Enes istekleri ve bilanco/veri yayinlari dahil sayilir ama sinira takilmaz)"
   }
  },
  "kayit": {
@@ -147,6 +151,76 @@
    {
     "t": "2026-11-17 19:32",
     "not": "Greenlight"
+   }
+  ],
+  "tweet_gunluk": [
+   {
+    "t": "2026-11-17 09:06",
+    "not": "vadeli"
+   },
+   {
+    "t": "2026-11-17 09:38",
+    "not": "13F"
+   },
+   {
+    "t": "2026-11-17 10:13",
+    "not": "13F"
+   },
+   {
+    "t": "2026-11-17 10:48",
+    "not": "13F"
+   },
+   {
+    "t": "2026-11-17 11:13",
+    "not": "13F"
+   },
+   {
+    "t": "2026-11-17 11:41",
+    "not": "13F"
+   },
+   {
+    "t": "2026-11-17 12:48",
+    "not": "13F"
+   },
+   {
+    "t": "2026-11-17 13:16",
+    "not": "keylevels"
+   },
+   {
+    "t": "2026-11-17 14:07",
+    "not": "HD"
+   },
+   {
+    "t": "2026-11-17 14:25",
+    "not": "HD analiz"
+   },
+   {
+    "t": "2026-11-17 14:44",
+    "not": "DIS"
+   },
+   {
+    "t": "2026-11-17 15:01",
+    "not": "DIS analiz"
+   },
+   {
+    "t": "2026-11-17 15:21",
+    "not": "vadeli"
+   },
+   {
+    "t": "2026-11-17 16:31",
+    "not": "perakende"
+   },
+   {
+    "t": "2026-11-17 17:36",
+    "not": "perakende yorum"
+   },
+   {
+    "t": "2026-11-17 19:32",
+    "not": "13F"
+   },
+   {
+    "t": "2026-11-17 21:07",
+    "not": "NVDA oncesi"
    }
   ]
  },

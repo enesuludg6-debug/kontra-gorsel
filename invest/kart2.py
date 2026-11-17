@@ -401,20 +401,34 @@ def siralama(baslik, alt, satirlar, birim, kaynak, out, vurgu=(), etiket="SIRALA
         d.text((72, y), l, font=f, fill=(255, 255, 255)); y += int(f.size * 1.06)
     d.text((72, y + 6), alt, font=sans(30, "Medium"), fill=(160, 166, 180)); y += 70
     rows = satirlar[:10]
-    rh = min(96, (H - 160 - y) // max(1, len(rows)))
-    mx = max(v for _, v, _ in rows)
-    x0, x1 = 72 + 70 + 150, W - 72 - 150
+    rh = min(150, (H - 160 - y) // max(1, len(rows)))
+    # 17.11 21:55: negatif degerler desteklenir (sifir ekseni), logo genisligi metni itmez (logo 1.8 kucultulmez)
+    lgs = {t: _logo(t, rh - 22) for t, _, _ in rows}
+    lw = max([lg.width for lg in lgs.values() if lg] + [56])
+    tx = 72 + lw + 14
+    tw = max(d.textlength(t.replace("$", ""), font=sans(30, "ExtraBold")) for t, _, _ in rows)
+    x0, x1 = int(tx + tw + 24), W - 72 - 170
+    pmx = max([v for _, v, _ in rows if v > 0] + [0]); nmx = max([-v for _, v, _ in rows if v < 0] + [0])
+    tot = (pmx + nmx) or 1; xz = x0 + int((x1 - x0) * nmx / tot)
+    if nmx:
+        d.line((xz, y - 6, xz, y + rh * len(rows)), fill=(90, 94, 110), width=2)
     for t, v, lab in rows:
         cy = y + rh // 2
-        lg = _logo(t, rh - 22)
+        lg = lgs[t]
         if lg:
-            img.paste(lg, (72 + (56 - lg.width) // 2, cy - lg.height // 2), lg)
+            img.paste(lg, (72 + (lw - lg.width) // 2, cy - lg.height // 2), lg)
         hl = t in vurgu
-        d.text((72 + 70, cy), t.replace("$", ""), font=sans(30, "ExtraBold"), fill=(255, 255, 255) if hl else (200, 204, 214), anchor="lm")
-        bw = int((x1 - x0) * v / mx)
-        col = (255, 196, 60) if hl else renk
-        d.rounded_rectangle((x0, cy - (rh - 34) // 2, x0 + max(bw, 12), cy + (rh - 34) // 2), radius=10, fill=col)
-        d.text((x0 + bw + 16, cy), lab, font=sans(32, "Black"), fill=(255, 255, 255), anchor="lm")
+        d.text((tx, cy), t.replace("$", ""), font=sans(30, "ExtraBold"), fill=(255, 255, 255) if hl else (200, 204, 214), anchor="lm")
+        bw = int((x1 - x0) * abs(v) / tot)
+        col = (255, 196, 60) if hl else (renk if v >= 0 else (214, 72, 80))
+        if v >= 0:
+            bh = min(rh - 34, 60) // 2
+            d.rounded_rectangle((xz, cy - bh, xz + max(bw, 12), cy + bh), radius=10, fill=col)
+            d.text((xz + max(bw, 12) + 16, cy), lab, font=sans(32, "Black"), fill=(255, 255, 255), anchor="lm")
+        else:
+            bh = min(rh - 34, 60) // 2
+            d.rounded_rectangle((xz - max(bw, 12), cy - bh, xz, cy + bh), radius=10, fill=col)
+            d.text((xz + 16, cy), lab, font=sans(32, "Black"), fill=(255, 255, 255), anchor="lm")
         y += rh
     d.text((72, y + 14), birim, font=K.mono(20), fill=(130, 136, 150))
     if vurgu:
@@ -600,13 +614,17 @@ def isi(baslik, alt, kutular, kaynak, out, etiket="PİYASA", kolon=3, hane=1):
         x = 56 + (i % kolon) * (cw + G); yy = y + (i // kolon) * (ch + G); k = 0.35 + 0.65 * abs(v) / mx
         c = _mix((20, 44, 34), (24, 168, 96), k) if v >= 0 else _mix((52, 22, 26), (214, 48, 58), k)
         _tile(img, (x, yy, x + cw, yy + ch), _mix(c, (255, 255, 255), 0.08), r=26, fill2=_mix(c, (0, 0, 0), 0.25))
-        lg = _logo(t, int(min(cw, ch) * 0.34))
+        lg = _logo(t, int(min(cw, ch) * 0.34)); ph = 0
         if lg:
-            p = _plate(lg, 12, 18); img.paste(p, (int(x + 20), int(yy + 20)), p)
+            p = _plate(lg, 12, 18); img.paste(p, (int(x + 20), int(yy + 20)), p); ph = p.height; pw = p.width
         d = ImageDraw.Draw(img)
-        d.text((x + cw - 22, yy + 26), t.replace("$", ""), font=sans(34, "ExtraBold"), fill=(255, 255, 255), anchor="ra")
+        # 17.11 21:55: logo 1.8 kucultulmez; ticker yazisi logoya carpiyorsa yazilmaz (logo zaten tanitir), rakam kalan yuksekligi asmaz
+        nf = sans(34, "ExtraBold"); tw_ = d.textlength(t.replace("$", ""), font=nf)
+        if not lg or (x + 20 + pw + 12) < (x + cw - 22 - tw_):
+            d.text((x + cw - 22, yy + 26), t.replace("$", ""), font=nf, fill=(255, 255, 255), anchor="ra")
         s = ("+" if v > 0 else "−" if v < 0 else "") + f"%{abs(v):.{hane}f}".replace(".", ",")
-        d.text((x + 22, yy + ch - 22), s, font=_fitnum(d, s, cw - 44, 76), fill=(255, 255, 255), anchor="ls")
+        boy = int(min(76, max(30, ch - (20 + ph) - 40))) if lg else 76
+        d.text((x + 22, yy + ch - 22), s, font=_fitnum(d, s, cw - 44, boy), fill=(255, 255, 255), anchor="ls")
     _footer(img, kaynak, acc=(255, 255, 255), line=T_BG)
     return _save(img, out)
 
