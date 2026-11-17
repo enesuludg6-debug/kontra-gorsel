@@ -733,7 +733,7 @@ Bu bölüm devir notu yeniden yazılırsa aynen korunur.
 
 
 ### 16-G. KURULU GÖREVLER (17.11 13:05, oturum session_01JKiyuk5Mhinmn4mL9usBPz; kural 15)
-SABİT (tekrarlayan, create_trigger, her çalışmada YENİ oturum açar, oturumdan bağımsız; devirde SİLİNMEZ, list_triggers ile kontrol edilir):
+SABİT (HESAP=A önekli, 17.11 13:22; tekrarlayan, create_trigger, her çalışmada YENİ oturum açar, oturumdan bağımsız; devirde SİLİNMEZ, list_triggers ile kontrol edilir):
 - trig_01LCT69YkpVZvjjW6ueTGftC Teknik kontrol 18:00 (hafta içi) — CRON_TZ=Europe/Istanbul 0 18 * * 1-5
 - trig_01Me3Zwdnufk6rkLKNmZ2YF5 Teknik kontrol 23:30 (hafta içi) — 30 23 * * 1-5
 - trig_01BGRz55RsS87Nko3XpCmXRE Günlük key levels + başlıklar 10:30 (hafta içi) — 30 10 * * 1-5
@@ -742,7 +742,7 @@ SABİT (tekrarlayan, create_trigger, her çalışmada YENİ oturum açar, oturum
 - trig_01C56vPfmWMnsPMFTV6wU6CM Günlük sabah kontrolü 09:00 (her gün)
 - trig_01X4fnNMsC1i6wo8kXaMLqmf 13F serisi başlangıcı 15 Şub/Ağu/Kas 09:05; trig_014UMzEahLeqQdKb27x5skDU 16 Mayıs 09:05
 - ABD YAZ SAATİ (8 Mart 2027): 18:00 → 17:00, 23:30 → 23:00 update_trigger ile alınmalı; 1 Kasım 2027'de geri. Takvime not.
-TEK SEFERLİK (send_later, bu oturuma bağlı): otomatik tur zinciri "Otomatik paylaşım turu"; 17.11 HD/DIS hazırlık trig_01YW1dvnhPHaepQNX1m7iDAb (13:06), HD yayın trig_01MK5kMeJds7kxMU1nWi3K2Z (13:58), DIS yayın trig_01C94A6fGMsZta4dKyugisDi (14:38), perakende hazırlık trig_01Be651ivjjZLkrvQL9B7SBF (15:40), perakende yayın trig_01FZ1JNJM1vSHxSTQ3hJkGR3 (16:28), NVDA hazırlık trig_01XxN54vuUHFc1Yrwv19Nw43 (23:25), NVDA yayın trig_01ABe9pTdGzwtJSxY5w6F3QS (00:18 18.11); key levels bugünkü tek çalışma trig_01W2NqTt7qy5d2A2JYR22oew (13:15).
+TEK SEFERLİK (send_later, bu oturuma bağlı; 17.11 13:22 hepsinin mesajı HESAP=A ile başlar): otomatik tur zinciri "Otomatik paylaşım turu"; 17.11 HD/DIS hazırlık trig_01YW1dvnhPHaepQNX1m7iDAb (13:06), HD yayın trig_01MK5kMeJds7kxMU1nWi3K2Z (13:58), DIS yayın trig_01C94A6fGMsZta4dKyugisDi (14:38), perakende hazırlık trig_01Be651ivjjZLkrvQL9B7SBF (15:40), perakende yayın trig_01FZ1JNJM1vSHxSTQ3hJkGR3 (16:28), NVDA hazırlık trig_01XxN54vuUHFc1Yrwv19Nw43 (23:25), NVDA yayın trig_01ABe9pTdGzwtJSxY5w6F3QS (00:18 18.11); key levels bugünkü tek çalışma trig_01W2NqTt7qy5d2A2JYR22oew (13:15).
 DEVRE DIŞI (silme yetkisi verilmedi, enabled=false): eski send_later teknik kontroller trig_01E6RSbqVeQrZ6mLmDK23LTy (18:00) ve trig_01J57K2S12HQAYCp9LmtaLK6 (23:30) — sabit görevlerle çift olmasın diye.
 NOT: Sabit görevler yeni oturumda add_repo(push) ister; o oturumda izin istenirse Enes onaylamalı.
 
