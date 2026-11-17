@@ -13,6 +13,11 @@ Kaynaklar: invest/DEVIR.md (15.11 v1), invest/DEVIR_OZET.md (15.11 21:05 + 16.11
 - 18.11: TGT, FOMC toplantı notları 22:00 TSİ, PANW kapanış sonrası. 19.11: WMT.
 - Enes'e verilen öneri (17.11 12:28): bilgisayarı uykuya almamak (TradingView için), sec.gov iznini bir kez onaylamak. Cevap bekleniyor.
 
+!!! KESİN KURAL 17 — HESAP KİLİDİ VE HESAP DEVRİ (17.11 13:11, Enes: "hakkım bitince arkadaşımın hesabından devam edeceğim, orada skill vs hiçbir şey yok; tek seferde kopyalayabileceğim bir şey yaz, aynılarını yapsın, olası bütün sorunları düşün") !!!
+- invest/AKTIF_HESAP.md: "AKTIF: A" (A = Enes'in hesabı, B = arkadaşının hesabı). Her tur/görev/yayın EN BAŞTA bu dosyayı okur; kendi mesajındaki HESAP=<etiket> farklıysa hiçbir şey yapmaz (tweet yok, push yok) ve kendi tekrarlayan görevlerini kapatır. Bütün görev ve send_later mesajları HESAP=<etiket> içerir.
+- Başka hesaba geçiş: invest/HESAP_DEVRI.md (sıfırdan kurulum, kontrol listesi, sorun tablosu). Skill'lerin kopyası invest/skills/ altında; skill değişince kopya da güncellenir.
+- Her commit'ten önce `git pull --rebase -q` (iki oturum aynı anda yazabilir), --force yok. Paylaşmadan hemen önce Buffer son 3 gönderi + DONGU son satır kontrolü: son 20 dk içinde aynı konu varsa atma.
+
 !!! YENİ KESİN KURALLAR 14-16 (17.11 12:54, Enes: "2'yi yap kesinlikle, 3'ü de yap, 6'yı da yap; bilanço gibi haberlerde araştırdın bulamadın, sonra açıklandı, sonraki tur 5 dk sonra olduğu için geç paylaşmış oluruz, tweetin değeri kaybolur, bizden önce başka hesaplar paylaşır; ona da çözüm bul") !!!
 14) PERFORMANS RAPORU (hangi tweet işe yarıyor):
    - Kayıt: invest/performans.md. Her tweet DONGU'da TÜR ile kayıtlı (VADELI, 13F, BILANCO-RAKAM, BILANCO-ANALIZ, BILANCO-ONIZLEME, ANALIST, SONDAKIKA, BAGLAM-GORUS, KAPANIS, TAKVIM, EGITICI, ENES-ISTEGI). Yeni tweetlerde DONGU satırında tür bu listeden yazılır.
@@ -793,6 +798,7 @@ NOT: Sabit görevler yeni oturumda add_repo(push) ister; o oturumda izin istenir
 | 18:14 | Neden temelleri yapmadın, turlarda vaktin vardı; çözüm bul, devir notuna ekle, hiçbir şey çıkarma, sürekli kontrol et | başlık 3b, 14c-E, 14g, B, temel_karne.md |
 | 02:31 (17.11) | 13F'ler açıklandı: her kişi için ayrı, değişiklikler + görüş tweeti; sonraki çeyreklerde sormadan kendin paylaş; devir + kurallara ekle | başlık 10, takvim |
 | 11:10 (17.11) | Teknik analizde Nasdaq'a da bak → Nasdaq 100 endeksi her teknik kontrolde ilk mesaj + hisselerde endeks kıyası | kesin kural 12 |
+| 13:11 (17.11) | Hakkım bitince arkadaşımın hesabından devam; tek seferde kopyalanacak eksiksiz kurulum, olası sorunlar | kesin kural 17, AKTIF_HESAP.md, HESAP_DEVRI.md, skills/ |
 | 12:58 (17.11) | Bilanço rakam tweetinde şirket bülteni tek başına yeterli; ikinci kaynak teyidi yayından sonra 10 dk içinde | kesin kural 16 kaynak istisnası |
 | 12:54 (17.11) | Performans raporu (hangi tweet işe yarıyor), sabit saatli görevler, haftalık bilanço takvimi + geç kalmama (hız protokolü) | kesin kural 14-16, performans.md, takvim.md |
 | 12:39 (17.11) | Devir: yeni sohbete geçiş; skill'ler kaydedildi (enes-tweet-turu, enes-bilanco-13f, enes-portfoy-analiz) | v8 özeti, A7 |

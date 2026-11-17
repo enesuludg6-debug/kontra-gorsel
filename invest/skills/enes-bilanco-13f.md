@@ -1,0 +1,72 @@
+---
+name: "enes-bilanco-13f"
+description: "Enes'in X hesabı için bilanço önizleme, bilanço rakam tweeti, 15 dk sonraki bilanço analizi ve çeyreklik 13F yatırımcı serisi hazırlanırken kullanılır."
+---
+
+# Bilanço ve 13F tweetleri
+
+Genel tur kuralları (kontrol, kaynak, yazım, kart, paylaşım, kayıt) için `enes-tweet-turu` skill'i geçerlidir; bu skill onun üstüne bilanço ve 13F'e özel kuralları ekler. Repo `/home/claude/kontra-gorsel/invest`; ayrıntı `DEVIR_TAM.md` (bölüm 4, kesin kural 7 ve 10), kalıplar `ORNEKLER.md`.
+
+## A. Bilanço döngüsü
+
+Portföy (DOCN RKLB SITM AXON CBRS VRT AVGO) ve ilgi listesi (ON AAOI HOOD TEM CRDO PLTR ISRG ASTS MU + büyük yapay zekâ/yarı iletken/bulut/uzay: NVDA AMD AVGO TSM MSFT GOOGL AMZN META ORCL CRWV SNOW vb.) şirketlerinde öncesi ve sonrası KESİN atılır.
+
+### 1. Önizleme (1 gün önce akşam ya da bilanço günü sabah)
+Enes'in 17.11 NVDA isteği bu formatın örneğidir: "çok profesyonel, bilanço tahmincisi gibi, benim aklıma gelmeyen metrikleri de araştır". Tek uzun tweet (Enes flood istemezse). İçerik sırası, başlıksız akan paragraflar:
+1. Bağlam cümlesi: ne zaman, neden önemli, hisse son dönemde ne yaptı.
+2. Geçen çeyrek: gelir, ana segment, marj, HBK; şirketin kendi rehberini ne kadar aştı. Kaynak: şirketin 8-K/10-Q'su (SEC) + IR.
+3. Bu çeyreğin şirket rehberi ve piyasa beklentisi (gelir, HBK, ana segment; Visible Alpha, LSEG, FactSet, Earnings Whispers, Zacks; en az 2 kaynak).
+4. BENİM BEKLENTİM: aralıklı rakamlarla (gelir, segment, marj, HBK, sonraki çeyrek rehberi) ve dayanağı (geçmiş rehber aşım büyüklüğü, müşterilerin harcama planları, sektör verisi). Tahmin olduğu açık olsun.
+5. Yönü belirleyecek eşikler: "X'in üstü güçlü mesaj, Y'nin altı yavaşlama diye okunur".
+6. Çoğu kişinin bakmadığı metrikler (şirkete göre seç): müşteri dağılımı ve yoğunlaşması, alacak ve stokların gelire göre büyümesi (DSO/DIO), faaliyet gideri rehberi, yeni ürün geçişi, bölge/Çin payı ve ihracat kuralı, tedarik taahhütleri, serbest nakit ve geri alım, yönetim değişikliği ve tonu, sektöre özel KPI (bulutta backlog/RPO/güç MW, yazılımda ARR/NRR, perakendede aynı mağaza satışı ve sepet, bankada net faiz marjı).
+7. Fiyatlama: hisse ne kadar düştü/yükseldi, son bilanço tepkisi, opsiyonların fiyatladığı hareket (yalnız 2 kaynak tutarlıysa).
+8. Görüş cümlesi ("Bence ..." en fazla bir kez) + "rakamlar açıklandığında yayınlayacağım". Soruyla bitmez, al/sat yok.
+Kart: `bento` (büyük rakam = gelir tahminim, kutular = segment/marj/HBK tahmin vs piyasa, seri = son çeyrek gelirleri + tahmin).
+Tahminleri DONGU'ya yaz; rakam tweetinden sonra analizde "tahminim tuttu/tutmadı" açıkça söylenir (yanılınca "şunu demiştim, olmadı").
+
+### 2. Rakam tweeti (açıklanır açıklanmaz, YORUMSUZ)
+Enes'in $CRWV formatı (kesin kural 7):
+```
+$TICKER 3. ÇEYREK BİLANÇOSU
+• Gelir: 3,66 Mr $ / Beklenti: 3,54 Mr $
+• Hisse başı kâr: -1,24 $ / Beklenti: -1,55 $
+• Düzeltilmiş faaliyet kârı: 379 Mn $ / Beklenti: 246 Mn $
+• (şirkete özgü 2-3 metrik)
+
+2026 TAHMİNİ   (ya da "4. ÇEYREK TAHMİNİ")
+• Gelir: 13,2 Mr $ / Beklenti: 12,5 Mr $
+• Yatırım harcaması: 38 Mr $ / Beklenti: 36 Mr $
+```
+- Her satır "metrik: gerçek / Beklenti: X". Terimler Türkçe ve sade.
+- KAYNAK İSTİSNASI (ONAYLANDI, Enes 17.11 12:58): bilanço RAKAM tweetinde şirketin kendi resmi bülteni (IR sayfası, GlobeNewswire/Business Wire/PR Newswire, SEC 8-K) tek başına yeterli kaynaktır; ikinci kaynak beklenmez. Beklenti rakamları önceden 2 kaynakla doğrulanmış olur. Yayından sonra 10 dk içinde ikinci kaynakla (Reuters/CNBC/Benzinga) teyit; fark varsa Enes'e hemen söyle, gerekirse düzeltme tweeti. Bu istisna YALNIZ bilanço rakam tweeti içindir; analiz ve diğer tüm tweetlerde 2 kaynak kuralı aynen geçerli.
+- Kart `skor(ticker, etiket, baslik, [(metrik, beklenti, gerçek, ok)], sonuc, kaynak, out)` ya da `terminal`.
+- Açıklama saatini önceden bil; gece 01:00-09:00 arasına düşen bilinen açıklama için ayrı tek seferlik tur kurulur (gece istisnası).
+- Mali yıl takvim yılından farklı olabilir (NVDA, TSN): çeyrek adını şirketin mali yılına göre yaz ve kontrol et.
+
+### 3. Kapsamlı analiz (rakam tweetinden 15 dk sonra)
+- Sayfanın stiline uyan hisselerde (portföy, ilgi listesi, yapay zekâ/yarı iletken/bulut/uzay/büyük teknoloji) rakam tweetinin hemen ardından `send_later` ile 15 dk sonrasına tek seferlik tur kur; bu otomatik zinciri değiştirmez.
+- İçerik: ne iyi, ne kötü, rehber neden önemli, okuyucunun aklındaki soruya cevap ("organik mi, tek seferlik mi, düzeltince ne kalıyor": ne kadar olduğunu 2 kaynakla bul), önizlemedeki tahminlerle kıyas, hisse tepkisi, net görüş. Kart: bento/uclu/panel.
+- Bilanço açıklayan portföy hissesinin temel karnesi aynı gün yenilenir (`enes-portfoy-analiz`).
+
+### 4. Takvim ve HIZ PROTOKOLÜ (kesin kural 16, 17.11; Enes: "bulamadın, sonra açıklandı, sonraki tur 5 dk sonra, geç paylaşırız, tweetin değeri kaybolur, bizden önce başkaları paylaşır")
+- `invest/takvim.md`: her Pazar 20:00 (sabit görev) gelecek 7 gün, her gün 09:05 ve 10:30 key levels tweetinde güncellenir. Kapsam: portföy, ilgi listesi, büyük yapay zekâ/yarı iletken/bulut/uzay/büyük teknoloji ve piyasayı oynatacak diğerleri (HD, WMT, TGT, DIS, büyük bankalar) + Fed kararı, TÜFE, istihdam, perakende satışlar, FOMC notları, büyük konuşmalar. Her satır: tarih, AÇIKLAMA SAATİ TSİ (IR duyurusu ya da önceki çeyreklerin dakikası; belirsizse "tahmini"), beklenti (2 kaynak), bülten kaynağı URL'si. ABD kış saatinde TSİ = ET + 8 saat.
+- Takvime yazılan HER olay için iki tek seferlik görev hemen kurulur (gece 01:00-09:00 dahil):
+  a) HAZIRLIK, T-45/60 dk: beklentileri son kez 2 kaynakla doğrula; tweet iskeletini (CRWV formatı, gerçek rakam alanları boş) ve skor kartı kodunu `/tmp/hazir_<ticker>.py` olarak hazır yaz; bülten URL'lerini hazırla; DONGU'ya `HAZIR: <ticker>`.
+  b) YAYIN, T-2 dk: en çok 30 dk boyunca 45-60 sn arayla bülten kaynaklarını kontrol et (WebFetch şirket IR haber sayfası / GlobeNewswire / Business Wire / PR Newswire şirket sayfası; WebSearch "<şirket> reports third quarter results"; Yahoo chart `includePrePost=true` ile mesai dışı fiyatta ani sıçrama = açıklama işareti). Bülten bulununca rakamları BÜLTENDEN al (tek kaynak yeterli, yukarıdaki istisna), hazır karta gir, Read ile tek bakış, push, raw URL 200, Buffer shareNow. HEDEF: bülten çıktıktan sonra 3-5 dk içinde yayında. Sonra 10 dk içinde ikinci kaynak teyidi ve 15 dk sonrasına analiz turu.
+- Yayın turu otomatik zincirden bağımsızdır, 20 dk kuralına takılmaz; bekleyen otomatik tur yayına ±15 dk denk geliyorsa `update_trigger` ile yayından 20+ dk sonraya kaydırılır.
+- Bilanço ve saati belli veri başlıklarında `enes-tweet-turu` bölüm 9'daki "+3 dk tek seferlik tur" yerine bu protokol uygulanır.
+- Konferans görüşmesinde rehber değişikliği ya da önemli söz çıkarsa ayrı kısa tweet.
+
+## B. 13F serisi (kesin kural 10)
+
+- Ne zaman: her çeyreğin 13F son gününden sonraki ilk turlarda Enes'e SORMADAN başlar: yaklaşık 14-17 Şubat, 15-18 Mayıs, 14-17 Ağustos, 14-17 Kasım (tatil/hafta sonu ise sonraki iş günü).
+- Her otomatik turda 1 kişi, her kişi ayrı tweet; seri o günlerde öncelikli konu, son dakika ve bilanço araya girer.
+- Liste (öncelik: en çok merak edilen ve en büyük değişiklik önce): Berkshire Hathaway (Greg Abel), Pershing Square (Bill Ackman), Duquesne (Stanley Druckenmiller), Appaloosa (David Tepper), Soros Fund Management, Third Point (Dan Loeb), Greenlight (David Einhorn), Coatue, Tiger Global, Baupost (Seth Klarman), Himalaya (Li Lu), Pabrai, Icahn, Bridgewater, Lone Pine, Viking + gündemdeki diğerleri. Scion/Michael Burry 10.11.2025'te SEC kaydını sildi, 13F vermiyor: listeden çıkarıldı.
+- İçerik: yeni pozisyonlar, tamamen çıkılanlar, en büyük artırma ve azaltmalar (hisse adedi, değer, portföy payı), portföy değeri. Tablo değil düz metin + kart.
+- Görüş zorunlu, etiketsiz ("Benim okumam:" yok): hareketin olası mantığı, kişinin bilinen tarzı, piyasa bağlamı, önceki 13F'lerle ortak tema (17.11 serisi temaları: bellek/depolama, Nvidia'da ayrışma, 13F gecikmesi). Gerekirse etiketsiz tek cümle: "Tablo 30 Eylül itibarıyla, sonrasındaki işlemler dosyada yok." 13F yalnız ABD uzun pozisyonlarını gösterir; açığa satış ve yabancı hisseler yok, opsiyonlar dayanak değeriyle görünür.
+- "X aldı, siz de alın" dili yok.
+- Doğrulama: EDGAR 13F-HR (birincil; sec.gov izin isterse 13f.info EDGAR aynası) + en az 1 haber/izleme kaynağı (mlq.ai, FourWeekMBA, GuruFocus, StockHub, 24/7 Wall St, CNBC, Reuters, Bloomberg, WhaleWisdom, Dataroma, HedgeFollow, Fintel, Valuesider). Aynı yazının başka sitedeki kopyası ikinci kaynak sayılmaz. Tek kaynaklı rakam ve isim atılmaz (rakamsız yön verilebilir), Enes'e "Ne anlama geliyor?"da söylenir. Çeyrek/yıl kontrolü şart (geçen yılın aynı çeyreği sık karışır). Pozisyon değerleri çeyrek sonu fiyatıyladır.
+- Kart: panel, bento, uclu, dortlu, ilerleme, editoryal, siralama (son 3'ü tekrar etme).
+- Enes'in portföy hisselerinde büyük yatırımcı hareketi varsa (tek kaynaklı bile olsa) Enes'e ayrıca not: ne oldu, doğrulandı mı, "ben olsam" etkisi.
+- DONGU: `- 13F SERİSİ: <isim> atıldı / sıradaki: <isim>`. Seri bitince Enes'e kısa özet: kim ne yaptı, ortak temalar.
+- `ORNEKLER.md` bölüm 19 kalıbı: [fon + çeyrek] → [en dikkat çekici hareket, rakamla] → [diğer 1-3 hareket] → [görüş: tarz ve piyasayla bağ] → [gerekirse 13F sınırı].
