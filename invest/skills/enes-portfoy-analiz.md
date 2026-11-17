@@ -58,3 +58,8 @@ D) Portföyle karşılaştırma: portföydeki 7 hisse aynı kartla; aday en zay�
 - Kalibrasyon (her 5 karnede bir + her gün ilk turda): karneleri yan yana oku, sıralama mantıklı mı; çapalar: 5 = akranların en iyi %20'si, 3 = medyan, 1 = en kötü %20 ya da kırmızı bayrak; DONGU'ya "KALİBRASYON: ...".
 - Hata günlüğü: bulunan her hata `DEVIR_TAM.md` 14i-D'ye; yeni hata türü 14i-A'ya madde olarak. Her karnede "sonucu en çok değiştiren varsayım" DENETİM satırına. Pazar günü Enes'e "karne sisteminde bu hafta düzelttiklerim" özeti. Enes bir puana itiraz ederse 14i-D'ye yaz ve aynı hatayı diğer karnelerde ara.
 - Tablo güncellenir (/50 ve /45 sütunları), DONGU'ya `KARNE: <hisse> <toplam>`, commit + push.
+## Kural 22 eklemeleri (17.11 14:35)
+
+- İlgi listesi genişledi: ON AAOI HOOD TEM CRDO PLTR ISRG ASTS MU + ANET ALAB MRVL COHR LITE ETN GEV CRWD NET DDOG APP RBRK PL LUNR. Yeni adayların karnesi turlarda günde 1-2; 30/50 altı listeden çıkar (DURUM.md "İlgi listesi").
+- Analist hedef özeti (ayın ilk Pazarı 12:25) ve değerleme bandı (ayın ikinci Pazarı 12:25) sabit görevi: portföy + ilgi listesi + adaylar; Enes'e not, en çarpıcısı tweet. Değerlemede "ucuz/pahalı" değil "kendi geçmişine göre yüksek/düşük".
+- "Ben olsam" notlarında eski tahminin tutmadığı tweete taşınmaz (kural 23); Enes'e özel notta durum dürüstçe yazılır.

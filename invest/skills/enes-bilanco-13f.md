@@ -22,7 +22,7 @@ Enes'in 17.11 NVDA isteği bu formatın örneğidir: "çok profesyonel, bilanço
 7. Fiyatlama: hisse ne kadar düştü/yükseldi, son bilanço tepkisi, opsiyonların fiyatladığı hareket (yalnız 2 kaynak tutarlıysa).
 8. Görüş cümlesi ("Bence ..." en fazla bir kez) + "rakamlar açıklandığında yayınlayacağım". Soruyla bitmez, al/sat yok.
 Kart: `bento` (büyük rakam = gelir tahminim, kutular = segment/marj/HBK tahmin vs piyasa, seri = son çeyrek gelirleri + tahmin).
-Tahminleri DONGU'ya yaz; rakam tweetinden sonra analizde "tahminim tuttu/tutmadı" açıkça söylenir (yanılınca "şunu demiştim, olmadı").
+Tahminleri DONGU'ya yaz; tahmin tuttuysa analizde söylenebilir; tutmadıysa tweette hiç anılmaz (kural 23, yalnız doğru çıkanlar).
 
 ### 2. Rakam tweeti (açıklanır açıklanmaz, YORUMSUZ)
 Enes'in $CRWV formatı (kesin kural 7):
@@ -70,3 +70,10 @@ $TICKER 3. ÇEYREK BİLANÇOSU
 - Enes'in portföy hisselerinde büyük yatırımcı hareketi varsa (tek kaynaklı bile olsa) Enes'e ayrıca not: ne oldu, doğrulandı mı, "ben olsam" etkisi.
 - DONGU: `- 13F SERİSİ: <isim> atıldı / sıradaki: <isim>`. Seri bitince Enes'e kısa özet: kim ne yaptı, ortak temalar.
 - `ORNEKLER.md` bölüm 19 kalıbı: [fon + çeyrek] → [en dikkat çekici hareket, rakamla] → [diğer 1-3 hareket] → [görüş: tarz ve piyasayla bağ] → [gerekirse 13F sınırı].
+## Kural 22 eklemeleri (17.11 14:35)
+
+- Önizleme tweetine opsiyon piyasasının beklediği hareket (±%X; Barchart / Market Chameleon / OptionCharts + haber, 2 kaynak). Ertesi gün açılıştan sonraki ilk turda "beklenen ±%X, gerçekleşen %Y" (BEKLENEN-HAREKET, şablon 5).
+- Portföy ve ilgi listesi bilançolarında analiz tweeti ya da sonraki tur en yakın rakiple panel/dortlu kart (RAKIP, şablon 6; büyüme, brüt marj, ileri F/K, tahmin).
+- Bilanço sezonu karnesi: Pazar 14:25 sabit görev; raporlayan oran ilk kez %50 ve %90'ı geçince (SEZON-KARNESI, şablon 19).
+- 13F serisi bitince sonraki turda 13F-OZET (şablon 20): en az 3 yatırımcının ortak aldığı/sattığı hisseler.
+- Yalnız doğru çıkanlar (kural 23); yanlış rakamda kural 21 düzeltme.

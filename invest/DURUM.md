@@ -8,7 +8,9 @@ Son güncelleme: 17.11.2026 13:38 TSİ. Her tur ve görev sonunda güncellenir (
 ## Portföy ve listeler
 - Portföy: DOCN RKLB SITM AXON CBRS VRT AVGO. NBIS YOK.
 - Kartlı adaylar: TSM (/50 39), ECL (36). Karne: temel_karne.md.
-- İlgi: ON AAOI HOOD TEM CRDO PLTR ISRG ASTS MU + NVDA AMD TSM MSFT GOOGL AMZN META ORCL CRWV SNOW.
+- İlgi listesi (kural 22r): ON AAOI HOOD TEM CRDO PLTR ISRG ASTS MU | yeni, karnesi bekleniyor (günde 1-2, 30/50 altı çıkar): ANET ALAB MRVL COHR LITE ETN GEV CRWD NET DDOG APP RBRK PL LUNR | çıkarılanlar: -
+- Büyük takip: NVDA AMD TSM MSFT GOOGL AMZN META ORCL CRWV SNOW.
+- Kural 23: tutmayan tahmin tweette anılmaz, yalnız doğru çıkanlar. Yanlış rakamda kural 21 düzeltme.
 
 ## Son teknik seviyeler (16.11 23:30; 17.11 18:00'de güncellenecek)
 RKLB k1 55-57 k2 53-55 tez 43,9 | DOCN k1 69-72 k2 56-60 tez hf<55 | SITM k1 395-405 k2 335-348 tez <276 | AXON k1 291-300 k2 255-273 | CBRS k1 94-98 k2 88-91 tez 77,8 | VRT k1 170-178 k2 150-155 tez hf<150 | AVGO k1 323-330 k2 290-300 tez G<289,8 | TSM k1 351-360 | ECL 294-301
@@ -30,6 +32,7 @@ Atılanlar: Berkshire, Ackman, Druckenmiller, Tepper, Soros, Third Point/Loeb. S
 Ticker 3 saat: HD 14:25; NVDA 14:16 (Enes); META/NVDA/MSFT/GOOGL 12:48; NVDA 12:22.
 
 ## Sabit görevler (kimlikler)
+Kural 22 (17.11 14:40): radar hf 14:20 trig_016SbofaS65yjLJA3vxEJFJn | sektör Cmt 13:25 trig_01UJ5gbaa8MpWRkeNfCZfdcb | ilgi sıralama Cmt 16:25 trig_01R8djvwKF63qvV4cwdsivEK | sezon karnesi Pz 14:25 trig_01DgnmwSnDP8dT1HdLPGKch3 | analist hedef / değerleme Pz 12:25 trig_01LGJqeSfkqAMg3YAbsecQvA | ayın özeti + mevsimsellik trig_01X3YVaH2z1Yv7RyptTiUKok | haftalık özet trig_01LRGPzzrcF327Pqe67n55Qa | performans Pz 21:30 trig_017HiX433Vy7u15V1a6wfbec | sabah 09:00 trig_01C56vPfmWMnsPMFTV6wU6CM
 18:00 trig_01LCT69YkpVZvjjW6ueTGftC | 23:30 trig_01Me3Zwdnufk6rkLKNmZ2YF5 | key levels 10:30 trig_01BGRz55RsS87Nko3XpCmXRE | takvim Pazar 20:00 trig_01XKuwGwLJwQbLzfPfbdjAX8 | performans Pazar 21:30 trig_017HiX433Vy7u15V1a6wfbec | sabah 09:00 trig_01C56vPfmWMnsPMFTV6wU6CM | 13F Şub/Ağu/Kas trig_01X4fnNMsC1i6wo8kXaMLqmf | 13F May trig_014UMzEahLeqQdKb27x5skDU | haftalık özet Cmt 11:00 trig_01LRGPzzrcF327Pqe67n55Qa | ayın özeti (ayın 1-7'si 10:55, ilk işlem günü kontrolü) trig_01X3YVaH2z1Yv7RyptTiUKok | Pazar 20:00 görevine 'gelecek hafta' tweeti + DONGU arşivi eklendi.
 
 ## Zincir
@@ -38,3 +41,9 @@ Ticker 3 saat: HD 14:25; NVDA 14:16 (Enes); META/NVDA/MSFT/GOOGL 12:48; NVDA 12:
 
 ## Bekleyen kararlar
 - Yok (kaynak istisnası 12:58'de onaylandı).
+
+## Radar (içeriden alım / geri alım, son 5)
+- (henüz yok; ilk tarama 18.11 14:20)
+
+## İçerik karışımı (Enes onaylı, kural 22a)
+- Henüz yok (3 haftalık veri bekleniyor).

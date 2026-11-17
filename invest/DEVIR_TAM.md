@@ -27,6 +27,29 @@ Kaynaklar: invest/DEVIR.md (15.11 v1), invest/DEVIR_OZET.md (15.11 21:05 + 16.11
    - DÜZELTME: atılmış bir tweette yanlış rakam/bilgi çıkarsa (ikinci kaynak teyidi, okuyucu fark etmesi, sonradan revizyon dahil) 1) Enes'e HEMEN SendUserMessage (ne yanlış, doğrusu ne, kaynak), 2) aynı gün açık ve sade düzeltme tweeti: "Az önceki $X tweetinde Y'yi Z yazdım, doğrusu W." (etiket yok, savunma yok, kart gerekmez; görselde hata varsa düzeltilmiş kart), 3) DONGU'ya "DUZELTME:" satırı ve invest/HATA_GUNLUGU.md'ye kayıt (tarih, tweet, hata, sebep, önlem); aynı tür hata tekrar ederse ilgili skill'e önlem maddesi eklenir. Hesabın amacı güven: yanılınca açıkça söylemek kuralı.
    - AYIN ÖZETİ: her ayın ilk ABD işlem günü 11:00 TSİ (tekrarlayan görev ayın 1-7'si hafta içi çalışır, o ay zaten atıldıysa ya da ilk işlem günü değilse hiçbir şey yapmaz): geçen ayın S&P 500, Nasdaq 100, Dow, Russell ve portföy hisselerinin (DOCN RKLB SITM AXON CBRS VRT AVGO) aylık %'si (Yahoo + 1 kaynak; portföy kelimesi tweete yazılmaz, "takip ettiğim hisseler" denebilir, ağırlık/tutar yok), en önemli 3 olay, tek tweet + kart. Tür AYLIK-OZET.
 
+!!! KESİN KURAL 22 (Enes 17.11 14:35, "tüm tamam dediklerimi ekle"): YENİ İÇERİK VE SİSTEM ÖZELLİKLERİ
+ a) PERFORMANSA GÖRE KARIŞIM (5): Pazar 21:30 raporu 3 haftalık veri olunca "önerilen karışım" tablosu (tür → günlük adet, en iyi saat dilimi) çıkarır. Enes "onay" yazınca DURUM.md "İçerik karışımı" bölümüne ve enes-tweet-turu skill'ine işlenir; turlar konu seçerken bu karışıma uyar. Onaysız değişiklik yok.
+ b) ŞABLON KÜTÜPHANESİ (6): invest/sablonlar.md. Sık türler için metin iskeleti + kart çağrısı. Turlar sıfırdan yazmaz, şablondan doldurur; yazım kuralları aynen geçerli. Yeni sık tür çıkarsa şablon eklenir.
+ c) İÇERİDEN ALIM + GERİ ALIM RADARI (10, 29): hafta içi 14:20 sabit görev. Son 24 saatin SEC Form 4'leri (OpenInsider + EDGAR/haber teyidi): kod P piyasadan alım, 1 Mn $ üstü, küme alımı; 10b5-1 planlı satış ve kod F hariç. Aynı taramada büyük hisse geri alım açıklamaları (piyasa değerinin %3'ü ya da 5 Mr $ üstü). En güçlü 1 tanesi tweet (tür ICERIDEN ya da GERI-ALIM); kısa liste DURUM.md'ye.
+ d) MAKRO VERİ SÖZLÜĞÜ (14): invest/makro_sozluk.md. Her makro veri tweetine sözlükten tek cümle "neden önemli" eklenir; aynı cümle 2 hafta içinde tekrar edilmez (sözlükteki varyasyon kullanılır).
+ e) 1 YIL ÖNCE BUGÜN (16): ayda 2-3 kez menüden. Geçen yılın aynı haftasındaki piyasa olayı ya da hesabın eski tweeti bugünle karşılaştırılır. YALNIZ DOĞRU ÇIKAN tespit/beklenti paylaşılır, tutmayanlar paylaşılmaz (kural 23). Rakamlar 2 kaynak. Tür BIR-YIL.
+ f) SEKTÖR ISI HARİTASI (20): Cumartesi 13:25 sabit görev. 11 S&P sektör ETF'si (XLK XLC XLY XLP XLE XLF XLV XLI XLB XLRE XLU) haftalık %, isi kartı (kolon=3), para nereye aktı tek cümle. Tür SEKTOR.
+ g) FED VE TAHVİL TAKİBİ (21): her turda Yahoo ^TNX ve DX-Y.NYB. Gün içinde 10 yıllık faiz ±8 baz puan, dolar endeksi ±%0,6 ya da CME FedWatch'ta bir sonraki toplantı olasılığında 15 puan üstü değişim varsa "ne değişti, teknoloji/büyüme hisselerini neden etkiler" tweeti (2 kaynak; tür FED-TAHVIL). Günde en fazla 1.
+ h) BİLANÇO SEZONU KARNESİ (22): Pazar 14:25 sabit görev. Sezonda S&P 500 şirketlerinin raporlayan oranı ilk kez %50'yi ve ilk kez %90'ı geçtiği haftalarda tek tweet: kaçı açıkladı, yüzde kaçı HBK ve gelir beklentisini aştı, en iyi/en kötü sektör, 5 yıllık ortalamayla kıyas (FactSet Earnings Insight + LSEG/Reuters). Her eşik bir kez (DONGU/arsiv kontrolü). Tür SEZON-KARNESI.
+ i) 13F ÇEYREK ÖZETİ (23): 13F serisinin son yatırımcısı atıldıktan sonraki turda tek tweet: büyük yatırımcıların ortak aldığı ve ortak sattığı hisseler (en az 3 yatırımcı), siralama kartı. Tür 13F-OZET.
+ j) KURUMSAL OLAY TAKVİMİ (25): Pazar takvim görevi büyük halka arzları, hisse bölünmelerini, büyük temettü kararlarını ve S&P 500 / Nasdaq 100 endeks giriş-çıkışlarını da takvim.md'ye yazar; günü gelen tur tweetler (tür KURUMSAL).
+ k) ANALİST HEDEF ÖZETİ (27): ayın ilk Pazarı 12:25 sabit görev. Portföy + genişletilmiş ilgi listesi + adaylar için geçen ayın hedef fiyat değişimleri (yukarı/aşağı revizyon sayısı, ortalama hedef değişimi, ortalama hedefin mevcut fiyata uzaklığı); siralama kartı tweet (tür ANALIST-OZET) + Enes'e "beklentiler hangi hisselerde yukarı/aşağı kayıyor" notu.
+ l) RAKİP KARŞILAŞTIRMA (33): portföy ya da ilgi listesi şirketi bilanço açıkladığında analiz tweeti (ya da sonraki tur) en yakın rakiple yan yana kart (panel ya da dortlu): büyüme, brüt marj, ileri F/K, verilen tahmin. Örnek eşler: VRT-ETN, AVGO-MRVL, ANET-CSCO, CRWD-PANW, NET-AKAM, AXON-MSI; diğerlerinde en yakın rakip araştırılır. Tür RAKIP.
+ m) DEĞERLEME BANDI (34): ayın ikinci Pazarı 12:25 (aynı sabit görev). Portföy + ilgi listesi için ileri F/K ve fiyat/satış, hissenin kendi 3 ve 5 yıllık ortalamasıyla (2 kaynak). Enes'e not; en çarpıcı 1-2 tanesi tweet (tür DEGERLEME). "Ucuz/pahalı" yerine "kendi geçmişine göre yüksek/düşük"; al/sat yok.
+ n) OPSİYON BEKLENEN HAREKET (36): bilanço önizleme tweetine "opsiyon piyasası bilanço sonrası ±%X hareket fiyatlıyor" (Barchart / Market Chameleon / OptionCharts + haber, 2 kaynak). Ertesi gün açılıştan sonraki ilk turda portföy ve büyük şirketlerde "beklenen ±%X, gerçekleşen %Y" kısa tweet (tür BEKLENEN-HAREKET).
+ o) MEVSİMSELLİK (37): ayın İKİNCİ ABD işlem günü 11:00 (ayın özeti görevi yapar): S&P 500 ve Nasdaq'ın o ayki tarihsel ortalama getirisi ve pozitif kapanma oranı (en az 20 yıl, 2 kaynak), "geçmiş garanti değil" cümlesi. Tür MEVSIMSELLIK.
+ p) İLGİ LİSTESİ SIRALAMA (40): Cumartesi 16:25 sabit görev. Genişletilmiş ilgi listesinin haftalık %, siralama kartı, ilk 2 ve son 2'ye tek cümle sebep. Tür ILGI-HAFTALIK.
+ q) LANSMAN TAKVİMİ (41): Pazar takvim görevi büyük teknoloji etkinliklerini (Nvidia GTC, Apple etkinlikleri, AWS re:Invent, CES, Google I/O, Microsoft Build, Computex, Tesla etkinlikleri) takvim.md'ye yazar. Etkinlikten önce "ne bekleniyor", sonra "ne açıklandı ve hisseye etkisi" (tür LANSMAN).
+ r) İLGİ LİSTESİ GENİŞLEDİ: ON AAOI HOOD TEM CRDO PLTR ISRG ASTS MU + yeni adaylar ANET ALAB MRVL COHR LITE ETN GEV CRWD NET DDOG APP RBRK PL LUNR. Yeni adayların temel karnesi (/50) turlarda zaman kaldıkça (günde 1-2) çıkarılır; 30 altı listeden çıkar. Güncel liste DURUM.md "İlgi listesi" bölümünde.
+ Sabit görev ID'leri bölüm 16-G ve DURUM.md'de.
+
+!!! KESİN KURAL 23 (Enes 17.11 14:35): YALNIZ DOĞRU ÇIKANLAR. Enes: "yanıldıklarımızı paylaşma, sadece bildiklerimizden bahsedilecek." Eski "yanılınca açıkça söyle (şunu demiştim, olmadı)" kuralı KALDIRILDI. Tutmayan tahmin, beklenti ya da "ben olsam" notundan tweette bahsedilmez; tutan tahmin bağlama uyuyorsa söylenebilir. Önizleme tahminleri DONGU'ya iç kayıt olarak yine yazılır. AYRI KONU: atılmış tweetteki yanlış RAKAM/BİLGİ için kural 21 DÜZELTME aynen geçerli (Enes'in 13:28 isteği).
+
 !!! KESİN KURAL 17 — HESAP KİLİDİ VE HESAP DEVRİ (17.11 13:11, Enes: "hakkım bitince arkadaşımın hesabından devam edeceğim, orada skill vs hiçbir şey yok; tek seferde kopyalayabileceğim bir şey yaz, aynılarını yapsın, olası bütün sorunları düşün") !!!
 - invest/AKTIF_HESAP.md: "AKTIF: A" (A = Enes'in hesabı, B = arkadaşının hesabı). Her tur/görev/yayın EN BAŞTA bu dosyayı okur; kendi mesajındaki HESAP=<etiket> farklıysa hiçbir şey yapmaz (tweet yok, push yok) ve kendi tekrarlayan görevlerini kapatır. Bütün görev ve send_later mesajları HESAP=<etiket> içerir.
 - Başka hesaba geçiş: invest/HESAP_DEVRI.md (sıfırdan kurulum, kontrol listesi, sorun tablosu). Skill'lerin kopyası invest/skills/ altında; skill değişince kopya da güncellenir.
@@ -186,7 +209,7 @@ OTOMATİK PAYLAŞIM TURU (Enes 15.11 21:15 "oto atmaya devam"). ÖNCE invest/DEV
 - Enes bir YATIRIMCI (16.11 12:48). Portföy yönetiminde amacı yükselişin başını yakalamak değil, EN DİPLERİ bulmak (16.11 13:32).
 - HESABIN AMACI (15.11 18:10, her şeyin üstünde): en iyi getiriyi yakalamak ya da borsayı en iyi bilen görünmek DEĞİL. Amaç GÜVEN sağlamak ve İYİ İÇERİK üretmek.
   - Doğru olmayan rakam yerine eksik tweet. Her kartta kaynak.
-  - Yanılınca açıkça söyle ("şunu demiştim, olmadı").
+  - Yalnız doğru çıkan tahminlerden bahsedilir; tutmayan paylaşılmaz (kural 23, 17.11). Yanlış rakam için kural 21 düzeltme geçerli.
   - Abartı, heyecan, "kaçırmayın" yok. Sade, dürüst, anlaşılır.
   - Okuru eğit: neden önemli, kime etkisi var.
 - Hedef okur (15.11 16:25, EN ÖNEMLİ YAZIM KURALI): ABD borsasını az bilen biri. Olabildiğince KISA ve BASİT.
@@ -762,6 +785,8 @@ NOT: Sabit görevler yeni oturumda add_repo(push) ister; o oturumda izin istenir
 
 - 17.11 13:40 (kural 19-21, eski oturumdan kuruldu): Haftalık özet Cumartesi 10:55 trig_01LRGPzzrcF327Pqe67n55Qa; Ayın özeti her ayın 1-7'si 10:55 (yalnız ilk ABD işlem günü çalışır) trig_01X3YVaH2z1Yv7RyptTiUKok; Pazar 20:00 takvim görevi (trig_01XKuwGwLJwQbLzfPfbdjAX8) güncellendi: + 'gelecek hafta' tweeti (kural 20) + DONGU arşivi (kural 18).
 
+- 17.11 14:45 (kural 22): yeni sabit görevler ve ID'ler DURUM.md 'Sabit görevler' bölümünde.
+
 ## 17. KAYIT
 - DONGU.md satır biçimi: `- HH:MM AUTO (TÜR): dosya.jpg - özet (kaynaklar; tek kaynak olup kullanılmayanlar) | Buffer id | düzen:...` ve gerekirse "SIRADAKİ: ...".
 - Commit sonuna sistemin verdiği attribution satırları eklenir.
@@ -861,3 +886,5 @@ NOT: Sabit görevler yeni oturumda add_repo(push) ister; o oturumda izin istenir
 - Sıfır clone'dan kart2 ile kart üretildi ✓. ta2.py Yahoo'dan veri çekti ✓. raw.githubusercontent DEVIR_TAM.md 200 ✓. git kimliği tanımlı ✓.
 - Tek bulunan sorun: ta2.py çıktısı `| head` ile kesilince BrokenPipe hatası veriyor. Çıktıyı dosyaya yaz, sonra oku (A3 d'ye işlendi).
 - Test edilemeyen (yeni oturumda A3'te kontrol edilecek): yeni sohbette Buffer, GitHub ve zamanlayıcı araçlarının bağlı olması; Chrome eklentisinin o sohbete görünmesi.
+| 17.11 14:35 | "tüm tamam dediklerimi ekle (5 6 10 14 16 20 21 22 23 25 27 29 33 34 36 37 40 41), ilgi listesini arttır" | KESİN KURAL 22; sablonlar.md, makro_sozluk.md; 5 yeni sabit görev + 3 güncelleme; skill bölüm 13 |
+| 17.11 14:35 | "yanıldıklarımızı paylaşma, sadece bildiklerimizden bahsedilecek, o kuralı kaldır" | KESİN KURAL 23; eski yanılma kuralı kaldırıldı (satır 189 ve skill'ler); kural 21 düzeltme ayrı konu |
