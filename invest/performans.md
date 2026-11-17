@@ -42,3 +42,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 - 18-21 dilimini seyrelt (en çok 2). Durum: ÖNERİ, Enes "onay" yazınca DURUM.md "İçerik karışımı" ve skill'e işlenir.
 - Sonraki öneri: 3 hafta sonra (periyot.py; ~08.12, ilk Pazar raporu 13.12).
 | 17.11 | 17:36 | MAKRO-YORUM | Perakende yorum (kural 25) | uclu | 6afc666ed41d8612acc8a60e |
+| 17.11 | 19:32 | 13F | 13F Greenlight Einhorn | dortlu | 6afc8184104bf3e624906e5f |
