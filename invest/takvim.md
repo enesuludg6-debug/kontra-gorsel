@@ -12,4 +12,4 @@ TSİ = ET + 8 saat (ABD kış saati, 2 Kasım 2026 - 8 Mart 2027).
 | 18.11 Çar | açılış öncesi | Target (TGT) | bilanço | doğrulanacak | corporate.target.com | | | |
 | 18.11 Çar | 22:00 | FOMC toplantı notları | veri | - | federalreserve.gov | | | |
 | 19.11 Per | ~00:05 TSİ (18.11 kapanış sonrası ET) | Palo Alto (PANW) | bilanço (mali 2027 Q1; şirket rehberi gelir 3,30-3,31 Mr $, HBK 0,96-0,98 $ — Nasdaq, Zacks) | doğrulanacak | investors.paloaltonetworks.com | | | (tarih doğrulanacak) |
-| 19.11 Per | açılış öncesi | Walmart (WMT) | bilanço | doğrulanacak | stock.walmart.com | | | |
+| 19.11 Per | 15:00 (7:00 ET; Earnings Whispers + Walmart IR 6:00 CT düzeni); görüşme 16:00 (days.to) | Walmart (WMT) | bilanço açılış öncesi (mali 2027 Q3) | HBK 0,64 $ (Zacks, Earnings Whispers), gelir 186,5-187,3 Mr $ (Zacks, Investing) | stock.walmart.com | 14:00 | 14:58 | kuruldu (isler.py) |

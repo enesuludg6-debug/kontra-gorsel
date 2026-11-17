@@ -14,3 +14,5 @@
 - KURAL 42: tweet penceresi 11:00-02:00; Pzt-Cmt günde 30-40 tweet (Pazar üst 40); tweet aralığı SERBEST (1 dk da olabilir 1 saat de; Enes 01:15), sonraki tur zamanını her turda sen seç; tur_basi tempo satırı yalnız rehber.
 - 18-21 dilimi sınırı YOK (Enes 18.11 01:18).
 - KURAL 43: zamanlı her iş is_defteri.json'da (`python3 invest/isler.py`); görev kurunca 'kuruldu', bitince 'yapildi'; iptal yalnız Enes'in aynen sözüyle ve en dar kapsamda. Bilanço görevleri işi bitirince kendi satırını `durum <id> yapildi` yapar.
+- KURAL 43 eki (Enes 18.11 01:39): takvim.md'ye yeni bilanço/veri olayı yazıldığı AN `python3 invest/isler.py bilanco <T> <YYYY-MM-DDTHH:MM> <acilis_oncesi|kapanis_sonrasi> [görüşme HH:MM]` (veri için `isler.py ekle`) çalıştırılır ve çıkan her adım için aynı görevde send_later kurulup `durum <id> kuruldu --trigger` yazılır; sonraki göreve bırakılmaz. Aynı saate iki görev düşerse 2-3 dk kaydır; çağrı görevleri 18:00 temel analizle çakışmaz.
+- EKSİK BULUNCA (Enes 18.11 01:39): Enes'e sorma; ne yapacağını tek cümleyle söyle ve hemen yap.

@@ -1,6 +1,45 @@
 {
  "isler": [
   {
+   "id": "HD-1117-bilanco",
+   "ad": "HD bilanço (rakam+analiz)",
+   "zaman": "2026-11-17T13:58",
+   "ne": "17.11 rakam 14:07 + analiz 14:25 atıldı",
+   "ticker": "HD",
+   "tur": "bilanco",
+   "durum": "yapildi",
+   "not": "DONGU 17.11; çağrı/detay kural 40-41 öncesi kapsam dışı (DONGU 00:33, 01:00)",
+   "trigger": "",
+   "soz": "",
+   "guncelleme": "18.11 01:41"
+  },
+  {
+   "id": "DIS-1117-bilanco",
+   "ad": "DIS bilanço (rakam+analiz)",
+   "zaman": "2026-11-17T14:38",
+   "ne": "17.11 rakam 14:44 + analiz 15:01 atıldı",
+   "ticker": "DIS",
+   "tur": "bilanco",
+   "durum": "yapildi",
+   "not": "DONGU 17.11; çağrı/detay kural 40-41 öncesi kapsam dışı",
+   "trigger": "",
+   "soz": "",
+   "guncelleme": "18.11 01:41"
+  },
+  {
+   "id": "PERAKENDE-1117",
+   "ad": "Ekim perakende satışları",
+   "zaman": "2026-11-17T16:28",
+   "ne": "veri tweeti + yorum",
+   "ticker": "",
+   "tur": "veri",
+   "durum": "yapildi",
+   "not": "16:31 rakam + 17:36 yorum",
+   "trigger": "",
+   "soz": "",
+   "guncelleme": "18.11 01:41"
+  },
+  {
    "id": "NVDA-1118-opsiyon",
    "ad": "Opsiyon: NVDA",
    "zaman": "2026-11-17T18:20",
@@ -287,6 +326,19 @@
    "guncelleme": "18.11 01:35"
   },
   {
+   "id": "WMT-1119-opsiyon",
+   "ad": "Opsiyon: WMT",
+   "zaman": "2026-11-19T11:20",
+   "ne": "Kural 39: opsiyonların fiyatladığı hareket (±%, 2 kaynak) açıklamadan önce en az bir tweette; DONGU '- OPSIYON: T'",
+   "ticker": "WMT",
+   "tur": "bilanco",
+   "durum": "kuruldu",
+   "not": "11:00 günün başlıklarında atıldıysa (DONGU - OPSIYON: WMT) yapildi yaz ve kapat",
+   "trigger": "trig_015nJX9WY2NLtQxgBZ2ZzkGw",
+   "soz": "",
+   "guncelleme": "18.11 01:41"
+  },
+  {
    "id": "PANW-1119-cagri",
    "ad": "Çağrı: PANW",
    "zaman": "2026-11-19T11:40",
@@ -300,6 +352,58 @@
    "guncelleme": "18.11 01:35"
   },
   {
+   "id": "WMT-1119-hazirlik",
+   "ad": "Hazırlık: WMT",
+   "zaman": "2026-11-19T14:00",
+   "ne": "Kural 16: beklentiler 2 kaynak, CRWV iskeleti, /tmp/hazir_T.py kart, bülten URL'leri",
+   "ticker": "WMT",
+   "tur": "bilanco",
+   "durum": "kuruldu",
+   "not": "",
+   "trigger": "trig_01GxPAYfQqjZyESjzwcPw6B1",
+   "soz": "",
+   "guncelleme": "18.11 01:41"
+  },
+  {
+   "id": "WMT-1119-yayin",
+   "ad": "Yayın: WMT bilanço",
+   "zaman": "2026-11-19T14:58",
+   "ne": "Kural 16 + O-011: rakam tweeti tam CRWV formatı, 3-5 dk içinde; Yahoo canlı blog/CNBC yedek",
+   "ticker": "WMT",
+   "tur": "bilanco",
+   "durum": "kuruldu",
+   "not": "bülten 15:00 TSİ (7:00 ET; Earnings Whispers + Walmart IR 6:00 CT düzeni); O-001 ile doğrula",
+   "trigger": "trig_012WqRvRqu3p8whT1hLz6LMz",
+   "soz": "",
+   "guncelleme": "18.11 01:41"
+  },
+  {
+   "id": "WMT-1119-analiz",
+   "ad": "Analiz: WMT bilanço",
+   "zaman": "2026-11-19T15:15",
+   "ne": "Kural 25: kapsamlı analiz tweeti",
+   "ticker": "WMT",
+   "tur": "bilanco",
+   "durum": "kuruldu",
+   "not": "",
+   "trigger": "trig_01Pi2FKiAXt55EVLrzkhWof2",
+   "soz": "",
+   "guncelleme": "18.11 01:41"
+  },
+  {
+   "id": "WMT-1119-detay",
+   "ad": "Detay: WMT",
+   "zaman": "2026-11-19T15:30",
+   "ne": "Kural 41: belgeden 2-7 AYRI detay tweeti, BEKLEMEDEN (gece dahil), aralık serbest",
+   "ticker": "WMT",
+   "tur": "bilanco",
+   "durum": "kuruldu",
+   "not": "",
+   "trigger": "trig_01HLkBPtGomVEDmZbYFV58FN",
+   "soz": "",
+   "guncelleme": "18.11 01:41"
+  },
+  {
    "id": "PANW-1119-beklenen",
    "ad": "Beklenen hareket: PANW",
    "zaman": "2026-11-19T17:45",
@@ -311,6 +415,32 @@
    "trigger": "trig_01SXjfDQkSdGSMbtKwSHaFT4",
    "soz": "",
    "guncelleme": "18.11 01:35"
+  },
+  {
+   "id": "WMT-1119-beklenen",
+   "ad": "Beklenen hareket: WMT",
+   "zaman": "2026-11-19T17:48",
+   "ne": "Kural 22n/39: opsiyon fiyatlaması vs açılıştaki gerçek hareket",
+   "ticker": "WMT",
+   "tur": "bilanco",
+   "durum": "kuruldu",
+   "not": "17:48 (PANW 17:45 ile çakışmasın)",
+   "trigger": "trig_012eGqQidFhcff4PVcH1u8g5",
+   "soz": "",
+   "guncelleme": "18.11 01:41"
+  },
+  {
+   "id": "WMT-1119-cagri",
+   "ad": "Çağrı: WMT",
+   "zaman": "2026-11-19T19:00",
+   "ne": "Kural 40: görüşme önemli yerleri, AYNI GÜN, her konu ayrı tweet",
+   "ticker": "WMT",
+   "tur": "bilanco",
+   "durum": "kuruldu",
+   "not": "görüşme 16:00 TSİ (8:00 ET; days.to + Walmart IR geçmiş düzeni); 18:00 temel analizle çakışmasın",
+   "trigger": "trig_016py5veMsek2aqihrJsekoi",
+   "soz": "",
+   "guncelleme": "18.11 01:41"
   }
  ]
 }
