@@ -7,7 +7,7 @@ Son güncelleme: 17.11.2026 21:07 TSİ. Her tur ve görev sonunda güncellenir (
 - KULLANILAN (15:23'ten sonra): 16:31 perakende, 17:36 perakende yorum (serbest), 19:32 13F Greenlight Einhorn (serbest), 21:07 NVDA bilanco oncesi satis (serbest)
 
 ## Kural 32 (21:13-21:30): haftada 2-3 uzun görüş yazısı (UZUN-GORUS, periyot uzun_gorus); 21-24 ya da 12-15 diliminde. 10 çerçeveli havuzdan (sablonlar.md 20, A-J) son 3'te olmayan seçilir; başlık, uzunluk, açılış ve kapanış her seferinde değişir.
-- Uzun yazı çerçeveleri: son 3 = - (henüz yok) | son ticker'lar: -
+- Uzun yazı: `periyot.py etiket kontrol cerceve <X> 0 3` + `etiket kontrol uzun_ticker <T> 30`; yazınca `etiket yap cerceve X`, `etiket yap uzun_ticker T`, `yap uzun_gorus`.
 
 ## Kural 31 (21:01-21:03): gerekli olduğunda çizim mutlaka (her grafikte zorla değil) (kanal/üçgen/takoz/yatay bant + kademe ışınları/kutular, gerekirse Fibonacci); caption ve taslakta formasyon sade dille.
 
@@ -36,7 +36,7 @@ Son güncelleme: 17.11.2026 21:07 TSİ. Her tur ve görev sonunda güncellenir (
 - Büyük takip: NVDA AMD TSM MSFT GOOGL AMZN META ORCL CRWV SNOW.
 - Kural 23: tutmayan tahmin tweette anılmaz, yalnız doğru çıkanlar. Yanlış rakamda kural 21 düzeltme.
 
-## Aday rotasyonu (teknik analizlerde her gün farklı 3-4 aday)
+## Aday rotasyonu (teknik analizlerde her gün farklı 3-4 aday): `periyot.py etiket kontrol aday <T> 5`, kullanınca `etiket yap aday <T>`
 - 17.11: TSM (39/50), DDOG (karne yok), ANET (karne yok; ekran görüntüsü alındı, mesaj 23:30'a) — tekrar etme: 18-20.11.
 - TradingView düzeni şu an DMI + Aroon ile kayıtlı: sonraki teknik çalışmada rotasyona devam et, sonunda Supertrend + SMC geri koy.
 

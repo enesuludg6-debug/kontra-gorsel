@@ -8,6 +8,9 @@ Kullanim:
   python3 periyot.py yap <anahtar> [not] # isi yaptin: tarihi kaydeder (sonra commit + push)
   python3 periyot.py sozluk <Veri> [A|B] # sozluk cumlesi secimi: 14 gunde tekrar etmeyen varyasyonu verir
   python3 periyot.py ekle <anahtar> <tur> <deger> "<aciklama>"   # yeni periyodik is
+  python3 periyot.py etiket kontrol <grup> <deger> <gun> [son_n]  # "bu deger son <gun> gunde / son <son_n> kayitta kullanildi mi" (0=uygun)
+  python3 periyot.py etiket yap <grup> <deger>                    # kullanimi kaydet (ornek: aday TSM, cerceve B, uzun_ticker NBIS)
+  python3 periyot.py etiket liste <grup> [n]                      # son n kayit
 
 Kural turleri (periyot.json "isler"):
   min_gun N        : son yapilistan en az N gun gecmeli (ornek 21 = uc haftada bir)
@@ -55,7 +58,9 @@ def degerlendir(d, k, g=None):
         if n - son_n < i["her_n"]: return "BEKLE", f"{i['sayac']} {n - son_n}/{i['her_n']}"
     # yapilmali mi (alt sinir geride)
     if "haftalik_min" in i and hf < i["haftalik_min"]:
-        return "UYGUN", f"YAPILMALI: bu hafta {hf}/{i['haftalik_min']} (kalan gun {6 - g.weekday()})"
+        kalan = 7 - g.weekday()  # bugun dahil
+        acil = (i["haftalik_min"] - hf) * max(1, i.get("min_gun", 1)) >= kalan
+        return "UYGUN", ("ACIL BUGUN YAP: " if acil else "YAPILMALI: ") + f"bu hafta {hf}/{i['haftalik_min']} (bugun dahil kalan gun {kalan})"
     if "aylik_min" in i and ay < i["aylik_min"]:
         return "UYGUN", f"YAPILMALI: bu ay {ay}/{i['aylik_min']}"
     return "UYGUN", f"son {son or '-'}"
@@ -81,6 +86,20 @@ def main(a):
             if not son or (g - son).days >= 14: uygun.append((son or dt.date(2000, 1, 1), v))
         if not uygun: print("BEKLE: iki varyasyon da son 14 gunde kullanildi -> sozluk cumlesi koyma"); sys.exit(1)
         v = min(uygun)[1]; print(f"KULLAN: {veri}-{v}  (kullaninca: python3 periyot.py yap sozluk:{veri}-{v})")
+    elif c == "etiket":
+        alt, grup = a[1], a[2]; E = d.setdefault("etiket", {}).setdefault(grup, [])
+        if alt == "yap":
+            E.append({"t": dt.datetime.now(TZ).strftime("%Y-%m-%d %H:%M"), "v": a[3]}); kaydet(d); print("kaydedildi", grup, a[3])
+        elif alt == "liste":
+            n = int(a[3]) if len(a) > 3 else 10
+            for x in E[-n:]: print(x["t"], x["v"])
+        elif alt == "kontrol":
+            deger, gun = a[3], int(a[4]); son_n = int(a[5]) if len(a) > 5 else 0; g = bugun()
+            yakin = [x for x in E if x["v"] == deger and (g - tarih(x["t"])).days < gun]
+            sonlar = [x["v"] for x in E[-son_n:]] if son_n else []
+            if yakin: print(f"BEKLE: {deger} {tarih(yakin[-1]['t'])} tarihinde kullanildi ({gun} gun dolmadi)"); sys.exit(1)
+            if deger in sonlar: print(f"BEKLE: {deger} son {son_n} kayitta var: {sonlar}"); sys.exit(1)
+            print("UYGUN", deger)
     elif c == "ekle":
         k, tur, deger, ac = a[1], a[2], a[3], a[4]
         d["isler"][k] = {tur: int(deger) if deger.isdigit() else deger, "aciklama": ac}; kaydet(d); print("eklendi", k)

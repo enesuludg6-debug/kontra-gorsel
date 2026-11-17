@@ -93,7 +93,11 @@
    "haftalik_min": 2,
    "haftalik_max": 3,
    "min_gun": 2,
-   "aciklama": "Uzun görüş yazısı (kural 32): haftada 2-3, aralarında en az 2 gün"
+   "aciklama": "Uzun görüş yazısı (kural 32): haftada 2-3, aralarında en az 2 gün. Ayrıca: etiket kontrol cerceve <A-J> 0 3 ve etiket kontrol uzun_ticker <TICKER> 30"
+  },
+  "13f_gunluk": {
+   "gunluk_max": 2,
+   "aciklama": "13F tweeti gunde en cok 2 (D-004)"
   }
  },
  "kayit": {
@@ -137,6 +141,28 @@
    {
     "t": "2026-11-17 17:36",
     "not": "17:36 yorum (uyarlandi)"
+   }
+  ],
+  "13f_gunluk": [
+   {
+    "t": "2026-11-17 19:32",
+    "not": "Greenlight"
+   }
+  ]
+ },
+ "etiket": {
+  "aday": [
+   {
+    "t": "2026-11-17 20:24",
+    "v": "TSM"
+   },
+   {
+    "t": "2026-11-17 20:24",
+    "v": "DDOG"
+   },
+   {
+    "t": "2026-11-17 20:25",
+    "v": "ANET"
    }
   ]
  }
