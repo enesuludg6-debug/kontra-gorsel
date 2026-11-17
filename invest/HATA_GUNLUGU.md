@@ -10,3 +10,4 @@
 | 17.11 | 14:44 DIS kart (yayından önce) | kaynak satırı "Disney bülteni" ama rakamlar haber sitelerinden | Variety, Deadline, THR | şablon kaynak satırı sabitti | gerekmedi | kaynak satırı her zaman gerçekte okunan kaynaklar |
 | 17.11 | 16:31 perakende (6afc5731) | yalnız rakam, yorum yok (Fed, büyük resim, piyasa etkisi eksik) | kural 25 beş soru | sablon 7 "tek cümle görüş" diyordu | 17:35 turu yorum tweeti | kural 25, sablon 7 yeniden yazıldı |
 | 17.11 | 16:31 perakende Enes notu | "Fed'in faiz indirimi acelesi azalır" | piyasa Aralık ARTIRIMI konuşuyor | Fed beklentisini o gün kontrol etmedim | Enes'e düzeltme mesajı | makro tweet/notta Fed fiyatlaması o an 2 kaynakla kontrol |
+| 17.11 | 21:07 NVDA öncesi bağlam (6afc97e0) | 3. paragraf "Bu gecenin önemi şu:" ile başladı (etiketli giriş türevi) | düz cümle | göndermeden önce satır tarandı ama paragraf içi iki nokta kalıbı kaçtı | yok (stil) | tarama: paragraf başı ilk 6 kelimede iki nokta varsa yeniden yaz |
