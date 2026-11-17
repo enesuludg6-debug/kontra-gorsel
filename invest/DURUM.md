@@ -30,7 +30,7 @@ Atılanlar: Berkshire, Ackman, Druckenmiller, Tepper, Soros, Third Point/Loeb. S
 Ticker 3 saat: META/NVDA/MSFT/GOOGL 12:48; NVDA 12:22.
 
 ## Sabit görevler (kimlikler)
-18:00 trig_01LCT69YkpVZvjjW6ueTGftC | 23:30 trig_01Me3Zwdnufk6rkLKNmZ2YF5 | key levels 10:30 trig_01BGRz55RsS87Nko3XpCmXRE | takvim Pazar 20:00 trig_01XKuwGwLJwQbLzfPfbdjAX8 | performans Pazar 21:30 trig_017HiX433Vy7u15V1a6wfbec | sabah 09:00 trig_01C56vPfmWMnsPMFTV6wU6CM | 13F Şub/Ağu/Kas trig_01X4fnNMsC1i6wo8kXaMLqmf | 13F May trig_014UMzEahLeqQdKb27x5skDU | haftalık özet Cumartesi 11:00 ve ayın özeti: bölüm 16-G'ye bak.
+18:00 trig_01LCT69YkpVZvjjW6ueTGftC | 23:30 trig_01Me3Zwdnufk6rkLKNmZ2YF5 | key levels 10:30 trig_01BGRz55RsS87Nko3XpCmXRE | takvim Pazar 20:00 trig_01XKuwGwLJwQbLzfPfbdjAX8 | performans Pazar 21:30 trig_017HiX433Vy7u15V1a6wfbec | sabah 09:00 trig_01C56vPfmWMnsPMFTV6wU6CM | 13F Şub/Ağu/Kas trig_01X4fnNMsC1i6wo8kXaMLqmf | 13F May trig_014UMzEahLeqQdKb27x5skDU | haftalık özet Cmt 11:00 trig_01LRGPzzrcF327Pqe67n55Qa | ayın özeti (ayın 1-7'si 10:55, ilk işlem günü kontrolü) trig_01X3YVaH2z1Yv7RyptTiUKok | Pazar 20:00 görevine 'gelecek hafta' tweeti + DONGU arşivi eklendi.
 
 ## Bekleyen kararlar
 - Yok (kaynak istisnası 12:58'de onaylandı).

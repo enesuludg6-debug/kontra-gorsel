@@ -760,6 +760,8 @@ TEK SEFERLİK (send_later, bu oturuma bağlı; 17.11 13:22 hepsinin mesajı HESA
 DEVRE DIŞI (silme yetkisi verilmedi, enabled=false): eski send_later teknik kontroller trig_01E6RSbqVeQrZ6mLmDK23LTy (18:00) ve trig_01J57K2S12HQAYCp9LmtaLK6 (23:30) — sabit görevlerle çift olmasın diye.
 NOT: Sabit görevler yeni oturumda add_repo(push) ister; o oturumda izin istenirse Enes onaylamalı.
 
+- 17.11 13:40 (kural 19-21, eski oturumdan kuruldu): Haftalık özet Cumartesi 10:55 trig_01LRGPzzrcF327Pqe67n55Qa; Ayın özeti her ayın 1-7'si 10:55 (yalnız ilk ABD işlem günü çalışır) trig_01X3YVaH2z1Yv7RyptTiUKok; Pazar 20:00 takvim görevi (trig_01XKuwGwLJwQbLzfPfbdjAX8) güncellendi: + 'gelecek hafta' tweeti (kural 20) + DONGU arşivi (kural 18).
+
 ## 17. KAYIT
 - DONGU.md satır biçimi: `- HH:MM AUTO (TÜR): dosya.jpg - özet (kaynaklar; tek kaynak olup kullanılmayanlar) | Buffer id | düzen:...` ve gerekirse "SIRADAKİ: ...".
 - Commit sonuna sistemin verdiği attribution satırları eklenir.
