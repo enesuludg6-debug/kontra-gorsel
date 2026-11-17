@@ -29,8 +29,10 @@ Son güncelleme: 17.11.2026 16:33 TSİ. Her tur ve görev sonunda güncellenir (
 - Büyük takip: NVDA AMD TSM MSFT GOOGL AMZN META ORCL CRWV SNOW.
 - Kural 23: tutmayan tahmin tweette anılmaz, yalnız doğru çıkanlar. Yanlış rakamda kural 21 düzeltme.
 
-## Son teknik seviyeler (16.11 23:30; 17.11 18:00'de güncellenecek)
-RKLB k1 55-57 k2 53-55 tez 43,9 | DOCN k1 69-72 k2 56-60 tez hf<55 | SITM k1 395-405 k2 335-348 tez <276 | AXON k1 291-300 k2 255-273 | CBRS k1 94-98 k2 88-91 tez 77,8 | VRT k1 170-178 k2 150-155 tez hf<150 | AVGO k1 323-330 k2 290-300 tez G<289,8 | TSM k1 351-360 | ECL 294-301
+## Son teknik seviyeler (17.11 18:00; sonraki 23:30)
+NDX 27143 destek 27000-27100 / 26500-26610, direnc 27610-27880, G200 28055-28117 alti
+RKLB k1 55-57 k2 50-51,5 tez 43,9 | DOCN k1 69-72 k2 56-60 tez hf<55 | SITM k1 395-405 k2 376-380 k3 335-348 tez <276 | AXON k1 291-300 k2 257-265 tez hf<254 | CBRS azalt 112-117 k1 95-98 k2 88-91 tez 77,8 | VRT k1 170-178 k2 150-155 tez hf<150 | AVGO k1 323-330 ara 310-311 k2 290-300 tez G<289,8 | TSM k1 351-360 k2 330-345 tez hf<311 | ECL 294-301 / 280-284 tez G<267
+Kiyas: ben olsam CBRS 112-117 azalt -> TSM 351-360 (NVDA sonrasi).
 17.11 key levels: S&P destek 7380-7400, 7340-7370 (DONGU 13:16 satırı).
 
 ## Kart
