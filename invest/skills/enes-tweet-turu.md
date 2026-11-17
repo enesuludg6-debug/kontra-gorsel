@@ -11,7 +11,7 @@ Her zaman Türkçe yaz. Enes'e giden mesajlar da Türkçe.
 
 Hesabın amacı (her şeyin üstünde): en iyi getiriyi yakalamak ya da en bilgili görünmek değil, GÜVEN ve İYİ İÇERİK. Doğru olmayan rakam yerine eksik tweet; tutmayan tahminden bahsedilmez, yalnız doğru çıkanlar (kural 23); abartı ve heyecan yok. Hedef okur ABD borsasını az bilen biri: kısa, sade, anlaşılır. X hesabı @enes1050392 (Enes Uludağ, EnesInvestUS).
 
-Bilanço önizleme/rakam/analiz ve 13F serisi için `enes-bilanco-13f`, 18:00 temel analiz (kural 37: teknik analiz yok), portföy notları ve temel karne için `enes-portfoy-analiz` skill'ini de yükle.
+Bilanço önizleme/rakam/analiz ve 13F serisi için `enes-bilanco-13f`, skill'ini de yükle. Temel analiz (18:00 görevi, karne, tez kartı) ve teknik analiz YOK (kesin kural 44 ve 37); `enes-portfoy-analiz` yüklenmez.
 
 ## 1. Tur başı kontrol (sırayla)
 
@@ -112,7 +112,7 @@ Hata durumları: Bash "classifier no verdict" → 1 kez tekrar, olmazsa o tur pa
 1. `DONGU.md`'ye satır: `- SS:DD (GG.AA) AUTO (TÜR): dosya.jpg (düzen) - rakamlar (kaynaklar). Tek kaynak (atılmadı): ... Buffer <id>. Son 3 düzen: a, b, c.` 13F'de ayrıca `- 13F SERİSİ: <isim> atıldı / sıradaki: <isim>`.
 2. commit + push.
 3. `python3 -c "import random;print(random.randint(20,40))"` ile gecikme; `send_later` adı "Otomatik paylaşım turu", mesaj = önceki tur mesajı, yalnız bu turun konusu, sıradaki konu/isim, son 3 düzen ve saatler güncellenir. 01:00 sonrasına düşerse 09:05.
-4. Zaman kalırsa (13F/bilanço günü değilse) `temel_karne.md`'de en eski 1-2 hissenin karnesini yenile (DEVIR_TAM 14g-14i).
+4. (Kural 44 ile kaldırıldı: turlarda karne yenileme yok.)
 
 ## 9. Günlük key levels + günün önemli başlıkları (kesin kural 13, Enes 17.11 12:45)
 
@@ -158,7 +158,7 @@ Hata durumları: Bash "classifier no verdict" → 1 kez tekrar, olmazsa o tur pa
 - BİLANÇO SONRASI: önizlemede opsiyon beklenen hareketi; ertesi gün açılıştan sonraki ilk turda portföy ve büyük şirketler için "beklenen ±%X, gerçekleşen %Y" (BEKLENEN-HAREKET); portföy/ilgi listesi bilançosunda rakip karşılaştırma kartı (RAKIP, panel/dortlu).
 - 13F: seri bitince sonraki turda 13F-OZET (ortak alınan/satılan, en az 3 yatırımcı).
 - MENÜ: ayda 2-3 kez "1 yıl önce bugün" (BIR-YIL, yalnız doğru çıkanlar).
-- İLGİ LİSTESİ (genişledi): ON AAOI HOOD TEM CRDO PLTR ISRG ASTS MU + ANET ALAB MRVL COHR LITE ETN GEV CRWD NET DDOG APP RBRK PL LUNR. Zaman kalan turlarda günde 1-2 yeni adayın temel karnesini çıkar (`temel_karne.md`, /50); 30 altını DURUM.md'de "çıkarıldı" yap.
+- İLGİ LİSTESİ (genişledi): ON AAOI HOOD TEM CRDO PLTR ISRG ASTS MU + ANET ALAB MRVL COHR LITE ETN GEV CRWD NET DDOG APP RBRK PL LUNR. (Karne yok, kural 44.)
 - Sabit görevler (kendileri yapar, turlar tekrar atmaz): içeriden alım + geri alım radarı hafta içi 14:20, sektör ısı haritası Cmt 13:25, ilgi listesi sıralama Cmt 16:25, bilanço sezonu karnesi Pazar 14:25, analist hedef özeti (ayın ilk Pazarı) ve değerleme bandı (ikinci Pazar) 12:25, mevsimsellik ayın ikinci işlem günü 11:00 (ayın özeti görevi).
 
 ## 8. Yeni kural gelince
@@ -169,7 +169,6 @@ Sohbet her gün değişebilir; yeni sohbet "en son ne zaman yapıldı, bu hafta 
 - Tur ve görev başında: `python3 periyot.py durum` (UYGUN/BEKLE ve "YAPILMALI" olanlar). Tek iş için `python3 periyot.py kontrol <anahtar>` (çıkış 0 = uygun).
 - İş yapılınca HEMEN: `python3 periyot.py yap <anahtar> "<kısa not>"`, sonra commit + push (DONGU satırıyla aynı commit).
 - Makro sözlük cümlesi: `python3 periyot.py sozluk "<Veri adı>"` hangi varyasyonun (A/B) kullanılacağını söyler (14 gün tekrar yok); kullanınca `yap sozluk:<Veri>-<A|B>`.
-- Karne yazınca `yap karne <hisse>`; kalibrasyon "UYGUN" olunca yapılır ve `yap kalibrasyon`.
 - Yeni periyodik kural gelirse (ör. "üç haftada bir"): `python3 periyot.py ekle <anahtar> min_gun 21 "<açıklama>"`. Türler: min_gun, gunluk_max, haftalik_min/max, aylik_min/max, ayin_pazari, baslangic_gun, her_n.
 - Sabit görevler (cron) her çalışmada yeni oturumda açılır; saatleri cron'dan gelir, "bu ay/bu hafta zaten yapıldı mı" kontrolünü periyot.py ile yapar. Sabit görevler sohbet değişince silinmez; devirde yalnız send_later zinciri (oturuma bağlı) yeniden kurulur.
 - ETİKETLİ TEKRAR KONTROLÜ (17.11 21:35, Enes: "farklı sohbete geçince tarihleri bilemez, kalıcı çözüm"): "son N günde/son N kayıtta aynısı olmasın" kuralları da hafızadan değil periyot.json'dan: `python3 invest/periyot.py etiket kontrol <grup> <değer> <gün> [son_n]` (çıkış 0 = uygun), kullanınca `etiket yap <grup> <değer>`. Gruplar: aday (teknik analiz adayı, 5 gün), cerceve (uzun yazı çerçevesi, son 3 kayıt: `etiket kontrol cerceve B 0 3`), uzun_ticker (uzun yazı hissesi, 30 gün). Yeni benzer kural gelirse yeni grup açılır. Haftalık alt sınırı olan işler `periyot.py durum`da "YAPILMALI" ya da geride kalınca "ACIL BUGUN YAP" yazar; tur_basi.sh bunu her turda gösterir, tur o işi o gün planlar.
@@ -229,7 +228,7 @@ g) DENETİM DÖNGÜSÜ: her Pazar performans raporundan sonra kısa sistem denet
 ## 18. Teknik analiz yok (kesin kural 37)
 TEKNİK ANALİZ KALDIRILDI, TEMEL ANALİZE YOĞUNLAŞ (kesin kural 37, Enes 17.11 22:17: "teknik analize bakmıyoruz bir daha, onunla alakalı her şeyi kaldır, onun yerine temel analize daha da yoğunlaş").
 - Kaldırılan: 18:00 ve 23:30 teknik kontrol zincirleri (devre dışı), TradingView ve ekran görüntüleri (kural 27), teknik tweet taslakları, gösterge rotasyonu, çizimler (kural 31), ta_ek ve seviye karnesi (kural 33), KARAR'ın teknik ayağı (kural 35), key levels tweetindeki destek/direnç seviyeleri, turlardaki ta2 portföy taraması, TA-FARK (36f). ta2.py, ta_ek.py, seviye_takip.csv repoda arşiv olarak durur, KULLANILMAZ. Kural 12, 27, 31, 33 ve 30/35/36'nın teknik kısımları geçersiz.
-- Yerine: her ABD işlem günü 18:00 TEMEL ANALİZ görevi (zincir temel1800, gorevler/temel1800.md): haber/8-K/Form 4/analist revizyonu taraması, günde en az 2 karne, tez kartı kontrolü (tez_kartlari.md), değerleme bölgeleri (kendi 3 yıllık bandı + akran + ters DCF; ucuz/adil/pahalı fiyat aralığı), temel KARAR tablosu, her gün 2-3 yeni aday tam karneyle, adayların en zayıf 2 portföy hissesiyle kıyası, özet tablo. Ben olsam notları değerleme bölgesi ve tez durumuna dayanır, grafik seviyesine değil.
+- (Eski 'yerine 18:00 temel analiz' maddesi kesin kural 44 ile kaldırıldı: temel analiz görevi, karne, tez kartı YOK.)
 - Key levels 10:30 görevi: seviye yok; "günün başlıkları" tweeti (takvim, vadeliler yönü, bilanço/veri beklentileri, kural 25 yorum) + takvim güncelleme + hazırlık/yayın görevleri.
 - Turlarda tweetten sonra portföy hisselerinde haber taraması (ta2 yerine).
 - Tweetlerde grafik/teknik görüş yok; görüş temel veriye dayanır.
@@ -284,3 +283,6 @@ PAYLAŞIM SAATİ VE GÜNLÜK ADET (kesin kural 42, Enes 18.11 01:13: "sabah 11'd
 - ÇÖZÜM 3 — DEVİR: yeni sohbet (HESAP_DEVRI.md "SOHBET DEVRİ") açık işleri hafızadan değil `python3 invest/isler.py devir` çıktısından kurar; list_triggers ile karşılaştırır, eksikleri kurar; sonra Enes'e açık işleri tek tek (saat + ad) listeler. Eski sohbet "dur" denince görevlerini kapatır ama defter aynen kalır.
 - ÇÖZÜM 4 — GÜNLÜK KONTROL: tur_basi.sh her turda `isler.py kontrol` çalıştırır; zamanı geçip yapılmamış iş "EKSIK IS" diye çıkar ve o tur önce onu tamamlar ya da Enes'e yazar. Sabah 09:00 kontrolü `isler.py devir` ile list_triggers'ı karşılaştırır.
 - ÇÖZÜM 5 — KONUŞMADAKİ KARARLAR: Enes'in sohbette verdiği her karar (tek bilanço, tek hisse, tek gün için olanlar dahil) ilgili defter satırının "not" alanına ve DONGU'ya aynen yazılır; kalıcı kural ise DEVIR_TAM'a. "Bu sohbette konuşuldu, kayda gerek yok" diye bir şey yoktur.
+
+## 19. Temel analiz yok (kesin kural 44, Enes 18.11 01:51)
+Temel analiz tamamen kaldırıldı: 18:00 temel analiz görevi, karne (/50, /45), kalibrasyon, tez kartları, KARAR tablosu ve aday karneleri hiçbir turda ve görevde yapılmaz; `enes-portfoy-analiz` skill'i kullanılmaz. Bilanço, 13F, analist özeti / değerleme bandı tweetleri ve diğer içerikler aynen sürer.

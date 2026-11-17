@@ -8,6 +8,8 @@ Son güncelleme: 18.11.2026 01:32 TSİ. Her tur ve görev sonunda güncellenir (
 
 ## !!! Kural 43 (Enes 18.11 01:29): İŞ DEFTERİ `python3 invest/isler.py` — zamanlı her iş ve bilanço adımları burada; devirde tek kaynak; iptal yalnız en dar kapsam ve Enes'in aynen sözüyle.
 
+## !!! Kural 44 (Enes 18.11 01:51): TEMEL ANALİZ TAMAMEN KALDIRILDI. 18:00 temel analiz ve 23:30 kontrol görevleri YOK (zincirler silindi/kapalı), turlarda/bilanço sonrasında karne, kalibrasyon, tez kartı, KARAR tablosu YOK; enes-portfoy-analiz skill'i kullanılmaz. Kural 34-35 iptal.
+
 ## !!! Kural 42 (Enes 18.11 01:13; 01:18: 18-21 sınırı da kaldırıldı): tweet penceresi 11:00-02:00; Pzt-Cmt günde EN AZ 30 EN ÇOK 40 tweet; Pazar üst sınır (Enes rakam verene kadar 40), alt yok; tweet aralığı SERBEST (sabit aralık yok, Enes 01:15); 10:30 görevi 11:00'e kaydı; 09:05 vadeli tweeti yok.
 
 ## !!! Kural 41 (Enes 18.11 00:57; 01:05 netleştirme: detaylar BEKLEMEDEN, gece dahil, belge çıkar çıkmaz; görüşme tweetleri gece bilançosunda aynı sabah): her bilançodan sonra 2-7 AYRI detay tweeti (belgeden: taahhütler, serbest nakit, müşteri kırılımı, koşullu anlaşmalar, marj köprüsü, stok/alacak, KPI...), kendi kartımız + yorum; 'Detay: <T>' görevi; DONGU '- DETAY: <T> <konu>'.
@@ -22,7 +24,7 @@ Son güncelleme: 18.11.2026 01:32 TSİ. Her tur ve görev sonunda güncellenir (
 
 ## Kural 36 (21:46-22:00): tur 20-40 dk ama tweet günde en çok 15 + 18-21 en çok 2 (`kontrol tweet_gunluk`); bugünlük blok yalnız kendi tarihinde; skill-kopya çelişkisinde kopya; yayın 60 dk içindeyse ağır görev yayından 15 dk önce biter; Pazar sistem denetimi.
 
-## Kural 34-35 (21:43): karneye 9 ek (trend, revizyon, kazanç kalitesi, artımlı marj, KPI ivmesi, stres, değerleme bandı, tepki geçmişi, tez kartı); 18:00/23:30'da her hisse için tek satır KARAR = temel sınıf (karneden okunur) + teknik durum A-E tablosu. Portföy karne eksikleri önce: RKLB SITM AXON CBRS VRT.
+## Kural 34-35 (21:43): karneye 9 ek (trend, revizyon, kazanç kalitesi, artımlı marj, KPI ivmesi, stres, değerleme bandı, tepki geçmişi, tez kartı); 18:00/23:30'da her hisse için tek satır KARAR = temel sınıf (karneden okunur) + teknik durum A-E tablosu. (Kural 44 ile İPTAL.)
 
 ## Kural 33 (21:37): teknik analizde ayrıca `ta_ek.py` (MTF hizalama, göreli güç, hacim teyidi, sıkışma, pivot, uyumsuzluk, mum, boşluk, kanal/üçgen ipucu, AVWAP, ölçümlü hedef, risk/ödül, piyasa rejimi) + seviye_takip.csv.
 
@@ -79,7 +81,7 @@ Atılanlar: Berkshire, Ackman, Druckenmiller, Tepper, Soros, Third Point/Loeb. A
 Ticker 3 saat: DIS 15:01; HD 14:25; NVDA 14:16 (Enes); META/NVDA/MSFT/GOOGL 12:48; NVDA 12:22.
 
 ## Sabit görevler A2 (18.11 01:24 sohbet devri, session_01JKiyukU5wB8Xm26NDD6m99)
-sabah trig_01Y2HE9jpJ1HxtCgDLPw9wsY | keylevels trig_01MtFa8vPDj98fPsEHEFkXQ7 | radar trig_011hBn9NzYUqsLA9H3sxjTaU | temel1800 trig_01BG2RVddfrniDZ3kF8FB5rJ | haftalikozet trig_01WdCCVcVUdUH4PTvapMAiUk | sektor trig_01CLY9FkshP5VsSR7HfGTd7r | ilgisira trig_01HmdehZpTUqTMS7ib2xQmJW | analist trig_01ToiAEZR2azSBwmNTB2aRim | sezon trig_01AsGEUyWLG78gu9jczvP2DG | takvim trig_01GSk4e6zDur9Qe5KPWtDiyF | performans trig_01VuGwf6NEdZjnviXGhyqou3 | ayinozeti trig_012hEULzCuEmJGki2qJDVPZj | 13f trig_018WMPgmsvBXmwsrWRTSFFqc
+sabah trig_01Y2HE9jpJ1HxtCgDLPw9wsY | keylevels trig_01MtFa8vPDj98fPsEHEFkXQ7 | radar trig_011hBn9NzYUqsLA9H3sxjTaU | haftalikozet trig_01WdCCVcVUdUH4PTvapMAiUk | sektor trig_01CLY9FkshP5VsSR7HfGTd7r | ilgisira trig_01HmdehZpTUqTMS7ib2xQmJW | analist trig_01ToiAEZR2azSBwmNTB2aRim | sezon trig_01AsGEUyWLG78gu9jczvP2DG | takvim trig_01GSk4e6zDur9Qe5KPWtDiyF | performans trig_01VuGwf6NEdZjnviXGhyqou3 | ayinozeti trig_012hEULzCuEmJGki2qJDVPZj | 13f trig_018WMPgmsvBXmwsrWRTSFFqc
 Tek seferlik A2: tur 01:29 trig_01Qbj8KoEDhmYphZpPAMEmei | tur 11:15 trig_01B1n1AKy7aRNppmDzU9K7cz | Beklenen hareket NVDA 17:45 trig_01R5Jz9iMFsJ7oio6nsdfeNp | Çağrı TGT 19:20 trig_013ixAYQMgEVvehVA1xg7xqb
 Eski sohbet (A) görevleri 01:22'de eski sohbette devre dışı bırakıldı; kilit AKTIF: A2 (tur_basi tam eşleşme).
 ## (A, eski) Sabit görevler (kural 29: BU SOHBETTE send_later zinciri; `python3 sonraki.py hepsi`)

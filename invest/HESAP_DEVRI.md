@@ -5,6 +5,7 @@ enesuludg6-debug/kontra-gorsel reposunu bu sohbete PUSH yetkisiyle eklemeni onay
 (Her yeni sohbette etiketi bir artır: A2 → A3 → A4 ... Başka bir Claude HESABINA geçişte aşağıdaki "YENİ HESAPTA" mesajı kullanılır.)
 
 ## SOHBET DEVRİ (aynı Claude hesabı, yeni sohbet)
+KURAL 44: temel analiz (18:00 temel1800, karne, tez kartı) KURULMAZ ve yapılmaz.
 Neden gerekli: send_later zincirleri ve tek seferlik görevler KURULDUKLARI SOHBETE bağlıdır; Enes yeni sohbete geçince eski sohbetteki görevler orada çalışmaya devam eder ve mesajlar eski sohbete düşer (kural 29: her şey Enes'in kullandığı sohbete gelmeli). Çözüm: hesap kilidini yeni etikete çevir (eski sohbetin görevleri kilidi görüp kendini kapatır, çift tweet olmaz), bütün zincirleri yeni sohbette yeniden kur.
 1. Repo: add_repo (push) → `git clone --depth 1 https://github.com/enesuludg6-debug/kontra-gorsel /home/claude/kontra-gorsel` (varsa `git pull`), register_repo_root, `git config user.email noreply@anthropic.com; git config user.name Claude`.
 2. Kilit: `invest/AKTIF_HESAP.md` → `AKTIF: <yeni etiket>` (ör. A2), Geçmiş'e "GG.AA SS:DD <etiket> devraldı (sohbet devri)"; DONGU'ya "SOHBET DEVRİ: <etiket> aktif"; commit + push. Bundan sonra bu sohbetteki BÜTÜN görev/send_later mesajları "HESAP=<etiket>. Önce invest/AKTIF_HESAP.md oku; AKTIF: <etiket> değilse hiçbir şey yapma ve bu görevi kapat." ile başlar.
@@ -27,7 +28,7 @@ Her zaman Türkçe yaz. Enes'e soru sorma; eksik bir şey varsa ne yapması gere
 ## 0. Bu hesapta OLMAYANLAR ve yerlerine geçenler
 | A hesabında vardı | B hesabında | Ne yapılır |
 |---|---|---|
-| 3 skill (enes-tweet-turu, enes-bilanco-13f, enes-portfoy-analiz) | yok | `invest/skills/*.md` dosyalarından okunur; Adım 4'te propose_skills ile bu hesaba kaydettirilir. Kaydedilmese de her tur bu dosyaları okuyarak çalışır. |
+| 2 skill (enes-tweet-turu, enes-bilanco-13f; enes-portfoy-analiz kural 44 ile kaldırıldı, kaydettirilmez) | yok | `invest/skills/*.md` dosyalarından okunur; Adım 4'te propose_skills ile bu hesaba kaydettirilir. Kaydedilmese de her tur bu dosyaları okuyarak çalışır. |
 | Enes'in kalıcı tercihleri (bellek) | yok | Hepsi `invest/DEVIR_TAM.md` ve skill dosyalarında. |
 | İzinli alan adları (query1.finance.yahoo.com) | muhtemelen yok | Adım 3 testi; yoksa Enes'e tek cümle. |
 | Chrome eklentisi (TradingView) A hesabına giriş yapmış | B'de yok | TradingView opsiyonel; yoksa Yahoo (ta2.py) ile devam. |
@@ -56,8 +57,8 @@ g) Chrome: `list_connected_browsers`. Yoksa TradingView atlanır, sorun sayılma
 h) Saat: `mcp__claude_ai__current_time` ya da `date`; Türkiye saatiyle (TSİ, UTC+3) çalış; cron'larda MUTLAKA `CRON_TZ=Europe/Istanbul`.
 
 ## 4. Skill'leri bu hesaba kaydettir
-- `invest/skills/enes-tweet-turu.md`, `enes-bilanco-13f.md`, `enes-portfoy-analiz.md` dosyalarını TAMAMEN oku.
-- `propose_skills` ile üçünü TEK çağrıda `kind: new`, `skillMd` = dosya içeriğinin aynısı olarak öner (ad ve açıklama dosyanın başındaki frontmatter'dan). Enes'e: "Çıkan 3 kartı kaydet." Kaydedilmese de her tur bu dosyaları okur; görev mesajlarına "skill yoksa invest/skills/<ad>.md oku" yaz.
+- `invest/skills/enes-tweet-turu.md` ve `enes-bilanco-13f.md` dosyalarını TAMAMEN oku (enes-portfoy-analiz KALDIRILDI, kural 44: önerilmez, kurulmaz).
+- `propose_skills` ile ikisini TEK çağrıda `kind: new`, `skillMd` = dosya içeriğinin aynısı olarak öner (ad ve açıklama dosyanın başındaki frontmatter'dan). Enes'e: "Çıkan 2 kartı kaydet." Kaydedilmese de her tur bu dosyaları okur; görev mesajlarına "skill yoksa invest/skills/<ad>.md oku" yaz.
 - Kural değişirse hem skill (improvement) hem `invest/skills/` kopyası güncellenir.
 
 ## 5. Okuma

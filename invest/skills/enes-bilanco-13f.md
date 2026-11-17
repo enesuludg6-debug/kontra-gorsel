@@ -46,7 +46,7 @@ $TICKER 3. ÇEYREK BİLANÇOSU
 ### 3. Kapsamlı analiz (rakam tweetinden 15 dk sonra)
 - Sayfanın stiline uyan hisselerde (portföy, ilgi listesi, yapay zekâ/yarı iletken/bulut/uzay/büyük teknoloji) rakam tweetinin hemen ardından `send_later` ile 15 dk sonrasına tek seferlik tur kur; bu otomatik zinciri değiştirmez.
 - İçerik: ne iyi, ne kötü, rehber neden önemli, okuyucunun aklındaki soruya cevap ("organik mi, tek seferlik mi, düzeltince ne kalıyor": ne kadar olduğunu 2 kaynakla bul), önizlemedeki tahminlerle kıyas, hisse tepkisi, net görüş. Kart: bento/uclu/panel.
-- Bilanço açıklayan portföy hissesinin temel karnesi aynı gün yenilenir (`enes-portfoy-analiz`).
+- (Kural 44: bilanço sonrası temel karne yenileme YOK.)
 
 ### 4. Takvim ve HIZ PROTOKOLÜ (kesin kural 16, 17.11; Enes: "bulamadın, sonra açıklandı, sonraki tur 5 dk sonra, geç paylaşırız, tweetin değeri kaybolur, bizden önce başkaları paylaşır")
 - `invest/takvim.md`: her Pazar 20:00 (sabit görev) gelecek 7 gün, her gün 09:05 ve 10:30 key levels tweetinde güncellenir. Kapsam: portföy, ilgi listesi, büyük yapay zekâ/yarı iletken/bulut/uzay/büyük teknoloji ve piyasayı oynatacak diğerleri (HD, WMT, TGT, DIS, büyük bankalar) + Fed kararı, TÜFE, istihdam, perakende satışlar, FOMC notları, büyük konuşmalar. Her satır: tarih, AÇIKLAMA SAATİ TSİ (IR duyurusu ya da önceki çeyreklerin dakikası; belirsizse "tahmini"), beklenti (2 kaynak), bülten kaynağı URL'si. ABD kış saatinde TSİ = ET + 8 saat.
