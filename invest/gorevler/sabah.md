@@ -6,3 +6,4 @@
 (e) GÜNE ÖZEL BLOK (kural 36b): DURUM.md'de başlık tarihi bugünden eski "BUGÜNLÜK KURAL" bloğu varsa sil, DONGU'ya "bugünlük kural süresi doldu (GG.AA)" yaz.
 (f) KART/TA-FARK: dünkü DONGU'da TA-FARK ya da kart hatası varsa DERSLER 'Gözlemler'e ekle.
 (g) KURAL 42: bu görev tweet atmaz. Tur zincirini 11:15'e kur; günlük hedef Pzt-Cmt 30-40 (Pazar üst 40).
+(h) KURAL 43: `python3 invest/isler.py devir` ile list_triggers'ı karşılaştır; defterde açık olup görevi olmayanı kur, zamanı geçmiş yapılmamışı Enes'e yaz.

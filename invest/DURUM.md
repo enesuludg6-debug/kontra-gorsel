@@ -6,6 +6,8 @@ Son güncelleme: 18.11.2026 01:08 TSİ. Her tur ve görev sonunda güncellenir (
 - Ayrılan: perakende satış 16:30 (1), NVDA rakam 00:20 (1), NVDA analiz (1), kapanış 00:05 (1; "Kapanış tweeti" görevi kuruldu). Serbest: 6 → 13F (en çok 2), büyük son dakika, Enes isteği. Vadeli, FED-TAHVIL, analist notu, ikinci bilanço analizi gibi ikincil tweetler bugün YOK. Otomatik tur paylaşım için en az 60 dk arayla; değerli konu yoksa paylaşmadan geçer.
 - KULLANILAN (15:23'ten sonra): 16:31 perakende, 17:36 perakende yorum (serbest), 19:32 13F Greenlight Einhorn (serbest), 21:07 NVDA bilanco oncesi satis (serbest), 22:16 TGT, FOMC tutanaklari, PANW (serbest), 22:41 Ileri F/K nasil okunur (serbest), 23:06 TSM iki gunde yuzde 10 (serbest), 23:19 VIX nasil okunur (serbest), 00:06 17.11 kapanis (ayrilan), 00:23 NVDA 3. ceyrek (ayrilan), 00:41 NVDA 3. ceyrek analiz (ayrilan)
 
+## !!! Kural 43 (Enes 18.11 01:29): İŞ DEFTERİ `python3 invest/isler.py` — zamanlı her iş ve bilanço adımları burada; devirde tek kaynak; iptal yalnız en dar kapsam ve Enes'in aynen sözüyle.
+
 ## !!! Kural 42 (Enes 18.11 01:13; 01:18: 18-21 sınırı da kaldırıldı): tweet penceresi 11:00-02:00; Pzt-Cmt günde EN AZ 30 EN ÇOK 40 tweet; Pazar üst sınır (Enes rakam verene kadar 40), alt yok; tweet aralığı SERBEST (sabit aralık yok, Enes 01:15); 10:30 görevi 11:00'e kaydı; 09:05 vadeli tweeti yok.
 
 ## !!! Kural 41 (Enes 18.11 00:57; 01:05 netleştirme: detaylar BEKLEMEDEN, gece dahil, belge çıkar çıkmaz; görüşme tweetleri gece bilançosunda aynı sabah): her bilançodan sonra 2-7 AYRI detay tweeti (belgeden: taahhütler, serbest nakit, müşteri kırılımı, koşullu anlaşmalar, marj köprüsü, stok/alacak, KPI...), kendi kartımız + yorum; 'Detay: <T>' görevi; DONGU '- DETAY: <T> <konu>'.
@@ -102,12 +104,4 @@ Kural 22 (17.11 14:40): radar hf 14:20 trig_016SbofaS65yjLJA3vxEJFJn | sektör C
 
 ## NVDA hazır (17.11 23:27): /tmp/hazir_NVDA.py (uclu; JSON: gelir, gelir_b, hbk, hbk_b, q4, q4_b, kaynak, out, baslik). Beklenti tweet: gelir 109,3 Mr $, HBK 2,47 $, veri merkezi 101-102 Mr $, brüt marj %74,0 (şirket rehberi). Q4 rehber konsensüsü bulunamadı → tweette Q4 satırı 'Beklenti' yazmadan ya da yayın anında 2 kaynakla. NOT: Q1 FY27'den beri düzeltilmiş rakamlar hisse bazlı ödemeyi DÜŞMÜYOR (FourWeekMBA) → 'düzeltilmiş' etiketi bültenden. Opsiyon beklenen hareket: ±%8,5 (Analytics Insight + Reuters, 17.11), Saxo 11.11 kapanışta ±%7,8.
 
-## Bekleyen tek seferlik görevler (sohbet devrinde yeniden kurulur; her görev sonrası güncelle)
-- 18.11 11:00 "Sabit: key levels 10:30" zinciri (günün başlıkları, 11:00; TGT hazırlık/yayın görevlerini ve kural 39-41 görevlerini kurar)
-- 18.11 11:15 "Otomatik paylaşım turu" (kural 42)
-- 18.11 17:45 "Beklenen hareket: NVDA" (opsiyon ±%8,5 vs açılıştaki gerçek hareket; 15 dk içinde bitir)
-- 18.11 18:00 "Sabit: temel analiz 18:00" (zincir)
-- 18.11 19:20 "Çağrı: TGT" (kural 40; görüşme tweetleri ayrı ayrı, aralık serbest)
-- 18.11 ~14:30 TGT bilanço rakam yayını + hazırlık (13:30) + analiz + "Detay: TGT" (kural 41, beklemeden) — 11:00 görevi kurar
-- 19.11 ~00:05 PANW bilanço yayını + hazırlık + analiz + "Detay: PANW"; 19.11 sabah "Çağrı: PANW"
-- İPTAL: Detay/Çağrı NVDA (Enes kendisi attı), teknik1800/teknik2330 (kural 37)
+## Bekleyen tek seferlik görevler → ARTIK `python3 invest/isler.py liste` (kural 43; is_defteri.json tek kaynak)

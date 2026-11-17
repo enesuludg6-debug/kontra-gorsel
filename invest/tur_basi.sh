@@ -23,6 +23,7 @@ eksik=max(0,alt-len(R)); tempo=(kalan_dk//eksik) if eksik else None
 ak=sum(1 for r in R if 18<=int(r["saat"][:2])<21)
 print(f"  bugun {len(R)} tweet | hedef {'Pazar: ust 40' if pazar else '30-40'} | kalan sure {kalan_dk} dk | {'ortalama gereken ~'+str(tempo)+' dk (aralik serbest)' if tempo else 'alt sinir tamam'}")
 P
+echo "=== IS DEFTERI (kural 43)"; python3 isler.py kontrol; python3 isler.py liste 2>/dev/null | head -8
 echo "=== OPSIYON KONTROL (kural 39)"; python3 - <<'P'
 import re,datetime as dt
 n=dt.datetime.now(dt.timezone(dt.timedelta(hours=3)))

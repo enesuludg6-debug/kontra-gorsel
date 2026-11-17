@@ -10,8 +10,8 @@ Neden gerekli: send_later zincirleri ve tek seferlik görevler KURULDUKLARI SOHB
 2. Kilit: `invest/AKTIF_HESAP.md` → `AKTIF: <yeni etiket>` (ör. A2), Geçmiş'e "GG.AA SS:DD <etiket> devraldı (sohbet devri)"; DONGU'ya "SOHBET DEVRİ: <etiket> aktif"; commit + push. Bundan sonra bu sohbetteki BÜTÜN görev/send_later mesajları "HESAP=<etiket>. Önce invest/AKTIF_HESAP.md oku; AKTIF: <etiket> değilse hiçbir şey yapma ve bu görevi kapat." ile başlar.
 3. Oku (sırayla, baştan sona değil grep ile gerektiği kadar): `invest/DURUM.md` (tamamı), `tail -n 40 invest/DONGU.md`, `invest/DEVIR_TAM.md` en üstteki KESİN KURAL 42 → 36 (en yeniler üstte), `invest/skills/*.md` (hesaptaki skill'lerle çelişirse KOPYA geçerli), `invest/DERSLER.md` aktif + operasyon dersleri, `invest/gorevler/_ORTAK.md`.
 4. Zincirler: `python3 invest/sonraki.py hepsi` → her satır için o zamana, o adla send_later kur; mesaj `python3 -c "import sonraki;print(sonraki.mesaj('<anahtar>','<etiket>'))"` (invest/ içinde) ile üretilir. Ayrıca "Otomatik paylaşım turu": 11:00-02:00 penceresindeyse hemen (sonraki 5 dk), değilse 11:15 (kural 42; mesaj şablonu DURUM.md / gorevler/_ORTAK.md; tweet aralığı serbest).
-5. Tek seferlik görevler: DURUM.md "Bekleyen tek seferlik görevler" bölümündeki her görevi (zamanı geçmemişse) aynı ad ve içerikle, HESAP=<etiket> ile yeniden kur. Zamanı geçmiş olanı DONGU'da yapıldı mı bak; yapılmadıysa hemen yap ya da Enes'e tek satır yaz.
-6. Enes'e tek mesaj: "Devraldım (<etiket>): N zincir + M tek seferlik görev kuruldu, ilk tur SS:DD." Sonra normal çalışmaya devam.
+5. Tek seferlik görevler (kural 43): `python3 invest/isler.py devir` çıktısı TEK KAYNAK (hafıza ve sohbet geçmişi değil). "KUR" satırlarının her biri için o zamana, o adla, HESAP=<etiket> ile send_later kur (mesajı görev adına göre DEVIR_TAM kural 16/22n/39/40/41 ve gorevler/*.md'den yaz; defterdeki "ne" ve "not" alanlarını mesaja ekle), sonra `isler.py durum <id> kuruldu --trigger <trig>`. "GECIKMIS" satırları DONGU'da yapılmış mı bak; yapılmadıysa hemen yap ya da Enes'e tek satır yaz. İptaller Enes'in sözüyle listelenir, dokunma. list_triggers'ta defterde olmayan bekleyen görev varsa deftere ekle.
+6. Enes'e tek mesaj: "Devraldım (<etiket>): N zincir kuruldu" + açık işlerin listesi (saat + ad, her biri bir satır; iptaller ayrıca). Enes listede eksik/yanlış görürse defter ve görevler hemen düzeltilir. Sonra normal çalışmaya devam.
 
 # >>> ENES İÇİN: YENİ HESAPTA SOHBETE YAPIŞTIRILACAK TEK MESAJ <<<
 ```
@@ -61,7 +61,7 @@ h) Saat: `mcp__claude_ai__current_time` ya da `date`; Türkiye saatiyle (TSİ, U
 - Kural değişirse hem skill (improvement) hem `invest/skills/` kopyası güncellenir.
 
 ## 5. Okuma
-Devir anında BİR KEZ: `invest/DEVIR_TAM.md` (en üst v8 özeti + KESİN KURALLAR 1-42 + bölümler), `DEVIR_OZET.md`, `ORNEKLER.md`, `DONGU.md` (son 60 satır: son 3 düzen, 13F sırası, bekleyenler, son TEKNIK seviyeleri), `takvim.md`, `performans.md`, `temel_karne.md`, `AKTIF_HESAP.md`, `gundem.md`, `DURUM.md`, `HATA_GUNLUGU.md`, `DERSLER.md` (kural 26), `periyot.json` (kural 24).
+Devir anında BİR KEZ: `invest/DEVIR_TAM.md` (en üst v8 özeti + KESİN KURALLAR 1-43 + bölümler), `DEVIR_OZET.md`, `ORNEKLER.md`, `DONGU.md` (son 60 satır: son 3 düzen, 13F sırası, bekleyenler, son TEKNIK seviyeleri), `takvim.md`, `performans.md`, `temel_karne.md`, `AKTIF_HESAP.md`, `gundem.md`, `DURUM.md`, `HATA_GUNLUGU.md`, `DERSLER.md` (kural 26), `periyot.json` (kural 24).
 Sonraki her tur ve görevde (kural 18, tasarruf): yalnız skill + `DURUM.md` + `tail -n 30 DONGU.md` (+ takvim.md). Zincir mesajı DEVIR_TAM kural 18'deki KISA ŞABLON.
 
 ## 6. Görevleri kur — KURAL 29 (17.11 18:12): sabit görevler create_trigger cron DEĞİL, bu sohbette send_later ZİNCİRİ olarak kurulur (yoksa mesajlar sohbete gelmez). `python3 invest/sonraki.py hepsi` ile 14 zincirin zamanı/adı; her biri için `python3 -c "import sys;sys.path.insert(0,'invest');import sonraki as s;print(s.mesaj('<anahtar>'))"` mesajını HESAP=A yerine HESAP=B yazarak send_later ile kur (dakikada ~10 sınırı: 10'dan sonra 35 sn bekle). Aşağıdaki cron listesi yalnız içerik referansıdır; içerik invest/gorevler/*.md.
@@ -93,7 +93,7 @@ SORUN: görev "bilgisayar gerekiyor / onay bekliyor" derse Enes'e: "Telefonda/uy
 - A'ya dönüşte: A'nın sabit görevleri kilidi (AKTIF: B) gördükleri gün kendilerini kapatmış olabilir. A'daki oturum `list_triggers` ile bakar, kapalı olanları `update_trigger enabled=true` ile açar, zinciri yeniden kurar.
 
 ## 6c. Bu hesapta ilk iş kontrol listesi (17.11 17:50 itibarıyla sistemdeki her şey)
-- Kurallar: DEVIR_TAM kesin kural 1-42 (13 key levels, 14-16 performans/sabit görev/hız, 17 hesap kilidi, 18-21 tasarruf/özetler/düzeltme, 22-23 içerikler/yalnız doğrular, 24 periyot defteri, 25 haber+yorum, 26 ders sistemi, 27 ekran görüntüsünü Claude alır, 28 kredi tasarrufu).
+- Kurallar: DEVIR_TAM kesin kural 1-43 (13 key levels, 14-16 performans/sabit görev/hız, 17 hesap kilidi, 18-21 tasarruf/özetler/düzeltme, 22-23 içerikler/yalnız doğrular, 24 periyot defteri, 25 haber+yorum, 26 ders sistemi, 27 ekran görüntüsünü Claude alır, 28 kredi tasarrufu).
 - Dosyalar: DURUM.md, DONGU.md, DERSLER.md, periyot.json, performans_veri.csv, sablonlar.md, makro_sozluk.md, takvim.md, gundem.md, temel_karne.md, HATA_GUNLUGU.md.
 - Araçlar: kart2.py, ta2.py, ta_ek.py (kural 33), periyot.py (etiket dahil), ders_analiz.py, sonraki.py + gorevler/ (kural 29 zincirleri), tur_basi.sh (`bash invest/tur_basi.sh B`), yayinla_gorsel.sh, kayit.py (`CS=<bu oturumun linki> python3 invest/kayit.py ...`).
 - Skill'ler: invest/skills/ altındaki 3 dosya bütün bu kuralları içerir (bölüm 13-15 dahil); propose_skills ile bu hesaba kaydettir.

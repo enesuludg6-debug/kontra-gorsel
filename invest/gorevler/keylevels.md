@@ -8,3 +8,4 @@ ABD piyasası kapalıysa tweet yok, yalnız takvim güncellemesi.
 (5) KURAL 40: bugün açılış öncesi bilançosu olanlar için bugün, dün kapanış sonrası açıklayanlar için bugün 'Çağrı: <T>' send_later görevi (açılış öncesi: görüşme + 1,5-2 saat; kapanış sonrası: 11:00-12:30) kurulu mu bak, yoksa kur.
 (6) KURAL 41: dün/bugün bilançosu olan her şirket için 'Detay: <T>' görevi kurulu mu bak, yoksa kur (beklemeden: belge çıkar çıkmaz, analizden sonra; 2-7 tweet, her detay ayrı; gece de dahil).
 (7) KURAL 42: bu tweet günün ilk tweetidir (11:00); vadeliler burada. Otomatik tur zinciri bekliyor mu bak (yoksa 11:15'e kur).
+(8) KURAL 43: takvime yeni giren her bilanço için `python3 invest/isler.py bilanco <T> <YYYY-MM-DDTHH:MM> <acilis_oncesi|kapanis_sonrasi> [görüşme HH:MM]`; kurduğun her görevi `isler.py durum <id> kuruldu --trigger <trig>` ile işaretle.

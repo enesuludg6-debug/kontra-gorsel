@@ -12,7 +12,8 @@ Komutlar:
       → standart bilanço adımlarını ekler: opsiyon (kural 39), hazirlik (T-60), yayin (T-2), analiz (+15 dk),
         detay (+30 dk, beklemeden, kural 41), cagri (kural 40), beklenen_hareket (ilk açılış +15 dk, kural 22n)
 """
-import json, sys, datetime as dt, os
+import json, sys, datetime as dt, os, signal
+signal.signal(signal.SIGPIPE, signal.SIG_DFL)
 
 YOL = os.path.join(os.path.dirname(os.path.abspath(__file__)), "is_defteri.json")
 TZ = dt.timezone(dt.timedelta(hours=3))

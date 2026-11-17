@@ -172,12 +172,12 @@
   {
    "id": "TGT-1118-cagri",
    "ad": "Çağrı: TGT",
-   "zaman": "2026-11-18T18:00",
+   "zaman": "2026-11-18T18:20",
    "ne": "Kural 40: görüşme önemli yerleri, AYNI GÜN, her konu ayrı tweet",
    "ticker": "TGT",
    "tur": "bilanco",
    "durum": "bekliyor",
-   "not": "",
+   "not": "görüşme ~16:00 TSİ; transkript sonrası; 18:00 temel analizle çakışmasın",
    "trigger": "",
    "soz": "",
    "guncelleme": "18.11 01:31"
