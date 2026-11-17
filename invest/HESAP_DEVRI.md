@@ -40,7 +40,7 @@ h) Saat: `mcp__claude_ai__current_time` ya da `date`; Türkiye saatiyle (TSİ, U
 - Kural değişirse hem skill (improvement) hem `invest/skills/` kopyası güncellenir.
 
 ## 5. Okuma
-Devir anında BİR KEZ: `invest/DEVIR_TAM.md` (en üst v8 özeti + KESİN KURALLAR 1-24 + bölümler), `DEVIR_OZET.md`, `ORNEKLER.md`, `DONGU.md` (son 60 satır: son 3 düzen, 13F sırası, bekleyenler, son TEKNIK seviyeleri), `takvim.md`, `performans.md`, `temel_karne.md`, `AKTIF_HESAP.md`, `gundem.md`, `DURUM.md`, `HATA_GUNLUGU.md`.
+Devir anında BİR KEZ: `invest/DEVIR_TAM.md` (en üst v8 özeti + KESİN KURALLAR 1-27 + bölümler), `DEVIR_OZET.md`, `ORNEKLER.md`, `DONGU.md` (son 60 satır: son 3 düzen, 13F sırası, bekleyenler, son TEKNIK seviyeleri), `takvim.md`, `performans.md`, `temel_karne.md`, `AKTIF_HESAP.md`, `gundem.md`, `DURUM.md`, `HATA_GUNLUGU.md`, `DERSLER.md` (kural 26), `periyot.json` (kural 24).
 Sonraki her tur ve görevde (kural 18, tasarruf): yalnız skill + `DURUM.md` + `tail -n 30 DONGU.md` (+ takvim.md). Zincir mesajı DEVIR_TAM kural 18'deki KISA ŞABLON.
 
 ## 6. Görevleri kur (HESAP=B, CRON_TZ=Europe/Istanbul, mesajlar bağımsız ve tam)
