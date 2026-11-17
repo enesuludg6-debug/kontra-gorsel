@@ -29,6 +29,16 @@ for l in open("takvim.md",encoding="utf-8"):
         m=re.search(r"\(([A-Z]{1,5})\)",l)
         if m and not re.search(r"OPSIYON: "+m.group(1)+r"\b",dongu) and not re.search(r"\(BILANCO[^\n]*\b"+m.group(1)+r"\b",dongu): print("  EKSIK OPSIYON:",m.group(1),"->",l.split("|")[1].strip())
 P
+echo "=== CAGRI KONTROL (kural 40)"; python3 - <<'P'
+import re,datetime as dt
+n=dt.datetime.now(dt.timezone(dt.timedelta(hours=3)))
+gun=[(n+dt.timedelta(days=k)).strftime("%d.%m") for k in (-1,0)]
+dongu=open("DONGU.md",encoding="utf-8").read()
+for l in open("takvim.md",encoding="utf-8"):
+    if l.startswith("|") and any(l[1:].strip().startswith(g) for g in gun) and "bilanço" in l:
+        m=re.search(r"\(([A-Z]{1,5})\)",l)
+        if m and not re.search(r"CAGRI: "+m.group(1)+r"\b",dongu): print("  EKSIK CAGRI:",m.group(1),"->",l.split("|")[1].strip())
+P
 echo "=== PERIYOT"; python3 periyot.py durum | grep -E 'YAPILMALI|BEKLE' | head -n 12
 echo "=== TAKVIM (bugun/yarin)"; D1=$(TZ=Europe/Istanbul date +%d.%m); D2=$(TZ=Europe/Istanbul date -d tomorrow +%d.%m); grep -E "$D1|$D2" takvim.md | head -n 15 | cut -c1-200
 echo "=== GUNDEM (son 5)"; tail -n 5 gundem.md | cut -c1-250
