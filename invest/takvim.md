@@ -11,5 +11,5 @@ TSİ = ET + 8 saat (ABD kış saati, 2 Kasım 2026 - 8 Mart 2027).
 | 18.11 Çar | ~00:20 | Nvidia (NVDA) | bilanço kapanış sonrası (16:20 ET) | gelir 108,8-109,3 Mr $ (Visible Alpha/S&P 109,3; Seeking Alpha 108,81; OANDA ~109; Chartmill 111,36 aykırı), HBK 2,47-2,49 $ (takvim 2,47; FourWeekMBA 2,49; Chartmill 2,53), veri merkezi 101,2-102 Mr $ (Zacks 101,24; Coinpedia ~102), brüt marj rehberi %74,0 ±0,5 (FourWeekMBA + Zacks), şirket gelir rehberi 108,0 ±%2 (FourWeekMBA + OANDA + AskTraders); bülten 16:20 ET = 00:20 TSİ, görüşme 01:00 (ecorpit) | nvidianews.nvidia.com, GlobeNewswire | 23:25 | 00:18 | kuruldu; tahminlerim 12:22 önizlemede |
 | 18.11 Çar | açılış öncesi | Target (TGT) | bilanço | doğrulanacak | corporate.target.com | | | |
 | 18.11 Çar | 22:00 | FOMC toplantı notları | veri | - | federalreserve.gov | | | |
-| 19.11 Per | kapanış sonrası | Palo Alto (PANW) | bilanço | doğrulanacak | investors.paloaltonetworks.com | | | (tarih doğrulanacak) |
+| 19.11 Per | ~00:05 TSİ (18.11 kapanış sonrası ET) | Palo Alto (PANW) | bilanço (mali 2027 Q1; şirket rehberi gelir 3,30-3,31 Mr $, HBK 0,96-0,98 $ — Nasdaq, Zacks) | doğrulanacak | investors.paloaltonetworks.com | | | (tarih doğrulanacak) |
 | 19.11 Per | açılış öncesi | Walmart (WMT) | bilanço | doğrulanacak | stock.walmart.com | | | |
