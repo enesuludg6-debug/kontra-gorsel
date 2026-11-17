@@ -9,7 +9,7 @@ TZ = ZoneInfo("Europe/Istanbul")
 # anahtar: (ad, tur, saat, ek)  tur: gunluk | hafta_ici | haftalik(gun 0=Pzt..6=Paz) | ay_ilk7 | yillik([(ay,gun),...])
 G = {
  "sabah":       ("Sabit: sabah kontrolü 09:00", "gunluk", "09:00", None),
- "keylevels":   ("Sabit: key levels 10:30", "hafta_ici", "10:30", None),
+ "keylevels":   ("Sabit: key levels 10:30", "hafta_ici", "11:00", None),  # kural 42: tweet penceresi 11:00
  "radar":       ("Sabit: içeriden alım radarı 14:20", "hafta_ici", "14:20", None),
  "temel1800":   ("Sabit: temel analiz 18:00", "hafta_ici", "18:00", None),  # kural 37 (17.11 22:17): teknik1800/teknik2330 kaldirildi
  "haftalikozet":("Sabit: haftalık özet Cmt 10:55", "haftalik", "10:55", 5),

@@ -1,4 +1,4 @@
-# Günün başlıkları 10:30 (hafta içi; kesin kural 13, 16, 37)
+# Günün başlıkları 11:00 (kural 42; eski 10:30) (hafta içi; kesin kural 13, 16, 37)
 KURAL 37 (Enes 17.11 22:17): teknik analiz yok; destek/direnç, ta2, TradingView, çizim YOK (eski key levels içeriği kaldırıldı).
 ABD piyasası kapalıysa tweet yok, yalnız takvim güncellemesi.
 (1) Takvim: `invest/takvim.md` bugün ve yarın; eksik saat/beklentileri 2 kaynakla doldur. Bugün/yarın bilanço ve veri için HAZIRLIK (T-45/60 dk) ve YAYIN (T-2 dk) send_later görevlerini kur (list_triggers'ta aynı ad varsa kurma; mesajlar HESAP=A ile başlar; O-001 açıklama saati doğrulaması). 18.11: TGT 14:30 (6:30 ET), FOMC tutanakları 22:00, PANW kapanış sonrası (~00:05).
@@ -7,3 +7,4 @@ ABD piyasası kapalıysa tweet yok, yalnız takvim güncellemesi.
 (4) KURAL 39: bugün/yarın bilançosu olan her şirket için opsiyonların fiyatladığı hareket (±%, 2 kaynak: Barchart / Market Chameleon / OptionCharts + haber) günün başlıkları tweetine girer; DONGU'ya '- OPSIYON: <T> ±%X (kaynaklar)'. Aynı görevde her bilanço için ertesi gün 17:45 'Beklenen hareket: <T>' send_later kurulur (aynı ad varsa kurma). 18.11: TGT (14:30), PANW (kapanış sonrası).
 (5) KURAL 40: bugün açılış öncesi bilançosu olanlar için bugün, dün kapanış sonrası açıklayanlar için bugün 'Çağrı: <T>' send_later görevi (açılış öncesi: görüşme + 1,5-2 saat; kapanış sonrası: 11:00-12:30) kurulu mu bak, yoksa kur.
 (6) KURAL 41: dün/bugün bilançosu olan her şirket için 'Detay: <T>' görevi kurulu mu bak, yoksa kur (beklemeden: belge çıkar çıkmaz, analizden sonra; 2-7 tweet, her detay ayrı; gece de dahil).
+(7) KURAL 42: bu tweet günün ilk tweetidir (11:00); vadeliler burada. Otomatik tur zinciri bekliyor mu bak (yoksa 11:15'e kur).

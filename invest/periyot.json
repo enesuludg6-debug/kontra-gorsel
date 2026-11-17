@@ -100,8 +100,8 @@
    "aciklama": "13F tweeti gunde en cok 2 (D-004)"
   },
   "tweet_gunluk": {
-   "gunluk_max": 15,
-   "aciklama": "Sistem tweeti gunde en cok 15 (D-002 12-15; Enes istekleri ve bilanco/veri yayinlari dahil sayilir ama sinira takilmaz)"
+   "gunluk_max": 40,
+   "aciklama": "Kural 42: Pzt-Cmt gunde en az 30 en cok 40 tweet (Pazar alt sinir yok, ust 40). Pencere 11:00-02:00."
   }
  },
  "kayit": {

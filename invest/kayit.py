@@ -21,7 +21,7 @@ gun = bugun.strftime("%d.%m"); iso = bugun.strftime("%Y-%m-%d")
 s = open("DURUM.md", encoding="utf-8").read(); kalan = None
 m = re.search(r"KALAN TWEET HAKKI = (\d+)", s)
 blok = re.search(r"BUGÜNLÜK KURAL \(Enes (\d\d\.\d\d)", s)
-pgun = (bugun - dt.timedelta(hours=1)).strftime("%d.%m")  # paylasim gunu 01:00'da biter
+pgun = (bugun - dt.timedelta(hours=2)).strftime("%d.%m")  # paylasim gunu 02:00'de biter (kural 42)
 if m and blok and blok.group(1) != pgun: m = None  # 17.11 22:00: eski gunun sayaci dusurulmez
 if m and x.hak != "yok":
     kalan = max(0, int(m.group(1)) - 1)

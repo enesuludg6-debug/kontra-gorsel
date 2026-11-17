@@ -12,12 +12,16 @@ echo "=== DURUM.md"; cat DURUM.md
 echo "=== DONGU son 30"; tail -n 30 DONGU.md | cut -c1-400
 echo "=== SON OTOMATIK/ENES PAYLASIM"; grep -E '^- [0-9]{2}:[0-9]{2} \([0-9.]+\) (AUTO|ENES-ISTEGI)' DONGU.md | tail -n 3 | cut -c1-120
 echo "=== DERSLER (aktif + operasyon basliklari)"; sed -n '/^## AKTİF DERSLER/,/^## Gözlemler/p' DERSLER.md | grep -E '^(D|O)-0' | cut -c1-140
-echo "=== BUGUN SISTEM TWEETI"; python3 - <<'P'
+echo "=== BUGUN SISTEM TWEETI (kural 42)"; python3 - <<'P'
 import csv,datetime as dt
-b=dt.datetime.now(dt.timezone(dt.timedelta(hours=3))).strftime("%Y-%m-%d")
-R=[r for r in csv.DictReader(open("performans_veri.csv",encoding="utf-8")) if r["tarih"]==b and r["kaynak"]=="sistem"]
+n=dt.datetime.now(dt.timezone(dt.timedelta(hours=3))); g=n-dt.timedelta(hours=2)
+b=g.strftime("%Y-%m-%d")
+R=[r for r in csv.DictReader(open("performans_veri.csv",encoding="utf-8")) if (r["tarih"]==b and int(r["saat"][:2])>=2) or (r["tarih"]==(g+dt.timedelta(days=1)).strftime("%Y-%m-%d") and int(r["saat"][:2])<2)]
+pazar=g.weekday()==6; alt=0 if pazar else 30
+son=(g.replace(hour=0,minute=0,second=0)+dt.timedelta(days=1,hours=2)); kalan_dk=max(0,int((son-n).total_seconds()//60))
+eksik=max(0,alt-len(R)); tempo=(kalan_dk//eksik) if eksik else None
 ak=sum(1 for r in R if 18<=int(r["saat"][:2])<21)
-print(f"  bugun {len(R)} tweet (hedef 12-15, ust sinir 15; D-002) | 18-21 dilimi {ak}/2 (D-003)")
+print(f"  bugun {len(R)} tweet | hedef {'Pazar: ust 40' if pazar else '30-40'} | kalan sure {kalan_dk} dk | {'gereken tempo ~'+str(tempo)+' dk' if tempo else 'alt sinir tamam'} | 18-21 dilimi {ak} (D-003)")
 P
 echo "=== OPSIYON KONTROL (kural 39)"; python3 - <<'P'
 import re,datetime as dt

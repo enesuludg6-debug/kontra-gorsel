@@ -46,7 +46,7 @@ h) Saat: `mcp__claude_ai__current_time` ya da `date`; Türkiye saatiyle (TSİ, U
 - Kural değişirse hem skill (improvement) hem `invest/skills/` kopyası güncellenir.
 
 ## 5. Okuma
-Devir anında BİR KEZ: `invest/DEVIR_TAM.md` (en üst v8 özeti + KESİN KURALLAR 1-41 + bölümler), `DEVIR_OZET.md`, `ORNEKLER.md`, `DONGU.md` (son 60 satır: son 3 düzen, 13F sırası, bekleyenler, son TEKNIK seviyeleri), `takvim.md`, `performans.md`, `temel_karne.md`, `AKTIF_HESAP.md`, `gundem.md`, `DURUM.md`, `HATA_GUNLUGU.md`, `DERSLER.md` (kural 26), `periyot.json` (kural 24).
+Devir anında BİR KEZ: `invest/DEVIR_TAM.md` (en üst v8 özeti + KESİN KURALLAR 1-42 + bölümler), `DEVIR_OZET.md`, `ORNEKLER.md`, `DONGU.md` (son 60 satır: son 3 düzen, 13F sırası, bekleyenler, son TEKNIK seviyeleri), `takvim.md`, `performans.md`, `temel_karne.md`, `AKTIF_HESAP.md`, `gundem.md`, `DURUM.md`, `HATA_GUNLUGU.md`, `DERSLER.md` (kural 26), `periyot.json` (kural 24).
 Sonraki her tur ve görevde (kural 18, tasarruf): yalnız skill + `DURUM.md` + `tail -n 30 DONGU.md` (+ takvim.md). Zincir mesajı DEVIR_TAM kural 18'deki KISA ŞABLON.
 
 ## 6. Görevleri kur — KURAL 29 (17.11 18:12): sabit görevler create_trigger cron DEĞİL, bu sohbette send_later ZİNCİRİ olarak kurulur (yoksa mesajlar sohbete gelmez). `python3 invest/sonraki.py hepsi` ile 14 zincirin zamanı/adı; her biri için `python3 -c "import sys;sys.path.insert(0,'invest');import sonraki as s;print(s.mesaj('<anahtar>'))"` mesajını HESAP=A yerine HESAP=B yazarak send_later ile kur (dakikada ~10 sınırı: 10'dan sonra 35 sn bekle). Aşağıdaki cron listesi yalnız içerik referansıdır; içerik invest/gorevler/*.md.
@@ -65,7 +65,7 @@ Tekrarlayan (create_trigger, cron):
 Takvim görevi kurumsal olayları ve lansmanları da yazar (22j, 22q); performans raporu 3 haftalık veriyle karışım önerir (22a). Şablonlar invest/sablonlar.md, sözlük invest/makro_sozluk.md. Kural 23: tutmayan tahmin paylaşılmaz.
 Görev metinleri için A hesabındaki karşılıkları örnek alınır: DEVIR_TAM bölüm 16-G'deki ID'ler; metinleri DURUM.md + tail 30 DONGU okur ve sonunda DURUM.md'yi günceller. Düzeltme kuralı (kural 21) her turda geçerli.
 (Saatler 5 dk erken: sistem yoğunluğundan gecikme payı. İçerikte asıl saatler geçerli.)
-Zincir (send_later): "Otomatik paylaşım turu" 20-40 dk rastgele, 09:00-01:00; ilk tur HEMEN (son otomatik paylaşım 20 dk'dan eskiyse).
+Zincir (send_later): "Otomatik paylaşım turu" 18-28 dk rastgele, 11:00-02:00 (kural 42; günde 30-40); ilk tur HEMEN (son otomatik paylaşım 20 dk'dan eskiyse).
 Tek seferlik: `takvim.md`'de bugün/yarın kalan her olay için hazırlık ve yayın görevleri.
 Her görev mesajının başına: "HESAP=B. Önce invest/AKTIF_HESAP.md (AKTIF: B değilse hiçbir şey yapma, bu görevi kapat), git pull, DURDUR kontrolü. Skill: <ad> (yoksa invest/skills/<ad>.md oku)."
 Kurulan görev ID'lerini DEVIR_TAM bölüm 16'ya ve DONGU'ya yaz.
@@ -78,7 +78,7 @@ SORUN: görev "bilgisayar gerekiyor / onay bekliyor" derse Enes'e: "Telefonda/uy
 - A'ya dönüşte: A'nın sabit görevleri kilidi (AKTIF: B) gördükleri gün kendilerini kapatmış olabilir. A'daki oturum `list_triggers` ile bakar, kapalı olanları `update_trigger enabled=true` ile açar, zinciri yeniden kurar.
 
 ## 6c. Bu hesapta ilk iş kontrol listesi (17.11 17:50 itibarıyla sistemdeki her şey)
-- Kurallar: DEVIR_TAM kesin kural 1-41 (13 key levels, 14-16 performans/sabit görev/hız, 17 hesap kilidi, 18-21 tasarruf/özetler/düzeltme, 22-23 içerikler/yalnız doğrular, 24 periyot defteri, 25 haber+yorum, 26 ders sistemi, 27 ekran görüntüsünü Claude alır, 28 kredi tasarrufu).
+- Kurallar: DEVIR_TAM kesin kural 1-42 (13 key levels, 14-16 performans/sabit görev/hız, 17 hesap kilidi, 18-21 tasarruf/özetler/düzeltme, 22-23 içerikler/yalnız doğrular, 24 periyot defteri, 25 haber+yorum, 26 ders sistemi, 27 ekran görüntüsünü Claude alır, 28 kredi tasarrufu).
 - Dosyalar: DURUM.md, DONGU.md, DERSLER.md, periyot.json, performans_veri.csv, sablonlar.md, makro_sozluk.md, takvim.md, gundem.md, temel_karne.md, HATA_GUNLUGU.md.
 - Araçlar: kart2.py, ta2.py, ta_ek.py (kural 33), periyot.py (etiket dahil), ders_analiz.py, sonraki.py + gorevler/ (kural 29 zincirleri), tur_basi.sh (`bash invest/tur_basi.sh B`), yayinla_gorsel.sh, kayit.py (`CS=<bu oturumun linki> python3 invest/kayit.py ...`).
 - Skill'ler: invest/skills/ altındaki 3 dosya bütün bu kuralları içerir (bölüm 13-15 dahil); propose_skills ile bu hesaba kaydettir.

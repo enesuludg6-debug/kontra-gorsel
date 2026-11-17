@@ -6,6 +6,8 @@ Son güncelleme: 18.11.2026 01:08 TSİ. Her tur ve görev sonunda güncellenir (
 - Ayrılan: perakende satış 16:30 (1), NVDA rakam 00:20 (1), NVDA analiz (1), kapanış 00:05 (1; "Kapanış tweeti" görevi kuruldu). Serbest: 6 → 13F (en çok 2), büyük son dakika, Enes isteği. Vadeli, FED-TAHVIL, analist notu, ikinci bilanço analizi gibi ikincil tweetler bugün YOK. Otomatik tur paylaşım için en az 60 dk arayla; değerli konu yoksa paylaşmadan geçer.
 - KULLANILAN (15:23'ten sonra): 16:31 perakende, 17:36 perakende yorum (serbest), 19:32 13F Greenlight Einhorn (serbest), 21:07 NVDA bilanco oncesi satis (serbest), 22:16 TGT, FOMC tutanaklari, PANW (serbest), 22:41 Ileri F/K nasil okunur (serbest), 23:06 TSM iki gunde yuzde 10 (serbest), 23:19 VIX nasil okunur (serbest), 00:06 17.11 kapanis (ayrilan), 00:23 NVDA 3. ceyrek (ayrilan), 00:41 NVDA 3. ceyrek analiz (ayrilan)
 
+## !!! Kural 42 (Enes 18.11 01:13): tweet penceresi 11:00-02:00; Pzt-Cmt günde EN AZ 30 EN ÇOK 40 tweet; Pazar üst sınır (Enes rakam verene kadar 40), alt yok; turlar 18-28 dk; 10:30 görevi 11:00'e kaydı; 09:05 vadeli tweeti yok.
+
 ## !!! Kural 41 (Enes 18.11 00:57; 01:05 netleştirme: detaylar BEKLEMEDEN, gece dahil, belge çıkar çıkmaz; görüşme tweetleri gece bilançosunda aynı sabah): her bilançodan sonra 2-7 AYRI detay tweeti (belgeden: taahhütler, serbest nakit, müşteri kırılımı, koşullu anlaşmalar, marj köprüsü, stok/alacak, KPI...), kendi kartımız + yorum; 'Detay: <T>' görevi; DONGU '- DETAY: <T> <konu>'.
 
 ## !!! Kural 40 (Enes 18.11 00:31): bilanço görüşmesi (kazanç çağrısı) önemli yerleri AYRI AYRI tweet; açılış öncesi bilançoda aynı gün, kapanış sonrasında ertesi gün; transkript + haber, 2 kaynak; 'Çağrı: <T>' görevi; DONGU '- CAGRI: <T> <konu>'.
