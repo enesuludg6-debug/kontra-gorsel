@@ -20,6 +20,7 @@ Türler: VADELI, 13F, BILANCO-RAKAM, BILANCO-ANALIZ, BILANCO-ONIZLEME, ANALIST, 
 | 17.11 | 14:25 | BILANCO-ANALIZ | HD analiz | ilerleme | 6afc398a7eae93f519187b15 | | | | | |
 | 17.11 | 14:44 | BILANCO-RAKAM | DIS 4. çeyrek | uclu | 6afc3e059d7d4c6b78587178 | | | | | |
 | 17.11 | 15:01 | BILANCO-ANALIZ | DIS analiz | dortlu | 6afc4216b9fb95e12d03db93 | | | | | |
+| 17.11 | 15:21 | VADELI | öğlen vadeli | isi | 6afc46d2bea63ad8bdd00a08 | | | | | |
 
 ## Haftalık raporlar
 (Pazar 21:30'da eklenir: türe göre ortalama, en iyi/en kötü 5, saat dilimi, düzen, önerilen karışım.)
