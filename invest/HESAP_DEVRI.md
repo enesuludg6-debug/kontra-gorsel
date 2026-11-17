@@ -40,7 +40,7 @@ h) Saat: `mcp__claude_ai__current_time` ya da `date`; Türkiye saatiyle (TSİ, U
 - Kural değişirse hem skill (improvement) hem `invest/skills/` kopyası güncellenir.
 
 ## 5. Okuma
-Devir anında BİR KEZ: `invest/DEVIR_TAM.md` (en üst v8 özeti + KESİN KURALLAR 1-23 + bölümler), `DEVIR_OZET.md`, `ORNEKLER.md`, `DONGU.md` (son 60 satır: son 3 düzen, 13F sırası, bekleyenler, son TEKNIK seviyeleri), `takvim.md`, `performans.md`, `temel_karne.md`, `AKTIF_HESAP.md`, `gundem.md`, `DURUM.md`, `HATA_GUNLUGU.md`.
+Devir anında BİR KEZ: `invest/DEVIR_TAM.md` (en üst v8 özeti + KESİN KURALLAR 1-24 + bölümler), `DEVIR_OZET.md`, `ORNEKLER.md`, `DONGU.md` (son 60 satır: son 3 düzen, 13F sırası, bekleyenler, son TEKNIK seviyeleri), `takvim.md`, `performans.md`, `temel_karne.md`, `AKTIF_HESAP.md`, `gundem.md`, `DURUM.md`, `HATA_GUNLUGU.md`.
 Sonraki her tur ve görevde (kural 18, tasarruf): yalnız skill + `DURUM.md` + `tail -n 30 DONGU.md` (+ takvim.md). Zincir mesajı DEVIR_TAM kural 18'deki KISA ŞABLON.
 
 ## 6. Görevleri kur (HESAP=B, CRON_TZ=Europe/Istanbul, mesajlar bağımsız ve tam)
@@ -63,6 +63,12 @@ Tek seferlik: `takvim.md`'de bugün/yarın kalan her olay için hazırlık ve ya
 Her görev mesajının başına: "HESAP=B. Önce invest/AKTIF_HESAP.md (AKTIF: B değilse hiçbir şey yapma, bu görevi kapat), git pull, DURDUR kontrolü. Skill: <ad> (yoksa invest/skills/<ad>.md oku)."
 Kurulan görev ID'lerini DEVIR_TAM bölüm 16'ya ve DONGU'ya yaz.
 SORUN: görev "bilgisayar gerekiyor / onay bekliyor" derse Enes'e: "Telefonda/uygulamada çıkan görev onayını kabul et." Görev oturumu repo yazma izni isterse: "Çıkan repo izni sorusunu onayla."
+
+## 6b. Periyot defteri ve günlük durum (kural 24, 17.11 16:40)
+- "Haftada/ayda/N günde bir", "en çok/en az N kez" kuralları sohbetten değil `invest/periyot.json` defterinden okunur: devralınca `python3 invest/periyot.py durum` çalıştır ve sonucu başlangıç mesajına ekle. Her iş yapılınca `periyot.py yap <anahtar>` + push. A hesabında ne yapıldıysa defterde var; B kaldığı yerden devam eder.
+- DURUM.md en üstte o güne özel kural (ör. günlük tweet hakkı sayacı) varsa aynen devam edilir; sayaç sıfırlanmaz.
+- Chrome B hesabına bağlıysa (list_connected_browsers) 18:00/23:30 teknik kontrollerden sonra TradingView teyidi bu oturumdan tek seferlik görevle yapılır (sabit cron görevleri bulutta Chrome'suz çalışır). Bağlı değilse Yahoo ile devam, sorun değil.
+- A'ya dönüşte: A'nın sabit görevleri kilidi (AKTIF: B) gördükleri gün kendilerini kapatmış olabilir. A'daki oturum `list_triggers` ile bakar, kapalı olanları `update_trigger enabled=true` ile açar, zinciri yeniden kurar.
 
 ## 7. Enes'e başlangıç mesajı (tek mesaj)
 "Devraldım (B hesabı). Kontroller: Buffer ✓/✗ (EnesInvestUS doğrulandı), repo/push ✓/✗, kart ✓/✗, Yahoo ✓/✗, zamanlayıcı ✓/✗, TradingView ✓/✗ (yoksa Yahoo). Hesap kilidi B'ye çevrildi, eski hesabın görevleri kendini kapatacak. Kurulan görevler: ... İlk tur başladı. Senden beklenen: [varsa tek cümle] + çıkan 3 skill kartını kaydet."
