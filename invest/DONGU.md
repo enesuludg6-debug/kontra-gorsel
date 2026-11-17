@@ -273,3 +273,4 @@ Durdurmak için en alta `DURDUR` yazılı bir satır ekle (Enes ya da Claude, En
 - 20:20 (17.11) ENES: kural 30 teknik analizde sade dil (deyim yok). 18:00/23:30 bulut teknik cron kapatildi; teknik analizler yalniz bu sohbetteki zincirden (teknik1800/teknik2330).
 - 20:26 (17.11) ENES: adaylar ayri degil 18:00/23:30 teknik analizlerin icinde, her gun farkli 3-4 aday + portfoyun en zayif 2 hissesiyle kiyas (gorevler/teknik1800-2330, skill kopyasi, DURUM Aday rotasyonu). Bugun TSM ve DDOG gonderildi, ANET 23:30'da.
 - 21:03 (17.11) ENES: kural 31 cizim zorunlu (kanal, sikisan ucgen/takoz, yatay bant, kademe isinlari, Fib); gorevler teknik1800/2330/keylevels, skill kopyasi, DEVIR_TAM, DURUM.
+- 21:04 (17.11) ENES: kural 31 duzeltme: cizim her grafikte zorunlu degil, gerekli olanlarda mutlaka.
