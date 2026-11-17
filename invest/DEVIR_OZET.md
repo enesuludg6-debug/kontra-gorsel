@@ -104,3 +104,5 @@ Her turda tweet isinin YANINDA sunlari da yap:
 - YATIRIM TARZI (Enes 16.11 13:32): Enes YATIRIMCI, amaci yukselis basladiginda almak DEGIL, EN DIPLERI bulmak. Notlari buna gore yaz: dip bolgesi (talep/order block, Fibonacci OTE 0.618-0.786, Volume Profile deger alani alti/HVN, haftalik destek), dip isaretleri (RSI/StochRSI/Williams %R/MFI asiri satim, OBV ve RSI pozitif uyumsuzluk, likidite supurmesi sonrasi geri donus, kapitulasyon hacmi), kademeli alim seviyeleri ("ben olsam su 2-3 seviyeden parca parca alirdim") ve tezin bozuldugu seviye. Trend teyidi beklemek yerine dip bolgesine yaklasmayi bildir.
 
 - KESİN KURAL 12 (17.11 11:10): 18:00/23:30 teknik kontrollerde ilk mesaj Nasdaq 100 (^NDX) analizi; her hissede endeksle kıyas; özette "Nasdaq durumu".
+
+- KESİN KURAL 13 (17.11 12:45): her ABD işlem günü 10:30 TSİ key levels (S&P 500 + Nasdaq 100, 2 destek 2 direnç, çakışma gerekçesiyle) + günün önemli başlıkları (saat + beklenti) tweeti; her başlığın açıklanma saatine tek seferlik tur, açıklanınca 2 kaynaklı rakam tweeti. Zincir 'Günlük key levels + başlıklar', devirde A5'te kurulur.

@@ -9,6 +9,7 @@ Kaynaklar: invest/DEVIR.md (15.11 v1), invest/DEVIR_OZET.md (15.11 21:05 + 16.11
 - 17.11'DE ATILANLAR (Buffer): 09:06 vadeli; 09:38 13F Berkshire; 10:13 13F Ackman; 10:48 13F Druckenmiller; 11:13 13F Tepper; 11:41 13F Soros; 12:14 Nasdaq düşüş analizi (Enes isteği, tek uzun tweet, 5 sebep + çözüm + görüş); 12:22 NVDA bilanço önizlemesi (Enes isteği). Son 3 düzen: editoryal, siralama, bento.
 - 13F SERİSİ DEVAM: sıradaki Third Point/Loeb (ön bilgi mlq: Meta aldı, doğrula) → Greenlight/Einhorn → Coatue → Tiger Global → Baupost/Klarman → Himalaya/Li Lu → Pabrai → Icahn → Bridgewater → Lone Pine/Viking; seri bitince Enes'e özet. Burry/Scion 10.11.2025'te SEC kaydını sildi, listeden çıktı. Tepper'ın AVGO ve AMD'den çıkışı tek kaynak (GuruFocus): doğrulanırsa Enes'e not (AVGO portföyde).
 - BUGÜN BEKLEYENLER (17.11): HD ve Disney bilançoları sabah açıklandı mı kontrol et, atılmadıysa rakam tweeti (CRWV formatı; HD beklenti HBK 3,84 $, gelir 42,81 Mr $). 16:30 Ekim perakende satışları (beklenti +%0,2). ~15:00-15:25 vadeli. 18:00 ve 23:30 teknik kontrol (Nasdaq 100 ilk mesaj, kural 12). NVDA bilançosu ~00:20 TSİ 18.11: rakam tweeti + 15 dk sonra analiz; analizde 12:22 önizlemedeki TAHMİNLERLE kıyas yaz (gelir 111-113 Mr $, veri merkezi 103-105, brüt marj %74,2-74,5, HBK 2,53-2,58 $; 4. çeyrek rehberi 122-126 Mr $, marj ~%72; eşikler: rehber 125+ güçlü, 118 altı yavaşlama, marj rehberi %71 altı kötü). Tahmin tutmazsa açıkça söyle.
+- YENİ KESİN KURAL 13 (17.11 12:45): her ABD işlem günü 10:30 TSİ key levels + günün önemli başlıkları tweeti; başlık açıklanınca rakam tweeti (o saate tek seferlik tur). Zincir 'Günlük key levels + başlıklar', A5'te kurulur. İlk çalışma 17.11 13:15 (bugün 10:30 geçtiği için).
 - 18.11: TGT, FOMC toplantı notları 22:00 TSİ, PANW kapanış sonrası. 19.11: WMT.
 - Enes'e verilen öneri (17.11 12:28): bilgisayarı uykuya almamak (TradingView için), sec.gov iznini bir kez onaylamak. Cevap bekleniyor.
 
@@ -47,11 +48,20 @@ Kaynaklar: invest/DEVIR.md (15.11 v1), invest/DEVIR_OZET.md (15.11 21:05 + 16.11
    - Özet + kıyas mesajına (14c-D) "Nasdaq durumu" satırı eklenir; endeks ana desteği kırmışsa kademe ekleme önerileri bir alt bölgeye kaydırılır ya da beklenir.
    - Hisse sembolleri değişmez (DOCN, VRT: NYSE; CBRS önek yok; diğerleri NASDAQ).
 
+13) GÜNLÜK KEY LEVELS + GÜNÜN ÖNEMLİ BAŞLIKLARI (17.11 12:45, Enes: "her gün aynı saatte key levelları yapmanı, önemli başlıkları yazmanı istiyorum ve bu başlıklar açıklanınca onunla ilgili tweet yazmanı da istiyorum; devirde yeni sohbete geçerken bu kural da yapılsın"). KESİN KURAL:
+   - SAAT: her ABD işlem günü 10:30 TSİ (sabah notu slotu; ABD verileri ve açılış öncesi bilançolardan önce). Hafta sonu/tatil yok (26.11 Şükran Günü yok). Saati Enes değiştirebilir.
+   - TWEET (otomatik, Buffer shareNow, kart ile): (a) KEY LEVELS: S&P 500 ve Nasdaq 100 için önceki kapanış + vadeli yönü, 2 destek ve 2 direnç; seviyeler ta2.py (^GSPC, ^NDX; 21 gösterge x 4 dilim) çakışmalarından gelir, her seviyenin sade gerekçesi tek kısa ifade ("önceki dip", "200 günlük ortalama", "doldurulmamış boşluk"). Yalnız en az 2 gösterge/dilim çakışan seviye yazılır. Al/sat, emir kipi, "hedef fiyatım" yok; dil "şu seviye kırılırsa satış hızlanabilir" gibi gözlem. (b) GÜNÜN ÖNEMLİ BAŞLIKLARI: o gün açıklanacak makro veriler (saat TSİ + beklenti), önemli bilançolar (açılış öncesi/kapanış sonrası, HBK ve gelir beklentisi), Fed konuşmaları/tutanak, büyük şirket etkinlikleri, 13F/vade/endeks olayları. En fazla 5-6 başlık, saat sırasıyla. Her saat ve beklenti 2 kaynak (takvim: Investing, TradingEconomics, Earnings Whispers, Nasdaq, Yahoo; resmi: BLS/BEA/Census/Fed). Uzunsa tek uzun tweet; kart düzeni isi/takvim/dortlu/zaman (son 3 düzen kuralı geçerli).
+   - BAŞLIK AÇIKLANINCA TWEET: 10:30 turunda saati belli her başlık için o saat +2-5 dk'ya ayrı tek seferlik send_later kurulur (ad: "Başlık açıklandı: <başlık>"); bu tur sonucu 2 kaynakla doğrulayıp yorumsuz RAKAM tweeti atar (veri: "beklenti → sonuç"; bilanço: CRWV formatı, enes-bilanco-13f), sonra gerekirse etki/analiz turu (bilançoda 15 dk sonra). Sonuç henüz yayınlanmadıysa 5-10 dk sonrasına kendini yeniden kurar (en çok 3 kez). Kapanış sonrası 01:00 TSİ'den önceki açıklamalar bilinen açıklama istisnasıdır (NVDA ~00:20 gibi). Saati belirsiz başlıklar (ör. "gün içinde") otomatik turlarda öncelikli olarak kontrol edilir.
+   - Bu tweetler ve başlık-açıklandı tweetleri otomatik zincirin zamanlamasını DEĞİŞTİRMEZ; normal turlar 3 saat ticker ve tekrar kuralıyla aynı konuyu yeniden atmaz.
+   - ZİNCİR: send_later adı "Günlük key levels + başlıklar"; her çalışma sonunda sıradaki ABD işlem gününün 10:30 TSİ'sine kendini kurar. Her otomatik tur list_triggers ile kontrol eder, yoksa kurar.
+   - DONGU'ya "- SS:DD (GG.AA) AUTO (KEY LEVELS+BAŞLIKLAR): ... | başlıklar: <liste ve saatleri> | kurulan başlık turları: ..." satırı.
+   - DEVİR: yeni oturum A5'te bu zinciri MUTLAKA kurar; devir notu yeniden yazılırsa bu kural aynen korunur.
+
 5) TEKNİK ANALİZ TWEETLERİ: her kontrolde bakılan HER hisse için ayrı görsel + ayrı tweet taslağı Enes'e gönderilir; Claude teknik analiz tweeti PAYLAŞMAZ (Enes paylaşır). Her kademe/stop/hedef seviyesinin nedeni (çakışan göstergeler ve dilimler) yazılır. (bölüm 14d, 14e)
 6) TWEET AKIŞI: her turda analist notu akışları (TheFly, StreetInsider, Investing, MarketBeat, TipRanks, Benzinga, Futu) + lansman/ortaklık kaynakları taranır; boş tur geçilmez, 09:00-01:00 her tur bir tweet hedefi (günde en çok 45). (bölüm 4)
 8) ZAMANLAMA: otomatik tweet 20-40 dk'da bir (rastgele); Enes'in yapıştırdığı tweet hemen atılır ama otomatik zincirin zamanlamasını etkilemez. (bölüm 2)
 7) BİLANÇO TWEETİ: ilk tweet madde madde "metrik: gerçek / Beklenti" + şirkete özgü metrikler + tahmin bloğu (Enes'in $CRWV formatı); sayfa stiline uyan hisselerde 15 dk sonra kapsamlı analiz tweeti. (bölüm 4)
-Yeni oturum A5'te bu iki teknik kontrol zincirini MUTLAKA kurar. Devir notu yeniden yazılırsa bu 3 kural aynen korunur.
+Yeni oturum A5'te bu iki teknik kontrol zincirini ve günlük key levels + başlıklar zincirini (kural 13) MUTLAKA kurar. Devir notu yeniden yazılırsa bu 3 kural aynen korunur.
 
 YENİ OTURUMSAN ÖNCE A BÖLÜMÜNÜ UYGULA. Her turun başında bu dosya BAŞTAN SONA okunur. Sonra DEVIR_OZET.md (ek ayrıntı) ve DONGU.md'nin TAMAMI okunur.
 Bölüm 18'de her kuralın hangi Enes mesajından geldiğini gösteren kontrol listesi var.
@@ -92,6 +102,7 @@ A5. BAŞLA
 - DONGU.md'nin TAMAMINI ve DEVIR_OZET.md'yi oku (bu dosya bunların hepsini içerir, ama son satırlardaki "SIRADAKİ" notları ve son 3 düzen orada).
 - HEMEN ilk otomatik turu çalıştır: aşağıdaki B bölümündeki tur talimatını (B'deki metni) kendine görev say, uygula. Turun sonunda aynı metinle send_later kur.
 - TEKNİK KONTROL ZİNCİRİ (bölüm 14b): list_triggers ile bu oturumda "Teknik kontrol (açılış +30 dk)" ve "Teknik kontrol (kapanış -30 dk)" yoksa ikisini send_later ile kur (sıradaki işlem günü 18:00 ve 23:30 TSİ; mesaj metni bölüm 14b'deki kurala göre). Eski oturumda bekleyen aynı adlı görevleri sil (çift mesaj olmasın).
+- GÜNLÜK KEY LEVELS + BAŞLIKLAR ZİNCİRİ (kesin kural 13): list_triggers'ta 'Günlük key levels + başlıklar' yoksa sıradaki ABD işlem gününün 10:30 TSİ'sine send_later ile kur (bugün 10:30 geçmiş ve günün başlıkları henüz açıklanmamışsa hemen bir kez çalıştır). Eski oturumdaki aynı adlı görevi sil.
 - Enes'e kısa başlangıç mesajı: "Devraldım. Kontroller: Buffer ✓/✗, repo/push ✓/✗, kart ✓/✗, Yahoo ✓/✗, zamanlayıcı ✓/✗, TradingView ✓/✗ (kapalıysa Yahoo). İlk tur başladı." Eksik varsa A6'daki tek cümlelik talimatı ekle.
 
 A6. SORUN → ÇÖZÜM (Enes'e ne yaptırılacağı dahil)
@@ -778,6 +789,7 @@ Bu bölüm devir notu yeniden yazılırsa aynen korunur.
 | 13:58 | Profesyonel yatırımcı/analist yöntemi: temel + teknik, adayları portföyle karşılaştır, daha iyisi varsa öner yoksa önerme; sonraki devir notu bu kurallarla | 14c, başlık |
 | 13:56 | Bu iki kuralı ekle, sonraki devirde kesinlikle böyle devam | başlık, A5, B |
 | 13:33 | Tüm kurallarla kapsamlı devir notu yaz, hiçbir şeyi atlama, kanıtla | bu dosya |
+| 17.11 12:45 | Her gün aynı saatte key levels + önemli başlıklar tweeti; başlık açıklanınca tweet; skill'e ve devre ekle | kesin kural 13, A5, üst özet |
 | 13:07 kalıcı tercihleri (bellek): basit doğal tweet dili, soru ile bitirme yok, doğrulanmamış rakam yok, koyu minimal kart, X'e girme | 5, 6, 7, 10 |
 
 ## 19. DEVİR TESTİ
