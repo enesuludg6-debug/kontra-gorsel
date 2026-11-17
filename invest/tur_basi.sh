@@ -5,7 +5,7 @@ cd "$(dirname "$0")" || exit 1
 H=${1:-A}
 git pull -q --rebase 2>/dev/null || git pull -q
 echo "=== KILIT: $(grep -m1 '^AKTIF:' AKTIF_HESAP.md) (bu gorev HESAP=$H)"
-grep -q "^AKTIF: $H" AKTIF_HESAP.md || { echo "!!! AKTIF $H DEGIL -> HICBIR SEY YAPMA, GOREVI KAPAT"; exit 2; }
+grep -qE "^AKTIF: $H[[:space:]]*$" AKTIF_HESAP.md || { echo "!!! AKTIF $H DEGIL -> HICBIR SEY YAPMA, GOREVI KAPAT"; exit 2; }
 tail -n 40 DONGU.md | grep -q '^DURDUR' && { echo "!!! DURDUR VAR -> DUR"; exit 3; }
 echo "=== SAAT (TSI): $(TZ=Europe/Istanbul date '+%d.%m %a %H:%M')"
 echo "=== DURUM.md"; cat DURUM.md

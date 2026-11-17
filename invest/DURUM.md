@@ -31,7 +31,7 @@ Son güncelleme: 18.11.2026 01:08 TSİ. Her tur ve görev sonunda güncellenir (
 
 ## Kural 30 (20:19): teknik analiz tweet taslağı ve notlarında deyim/mecaz yok, sade ve ölçülebilir dil.
 
-## Kural 28 (tasarruf, kurallar aynen): tur başı `bash tur_basi.sh A`, kart `bash yayinla_gorsel.sh g/x.jpg`, kayıt `CS=<oturum> python3 kayit.py ...` (skills/enes-tweet-turu.md 15).
+## Kural 28 (tasarruf, kurallar aynen): tur başı `bash tur_basi.sh A2`, kart `bash yayinla_gorsel.sh g/x.jpg`, kayıt `CS=<oturum> python3 kayit.py ...` (skills/enes-tweet-turu.md 15).
 
 ## Kural 25 (Enes 17.11 16:51): her haber/veri tweeti = haber + YORUM (ne demek, büyük resim, Fed ne düşünür, piyasaya/hisselere etkisi, net düşüncemiz). Şablon 7 güncellendi.
 
@@ -44,7 +44,7 @@ Son güncelleme: 18.11.2026 01:08 TSİ. Her tur ve görev sonunda güncellenir (
 - Haftalık/aylık/N günlük ya da adet sınırlı HER iş: önce `python3 periyot.py durum` / `kontrol <anahtar>`, yapınca `python3 periyot.py yap <anahtar> "<not>"` + push. Sözlük cümlesi: `python3 periyot.py sozluk "<Veri>"`. Hafızadan tahmin yok.
 
 ## Hesap
-- AKTIF: A (invest/AKTIF_HESAP.md). Görev mesajları HESAP=A ile başlar.
+- AKTIF: A2 (invest/AKTIF_HESAP.md; 18.11 01:21 sohbet devri). Görev mesajları HESAP=A2 ile başlar. Oturum: session_01JKiyukU5wB8Xm26NDD6m99.
 - Chrome: 17.11 15:31 bagli (TradingView ve bulten sayfalari icin). Oturum: session_01JKiyuk5Mhinmn4mL9usBPz (zincir + tek seferlik yayınlar). Sabit görevler bulut (persist_session false).
 
 ## Portföy ve listeler
