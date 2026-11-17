@@ -51,6 +51,7 @@ Kaynaklar: invest/DEVIR.md (15.11 v1), invest/DEVIR_OZET.md (15.11 21:05 + 16.11
 !!! KESİN KURAL 26 — ÖLÇ, DERS AL, UYGULA (Enes 17.11 17:18: "kontrol edeceksin, ders alacaksın, bir sonrakileri ona göre yapacaksın") !!!
 - invest/DERSLER.md: performanstan çıkan dersler (kısa, uygulanabilir maddeler, tarih + kanıt). Her tur konu seçmeden ve yazmadan önce DERSLER.md'nin "AKTİF DERSLER" bölümünü okur ve uygular.
 - Döngü: (1) Her gün 09:00 sabah görevi önceki günün tweet metriklerini performans.md'ye yazar ve önceki güne göre dikkat çeken 1-2 gözlemi DERSLER.md "Gözlemler"e ekler. (2) Her Pazar 21:30 performans raporu: gözlemleri en az 2 hafta ve 5+ tweetle destekleniyorsa "AKTİF DERSLER"e taşır, tutmayanları siler, Enes'e "bu hafta öğrendiklerim" 3-5 madde. (3) 3 haftada bir (periyot.py karisim_onerisi) içerik karışımı yeniden önerilir. (4) Deney: bir ders belirsizse 1 hafta A/B dener (ör. aynı tür 12-15 vs 18-21), sonuç DERSLER.md'ye.
+- TAM PROTOKOL (17.11 17:24): DERSLER.md başı. Veri performans_veri.csv, ölçü ders_analiz.py (göreli skor, medyan), eşik ≥8 tweet / ≥2 hafta / ≥%25 / aynı yön, seviyeler gözlem→aday→aktif→sağlam, çakışmada A/B deney, 4 haftada yeniden test, %10-15 keşif.
 - Ders, kuralları (al/sat yok, 2 kaynak, kural 23, kural 25) değiştiremez; yalnız konu, saat, biçim, uzunluk, kart ve adet tercihlerini değiştirir.
 
 !!! KESİN KURAL 27 — TEKNİK ANALİZ EKRAN GÖRÜNTÜLERİNİ CLAUDE ALIR (Enes 17.11 17:18) !!!

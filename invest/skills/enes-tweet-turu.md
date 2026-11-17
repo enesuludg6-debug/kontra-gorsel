@@ -174,9 +174,11 @@ Sohbet her gün değişebilir; yeni sohbet "en son ne zaman yapıldı, bu hafta 
 - Sabit görevler (cron) her çalışmada yeni oturumda açılır; saatleri cron'dan gelir, "bu ay/bu hafta zaten yapıldı mı" kontrolünü periyot.py ile yapar. Sabit görevler sohbet değişince silinmez; devirde yalnız send_later zinciri (oturuma bağlı) yeniden kurulur.
 - DONGU.md 7 günde arşive taşındığı için "son 2 hafta / bu ay" sorusunun cevabı DONGU'dan değil defterden alınır.
 
-## 14. Ölç, ders al, uygula (kesin kural 26, Enes 17.11 17:18)
-- Her tur konu seçmeden ve yazmadan önce `invest/DERSLER.md` "AKTİF DERSLER"i okur ve uygular (adet, saat dilimi, tür karışımı, biçim).
-- Sabah 09:00 görevi: önceki günün metrikleri performans.md'ye + 1-2 gözlem DERSLER.md "Gözlemler"e.
-- Pazar 21:30 performans raporu: 2 hafta ve 5+ tweetle desteklenen gözlem AKTİF DERS olur, tutmayan silinir; Enes'e "bu hafta öğrendiklerim" 3-5 madde. 3 haftada bir karışım önerisi (periyot.py karisim_onerisi).
-- Belirsiz ders için 1 haftalık deney (A/B) yazılır, sonucu DERSLER.md'ye.
-- Dersler kuralları değiştirmez (al/sat yok, 2 kaynak, kural 23, 25); yalnız konu, saat, biçim, adet, kart tercihlerini değiştirir.
+## 14. Ders sistemi (kesin kural 26, Enes 17.11 17:18 + 17:24)
+Tam protokol `invest/DERSLER.md` başında (veri, ölçü, eşik, çakışma, yaşam döngüsü, takvim). Özet:
+- Tur başında DERSLER.md "AKTİF DERSLER" + "OPERASYON DERSLERİ" okunur ve uygulanır.
+- Tweet atınca `invest/performans_veri.csv`'ye satır (metrik boş; kaynak=sistem, kesin tür, görüş evet/hayır, düzen, Buffer id). Sabah 09:00 metrikleri doldurur.
+- Ders yalnız `python3 ders_analiz.py` ile çıkar: göreli skor (görüntülenme / önceki 7 gün medyanı), grup medyanı. Eşik: ≥8 tweet, ≥2 hafta, ≥%25 fark, haftalar aynı yön → ADAY; 3. hafta da tutarsa AKTİF (adet/karışım değişikliği Enes onayıyla). Tek viral tweet ders değildir; 12 saatten taze tweet ölçülmez.
+- Çakışma: Enes talimatı > kesin kurallar > Enes onaylı ders > otomatik ders > aday > gözlem. Yeni bulgu eski dersle çelişirse eski hemen silinmez: ÇELİŞKİ + 1-2 haftalık A/B deney, kazanan kalır, kaybeden "Silinen dersler"e gerekçeyle. Farklı kapsam (sezon, gün tipi) çatışma değildir, kapsamlı iki ders olur; dar kapsam genel dersi o kapsamda geçer. Eşit kanıtta yeni veri öncelikli.
+- Her aktif ders 4 haftada bir yeniden test; 2 kez tutmazsa silinir. En çok 15 aktif ders. Tweetlerin %10-15'i keşif (yeni tür/saat/biçim), DONGU'da "(keşif)".
+- Pazar 21:30: `ders_analiz.py` + Enes'e "bu hafta öğrendiklerim" (rakamlı, eklenen/silinen/çatışan). Operasyon dersleri (hatalardan, O-xxx) metrikle değil hata günlüğüyle eklenir.

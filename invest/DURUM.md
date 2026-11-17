@@ -9,7 +9,7 @@ Son güncelleme: 17.11.2026 16:33 TSİ. Her tur ve görev sonunda güncellenir (
 ## Kural 25 (Enes 17.11 16:51): her haber/veri tweeti = haber + YORUM (ne demek, büyük resim, Fed ne düşünür, piyasaya/hisselere etkisi, net düşüncemiz). Şablon 7 güncellendi.
 
 ## Kural 26-27 (17.11 17:18)
-- 26: tur başında invest/DERSLER.md 'AKTİF DERSLER' okunur ve uygulanır (günde 12-15 tweet, 18-21 en çok 2, görüşlü analiz 12-15 / 21-24, 13F en çok 2). Sabah 09:00 gözlem ekler, Pazar 21:30 dersleri günceller.
+- 26: tweet atınca performans_veri.csv'ye satır; dersler yalnız ders_analiz.py ile (protokol DERSLER.md başı); tur başında invest/DERSLER.md 'AKTİF DERSLER' okunur ve uygulanır (günde 12-15 tweet, 18-21 en çok 2, görüşlü analiz 12-15 / 21-24, 13F en çok 2). Sabah 09:00 gözlem ekler, Pazar 21:30 dersleri günceller.
 - 27: teknik analizde TradingView ekran görüntüsünü CLAUDE alır (Chrome zoom save_to_disk → SendUserFile), sıra: görüntü → taslak + ben olsam. Chrome yoksa talimat satırı.
 
 ## Periyot defteri (kural 24)
