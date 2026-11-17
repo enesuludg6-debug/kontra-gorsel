@@ -1,4 +1,4 @@
-# PERFORMANS (kesin kural 13) — hangi tweet işe yarıyor
+# PERFORMANS (kesin kural 14) — hangi tweet işe yarıyor
 
 Her gün 09:05'te önceki günün tweetleri eklenir (Buffer get_post includeMetrics). Her Pazar 21:30 haftalık rapor.
 Türler: VADELI, 13F, BILANCO-RAKAM, BILANCO-ANALIZ, BILANCO-ONIZLEME, ANALIST, SONDAKIKA, BAGLAM-GORUS, KAPANIS, TAKVIM, EGITICI, ENES-ISTEGI.

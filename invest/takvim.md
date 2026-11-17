@@ -1,4 +1,4 @@
-# TAKVİM (kesin kural 15) — bilanço ve veri saatleri, hız protokolü
+# TAKVİM (kesin kural 16) — bilanço ve veri saatleri, hız protokolü
 
 Her Pazar 20:00 gelecek 7 gün yazılır, her gün 09:05 güncellenir. Her satır için HAZIRLIK (T-45/60 dk) ve YAYIN (T-2 dk) görevleri kurulur.
 TSİ = ET + 8 saat (ABD kış saati, 2 Kasım 2026 - 8 Mart 2027).
