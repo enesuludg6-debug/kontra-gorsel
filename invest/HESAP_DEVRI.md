@@ -10,7 +10,7 @@ Her zaman Türkçe yaz. Enes'e soru sorma; eksik bir şey varsa ne yapması gere
 | Enes'in kalıcı tercihleri (bellek) | yok | Hepsi `invest/DEVIR_TAM.md` ve skill dosyalarında. |
 | İzinli alan adları (query1.finance.yahoo.com) | muhtemelen yok | Adım 3 testi; yoksa Enes'e tek cümle. |
 | Chrome eklentisi (TradingView) A hesabına giriş yapmış | B'de yok | TradingView opsiyonel; yoksa Yahoo (ta2.py) ile devam. |
-| A hesabındaki görevler (sabit 8 görev + zincir) | A'da çalışmaya devam edebilir | ÇİFT TWEET RİSKİ: Adım 2 hesap kilidi çözer. |
+| A hesabındaki görevler (sabit 10 görev + zincir) | A'da çalışmaya devam edebilir | ÇİFT TWEET RİSKİ: Adım 2 hesap kilidi çözer. |
 
 ## 1. Repo
 - `mcp__claude-code-remote__add_repo(owner="enesuludg6-debug", repo="kontra-gorsel", access="push")` (Enes'in ilk mesajındaki açık onayla).
@@ -39,8 +39,9 @@ h) Saat: `mcp__claude_ai__current_time` ya da `date`; Türkiye saatiyle (TSİ, U
 - `propose_skills` ile üçünü TEK çağrıda `kind: new`, `skillMd` = dosya içeriğinin aynısı olarak öner (ad ve açıklama dosyanın başındaki frontmatter'dan). Enes'e: "Çıkan 3 kartı kaydet." Kaydedilmese de her tur bu dosyaları okur; görev mesajlarına "skill yoksa invest/skills/<ad>.md oku" yaz.
 - Kural değişirse hem skill (improvement) hem `invest/skills/` kopyası güncellenir.
 
-## 5. Okuma (her yeni oturum ve her görevde)
-`invest/DEVIR_TAM.md` (en üst v8 özeti + KESİN KURALLAR 1-17 + bölümler), `DEVIR_OZET.md`, `ORNEKLER.md`, `DONGU.md` (son 60 satır: son 3 düzen, 13F sırası, bekleyenler, son TEKNIK seviyeleri), `takvim.md`, `performans.md`, `temel_karne.md`, `AKTIF_HESAP.md`, `gundem.md`.
+## 5. Okuma
+Devir anında BİR KEZ: `invest/DEVIR_TAM.md` (en üst v8 özeti + KESİN KURALLAR 1-21 + bölümler), `DEVIR_OZET.md`, `ORNEKLER.md`, `DONGU.md` (son 60 satır: son 3 düzen, 13F sırası, bekleyenler, son TEKNIK seviyeleri), `takvim.md`, `performans.md`, `temel_karne.md`, `AKTIF_HESAP.md`, `gundem.md`, `DURUM.md`, `HATA_GUNLUGU.md`.
+Sonraki her tur ve görevde (kural 18, tasarruf): yalnız skill + `DURUM.md` + `tail -n 30 DONGU.md` (+ takvim.md). Zincir mesajı DEVIR_TAM kural 18'deki KISA ŞABLON.
 
 ## 6. Görevleri kur (HESAP=B, CRON_TZ=Europe/Istanbul, mesajlar bağımsız ve tam)
 Önce `list_triggers`: bu hesapta aynı adlı eski görev varsa sil/kapat.
@@ -48,9 +49,12 @@ Tekrarlayan (create_trigger, cron):
 1. "Sabah kontrolü" her gün 08:55: kilit, DURDUR, zincir canlı mı (değilse kur), takvim.md güncelle, performans.md'ye önceki günün metrikleri.
 2. "Key levels + başlıklar" hafta içi 10:25 (kesin kural 13, enes-tweet-turu bölüm 9).
 3. "Teknik kontrol (açılış +30 dk)" hafta içi 17:55 ve 4. "Teknik kontrol (kapanış -30 dk)" hafta içi 23:25 (enes-portfoy-analiz; Nasdaq 100 ilk mesaj; tatil/yarım gün kuralı).
-5. "Haftalık bilanço takvimi" Pazar 19:55 (kural 16; takvime yazılan her olay için hazırlık T-45/60 ve yayın T-2 tek seferlik görevleri).
+5. "Haftalık bilanço takvimi" Pazar 19:55 (kural 16 + 20 + 18: takvim.md + "gelecek hafta" TWEETİ + DONGU'da 7 günden eski satırları invest/arsiv/'e taşıma).
 6. "Haftalık performans raporu" Pazar 21:25 (kural 14).
 7. "13F serisi başlangıcı" 15 Şubat, 16 Mayıs, 15 Ağustos, 15 Kasım 09:05 (kural 10).
+8. "Haftalık özet" Cumartesi 10:55 (kural 19).
+9. "Ayın özeti" her ayın 1-7'si 10:55; yalnız ayın ilk ABD işlem günü ve bu ay atılmadıysa çalışır (kural 21).
+Görev metinleri için A hesabındaki karşılıkları örnek alınır: DEVIR_TAM bölüm 16-G'deki ID'ler; metinleri DURUM.md + tail 30 DONGU okur ve sonunda DURUM.md'yi günceller. Düzeltme kuralı (kural 21) her turda geçerli.
 (Saatler 5 dk erken: sistem yoğunluğundan gecikme payı. İçerikte asıl saatler geçerli.)
 Zincir (send_later): "Otomatik paylaşım turu" 20-40 dk rastgele, 09:00-01:00; ilk tur HEMEN (son otomatik paylaşım 20 dk'dan eskiyse).
 Tek seferlik: `takvim.md`'de bugün/yarın kalan her olay için hazırlık ve yayın görevleri.
