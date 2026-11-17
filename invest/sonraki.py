@@ -31,10 +31,10 @@ def sonraki(k, simdi=None):
         if tur == "gunluk" or (tur == "hafta_ici" and g.weekday() < 5) or (tur == "haftalik" and g.weekday() == ek) \
            or (tur == "ay_ilk7" and g.day <= 7) or (tur == "yillik" and (g.month, g.day) in ek):
             return t
-def mesaj(k):
-    return (f"HESAP=A. Önce invest/AKTIF_HESAP.md oku; AKTIF: A değilse hiçbir şey yapma (tweet ve push yok) ve bu görevi kapat. "
+def mesaj(k, H="A"):
+    return (f"HESAP={H}. Önce invest/AKTIF_HESAP.md oku; AKTIF: {H} değilse hiçbir şey yapma (tweet ve push yok) ve bu görevi kapat. "
             f"SABİT GÖREV ZİNCİRİ ({G[k][0]}, kesin kural 29). İLK İŞ: `python3 invest/sonraki.py {k}` çalıştır ve verdiği zamana, verdiği ad ve "
-            f"BU MESAJIN AYNISIYLA send_later kur (list_triggers'ta aynı adlı bekleyen varsa kurma). SONRA invest/gorevler/{k}.md dosyasını oku ve harfiyen uygula. "
+            f"BU MESAJIN AYNISIYLA send_later kur (list_triggers'ta aynı adlı bekleyen varsa kurma). SONRA invest/gorevler/_ORTAK.md ve invest/gorevler/{k}.md dosyalarını oku ve harfiyen uygula. "
             f"Bütün mesajlar bu sohbete (SendUserMessage / SendUserFile).")
 if __name__ == "__main__":
     a = sys.argv[1] if len(sys.argv) > 1 else "hepsi"

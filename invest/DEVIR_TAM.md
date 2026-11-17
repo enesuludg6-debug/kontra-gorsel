@@ -48,6 +48,12 @@ Kaynaklar: invest/DEVIR.md (15.11 v1), invest/DEVIR_OZET.md (15.11 21:05 + 16.11
  r) İLGİ LİSTESİ GENİŞLEDİ: ON AAOI HOOD TEM CRDO PLTR ISRG ASTS MU + yeni adaylar ANET ALAB MRVL COHR LITE ETN GEV CRWD NET DDOG APP RBRK PL LUNR. Yeni adayların temel karnesi (/50) turlarda zaman kaldıkça (günde 1-2) çıkarılır; 30 altı listeden çıkar. Güncel liste DURUM.md "İlgi listesi" bölümünde.
  Sabit görev ID'leri bölüm 16-G ve DURUM.md'de.
 
+!!! KESİN KURAL 29 — HER ŞEY BU SOHBETE (Enes 17.11 18:07: "her şeyin bu sohbete gelmesi lazım") !!!
+- Bulut sabit görevleri (create_trigger cron) her çalışmada AYRI oturum açtığı için mesajları bu sohbete gelmiyordu. Bütün sabit görevler artık bu sohbette send_later ZİNCİRİ: her çalışma ilk iş `python3 invest/sonraki.py <anahtar>` ile bir sonrakini kurar, sonra invest/gorevler/_ORTAK.md + invest/gorevler/<anahtar>.md'yi uygular. 14 zincir: sabah, keylevels, radar, teknik1800, teknik2330, haftalikozet, sektor, ilgisira, analist, sezon, takvim, performans, ayinozeti, 13f.
+- Bulut cron görevleri kapatıldı (enabled=false); 18:00 ve 23:30 bulut teknik kontrolünü kapatma izni verilmedi → Enes uygulamadan kapatacak (kapatılana kadar onlar da ayrı oturumda çalışır, tweet atmazlar).
+- Sabah kontrolü zincirlerin hepsinin bekleyen görevi var mı bakar, kopan zinciri kurar. Teknik kontroller artık bu sohbette ve Chrome ile ekran görüntülü (kural 27).
+- Hesap devrinde yeni oturum aynı 14 zinciri kendi sohbetinde kurar (HESAP_DEVRI 6).
+
 !!! KESİN KURAL 28 — KREDİ TASARRUFU, KURALLAR AYNEN (Enes 17.11 17:41) !!!
 - Hiçbir kural değişmez; tasarruf ekleme yoluyla: tur_basi.sh (tur başı tek çağrı), yayinla_gorsel.sh (push + raw 200), kayit.py (DURUM/DONGU/performans/csv/periyot/push tek çağrı), paralel çağrı, tek ToolSearch, grep ile okuma, büyük çıktıyı dosyada süzme, standard arama önce, Chrome get_page_text önce ve browser_batch, Buffer metriksiz kontrol. Ayrıntı: skills/enes-tweet-turu.md bölüm 15. Çelişkide kural kazanır.
 

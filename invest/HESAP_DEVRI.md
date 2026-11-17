@@ -46,10 +46,11 @@ h) Saat: `mcp__claude_ai__current_time` ya da `date`; Türkiye saatiyle (TSİ, U
 - Kural değişirse hem skill (improvement) hem `invest/skills/` kopyası güncellenir.
 
 ## 5. Okuma
-Devir anında BİR KEZ: `invest/DEVIR_TAM.md` (en üst v8 özeti + KESİN KURALLAR 1-28 + bölümler), `DEVIR_OZET.md`, `ORNEKLER.md`, `DONGU.md` (son 60 satır: son 3 düzen, 13F sırası, bekleyenler, son TEKNIK seviyeleri), `takvim.md`, `performans.md`, `temel_karne.md`, `AKTIF_HESAP.md`, `gundem.md`, `DURUM.md`, `HATA_GUNLUGU.md`, `DERSLER.md` (kural 26), `periyot.json` (kural 24).
+Devir anında BİR KEZ: `invest/DEVIR_TAM.md` (en üst v8 özeti + KESİN KURALLAR 1-29 + bölümler), `DEVIR_OZET.md`, `ORNEKLER.md`, `DONGU.md` (son 60 satır: son 3 düzen, 13F sırası, bekleyenler, son TEKNIK seviyeleri), `takvim.md`, `performans.md`, `temel_karne.md`, `AKTIF_HESAP.md`, `gundem.md`, `DURUM.md`, `HATA_GUNLUGU.md`, `DERSLER.md` (kural 26), `periyot.json` (kural 24).
 Sonraki her tur ve görevde (kural 18, tasarruf): yalnız skill + `DURUM.md` + `tail -n 30 DONGU.md` (+ takvim.md). Zincir mesajı DEVIR_TAM kural 18'deki KISA ŞABLON.
 
-## 6. Görevleri kur (HESAP=B, CRON_TZ=Europe/Istanbul, mesajlar bağımsız ve tam)
+## 6. Görevleri kur — KURAL 29 (17.11 18:12): sabit görevler create_trigger cron DEĞİL, bu sohbette send_later ZİNCİRİ olarak kurulur (yoksa mesajlar sohbete gelmez). `python3 invest/sonraki.py hepsi` ile 14 zincirin zamanı/adı; her biri için `python3 -c "import sys;sys.path.insert(0,'invest');import sonraki as s;print(s.mesaj('<anahtar>'))"` mesajını HESAP=A yerine HESAP=B yazarak send_later ile kur (dakikada ~10 sınırı: 10'dan sonra 35 sn bekle). Aşağıdaki cron listesi yalnız içerik referansıdır; içerik invest/gorevler/*.md.
+## 6-eski. Görevleri kur (HESAP=B, CRON_TZ=Europe/Istanbul, mesajlar bağımsız ve tam)
 Önce `list_triggers`: bu hesapta aynı adlı eski görev varsa sil/kapat.
 Tekrarlayan (create_trigger, cron):
 1. "Sabah kontrolü" her gün 08:55: kilit, DURDUR, zincir canlı mı (değilse kur), takvim.md güncelle, performans.md'ye önceki günün metrikleri + performans_veri.csv metrikleri + `python3 invest/ders_analiz.py --gun 7` ile DERSLER.md gözlemi (kural 26).
