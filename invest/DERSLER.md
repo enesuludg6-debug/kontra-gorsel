@@ -25,7 +25,7 @@ D) ÇAKIŞMA KURALLARI
 2. Yeni bulgu aktif bir dersle çelişirse eski ders HEMEN SİLİNMEZ: ikisi "ÇELİŞKİ" diye işaretlenir, 1-2 haftalık A/B DENEY kurulur (aynı türde tweetlerin yarısı eski kurala, yarısı yeni bulguya göre; deney DERSLER.md "Deneyler"de: başlangıç, bitiş, ölçü). Bitince kanıtı güçlü olan kalır.
 3. Kapsam farkı çatışma değildir: farklı bağlamda (bilanço sezonu / dışı, 13F haftası, büyük düşüş günü, hafta sonu) iki ders birlikte geçerlidir ve kapsam yazılır ("sezonda X, dışında Y"). Daha dar kapsamlı ders genel dersi o kapsamda geçersiz kılar.
 4. Eşit kanıtta daha yeni veri öncelikli (hesap ve kitle değişir); ama yeni veri en az eski dersin örneklemi kadar olmalı.
-5. Kazanan yeni bulgu: yeni ID ile eklenir ("D-007, D-003'ün yerine"); eski "Silinen dersler"e tarih ve gerekçeyle taşınır (geçmiş silinmez). Enes onaylı bir dersin yerine geçecekse Enes'e sorulur.
+5. Kazanan yeni bulgu: yeni ID ile eklenir ("D-007, D-003'ün yerine"); eski "Silinen dersler"e tarih ve gerekçeyle taşınır (geçmiş silinmez). Enes onaylı bir dersin yerine geçecekse Enes'e sorulur. [İPTAL 18.11 01:18 — Enes: 18-21 sınırı kaldırıldı]
 6. Aynı tur içinde iki ders çakışırsa seviyesi yüksek olan, eşitse kapsamı dar olan uygulanır.
 
 E) YAŞAM DÖNGÜSÜ

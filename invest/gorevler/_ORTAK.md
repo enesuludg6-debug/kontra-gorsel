@@ -12,3 +12,4 @@
 - KURAL 40: tur_basi 'EKSİK CAGRI' yazıyorsa o şirketin bilanço görüşmesi tweetleri için 'Çağrı: <T>' görevi kur (konu başına ayrı tweet, 20-30 dk arayla).
 - KURAL 41: tur_basi 'EKSİK DETAY' yazıyorsa o bilançonun detay tweetleri için 'Detay: <T>' görevi kur (2-7 ayrı tweet, belgeden, kendi kartımızla).
 - KURAL 42: tweet penceresi 11:00-02:00; Pzt-Cmt günde 30-40 tweet (Pazar üst 40); tweet aralığı SERBEST (1 dk da olabilir 1 saat de; Enes 01:15), sonraki tur zamanını her turda sen seç; tur_basi tempo satırı yalnız rehber.
+- 18-21 dilimi sınırı YOK (Enes 18.11 01:18).
