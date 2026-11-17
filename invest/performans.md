@@ -17,6 +17,7 @@ Türler: VADELI, 13F, BILANCO-RAKAM, BILANCO-ANALIZ, BILANCO-ONIZLEME, ANALIST, 
 | 17.11 | 13:16 | TAKVIM | key levels + başlıklar | takvim | 6afc2993ec24b44737d789b8 | | | | | |
 | 17.11 | 14:07 | BILANCO-RAKAM | HD 3. çeyrek | uclu | 6afc3572681dcb15ba481a1e | | | | | |
 | 17.11 | 14:16 | BAGLAM-GORUS (ENES-ISTEGI) | NVDA ihracat komitesi | editoryal | 6afc377e7e5c00d2a8e2106f | | | | | |
+| 17.11 | 14:25 | BILANCO-ANALIZ | HD analiz | ilerleme | 6afc398a7eae93f519187b15 | | | | | |
 
 ## Haftalık raporlar
 (Pazar 21:30'da eklenir: türe göre ortalama, en iyi/en kötü 5, saat dilimi, düzen, önerilen karışım.)
