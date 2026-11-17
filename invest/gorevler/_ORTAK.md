@@ -11,4 +11,4 @@
 - KURAL 39: tur_basi 'EKSİK OPSİYON' yazıyorsa o bilançonun opsiyon beklenen hareketi bu turda tweete girer (2 kaynak), DONGU'ya '- OPSIYON: <T> ...'.
 - KURAL 40: tur_basi 'EKSİK CAGRI' yazıyorsa o şirketin bilanço görüşmesi tweetleri için 'Çağrı: <T>' görevi kur (konu başına ayrı tweet, 20-30 dk arayla).
 - KURAL 41: tur_basi 'EKSİK DETAY' yazıyorsa o bilançonun detay tweetleri için 'Detay: <T>' görevi kur (2-7 ayrı tweet, belgeden, kendi kartımızla).
-- KURAL 42: tweet penceresi 11:00-02:00; Pzt-Cmt günde 30-40 tweet (Pazar üst 40); otomatik turlar 18-28 dk arayla, her tur tweet atar; tur_basi tempo satırına uy.
+- KURAL 42: tweet penceresi 11:00-02:00; Pzt-Cmt günde 30-40 tweet (Pazar üst 40); tweet aralığı SERBEST (1 dk da olabilir 1 saat de; Enes 01:15), sonraki tur zamanını her turda sen seç; tur_basi tempo satırı yalnız rehber.

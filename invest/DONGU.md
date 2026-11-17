@@ -312,3 +312,4 @@ Durdurmak için en alta `DURDUR` yazılı bir satır ekle (Enes ya da Claude, En
 - DETAY: NVDA kapsam disi
 - CAGRI: NVDA kapsam disi (Enes)
 - 01:16 (18.11) ENES: kural 42 pencere 11:00-02:00, Pzt-Cmt gunde 30-40 tweet, Pazar ust sinir (rakam bekleniyor, simdilik 40). keylevels 11:00, ilk oto tur 11:15.
+- 01:17 (18.11) ENES: tweet araligi serbest (sabit aralik kurali kaldirildi; 1 dk-1 saat Claude secer).

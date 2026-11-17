@@ -21,7 +21,7 @@ pazar=g.weekday()==6; alt=0 if pazar else 30
 son=(g.replace(hour=0,minute=0,second=0)+dt.timedelta(days=1,hours=2)); kalan_dk=max(0,int((son-n).total_seconds()//60))
 eksik=max(0,alt-len(R)); tempo=(kalan_dk//eksik) if eksik else None
 ak=sum(1 for r in R if 18<=int(r["saat"][:2])<21)
-print(f"  bugun {len(R)} tweet | hedef {'Pazar: ust 40' if pazar else '30-40'} | kalan sure {kalan_dk} dk | {'gereken tempo ~'+str(tempo)+' dk' if tempo else 'alt sinir tamam'} | 18-21 dilimi {ak} (D-003)")
+print(f"  bugun {len(R)} tweet | hedef {'Pazar: ust 40' if pazar else '30-40'} | kalan sure {kalan_dk} dk | {'ortalama gereken ~'+str(tempo)+' dk (aralik serbest)' if tempo else 'alt sinir tamam'} | 18-21 dilimi {ak} (D-003)")
 P
 echo "=== OPSIYON KONTROL (kural 39)"; python3 - <<'P'
 import re,datetime as dt

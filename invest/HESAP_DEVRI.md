@@ -65,7 +65,7 @@ Tekrarlayan (create_trigger, cron):
 Takvim görevi kurumsal olayları ve lansmanları da yazar (22j, 22q); performans raporu 3 haftalık veriyle karışım önerir (22a). Şablonlar invest/sablonlar.md, sözlük invest/makro_sozluk.md. Kural 23: tutmayan tahmin paylaşılmaz.
 Görev metinleri için A hesabındaki karşılıkları örnek alınır: DEVIR_TAM bölüm 16-G'deki ID'ler; metinleri DURUM.md + tail 30 DONGU okur ve sonunda DURUM.md'yi günceller. Düzeltme kuralı (kural 21) her turda geçerli.
 (Saatler 5 dk erken: sistem yoğunluğundan gecikme payı. İçerikte asıl saatler geçerli.)
-Zincir (send_later): "Otomatik paylaşım turu" 18-28 dk rastgele, 11:00-02:00 (kural 42; günde 30-40); ilk tur HEMEN (son otomatik paylaşım 20 dk'dan eskiyse).
+Zincir (send_later): "Otomatik paylaşım turu" aralık serbest, 11:00-02:00 (kural 42; günde 30-40); ilk tur HEMEN (son otomatik paylaşım 20 dk'dan eskiyse).
 Tek seferlik: `takvim.md`'de bugün/yarın kalan her olay için hazırlık ve yayın görevleri.
 Her görev mesajının başına: "HESAP=B. Önce invest/AKTIF_HESAP.md (AKTIF: B değilse hiçbir şey yapma, bu görevi kapat), git pull, DURDUR kontrolü. Skill: <ad> (yoksa invest/skills/<ad>.md oku)."
 Kurulan görev ID'lerini DEVIR_TAM bölüm 16'ya ve DONGU'ya yaz.
