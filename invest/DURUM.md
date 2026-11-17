@@ -1,7 +1,7 @@
 # DURUM — tek sayfa güncel durum (kesin kural 18)
 Son güncelleme: 17.11.2026 21:07 TSİ. Her tur ve görev sonunda güncellenir (en çok 80 satır). Turlar DEVIR_TAM'ı baştan okumaz: skill + bu dosya + DONGU.md son 30 satır. DEVIR_TAM'dan yalnız gereken bölüm grep ile açılır.
 
-## !!! BUGÜNLÜK KURAL (Enes 17.11 15:23; YALNIZ 17.11 için, 18.11 sabah kontrolü siler): KALAN TWEET HAKKI = 6 (paylaşım günü sonu 01:00 TSİ'ye kadar) !!!
+## !!! BUGÜNLÜK KURAL (Enes 17.11 15:23; YALNIZ 17.11 için, 18.11 sabah kontrolü siler): KALAN TWEET HAKKI = 7 (paylaşım günü sonu 01:00 TSİ'ye kadar) — ENES 21:53: 21:53-01:00 arası EN AZ 7 tweet (alt sınır; 3'ü kapanış + NVDA rakam + NVDA analiz, 4'ü serbest: 22:15, 22:40, 23:05, 23:18 turları MUTLAKA atar) !!!
 - Her tweet atan tur/görev ÖNCE bu sayıya bakar; 0 ise ATMAZ. Atınca sayıyı 1 düşürür, DONGU satırına "hak: kalan N" yazar, push.
 - Ayrılan: perakende satış 16:30 (1), NVDA rakam 00:20 (1), NVDA analiz (1), kapanış 00:05 (1; "Kapanış tweeti" görevi kuruldu). Serbest: 6 → 13F (en çok 2), büyük son dakika, Enes isteği. Vadeli, FED-TAHVIL, analist notu, ikinci bilanço analizi gibi ikincil tweetler bugün YOK. Otomatik tur paylaşım için en az 60 dk arayla; değerli konu yoksa paylaşmadan geçer.
 - KULLANILAN (15:23'ten sonra): 16:31 perakende, 17:36 perakende yorum (serbest), 19:32 13F Greenlight Einhorn (serbest), 21:07 NVDA bilanco oncesi satis (serbest)
