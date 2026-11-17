@@ -8,3 +8,4 @@
 - KURAL 36: skill ile invest/skills/ kopyası çelişirse kopya geçerli; 60 dk içinde YAYIN görevi varsa bu görev yayından 15 dk önce bitecek şekilde kısaltılır; günlük tweet sınırı `periyot.py kontrol tweet_gunluk` (15) ve 18-21 en çok 2.
 - KURAL 37 (Enes 17.11 22:17): TEKNİK ANALİZ YOK (gösterge, grafik, TradingView, seviye, ta2/ta_ek kullanılmaz). Yerine temel analize yoğunlaş: 18:00 temel1800 görevi; turlarda portföy haber taraması.
 - KURAL 38: Enes teknik analizini atarsa yalnız tweet diline çevir (sade, mecazsız, yazım kuralları), Enes'e gönder, PAYLAŞMA.
+- KURAL 39: tur_basi 'EKSİK OPSİYON' yazıyorsa o bilançonun opsiyon beklenen hareketi bu turda tweete girer (2 kaynak), DONGU'ya '- OPSIYON: <T> ...'.

@@ -6,6 +6,8 @@ Son güncelleme: 17.11.2026 23:19 TSİ. Her tur ve görev sonunda güncellenir (
 - Ayrılan: perakende satış 16:30 (1), NVDA rakam 00:20 (1), NVDA analiz (1), kapanış 00:05 (1; "Kapanış tweeti" görevi kuruldu). Serbest: 6 → 13F (en çok 2), büyük son dakika, Enes isteği. Vadeli, FED-TAHVIL, analist notu, ikinci bilanço analizi gibi ikincil tweetler bugün YOK. Otomatik tur paylaşım için en az 60 dk arayla; değerli konu yoksa paylaşmadan geçer.
 - KULLANILAN (15:23'ten sonra): 16:31 perakende, 17:36 perakende yorum (serbest), 19:32 13F Greenlight Einhorn (serbest), 21:07 NVDA bilanco oncesi satis (serbest), 22:16 TGT, FOMC tutanaklari, PANW (serbest), 22:41 Ileri F/K nasil okunur (serbest), 23:06 TSM iki gunde yuzde 10 (serbest), 23:19 VIX nasil okunur (serbest)
 
+## !!! Kural 39 (Enes 17.11 23:47): her bilançodan önce opsiyon beklenen hareketi en az bir tweette (önizleme/günün başlıkları/bağlam); DONGU '- OPSIYON: <T>'; tur_basi 'EKSİK OPSİYON' uyarır; ertesi gün kıyas görevi hazırlıkta kurulur.
+
 ## !!! Kural 38 (Enes 17.11 22:30): Enes teknik analizini atar → Claude yalnız sade, mecazsız tweet taslağı yazar ve Enes'e yollar; kendi analizini eklemez, PAYLAŞMAZ.
 
 ## !!! Kural 37 (Enes 17.11 22:17): TEKNİK ANALİZ YOK. 18:00/23:30 teknik zincirleri kapalı; yerine her işlem günü 18:00 TEMEL ANALİZ (temel1800). Key levels 10:30 = seviyesiz 'günün başlıkları'. Turlarda ta2 yerine portföy haber taraması.
