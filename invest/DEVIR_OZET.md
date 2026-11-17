@@ -54,7 +54,7 @@ C) Uygulama: her turda önce (1) SEC/IR/bülten, (2) Reuters/CNBC/Bloomberg/Benz
 ## 5. Yazım stili
 - Arkadaşına anlatır gibi, kısa cümle, 2-4 cümle, en fazla 2-3 rakam. Şirketi ilk geçtiği yerde ne iş yaptığıyla tanıt. Terimleri sadeleştir.
 - Her tweette tek cümle görüş (bilanço rakam tweeti hariç) ama "bence", "gösteriyor bana", "düşünüyorum" TEKRAR ETMESİN; kapanışları çeşitlendir (düz tespit, kısa yargı, karşıtlık, takip, yorumu başa koyma).
-- Yasak kalıplar: "Benim görüşüm:", "Sonuç olarak", "dikkat çekiyor", "kritik", "nabız", "mercek altında" vb.
+- Yasak kalıplar (kesin kural 11, etiketli görüş girişi yok): "Benim okumam:", "Benim görüşüm:", "Yorumum:", "Not:", "Asıl ilginci", "Sonuç olarak", "dikkat çekiyor", "kritik", "nabız", "mercek altında" vb.
 
 ## 6. Görseller
 - Kod: invest/kart2.py (yeni), kart.py (eski/yedek). Fontlar invest/font (Inter Display + Instrument Serif + JetBrains Mono).

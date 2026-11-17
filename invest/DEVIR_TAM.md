@@ -26,6 +26,12 @@ Kaynaklar: invest/DEVIR.md (15.11 v1), invest/DEVIR_OZET.md (15.11 21:05 + 16.11
    - DONGU'ya "13F SERİSİ: [isim] atıldı / sıradaki: ..." satırı; seri bitince Enes'e kısa özet (kim ne yaptı, ortak temalar).
    - Enes'in portföyündeki hisselerde (DOCN RKLB SITM AXON CBRS VRT AVGO) büyük yatırımcı hareketi varsa Enes'e ayrıca "ben olsam" notu.
 
+11) ETİKETLİ GÖRÜŞ GİRİŞİ YASAK (17.11 10:40, Enes: "'benim okumam:' gibi ifadeleri kaldır, kurala da ekle, çok yapay zekâ yazmış gibi duruyor"). KESİN KURAL — tweet, flood, DM taslağı, her metin:
+   - Görüş paragrafı etiketle/başlıkla açılmaz. YASAK: "Benim okumam:", "Benim görüşüm:", "Görüşüm:", "Yorumum:", "Bence önemli nokta şu:", "Asıl ilginci", "Burada kritik olan", "İşin özü", "Not:" (sonda açıklama etiketi), "Önemli nokta:", "Peki ne anlama geliyor?" ve iki noktalı her benzeri.
+   - Görüş, rakamlardan sonra doğrudan cümleyle gelir. Örnek: YANLIŞ "Benim okumam: Abel'in tercihleri ayrışıyor." DOĞRU "Abel'in tercihleri Buffett döneminden ayrışmaya başladı."
+   - 13F uyarısı gerekiyorsa etiketsiz düz cümle: "Tablo 30 Eylül itibarıyla, sonrasındaki işlemler dosyada yok."
+   - Gönder öncesi kontrol: metinde "kelime(ler) + iki nokta" ile başlayan satır var mı? Varsa yeniden yaz (ticker listeleri ve portföy güncellemesi başlığı hariç).
+
 5) TEKNİK ANALİZ TWEETLERİ: her kontrolde bakılan HER hisse için ayrı görsel + ayrı tweet taslağı Enes'e gönderilir; Claude teknik analiz tweeti PAYLAŞMAZ (Enes paylaşır). Her kademe/stop/hedef seviyesinin nedeni (çakışan göstergeler ve dilimler) yazılır. (bölüm 14d, 14e)
 6) TWEET AKIŞI: her turda analist notu akışları (TheFly, StreetInsider, Investing, MarketBeat, TipRanks, Benzinga, Futu) + lansman/ortaklık kaynakları taranır; boş tur geçilmez, 09:00-01:00 her tur bir tweet hedefi (günde en çok 45). (bölüm 4)
 8) ZAMANLAMA: otomatik tweet 20-40 dk'da bir (rastgele); Enes'in yapıştırdığı tweet hemen atılır ama otomatik zincirin zamanlamasını etkilemez. (bölüm 2)
@@ -279,7 +285,7 @@ OTOMATİK PAYLAŞIM TURU (Enes 15.11 21:15 "oto atmaya devam"). ÖNCE invest/DEV
   - Rakam bulunamazsa ya da tek kaynaktaysa o cümleyi yazma ya da "ne kadarı belli değil" de. Tahmin yürütürsen "tahminen" de ve dayanağını yaz.
   - Örnek: SITM'de satın alma hariç gelir +%154 (212,4 Mn$), satın alınan birimin katkısı 86,3 Mn$ (~%29). Doğrusu "satın alınan birim hariç bile +%154" demekti.
   - Örnek: NBIS'te "düşüşün sebebi talep değil zamanlama" (13:20 tweetinde uygulandı).
-- YASAK KALIPLAR: "Benim görüşüm:", "Görüşüm:", "Sonuç olarak", "Özetle", "Kısaca", "Risk tarafı da var", "Bir de şu var:", "X neden önemli?", "Kısa bir flood açayım", "Bu bence çok şey anlatıyor", "mesaj net", "dikkat çekiyor", "öne çıkıyor", "önemli bir gelişme", "kritik / kritik nokta", "vb.", "nabız tutmak", "sınavda", "mercek altında", "gözler ... üzerinde", "ayrıca", "bununla birlikte". Haber ajansı dili ve slogan kapanış yok.
+- YASAK KALIPLAR (kesin kural 11): "Benim okumam:", "Benim görüşüm:", "Görüşüm:", "Yorumum:", "Not:", "Asıl ilginci", "Bence önemli nokta şu:", "Sonuç olarak", "Özetle", "Kısaca", "Risk tarafı da var", "Bir de şu var:", "X neden önemli?", "Kısa bir flood açayım", "Bu bence çok şey anlatıyor", "mesaj net", "dikkat çekiyor", "öne çıkıyor", "önemli bir gelişme", "kritik / kritik nokta", "vb.", "nabız tutmak", "sınavda", "mercek altında", "gözler ... üzerinde", "ayrıca", "bununla birlikte". Haber ajansı dili ve slogan kapanış yok.
 - YASAKLAR (kesin):
   - Al/sat/hedef fiyatım/kesin yükselir tavsiyesi (analist hedefi kaynağıyla aktarılabilir).
   - @mention, link, hashtag kalabalığı (gerekmedikçe hiç).
@@ -723,6 +729,7 @@ Bu bölüm devir notu yeniden yazılırsa aynen korunur.
 | 18:09 | Sırayla at: ekran görüntüsü, tweet, ekran görüntüsü, tweet (tek tek toplu değil) | başlık 5d |
 | 18:14 | Neden temelleri yapmadın, turlarda vaktin vardı; çözüm bul, devir notuna ekle, hiçbir şey çıkarma, sürekli kontrol et | başlık 3b, 14c-E, 14g, B, temel_karne.md |
 | 02:31 (17.11) | 13F'ler açıklandı: her kişi için ayrı, değişiklikler + görüş tweeti; sonraki çeyreklerde sormadan kendin paylaş; devir + kurallara ekle | başlık 10, takvim |
+| 10:40 (17.11) | "Benim okumam:" gibi etiketli görüş girişlerini kaldır, kurala ekle (yapay zekâ gibi duruyor) | kesin kural 11, yasak kalıplar |
 | 23:48 | NBIS YOK | 1 |
 | 23:44 | Portföy güncellemesi tweetini bu kez benden istedi: başlık 'PORTFÖY GÜNCELLEMESİ', altında 'YTD %53.36 / Günlük değişim -%5.19', hisseler alt alta; tutar ve ağırlık YOK. Atıldı. Portföy: DOCN RKLB SITM AXON CBRS VRT AVGO | 1 |
 | 22:48 | Tweet sınırını kaldır; TradingView'a bağlanıp analiz yapabiliyor musun kontrol et (yapıldı: RKLB 4s Supertrend 55,90 okundu) | başlık 9, 2, A6, B |
