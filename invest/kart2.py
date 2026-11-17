@@ -652,7 +652,8 @@ def takvim(baslik, alt, gunler, kaynak, out, etiket="TAKVİM", renk=(110, 180, 2
             name = t.replace("$", ""); nf = sans(30, "ExtraBold"); sf = sans(20, "Medium")
             tw = max(d.textlength(name, font=nf), d.textlength(nt, font=sf))
             bw = (lg.width + 16 if lg else 0) + tw + 44
-            _tile(img, (x, cy - rh * 0.3, x + bw, cy + rh * 0.3), (38, 38, 46) if lg else _mix(renk, (0, 0, 0), 0.55), r=20); d = ImageDraw.Draw(img)
+            th = max(rh * 0.3, (lg.height / 2 + 12) if lg else 0)  # 17.11: yuksek logo (TGT) kutudan tasmasin, logo kucultulmez
+            _tile(img, (x, cy - th, x + bw, cy + th), (38, 38, 46) if lg else _mix(renk, (0, 0, 0), 0.55), r=20); d = ImageDraw.Draw(img)
             tx = x + 22
             if lg:
                 img.paste(lg, (int(tx), int(cy - lg.height / 2)), lg); tx += lg.width + 16; d = ImageDraw.Draw(img)
