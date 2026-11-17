@@ -17,7 +17,7 @@ RKLB k1 55-57 k2 53-55 tez 43,9 | DOCN k1 69-72 k2 56-60 tez hf<55 | SITM k1 395
 17.11 key levels: S&P destek 7380-7400, 7340-7370 (DONGU 13:16 satırı).
 
 ## Kart
-- Son 3 düzen: ilerleme (HD analiz), uclu (DIS), dortlu (DIS analiz). LOGO_BUYUT 1.8, küçültme YOK; bento ve skor kare logoyu taşımıyor; bento ve skor kare logoyu taşımıyor; bento ve skor kare logoyu taşımıyor; skor logoyu taşımıyor → bilanço rakamı uclu.
+- Son 3 düzen: ilerleme (HD analiz), uclu (DIS), dortlu (DIS analiz). LOGO_BUYUT 1.8, küçültme YOK; bento ve skor kare logoyu taşımıyor → bilanço rakamı uclu.
 
 ## 13F serisi (Q3 2026)
 Atılanlar: Berkshire, Ackman, Druckenmiller, Tepper, Soros, Third Point/Loeb. Sıradaki: Greenlight/Einhorn → Coatue → Tiger Global → Baupost → Himalaya → Pabrai → Icahn → Bridgewater → Lone Pine/Viking. Bitince Enes'e özet. Burry yok (SEC kaydı silindi).
