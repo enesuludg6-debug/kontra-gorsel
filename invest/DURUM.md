@@ -1,10 +1,10 @@
 # DURUM — tek sayfa güncel durum (kesin kural 18)
-Son güncelleme: 18.11.2026 00:06 TSİ. Her tur ve görev sonunda güncellenir (en çok 80 satır). Turlar DEVIR_TAM'ı baştan okumaz: skill + bu dosya + DONGU.md son 30 satır. DEVIR_TAM'dan yalnız gereken bölüm grep ile açılır.
+Son güncelleme: 18.11.2026 00:23 TSİ. Her tur ve görev sonunda güncellenir (en çok 80 satır). Turlar DEVIR_TAM'ı baştan okumaz: skill + bu dosya + DONGU.md son 30 satır. DEVIR_TAM'dan yalnız gereken bölüm grep ile açılır.
 
-## !!! BUGÜNLÜK KURAL (Enes 17.11 15:23; YALNIZ 17.11 için, 18.11 sabah kontrolü siler): KALAN TWEET HAKKI = 2 (paylaşım günü sonu 01:00 TSİ'ye kadar) — ENES 21:53: 21:53-01:00 arası EN AZ 7 tweet (alt sınır; 3'ü kapanış + NVDA rakam + NVDA analiz, 4'ü serbest: 22:15, 22:40, 23:05, 23:18 turları MUTLAKA atar) !!!
+## !!! BUGÜNLÜK KURAL (Enes 17.11 15:23; YALNIZ 17.11 için, 18.11 sabah kontrolü siler): KALAN TWEET HAKKI = 1 (paylaşım günü sonu 01:00 TSİ'ye kadar) — ENES 21:53: 21:53-01:00 arası EN AZ 7 tweet (alt sınır; 3'ü kapanış + NVDA rakam + NVDA analiz, 4'ü serbest: 22:15, 22:40, 23:05, 23:18 turları MUTLAKA atar) !!!
 - Her tweet atan tur/görev ÖNCE bu sayıya bakar; 0 ise ATMAZ. Atınca sayıyı 1 düşürür, DONGU satırına "hak: kalan N" yazar, push.
 - Ayrılan: perakende satış 16:30 (1), NVDA rakam 00:20 (1), NVDA analiz (1), kapanış 00:05 (1; "Kapanış tweeti" görevi kuruldu). Serbest: 6 → 13F (en çok 2), büyük son dakika, Enes isteği. Vadeli, FED-TAHVIL, analist notu, ikinci bilanço analizi gibi ikincil tweetler bugün YOK. Otomatik tur paylaşım için en az 60 dk arayla; değerli konu yoksa paylaşmadan geçer.
-- KULLANILAN (15:23'ten sonra): 16:31 perakende, 17:36 perakende yorum (serbest), 19:32 13F Greenlight Einhorn (serbest), 21:07 NVDA bilanco oncesi satis (serbest), 22:16 TGT, FOMC tutanaklari, PANW (serbest), 22:41 Ileri F/K nasil okunur (serbest), 23:06 TSM iki gunde yuzde 10 (serbest), 23:19 VIX nasil okunur (serbest), 00:06 17.11 kapanis (ayrilan)
+- KULLANILAN (15:23'ten sonra): 16:31 perakende, 17:36 perakende yorum (serbest), 19:32 13F Greenlight Einhorn (serbest), 21:07 NVDA bilanco oncesi satis (serbest), 22:16 TGT, FOMC tutanaklari, PANW (serbest), 22:41 Ileri F/K nasil okunur (serbest), 23:06 TSM iki gunde yuzde 10 (serbest), 23:19 VIX nasil okunur (serbest), 00:06 17.11 kapanis (ayrilan), 00:23 NVDA 3. ceyrek (ayrilan)
 
 ## !!! Kural 39 (Enes 17.11 23:47): her bilançodan önce opsiyon beklenen hareketi en az bir tweette (önizleme/günün başlıkları/bağlam); DONGU '- OPSIYON: <T>'; tur_basi 'EKSİK OPSİYON' uyarır; ertesi gün kıyas görevi hazırlıkta kurulur.
 
@@ -56,7 +56,7 @@ Son güncelleme: 18.11.2026 00:06 TSİ. Her tur ve görev sonunda güncellenir (
 NDX 26.990 (4s ST AL) / 26.600 kritik | DOCN k1 72-74 k2 69-70 tez hf<69,8 | RKLB k1 55-57 k2 50-52 tez G<43,9 | SITM k1 395-405 k2 345-365 tez G<335 | AXON k1 291-298 k2 255-270 tez hf<255 | CBRS k1 96-99 k2 88-91 tez G<77,8 | VRT k1 178-183 k2 169-174 tez hf<150 | AVGO k1 323-330 k2 300-311 tez G<289,8 | TSM k1 351-360 | ECL 294-301
 
 ## Kart
-- Son 3 düzen: cizgi, uclu, isi. LOGO_BUYUT 1.8, küçültme YOK; bento ve skor kare logoyu taşımıyor → bilanço rakamı uclu.
+- Son 3 düzen: uclu, isi, uclu (NVDA 3. ceyrek). LOGO_BUYUT 1.8, küçültme YOK; bento ve skor kare logoyu taşımıyor → bilanço rakamı uclu.
 
 ## 13F serisi (Q3 2026)
 Atılanlar: Berkshire, Ackman, Druckenmiller, Tepper, Soros, Third Point/Loeb. Atıldı: Greenlight. Sıradaki: Coatue → Tiger Global → Baupost → Himalaya → Pabrai → Icahn → Bridgewater → Lone Pine/Viking. Bitince Enes'e özet. Burry yok (SEC kaydı silindi).

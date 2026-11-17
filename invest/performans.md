@@ -49,3 +49,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 17.11 | 23:06 | BAGLAM-GORUS | TSM iki gunde yuzde 10 | cizgi | 6afcb3cf7847359f57adbac4 |
 | 17.11 | 23:19 | EGITICI | VIX nasil okunur | uclu | 6afcb6d57338fb226f833d32 |
 | 18.11 | 00:06 | KAPANIS | 17.11 kapanis | isi | 6afcc1cf9b0477630c937e20 |
+| 18.11 | 00:23 | BILANCO-RAKAM | NVDA 3. ceyrek | uclu | 6afcc5b9fa88ce86dcb0cb94 |
