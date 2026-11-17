@@ -47,3 +47,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 17.11 | 22:16 | YARIN-NE-VAR | TGT, FOMC tutanaklari, PANW | takvim | 6afca8229c73f3089bb12fe8 |
 | 17.11 | 22:41 | EGITICI | Ileri F/K nasil okunur | editoryal | 6afcadf6ad43efddcc54c27a |
 | 17.11 | 23:06 | BAGLAM-GORUS | TSM iki gunde yuzde 10 | cizgi | 6afcb3cf7847359f57adbac4 |
+| 17.11 | 23:19 | EGITICI | VIX nasil okunur | uclu | 6afcb6d57338fb226f833d32 |
