@@ -79,3 +79,8 @@ $TICKER 3. ÇEYREK BİLANÇOSU
 - Yalnız doğru çıkanlar (kural 23); yanlış rakamda kural 21 düzeltme.
 
 - PERİYOT DEFTERİ (kural 24): 13F çeyrek özeti, sezon karnesi eşikleri `python3 periyot.py kontrol 13f_ozet|sezon_karnesi_50|sezon_karnesi_90`; yapılınca `yap`.
+
+## Kural 25 ve 36 eklemeleri (17.11)
+- Rakam tweeti yorumsuz kalır; 15 dk sonraki ANALİZ kural 25'e göre şu soruları cevaplar: ne demek (sade), büyük resim (sektör/yapay zekâ zinciri), faiz/Fed bağlamı gerekiyorsa, piyasaya ve ilgili hisselere etkisi, net düşüncemiz. Etiketli giriş ve paragraf başında "X şu:" yok.
+- YAYIN ÖNCELİĞİ (kural 36d): tek oturum sırayla çalışır; bilanço/veri yayını 60 dk içindeyse ağır görevler (teknik analiz, karne, uzun yazı) yayından 15 dk önce bitecek şekilde kısaltılır. Hazırlık/yayın/analiz görevleri bu sohbette send_later (kural 29).
+- Bugünlük adet kuralı varsa kayit.py `--hak ayrilan` ile sayaç düşer; blok yalnız kendi tarihinde geçerli (paylaşım günü 01:00'de biter).

@@ -89,3 +89,8 @@ D) Portföyle karşılaştırma: portföydeki 7 hisse aynı kartla; aday en zay�
 
 - PERFORMANS DERSLERİ (kural 26): sabah görevi ve Pazar 21:30 raporu DERSLER.md'yi günceller; Pazar raporunda "bu hafta öğrendiklerim" Enes'e gider.
 - TASARRUF (kural 28, kuralları değiştirmeden): ta2 tam çıktısı dosyaya yazılır ve teknik kontrolde tamamı okunur (kural aynı), turlardaki kısa taramada yalnız özet satırları; TradingView'da gezinme/gösterge ekleme tıklamaları `browser_batch` ile toplu; okuma için ekran görüntüsü `scale 0.5`, Enes'e gidecek görüntü tam çözünürlük + zoom; karne verisi stockanalysis sayfalarından tek seferde dosyaya.
+
+## Kural 29 ve 36 eklemeleri (17.11)
+- 18:00 / 23:30 analizleri bu sohbette send_later zinciridir (`python3 invest/sonraki.py teknik1800|teknik2330`, sonra `gorevler/_ORTAK.md` + `gorevler/teknik*.md`). Adaylar yalnız bu analizlerin içinde.
+- ZAMAN KUTUSU (kural 36d): 60 dk içinde bilanço/veri YAYIN görevi varsa analiz yayından en az 15 dk önce biter: NDX + portföy 4s tek görüntü + KARAR satırları, adaylar 2'ye iner, her hissede tek gösterge çifti; atlanan kısım DURUM.md'ye ve sonraki analize not.
+- ÖLÇÜM FARKI (kural 36f): ta2.py ile TradingView arasında %2'den büyük fark varsa TradingView esas; DONGU'ya "TA-FARK" satırı.
