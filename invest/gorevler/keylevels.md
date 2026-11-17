@@ -6,3 +6,4 @@ ABD piyasası kapalıysa tweet yok, yalnız takvim güncellemesi.
 (3) Enes'e tweet + "Ne anlama geliyor?" + portföy hisselerinde bugün bilanço/haber varsa not.
 (4) KURAL 39: bugün/yarın bilançosu olan her şirket için opsiyonların fiyatladığı hareket (±%, 2 kaynak: Barchart / Market Chameleon / OptionCharts + haber) günün başlıkları tweetine girer; DONGU'ya '- OPSIYON: <T> ±%X (kaynaklar)'. Aynı görevde her bilanço için ertesi gün 17:45 'Beklenen hareket: <T>' send_later kurulur (aynı ad varsa kurma). 18.11: TGT (14:30), PANW (kapanış sonrası).
 (5) KURAL 40: bugün açılış öncesi bilançosu olanlar için bugün, dün kapanış sonrası açıklayanlar için bugün 'Çağrı: <T>' send_later görevi (açılış öncesi: görüşme + 1,5-2 saat; kapanış sonrası: 11:00-12:30) kurulu mu bak, yoksa kur.
+(6) KURAL 41: dün/bugün bilançosu olan her şirket için 'Detay: <T>' görevi kurulu mu bak, yoksa kur (gece bilançosu: 09:30'dan; gün içi: analizden 30 dk sonra; 2-7 tweet, her detay ayrı).

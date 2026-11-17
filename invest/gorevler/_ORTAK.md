@@ -10,3 +10,4 @@
 - KURAL 38: Enes teknik analizini atarsa yalnız tweet diline çevir (sade, mecazsız, yazım kuralları), Enes'e gönder, PAYLAŞMA.
 - KURAL 39: tur_basi 'EKSİK OPSİYON' yazıyorsa o bilançonun opsiyon beklenen hareketi bu turda tweete girer (2 kaynak), DONGU'ya '- OPSIYON: <T> ...'.
 - KURAL 40: tur_basi 'EKSİK CAGRI' yazıyorsa o şirketin bilanço görüşmesi tweetleri için 'Çağrı: <T>' görevi kur (konu başına ayrı tweet, 20-30 dk arayla).
+- KURAL 41: tur_basi 'EKSİK DETAY' yazıyorsa o bilançonun detay tweetleri için 'Detay: <T>' görevi kur (2-7 ayrı tweet, belgeden, kendi kartımızla).

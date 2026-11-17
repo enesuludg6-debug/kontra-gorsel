@@ -299,3 +299,8 @@ Durdurmak için en alta `DURDUR` yazılı bir satır ekle (Enes ya da Claude, En
 - CAGRI: HD kapsam disi (17.11, kural 40 oncesi)
 - CAGRI: DIS kapsam disi (17.11, kural 40 oncesi)
 - 00:41 (18.11) AUTO (BILANCO-ANALIZ): 20261118_0045_nvda_analiz.jpg (ilerleme) - Benzinga (DC 107,6 +%110, GM 74,8/74,9 duz., Q4 130 +-%3, Q4 GM 71-72, Kress Vera Rubin sozu) + Investing (duz. GM 74,9, AH ~%4, bkl 2,47/108,85) + investinglive (Q4 ekstra hafta, opsiyon ~%8, GM 71-72) + FourWeekMBA/mlq (bulten alintisi +-%3, ekstra hafta) + Yahoo blog (DC 107,6, Q4 bkl 125,25). KURAL 21: 00:25 tweetinde Q4 +-%2 yazildi, dogrusu +-%3 (Yahoo araligi 127,4-132,6 hatali okundu) -> analiz tweetinde duzeltme cumlesi. IC KAYIT tahmin kiyasi: onizleme gelir 111-113 (gercek 115,8 ustu), DC 103-105 (107,6 ustu), HBK 2,53-2,58 (2,68 ustu), Q4 122-126 (130 ustu), Q4 marj ~%72 (71-72, TUTTU), GM 74,2-74,5 (74,9 ustu). Yon dogru, buyukluk dusuk tahmin. AH (Yahoo): TSM +3,4 VRT +3,5 AVGO +1,7 MU +1,9 CBRS +1,6. Buffer 6afcca0949939c25efa18bb2. hak: kalan 0. Son 3 duzen: uclu, uclu, ilerleme.
+- 01:00 (18.11) ENES: kural 41 bilanco detay tweetleri (2-7 ayri). NVDA detay zinciri 18.11 09:30 kuruldu (Enes'in ilettigi CFO yorumu taahhut tablosu, FCF, DC musteri kirilimi slayti).
+- DETAY: HD kapsam disi (kural 41 oncesi)
+- DETAY: HD kapsam disi
+- DETAY: DIS kapsam disi (kural 41 oncesi)
+- DETAY: DIS kapsam disi
