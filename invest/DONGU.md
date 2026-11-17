@@ -325,3 +325,4 @@ Durdurmak için en alta `DURDUR` yazılı bir satır ekle (Enes ya da Claude, En
 >>>>>>> dc0f559 (01:31 OPSIYON TGT ve PANW bilanco oncesi opsiyon beklenen hareket)
 - OPSIYON: TGT %8 (CNBC 8,3 + Investing 8 + Benzinga 8,24 + EarningsWatcher 8,9), tweet 01:31
 - OPSIYON: PANW %11 (EarningsWatcher 11,1 + BigGo 11,15), tweet 01:31
+- 01:37 (18.11) A2 KURAL 43: is defterindeki 13 acik is send_later ile kuruldu (Cagri NVDA 11:40 dahil, Enes 01:33), TGT cagri 19:20'ye cekildi, TGT/PANW opsiyon yapildi (01:31), turlar deftere islendi. TGT/PANW hazirlik-yayin-analiz-detay-cagri-beklenen artik kurulu: 11:00 gorevi yeniden KURMAZ.

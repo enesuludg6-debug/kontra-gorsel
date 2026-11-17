@@ -66,17 +66,43 @@
    "guncelleme": "18.11 01:31"
   },
   {
+   "id": "TUR-1118-0129",
+   "ad": "Otomatik paylaşım turu (gece)",
+   "zaman": "2026-11-18T01:29",
+   "ne": "Devir sonrası ilk tur",
+   "ticker": "",
+   "tur": "tur",
+   "durum": "yapildi",
+   "not": "TGT/PANW opsiyon tweeti 01:31",
+   "trigger": "trig_01Qbj8KoEDhmYphZpPAMEmei",
+   "soz": "",
+   "guncelleme": "18.11 01:35"
+  },
+  {
    "id": "TGT-1118-opsiyon",
    "ad": "Opsiyon: TGT",
    "zaman": "2026-11-18T11:00",
    "ne": "Kural 39: opsiyonların fiyatladığı hareket (±%, 2 kaynak) açıklamadan önce en az bir tweette; DONGU '- OPSIYON: T'",
    "ticker": "TGT",
    "tur": "bilanco",
-   "durum": "bekliyor",
-   "not": "",
+   "durum": "yapildi",
+   "not": "01:31 tweeti Buffer 6afcd5d48e2194ed032b0fb1",
    "trigger": "",
    "soz": "",
-   "guncelleme": "18.11 01:31"
+   "guncelleme": "18.11 01:35"
+  },
+  {
+   "id": "TUR-1118-1115",
+   "ad": "Otomatik paylaşım turu",
+   "zaman": "2026-11-18T11:15",
+   "ne": "Günün ilk serbest turu (kural 42), sonraki turu kendisi kurar",
+   "ticker": "",
+   "tur": "tur",
+   "durum": "kuruldu",
+   "not": "",
+   "trigger": "trig_01B1n1AKy7aRNppmDzU9K7cz",
+   "soz": "",
+   "guncelleme": "18.11 01:35"
   },
   {
    "id": "NVDA-1118-cagri",
@@ -85,11 +111,11 @@
    "ne": "Kural 40: görüşme önemli yerleri, gece bilançosunda AYNI SABAH, her konu ayrı tweet",
    "ticker": "NVDA",
    "tur": "bilanco",
-   "durum": "bekliyor",
+   "durum": "kuruldu",
    "not": "18.11 01:29 Enes: 01:10 iptali yalnız detaylar içindi, görüşme tweetleri İPTAL DEĞİL. 01:11'de yanlışlıkla kapatılmıştı.",
-   "trigger": "",
+   "trigger": "trig_01Nz3QBtTqzJrvPS8WGjqd6Q",
    "soz": "",
-   "guncelleme": "18.11 01:31"
+   "guncelleme": "18.11 01:35"
   },
   {
    "id": "TGT-1118-hazirlik",
@@ -98,11 +124,11 @@
    "ne": "Kural 16: beklentiler 2 kaynak, CRWV iskeleti, /tmp/hazir_T.py kart, bülten URL'leri",
    "ticker": "TGT",
    "tur": "bilanco",
-   "durum": "bekliyor",
+   "durum": "kuruldu",
    "not": "",
-   "trigger": "",
+   "trigger": "trig_01M3YCwPxy7GQCvMZtjhtesq",
    "soz": "",
-   "guncelleme": "18.11 01:31"
+   "guncelleme": "18.11 01:35"
   },
   {
    "id": "TGT-1118-yayin",
@@ -111,11 +137,11 @@
    "ne": "Kural 16 + O-011: rakam tweeti tam CRWV formatı, 3-5 dk içinde; Yahoo canlı blog/CNBC yedek",
    "ticker": "TGT",
    "tur": "bilanco",
-   "durum": "bekliyor",
+   "durum": "kuruldu",
    "not": "",
-   "trigger": "",
+   "trigger": "trig_01EthFB4dUEj8RMLuoJd4wbY",
    "soz": "",
-   "guncelleme": "18.11 01:31"
+   "guncelleme": "18.11 01:35"
   },
   {
    "id": "TGT-1118-analiz",
@@ -124,11 +150,11 @@
    "ne": "Kural 25: kapsamlı analiz tweeti",
    "ticker": "TGT",
    "tur": "bilanco",
-   "durum": "bekliyor",
+   "durum": "kuruldu",
    "not": "",
-   "trigger": "",
+   "trigger": "trig_01BNXzXm3mTCyzT2xM5t7hFZ",
    "soz": "",
-   "guncelleme": "18.11 01:31"
+   "guncelleme": "18.11 01:35"
   },
   {
    "id": "TGT-1118-detay",
@@ -137,11 +163,11 @@
    "ne": "Kural 41: belgeden 2-7 AYRI detay tweeti, BEKLEMEDEN (gece dahil), aralık serbest",
    "ticker": "TGT",
    "tur": "bilanco",
-   "durum": "bekliyor",
+   "durum": "kuruldu",
    "not": "",
-   "trigger": "",
+   "trigger": "trig_014HcwJAY6EMXuzEjETBDhUZ",
    "soz": "",
-   "guncelleme": "18.11 01:31"
+   "guncelleme": "18.11 01:35"
   },
   {
    "id": "NVDA-1118-beklenen",
@@ -150,37 +176,24 @@
    "ne": "Kural 22n/39: opsiyon fiyatlaması vs açılıştaki gerçek hareket",
    "ticker": "NVDA",
    "tur": "bilanco",
-   "durum": "bekliyor",
+   "durum": "kuruldu",
    "not": "opsiyon +-%8,5 (Analytics Insight+Reuters), Saxo +-%7,8; Investing +-%6-7",
-   "trigger": "",
+   "trigger": "trig_01R5Jz9iMFsJ7oio6nsdfeNp",
    "soz": "",
-   "guncelleme": "18.11 01:31"
+   "guncelleme": "18.11 01:35"
   },
   {
    "id": "TGT-1118-beklenen",
    "ad": "Beklenen hareket: TGT",
-   "zaman": "2026-11-18T17:45",
+   "zaman": "2026-11-18T17:47",
    "ne": "Kural 22n/39: opsiyon fiyatlaması vs açılıştaki gerçek hareket",
    "ticker": "TGT",
    "tur": "bilanco",
-   "durum": "bekliyor",
-   "not": "",
-   "trigger": "",
+   "durum": "kuruldu",
+   "not": "17:47 (NVDA 17:45 ile çakışmasın)",
+   "trigger": "trig_01HQYMMC8jSxdvqN7EKGpopt",
    "soz": "",
-   "guncelleme": "18.11 01:31"
-  },
-  {
-   "id": "TGT-1118-cagri",
-   "ad": "Çağrı: TGT",
-   "zaman": "2026-11-18T18:20",
-   "ne": "Kural 40: görüşme önemli yerleri, AYNI GÜN, her konu ayrı tweet",
-   "ticker": "TGT",
-   "tur": "bilanco",
-   "durum": "bekliyor",
-   "not": "görüşme ~16:00 TSİ; transkript sonrası; 18:00 temel analizle çakışmasın",
-   "trigger": "",
-   "soz": "",
-   "guncelleme": "18.11 01:31"
+   "guncelleme": "18.11 01:35"
   },
   {
    "id": "PANW-1119-opsiyon",
@@ -189,11 +202,24 @@
    "ne": "Kural 39: opsiyonların fiyatladığı hareket (±%, 2 kaynak) açıklamadan önce en az bir tweette; DONGU '- OPSIYON: T'",
    "ticker": "PANW",
    "tur": "bilanco",
-   "durum": "bekliyor",
-   "not": "",
+   "durum": "yapildi",
+   "not": "01:31 tweeti Buffer 6afcd5d48e2194ed032b0fb1",
    "trigger": "",
    "soz": "",
-   "guncelleme": "18.11 01:31"
+   "guncelleme": "18.11 01:35"
+  },
+  {
+   "id": "TGT-1118-cagri",
+   "ad": "Çağrı: TGT",
+   "zaman": "2026-11-18T19:20",
+   "ne": "Kural 40: görüşme önemli yerleri, AYNI GÜN, her konu ayrı tweet",
+   "ticker": "TGT",
+   "tur": "bilanco",
+   "durum": "kuruldu",
+   "not": "Enes 01:33: saat 19:20 (A2 görevi) geçerli",
+   "trigger": "trig_013ixAYQMgEVvehVA1xg7xqb",
+   "soz": "",
+   "guncelleme": "18.11 01:35"
   },
   {
    "id": "FOMC-1118-tutanak",
@@ -202,11 +228,11 @@
    "ne": "Ekim toplantı tutanakları: yayından hemen sonra yorumsuz özet + yorumlu tweet (kural 25), 2 kaynak",
    "ticker": "",
    "tur": "veri",
-   "durum": "bekliyor",
+   "durum": "kuruldu",
    "not": "",
-   "trigger": "",
+   "trigger": "trig_012ia6PL13DxXJfhRSq7P4Qc",
    "soz": "",
-   "guncelleme": "18.11 01:31"
+   "guncelleme": "18.11 01:35"
   },
   {
    "id": "PANW-1119-hazirlik",
@@ -215,11 +241,11 @@
    "ne": "Kural 16: beklentiler 2 kaynak, CRWV iskeleti, /tmp/hazir_T.py kart, bülten URL'leri",
    "ticker": "PANW",
    "tur": "bilanco",
-   "durum": "bekliyor",
+   "durum": "kuruldu",
    "not": "",
-   "trigger": "",
+   "trigger": "trig_01DMHMXR3FvPpFDjicEd8dBF",
    "soz": "",
-   "guncelleme": "18.11 01:31"
+   "guncelleme": "18.11 01:35"
   },
   {
    "id": "PANW-1119-yayin",
@@ -228,11 +254,11 @@
    "ne": "Kural 16 + O-011: rakam tweeti tam CRWV formatı, 3-5 dk içinde; Yahoo canlı blog/CNBC yedek",
    "ticker": "PANW",
    "tur": "bilanco",
-   "durum": "bekliyor",
+   "durum": "kuruldu",
    "not": "",
-   "trigger": "",
+   "trigger": "trig_01EUdWKWhYpmknW4TYBr2Mk1",
    "soz": "",
-   "guncelleme": "18.11 01:31"
+   "guncelleme": "18.11 01:35"
   },
   {
    "id": "PANW-1119-analiz",
@@ -241,11 +267,11 @@
    "ne": "Kural 25: kapsamlı analiz tweeti",
    "ticker": "PANW",
    "tur": "bilanco",
-   "durum": "bekliyor",
+   "durum": "kuruldu",
    "not": "",
-   "trigger": "",
+   "trigger": "trig_01RsDxHgT7xgaRmFUhsXZR7K",
    "soz": "",
-   "guncelleme": "18.11 01:31"
+   "guncelleme": "18.11 01:35"
   },
   {
    "id": "PANW-1119-detay",
@@ -254,11 +280,11 @@
    "ne": "Kural 41: belgeden 2-7 AYRI detay tweeti, BEKLEMEDEN (gece dahil), aralık serbest",
    "ticker": "PANW",
    "tur": "bilanco",
-   "durum": "bekliyor",
+   "durum": "kuruldu",
    "not": "",
-   "trigger": "",
+   "trigger": "trig_011HVGoNB8eGnu31ggAiKrqf",
    "soz": "",
-   "guncelleme": "18.11 01:31"
+   "guncelleme": "18.11 01:35"
   },
   {
    "id": "PANW-1119-cagri",
@@ -267,11 +293,11 @@
    "ne": "Kural 40: görüşme önemli yerleri, gece bilançosunda AYNI SABAH, her konu ayrı tweet",
    "ticker": "PANW",
    "tur": "bilanco",
-   "durum": "bekliyor",
+   "durum": "kuruldu",
    "not": "",
-   "trigger": "",
+   "trigger": "trig_01MbKwyeK4w6GtF4CVWHLT5K",
    "soz": "",
-   "guncelleme": "18.11 01:31"
+   "guncelleme": "18.11 01:35"
   },
   {
    "id": "PANW-1119-beklenen",
@@ -280,11 +306,11 @@
    "ne": "Kural 22n/39: opsiyon fiyatlaması vs açılıştaki gerçek hareket",
    "ticker": "PANW",
    "tur": "bilanco",
-   "durum": "bekliyor",
+   "durum": "kuruldu",
    "not": "",
-   "trigger": "",
+   "trigger": "trig_01SXjfDQkSdGSMbtKwSHaFT4",
    "soz": "",
-   "guncelleme": "18.11 01:31"
+   "guncelleme": "18.11 01:35"
   }
  ]
 }
