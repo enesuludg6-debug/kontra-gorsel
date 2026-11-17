@@ -1,6 +1,6 @@
 ---
 name: "enes-portfoy-analiz"
-description: "Enes'in portföyü için her işlem günü 18:00 temel analiz görevi, ben olsam notları, aday hisse seçimi ve kıyas, temel karne (/50) yazılırken kullanılır."
+description: "Enes'in portföyü için ben olsam notları, aday hisse seçimi ve kıyas, temel karne (/50) yazılırken kullanılır."
 ---
 
 # Portföy analizi: temel analiz, ben olsam notu, temel karne
@@ -10,7 +10,7 @@ Repo `/home/claude/kontra-gorsel/invest`. Ayrıntı ve geçmiş: `DEVIR_TAM.md` 
 Güncel portföy: DOCN RKLB SITM AXON CBRS VRT AVGO. NBIS YOK (bakılmaz, aday olarak da sunulmaz). Enes YATIRIMCI ve DİP AVCISI: iyi şirketi ucuzken toplamak ister.
 
 ## TEKNİK ANALİZ YOK (kesin kural 37, Enes 17.11 22:17: "teknik analize bakmıyoruz bir daha, onunla alakalı her şeyi kaldır, onun yerine temel analize daha da yoğunlaş")
-- Gösterge, grafik, TradingView, ekran görüntüsü, destek/direnç, kademe seviyesi, teknik taslak YOK. ta2.py / ta_ek.py / seviye_takip.csv arşivde, kullanılmaz. 18:00/23:30 teknik kontrol zincirleri kapatıldı; yerine her işlem günü 18:00 TEMEL ANALİZ görevi var.
+- Gösterge, grafik, TradingView, ekran görüntüsü, destek/direnç, kademe seviyesi, teknik taslak YOK. ta2.py / ta_ek.py / seviye_takip.csv arşivde, kullanılmaz. 18:00/23:30 teknik kontrol zincirleri kapatıldı; 18:00 temel analiz görevi de kaldırıldı (kesin kural 44, 18.11).
 - Eski kurallardan teknikle ilgili olanlar (12, 27, 30'un teknik kısmı, 31, 33, 35'in teknik ayağı, 36d/f'nin teknik kısmı, aday rotasyonundaki ekran görüntüsü) geçersizdir. Fiyat yalnız değerleme hesabı için kullanılır.
 
 ## Sınırlar (kesin)

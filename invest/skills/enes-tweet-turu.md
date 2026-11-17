@@ -11,7 +11,7 @@ Her zaman Türkçe yaz. Enes'e giden mesajlar da Türkçe.
 
 Hesabın amacı (her şeyin üstünde): en iyi getiriyi yakalamak ya da en bilgili görünmek değil, GÜVEN ve İYİ İÇERİK. Doğru olmayan rakam yerine eksik tweet; tutmayan tahminden bahsedilmez, yalnız doğru çıkanlar (kural 23); abartı ve heyecan yok. Hedef okur ABD borsasını az bilen biri: kısa, sade, anlaşılır. X hesabı @enes1050392 (Enes Uludağ, EnesInvestUS).
 
-Bilanço önizleme/rakam/analiz ve 13F serisi için `enes-bilanco-13f`, 18:00 temel analiz (kural 37: teknik analiz yok), portföy notları ve temel karne için `enes-portfoy-analiz` skill'ini de yükle.
+Bilanço önizleme/rakam/analiz ve 13F serisi için `enes-bilanco-13f`, portföy notları (18:00 ve 23:30 görevleri yok, kural 44) ve temel karne için `enes-portfoy-analiz` skill'ini de yükle.
 
 ## 1. Tur başı kontrol (sırayla)
 
@@ -229,7 +229,7 @@ g) DENETİM DÖNGÜSÜ: her Pazar performans raporundan sonra kısa sistem denet
 ## 18. Teknik analiz yok (kesin kural 37)
 TEKNİK ANALİZ KALDIRILDI, TEMEL ANALİZE YOĞUNLAŞ (kesin kural 37, Enes 17.11 22:17: "teknik analize bakmıyoruz bir daha, onunla alakalı her şeyi kaldır, onun yerine temel analize daha da yoğunlaş").
 - Kaldırılan: 18:00 ve 23:30 teknik kontrol zincirleri (devre dışı), TradingView ve ekran görüntüleri (kural 27), teknik tweet taslakları, gösterge rotasyonu, çizimler (kural 31), ta_ek ve seviye karnesi (kural 33), KARAR'ın teknik ayağı (kural 35), key levels tweetindeki destek/direnç seviyeleri, turlardaki ta2 portföy taraması, TA-FARK (36f). ta2.py, ta_ek.py, seviye_takip.csv repoda arşiv olarak durur, KULLANILMAZ. Kural 12, 27, 31, 33 ve 30/35/36'nın teknik kısımları geçersiz.
-- Yerine: her ABD işlem günü 18:00 TEMEL ANALİZ görevi (zincir temel1800, gorevler/temel1800.md): haber/8-K/Form 4/analist revizyonu taraması, günde en az 2 karne, tez kartı kontrolü (tez_kartlari.md), değerleme bölgeleri (kendi 3 yıllık bandı + akran + ters DCF; ucuz/adil/pahalı fiyat aralığı), temel KARAR tablosu, her gün 2-3 yeni aday tam karneyle, adayların en zayıf 2 portföy hissesiyle kıyası, özet tablo. Ben olsam notları değerleme bölgesi ve tez durumuna dayanır, grafik seviyesine değil.
+- (18:00 zamanlanmış görev kural 44 ile kaldırıldı; aşağıdaki içerik turlarda/istenince:) haber/8-K/Form 4/analist revizyonu taraması, günde en az 2 karne, tez kartı kontrolü (tez_kartlari.md), değerleme bölgeleri (kendi 3 yıllık bandı + akran + ters DCF; ucuz/adil/pahalı fiyat aralığı), temel KARAR tablosu, her gün 2-3 yeni aday tam karneyle, adayların en zayıf 2 portföy hissesiyle kıyası, özet tablo. Ben olsam notları değerleme bölgesi ve tez durumuna dayanır, grafik seviyesine değil.
 - Key levels 10:30 görevi: seviye yok; "günün başlıkları" tweeti (takvim, vadeliler yönü, bilanço/veri beklentileri, kural 25 yorum) + takvim güncelleme + hazırlık/yayın görevleri.
 - Turlarda tweetten sonra portföy hisselerinde haber taraması (ta2 yerine).
 - Tweetlerde grafik/teknik görüş yok; görüş temel veriye dayanır.
