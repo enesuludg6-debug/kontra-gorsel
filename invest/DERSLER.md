@@ -59,6 +59,7 @@ O-007 skor ve bento 1.8 logoyu taşımıyor (17.11 21:55: isi ve siralama kodda 
 O-008 WebFetch "PROVENANCE_REQUIRED" cevapsız kalıyor: tekrar deneme, WebSearch ya da Chrome get_page_text.
 O-009 60 dk ara kuralı varken zinciri yayın saatine göre kur (perakende 16:31 → sonraki tur 17:35).
 O-010 Buffer'da sistem dışı gönderiler olabilir (Enes elle atıyor): tekrar kontrolünde onları da konu tekrarı sayarak bak.
+O-011 (18.11 00:24, Enes) Bilanço rakam tweeti CRWV formatından ASLA eksik çıkmaz (gelir, HBK, şirkete özgü 2-3 metrik, 'X. ÇEYREK TAHMİNİ' bölümü). Bülten açılamazsa ilk bakılacak yer Yahoo Finance canlı blogu (finance.yahoo.com/technology/live/...; aramada başlık 'Nvidia earnings live' gibi) ve CNBC; rakamlar orada dakikalar içinde çıkıyor. Bir satır tek kaynaktaysa o satır 2-3 dk içinde teyit edilip tam format atılır; formatı bozan 'yıllık büyüme' gibi yedek satır konmaz.
 
 ## Gözlemler (doğrulanmayı bekleyen, tarih + kanıt)
 - 17.11: Buffer metrikleri ~24 saat gecikmeli; aynı günün tweetleri ertesi sabah ölçülür.
