@@ -8,7 +8,7 @@ Son güncelleme: 17.11.2026 13:38 TSİ. Her tur ve görev sonunda güncellenir (
 
 ## Hesap
 - AKTIF: A (invest/AKTIF_HESAP.md). Görev mesajları HESAP=A ile başlar.
-- Oturum: session_01JKiyuk5Mhinmn4mL9usBPz (zincir + tek seferlik yayınlar). Sabit görevler bulut (persist_session false).
+- Chrome: 17.11 15:31 bagli (TradingView ve bulten sayfalari icin). Oturum: session_01JKiyuk5Mhinmn4mL9usBPz (zincir + tek seferlik yayınlar). Sabit görevler bulut (persist_session false).
 
 ## Portföy ve listeler
 - Portföy: DOCN RKLB SITM AXON CBRS VRT AVGO. NBIS YOK.
