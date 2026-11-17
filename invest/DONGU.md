@@ -316,3 +316,4 @@ Durdurmak için en alta `DURDUR` yazılı bir satır ekle (Enes ya da Claude, En
 - 01:20 (18.11) ENES: yeni sohbete geciyor -> HESAP_DEVRI.md basina SOHBET DEVRI bolumu + DURUM 'Bekleyen tek seferlik gorevler'.
 - 01:19 (18.11) ENES: 18-21 tweet siniri kaldirildi (D-003 iptal).
 - 01:21 (18.11) SOHBET DEVRİ: A2 aktif
+- 01:22 (18.11) ENES 'sen dur': bu sohbetteki (session_01JKiyuk5Mhinmn4mL9usBPz) 17 bekleyen gorevin hepsi devre disi. Yeni sohbet (A2) HESAP_DEVRI 'SOHBET DEVRI' ile zincirleri ve DURUM 'Bekleyen tek seferlik gorevler'i yeniden kuracak.
