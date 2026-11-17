@@ -21,9 +21,8 @@
    "aciklama": "1 yil once bugun: ayda 2-3, aralari en az 7 gun (22e)"
   },
   "karisim_onerisi": {
-   "baslangic": "2026-11-17",
-   "baslangic_gun": 21,
-   "aciklama": "Pazar 21:30 raporunda 'onerilen karisim' tablosu: 3 haftalik veri dolunca (22a)"
+   "min_gun": 21,
+   "aciklama": "Icerik karisimi onerisi (22a): 3 haftada bir, Pazar 21:30 performans raporunda; ilki 17.11 (Enes istegiyle erken). Sonraki tarih: periyot.py kontrol karisim_onerisi"
   },
   "karne": {
    "aciklama": "Temel karne sayaci: her karne yazilinca 'yap karne <hisse>'"
@@ -120,6 +119,12 @@
    {
     "t": "2026-11-17 16:31",
     "not": "perakende tweeti"
+   }
+  ],
+  "karisim_onerisi": [
+   {
+    "t": "2026-11-17 17:20",
+    "not": "#1 erken, 124 tweet (15-17.11), dusuk guven"
    }
   ]
  }

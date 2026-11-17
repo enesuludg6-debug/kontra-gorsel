@@ -25,3 +25,19 @@ Türler: VADELI, 13F, BILANCO-RAKAM, BILANCO-ANALIZ, BILANCO-ONIZLEME, ANALIST, 
 ## Haftalık raporlar
 (Pazar 21:30'da eklenir: türe göre ortalama, en iyi/en kötü 5, saat dilimi, düzen, önerilen karışım.)
 | 17.11 | 16:31 | MAKRO-SONUC | Ekim perakende satislari | editoryal | 6afc5731686bdd2a3c12d718 |
+
+### KARIŞIM ÖNERİSİ #1 (17.11 17:20, Enes isteğiyle erken; veri 15.11-17.11 09:00, ölçülen 124 tweet; Buffer metrikleri ~24 saat gecikmeli; GÜVEN DÜŞÜK)
+Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük; en yüksekler görüş/duruş içerenler (YTD paylaşımı 3290, RKLB grafik görüşü 1475, NBIS 1466, "tepeden almanızı" 1225, portföy güncellemesi 1223). Düz haber/bilanço medyanı ~340-370. 13F (ER %1,4) ve eğitici (ER %1,2) en düşük etkileşim. 16.11'de 78 tweet atıldı: adet arttıkça tweet başı görüntülenme artmadı. Saat (TSİ, ort. görüntülenme): 09-12 350, 12-15 633, 15-18 470, 18-21 385 (en kalabalık 36 tweet, en düşük), 21-24 602, 00-03 530.
+Önerilen günlük karışım (toplam 12-15):
+| Tür | Günlük | En iyi dilim |
+|---|---|---|
+| Görüşlü hisse/tema analizi (bağlam + görüş, kural 25) | 4-5 | 12-15, 21-24 |
+| Bilanço (büyük isimlerde rakam + 15 dk sonra yorumlu analiz) | 2-4 (bilanço günü) | açıklama anı |
+| Son dakika (2 kaynak + yorum) | 1-2 | anında |
+| Piyasa: sabah vadeli + key levels + kapanış | 3 | 09, 10:30, 00:05 |
+| Makro veri (tek yorumlu tweet) | veri günü 1 | açıklama anı |
+| Analist notu (yorumlu) | 0-1 | 12-15 |
+| 13F (sezonda) | en çok 2 | 12-15 / 21-24 |
+| Eğitici | haftada 3 (alt sınır), ölçülecek | 21-24 |
+- 18-21 dilimini seyrelt (en çok 2). Durum: ÖNERİ, Enes "onay" yazınca DURUM.md "İçerik karışımı" ve skill'e işlenir.
+- Sonraki öneri: 3 hafta sonra (periyot.py; ~08.12, ilk Pazar raporu 13.12).
