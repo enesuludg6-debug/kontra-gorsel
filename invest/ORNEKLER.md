@@ -114,3 +114,6 @@ KURAL: Bu tarz tweetler Enes'in EN SEVDİĞİ türlerden. Büyük bir olayda (CE
 ## 19. 13F SERİSİ — her yatırımcı için ayrı görüşlü tweet (Enes 17.11 02:31; kural DEVIR_TAM 10)
 Kalıp: [kişi/fon + 13F, çeyrek] -> [en dikkat çekici hareket: yeni/çıkış/büyük artırma-azaltma, rakamla] -> [diğer 1-3 hareket kısa] -> [görüş: neden yapmış olabilir, kişinin tarzı ve piyasa bağlamıyla bağ] -> [gerekirse 13F sınırı: 45 gün gecikme, sadece uzun ABD pozisyonları].
 Örnek iskelet (rakamlar uydurma değil, her seferinde EDGAR + 1 kaynak): "Michael Burry'nin fonu Scion 3. çeyrekte portföyünü baştan kurmuş. ... yeni girdiği en büyük pozisyon $X ... tamamen çıktığı ... Burry'nin geçmişte de kalabalık temalardan erken çıkıp ucuz, sevilmeyen şirketlere geçtiğini düşünürsek bu hamle ..."
+
+## 20. Enes 17.11 14:15 — şirket bülteni + bağlam (NVDA ihracat komitesi)
+Kalıp: [şirket ne kurdu/açıkladı, tek cümle] → [yapının ayrıntısı: kime bağlı, kaç kişi, ne sıklıkla] → [neden şimdi: arkadaki soruşturma/olay, 2 kaynakla] → [görüş: neyi değiştirir, neyi değiştirmez, bu gece neye bakılmalı]. Kaynak şirket bülteni + 1 haber; özel hayat detayı yok.
