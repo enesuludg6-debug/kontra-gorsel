@@ -45,3 +45,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 17.11 | 19:32 | 13F | 13F Greenlight Einhorn | dortlu | 6afc8184104bf3e624906e5f |
 | 17.11 | 21:07 | BAGLAM-GORUS | NVDA bilanco oncesi satis | ilerleme | 6afc97e032ea84693c3376ba |
 | 17.11 | 22:16 | YARIN-NE-VAR | TGT, FOMC tutanaklari, PANW | takvim | 6afca8229c73f3089bb12fe8 |
+| 17.11 | 22:41 | EGITICI | Ileri F/K nasil okunur | editoryal | 6afcadf6ad43efddcc54c27a |
