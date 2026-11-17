@@ -23,13 +23,13 @@ m = re.search(r"KALAN TWEET HAKKI = (\d+)", s)
 if m and x.hak != "yok":
     kalan = max(0, int(m.group(1)) - 1)
     s = s.replace(m.group(0), f"KALAN TWEET HAKKI = {kalan}", 1)
-    s = re.sub(r"(- KULLANILAN \([^)]*\): )(.*)", lambda q: q.group(1) + (q.group(2).rstrip("-").rstrip() + ", " if q.group(2).strip() not in ("-", "") else "") + f"{x.saat} {x.konu}" + (f" ({x.hak})" if x.hak in ("serbest", "ayrilan") else ""), s, 1)
+    s = re.sub(r"(- KULLANILAN \([^)]*\): )(.*)", lambda q: q.group(1) + (q.group(2).rstrip("-").rstrip() + ", " if q.group(2).strip() not in ("-", "") else "") + f"{x.saat} {x.konu}" + (f" ({x.hak})" if x.hak in ("serbest", "ayrilan") else ""), s, count=1)
 m3 = re.search(r"Son 3 düzen: ([^.]*)\.", s)
 if m3:
     eski = [p.strip() for p in m3.group(1).split(",")]
     yeni = (eski + [f"{x.duzen} ({x.konu[:20]})"])[-3:]
     s = s.replace(m3.group(0), "Son 3 düzen: " + ", ".join(yeni) + ".", 1)
-s = re.sub(r"Son güncelleme: [^T]*TSİ", f"Son güncelleme: {bugun.strftime('%d.%m.%Y %H:%M')} TSİ", s, 1)
+s = re.sub(r"Son güncelleme: [^T]*TSİ", f"Son güncelleme: {bugun.strftime('%d.%m.%Y %H:%M')} TSİ", s, count=1)
 open("DURUM.md", "w", encoding="utf-8").write(s)
 son3 = ", ".join(p.split(" (")[0] for p in (yeni if m3 else []))
 satir = f"- {x.saat} ({gun}) AUTO ({x.tur}): {x.dosya} ({x.duzen}) - {x.dongu} Buffer {x.buffer}." + (f" hak: kalan {kalan}." if kalan is not None else "") + (f" Son 3 duzen: {son3}." if son3 else "")
@@ -39,9 +39,10 @@ open("performans_veri.csv", "a", encoding="utf-8").write(f"{iso},{x.saat},{x.kay
 if x.periyot:
     for p in x.periyot.split(";"): subprocess.run([sys.executable, "periyot.py", "yap", p, f"{x.saat} {x.konu}"], check=False)
 msg = x.mesaj or f"{x.saat} {x.tur} {x.konu}"
-sh = f'''git add -A && git commit -qm "{msg}
+cs = os.environ.get("CS")
+tam = msg + "\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>" + (f"\nClaude-Session: {cs}" if cs else "")
+r = subprocess.run(["git", "add", "-A"]); r = subprocess.run(["git", "commit", "-qm", tam])
+if r.returncode == 0:
+    subprocess.run(["git", "pull", "--rebase", "-q"]); r = subprocess.run(["git", "-c", "push.negotiate=true", "push", "-q", "origin", "main"])
 
-Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>
-" + (f"\nClaude-Session: {os.environ['CS']}" if os.environ.get("CS") else "") + "\"" && git pull --rebase -q && git -c push.negotiate=true push -q origin main'''
-r = subprocess.run(sh, shell=True)
 print(satir); print("PUSH", "OK" if r.returncode == 0 else "HATA")
