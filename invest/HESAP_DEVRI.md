@@ -1,3 +1,9 @@
+# >>> ENES İÇİN: YENİ HESAPTA SOHBETE YAPIŞTIRILACAK TEK MESAJ <<<
+```
+enesuludg6-debug/kontra-gorsel reposunu bu sohbete PUSH yetkisiyle eklemeni onaylıyorum (add_repo access=push), klonla. invest/HESAP_DEVRI.md dosyasını oku ve baştan sona uygula; bu hesabın etiketi B. Buffer ile otomatik paylaşımı, send_later zincirini ve sabit görevleri kurmanı onaylıyorum. Bana soru sorma, eksik bir şey varsa ne yapmam gerektiğini tek cümleyle söyle.
+```
+(Etiket her geçişte değişir: A → B → C ... ; A'ya dönüşte "bu hesabın etiketi A" yaz.)
+
 # HESAP DEVRİ — BAŞKA BİR CLAUDE HESABINDA SIFIRDAN KURULUM (kesin kural 17)
 
 Bu dosyayı okuyan oturum, Enes Uludağ'ın X hesabı (@enes1050392, EnesInvestUS) için çalışan otomatik içerik sistemini, Enes'in kendi hesabındaki (A) skill'ler ve tercihler OLMADAN, başka bir Claude hesabında (B) eksiksiz kurar. Her şey bu repoda: kurallar, skill'ler, kart kodu, analiz aracı, kayıtlar.
@@ -40,17 +46,17 @@ h) Saat: `mcp__claude_ai__current_time` ya da `date`; Türkiye saatiyle (TSİ, U
 - Kural değişirse hem skill (improvement) hem `invest/skills/` kopyası güncellenir.
 
 ## 5. Okuma
-Devir anında BİR KEZ: `invest/DEVIR_TAM.md` (en üst v8 özeti + KESİN KURALLAR 1-27 + bölümler), `DEVIR_OZET.md`, `ORNEKLER.md`, `DONGU.md` (son 60 satır: son 3 düzen, 13F sırası, bekleyenler, son TEKNIK seviyeleri), `takvim.md`, `performans.md`, `temel_karne.md`, `AKTIF_HESAP.md`, `gundem.md`, `DURUM.md`, `HATA_GUNLUGU.md`, `DERSLER.md` (kural 26), `periyot.json` (kural 24).
+Devir anında BİR KEZ: `invest/DEVIR_TAM.md` (en üst v8 özeti + KESİN KURALLAR 1-28 + bölümler), `DEVIR_OZET.md`, `ORNEKLER.md`, `DONGU.md` (son 60 satır: son 3 düzen, 13F sırası, bekleyenler, son TEKNIK seviyeleri), `takvim.md`, `performans.md`, `temel_karne.md`, `AKTIF_HESAP.md`, `gundem.md`, `DURUM.md`, `HATA_GUNLUGU.md`, `DERSLER.md` (kural 26), `periyot.json` (kural 24).
 Sonraki her tur ve görevde (kural 18, tasarruf): yalnız skill + `DURUM.md` + `tail -n 30 DONGU.md` (+ takvim.md). Zincir mesajı DEVIR_TAM kural 18'deki KISA ŞABLON.
 
 ## 6. Görevleri kur (HESAP=B, CRON_TZ=Europe/Istanbul, mesajlar bağımsız ve tam)
 Önce `list_triggers`: bu hesapta aynı adlı eski görev varsa sil/kapat.
 Tekrarlayan (create_trigger, cron):
-1. "Sabah kontrolü" her gün 08:55: kilit, DURDUR, zincir canlı mı (değilse kur), takvim.md güncelle, performans.md'ye önceki günün metrikleri.
+1. "Sabah kontrolü" her gün 08:55: kilit, DURDUR, zincir canlı mı (değilse kur), takvim.md güncelle, performans.md'ye önceki günün metrikleri + performans_veri.csv metrikleri + `python3 invest/ders_analiz.py --gun 7` ile DERSLER.md gözlemi (kural 26).
 2. "Key levels + başlıklar" hafta içi 10:25 (kesin kural 13, enes-tweet-turu bölüm 9).
 3. "Teknik kontrol (açılış +30 dk)" hafta içi 17:55 ve 4. "Teknik kontrol (kapanış -30 dk)" hafta içi 23:25 (enes-portfoy-analiz; Nasdaq 100 ilk mesaj; tatil/yarım gün kuralı).
 5. "Haftalık bilanço takvimi" Pazar 19:55 (kural 16 + 20 + 18: takvim.md + "gelecek hafta" TWEETİ + DONGU'da 7 günden eski satırları invest/arsiv/'e taşıma).
-6. "Haftalık performans raporu" Pazar 21:25 (kural 14).
+6. "Haftalık performans raporu" Pazar 21:25 (kural 14 + 26: ders_analiz.py, dersleri güncelle, Enes'e "bu hafta öğrendiklerim"; periyot.py karisim_onerisi UYGUN ise karışım önerisi).
 7. "13F serisi başlangıcı" 15 Şubat, 16 Mayıs, 15 Ağustos, 15 Kasım 09:05 (kural 10).
 8. "Haftalık özet" Cumartesi 10:55 (kural 19).
 9. "Ayın özeti + mevsimsellik" her ayın 1-7'si 10:55; ilk ABD işlem günü ayın özeti, ikinci işlem günü mevsimsellik (kural 21, 22o).
@@ -69,6 +75,15 @@ SORUN: görev "bilgisayar gerekiyor / onay bekliyor" derse Enes'e: "Telefonda/uy
 - DURUM.md en üstte o güne özel kural (ör. günlük tweet hakkı sayacı) varsa aynen devam edilir; sayaç sıfırlanmaz.
 - Chrome B hesabına bağlıysa (list_connected_browsers) 18:00/23:30 teknik kontrollerden sonra TradingView teyidi bu oturumdan tek seferlik görevle yapılır (sabit cron görevleri bulutta Chrome'suz çalışır). Bağlı değilse Yahoo ile devam, sorun değil.
 - A'ya dönüşte: A'nın sabit görevleri kilidi (AKTIF: B) gördükleri gün kendilerini kapatmış olabilir. A'daki oturum `list_triggers` ile bakar, kapalı olanları `update_trigger enabled=true` ile açar, zinciri yeniden kurar.
+
+## 6c. Bu hesapta ilk iş kontrol listesi (17.11 17:50 itibarıyla sistemdeki her şey)
+- Kurallar: DEVIR_TAM kesin kural 1-28 (13 key levels, 14-16 performans/sabit görev/hız, 17 hesap kilidi, 18-21 tasarruf/özetler/düzeltme, 22-23 içerikler/yalnız doğrular, 24 periyot defteri, 25 haber+yorum, 26 ders sistemi, 27 ekran görüntüsünü Claude alır, 28 kredi tasarrufu).
+- Dosyalar: DURUM.md, DONGU.md, DERSLER.md, periyot.json, performans_veri.csv, sablonlar.md, makro_sozluk.md, takvim.md, gundem.md, temel_karne.md, HATA_GUNLUGU.md.
+- Araçlar: kart2.py, ta2.py, periyot.py, ders_analiz.py, tur_basi.sh (`bash invest/tur_basi.sh B`), yayinla_gorsel.sh, kayit.py (`CS=<bu oturumun linki> python3 invest/kayit.py ...`).
+- Skill'ler: invest/skills/ altındaki 3 dosya bütün bu kuralları içerir (bölüm 13-15 dahil); propose_skills ile bu hesaba kaydettir.
+- Chrome bu hesapla bağlıysa: 18:00/23:30 sabit kontrolden sonra bu oturumdan "TradingView teyidi" tek seferlik görevleri kur (kural 27: ekran görüntüleri Claude'dan, SendUserFile). Bağlı değilse talimat satırıyla devam.
+- O güne özel kural (DURUM.md en üst, ör. tweet hakkı sayacı) aynen devam; sayaç sıfırlanmaz.
+- Zincir mesajlarında HESAP=B ve `bash invest/tur_basi.sh B`.
 
 ## 7. Enes'e başlangıç mesajı (tek mesaj)
 "Devraldım (B hesabı). Kontroller: Buffer ✓/✗ (EnesInvestUS doğrulandı), repo/push ✓/✗, kart ✓/✗, Yahoo ✓/✗, zamanlayıcı ✓/✗, TradingView ✓/✗ (yoksa Yahoo). Hesap kilidi B'ye çevrildi, eski hesabın görevleri kendini kapatacak. Kurulan görevler: ... İlk tur başladı. Senden beklenen: [varsa tek cümle] + çıkan 3 skill kartını kaydet."
