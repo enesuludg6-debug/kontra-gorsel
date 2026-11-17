@@ -88,6 +88,12 @@
   "13f_ozet": {
    "min_gun": 60,
    "aciklama": "13F ceyrek ozeti, seri bitince bir kez (22i)"
+  },
+  "uzun_gorus": {
+   "haftalik_min": 2,
+   "haftalik_max": 3,
+   "min_gun": 2,
+   "aciklama": "Uzun görüş yazısı (kural 32): haftada 2-3, aralarında en az 2 gün"
   }
  },
  "kayit": {

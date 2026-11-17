@@ -192,3 +192,25 @@ $[TICKER] [tarih]'den itibaren S&P 500'e giriyor. [Ne demek: endeks fonları al�
 ```
 [Etkinlik] [tarih] [saat] TSİ'de başlıyor. Beklenenler [1-3 madde cümle içinde]. [Tek cümle görüş.]
 ```
+
+## 20. Uzun görüş yazısı (UZUN-GORUS, kural 32, ORNEKLER 21)
+```
+GÜNCELLENMİŞ $TICKER DÜŞÜNCELERİM
+
+[Dürüst giriş: son aylarda ne değişti, duyarlılık neden döndü.]
+
+[Piyasanın endişesi: somut sebepler + rakamlar (2 kaynak); hangileri haklı.]
+
+[İyi giden taraf: marj/sözleşme/müşteri/nakit rakamları (2 kaynak).]
+
+[Ürün ve ekosistem: şirketi rakiplerinden ayıran şey.]
+
+[Takaslar ve riskler.]
+
+[Uzun vade ile zamanlama ayrımı.]
+
+[Yönetimin göstermesi gerekenler, ölçülebilir.]
+
+[Net sonuç: uzun vadeli görüş + bundan sonra neye bakacağımız.]
+```
+Kart: editoryal ya da panel. Tür UZUN-GORUS.
