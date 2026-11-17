@@ -103,7 +103,7 @@ Kural 22 (17.11 14:40): radar hf 14:20 trig_016SbofaS65yjLJA3vxEJFJn | sektör C
 - 18.11 11:15 "Otomatik paylaşım turu" (kural 42)
 - 18.11 17:45 "Beklenen hareket: NVDA" (opsiyon ±%8,5 vs açılıştaki gerçek hareket; 15 dk içinde bitir)
 - 18.11 18:00 "Sabit: temel analiz 18:00" (zincir)
-- 18.11 19:20 "Çağrı: TGT" (kural 40; görüşme tweetleri ayrı ayrı, 18-21 dilimine düşeni 21:00 sonrasına)
+- 18.11 19:20 "Çağrı: TGT" (kural 40; görüşme tweetleri ayrı ayrı, aralık serbest)
 - 18.11 ~14:30 TGT bilanço rakam yayını + hazırlık (13:30) + analiz + "Detay: TGT" (kural 41, beklemeden) — 11:00 görevi kurar
 - 19.11 ~00:05 PANW bilanço yayını + hazırlık + analiz + "Detay: PANW"; 19.11 sabah "Çağrı: PANW"
 - İPTAL: Detay/Çağrı NVDA (Enes kendisi attı), teknik1800/teknik2330 (kural 37)
