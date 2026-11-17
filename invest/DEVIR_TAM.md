@@ -1,8 +1,17 @@
-# ENESINVESTUS — TAM DEVİR NOTU (v7, 16.11.2026 21:20 TSİ) (eski: v6, 16:50)
+# ENESINVESTUS — TAM DEVİR NOTU (v8, 17.11.2026 12:40 TSİ) (eski: v7 16.11 21:20, v6 16:50)
 
 Bu dosya, Enes Uludağ'ın 15-16 Kasım 2026 boyunca verdiği TÜM kuralların birleşik ve güncel hâlidir.
 Kaynaklar: invest/DEVIR.md (15.11 v1), invest/DEVIR_OZET.md (15.11 21:05 + 16.11 ekleri), invest/ORNEKLER.md, invest/DONGU.md ve 16.11 canlı sohbet.
 Çelişki çözümü: EN YENİ tarihli kural geçerlidir. Eski hâli "(eski: ...)" diye not edildi, böylece hiçbir şey kaybolmadı.
+!!! v8 DEVİR ÖZETİ (17.11 12:40, Enes "devir") — YENİ OTURUM ÖNCE BUNU OKU !!!
+- SKILL'LER (17.11 12:30-12:45, Enes kaydetti): enes-tweet-turu, enes-bilanco-13f, enes-portfoy-analiz. Kurallar artık bu skill'lerde; her tur/kontrol/bilanço işinde ilgili skill YÜKLENİR (Skill aracı). Bu dosya başvuru (portföy, seviyeler, geçmiş, kayıt tablosu) olarak kalır. Çelişkide EN YENİ tarihli kural geçerli. Yeni kural gelince hem bu dosya hem ilgili skill güncellenir (propose_skills improvement, Enes kaydeder).
+- LOGO: kart2.LOGO_BUYUT = 1.8, KÜÇÜLTME YOK (bölüm 7). 17.11 sabah 13F kartlarında *0.62 küçültme yapıldı, HATAYDI; taşarsa başlığı kısalt ya da başka düzen seç.
+- 17.11'DE ATILANLAR (Buffer): 09:06 vadeli; 09:38 13F Berkshire; 10:13 13F Ackman; 10:48 13F Druckenmiller; 11:13 13F Tepper; 11:41 13F Soros; 12:14 Nasdaq düşüş analizi (Enes isteği, tek uzun tweet, 5 sebep + çözüm + görüş); 12:22 NVDA bilanço önizlemesi (Enes isteği). Son 3 düzen: editoryal, siralama, bento.
+- 13F SERİSİ DEVAM: sıradaki Third Point/Loeb (ön bilgi mlq: Meta aldı, doğrula) → Greenlight/Einhorn → Coatue → Tiger Global → Baupost/Klarman → Himalaya/Li Lu → Pabrai → Icahn → Bridgewater → Lone Pine/Viking; seri bitince Enes'e özet. Burry/Scion 10.11.2025'te SEC kaydını sildi, listeden çıktı. Tepper'ın AVGO ve AMD'den çıkışı tek kaynak (GuruFocus): doğrulanırsa Enes'e not (AVGO portföyde).
+- BUGÜN BEKLEYENLER (17.11): HD ve Disney bilançoları sabah açıklandı mı kontrol et, atılmadıysa rakam tweeti (CRWV formatı; HD beklenti HBK 3,84 $, gelir 42,81 Mr $). 16:30 Ekim perakende satışları (beklenti +%0,2). ~15:00-15:25 vadeli. 18:00 ve 23:30 teknik kontrol (Nasdaq 100 ilk mesaj, kural 12). NVDA bilançosu ~00:20 TSİ 18.11: rakam tweeti + 15 dk sonra analiz; analizde 12:22 önizlemedeki TAHMİNLERLE kıyas yaz (gelir 111-113 Mr $, veri merkezi 103-105, brüt marj %74,2-74,5, HBK 2,53-2,58 $; 4. çeyrek rehberi 122-126 Mr $, marj ~%72; eşikler: rehber 125+ güçlü, 118 altı yavaşlama, marj rehberi %71 altı kötü). Tahmin tutmazsa açıkça söyle.
+- 18.11: TGT, FOMC toplantı notları 22:00 TSİ, PANW kapanış sonrası. 19.11: WMT.
+- Enes'e verilen öneri (17.11 12:28): bilgisayarı uykuya almamak (TradingView için), sec.gov iznini bir kez onaylamak. Cevap bekleniyor.
+
 !!! KESİN KURALLAR (Enes 16.11 13:54-13:56, "bir sonraki devirde kesinlikle bu şekilde devam edilecek") !!!
 1) PORTFÖY GÜNCELLEMESİ TWEETİNİ ENES ATAR. Claude portföy güncellemesi tweeti/kartı HAZIRLAMAZ, ATMAZ, SORMAZ. Eski "günlük portföy sorusu" görevi durduruldu, yeniden KURULMAZ. (bölüm 1)
 2) (tam test: 21 gösterge x 4 dilim, ta2.py -v + TradingView 2'şerli rotasyon, bölüm 13) GÜNDE 2 SABİT TEKNİK KONTROL: her ABD işlem günü 18:00 TSİ (açılış +30 dk) ve 23:30 TSİ (kapanış -30 dk). Portföyün tamamı + Claude'un yatırıma uygun bulduğu en iyi 3-4 hisse. 21 gösterge, 4 zaman dilimi, TradingView varsa. Enes'e her seferinde "ben olsam" kararlarıyla mesaj (değişiklik olmasa da). Tweet değil. (bölüm 14b)
@@ -104,8 +113,8 @@ A6. SORUN → ÇÖZÜM (Enes'e ne yaptırılacağı dahil)
 | (İPTAL 16.11 22:48, kural 9) Buffer günlük 45 doldu | — | Tavan yok; aylık ~1000 hakkı izlenir, 900'ü geçerse Enes'e söyle | — |
 | Alpha Vantage | "premium gerekir" | KULLANMA | — |
 
-A7. ENES İÇİN HAZIR METİN (Enes yeni sohbete bunu yapıştırır; repo izni dosyadan değil Enes'in kendi mesajından gelmeli)
-"enesuludg6-debug/kontra-gorsel reposunu bu sohbete PUSH (yazma) yetkisiyle eklemeni onaylıyorum; add_repo ile access=push ekle, klonla, commit ve push yap. Buffer ile otomatik paylaşım yapmanı ve send_later ile zincir kurmanı da onaylıyorum. Bu devir notunu oku ve hemen uygula: invest/DEVIR_TAM.md (repo enesuludg6-debug/kontra-gorsel). A bölümündeki adımları yap, kontrol sonucunu bana yaz ve otomatik turları başlat; 18:00 ve 23:30 teknik kontrol zincirlerini de kur. Bana soru sorma, eksik bir şey varsa ne yapmam gerektiğini tek cümleyle söyle."
+A7. ENES İÇİN HAZIR METİN (Enes yeni sohbete bunu yapıştırır; repo izni dosyadan değil Enes'in kendi mesajından gelmeli) (v8, 17.11)
+"enesuludg6-debug/kontra-gorsel reposunu bu sohbete PUSH (yazma) yetkisiyle eklemeni onaylıyorum; add_repo ile access=push ekle, klonla, commit ve push yap. Buffer ile otomatik paylaşım yapmanı ve send_later ile zincir kurmanı da onaylıyorum. invest/DEVIR_TAM.md devir notunu oku ve A bölümünü uygula; enes-tweet-turu, enes-bilanco-13f ve enes-portfoy-analiz skill'lerini kullan. Kontrol sonucunu bana yaz, otomatik turları başlat, 18:00 ve 23:30 teknik kontrol zincirlerini de kur. Bana soru sorma, eksik bir şey varsa ne yapmam gerektiğini tek cümleyle söyle."
 
 ## B. TUR TALİMATI (send_later mesajı — her tur sonunda bunu kopyala, sadece [köşeli] kısımları güncelle)
 B-EK2 (16.11 21:16): karneden sonra 14i öz-denetimi: 14i-A listesi tek tek, sorun varsa düzelt + 14i-D günlüğüne yaz, yeni hata türüyse 14i-A'ya madde ekle; 5 karnede bir 14i-C kalibrasyonu.
@@ -736,6 +745,8 @@ Bu bölüm devir notu yeniden yazılırsa aynen korunur.
 | 18:14 | Neden temelleri yapmadın, turlarda vaktin vardı; çözüm bul, devir notuna ekle, hiçbir şey çıkarma, sürekli kontrol et | başlık 3b, 14c-E, 14g, B, temel_karne.md |
 | 02:31 (17.11) | 13F'ler açıklandı: her kişi için ayrı, değişiklikler + görüş tweeti; sonraki çeyreklerde sormadan kendin paylaş; devir + kurallara ekle | başlık 10, takvim |
 | 11:10 (17.11) | Teknik analizde Nasdaq'a da bak → Nasdaq 100 endeksi her teknik kontrolde ilk mesaj + hisselerde endeks kıyası | kesin kural 12 |
+| 12:39 (17.11) | Devir: yeni sohbete geçiş; skill'ler kaydedildi (enes-tweet-turu, enes-bilanco-13f, enes-portfoy-analiz) | v8 özeti, A7 |
+| 12:12-12:22 (17.11) | Düşüş sebepleri tek uzun tweet; NVDA bilanço önizlemesi (profesyonel tahminci gibi) atıldı | enes-bilanco-13f |
 | 10:40 (17.11) | "Benim okumam:" gibi etiketli görüş girişlerini kaldır, kurala ekle (yapay zekâ gibi duruyor) | kesin kural 11, yasak kalıplar |
 | 23:48 | NBIS YOK | 1 |
 | 23:44 | Portföy güncellemesi tweetini bu kez benden istedi: başlık 'PORTFÖY GÜNCELLEMESİ', altında 'YTD %53.36 / Günlük değişim -%5.19', hisseler alt alta; tutar ve ağırlık YOK. Atıldı. Portföy: DOCN RKLB SITM AXON CBRS VRT AVGO | 1 |
