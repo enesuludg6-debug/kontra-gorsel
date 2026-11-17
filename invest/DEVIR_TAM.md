@@ -48,6 +48,11 @@ Kaynaklar: invest/DEVIR.md (15.11 v1), invest/DEVIR_OZET.md (15.11 21:05 + 16.11
  r) İLGİ LİSTESİ GENİŞLEDİ: ON AAOI HOOD TEM CRDO PLTR ISRG ASTS MU + yeni adaylar ANET ALAB MRVL COHR LITE ETN GEV CRWD NET DDOG APP RBRK PL LUNR. Yeni adayların temel karnesi (/50) turlarda zaman kaldıkça (günde 1-2) çıkarılır; 30 altı listeden çıkar. Güncel liste DURUM.md "İlgi listesi" bölümünde.
  Sabit görev ID'leri bölüm 16-G ve DURUM.md'de.
 
+!!! KESİN KURAL 24 (Enes 17.11 16:33, "her pazar, üç haftada bir dediklerimizi sohbet değişince diğer sohbet nasıl anlayacak, düzelt"): PERİYOT DEFTERİ !!!
+- invest/periyot.json + invest/periyot.py. Haftada/ayda/N günde bir, "günde en çok N", "haftada 3-5", "ayın ilk Pazarı", "3 haftalık veri olunca", "her 5 karnede bir", "sözlük cümlesi 2 hafta tekrar yok" gibi her kural defterden kontrol edilir; hafızadan ya da DONGU'dan (7 günde arşivlenir) değil.
+- Her tur/görev başında `python3 periyot.py durum`; iş yapılınca `python3 periyot.py yap <anahtar> "<not>"` + push. Yeni periyodik kural: `periyot.py ekle`. Ayrıntı: skills/enes-tweet-turu.md bölüm 13.
+- Sabit cron görevleri hesaba bağlıdır, sohbet değişince silinmez ve saatleri doğru çalışır; yalnız oturuma bağlı send_later zinciri devirde yeniden kurulur.
+
 !!! KESİN KURAL 23 (Enes 17.11 14:35): YALNIZ DOĞRU ÇIKANLAR. Enes: "yanıldıklarımızı paylaşma, sadece bildiklerimizden bahsedilecek." Eski "yanılınca açıkça söyle (şunu demiştim, olmadı)" kuralı KALDIRILDI. Tutmayan tahmin, beklenti ya da "ben olsam" notundan tweette bahsedilmez; tutan tahmin bağlama uyuyorsa söylenebilir. Önizleme tahminleri DONGU'ya iç kayıt olarak yine yazılır. AYRI KONU: atılmış tweetteki yanlış RAKAM/BİLGİ için kural 21 DÜZELTME aynen geçerli (Enes'in 13:28 isteği).
 
 !!! KESİN KURAL 17 — HESAP KİLİDİ VE HESAP DEVRİ (17.11 13:11, Enes: "hakkım bitince arkadaşımın hesabından devam edeceğim, orada skill vs hiçbir şey yok; tek seferde kopyalayabileceğim bir şey yaz, aynılarını yapsın, olası bütün sorunları düşün") !!!

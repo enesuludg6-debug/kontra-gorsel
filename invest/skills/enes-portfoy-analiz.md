@@ -63,3 +63,5 @@ D) Portföyle karşılaştırma: portföydeki 7 hisse aynı kartla; aday en zay�
 - İlgi listesi genişledi: ON AAOI HOOD TEM CRDO PLTR ISRG ASTS MU + ANET ALAB MRVL COHR LITE ETN GEV CRWD NET DDOG APP RBRK PL LUNR. Yeni adayların karnesi turlarda günde 1-2; 30/50 altı listeden çıkar (DURUM.md "İlgi listesi").
 - Analist hedef özeti (ayın ilk Pazarı 12:25) ve değerleme bandı (ayın ikinci Pazarı 12:25) sabit görevi: portföy + ilgi listesi + adaylar; Enes'e not, en çarpıcısı tweet. Değerlemede "ucuz/pahalı" değil "kendi geçmişine göre yüksek/düşük".
 - "Ben olsam" notlarında eski tahminin tutmadığı tweete taşınmaz (kural 23); Enes'e özel notta durum dürüstçe yazılır.
+
+- PERİYOT DEFTERİ (kural 24): karne, kalibrasyon (her 5 karnede bir), analist özeti (ayın 1. Pazarı) ve değerleme bandı (2. Pazar), Pazar karne sistemi özeti `python3 periyot.py kontrol <anahtar>` ile kontrol edilir, yapılınca `python3 periyot.py yap <anahtar>`. Hafızadan "bu ay yapılmış mıydı" tahmini yapılmaz.

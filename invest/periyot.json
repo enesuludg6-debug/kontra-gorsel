@@ -1,0 +1,126 @@
+{
+ "not": "Kesin kural 24. Elle duzenleme yerine periyot.py kullan. Tarihler TSI.",
+ "isler": {
+  "egitici": {
+   "haftalik_min": 3,
+   "haftalik_max": 5,
+   "aciklama": "Egitici tweet haftada 3-5 (tur menusu)"
+  },
+  "iceriden": {
+   "gunluk_max": 2,
+   "aciklama": "Iceriden alim tweeti gunde en cok 2"
+  },
+  "fed_tahvil": {
+   "gunluk_max": 1,
+   "aciklama": "FED-TAHVIL tweeti gunde en cok 1 (kural 22g)"
+  },
+  "bir_yil_once": {
+   "aylik_min": 2,
+   "aylik_max": 3,
+   "min_gun": 7,
+   "aciklama": "1 yil once bugun: ayda 2-3, aralari en az 7 gun (22e)"
+  },
+  "karisim_onerisi": {
+   "baslangic": "2026-11-17",
+   "baslangic_gun": 21,
+   "aciklama": "Pazar 21:30 raporunda 'onerilen karisim' tablosu: 3 haftalik veri dolunca (22a)"
+  },
+  "karne": {
+   "aciklama": "Temel karne sayaci: her karne yazilinca 'yap karne <hisse>'"
+  },
+  "kalibrasyon": {
+   "her_n": 5,
+   "sayac": "karne",
+   "son_sayac": 0,
+   "aciklama": "Karne kalibrasyonu her 5 karnede bir (+ her gun ilk tur)"
+  },
+  "analist_ozet": {
+   "ayin_pazari": 1,
+   "aciklama": "Analist hedef ozeti ayin ilk Pazari 12:25 (22k)"
+  },
+  "degerleme_bandi": {
+   "ayin_pazari": 2,
+   "aciklama": "Degerleme bandi ayin ikinci Pazari 12:25 (22m)"
+  },
+  "haftalik_ozet": {
+   "min_gun": 6,
+   "aciklama": "Haftalik ozet Cumartesi 11:00 (kural 19)"
+  },
+  "sektor_isi": {
+   "min_gun": 6,
+   "aciklama": "Sektor isi haritasi Cumartesi 13:25 (22f)"
+  },
+  "ilgi_siralama": {
+   "min_gun": 6,
+   "aciklama": "Ilgi listesi siralama Cumartesi 16:25 (22p)"
+  },
+  "gelecek_hafta": {
+   "min_gun": 6,
+   "aciklama": "Pazar 20:00 takvim + gelecek hafta tweeti (kural 20)"
+  },
+  "performans_raporu": {
+   "min_gun": 6,
+   "aciklama": "Pazar 21:30 performans raporu (kural 14)"
+  },
+  "karne_sistemi_ozet": {
+   "min_gun": 6,
+   "aciklama": "Pazar: Enes'e 'karne sisteminde bu hafta duzelttiklerim' (14i)"
+  },
+  "dongu_arsiv": {
+   "min_gun": 6,
+   "aciklama": "Pazar: DONGU 7 gunden eski satirlar arsive"
+  },
+  "ayin_ozeti": {
+   "aylik_max": 1,
+   "aciklama": "Ayin ozeti, ayin ilk ABD islem gunu (kural 21)"
+  },
+  "mevsimsellik": {
+   "aylik_max": 1,
+   "aciklama": "Mevsimsellik, ayin ikinci ABD islem gunu (22o)"
+  },
+  "sezon_karnesi_50": {
+   "min_gun": 60,
+   "aciklama": "Bilanco sezonu %50 esigi tweeti, sezonda bir kez (22h)"
+  },
+  "sezon_karnesi_90": {
+   "min_gun": 60,
+   "aciklama": "Bilanco sezonu %90 esigi tweeti, sezonda bir kez (22h)"
+  },
+  "13f_ozet": {
+   "min_gun": 60,
+   "aciklama": "13F ceyrek ozeti, seri bitince bir kez (22i)"
+  }
+ },
+ "kayit": {
+  "egitici": [
+   {
+    "t": "2026-11-16 21:59",
+    "not": "faiz (halka)"
+   }
+  ],
+  "karne": [
+   {
+    "t": "2026-11-16 21:20",
+    "not": "ECL"
+   },
+   {
+    "t": "2026-11-16 21:40",
+    "not": "TSM"
+   },
+   {
+    "t": "2026-11-16 22:05",
+    "not": "AVGO"
+   },
+   {
+    "t": "2026-11-16 22:35",
+    "not": "DOCN"
+   }
+  ],
+  "sozluk:Perakende satışlar-A": [
+   {
+    "t": "2026-11-17 16:31",
+    "not": "perakende tweeti"
+   }
+  ]
+ }
+}

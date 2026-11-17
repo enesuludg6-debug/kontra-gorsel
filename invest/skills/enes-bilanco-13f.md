@@ -77,3 +77,5 @@ $TICKER 3. ÇEYREK BİLANÇOSU
 - Bilanço sezonu karnesi: Pazar 14:25 sabit görev; raporlayan oran ilk kez %50 ve %90'ı geçince (SEZON-KARNESI, şablon 19).
 - 13F serisi bitince sonraki turda 13F-OZET (şablon 20): en az 3 yatırımcının ortak aldığı/sattığı hisseler.
 - Yalnız doğru çıkanlar (kural 23); yanlış rakamda kural 21 düzeltme.
+
+- PERİYOT DEFTERİ (kural 24): 13F çeyrek özeti, sezon karnesi eşikleri `python3 periyot.py kontrol 13f_ozet|sezon_karnesi_50|sezon_karnesi_90`; yapılınca `yap`.
