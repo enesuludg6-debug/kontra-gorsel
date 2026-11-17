@@ -53,3 +53,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 18.11 | 00:25 | BILANCO-RAKAM | NVDA 3. ceyrek tam format (Enes) | uclu | 6afcc632bbe886f1b5140175 |
 | 18.11 | 00:41 | BILANCO-ANALIZ | NVDA 3. ceyrek analiz | ilerleme | 6afcca0949939c25efa18bb2 |
 | 18.11 | 01:08 | DETAY | NVDA taahhutler | grafik2 | 6afcd043536cf08383ca8135 |
+| 18.11 | 01:31 | OPSIYON | TGT ve PANW bilanco oncesi opsiyon beklenen hareket | editoryal | 6afcd5d48e2194ed032b0fb1 |
