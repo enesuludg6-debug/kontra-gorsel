@@ -32,6 +32,12 @@ Kaynaklar: invest/DEVIR.md (15.11 v1), invest/DEVIR_OZET.md (15.11 21:05 + 16.11
    - 13F uyarısı gerekiyorsa etiketsiz düz cümle: "Tablo 30 Eylül itibarıyla, sonrasındaki işlemler dosyada yok."
    - Gönder öncesi kontrol: metinde "kelime(ler) + iki nokta" ile başlayan satır var mı? Varsa yeniden yaz (ticker listeleri ve portföy güncellemesi başlığı hariç).
 
+12) TEKNİK KONTROLDE NASDAQ ENDEKSİ DE ANALİZ EDİLİR (17.11 11:10, Enes: "yeni kural: TradingView teknik analizinde Nasdaq'ta bak" → seçim: "Nasdaq endeksini de ekle"). KESİN KURAL — 18:00 ve 23:30 teknik kontrollerinin HEPSİNDE:
+   - İLK mesaj Nasdaq 100: `python3 invest/ta2.py -v ^NDX` (21 gösterge x 4 dilim) + Chrome bağlıysa TradingView'da OKUYARAK teyit (sembol NASDAQ:NDX; açılmazsa QQQ ya da NQ1!). Aynı 3 parçalı format (kural 5f): ekran görüntüsü talimatı (TradingView'da NDX → dilim → kararı belirleyen 2 gösterge → görünecek bölge), tweet taslağı, düşüncelerim (endeks dibe yakın mı, destek/direnç bölgeleri, trend bozulma seviyesi).
+   - Sonra her hisse mesajında endeksle KIYAS: hisse endeksten güçlü mü zayıf mı (aynı dilimlerde yön, RSI, Supertrend, son 5 gün ve 1 ay % farkı), endeks desteğe gelirse hisse ne yapar. Yüksek betalı hisselerde (RKLB, CBRS, DOCN) endeks yönü ekleme kararına bağlanır.
+   - Özet + kıyas mesajına (14c-D) "Nasdaq durumu" satırı eklenir; endeks ana desteği kırmışsa kademe ekleme önerileri bir alt bölgeye kaydırılır ya da beklenir.
+   - Hisse sembolleri değişmez (DOCN, VRT: NYSE; CBRS önek yok; diğerleri NASDAQ).
+
 5) TEKNİK ANALİZ TWEETLERİ: her kontrolde bakılan HER hisse için ayrı görsel + ayrı tweet taslağı Enes'e gönderilir; Claude teknik analiz tweeti PAYLAŞMAZ (Enes paylaşır). Her kademe/stop/hedef seviyesinin nedeni (çakışan göstergeler ve dilimler) yazılır. (bölüm 14d, 14e)
 6) TWEET AKIŞI: her turda analist notu akışları (TheFly, StreetInsider, Investing, MarketBeat, TipRanks, Benzinga, Futu) + lansman/ortaklık kaynakları taranır; boş tur geçilmez, 09:00-01:00 her tur bir tweet hedefi (günde en çok 45). (bölüm 4)
 8) ZAMANLAMA: otomatik tweet 20-40 dk'da bir (rastgele); Enes'in yapıştırdığı tweet hemen atılır ama otomatik zincirin zamanlamasını etkilemez. (bölüm 2)
@@ -729,6 +735,7 @@ Bu bölüm devir notu yeniden yazılırsa aynen korunur.
 | 18:09 | Sırayla at: ekran görüntüsü, tweet, ekran görüntüsü, tweet (tek tek toplu değil) | başlık 5d |
 | 18:14 | Neden temelleri yapmadın, turlarda vaktin vardı; çözüm bul, devir notuna ekle, hiçbir şey çıkarma, sürekli kontrol et | başlık 3b, 14c-E, 14g, B, temel_karne.md |
 | 02:31 (17.11) | 13F'ler açıklandı: her kişi için ayrı, değişiklikler + görüş tweeti; sonraki çeyreklerde sormadan kendin paylaş; devir + kurallara ekle | başlık 10, takvim |
+| 11:10 (17.11) | Teknik analizde Nasdaq'a da bak → Nasdaq 100 endeksi her teknik kontrolde ilk mesaj + hisselerde endeks kıyası | kesin kural 12 |
 | 10:40 (17.11) | "Benim okumam:" gibi etiketli görüş girişlerini kaldır, kurala ekle (yapay zekâ gibi duruyor) | kesin kural 11, yasak kalıplar |
 | 23:48 | NBIS YOK | 1 |
 | 23:44 | Portföy güncellemesi tweetini bu kez benden istedi: başlık 'PORTFÖY GÜNCELLEMESİ', altında 'YTD %53.36 / Günlük değişim -%5.19', hisseler alt alta; tutar ve ağırlık YOK. Atıldı. Portföy: DOCN RKLB SITM AXON CBRS VRT AVGO | 1 |
