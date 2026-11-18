@@ -137,11 +137,11 @@
    "ne": "Günün ilk serbest turu (kural 42), sonraki turu kendisi kurar",
    "ticker": "",
    "tur": "tur",
-   "durum": "kuruldu",
-   "not": "",
+   "durum": "yapildi",
+   "not": "11:17 13F Coatue",
    "trigger": "trig_01B1n1AKy7aRNppmDzU9K7cz",
    "soz": "",
-   "guncelleme": "18.11 01:35"
+   "guncelleme": "18.11 12:05"
   },
   {
    "id": "NVDA-1118-cagri",
