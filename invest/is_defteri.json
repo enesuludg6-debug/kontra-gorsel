@@ -215,11 +215,11 @@
    "ne": "Kural 22n/39: opsiyon fiyatlaması vs açılıştaki gerçek hareket",
    "ticker": "NVDA",
    "tur": "bilanco",
-   "durum": "kuruldu",
-   "not": "17:45 -> 18:45 (NVDA 15:42 tweeti, 3 saat kurali)",
+   "durum": "yapildi",
+   "not": "18:46 Buffer 6afdc85c",
    "trigger": "trig_016oszWpELLVGSkXUrmV2LRE",
    "soz": "",
-   "guncelleme": "18.11 17:46"
+   "guncelleme": "18.11 18:46"
   },
   {
    "id": "TGT-1118-beklenen",
