@@ -32,7 +32,7 @@ if re.search(r"#\w", t): hata.append("hashtag")
 if re.search(r"https?://", t): hata.append("link")
 if re.search(r"[\U0001F300-\U0001FAFF\u2600-\u27BF]", t): hata.append("emoji")
 if t.rstrip().endswith("?"): hata.append("soruyla bitiyor")
-if re.search(r"\b(alın|satın|hemen al|sat(ın)?malı)\b", low): hata.append("al/sat dili")
+if re.search(r"\b(alın|satın alın|hemen al|satmalı|almalı|satın)\b(?! al)", low): hata.append("al/sat dili")
 if "anthropic" in low: hata.append("Anthropic adı")
 
 if hata:
