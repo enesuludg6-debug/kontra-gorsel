@@ -54,3 +54,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 18.11 | 00:41 | BILANCO-ANALIZ | NVDA 3. ceyrek analiz | ilerleme | 6afcca0949939c25efa18bb2 |
 | 18.11 | 01:08 | DETAY | NVDA taahhutler | grafik2 | 6afcd043536cf08383ca8135 |
 | 18.11 | 01:31 | OPSIYON | TGT ve PANW bilanco oncesi opsiyon beklenen hareket | editoryal | 6afcd5d48e2194ed032b0fb1 |
+| 18.11 | 11:02 | KEY-LEVELS | Gunun basliklari 18.11: NVDA sonrasi vadeliler, TGT, FOMC, PANW, WMT | takvim | 6afd5b93739d5342ff13f3ef |
