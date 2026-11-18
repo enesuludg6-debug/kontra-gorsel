@@ -97,7 +97,7 @@ Kural 22 (17.11 14:40): radar hf 14:20 trig_016SbofaS65yjLJA3vxEJFJn | sektör C
 18:00 trig_01LCT69YkpVZvjjW6ueTGftC | 23:30 trig_01Me3Zwdnufk6rkLKNmZ2YF5 | key levels 10:30 trig_01BGRz55RsS87Nko3XpCmXRE | takvim Pazar 20:00 trig_01XKuwGwLJwQbLzfPfbdjAX8 | performans Pazar 21:30 trig_017HiX433Vy7u15V1a6wfbec | sabah 09:00 trig_01C56vPfmWMnsPMFTV6wU6CM | 13F Şub/Ağu/Kas trig_01X4fnNMsC1i6wo8kXaMLqmf | 13F May trig_014UMzEahLeqQdKb27x5skDU | haftalık özet Cmt 11:00 trig_01LRGPzzrcF327Pqe67n55Qa | ayın özeti (ayın 1-7'si 10:55, ilk işlem günü kontrolü) trig_01X3YVaH2z1Yv7RyptTiUKok | Pazar 20:00 görevine 'gelecek hafta' tweeti + DONGU arşivi eklendi.
 
 ## Zincir
-- Otomatik tur zinciri: sıradaki trig_01PNdJDQspq6NdtP1rGwU5kv 19:35 (18:26 Nasdaq açılış + 18:27 RKLB atıldı); NVDA beklenen 18:45 trig_016oszWpELLVGSkXUrmV2LRE
+- Otomatik tur zinciri: sıradaki trig_01VjZTCRmEcd4GQ8fQe6X82v 20:50 (Lone Pine 13F hazır konu); 19:36 AXON atıldı
 - Bu oturumdaki tek seferlikler (HESAP=A): HD yayın 13:58, DIS yayın 14:38, perakende 15:40/16:28, NVDA 23:25/00:18.
 
 ## Bekleyen kararlar
