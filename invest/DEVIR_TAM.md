@@ -57,6 +57,7 @@ Kaynaklar: invest/DEVIR.md (15.11 v1), invest/DEVIR_OZET.md (15.11 21:05 + 16.11
 - ALAN DIŞI (tweet YOK): perakende ve tüketim (Target, Walmart, Lowe's, Home Depot, TJX, Costco, Nike...), banka/sigorta, ilaç/sağlık (ISRG/TEM gibi yapay zekâ bağlantısı güçlü olanlar hariç), sanayi/dağıtım, enerji/emtia (veri merkezi enerjisi hariç), konut, otomotiv (TSLA hariç), medya/eğlence. Enes açıkça isterse istisna.
 - 13F SERİSİ: yalnız fonun yapay zekâ/uzay/teknoloji hamleleri anlatılır; bu alanda anlamlı hamlesi olmayan fon atlanır (Baupost tipi). Kalan sıra: Lone Pine, Viking, Bridgewater (yalnız teknoloji hamleleri); Pabrai ve Icahn ATLANDI.
 - BİLANÇO TAKVİMİ: `isler.py bilanco` yalnız izinli alandaki şirketler için çalıştırılır; perakende bilançoları takvime "izlenmez" diye yazılır, görev kurulmaz.
+- İSTİSNA (Enes 18.11 17:16): Walmart (WMT) bilançosu 19.11 görevleri AYNEN kalır: "hepsi kalsın ayrıca makro anlamda da bir şeyler yaz çünkü bu bilanço makro anlamda da bir şeyler anlatır". WMT analiz ve detaylarında makro bölümü zorunlu: tüketicinin durumu (gelir grupları, harcama kalemleri), fiyat/enflasyon ve gümrük vergisi etkisi, bunun Fed ve faiz beklentisi ile Nasdaq/teknoloji için anlamı (2 kaynak).
 - Tur başında konu seçerken ilk kontrol: konu bu dört alandan biri mi? Değilse atma.
 
 !!! KESİN KURAL 11-B — YASAK KALIP TARAMASI ARAÇLA (Enes 18.11 14:55) !!!

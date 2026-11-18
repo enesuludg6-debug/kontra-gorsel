@@ -23,3 +23,4 @@
 - KURAL 11-B (Enes 18.11 14:55): her create_post'tan önce `python3 invest/yasak.py <<'EOF' metin EOF`; 'YASAK VAR' çıkarsa atma, düzelt, tekrar tara. 'Benim görüşüm:' / 'Not:' / paragraf başı 'X:' kesin yasak.
 
 - KURAL 46 (Enes 18.11 17:12): konu yalnız yapay zekâ / uzay / Nasdaq (+ Nasdaq'a etkisiyle makro). Perakende, tüketim, banka, sanayi, ilaç, konut vb. ATMA. 13F'te yalnız teknoloji hamleleri. Bilanço görevi yalnız izinli alandaki şirketlere kurulur.
+- WMT İSTİSNASI (Enes 18.11 17:16: "hepsi kalsın ayrıca makro anlamda da bir şeyler yaz"): 19.11 Walmart görevleri aynen; analiz (kural 45) ve detaylarda en az bir makro bölüm/tweet: tüketicinin gücü ve gelir grupları, fiyat/enflasyon ve gümrük vergisi, Fed ve faiz beklentisi, Nasdaq/teknoloji için anlamı (2 kaynak).
