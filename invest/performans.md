@@ -61,3 +61,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 18.11 | 12:07 | 13F | 13F Tiger Global Q3 2026: CBRS +%48, INTC +%30, NVDA +%7, DHR +%178; TSM -%36, META -%20 | siralama | 6afd6ad3d015b337f13f0f87 |
 | 18.11 | 12:41 | EGITICI | 13F nasil okunur: 45 gun gecikme, kapsam, baglam | zaman | 6afd72da085e629e46f362eb |
 | 18.11 | 13:12 | BAGLAM-GORUS | Nvidia sonrasi acilis oncesi: neocloud NBIS IREN CRWV +%6-8, AMD +%3 | isi | 6afd79f3e4de71c5c6d9b5c8 |
+| 18.11 | 13:57 | 13F | 13F Baupost Q3 2026: HONA ve SITE yeni, AXTA 2 kat, CME ekleme, GOOG azaltma, 4 cikis | dortlu | 6afd8483f4526871ade0df85 |
