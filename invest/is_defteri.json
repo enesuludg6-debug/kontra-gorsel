@@ -150,11 +150,11 @@
    "ne": "Kural 40: görüşme önemli yerleri, gece bilançosunda AYNI SABAH, her konu ayrı tweet",
    "ticker": "NVDA",
    "tur": "bilanco",
-   "durum": "kuruldu",
-   "not": "18.11 01:29 Enes: 01:10 iptali yalnız detaylar içindi, görüşme tweetleri İPTAL DEĞİL. 01:11'de yanlışlıkla kapatılmıştı.",
+   "durum": "yapildi",
+   "not": "11:42 GPU kiralari + 11:43 yonetim (2 tweet)",
    "trigger": "trig_01Nz3QBtTqzJrvPS8WGjqd6Q",
    "soz": "",
-   "guncelleme": "18.11 01:35"
+   "guncelleme": "18.11 11:43"
   },
   {
    "id": "TGT-1118-hazirlik",
