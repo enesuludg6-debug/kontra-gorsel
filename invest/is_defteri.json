@@ -408,11 +408,11 @@
    "ne": "Kural 16 + O-011: rakam tweeti tam CRWV formatı, 3-5 dk içinde; Yahoo canlı blog/CNBC yedek",
    "ticker": "P",
    "tur": "bilanco",
-   "durum": "kuruldu",
+   "durum": "yapildi",
    "not": "bülten ~4:05 ET = 00:05 TSİ (Everpure IR geçmiş düzeni); PANW rakamından hemen sonra",
    "trigger": "trig_01JP3hmkLE8p9UH2Gwi2PUXM",
    "soz": "",
-   "guncelleme": "18.11 20:27"
+   "guncelleme": "19.11 00:12"
   },
   {
    "id": "PANW-1119-analiz",
