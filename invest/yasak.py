@@ -10,7 +10,7 @@ t = sys.stdin.read()
 low = t.lower()
 hata = []
 
-KALIP = ["benim okumam", "benim görüşüm", "görüşüm:", "yorumum", "bence önemli nokta şu", "asıl ilginci", "asıl ilginç", "asıl önemli",
+KALIP = ["benim okumam", "benim görüşüm", "görüşüm:", "yorumum", "bence önemli nokta şu", "asıl ilginci", "asıl ilginç", "asıl önemli", "bence ilginç olan", "ilginç olan şu",
          "burada kritik olan", "işin özü", "önemli nokta:", "sonuç olarak", "özetle", "kısaca", "bir de şu var",
          "kısa bir flood", "bu bence çok şey anlatıyor", "mesaj net", "dikkat çekiyor", "öne çıkıyor",
          "önemli bir gelişme", "nabız", "mercek altında", "gözler ", "ayrıca", "bununla birlikte",
@@ -19,14 +19,14 @@ for k in KALIP:
     if k in low:
         hata.append(f"yasak kalıp: '{k}'")
 
-# Paragraf ya da satır başında etiket: ilk 6 kelimede iki nokta (madde işaretli rakam satırları hariç)
+# Paragraf ya da satır başında etiket: ilk 8 kelimede iki nokta (madde işaretli rakam satırları hariç)
 for p in re.split(r"\n+", t):
     s = p.strip()
     if not s or s.startswith(("•", "-", "$")):
         continue
-    ilk = " ".join(s.split()[:6])
+    ilk = " ".join(s.split()[:8])
     if ":" in ilk and not re.search(r"\d:\d", ilk):
-        hata.append(f"etiketli giriş (ilk 6 kelimede ':'): '{ilk}'")
+        hata.append(f"etiketli giriş (ilk 8 kelimede ':'): '{ilk}'")
 
 if re.search(r"#\w", t): hata.append("hashtag")
 if re.search(r"https?://", t): hata.append("link")
