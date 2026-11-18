@@ -99,3 +99,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 19.11 | 00:38 | BILANCO-DETAY | PANW NGS ARR 9,10->9,73, Q2 10,20-10,22, FY 11,475-11,525 (onceki 11,075-11,175) | zaman | 6afe1acbaff6b481b2ae1947 |
 | 19.11 | 00:42 | BILANCO-ANALIZ | Everpure Q3 FY27 analiz | uclu | 6afe1bc70801c920897af721 |
 | 19.11 | 01:18 | detay | P: RPO ve ertelenmiş gelir | uclu | 6afe2420c462756e9e21fa0d |
+| 19.11 | 01:22 | detay | P: Serbest nakit ve geri alım | zaman | 6afe2423a588bd66879e5ee6 |
