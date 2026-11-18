@@ -57,3 +57,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 18.11 | 11:02 | KEY-LEVELS | Gunun basliklari 18.11: NVDA sonrasi vadeliler, TGT, FOMC, PANW, WMT | takvim | 6afd5b93739d5342ff13f3ef |
 | 18.11 | 11:17 | 13F | 13F Coatue Q3 2026: MSFT +%120, CRM yeni, META +1,99 Mn, SHOP/V/ICE yeni | dortlu | 6afd5f0e45783105f4378a2f |
 | 18.11 | 11:42 | BILANCO-ANALIZ | Cagri NVDA 1/2: GPU kira fiyatlari (Hopper 2x, B300 +%60, token -%60) | uclu | 6afd64f0805b2f3bff40e508 |
+| 18.11 | 11:43 | BILANCO-ANALIZ | Cagri NVDA 2/2: yonetim kurulu Jensen geri donmuyor, CEO takvimi yok, %75 rehber | editoryal | 6afd652c45783105f439a82c |
