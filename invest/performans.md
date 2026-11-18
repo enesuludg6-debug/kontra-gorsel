@@ -69,3 +69,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 18.11 | 15:41 | BILANCO-GORUS | LOW 3. ceyrek | uclu | 6afd9d1467b44b742a562442 |
 | 18.11 | 15:42 | ANALIST | NVDA bilanco sonrasi analist hedefleri | editoryal | 6afd9d4767b44b742a563ffd |
 | 18.11 | 16:42 | BILANCO-GORUS | TJX 3. ceyrek | ilerleme | 6afdab3ab1824861ddb9bc98 |
+| 18.11 | 16:58 | 13F | 13F Himalaya Li Lu Q3 | dortlu | 6afdaf05b24db460bb0445cc |
