@@ -86,3 +86,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 18.11 | 22:13 | SON-DAKIKA | AAOI 550 Mn ATM hisse satisi | uclu | 6afdf8d37d64a85c92a34bf9 |
 | 18.11 | 22:27 | SON-DAKIKA | SpaceX 40 Mr bilanco disi cip finansmani | spotlight | 6afdfc1df83633dc1bab10a6 |
 | 18.11 | 22:51 | SON-DAKIKA | Cip rotasyonu AVGO AMD vs NVDA | editoryal | 6afe01c950f5b9552ad175a3 |
+| 18.11 | 23:07 | BEKLENTI | PANW konsensus beklentisi | beklenti | 6afe057a750db4a2bff35f26 |
