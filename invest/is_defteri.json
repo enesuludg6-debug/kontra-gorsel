@@ -163,11 +163,11 @@
    "ne": "Kural 16: beklentiler 2 kaynak, CRWV iskeleti, /tmp/hazir_T.py kart, bülten URL'leri",
    "ticker": "TGT",
    "tur": "bilanco",
-   "durum": "kuruldu",
-   "not": "",
+   "durum": "yapildi",
+   "not": "14:30 dogrulandi; beklenti 2,04-2,08 / 26,41-26,47",
    "trigger": "trig_01M3YCwPxy7GQCvMZtjhtesq",
    "soz": "",
-   "guncelleme": "18.11 01:35"
+   "guncelleme": "18.11 13:31"
   },
   {
    "id": "TGT-1118-yayin",
