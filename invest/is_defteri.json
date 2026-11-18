@@ -265,12 +265,12 @@
    "ad": "Önizleme: PANW",
    "zaman": "2026-11-18T20:30",
    "ne": "Bilanço önizleme tweeti (beklentiler 2 kaynak, opsiyon %11, son çeyrekler, izlenecek 3 metrik, görüş)",
-   "durum": "kuruldu",
+   "durum": "yapildi",
    "tur": "bilanco",
    "ticker": "PANW",
    "not": "Enes 13:16 bol tweet",
    "trigger": "trig_01AAAA5mv5sRkXRkBjC9bQpn",
-   "guncelleme": "18.11 20:26"
+   "guncelleme": "18.11 20:33"
   },
   {
    "id": "TUR-1118-2050",
