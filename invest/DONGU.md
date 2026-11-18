@@ -331,3 +331,4 @@ Durdurmak için en alta `DURDUR` yazılı bir satır ekle (Enes ya da Claude, En
 - 01:57 (18.11) ENES 01:54 duzeltme: kural 44 yalniz 18:00 (temel1800) ve 23:30 (teknik2330) gorevleri. Karne/kalibrasyon/tez karti/periyot/skill kopyalari geri alindi.
 - 07:45 (18.11) ENES KURAL 45: detayli analiz yazisi (10-15 paragraf, >=6 kaynak / 4 tur, 13 madde, gonderim oncesi kontrol). DEVIR_TAM, DURUM, _ORTAK, skill kopyalari; hesap skill'leri icin kart.
 - 07:47 (18.11) ENES: ORNEKLER 22 (bilanco sonrasi dusunce yazisi ruh ornegi, sablon degil); kural 45 maddeleri sabit sira degil, kontrol listesi.
+- 09:03 (18.11) SABAH KONTROLÜ: zincirler 12/12 + tur 11:15 kurulu (sabah zinciri 19.11 09:00 kuruldu trig_01VToeBdFKuiZ4KaVhahdGVR); is defteri devir/list_triggers uyumlu, geciken is yok; performans 3 tweet olculdu (12 saat dolmayan 11 bekliyor, 0 gelen 3 bos birakildi); DERSLER 2 gozlem; takvim TGT satiri dolduruldu; 17.11 bugunluk kural blogu silindi (suresi doldu 17.11).
