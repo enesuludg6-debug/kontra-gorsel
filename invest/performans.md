@@ -66,3 +66,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 18.11 | 14:47 | BILANCO-ANALIZ | TGT 3. ceyrek analiz (kural 45) + kural 21 duzeltme | editoryal | 6afd904667b44b742a50348c |
 | 18.11 | 15:01 | BILANCO-DETAY | TGT kategoriler | ilerleme | 6afd93b567b44b742a51bb38 |
 | 18.11 | 15:02 | BILANCO-DETAY | TGT guzellik / Beauty Studio | zaman | 6afd93f103c6b6e75e05a645 |
+| 18.11 | 15:41 | BILANCO-GORUS | LOW 3. ceyrek | uclu | 6afd9d1467b44b742a562442 |
