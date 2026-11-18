@@ -292,23 +292,23 @@
    "ne": "Kural 39: opsiyonların fiyatladığı hareket (±%, 2 kaynak) açıklamadan önce en az bir tweette; DONGU '- OPSIYON: T'",
    "ticker": "P",
    "tur": "bilanco",
-   "durum": "kuruldu",
-   "not": "Enes 13:16 bol tweet: opsiyon önizleme tweetinde (Önizleme: P) atılır",
+   "durum": "yapildi",
+   "not": "21:16 onizleme tweetinde atildi",
    "trigger": "trig_01HeJw7ephr6MnBimTdRGoBV",
    "soz": "",
-   "guncelleme": "18.11 20:26"
+   "guncelleme": "18.11 21:16"
   },
   {
    "id": "P-1118-onizleme",
    "ad": "Önizleme: P",
    "zaman": "2026-11-18T21:15",
    "ne": "Everpure bilanço önizleme tweeti (beklentiler 2 kaynak, opsiyon beklenen hareket 2 kaynak, rehber, izlenecek metrikler, görüş)",
-   "durum": "kuruldu",
+   "durum": "yapildi",
    "tur": "bilanco",
    "ticker": "P",
    "not": "Enes 13:16 bol tweet",
    "trigger": "trig_01BT5Qobuc9ZwB8NamBC165f",
-   "guncelleme": "18.11 20:26"
+   "guncelleme": "18.11 21:16"
   },
   {
    "id": "FOMC-1118-tutanak",
