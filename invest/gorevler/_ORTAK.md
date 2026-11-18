@@ -25,3 +25,5 @@
 - KURAL 46 (Enes 18.11 17:12): konu yalnız yapay zekâ / uzay / Nasdaq (+ Nasdaq'a etkisiyle makro). Perakende, tüketim, banka, sanayi, ilaç, konut vb. ATMA. 13F'te yalnız teknoloji hamleleri. Bilanço görevi yalnız izinli alandaki şirketlere kurulur.
 - WMT İSTİSNASI (Enes 18.11 17:16: "hepsi kalsın ayrıca makro anlamda da bir şeyler yaz"): 19.11 Walmart görevleri aynen; analiz (kural 45) ve detaylarda en az bir makro bölüm/tweet: tüketicinin gücü ve gelir grupları, fiyat/enflasyon ve gümrük vergisi, Fed ve faiz beklentisi, Nasdaq/teknoloji için anlamı (2 kaynak).
 - KURAL 47 (Enes 18.11 18:07): her tweetten sonra Enes'e öğretici 'Ne anlama geliyor?' (4-7 madde): tweetteki terimleri sade açıkla, neden önemli, benzer haberi nasıl okursun, Nasdaq/yapay zekâ/portföy bağlantısı, izlenecek 1-2 şey.
+
+- KURAL 48 (Enes 18.11 22:13): Pzt-Cmt günde en az 30 en çok 50 tweet, Pazar 10 tweet. Her tur önce son dakika taraması (newsquawk.com/headlines WebFetch + WebSearch extended), 2 kaynaklı yeni hisse haberi önceliklidir. Turlar 15-25 dk arayla, her turda 1-2 tweet; zamanlı görevlerin arası boş kalmaz.

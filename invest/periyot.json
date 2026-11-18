@@ -100,8 +100,8 @@
    "aciklama": "13F tweeti gunde en cok 2 (D-004)"
   },
   "tweet_gunluk": {
-   "gunluk_max": 40,
-   "aciklama": "Kural 42: Pzt-Cmt gunde en az 30 en cok 40 tweet (Pazar alt sinir yok, ust 40). Pencere 11:00-02:00."
+   "gunluk_max": 50,
+   "aciklama": "Kural 48 (Enes 18.11 22:13): Pzt-Cmt gunde en az 30 en cok 50 tweet; Pazar 10 tweet. Pencere 11:00-02:00. Son dakika haberleri duzenli araya girer."
   }
  },
  "kayit": {
