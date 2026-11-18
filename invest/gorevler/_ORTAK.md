@@ -19,3 +19,5 @@
 - KURAL 44 (Enes 18.11 01:51-01:54): yalnız 18:00 (temel1800) ve 23:30 (teknik2330) analiz görevleri kaldırıldı; kurulmaz, ateşlenirse kapanır. Diğer temel işler (karne, tez kartı, ben olsam, bilanço sonrası karne) aynen sürer.
 - KURAL 45 (Enes 18.11 07:40): bilanço sonrası ANALİZ ve hisse analizi yazıları çok detaylı ve çok kaynaklı: 10-15 paragraf, en az 6 kaynak (4 tür), 13 maddelik içerik sırası ve gönderim öncesi kontrol (DEVIR_TAM kural 45 / skill enes-bilanco-13f 'Detaylı analiz yazısı'). Gerekirse analiz en geç 45 dk'ya kayar.
 - ENES 18.11 13:16: "akşam paloalto ve everpure bilançoları önemli, onlarla ilgili bol tweet istiyorum" -> PANW ve Everpure (P) için: önizleme tweeti (20:30 / 21:15), rakam, kural 45 detaylı analiz, 5-7 detay tweeti, ertesi sabah 3-4 görüşme tweeti, beklenen hareket. Kalite kuralları (2 kaynak) aynen.
+
+- KURAL 11-B (Enes 18.11 14:55): her create_post'tan önce `python3 invest/yasak.py <<'EOF' metin EOF`; 'YASAK VAR' çıkarsa atma, düzelt, tekrar tara. 'Benim görüşüm:' / 'Not:' / paragraf başı 'X:' kesin yasak.

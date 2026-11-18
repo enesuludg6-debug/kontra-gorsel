@@ -1,0 +1,42 @@
+#!/usr/bin/env python3
+# YASAK KALIP TARAMASI (kesin kural 11; Enes 18.11 14:55: "benim görüşüm: ifadesini kullanmayacaksın, yasaklanmıştı").
+# HER Buffer create_post'TAN ÖNCE ZORUNLU. Kullanım: python3 invest/yasak.py <<'EOF'
+# <tweet metni>
+# EOF
+# Çıkış 0 = temiz, 1 = yasak var -> metni düzelt, tekrar tara, temizse at.
+import re, sys
+
+t = sys.stdin.read()
+low = t.lower()
+hata = []
+
+KALIP = ["benim okumam", "benim görüşüm", "görüşüm:", "yorumum", "bence önemli nokta şu", "asıl ilginci",
+         "burada kritik olan", "işin özü", "önemli nokta:", "sonuç olarak", "özetle", "kısaca", "bir de şu var",
+         "kısa bir flood", "bu bence çok şey anlatıyor", "mesaj net", "dikkat çekiyor", "öne çıkıyor",
+         "önemli bir gelişme", "nabız", "mercek altında", "gözler ", "ayrıca", "bununla birlikte",
+         "risk tarafı da var", "peki ne anlama geliyor", "ters köşe", "asıl sınav", "kapı açılır"]
+for k in KALIP:
+    if k in low:
+        hata.append(f"yasak kalıp: '{k}'")
+
+# Paragraf ya da satır başında etiket: ilk 6 kelimede iki nokta (madde işaretli rakam satırları hariç)
+for p in re.split(r"\n+", t):
+    s = p.strip()
+    if not s or s.startswith(("•", "-", "$")):
+        continue
+    ilk = " ".join(s.split()[:6])
+    if ":" in ilk and not re.search(r"\d:\d", ilk):
+        hata.append(f"etiketli giriş (ilk 6 kelimede ':'): '{ilk}'")
+
+if re.search(r"#\w", t): hata.append("hashtag")
+if re.search(r"https?://", t): hata.append("link")
+if re.search(r"[\U0001F300-\U0001FAFF\u2600-\u27BF]", t): hata.append("emoji")
+if t.rstrip().endswith("?"): hata.append("soruyla bitiyor")
+if re.search(r"\b(alın|satın|hemen al|sat(ın)?malı)\b", low): hata.append("al/sat dili")
+if "anthropic" in low: hata.append("Anthropic adı")
+
+if hata:
+    print("YASAK VAR -> ATMA, düzelt:")
+    for h in hata: print("  -", h)
+    sys.exit(1)
+print("TEMIZ")

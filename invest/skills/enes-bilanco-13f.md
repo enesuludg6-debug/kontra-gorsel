@@ -139,5 +139,6 @@ KAPSAM: bilanço sonrası ANALİZ tweeti ve bir hisse üzerine her analiz/uzun g
   12. Riskler ve izlenecekler: sonraki çeyrekte bakılacak 2-3 somut KPI/eşik.
   13. Net görüş (kural 25): ne demek, büyük resim, gerekiyorsa faiz/Fed, piyasaya etkisi, bizim düşüncemiz.
 - BİLANÇO DIŞI HİSSE ANALİZİ: aynı derinlik; 2-3. maddelerin yerine iş modeli + son 4-8 çeyrek trendi, ayrıca içeriden alım/satım ve kurumsal sahiplik (13F) ve katalizör takvimi.
+- GÖNDERMEDEN ÖNCE `python3 invest/yasak.py` (kural 11-B, Enes 18.11 14:55; 'Benim görüşüm:' ve 'Not:' yasak).
 - GÖNDERMEDEN ÖNCE KONTROL: 13 maddeden en az 10'u var mı, kaynak ≥6 ve tür ≥4 mü, her rakam 2 kaynaklı mı, yasak kalıp (etiketli giriş, al/sat, emoji, soru ile bitiş) var mı. Eksikse tamamla, sonra at.
 - Kart: panel/bento/uclu (son 3 düzen kuralı); kartta en önemli 3-4 rakam.
