@@ -401,3 +401,5 @@ Durdurmak için en alta `DURDUR` yazılı bir satır ekle (Enes ya da Claude, En
 - 00:38 (19.11) AUTO (BILANCO-DETAY): 20261119_0046_panw_d2.jpg (cam) - Kural 41 belge (PR Newswire bulten 302944393 tablolari): gelir kirilimi urun 595 Mn +%37, abonelik 2,85 Mr +%40, %83 Buffer 6afe1ac461993df3280862d4. Son 3 duzen: editoryal, spotlight, cam.
 - DETAY: PANW gelir kirilimi urun 595 Mn +%37, abonelik 2,85 Mr +%40, %83
 - 00:38 (19.11) AUTO (BILANCO-DETAY): 20261119_0042_panw_d3.jpg (terminal) - Kural 41 belge (PR Newswire bulten 302944393 tablolari): nakit OCF 1,93 vs 1,77 Mr, FCF 1,94 Mr %56,2, yil hedef %38 Buffer 6afe1ac661993df328086411. Son 3 duzen: spotlight, cam, terminal.
+- DETAY: PANW nakit OCF 1,93 vs 1,77 Mr, FCF 1,94 Mr %56,2, yil hedef %38
+- 00:38 (19.11) AUTO (BILANCO-DETAY): 20261119_0047_panw_d4.jpg (split) - Kural 41 belge (PR Newswire bulten 302944393 tablolari): GAAP 96 Mn vs duz 1,06 Mr faaliyet, HBK 0,57 vs 1,05 Buffer 6afe1ac94cec3cf024f1225d. Son 3 duzen: terminal, 93 ), split.
