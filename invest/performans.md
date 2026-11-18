@@ -91,3 +91,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 18.11 | 23:38 | PORTFOY | CBRS analist hedef kesintileri ve dusus | uclu | 6afe0cb8f5888642f69cd6b3 |
 | 19.11 | 00:11 | BILANCO-RAKAM | PANW Q1 FY27 rakam | uclu | 6afe14876fadb4be7117d535 |
 | 19.11 | 00:12 | BILANCO-RAKAM | Everpure Q3 FY27 rakam | uclu | 6afe14c7a8bd8e4ffd19e8e7 |
+| 19.11 | 00:23 | BILANCO-ANALIZ | PANW Q1 FY27 analiz | editoryal | 6afe17300d8c064ce4d8c374 |
