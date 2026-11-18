@@ -82,3 +82,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 18.11 | 20:33 | BILANCO-ONIZLEME | PANW 1. ceyrek onizleme | uclu | 6afde163ba7cb28cce133902 |
 | 18.11 | 20:51 | 13F | Lone Pine Q3 teknoloji hamleleri | dortlu | 6afde59ea11f24337a0f73c8 |
 | 18.11 | 21:16 | BILANCO-ONIZLEME | Everpure 3. ceyrek onizleme + opsiyon | editoryal | 6afdeb88144d89f0a5b5ff42 |
+| 18.11 | 22:10 | MAKRO | FOMC ekim tutanaklari | zaman | 6afdf820badbce99d00612fa |
