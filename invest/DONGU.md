@@ -330,3 +330,4 @@ Durdurmak için en alta `DURDUR` yazılı bir satır ekle (Enes ya da Claude, En
 - 01:55 (18.11) ENES KURAL 44: temel analiz tamamen kaldirildi (18:00 temel1800 send_later silindi, sonraki.py'den cikti; 23:30 ve 18:00 teknik gorev dosyalari KALDIRILDI; turlarda/bilanco sonrasi karne, kalibrasyon, tez karti yok; periyot karne/kalibrasyon/karne_sistemi_ozet cikti; enes-portfoy-analiz kopyasi stub). Hesaptaki skill'ler icin propose_skills karti gonderildi.
 - 01:57 (18.11) ENES 01:54 duzeltme: kural 44 yalniz 18:00 (temel1800) ve 23:30 (teknik2330) gorevleri. Karne/kalibrasyon/tez karti/periyot/skill kopyalari geri alindi.
 - 07:45 (18.11) ENES KURAL 45: detayli analiz yazisi (10-15 paragraf, >=6 kaynak / 4 tur, 13 madde, gonderim oncesi kontrol). DEVIR_TAM, DURUM, _ORTAK, skill kopyalari; hesap skill'leri icin kart.
+- 07:47 (18.11) ENES: ORNEKLER 22 (bilanco sonrasi dusunce yazisi ruh ornegi, sablon degil); kural 45 maddeleri sabit sira degil, kontrol listesi.

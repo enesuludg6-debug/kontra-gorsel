@@ -120,3 +120,14 @@ Kalıp: [şirket ne kurdu/açıkladı, tek cümle] → [yapının ayrıntısı: 
 
 ## 21. Uzun görüş yazısı kalıbı (Enes 17.11 21:13, $NBIS örneği; kural 32)
 Enes'in örnek metninin YAPISI (metin kopyalanmaz, kendi cümlelerimizle yazılır): büyük harf başlık "GÜNCELLENMİŞ $TICKER DÜŞÜNCELERİM" → dürüst giriş (duyarlılık neden tersine döndü, biz de fiyat hareketinden memnun değiliz) → piyasanın sorguladığı şey (kapasite teslimi, finansman maliyeti, gecikme, capex) ve hangi endişeler haklı → iyi giden taraf rakamlarla (sözleşme fiyatlaması, birim sözleşme değeri, peşin ödemelerin capex'i karşılama oranı) → ürün ve müşteri ilişkileriyle "sadece donanım kiralayan şirket değil" savunusu → takas (uzun sözleşme = görünürlük ama esneklik kaybı) → "uzun vadede haklı olmak ≠ zamanlamada haklı olmak" → yönetimin göstermesi gerekenler → net sonuç (uzun vadeli inanç sürüyor, ama inanç körü körüne maliyet düşürme bahanesi değil; yeni dev sözleşme değil teslimat güveni gerekiyor). Bizde "küçük küçük alım yapıyorum" gibi kişisel işlem cümlesi YOK (kural); onun yerine "uzun vadeli görüşüm değişmedi" gibi pozisyonsuz ifade.
+
+## 22. Bilanço sonrası düşünce yazısı — RUH örneği, ŞABLON DEĞİL (Enes 18.11 07:44: "mesela bu yazı çok iyiymiş, yapısını sürekli kopyalama, böyle dedim diye; fikir olsun sadece"; kural 45)
+Başka bir yazarın İngilizce "$NVDA post-earning thoughts" yazısı (metin repoya konmadı; başkasının yazısı kopyalanmaz/çevrilmez). Neden iyi, kısaca:
+- Tek bir ana tezle açılıyor ve sonuna kadar onu tartıyor: "rakamlar çok güçlü ama %4'lük tepki piyasanın neyi sorguladığını gösteriyor".
+- Rakamlar liste değil, düşüncenin kanıtı olarak cümlelerin içinde geçiyor (gelir, rehberi ne kadar aştığı, hyperscaler büyümesi, yeni ürünün ilk çeyrek geliri, sektör backlog'u).
+- "En büyük çıkarımım" diye öne çıkardığı tek bir detay var (GPU kira fiyatları) ve bunu başka şirketlere bağlıyor (neocloud'lar): olayı zincire bağlama.
+- Olumluyu ve rahatsız edici tarafı ayrı ayrı, dürüstçe tartıyor (taahhütler, garantiler, alacak günleri, liderlik, ihracat, inşaat riski); tek yönlü değil.
+- Düzeltilmiş bakış veriyor (fazladan haftayı çıkarınca rehber ne kalıyor).
+- Kapanış akılda kalan, net bir hüküm: "bu yılın tartışmasını kazandı, gelecek yılı erteledi".
+ALINACAK: düşünce akışı, olayları birbirine bağlama, iki tarafı tartma, tek güçlü kapanış, rakamın düşünceye hizmet etmesi.
+ALINMAYACAK: paragraf sırası, açılış/kapanış kalıbı, cümle yapısı. Her analiz kendi konusuna göre farklı kurulur (kural 45 maddeleri içerik kontrol listesidir, sabit sıra değildir). Bizim kurallar aynen: Türkçe, sade dil, deyim/mecaz yok, etiketli giriş yok, al/sat yok, her rakam 2 kaynak.
