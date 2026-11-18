@@ -77,3 +77,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 18.11 | 19:23 | ENES | Bellek geri alim + sermaye rekabeti (Enes metni) | uclu | 6afdd0f9b35a3030f043de24 |
 | 18.11 | 19:36 | PORTFOY | AXON RBC konferansi + Q3 yazilim | editoryal | 6afdd415b35a3030f0453b15 |
 | 18.11 | 21:28 | ENES-TEKNIK | RKLB SMC teknik analiz (Enes gorselleri, zamanli 21:28) | enes-grafik | 6afdd9107f787ce2b19347c4 |
+| 18.11 | 20:08 | ENES-TEKNIK | VRT SMC teknik analiz (Enes gorselleri) | enes-grafik | 6afddb974a03ad131e7dd5ee |
