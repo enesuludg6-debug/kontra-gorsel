@@ -64,6 +64,7 @@ Kaynaklar: invest/DEVIR.md (15.11 v1), invest/DEVIR_OZET.md (15.11 21:05 + 16.11
 - Enes: "benim görüşüm: ifadesini kullanmayacaksın, bu ifade yasaklanmıştı". 18.11 14:47 TGT analizinde "Benim görüşüm:", "Not:", "Rakamlar:", "İzlenecekler net:" kullanıldı (kural 11 ihlali).
 - HER Buffer create_post'tan ÖNCE metin `python3 invest/yasak.py <<'EOF' ... EOF` ile taranır; çıkış 1 ise ATILMAZ, düzeltilir, yeniden taranır. Tarama yapılmadan tweet atılmaz (Enes'in elle attıkları hariç).
 - Kapsam: yasak kalıp listesi, paragraf/satır başında ilk 6 kelimede iki nokta (madde işaretli rakam satırları hariç), hashtag, link, emoji, soru ile bitiş, al/sat, Anthropic.
+- (Enes 18.11 17:26: "yine de yön net: vs kullanımları istemiyorum") Paragraf başı gibi CÜMLE başında da iki noktalı etiket yasak: "Yine de yön net:", "Mesele şu:", "Fark şu:", "Tablo net:" vb. yasak.py her cümlenin ilk 6 kelimesini tarar.
 - Düzeltme tweetinde de "Not:" yok: düz cümle ("Gece 01:31'deki tweette ... yazmıştım; doğrusu ...").
 
 !!! KESİN KURAL 45 — DETAYLI ANALİZ YAZISI (Enes 18.11 07:40) !!!

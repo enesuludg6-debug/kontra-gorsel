@@ -14,7 +14,7 @@ KALIP = ["benim okumam", "benim görüşüm", "görüşüm:", "yorumum", "bence 
          "burada kritik olan", "işin özü", "önemli nokta:", "sonuç olarak", "özetle", "kısaca", "bir de şu var",
          "kısa bir flood", "bu bence çok şey anlatıyor", "mesaj net", "dikkat çekiyor", "öne çıkıyor",
          "önemli bir gelişme", "nabız", "mercek altında", "gözler ", "ayrıca", "bununla birlikte",
-         "risk tarafı da var", "peki ne anlama geliyor", "ters köşe", "asıl sınav", "kapı açılır"]
+         "risk tarafı da var", "yön net", "tablo net", "resim net", "durum net", "mesele şu", "sebep şu", "fark şu", "yine de yön", "peki ne anlama geliyor", "ters köşe", "asıl sınav", "kapı açılır"]
 for k in KALIP:
     if k in low:
         hata.append(f"yasak kalıp: '{k}'")
@@ -27,6 +27,15 @@ for p in re.split(r"\n+", t):
     ilk = " ".join(s.split()[:8])
     if ":" in ilk and not re.search(r"\d:\d", ilk):
         hata.append(f"etiketli giriş (ilk 8 kelimede ':'): '{ilk}'")
+
+# Her cümlenin başı: ilk 6 kelimede iki nokta (Enes 18.11 17:26: "Yine de yön net:" vb. ara cümle etiketi yasak)
+for c in re.split(r"(?<=[.!?;])\s+|\n+", t):
+    c = c.strip()
+    if not c or c.startswith(("•", "-", "$")):
+        continue
+    ilk = " ".join(c.split()[:6])
+    if ":" in ilk and not re.search(r"\d:\d", ilk):
+        hata.append(f"cümle başında etiket (':'): '{ilk}'")
 
 if re.search(r"#\w", t): hata.append("hashtag")
 if re.search(r"https?://", t): hata.append("link")
