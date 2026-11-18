@@ -84,3 +84,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 18.11 | 21:16 | BILANCO-ONIZLEME | Everpure 3. ceyrek onizleme + opsiyon | editoryal | 6afdeb88144d89f0a5b5ff42 |
 | 18.11 | 22:10 | MAKRO | FOMC ekim tutanaklari | zaman | 6afdf820badbce99d00612fa |
 | 18.11 | 22:13 | SON-DAKIKA | AAOI 550 Mn ATM hisse satisi | uclu | 6afdf8d37d64a85c92a34bf9 |
+| 18.11 | 22:27 | SON-DAKIKA | SpaceX 40 Mr bilanco disi cip finansmani | spotlight | 6afdfc1df83633dc1bab10a6 |
