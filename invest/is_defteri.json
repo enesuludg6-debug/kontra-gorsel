@@ -382,11 +382,11 @@
    "ne": "Son dakika + CBRS analist kesintileri",
    "ticker": "",
    "tur": "tur",
-   "durum": "kuruldu",
+   "durum": "yapildi",
    "not": "",
    "trigger": "trig_014yNSQZDWwpVD7rj52BuEiZ",
    "soz": "",
-   "guncelleme": "18.11 22:52"
+   "guncelleme": "18.11 23:38"
   },
   {
    "id": "PANW-1119-yayin",
@@ -465,6 +465,19 @@
    "trigger": "trig_01VdMXhM4yFXuvxHXDG78uam",
    "soz": "",
    "guncelleme": "18.11 20:28"
+  },
+  {
+   "id": "TUR-1119-0140",
+   "ad": "Otomatik paylaşım turu",
+   "zaman": "2026-11-19T01:40",
+   "ne": "Gece bilanço kontrolü + kapanış sonrası haberler",
+   "ticker": "",
+   "tur": "tur",
+   "durum": "kuruldu",
+   "not": "",
+   "trigger": "trig_01CK4pwQrggfAU6ZzKTcgvDE",
+   "soz": "",
+   "guncelleme": "18.11 23:38"
   },
   {
    "id": "WMT-1119-opsiyon",
