@@ -62,3 +62,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 18.11 | 12:41 | EGITICI | 13F nasil okunur: 45 gun gecikme, kapsam, baglam | zaman | 6afd72da085e629e46f362eb |
 | 18.11 | 13:12 | BAGLAM-GORUS | Nvidia sonrasi acilis oncesi: neocloud NBIS IREN CRWV +%6-8, AMD +%3 | isi | 6afd79f3e4de71c5c6d9b5c8 |
 | 18.11 | 13:57 | 13F | 13F Baupost Q3 2026: HONA ve SITE yeni, AXTA 2 kat, CME ekleme, GOOG azaltma, 4 cikis | dortlu | 6afd8483f4526871ade0df85 |
+| 18.11 | 14:37 | BILANCO-RAKAM | TGT 3. ceyrek rakam | uclu | 6afd8de467b44b742a4f425d |
