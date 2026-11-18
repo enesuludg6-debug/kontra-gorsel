@@ -405,3 +405,4 @@ Durdurmak için en alta `DURDUR` yazılı bir satır ekle (Enes ya da Claude, En
 - 00:38 (19.11) AUTO (BILANCO-DETAY): 20261119_0047_panw_d4.jpg (split) - Kural 41 belge (PR Newswire bulten 302944393 tablolari): GAAP 96 Mn vs duz 1,06 Mr faaliyet, HBK 0,57 vs 1,05 Buffer 6afe1ac94cec3cf024f1225d. Son 3 duzen: terminal, 93 ), split.
 - DETAY: PANW GAAP 96 Mn vs duz 1,06 Mr faaliyet, HBK 0,57 vs 1,05
 - 00:38 (19.11) AUTO (BILANCO-DETAY): 20261119_0044_panw_d5.jpg (zaman) - Kural 41 belge (PR Newswire bulten 302944393 tablolari): NGS ARR 9,10->9,73, Q2 10,20-10,22, FY 11,475-11,525 (onceki 11,075-11,175) Buffer 6afe1acbaff6b481b2ae1947. Son 3 duzen: 93 ), split, zaman.
+- DETAY: PANW NGS ARR 9,10->9,73, Q2 10,20-10,22, FY 11,475-11,525 (onceki 11,075-11,175)
