@@ -421,11 +421,11 @@
    "ne": "Kural 25: kapsamlı analiz tweeti",
    "ticker": "PANW",
    "tur": "bilanco",
-   "durum": "kuruldu",
+   "durum": "yapildi",
    "not": "Enes 13:16: \"akşam paloalto ve everpure bilançoları önemli, onlarla ilgili bol tweet istiyorum\" -> analiz kural 45, detay 5-7, çağrı 3-4",
    "trigger": "trig_01ToQdyZDMkuYEkJxtdJfm74",
    "soz": "",
-   "guncelleme": "18.11 20:27"
+   "guncelleme": "19.11 00:23"
   },
   {
    "id": "PANW-1119-detay",
