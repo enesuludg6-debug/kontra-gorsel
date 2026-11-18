@@ -8,6 +8,8 @@ Son güncelleme: 18.11.2026 01:32 TSİ. Her tur ve görev sonunda güncellenir (
 
 ## !!! Kural 43 (Enes 18.11 01:29): İŞ DEFTERİ `python3 invest/isler.py` — zamanlı her iş ve bilanço adımları burada; devirde tek kaynak; iptal yalnız en dar kapsam ve Enes'in aynen sözüyle.
 
+## !!! Kural 45 (Enes 18.11 07:40): bilanço sonrası analiz ve hisse analizi yazıları ÇOK DETAYLI ve ÇOK KAYNAKLI: 10-15 paragraf, en az 6 kaynak / 4 tür, 13 maddelik sıra (skill enes-bilanco-13f 'Detaylı analiz yazısı').
+
 ## !!! Kural 44 (Enes 18.11 01:51-01:54): YALNIZ 18:00 (temel1800) ve 23:30 (teknik2330) analiz görevleri kaldırıldı, bir daha kurulmaz. Karne, tez kartı, ben olsam ve diğer temel işler AYNEN sürer.
 
 ## !!! Kural 42 (Enes 18.11 01:13; 01:18: 18-21 sınırı da kaldırıldı): tweet penceresi 11:00-02:00; Pzt-Cmt günde EN AZ 30 EN ÇOK 40 tweet; Pazar üst sınır (Enes rakam verene kadar 40), alt yok; tweet aralığı SERBEST (sabit aralık yok, Enes 01:15); 10:30 görevi 11:00'e kaydı; 09:05 vadeli tweeti yok.

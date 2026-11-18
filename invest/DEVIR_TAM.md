@@ -51,6 +51,28 @@ Kaynaklar: invest/DEVIR.md (15.11 v1), invest/DEVIR_OZET.md (15.11 21:05 + 16.11
 !!! KESİN KURAL 34 — TEMEL ANALİZ EKLERİ (Enes 17.11 21:43) !!!
 - TEMEL ANALİZ EKLERİ (kesin kural 34, Enes 17.11 21:43: "temelini de geliştir"; mevcut 10 başlık /50, /45, metrik listesi, öz-denetim ve kırmızı bayraklar AYNEN, yalnız ekleme): her karnede ayrıca (a) KARNE TRENDİ: önceki karneye göre her başlıkta ve toplamda değişim (↑/↓/=) ve sebebi; (b) BEKLENTİ REVİZYON GENİŞLİĞİ: son 30/90 günde HBK ve gelir tahminindeki % değişim + yukarı/aşağı revize eden analist sayısı (2 kaynak); (c) KAZANÇ KALİTESİ: serbest nakit / net kâr, tahakkuk oranı, SBC/gelir eğilimi, tek seferlik kalemlerin payı; (d) ARTIMLI MARJ ve faaliyet kaldıracı: son 4 çeyrekte gelir artışının ne kadarı faaliyet kârına dönüştü; (e) KPI İVMESİ: sektöre özel ana KPI'ın son 3-4 çeyrekte hızlanıyor mu yavaşlıyor mu; (f) BİLANÇO STRESİ: küçük ve borçlu şirketlerde Altman Z, nakit pisti (ay), yakın vade borç; (g) DEĞERLEME BANDI: ileri F/K ya da EV/Satış'ın kendi 3/5 yıllık ortalamasına göre konumu (aylık bant görevinden ya da 2 kaynakla); (h) BİLANÇO TEPKİ GEÇMİŞİ: son 4 çeyrek aşım/kaçırma ve ertesi gün hisse tepkisi; (i) TEZ KARTI: her portföy hissesi için 3-5 maddelik yatırım tezi + "tezi bozan 3 sinyal"; her karnede maddeler tek tek güçlendi/zayıfladı/aynı diye işaretlenir. Eksik portföy karneleri (temel_karne.md'de "eksik" olanlar) bitene kadar her otomatik turun "zaman kalırsa karne" adımı ÖNCE portföy eksiklerini doldurur.
 
+!!! KESİN KURAL 45 — DETAYLI ANALİZ YAZISI (Enes 18.11 07:40) !!!
+KAPSAM: bilanço sonrası ANALİZ tweeti ve bir hisse üzerine her analiz/uzun görüş yazısı. (Yorumsuz rakam tweeti, detay ve görüşme tweetleri kendi kurallarıyla kalır.)
+- UZUNLUK: tek uzun tweet, 10-15 kısa paragraf (yaklaşık 2000-4000 karakter). Kısa, yüzeysel analiz atılmaz; veri toplanamadıysa analiz 15 dk yerine en geç 45 dk'ya kayar, aceleye getirilmez.
+- KAYNAK: en az 6 bağımsız kaynak, en az 4 farklı türden: (1) şirket belgesi (bülten tabloları, 8-K/10-Q, yatırımcı sunumu, CFO yorumu), (2) görüşme transkripti ya da canlı özeti (görüşme bitmediyse atlanır), (3) en az 2 haber kuruluşu (Reuters, CNBC, Bloomberg, AP, WSJ, FT, Barron's), (4) analist tepkisi (en az 2 kurumun not/hedef değişikliği: TheFly, StreetInsider, MarketBeat, Benzinga, TipRanks), (5) konsensüs/veri sitesi (LSEG, Zacks, FactSet, StockAnalysis, Yahoo), (6) gerekiyorsa sektör/rakip kaynağı. Her rakam yine 2 kaynak (kural 3); tek kaynak tweete girmez. DONGU satırına kaynakların tamamı yazılır; Enes'e mesajda kaynak listesi (link) verilir.
+- İÇERİK SIRASI (etiketsiz, düz paragraflar; veri yoksa o paragraf atlanır, uydurma yok):
+  1. Açılış: tek cümlelik net tespit (rakam ya da tezat).
+  2. Beklenti ve gerçek: gelir, hisse başı kâr ve şirkete özgü 2-3 ana KPI; önceki çeyrek ve geçen yılın aynı çeyreğiyle.
+  3. Büyümenin kaynağı: segment/ürün/coğrafya kırılımı, organik ve satın alma payı, fiyat ve hacim, tek seferlik kalemler, düzeltilmiş ile GAAP farkı.
+  4. Marjlar: brüt ve faaliyet marjı, neden değişti (maliyet kalemleri, karışım, ölçek).
+  5. Nakit ve bilanço: serbest nakit akışı, yatırım harcaması, nakit/borç, geri alım ve temettü, stok ve alacak değişimi.
+  6. Rehber: şirketin tahmini ile beklenti, ima ettiği büyüme ve marj, değişikliğin sebebi.
+  7. Yönetimin sözü: bülten ve (bittiyse) görüşmeden en önemli 2-3 nokta; görüşme tweetleriyle aynı cümleyi tekrar etmez.
+  8. Analist tepkisi: kaç kurum hedef/not değiştirdi, yön ve ortalama, öne çıkan gerekçe.
+  9. Hisse tepkisi: ilk tepki, opsiyonların fiyatladığı hareketle kıyas, son 4 çeyreğin bilanço tepkileri.
+  10. Değerleme: ileri F/K ya da EV/satış (şirkete uygun olan), kendi 3-5 yıllık geçmişine ve 2-3 rakibe göre ("kendi geçmişine göre yüksek/düşük"; ucuz/pahalı ve hedef fiyat yok).
+  11. Rakip ve zincir etkisi: rakipler, tedarikçiler, müşteriler, sektör için ne söylüyor.
+  12. Riskler ve izlenecekler: sonraki çeyrekte bakılacak 2-3 somut KPI/eşik.
+  13. Net görüş (kural 25): ne demek, büyük resim, gerekiyorsa faiz/Fed, piyasaya etkisi, bizim düşüncemiz.
+- BİLANÇO DIŞI HİSSE ANALİZİ: aynı derinlik; 2-3. maddelerin yerine iş modeli + son 4-8 çeyrek trendi, ayrıca içeriden alım/satım ve kurumsal sahiplik (13F) ve katalizör takvimi.
+- GÖNDERMEDEN ÖNCE KONTROL: 13 maddeden en az 10'u var mı, kaynak ≥6 ve tür ≥4 mü, her rakam 2 kaynaklı mı, yasak kalıp (etiketli giriş, al/sat, emoji, soru ile bitiş) var mı. Eksikse tamamla, sonra at.
+- Kart: panel/bento/uclu (son 3 düzen kuralı); kartta en önemli 3-4 rakam.
+
 !!! KESİN KURAL 44 — 18:00 VE 23:30 ANALİZ GÖREVLERİ KALDIRILDI (Enes 18.11 01:51-01:54) !!!
 - Enes: "Temel analizleri tamamen kaldır, hem bu sohbet için hem de gelecekte kullanacağım sohbet için ... artık hiçbir zaman yapılmayacak. 18.00'daydı ilki" / "diğeri 23.00 mı 23.30 muydu ... ikisini de kaldır" / "sadece iki tane temel analiz kısmı var onları kaldıracaksın, onlar dışında temeli gerektiren şeylere dokunma".
 - KALDIRILAN YALNIZ İKİ GÖREV: (1) her işlem günü 18:00 analiz görevi (zincir temel1800; eski teknik1800), (2) 23:30 analiz görevi (teknik2330). Send_later silindi, sonraki.py'den çıkarıldı, gorevler/temel1800.md, teknik1800.md, teknik2330.md 'yapma, kapan'. Yeni sohbet/hesap devrinde bu iki görev KURULMAZ.

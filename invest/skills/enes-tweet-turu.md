@@ -287,3 +287,6 @@ PAYLAŞIM SAATİ VE GÜNLÜK ADET (kesin kural 42, Enes 18.11 01:13: "sabah 11'd
 
 ## 19. 18:00 ve 23:30 analiz görevleri yok (kesin kural 44, Enes 18.11 01:51-01:54)
 Yalnız iki zamanlanmış görev kaldırıldı: 18:00 temel analiz (temel1800) ve 23:30 (teknik2330). Kurulmaz, ateşlenirse kapanır. Turlarda karne, tez kartı, ben olsam notları ve diğer temel işler aynen sürer.
+
+## 20. Detaylı analiz yazısı (kesin kural 45, Enes 18.11 07:40)
+Bilanço sonrası analiz ve bir hisse üzerine her analiz/uzun görüş yazısı ÇOK DETAYLI ve ÇOK KAYNAKLI olur: 10-15 kısa paragraf, en az 6 bağımsız kaynak (en az 4 tür: şirket belgesi, görüşme, 2+ haber kuruluşu, 2+ analist kurumu, konsensüs/veri sitesi), 13 maddelik içerik sırası ve gönderim öncesi kontrol. Tam yöntem: `enes-bilanco-13f` skill'i 'Detaylı analiz yazısı' bölümü (ve DEVIR_TAM kural 45).

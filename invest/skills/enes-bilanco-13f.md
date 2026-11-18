@@ -119,3 +119,25 @@ BİLANÇO DETAY TWEETLERİ (kesin kural 41, Enes 18.11 00:57: "insanlar bilanço
 - ÇÖZÜM 3 — DEVİR: yeni sohbet (HESAP_DEVRI.md "SOHBET DEVRİ") açık işleri hafızadan değil `python3 invest/isler.py devir` çıktısından kurar; list_triggers ile karşılaştırır, eksikleri kurar; sonra Enes'e açık işleri tek tek (saat + ad) listeler. Eski sohbet "dur" denince görevlerini kapatır ama defter aynen kalır.
 - ÇÖZÜM 4 — GÜNLÜK KONTROL: tur_basi.sh her turda `isler.py kontrol` çalıştırır; zamanı geçip yapılmamış iş "EKSIK IS" diye çıkar ve o tur önce onu tamamlar ya da Enes'e yazar. Sabah 09:00 kontrolü `isler.py devir` ile list_triggers'ı karşılaştırır.
 - ÇÖZÜM 5 — KONUŞMADAKİ KARARLAR: Enes'in sohbette verdiği her karar (tek bilanço, tek hisse, tek gün için olanlar dahil) ilgili defter satırının "not" alanına ve DONGU'ya aynen yazılır; kalıcı kural ise DEVIR_TAM'a. "Bu sohbette konuşuldu, kayda gerek yok" diye bir şey yoktur.
+
+## Detaylı analiz yazısı (kesin kural 45, Enes 18.11 07:40: "hisse analizi veya bilanço sonrası analiz yazılarımız çok çok daha detaylı olmalı ... çok detaylı çok kaynaklı")
+KAPSAM: bilanço sonrası ANALİZ tweeti ve bir hisse üzerine her analiz/uzun görüş yazısı. (Yorumsuz rakam tweeti, detay ve görüşme tweetleri kendi kurallarıyla kalır.)
+- UZUNLUK: tek uzun tweet, 10-15 kısa paragraf (yaklaşık 2000-4000 karakter). Kısa, yüzeysel analiz atılmaz; veri toplanamadıysa analiz 15 dk yerine en geç 45 dk'ya kayar, aceleye getirilmez.
+- KAYNAK: en az 6 bağımsız kaynak, en az 4 farklı türden: (1) şirket belgesi (bülten tabloları, 8-K/10-Q, yatırımcı sunumu, CFO yorumu), (2) görüşme transkripti ya da canlı özeti (görüşme bitmediyse atlanır), (3) en az 2 haber kuruluşu (Reuters, CNBC, Bloomberg, AP, WSJ, FT, Barron's), (4) analist tepkisi (en az 2 kurumun not/hedef değişikliği: TheFly, StreetInsider, MarketBeat, Benzinga, TipRanks), (5) konsensüs/veri sitesi (LSEG, Zacks, FactSet, StockAnalysis, Yahoo), (6) gerekiyorsa sektör/rakip kaynağı. Her rakam yine 2 kaynak (kural 3); tek kaynak tweete girmez. DONGU satırına kaynakların tamamı yazılır; Enes'e mesajda kaynak listesi (link) verilir.
+- İÇERİK SIRASI (etiketsiz, düz paragraflar; veri yoksa o paragraf atlanır, uydurma yok):
+  1. Açılış: tek cümlelik net tespit (rakam ya da tezat).
+  2. Beklenti ve gerçek: gelir, hisse başı kâr ve şirkete özgü 2-3 ana KPI; önceki çeyrek ve geçen yılın aynı çeyreğiyle.
+  3. Büyümenin kaynağı: segment/ürün/coğrafya kırılımı, organik ve satın alma payı, fiyat ve hacim, tek seferlik kalemler, düzeltilmiş ile GAAP farkı.
+  4. Marjlar: brüt ve faaliyet marjı, neden değişti (maliyet kalemleri, karışım, ölçek).
+  5. Nakit ve bilanço: serbest nakit akışı, yatırım harcaması, nakit/borç, geri alım ve temettü, stok ve alacak değişimi.
+  6. Rehber: şirketin tahmini ile beklenti, ima ettiği büyüme ve marj, değişikliğin sebebi.
+  7. Yönetimin sözü: bülten ve (bittiyse) görüşmeden en önemli 2-3 nokta; görüşme tweetleriyle aynı cümleyi tekrar etmez.
+  8. Analist tepkisi: kaç kurum hedef/not değiştirdi, yön ve ortalama, öne çıkan gerekçe.
+  9. Hisse tepkisi: ilk tepki, opsiyonların fiyatladığı hareketle kıyas, son 4 çeyreğin bilanço tepkileri.
+  10. Değerleme: ileri F/K ya da EV/satış (şirkete uygun olan), kendi 3-5 yıllık geçmişine ve 2-3 rakibe göre ("kendi geçmişine göre yüksek/düşük"; ucuz/pahalı ve hedef fiyat yok).
+  11. Rakip ve zincir etkisi: rakipler, tedarikçiler, müşteriler, sektör için ne söylüyor.
+  12. Riskler ve izlenecekler: sonraki çeyrekte bakılacak 2-3 somut KPI/eşik.
+  13. Net görüş (kural 25): ne demek, büyük resim, gerekiyorsa faiz/Fed, piyasaya etkisi, bizim düşüncemiz.
+- BİLANÇO DIŞI HİSSE ANALİZİ: aynı derinlik; 2-3. maddelerin yerine iş modeli + son 4-8 çeyrek trendi, ayrıca içeriden alım/satım ve kurumsal sahiplik (13F) ve katalizör takvimi.
+- GÖNDERMEDEN ÖNCE KONTROL: 13 maddeden en az 10'u var mı, kaynak ≥6 ve tür ≥4 mü, her rakam 2 kaynaklı mı, yasak kalıp (etiketli giriş, al/sat, emoji, soru ile bitiş) var mı. Eksikse tamamla, sonra at.
+- Kart: panel/bento/uclu (son 3 düzen kuralı); kartta en önemli 3-4 rakam.
