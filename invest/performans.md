@@ -93,3 +93,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 19.11 | 00:12 | BILANCO-RAKAM | Everpure Q3 FY27 rakam | uclu | 6afe14c7a8bd8e4ffd19e8e7 |
 | 19.11 | 00:23 | BILANCO-ANALIZ | PANW Q1 FY27 analiz | editoryal | 6afe17300d8c064ce4d8c374 |
 | 19.11 | 00:38 | BILANCO-DETAY | PANW hisse sayisi 709->838 Mn (+%18), FY27 844-847 Mn | spotlight | 6afe1ac149e7044385b1ee05 |
+| 19.11 | 00:38 | BILANCO-DETAY | PANW gelir kirilimi urun 595 Mn +%37, abonelik 2,85 Mr +%40, %83 | cam | 6afe1ac461993df3280862d4 |
