@@ -273,6 +273,19 @@
    "guncelleme": "18.11 13:18"
   },
   {
+   "id": "TUR-1118-2050",
+   "ad": "Otomatik paylaşım turu",
+   "zaman": "2026-11-18T20:50",
+   "ne": "Serbest tur (kural 42). HAZIR KONU: 13F Lone Pine Q3 2026 yalnız teknoloji hamleleri (yeni AMZN META INTC; artırılan TSM, GOOGL +%901; azaltılan AMAT NBIS; çıkılan STX GLW; Newsquawk + Longbridge; 31 poz 15,33 Mr$ GuruFocus). 3 saat: NVDA 21:46'ya, MU 22:23'e, AXON 22:36'ya, VRT 23:08'e, CBRS 23:15'e, RKLB 23:03'e kadar yok. Tur 21:05'e kadar bitsin; sonraki turu kendin seç.",
+   "ticker": "",
+   "tur": "tur",
+   "durum": "kuruldu",
+   "not": "",
+   "trigger": "trig_01VjZTCRmEcd4GQ8fQe6X82v",
+   "soz": "",
+   "guncelleme": "18.11 20:23"
+  },
+  {
    "id": "P-1119-opsiyon",
    "ad": "Opsiyon: P",
    "zaman": "2026-11-18T21:15",
