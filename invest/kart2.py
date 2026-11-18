@@ -416,6 +416,10 @@ def siralama(baslik, alt, satirlar, birim, kaynak, out, vurgu=(), etiket="SIRALA
         cy = y + rh // 2
         lg = lgs[t]
         if lg:
+            _px=[px for px in lg.getdata() if px[3]>128]
+            if _px and sum(0.299*r+0.587*g+0.114*b for r,g,b,_ in _px)/len(_px) < 70:  # koyu logo -> beyaz plaka (17.11 kurali)
+                _x0=72 + (lw - lg.width) // 2; _y0=cy - lg.height // 2
+                ImageDraw.Draw(img).rounded_rectangle((_x0-10,_y0-10,_x0+lg.width+10,_y0+lg.height+10), radius=14, fill=(245,245,245))
             img.paste(lg, (72 + (lw - lg.width) // 2, cy - lg.height // 2), lg)
         hl = t in vurgu
         d.text((tx, cy), t.replace("$", ""), font=sans(30, "ExtraBold"), fill=(255, 255, 255) if hl else (200, 204, 214), anchor="lm")
