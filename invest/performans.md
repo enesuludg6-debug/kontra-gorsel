@@ -73,3 +73,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 18.11 | 18:08 | UZUN-GORUS | Yapay zeka stres testi: deger dar alanlara kayiyor (Enes metninden) | uclu | 6afdbf70b3f8322ac7454d4d |
 | 18.11 | 18:26 | PIYASA | Nasdaq acilis: cipler yukari, yazilim/perakende asagi | editoryal | 6afdc3b06a70d040da0077e4 |
 | 18.11 | 18:27 | PORTFOY | RKLB 100. Electron + siparis defteri | zaman | 6afdc3db0a7aa6dca2c72948 |
+| 18.11 | 18:46 | BEKLENEN-HAREKET | NVDA opsiyon 8,5 vs gercek ~-1 | ilerleme | 6afdc85cb3f8322ac7492dc0 |
