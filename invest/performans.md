@@ -71,3 +71,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 18.11 | 16:42 | BILANCO-GORUS | TJX 3. ceyrek | ilerleme | 6afdab3ab1824861ddb9bc98 |
 | 18.11 | 16:58 | 13F | 13F Himalaya Li Lu Q3 | dortlu | 6afdaf05b24db460bb0445cc |
 | 18.11 | 18:08 | UZUN-GORUS | Yapay zeka stres testi: deger dar alanlara kayiyor (Enes metninden) | uclu | 6afdbf70b3f8322ac7454d4d |
+| 18.11 | 18:26 | PIYASA | Nasdaq acilis: cipler yukari, yazilim/perakende asagi | editoryal | 6afdc3b06a70d040da0077e4 |
