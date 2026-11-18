@@ -102,3 +102,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 19.11 | 01:22 | detay | P: Serbest nakit ve geri alım | zaman | 6afe2423a588bd66879e5ee6 |
 | 19.11 | 01:26 | detay | P: Ürün marjı düşüşü | spotlight | 6afe2424c69bd1cb888755fc |
 | 19.11 | 01:30 | detay | P: Rehber ve büyüme | grafik2 | 6afe242401ba7c5e7917c41b |
+| 19.11 | 01:34 | detay | P: Yapay zekâ kazanımları | editoryal | 6afe2425ebd4409dc9fcb37e |

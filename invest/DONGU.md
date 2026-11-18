@@ -411,3 +411,4 @@ Durdurmak için en alta `DURDUR` yazılı bir satır ekle (Enes ya da Claude, En
 - 01:22 (19.11) AUTO (detay): g/20261119_0131_p_d2.jpg (zaman) - - DETAY: P Serbest nakit ve geri alım 01:22 Buffer 6afe2423a588bd66879e5ee6. Son 3 duzen: uclu, uclu, zaman.
 - 01:26 (19.11) AUTO (detay): g/20261119_0132_p_d3.jpg (spotlight) - - DETAY: P Ürün marjı düşüşü 01:26 Buffer 6afe2424c69bd1cb888755fc. Son 3 duzen: uclu, zaman, spotlight.
 - 01:30 (19.11) AUTO (detay): g/20261119_0134_p_d4.jpg (grafik2) - - DETAY: P Rehber ve büyüme 01:30 Buffer 6afe242401ba7c5e7917c41b. Son 3 duzen: zaman, spotlight, grafik2.
+- 01:34 (19.11) AUTO (detay): g/20261119_0124_p_d5.jpg (editoryal) - - DETAY: P Yapay zekâ kazanımları 01:34 Buffer 6afe2425ebd4409dc9fcb37e. Son 3 duzen: spotlight, grafik2, editoryal.
