@@ -59,3 +59,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 18.11 | 11:42 | BILANCO-ANALIZ | Cagri NVDA 1/2: GPU kira fiyatlari (Hopper 2x, B300 +%60, token -%60) | uclu | 6afd64f0805b2f3bff40e508 |
 | 18.11 | 11:43 | BILANCO-ANALIZ | Cagri NVDA 2/2: yonetim kurulu Jensen geri donmuyor, CEO takvimi yok, %75 rehber | editoryal | 6afd652c45783105f439a82c |
 | 18.11 | 12:07 | 13F | 13F Tiger Global Q3 2026: CBRS +%48, INTC +%30, NVDA +%7, DHR +%178; TSM -%36, META -%20 | siralama | 6afd6ad3d015b337f13f0f87 |
+| 18.11 | 12:41 | EGITICI | 13F nasil okunur: 45 gun gecikme, kapsam, baglam | zaman | 6afd72da085e629e46f362eb |
