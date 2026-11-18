@@ -76,3 +76,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 18.11 | 18:46 | BEKLENEN-HAREKET | NVDA opsiyon 8,5 vs gercek ~-1 | ilerleme | 6afdc85cb3f8322ac7492dc0 |
 | 18.11 | 19:23 | ENES | Bellek geri alim + sermaye rekabeti (Enes metni) | uclu | 6afdd0f9b35a3030f043de24 |
 | 18.11 | 19:36 | PORTFOY | AXON RBC konferansi + Q3 yazilim | editoryal | 6afdd415b35a3030f0453b15 |
+| 18.11 | 21:28 | ENES-TEKNIK | RKLB SMC teknik analiz (Enes gorselleri, zamanli 21:28) | enes-grafik | 6afdd9107f787ce2b19347c4 |
