@@ -3,6 +3,8 @@ Son güncelleme: 18.11.2026 15:03 TSİ. Her tur ve görev sonunda güncellenir (
 
 ## !!! Kural 43 (Enes 18.11 01:29): İŞ DEFTERİ `python3 invest/isler.py` — zamanlı her iş ve bilanço adımları burada; devirde tek kaynak; iptal yalnız en dar kapsam ve Enes'in aynen sözüyle.
 
+## BUGÜNLÜK 18.11 (Enes 15:39): Target (TGT) hakkında bugün başka tweet YOK; TGT beklenen ve çağrı iptal. Haklar diğer konulara. Yalnız 18.11 için.
+
 ## !!! Kural 11-B (Enes 18.11 14:55): HER tweetten önce `python3 invest/yasak.py` taraması; çıkış 1 = ATMA. 'Benim görüşüm:', 'Not:' ve paragraf başı 'X:' yasak.
 
 ## !!! Kural 45 (Enes 18.11 07:40): bilanço sonrası analiz ve hisse analizi yazıları ÇOK DETAYLI ve ÇOK KAYNAKLI: 10-15 paragraf, en az 6 kaynak / 4 tür, 13 maddelik sıra (skill enes-bilanco-13f 'Detaylı analiz yazısı').

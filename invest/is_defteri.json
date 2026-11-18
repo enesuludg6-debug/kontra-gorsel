@@ -228,11 +228,11 @@
    "ne": "Kural 22n/39: opsiyon fiyatlaması vs açılıştaki gerçek hareket",
    "ticker": "TGT",
    "tur": "bilanco",
-   "durum": "kuruldu",
-   "not": "17:47 (NVDA 17:45 ile çakışmasın)",
+   "durum": "iptal",
+   "not": "trigger silindi",
    "trigger": "trig_01HQYMMC8jSxdvqN7EKGpopt",
-   "soz": "",
-   "guncelleme": "18.11 01:35"
+   "soz": "targetle ilgili daha tweet atma farklı konulara ayır o hakları (Enes 18.11 15:39)",
+   "guncelleme": "18.11 15:39"
   },
   {
    "id": "PANW-1119-opsiyon",
@@ -254,11 +254,11 @@
    "ne": "Kural 40: görüşme önemli yerleri, AYNI GÜN, her konu ayrı tweet",
    "ticker": "TGT",
    "tur": "bilanco",
-   "durum": "kuruldu",
-   "not": "Enes 01:33: saat 19:20 (A2 görevi) geçerli",
+   "durum": "iptal",
+   "not": "trigger silindi",
    "trigger": "trig_013ixAYQMgEVvehVA1xg7xqb",
-   "soz": "",
-   "guncelleme": "18.11 01:35"
+   "soz": "targetle ilgili daha tweet atma farklı konulara ayır o hakları (Enes 18.11 15:39)",
+   "guncelleme": "18.11 15:39"
   },
   {
    "id": "PANW-1118-onizleme",

@@ -351,3 +351,4 @@ Durdurmak için en alta `DURDUR` yazılı bir satır ekle (Enes ya da Claude, En
 - DETAY: TGT kategoriler
 - 15:02 (18.11) AUTO (BILANCO-DETAY): 20261118_1515_tgt_guzellik.jpg (zaman) - Q1 3.398/3.101 +%9,6 ve Q2 3.639/3.396 +%7,2 (SEC 10-Q; Q2 'high single digit' Fool transkripti), Q3 >%9 (bulten + WWD). Beauty Studio 10 Eylul 600+ magaza, 1.600+ urun, 90 marka, 2/3 yeni (Chain Drug Review + AP/WHIO 600+ + Scripps 'replacing Ulta'). Ortaklik 2021-Agustos 2026 (Chain Drug + Scripps 'summer 2026'). yasak.py TEMIZ. Buffer 6afd93f103c6b6e75e05a645. Son 3 duzen: editoryal, ilerleme, zaman.
 - DETAY: TGT guzellik Beauty Studio
+- 15:40 (18.11) ENES 15:39: "targetle ilgili daha tweet atma farklı konulara ayır o hakları" -> TGT beklenen 17:47 ve TGT cagri 19:20 iptal (trigger silindi). Kapsam: Target hakkinda bugun baska tweet yok; turlarda Target konusu secilmez, haklar diger konulara. Diger bilancolar (NVDA beklenen 17:45, PANW, P, WMT) aynen surer.
