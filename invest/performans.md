@@ -78,3 +78,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 18.11 | 19:36 | PORTFOY | AXON RBC konferansi + Q3 yazilim | editoryal | 6afdd415b35a3030f0453b15 |
 | 18.11 | 21:28 | ENES-TEKNIK | RKLB SMC teknik analiz (Enes gorselleri, zamanli 21:28) | enes-grafik | 6afdd9107f787ce2b19347c4 |
 | 18.11 | 20:08 | ENES-TEKNIK | VRT SMC teknik analiz (Enes gorselleri) | enes-grafik | 6afddb974a03ad131e7dd5ee |
+| 18.11 | 20:15 | ENES-TEKNIK | CBRS SMC/ICT teknik analiz (Enes gorselleri) | enes-grafik | 6afddd3e4b233b0b898aab73 |
