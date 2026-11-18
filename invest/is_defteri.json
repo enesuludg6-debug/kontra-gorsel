@@ -216,10 +216,10 @@
    "ticker": "NVDA",
    "tur": "bilanco",
    "durum": "kuruldu",
-   "not": "opsiyon +-%8,5 (Analytics Insight+Reuters), Saxo +-%7,8; Investing +-%6-7",
-   "trigger": "trig_01R5Jz9iMFsJ7oio6nsdfeNp",
+   "not": "17:45 -> 18:45 (NVDA 15:42 tweeti, 3 saat kurali)",
+   "trigger": "trig_016oszWpELLVGSkXUrmV2LRE",
    "soz": "",
-   "guncelleme": "18.11 01:35"
+   "guncelleme": "18.11 17:46"
   },
   {
    "id": "TGT-1118-beklenen",

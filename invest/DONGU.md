@@ -360,3 +360,4 @@ Durdurmak için en alta `DURDUR` yazılı bir satır ekle (Enes ya da Claude, En
 - 17:15 (18.11) ENES 17:12 KURAL 46: konu filtresi yalniz yapay zeka / uzay / Nasdaq (+ makro). DEVIR_TAM, DURUM, _ORTAK, skill kopyalari. 13F: Pabrai, Icahn atlandi; sira Lone Pine, Viking, Bridgewater (teknoloji hamleleri). WMT 19.11 gorevleri icin Enes'e soruldu.
 - 17:17 (18.11) ENES 17:16 (WMT): "hepsi kalsın ayrıca makro anlamda da bir şeyler yaz çünkü bu bilanço makro anlamda da bir şeyler anlatır" -> WMT 7 gorev kalir, analiz/detayda makro bolum zorunlu (_ORTAK, DEVIR_TAM 46 istisna).
 - 17:28 (18.11) ENES 17:26: "yine de yön net: vs kullanımları istemiyorum" -> yasak.py her cumle basini tarar (ilk 6 kelimede ':'), 'yön net/tablo net/mesele şu/fark şu' kaliplari eklendi; DEVIR_TAM 11-B + skill kopyasi.
+- 17:46 (18.11) Beklenen hareket NVDA 18:45'e kaydi (NVDA son tweet 15:42, 3 saat kurali); trig_016oszWpELLVGSkXUrmV2LRE.
