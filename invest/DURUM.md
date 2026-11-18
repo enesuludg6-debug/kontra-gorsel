@@ -1,5 +1,5 @@
 # DURUM — tek sayfa güncel durum (kesin kural 18)
-Son güncelleme: 18.11.2026 14:37 TSİ. Her tur ve görev sonunda güncellenir (en çok 80 satır). Turlar DEVIR_TAM'ı baştan okumaz: skill + bu dosya + DONGU.md son 30 satır. DEVIR_TAM'dan yalnız gereken bölüm grep ile açılır.
+Son güncelleme: 18.11.2026 14:47 TSİ. Her tur ve görev sonunda güncellenir (en çok 80 satır). Turlar DEVIR_TAM'ı baştan okumaz: skill + bu dosya + DONGU.md son 30 satır. DEVIR_TAM'dan yalnız gereken bölüm grep ile açılır.
 
 ## !!! Kural 43 (Enes 18.11 01:29): İŞ DEFTERİ `python3 invest/isler.py` — zamanlı her iş ve bilanço adımları burada; devirde tek kaynak; iptal yalnız en dar kapsam ve Enes'in aynen sözüyle.
 
@@ -63,7 +63,7 @@ Son güncelleme: 18.11.2026 14:37 TSİ. Her tur ve görev sonunda güncellenir (
 NDX 26.990 (4s ST AL) / 26.600 kritik | DOCN k1 72-74 k2 69-70 tez hf<69,8 | RKLB k1 55-57 k2 50-52 tez G<43,9 | SITM k1 395-405 k2 345-365 tez G<335 | AXON k1 291-298 k2 255-270 tez hf<255 | CBRS k1 96-99 k2 88-91 tez G<77,8 | VRT k1 178-183 k2 169-174 tez hf<150 | AVGO k1 323-330 k2 300-311 tez G<289,8 | TSM k1 351-360 | ECL 294-301
 
 ## Kart
-- Son 3 düzen: isi (Nvidia sonrasi acili), dortlu (13F Baupost Q3 2026:), uclu (TGT 3. ceyrek rakam).). ceyrek anali). ceyrek tam f). ceyrek). LOGO_BUYUT 1.8, küçültme YOK; bento ve skor kare logoyu taşımıyor → bilanço rakamı uclu.
+- Son 3 düzen: dortlu (13F Baupost Q3 2026:), uclu (TGT 3, editoryal (TGT 3. ceyrek analiz). ceyrek rakam).). ceyrek anali). ceyrek tam f). ceyrek). LOGO_BUYUT 1.8, küçültme YOK; bento ve skor kare logoyu taşımıyor → bilanço rakamı uclu.
 
 ## 13F serisi (Q3 2026)
 Atılanlar: Berkshire, Ackman, Druckenmiller, Tepper, Soros, Third Point/Loeb. Atıldı: Greenlight, Coatue (18.11 11:17), Tiger Global (18.11 12:07), Baupost (18.11 13:57). Sıradaki: Himalaya → Pabrai → Icahn → Bridgewater → Lone Pine/Viking. Bitince Enes'e özet. Burry yok (SEC kaydı silindi).
@@ -104,6 +104,6 @@ Kural 22 (17.11 14:40): radar hf 14:20 trig_016SbofaS65yjLJA3vxEJFJn | sektör C
 ## NVDA hazır (17.11 23:27): /tmp/hazir_NVDA.py (uclu; JSON: gelir, gelir_b, hbk, hbk_b, q4, q4_b, kaynak, out, baslik). Beklenti tweet: gelir 109,3 Mr $, HBK 2,47 $, veri merkezi 101-102 Mr $, brüt marj %74,0 (şirket rehberi). Q4 rehber konsensüsü bulunamadı → tweette Q4 satırı 'Beklenti' yazmadan ya da yayın anında 2 kaynakla. NOT: Q1 FY27'den beri düzeltilmiş rakamlar hisse bazlı ödemeyi DÜŞMÜYOR (FourWeekMBA) → 'düzeltilmiş' etiketi bültenden. Opsiyon beklenen hareket: ±%8,5 (Analytics Insight + Reuters, 17.11), Saxo 11.11 kapanışta ±%7,8.
 
 ## BEKLEYEN DÜZELTME (kural 21)
-- 01:31 opsiyon tweetinde TGT 'dünkü kapanış 160,32 $' yazıldı; doğrusu 17.11 kapanış 159,53 $ (Yahoo), aralık ~147-172 $. TGT rakam ya da analiz tweetine tek cümle düzeltme ekle, sonra bu satırı sil.
+- Yok (TGT 160,32 -> 159,53 düzeltmesi 18.11 14:47 analiz tweetinde yapıldı).
 
 ## Bekleyen tek seferlik görevler → ARTIK `python3 invest/isler.py liste` (kural 43; is_defteri.json tek kaynak)
