@@ -79,3 +79,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 18.11 | 21:28 | ENES-TEKNIK | RKLB SMC teknik analiz (Enes gorselleri, zamanli 21:28) | enes-grafik | 6afdd9107f787ce2b19347c4 |
 | 18.11 | 20:08 | ENES-TEKNIK | VRT SMC teknik analiz (Enes gorselleri) | enes-grafik | 6afddb974a03ad131e7dd5ee |
 | 18.11 | 20:15 | ENES-TEKNIK | CBRS SMC/ICT teknik analiz (Enes gorselleri) | enes-grafik | 6afddd3e4b233b0b898aab73 |
+| 18.11 | 20:33 | BILANCO-ONIZLEME | PANW 1. ceyrek onizleme | uclu | 6afde163ba7cb28cce133902 |
