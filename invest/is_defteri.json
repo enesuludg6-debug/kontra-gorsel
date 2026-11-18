@@ -343,11 +343,11 @@
    "ne": "Son dakika öncelikli tur (kural 48)",
    "ticker": "",
    "tur": "tur",
-   "durum": "kuruldu",
+   "durum": "yapildi",
    "not": "",
    "trigger": "trig_01EHiKZk8nmzuAQKfUeLMAxz",
    "soz": "",
-   "guncelleme": "18.11 22:27"
+   "guncelleme": "18.11 22:52"
   },
   {
    "id": "PANW-1119-hazirlik",
@@ -374,6 +374,19 @@
    "trigger": "trig_01Ajei8ztJPM9ZTat8FL88QH",
    "soz": "",
    "guncelleme": "18.11 20:27"
+  },
+  {
+   "id": "TUR-1118-2335",
+   "ad": "Otomatik paylaşım turu",
+   "zaman": "2026-11-18T23:35",
+   "ne": "Son dakika + CBRS analist kesintileri",
+   "ticker": "",
+   "tur": "tur",
+   "durum": "kuruldu",
+   "not": "",
+   "trigger": "trig_014yNSQZDWwpVD7rj52BuEiZ",
+   "soz": "",
+   "guncelleme": "18.11 22:52"
   },
   {
    "id": "PANW-1119-yayin",
