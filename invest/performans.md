@@ -88,3 +88,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 18.11 | 22:51 | SON-DAKIKA | Cip rotasyonu AVGO AMD vs NVDA | editoryal | 6afe01c950f5b9552ad175a3 |
 | 18.11 | 23:07 | BEKLENTI | PANW konsensus beklentisi | beklenti | 6afe057a750db4a2bff35f26 |
 | 18.11 | 23:16 | BEKLENTI | Everpure konsensus beklentisi | beklenti | 6afe07951173b0b5f0e15539 |
+| 18.11 | 23:38 | PORTFOY | CBRS analist hedef kesintileri ve dusus | uclu | 6afe0cb8f5888642f69cd6b3 |
