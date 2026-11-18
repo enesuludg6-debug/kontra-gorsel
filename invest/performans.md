@@ -64,3 +64,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 18.11 | 13:57 | 13F | 13F Baupost Q3 2026: HONA ve SITE yeni, AXTA 2 kat, CME ekleme, GOOG azaltma, 4 cikis | dortlu | 6afd8483f4526871ade0df85 |
 | 18.11 | 14:37 | BILANCO-RAKAM | TGT 3. ceyrek rakam | uclu | 6afd8de467b44b742a4f425d |
 | 18.11 | 14:47 | BILANCO-ANALIZ | TGT 3. ceyrek analiz (kural 45) + kural 21 duzeltme | editoryal | 6afd904667b44b742a50348c |
+| 18.11 | 15:01 | BILANCO-DETAY | TGT kategoriler | ilerleme | 6afd93b567b44b742a51bb38 |
