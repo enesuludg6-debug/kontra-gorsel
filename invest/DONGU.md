@@ -399,3 +399,5 @@ Durdurmak için en alta `DURDUR` yazılı bir satır ekle (Enes ya da Claude, En
 - 00:38 (19.11) AUTO (BILANCO-DETAY): 20261119_0040_panw_d1.jpg (spotlight) - Kural 41 belge (PR Newswire bulten 302944393 tablolari): hisse sayisi 709->838 Mn (+%18), FY27 844-847 Mn Buffer 6afe1ac149e7044385b1ee05. Son 3 duzen: uclu, editoryal, spotlight.
 - DETAY: PANW hisse sayisi 709->838 Mn (+%18), FY27 844-847 Mn
 - 00:38 (19.11) AUTO (BILANCO-DETAY): 20261119_0046_panw_d2.jpg (cam) - Kural 41 belge (PR Newswire bulten 302944393 tablolari): gelir kirilimi urun 595 Mn +%37, abonelik 2,85 Mr +%40, %83 Buffer 6afe1ac461993df3280862d4. Son 3 duzen: editoryal, spotlight, cam.
+- DETAY: PANW gelir kirilimi urun 595 Mn +%37, abonelik 2,85 Mr +%40, %83
+- 00:38 (19.11) AUTO (BILANCO-DETAY): 20261119_0042_panw_d3.jpg (terminal) - Kural 41 belge (PR Newswire bulten 302944393 tablolari): nakit OCF 1,93 vs 1,77 Mr, FCF 1,94 Mr %56,2, yil hedef %38 Buffer 6afe1ac661993df328086411. Son 3 duzen: spotlight, cam, terminal.

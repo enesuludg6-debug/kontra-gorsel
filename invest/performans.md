@@ -94,3 +94,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 19.11 | 00:23 | BILANCO-ANALIZ | PANW Q1 FY27 analiz | editoryal | 6afe17300d8c064ce4d8c374 |
 | 19.11 | 00:38 | BILANCO-DETAY | PANW hisse sayisi 709->838 Mn (+%18), FY27 844-847 Mn | spotlight | 6afe1ac149e7044385b1ee05 |
 | 19.11 | 00:38 | BILANCO-DETAY | PANW gelir kirilimi urun 595 Mn +%37, abonelik 2,85 Mr +%40, %83 | cam | 6afe1ac461993df3280862d4 |
+| 19.11 | 00:38 | BILANCO-DETAY | PANW nakit OCF 1,93 vs 1,77 Mr, FCF 1,94 Mr %56,2, yil hedef %38 | terminal | 6afe1ac661993df328086411 |
