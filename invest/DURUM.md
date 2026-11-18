@@ -76,7 +76,7 @@ NDX 26.990 (4s ST AL) / 26.600 kritik | DOCN k1 72-74 k2 69-70 tez hf<69,8 | RKL
 - Son 3 düzen: enes-grafik (CBRS SMC/ICT teknik ), uclu (PANW 1, dortlu (Lone Pine Q3 teknolo). ceyrek onizl). Electron +). ceyrek). ceyrek). ceyrek analiz). ceyrek rakam).). ceyrek anali). ceyrek tam f). ceyrek). LOGO_BUYUT 1.8, küçültme YOK; bento ve skor kare logoyu taşımıyor → bilanço rakamı uclu.
 
 ## 13F serisi (Q3 2026)
-Atılanlar: Berkshire, Ackman, Druckenmiller, Tepper, Soros, Third Point/Loeb. Atıldı: Greenlight, Coatue (18.11 11:17), Tiger Global (18.11 12:07), Baupost (18.11 13:57), Himalaya (18.11 16:58). Sıradaki (kural 46): Lone Pine → Viking → Bridgewater (yalnız teknoloji hamleleri); Pabrai, Icahn atlandı. Bitince Enes'e özet. Burry yok (SEC kaydı silindi).
+Atılanlar: Berkshire, Ackman, Druckenmiller, Tepper, Soros, Third Point/Loeb. Atıldı: Greenlight, Coatue (18.11 11:17), Tiger Global (18.11 12:07), Baupost (18.11 13:57), Himalaya (18.11 16:58). Atıldı: Lone Pine (18.11 20:51). Sıradaki (kural 46): Viking → Bridgewater (yalnız teknoloji hamleleri); Pabrai, Icahn atlandı. Bitince Enes'e özet. Burry yok (SEC kaydı silindi).
 
 ## Bugün / yarın (takvim.md ayrıntılı)
 - 17.11: HD yayın 13:58, DIS yayın 14:38, vadeli ~15:00-15:25, perakende satış hazırlık 15:40 yayın 16:28, teknik 18:00, teknik 23:30, NVDA hazırlık 23:25 yayın 00:18 (+15 dk analiz; 12:22 önizleme tahminleriyle kıyas: gelir 111-113, DC 103-105, GM %74,2-74,5, HBK 2,53-2,58; Q4 rehber 122-126, marj ~%72).
@@ -99,7 +99,7 @@ Kural 22 (17.11 14:40): radar hf 14:20 trig_016SbofaS65yjLJA3vxEJFJn | sektör C
 18:00 trig_01LCT69YkpVZvjjW6ueTGftC | 23:30 trig_01Me3Zwdnufk6rkLKNmZ2YF5 | key levels 10:30 trig_01BGRz55RsS87Nko3XpCmXRE | takvim Pazar 20:00 trig_01XKuwGwLJwQbLzfPfbdjAX8 | performans Pazar 21:30 trig_017HiX433Vy7u15V1a6wfbec | sabah 09:00 trig_01C56vPfmWMnsPMFTV6wU6CM | 13F Şub/Ağu/Kas trig_01X4fnNMsC1i6wo8kXaMLqmf | 13F May trig_014UMzEahLeqQdKb27x5skDU | haftalık özet Cmt 11:00 trig_01LRGPzzrcF327Pqe67n55Qa | ayın özeti (ayın 1-7'si 10:55, ilk işlem günü kontrolü) trig_01X3YVaH2z1Yv7RyptTiUKok | Pazar 20:00 görevine 'gelecek hafta' tweeti + DONGU arşivi eklendi.
 
 ## Zincir
-- Otomatik tur zinciri: sıradaki trig_01VjZTCRmEcd4GQ8fQe6X82v 20:50 (Lone Pine 13F hazır konu); 19:36 AXON atıldı
+- Otomatik tur zinciri: sıradaki trig_01KryuPxwi9LGfRVYw8iFTSj 22:25 (B); 20:51 Lone Pine atıldı, 13F sırası Viking → Bridgewater
 - Bu oturumdaki tek seferlikler (HESAP=A): HD yayın 13:58, DIS yayın 14:38, perakende 15:40/16:28, NVDA 23:25/00:18.
 
 ## Bekleyen kararlar
