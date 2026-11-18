@@ -473,11 +473,11 @@
    "ne": "Gece bilanço kontrolü + kapanış sonrası haberler",
    "ticker": "",
    "tur": "tur",
-   "durum": "kuruldu",
+   "durum": "yapildi",
    "not": "",
    "trigger": "trig_01CK4pwQrggfAU6ZzKTcgvDE",
    "soz": "",
-   "guncelleme": "18.11 23:38"
+   "guncelleme": "19.11 01:42"
   },
   {
    "id": "WMT-1119-opsiyon",
@@ -491,6 +491,19 @@
    "trigger": "trig_01ThKXRQj4XBNpHBJPfuyGfc",
    "soz": "",
    "guncelleme": "18.11 20:28"
+  },
+  {
+   "id": "TUR-1119-1125",
+   "ad": "Otomatik paylaşım turu",
+   "zaman": "2026-11-19T11:25",
+   "ne": "Sabah turu: son dakika, PANW sempati, Gemini 4 Neon",
+   "ticker": "",
+   "tur": "tur",
+   "durum": "kuruldu",
+   "not": "",
+   "trigger": "trig_01FQT7NEXfLHZRumtfjLYdbc",
+   "soz": "",
+   "guncelleme": "19.11 01:42"
   },
   {
    "id": "PANW-1119-cagri",

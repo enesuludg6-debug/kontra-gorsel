@@ -1,5 +1,5 @@
 # DURUM — tek sayfa güncel durum (kesin kural 18)
-Son güncelleme: 19.11.2026 01:42 TSİ (B). Her tur ve görev sonunda güncellenir (en çok 80 satır). Turlar DEVIR_TAM'ı baştan okumaz: skill + bu dosya + DONGU.md son 30 satır. DEVIR_TAM'dan yalnız gereken bölüm grep ile açılır.
+Son güncelleme: 19.11.2026 01:43 TSİ (B). Her tur ve görev sonunda güncellenir (en çok 80 satır). Turlar DEVIR_TAM'ı baştan okumaz: skill + bu dosya + DONGU.md son 30 satır. DEVIR_TAM'dan yalnız gereken bölüm grep ile açılır.
 
 ## !!! Kural 49 (Enes 18.11 22:16: 'bizim yatırımcılık tarzımıza uyan tüm hisseler için bilanço açıklanmadan önce konsensüs beklentilerini tweet at bu şekilde kısaca'): kural 46 alanındaki (yapay zekâ / uzay / Nasdaq teknoloji + portföy, ilgi listesi, büyük takip; WMT 19.11 istisnası dahil) HER bilançodan önce AYRI, KISA bir konsensüs tweeti. Zaman: HAZIRLIK görevi içinde, açıklamadan 30-60 dk önce (önizleme tweeti olsa da ayrıca atılır; 3 saat ticker kuralına takılmaz, Enes'in açık isteği). Kart: kart2.beklenti(ticker, şirket adı, 'Mali YYYY • N. çeyrek', 'GG Ay, açılış öncesi/kapanış sonrası (TSİ ~SS:DD)', [(metrik, konsensüs, alt not)], kaynak, out) — büyük logo + Metrik/Konsensüs tablosu; satırlar gelir + hisse başı kâr (+ şirkete özgü 1-2 KPI ya da şirket rehberi). Metin 2-4 kısa satır, yorumsuz: '$T bu gece/yarın sabah ... bilançosunu açıklıyor. Piyasa beklentisi gelirde X, hisse başı kârda Y.' + varsa şirket rehberi ve opsiyon hareketi tek cümle. Her rakam 2 kaynak. DONGU '- BEKLENTI: T'.
 
@@ -103,7 +103,7 @@ Kural 22 (17.11 14:40): radar hf 14:20 trig_016SbofaS65yjLJA3vxEJFJn | sektör C
 18:00 trig_01LCT69YkpVZvjjW6ueTGftC | 23:30 trig_01Me3Zwdnufk6rkLKNmZ2YF5 | key levels 10:30 trig_01BGRz55RsS87Nko3XpCmXRE | takvim Pazar 20:00 trig_01XKuwGwLJwQbLzfPfbdjAX8 | performans Pazar 21:30 trig_017HiX433Vy7u15V1a6wfbec | sabah 09:00 trig_01C56vPfmWMnsPMFTV6wU6CM | 13F Şub/Ağu/Kas trig_01X4fnNMsC1i6wo8kXaMLqmf | 13F May trig_014UMzEahLeqQdKb27x5skDU | haftalık özet Cmt 11:00 trig_01LRGPzzrcF327Pqe67n55Qa | ayın özeti (ayın 1-7'si 10:55, ilk işlem günü kontrolü) trig_01X3YVaH2z1Yv7RyptTiUKok | Pazar 20:00 görevine 'gelecek hafta' tweeti + DONGU arşivi eklendi.
 
 ## Zincir
-- Otomatik tur zinciri: sıradaki trig_01CK4pwQrggfAU6ZzKTcgvDE 19.11 01:40 (B); 23:38 CBRS atıldı; 13F sırası Viking → Bridgewater
+- Otomatik tur zinciri: sıradaki trig_01FQT7NEXfLHZRumtfjLYdbc 19.11 11:25 (B); 18.11 son tweet 01:52 NVDA Huang (50/50); 13F sırası Viking → Bridgewater
 - Bu oturumdaki tek seferlikler (HESAP=A): HD yayın 13:58, DIS yayın 14:38, perakende 15:40/16:28, NVDA 23:25/00:18.
 
 ## Bekleyen kararlar
