@@ -1,3 +1,5 @@
+B AKTİF (18.11 20:31) — hesap devri, oturum session_01EmZ47ompNeGsaQSXfJ8wHS; zincir ID'leri: sabah trig_01PRH17QF4d7mKnMtVAE9FvQ / keylevels trig_01HDAV8z9mH1mtikhdV766u5;radar trig_01RKc2msdYGvtbzKPiqVthX5;haftalikozet trig_012W7kajm3bk7kYHVuFM6vzq;sektor trig_01H46DZzZU9L3UeM6LdeAf4B;ilgisira trig_01PenSNDsaAXgM2oSZMxW7TW;analist trig_013PpjA6M1M5n7SBwpqFyf9P;sezon trig_01HE7QUxG8rycgwcMDRGyRZz;takvim trig_01Lw9gagHwLTF41tv9tmdpSd;performans trig_01FSULM53WLcHLoh6FQZJkzN;ayinozeti trig_01NhEZxf5q2TWZBfGLkAYWi2;13f trig_012G5zvXBcryoZR1tzBxV6ZM;
+
 # ENESINVESTUS — TAM DEVİR NOTU (v8, 17.11.2026 12:40 TSİ) (eski: v7 16.11 21:20, v6 16:50)
 
 Bu dosya, Enes Uludağ'ın 15-16 Kasım 2026 boyunca verdiği TÜM kuralların birleşik ve güncel hâlidir.

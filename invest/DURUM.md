@@ -3,7 +3,7 @@ Son güncelleme: 18.11.2026 20:15 TSİ. Her tur ve görev sonunda güncellenir (
 
 ## !!! Kural 43 (Enes 18.11 01:29): İŞ DEFTERİ `python3 invest/isler.py` — zamanlı her iş ve bilanço adımları burada; devirde tek kaynak; iptal yalnız en dar kapsam ve Enes'in aynen sözüyle.
 
-## !!! HESAP DEVRİ BEKLENİYOR (Enes 18.11 20:22): yeni Claude hesabı (etiket B) HESAP_DEVRI.md en üstteki ek bölümle devralacak. B kilidi alana kadar A2 çalışmaya devam eder.
+## !!! HESAP DEVRİ TAMAM (18.11 20:31): B aktif; tur_basi.sh B; bütün görevler bu sohbette (session_01EmZ47ompNeGsaQSXfJ8wHS).
 
 ## !!! Kural 47 (Enes 18.11 18:07): her tweetten sonra Enes'e ÖĞRETİCİ 'Ne anlama geliyor?': terimler, neden önemli, nasıl okunur, Nasdaq/portföy bağlantısı, izlenecek.
 
@@ -55,7 +55,7 @@ Son güncelleme: 18.11.2026 20:15 TSİ. Her tur ve görev sonunda güncellenir (
 - Haftalık/aylık/N günlük ya da adet sınırlı HER iş: önce `python3 periyot.py durum` / `kontrol <anahtar>`, yapınca `python3 periyot.py yap <anahtar> "<not>"` + push. Sözlük cümlesi: `python3 periyot.py sozluk "<Veri>"`. Hafızadan tahmin yok.
 
 ## Hesap
-- AKTIF: A2 (invest/AKTIF_HESAP.md; 18.11 01:21 sohbet devri). Görev mesajları HESAP=A2 ile başlar. Oturum: session_01JKiyukU5wB8Xm26NDD6m99.
+- AKTIF: B (invest/AKTIF_HESAP.md; 18.11 20:26 hesap devri). Görev mesajları HESAP=B ile başlar. Oturum: session_01EmZ47ompNeGsaQSXfJ8wHS. Chrome B hesabında bağlı değil.
 - Chrome: 17.11 15:31 bagli (TradingView ve bulten sayfalari icin). Oturum: session_01JKiyuk5Mhinmn4mL9usBPz (zincir + tek seferlik yayınlar). Sabit görevler bulut (persist_session false).
 
 ## Portföy ve listeler

@@ -269,8 +269,8 @@
    "tur": "bilanco",
    "ticker": "PANW",
    "not": "Enes 13:16 bol tweet",
-   "trigger": "trig_01GJqZnshwfRE7t5Rn72AWkr",
-   "guncelleme": "18.11 13:18"
+   "trigger": "trig_01AAAA5mv5sRkXRkBjC9bQpn",
+   "guncelleme": "18.11 20:26"
   },
   {
    "id": "TUR-1118-2050",
@@ -281,9 +281,9 @@
    "tur": "tur",
    "durum": "kuruldu",
    "not": "",
-   "trigger": "trig_01VjZTCRmEcd4GQ8fQe6X82v",
+   "trigger": "trig_01AMRMSWtMwoi5J6rTmcjB6T",
    "soz": "",
-   "guncelleme": "18.11 20:23"
+   "guncelleme": "18.11 20:26"
   },
   {
    "id": "P-1119-opsiyon",
@@ -294,9 +294,9 @@
    "tur": "bilanco",
    "durum": "kuruldu",
    "not": "Enes 13:16 bol tweet: opsiyon önizleme tweetinde (Önizleme: P) atılır",
-   "trigger": "trig_01Rnf5ghSMjoZ6YMwAiMmGPm",
+   "trigger": "trig_01HeJw7ephr6MnBimTdRGoBV",
    "soz": "",
-   "guncelleme": "18.11 13:18"
+   "guncelleme": "18.11 20:26"
   },
   {
    "id": "P-1118-onizleme",
@@ -307,8 +307,8 @@
    "tur": "bilanco",
    "ticker": "P",
    "not": "Enes 13:16 bol tweet",
-   "trigger": "trig_01Rnf5ghSMjoZ6YMwAiMmGPm",
-   "guncelleme": "18.11 13:18"
+   "trigger": "trig_01BT5Qobuc9ZwB8NamBC165f",
+   "guncelleme": "18.11 20:26"
   },
   {
    "id": "FOMC-1118-tutanak",
@@ -319,9 +319,9 @@
    "tur": "veri",
    "durum": "kuruldu",
    "not": "",
-   "trigger": "trig_012ia6PL13DxXJfhRSq7P4Qc",
+   "trigger": "trig_0159fGYwwA7ZutyYbmqvp4Xe",
    "soz": "",
-   "guncelleme": "18.11 01:35"
+   "guncelleme": "18.11 20:26"
   },
   {
    "id": "PANW-1119-hazirlik",
@@ -332,9 +332,9 @@
    "tur": "bilanco",
    "durum": "kuruldu",
    "not": "",
-   "trigger": "trig_01DMHMXR3FvPpFDjicEd8dBF",
+   "trigger": "trig_01EWZgaCKGZ5aQxqa2eJuBTk",
    "soz": "",
-   "guncelleme": "18.11 01:35"
+   "guncelleme": "18.11 20:26"
   },
   {
    "id": "P-1119-hazirlik",
@@ -345,9 +345,9 @@
    "tur": "bilanco",
    "durum": "kuruldu",
    "not": "",
-   "trigger": "trig_01V6wwjZwnezy5LwJWmw7r2y",
+   "trigger": "trig_01Ajei8ztJPM9ZTat8FL88QH",
    "soz": "",
-   "guncelleme": "18.11 13:18"
+   "guncelleme": "18.11 20:27"
   },
   {
    "id": "PANW-1119-yayin",
@@ -358,9 +358,9 @@
    "tur": "bilanco",
    "durum": "kuruldu",
    "not": "",
-   "trigger": "trig_01EUdWKWhYpmknW4TYBr2Mk1",
+   "trigger": "trig_01JcksJhiVLoPn2kYVZ2M1e7",
    "soz": "",
-   "guncelleme": "18.11 01:35"
+   "guncelleme": "18.11 20:27"
   },
   {
    "id": "P-1119-yayin",
@@ -371,9 +371,9 @@
    "tur": "bilanco",
    "durum": "kuruldu",
    "not": "bülten ~4:05 ET = 00:05 TSİ (Everpure IR geçmiş düzeni); PANW rakamından hemen sonra",
-   "trigger": "trig_014khmUD4ic4yR4X78iuCkcP",
+   "trigger": "trig_01JP3hmkLE8p9UH2Gwi2PUXM",
    "soz": "",
-   "guncelleme": "18.11 13:18"
+   "guncelleme": "18.11 20:27"
   },
   {
    "id": "PANW-1119-analiz",
@@ -384,9 +384,9 @@
    "tur": "bilanco",
    "durum": "kuruldu",
    "not": "Enes 13:16: \"akşam paloalto ve everpure bilançoları önemli, onlarla ilgili bol tweet istiyorum\" -> analiz kural 45, detay 5-7, çağrı 3-4",
-   "trigger": "trig_01RsDxHgT7xgaRmFUhsXZR7K",
+   "trigger": "trig_01ToQdyZDMkuYEkJxtdJfm74",
    "soz": "",
-   "guncelleme": "18.11 01:35"
+   "guncelleme": "18.11 20:27"
   },
   {
    "id": "PANW-1119-detay",
@@ -397,9 +397,9 @@
    "tur": "bilanco",
    "durum": "kuruldu",
    "not": "Enes 13:16: \"akşam paloalto ve everpure bilançoları önemli, onlarla ilgili bol tweet istiyorum\" -> analiz kural 45, detay 5-7, çağrı 3-4",
-   "trigger": "trig_011HVGoNB8eGnu31ggAiKrqf",
+   "trigger": "trig_01Mto5E2QfDn9SgC3FoRLUvZ",
    "soz": "",
-   "guncelleme": "18.11 01:35"
+   "guncelleme": "18.11 20:27"
   },
   {
    "id": "P-1119-analiz",
@@ -410,9 +410,9 @@
    "tur": "bilanco",
    "durum": "kuruldu",
    "not": "kural 45",
-   "trigger": "trig_01KXufJBRrGR4yVVfgewcTyz",
+   "trigger": "trig_01GF7qSGNCjzQwGqVP8MGcLw",
    "soz": "",
-   "guncelleme": "18.11 13:18"
+   "guncelleme": "18.11 20:27"
   },
   {
    "id": "P-1119-detay",
@@ -423,9 +423,9 @@
    "tur": "bilanco",
    "durum": "kuruldu",
    "not": "Enes 13:16: bol tweet, 5-7 detay",
-   "trigger": "trig_01So13GwCGBE9QfM8vBAEP4L",
+   "trigger": "trig_01VdMXhM4yFXuvxHXDG78uam",
    "soz": "",
-   "guncelleme": "18.11 13:18"
+   "guncelleme": "18.11 20:28"
   },
   {
    "id": "WMT-1119-opsiyon",
@@ -436,9 +436,9 @@
    "tur": "bilanco",
    "durum": "kuruldu",
    "not": "11:00 günün başlıklarında atıldıysa (DONGU - OPSIYON: WMT) yapildi yaz ve kapat",
-   "trigger": "trig_015nJX9WY2NLtQxgBZ2ZzkGw",
+   "trigger": "trig_01ThKXRQj4XBNpHBJPfuyGfc",
    "soz": "",
-   "guncelleme": "18.11 01:41"
+   "guncelleme": "18.11 20:28"
   },
   {
    "id": "PANW-1119-cagri",
@@ -449,9 +449,9 @@
    "tur": "bilanco",
    "durum": "kuruldu",
    "not": "Enes 13:16: \"akşam paloalto ve everpure bilançoları önemli, onlarla ilgili bol tweet istiyorum\" -> analiz kural 45, detay 5-7, çağrı 3-4",
-   "trigger": "trig_01MbKwyeK4w6GtF4CVWHLT5K",
+   "trigger": "trig_017DF2u6LEE3mhNkLrqMXRTs",
    "soz": "",
-   "guncelleme": "18.11 01:35"
+   "guncelleme": "18.11 20:28"
   },
   {
    "id": "P-1119-cagri",
@@ -462,9 +462,9 @@
    "tur": "bilanco",
    "durum": "kuruldu",
    "not": "görüşme 18.11 2:00 PM PT = 01:00 TSİ (PR Newswire duyurusu); Enes 13:16: bol tweet, 3-4 konu",
-   "trigger": "trig_01DEd8WGKiXYCRTCRtgbsMqv",
+   "trigger": "trig_012E6eTFXsY82sG1iCANWoCA",
    "soz": "",
-   "guncelleme": "18.11 13:18"
+   "guncelleme": "18.11 20:28"
   },
   {
    "id": "WMT-1119-hazirlik",
@@ -475,9 +475,9 @@
    "tur": "bilanco",
    "durum": "kuruldu",
    "not": "",
-   "trigger": "trig_01GxPAYfQqjZyESjzwcPw6B1",
+   "trigger": "trig_01PsQsX6EN4PxLnvxocg8en7",
    "soz": "",
-   "guncelleme": "18.11 01:41"
+   "guncelleme": "18.11 20:29"
   },
   {
    "id": "WMT-1119-yayin",
@@ -488,9 +488,9 @@
    "tur": "bilanco",
    "durum": "kuruldu",
    "not": "bülten 15:00 TSİ (7:00 ET; Earnings Whispers + Walmart IR 6:00 CT düzeni); O-001 ile doğrula",
-   "trigger": "trig_012WqRvRqu3p8whT1hLz6LMz",
+   "trigger": "trig_01CaXoAzbfPeGZpsvX8wUsn7",
    "soz": "",
-   "guncelleme": "18.11 01:41"
+   "guncelleme": "18.11 20:29"
   },
   {
    "id": "WMT-1119-analiz",
@@ -501,9 +501,9 @@
    "tur": "bilanco",
    "durum": "kuruldu",
    "not": "",
-   "trigger": "trig_01Pi2FKiAXt55EVLrzkhWof2",
+   "trigger": "trig_011hwd1uSSGZZ3DDm9NQ51o8",
    "soz": "",
-   "guncelleme": "18.11 01:41"
+   "guncelleme": "18.11 20:29"
   },
   {
    "id": "WMT-1119-detay",
@@ -514,9 +514,9 @@
    "tur": "bilanco",
    "durum": "kuruldu",
    "not": "",
-   "trigger": "trig_01HLkBPtGomVEDmZbYFV58FN",
+   "trigger": "trig_013XjvVAPQ69LyGuCqPHzL8f",
    "soz": "",
-   "guncelleme": "18.11 01:41"
+   "guncelleme": "18.11 20:29"
   },
   {
    "id": "PANW-1119-beklenen",
@@ -527,9 +527,9 @@
    "tur": "bilanco",
    "durum": "kuruldu",
    "not": "",
-   "trigger": "trig_01SXjfDQkSdGSMbtKwSHaFT4",
+   "trigger": "trig_015GA6B2SFoABk1ugngUtBhU",
    "soz": "",
-   "guncelleme": "18.11 01:35"
+   "guncelleme": "18.11 20:29"
   },
   {
    "id": "WMT-1119-beklenen",
@@ -540,9 +540,9 @@
    "tur": "bilanco",
    "durum": "kuruldu",
    "not": "17:48 (PANW 17:45 ile çakışmasın)",
-   "trigger": "trig_012eGqQidFhcff4PVcH1u8g5",
+   "trigger": "trig_01HzykcokPKJxKDMKExNkBHG",
    "soz": "",
-   "guncelleme": "18.11 01:41"
+   "guncelleme": "18.11 20:30"
   },
   {
    "id": "P-1119-beklenen",
@@ -553,9 +553,9 @@
    "tur": "bilanco",
    "durum": "kuruldu",
    "not": "",
-   "trigger": "trig_01Fw7ENd7jb1ZrdCAa966Spe",
+   "trigger": "trig_01RhoRkSxL7DYTg98zBUvjHi",
    "soz": "",
-   "guncelleme": "18.11 13:18"
+   "guncelleme": "18.11 20:30"
   },
   {
    "id": "WMT-1119-cagri",
@@ -566,9 +566,9 @@
    "tur": "bilanco",
    "durum": "kuruldu",
    "not": "görüşme 16:00 TSİ (8:00 ET; days.to + Walmart IR geçmiş düzeni); 18:00 temel analizle çakışmasın",
-   "trigger": "trig_016py5veMsek2aqihrJsekoi",
+   "trigger": "trig_01Bmn5w79EztPHmmoevGtWPL",
    "soz": "",
-   "guncelleme": "18.11 01:41"
+   "guncelleme": "18.11 20:30"
   }
  ]
 }
