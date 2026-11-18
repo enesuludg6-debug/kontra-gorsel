@@ -9,6 +9,8 @@ Genel tur kuralları (kontrol, kaynak, yazım, kart, paylaşım, kayıt) için `
 
 ## A. Bilanço döngüsü
 
+- KONU FİLTRESİ (kural 46): yalnız yapay zekâ, uzay, Nasdaq/büyük teknoloji şirketleri. Perakende/tüketim/banka/sanayi bilançoları için görev kurulmaz, tweet atılmaz.
+
 Portföy (DOCN RKLB SITM AXON CBRS VRT AVGO) ve ilgi listesi (ON AAOI HOOD TEM CRDO PLTR ISRG ASTS MU + büyük yapay zekâ/yarı iletken/bulut/uzay: NVDA AMD AVGO TSM MSFT GOOGL AMZN META ORCL CRWV SNOW vb.) şirketlerinde öncesi ve sonrası KESİN atılır.
 
 ### 1. Önizleme (1 gün önce akşam ya da bilanço günü sabah)
@@ -58,6 +60,8 @@ $TICKER 3. ÇEYREK BİLANÇOSU
 - Konferans görüşmesinde rehber değişikliği ya da önemli söz çıkarsa ayrı kısa tweet.
 
 ## B. 13F serisi (kesin kural 10)
+
+- KURAL 46 (Enes 18.11 17:12): 13F tweetinde yalnız fonun yapay zekâ / uzay / teknoloji hamleleri; bu alanda anlamlı hamlesi olmayan fon atlanır. Bilanço önizleme/rakam/analiz de yalnız bu alandaki şirketler için (perakende, banka, sanayi vb. yok).
 
 - Ne zaman: her çeyreğin 13F son gününden sonraki ilk turlarda Enes'e SORMADAN başlar: yaklaşık 14-17 Şubat, 15-18 Mayıs, 14-17 Ağustos, 14-17 Kasım (tatil/hafta sonu ise sonraki iş günü).
 - Her otomatik turda 1 kişi, her kişi ayrı tweet; seri o günlerde öncelikli konu, son dakika ve bilanço araya girer.

@@ -22,6 +22,8 @@ Bilanço önizleme/rakam/analiz ve 13F serisi için `enes-bilanco-13f`, portföy
 
 ## 2. Konu seçimi (öncelik sırası)
 
+0. KONU FİLTRESİ (kesin kural 46, Enes 18.11 17:12): yalnız YAPAY ZEKÂ (çip, bellek/depolama, ağ, bulut/neocloud, veri merkezi enerjisi, yapay zekâ yazılımı/siber güvenlik), UZAY ve NASDAQ (Nasdaq 100, büyük teknoloji, endeks) + bunlara etkisiyle makro (Fed, faiz, enflasyon). Perakende/tüketim (Target, Walmart, Lowe's, HD, TJX...), banka, sanayi, ilaç, konut, enerji/emtia ALAN DIŞI: tweet yok.
+
 1. Takvimdeki bilanço/veri açıklandıysa (günün başlıkları listesi dahil, bölüm 9): önce yorumsuz RAKAM tweeti (format aşağıda), 15 dk sonra yorumlu analiz turu.
 2. Son dakika (son 1-3 saat): SEC 8-K/Form 4, IR bültenleri, Reuters/CNBC/Bloomberg/Benzinga, analist notları (TheFly, StreetInsider, MarketBeat, TipRanks).
 3. Sezona bağlı seri: 13F serisi (Şubat/Mayıs/Ağustos/Kasım ortası; her turda 1 yatırımcı; DONGU'daki "13F SERİSİ: ... / sıradaki" satırını izle).

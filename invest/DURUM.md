@@ -3,6 +3,8 @@ Son güncelleme: 18.11.2026 16:58 TSİ. Her tur ve görev sonunda güncellenir (
 
 ## !!! Kural 43 (Enes 18.11 01:29): İŞ DEFTERİ `python3 invest/isler.py` — zamanlı her iş ve bilanço adımları burada; devirde tek kaynak; iptal yalnız en dar kapsam ve Enes'in aynen sözüyle.
 
+## !!! Kural 46 (Enes 18.11 17:12): KONU FİLTRESİ: yalnız YAPAY ZEKÂ, UZAY, NASDAQ (+ bunları etkileyen makro). Perakende/tüketim/banka/sanayi/ilaç vb. tweet YOK. 13F'te yalnız teknoloji hamleleri; Pabrai, Icahn atlandı.
+
 ## BUGÜNLÜK 18.11 (Enes 15:39): Target (TGT) hakkında bugün başka tweet YOK; TGT beklenen ve çağrı iptal. Haklar diğer konulara. Yalnız 18.11 için.
 
 ## !!! Kural 11-B (Enes 18.11 14:55): HER tweetten önce `python3 invest/yasak.py` taraması; çıkış 1 = ATMA. 'Benim görüşüm:', 'Not:' ve paragraf başı 'X:' yasak.
@@ -70,7 +72,7 @@ NDX 26.990 (4s ST AL) / 26.600 kritik | DOCN k1 72-74 k2 69-70 tez hf<69,8 | RKL
 - Son 3 düzen: editoryal (NVDA bilanco sonrasi), ilerleme (TJX 3, dortlu (13F Himalaya Li Lu Q). ceyrek). ceyrek). ceyrek analiz). ceyrek rakam).). ceyrek anali). ceyrek tam f). ceyrek). LOGO_BUYUT 1.8, küçültme YOK; bento ve skor kare logoyu taşımıyor → bilanço rakamı uclu.
 
 ## 13F serisi (Q3 2026)
-Atılanlar: Berkshire, Ackman, Druckenmiller, Tepper, Soros, Third Point/Loeb. Atıldı: Greenlight, Coatue (18.11 11:17), Tiger Global (18.11 12:07), Baupost (18.11 13:57), Himalaya (18.11 16:58). Sıradaki: Pabrai → Icahn → Bridgewater → Lone Pine/Viking. Bitince Enes'e özet. Burry yok (SEC kaydı silindi).
+Atılanlar: Berkshire, Ackman, Druckenmiller, Tepper, Soros, Third Point/Loeb. Atıldı: Greenlight, Coatue (18.11 11:17), Tiger Global (18.11 12:07), Baupost (18.11 13:57), Himalaya (18.11 16:58). Sıradaki (kural 46): Lone Pine → Viking → Bridgewater (yalnız teknoloji hamleleri); Pabrai, Icahn atlandı. Bitince Enes'e özet. Burry yok (SEC kaydı silindi).
 
 ## Bugün / yarın (takvim.md ayrıntılı)
 - 17.11: HD yayın 13:58, DIS yayın 14:38, vadeli ~15:00-15:25, perakende satış hazırlık 15:40 yayın 16:28, teknik 18:00, teknik 23:30, NVDA hazırlık 23:25 yayın 00:18 (+15 dk analiz; 12:22 önizleme tahminleriyle kıyas: gelir 111-113, DC 103-105, GM %74,2-74,5, HBK 2,53-2,58; Q4 rehber 122-126, marj ~%72).

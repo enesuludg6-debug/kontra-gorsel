@@ -21,3 +21,5 @@
 - ENES 18.11 13:16: "akşam paloalto ve everpure bilançoları önemli, onlarla ilgili bol tweet istiyorum" -> PANW ve Everpure (P) için: önizleme tweeti (20:30 / 21:15), rakam, kural 45 detaylı analiz, 5-7 detay tweeti, ertesi sabah 3-4 görüşme tweeti, beklenen hareket. Kalite kuralları (2 kaynak) aynen.
 
 - KURAL 11-B (Enes 18.11 14:55): her create_post'tan önce `python3 invest/yasak.py <<'EOF' metin EOF`; 'YASAK VAR' çıkarsa atma, düzelt, tekrar tara. 'Benim görüşüm:' / 'Not:' / paragraf başı 'X:' kesin yasak.
+
+- KURAL 46 (Enes 18.11 17:12): konu yalnız yapay zekâ / uzay / Nasdaq (+ Nasdaq'a etkisiyle makro). Perakende, tüketim, banka, sanayi, ilaç, konut vb. ATMA. 13F'te yalnız teknoloji hamleleri. Bilanço görevi yalnız izinli alandaki şirketlere kurulur.
