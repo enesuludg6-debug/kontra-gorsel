@@ -3,6 +3,8 @@ Son güncelleme: 18.11.2026 18:08 TSİ. Her tur ve görev sonunda güncellenir (
 
 ## !!! Kural 43 (Enes 18.11 01:29): İŞ DEFTERİ `python3 invest/isler.py` — zamanlı her iş ve bilanço adımları burada; devirde tek kaynak; iptal yalnız en dar kapsam ve Enes'in aynen sözüyle.
 
+## !!! Kural 47 (Enes 18.11 18:07): her tweetten sonra Enes'e ÖĞRETİCİ 'Ne anlama geliyor?': terimler, neden önemli, nasıl okunur, Nasdaq/portföy bağlantısı, izlenecek.
+
 ## !!! Kural 46 (Enes 18.11 17:12): KONU FİLTRESİ: yalnız YAPAY ZEKÂ, UZAY, NASDAQ (+ bunları etkileyen makro). Perakende/tüketim/banka/sanayi/ilaç vb. tweet YOK. 13F'te yalnız teknoloji hamleleri; Pabrai, Icahn atlandı. İSTİSNA: WMT 19.11 görevleri kalır (Enes 17:16), analiz/detayda MAKRO bölüm zorunlu (tüketici, enflasyon/tarife, Fed ve Nasdaq'a etkisi).
 
 ## BUGÜNLÜK 18.11 (Enes 15:39): Target (TGT) hakkında bugün başka tweet YOK; TGT beklenen ve çağrı iptal. Haklar diğer konulara. Yalnız 18.11 için.

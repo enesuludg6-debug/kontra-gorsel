@@ -113,6 +113,8 @@ Hata durumları: Bash "classifier no verdict" → 1 kez tekrar, olmazsa o tur pa
 
 ## 7. Kayıt ve sonraki tur
 
+- KURAL 47 (Enes 18.11 18:07): her tweetten sonra Enes'e 'Paylaşıldı (SS:DD): TÜR' + metin + ÖĞRETİCİ 'Ne anlama geliyor?' (terimler sade dille, neden önemli, benzer haber nasıl okunur, Nasdaq/portföy bağlantısı, izlenecek 1-2 şey).
+
 1. `DONGU.md`'ye satır: `- SS:DD (GG.AA) AUTO (TÜR): dosya.jpg (düzen) - rakamlar (kaynaklar). Tek kaynak (atılmadı): ... Buffer <id>. Son 3 düzen: a, b, c.` 13F'de ayrıca `- 13F SERİSİ: <isim> atıldı / sıradaki: <isim>`.
 2. commit + push.
 3. `python3 -c "import random;print(random.randint(20,40))"` ile gecikme; `send_later` adı "Otomatik paylaşım turu", mesaj = önceki tur mesajı, yalnız bu turun konusu, sıradaki konu/isim, son 3 düzen ve saatler güncellenir. 01:00 sonrasına düşerse 09:05.
