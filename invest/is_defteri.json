@@ -261,6 +261,43 @@
    "guncelleme": "18.11 01:35"
   },
   {
+   "id": "PANW-1118-onizleme",
+   "ad": "Önizleme: PANW",
+   "zaman": "2026-11-18T20:30",
+   "ne": "Bilanço önizleme tweeti (beklentiler 2 kaynak, opsiyon %11, son çeyrekler, izlenecek 3 metrik, görüş)",
+   "durum": "kuruldu",
+   "tur": "bilanco",
+   "ticker": "PANW",
+   "not": "Enes 13:16 bol tweet",
+   "trigger": "trig_01GJqZnshwfRE7t5Rn72AWkr",
+   "guncelleme": "18.11 13:18"
+  },
+  {
+   "id": "P-1119-opsiyon",
+   "ad": "Opsiyon: P",
+   "zaman": "2026-11-18T21:15",
+   "ne": "Kural 39: opsiyonların fiyatladığı hareket (±%, 2 kaynak) açıklamadan önce en az bir tweette; DONGU '- OPSIYON: T'",
+   "ticker": "P",
+   "tur": "bilanco",
+   "durum": "kuruldu",
+   "not": "Enes 13:16 bol tweet: opsiyon önizleme tweetinde (Önizleme: P) atılır",
+   "trigger": "trig_01Rnf5ghSMjoZ6YMwAiMmGPm",
+   "soz": "",
+   "guncelleme": "18.11 13:18"
+  },
+  {
+   "id": "P-1118-onizleme",
+   "ad": "Önizleme: P",
+   "zaman": "2026-11-18T21:15",
+   "ne": "Everpure bilanço önizleme tweeti (beklentiler 2 kaynak, opsiyon beklenen hareket 2 kaynak, rehber, izlenecek metrikler, görüş)",
+   "durum": "kuruldu",
+   "tur": "bilanco",
+   "ticker": "P",
+   "not": "Enes 13:16 bol tweet",
+   "trigger": "trig_01Rnf5ghSMjoZ6YMwAiMmGPm",
+   "guncelleme": "18.11 13:18"
+  },
+  {
    "id": "FOMC-1118-tutanak",
    "ad": "FOMC tutanakları",
    "zaman": "2026-11-18T22:00",
@@ -287,6 +324,19 @@
    "guncelleme": "18.11 01:35"
   },
   {
+   "id": "P-1119-hazirlik",
+   "ad": "Hazırlık: P",
+   "zaman": "2026-11-18T23:15",
+   "ne": "Kural 16: beklentiler 2 kaynak, CRWV iskeleti, /tmp/hazir_T.py kart, bülten URL'leri",
+   "ticker": "P",
+   "tur": "bilanco",
+   "durum": "kuruldu",
+   "not": "",
+   "trigger": "trig_01V6wwjZwnezy5LwJWmw7r2y",
+   "soz": "",
+   "guncelleme": "18.11 13:18"
+  },
+  {
    "id": "PANW-1119-yayin",
    "ad": "Yayın: PANW bilanço",
    "zaman": "2026-11-19T00:03",
@@ -300,6 +350,19 @@
    "guncelleme": "18.11 01:35"
   },
   {
+   "id": "P-1119-yayin",
+   "ad": "Yayın: P bilanço",
+   "zaman": "2026-11-19T00:05",
+   "ne": "Kural 16 + O-011: rakam tweeti tam CRWV formatı, 3-5 dk içinde; Yahoo canlı blog/CNBC yedek",
+   "ticker": "P",
+   "tur": "bilanco",
+   "durum": "kuruldu",
+   "not": "bülten ~4:05 ET = 00:05 TSİ (Everpure IR geçmiş düzeni); PANW rakamından hemen sonra",
+   "trigger": "trig_014khmUD4ic4yR4X78iuCkcP",
+   "soz": "",
+   "guncelleme": "18.11 13:18"
+  },
+  {
    "id": "PANW-1119-analiz",
    "ad": "Analiz: PANW bilanço",
    "zaman": "2026-11-19T00:20",
@@ -307,7 +370,7 @@
    "ticker": "PANW",
    "tur": "bilanco",
    "durum": "kuruldu",
-   "not": "",
+   "not": "Enes 13:16: \"akşam paloalto ve everpure bilançoları önemli, onlarla ilgili bol tweet istiyorum\" -> analiz kural 45, detay 5-7, çağrı 3-4",
    "trigger": "trig_01RsDxHgT7xgaRmFUhsXZR7K",
    "soz": "",
    "guncelleme": "18.11 01:35"
@@ -320,10 +383,36 @@
    "ticker": "PANW",
    "tur": "bilanco",
    "durum": "kuruldu",
-   "not": "",
+   "not": "Enes 13:16: \"akşam paloalto ve everpure bilançoları önemli, onlarla ilgili bol tweet istiyorum\" -> analiz kural 45, detay 5-7, çağrı 3-4",
    "trigger": "trig_011HVGoNB8eGnu31ggAiKrqf",
    "soz": "",
    "guncelleme": "18.11 01:35"
+  },
+  {
+   "id": "P-1119-analiz",
+   "ad": "Analiz: P bilanço",
+   "zaman": "2026-11-19T00:40",
+   "ne": "Kural 25: kapsamlı analiz tweeti",
+   "ticker": "P",
+   "tur": "bilanco",
+   "durum": "kuruldu",
+   "not": "kural 45",
+   "trigger": "trig_01KXufJBRrGR4yVVfgewcTyz",
+   "soz": "",
+   "guncelleme": "18.11 13:18"
+  },
+  {
+   "id": "P-1119-detay",
+   "ad": "Detay: P",
+   "zaman": "2026-11-19T01:15",
+   "ne": "Kural 41: belgeden 2-7 AYRI detay tweeti, BEKLEMEDEN (gece dahil), aralık serbest",
+   "ticker": "P",
+   "tur": "bilanco",
+   "durum": "kuruldu",
+   "not": "Enes 13:16: bol tweet, 5-7 detay",
+   "trigger": "trig_01So13GwCGBE9QfM8vBAEP4L",
+   "soz": "",
+   "guncelleme": "18.11 13:18"
   },
   {
    "id": "WMT-1119-opsiyon",
@@ -346,10 +435,23 @@
    "ticker": "PANW",
    "tur": "bilanco",
    "durum": "kuruldu",
-   "not": "",
+   "not": "Enes 13:16: \"akşam paloalto ve everpure bilançoları önemli, onlarla ilgili bol tweet istiyorum\" -> analiz kural 45, detay 5-7, çağrı 3-4",
    "trigger": "trig_01MbKwyeK4w6GtF4CVWHLT5K",
    "soz": "",
    "guncelleme": "18.11 01:35"
+  },
+  {
+   "id": "P-1119-cagri",
+   "ad": "Çağrı: P",
+   "zaman": "2026-11-19T12:10",
+   "ne": "Kural 40: görüşme önemli yerleri, gece bilançosunda AYNI SABAH, her konu ayrı tweet",
+   "ticker": "P",
+   "tur": "bilanco",
+   "durum": "kuruldu",
+   "not": "görüşme 18.11 2:00 PM PT = 01:00 TSİ (PR Newswire duyurusu); Enes 13:16: bol tweet, 3-4 konu",
+   "trigger": "trig_01DEd8WGKiXYCRTCRtgbsMqv",
+   "soz": "",
+   "guncelleme": "18.11 13:18"
   },
   {
    "id": "WMT-1119-hazirlik",
@@ -428,6 +530,19 @@
    "trigger": "trig_012eGqQidFhcff4PVcH1u8g5",
    "soz": "",
    "guncelleme": "18.11 01:41"
+  },
+  {
+   "id": "P-1119-beklenen",
+   "ad": "Beklenen hareket: P",
+   "zaman": "2026-11-19T17:50",
+   "ne": "Kural 22n/39: opsiyon fiyatlaması vs açılıştaki gerçek hareket",
+   "ticker": "P",
+   "tur": "bilanco",
+   "durum": "kuruldu",
+   "not": "",
+   "trigger": "trig_01Fw7ENd7jb1ZrdCAa966Spe",
+   "soz": "",
+   "guncelleme": "18.11 13:18"
   },
   {
    "id": "WMT-1119-cagri",
