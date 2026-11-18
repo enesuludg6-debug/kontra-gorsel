@@ -13,6 +13,9 @@ Genel tur kuralları (kontrol, kaynak, yazım, kart, paylaşım, kayıt) için `
 
 Portföy (DOCN RKLB SITM AXON CBRS VRT AVGO) ve ilgi listesi (ON AAOI HOOD TEM CRDO PLTR ISRG ASTS MU + büyük yapay zekâ/yarı iletken/bulut/uzay: NVDA AMD AVGO TSM MSFT GOOGL AMZN META ORCL CRWV SNOW vb.) şirketlerinde öncesi ve sonrası KESİN atılır.
 
+### 0. Konsensüs beklenti tweeti (kural 49)
+KURAL 49 (Enes 18.11 22:16: 'bizim yatırımcılık tarzımıza uyan tüm hisseler için bilanço açıklanmadan önce konsensüs beklentilerini tweet at bu şekilde kısaca'): kural 46 alanındaki (yapay zekâ / uzay / Nasdaq teknoloji + portföy, ilgi listesi, büyük takip; WMT 19.11 istisnası dahil) HER bilançodan önce AYRI, KISA bir konsensüs tweeti. Zaman: HAZIRLIK görevi içinde, açıklamadan 30-60 dk önce (önizleme tweeti olsa da ayrıca atılır; 3 saat ticker kuralına takılmaz, Enes'in açık isteği). Kart: kart2.beklenti(ticker, şirket adı, 'Mali YYYY • N. çeyrek', 'GG Ay, açılış öncesi/kapanış sonrası (TSİ ~SS:DD)', [(metrik, konsensüs, alt not)], kaynak, out) — büyük logo + Metrik/Konsensüs tablosu; satırlar gelir + hisse başı kâr (+ şirkete özgü 1-2 KPI ya da şirket rehberi). Metin 2-4 kısa satır, yorumsuz: '$T bu gece/yarın sabah ... bilançosunu açıklıyor. Piyasa beklentisi gelirde X, hisse başı kârda Y.' + varsa şirket rehberi ve opsiyon hareketi tek cümle. Her rakam 2 kaynak. DONGU '- BEKLENTI: T'.
+
 ### 1. Önizleme (1 gün önce akşam ya da bilanço günü sabah)
 Enes'in 17.11 NVDA isteği bu formatın örneğidir: "çok profesyonel, bilanço tahmincisi gibi, benim aklıma gelmeyen metrikleri de araştır". Tek uzun tweet (Enes flood istemezse). İçerik sırası, başlıksız akan paragraflar:
 1. Bağlam cümlesi: ne zaman, neden önemli, hisse son dönemde ne yaptı.

@@ -1052,3 +1052,32 @@ def panel(sol, sag, kicker, baslik, satirlar, cubuk, kaynak, out, notu=""):
         d.text((M, H - 170), notu, font=sans(28, "Medium"), fill=MUT, anchor="ls")
     _footer(img, kaynak, ink=INK, muted=MUT, line=LINE, acc=GOLD)
     return _save(img, out, grain=False)
+
+
+# BEKLENTİ — bilanço öncesi kısa konsensüs tablosu (kural 49, Enes 18.11 22:16)
+def beklenti(ticker, sirket, ceyrek, tarih_saat, satirlar, kaynak, out):
+    """satirlar: [(metrik, konsensüs, not_ya_da_'')] 2-4 satır. Büyük logo + sade tablo."""
+    br = _brand(ticker, (212, 175, 105))
+    img = _lin(W, H, (16, 16, 20), (6, 6, 8), diag=False); d = ImageDraw.Draw(img)
+    _pill(d, (72, 64), f"{ticker.lstrip('$')} • BİLANÇO BEKLENTİSİ", br)
+    lg = _logo(ticker, 230)
+    y = 150
+    if lg:
+        img.paste(lg, ((W - lg.width) // 2, y), lg); y += lg.height + 40
+    for txt, fs, col in ((sirket, 64, (255, 255, 255)), (ceyrek, 40, br), (tarih_saat, 32, (170, 170, 180))):
+        f = sans(fs, "Black" if fs == 64 else "SemiBold")
+        d.text((W // 2, y), txt, font=f, fill=col, anchor="mt"); y += int(fs * 1.35)
+    y += 30
+    d.rounded_rectangle((72, y, W - 72, y + 84), 18, fill=br)
+    d.text((110, y + 42), "Metrik", font=sans(34, "Bold"), fill=(10, 10, 12), anchor="lm")
+    d.text((W - 110, y + 42), "Konsensüs", font=sans(34, "Bold"), fill=(10, 10, 12), anchor="rm")
+    y += 100; rh = min(150, (H - 170 - y) / max(1, len(satirlar)))
+    for m, v, n in satirlar[:4]:
+        d.rounded_rectangle((72, y, W - 72, y + rh - 16), 18, fill=(28, 28, 34))
+        cy = y + (rh - 16) / 2
+        d.text((110, cy - (14 if n else 0)), m, font=sans(40, "Bold"), fill=(235, 235, 240), anchor="lm")
+        if n: d.text((110, cy + 28), n, font=sans(26, "Medium"), fill=(150, 150, 160), anchor="lm")
+        d.text((W - 110, cy), v, font=sans(64, "Black"), fill=(255, 255, 255), anchor="rm")
+        y += rh
+    _footer(img, kaynak, acc=br)
+    return _save(img, out)
