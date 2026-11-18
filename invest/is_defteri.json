@@ -330,11 +330,24 @@
    "ne": "Serbest tur; öncelik son dakika, yoksa 13F Viking",
    "ticker": "",
    "tur": "tur",
-   "durum": "kuruldu",
+   "durum": "yapildi",
    "not": "",
    "trigger": "trig_01KryuPxwi9LGfRVYw8iFTSj",
    "soz": "",
-   "guncelleme": "18.11 20:51"
+   "guncelleme": "18.11 22:27"
+  },
+  {
+   "id": "TUR-1118-2250",
+   "ad": "Otomatik paylaşım turu",
+   "zaman": "2026-11-18T22:50",
+   "ne": "Son dakika öncelikli tur (kural 48)",
+   "ticker": "",
+   "tur": "tur",
+   "durum": "kuruldu",
+   "not": "",
+   "trigger": "trig_01EHiKZk8nmzuAQKfUeLMAxz",
+   "soz": "",
+   "guncelleme": "18.11 22:27"
   },
   {
    "id": "PANW-1119-hazirlik",
