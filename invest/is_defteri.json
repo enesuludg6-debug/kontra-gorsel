@@ -577,11 +577,24 @@
    "ne": "Son dakika + portföy taraması",
    "ticker": "",
    "tur": "tur",
-   "durum": "kuruldu",
+   "durum": "yapildi",
    "not": "",
    "trigger": "trig_01NPXRZGjsf4rBa4kGdLvpcL",
    "soz": "",
-   "guncelleme": "19.11 11:52"
+   "guncelleme": "19.11 12:37"
+  },
+  {
+   "id": "TUR-1119-1300",
+   "ad": "Otomatik paylaşım turu",
+   "zaman": "2026-11-19T13:00",
+   "ne": "Son dakika; RKLB; Bridgewater",
+   "ticker": "",
+   "tur": "tur",
+   "durum": "kuruldu",
+   "not": "",
+   "trigger": "trig_013rQxkGNU24Q8LKMGa8AQyJ",
+   "soz": "",
+   "guncelleme": "19.11 12:37"
   },
   {
    "id": "BABA-1119-yayin",
