@@ -130,3 +130,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 19.11 | 15:32 | detay | WMT detay: ilaç fiyat düzenlemesi ve GLP-1 | split | 6afeec462b33bbf880bb151f |
 | 19.11 | 15:38 | detay | WMT detay: düzeltilmiş faaliyet kârı temposu 17;4 -> 5;5 | spotlight | 6afeec482d4643e56c937866 |
 | 19.11 | 15:44 | detay | WMT detay: üyelik +%17 ve 120 $ paket | zaman | 6afeec495eafbd656fdd9b20 |
+| 19.11 | 15:48 | son-dakika | PANW ön piyasa +%9; siber güvenlik rallisi | uclu | 6afef012d541877eb93a6454 |
