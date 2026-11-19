@@ -928,11 +928,24 @@
    "ne": "Son dakika; AMD yanıtı; Cerebras; 13F",
    "ticker": "",
    "tur": "tur",
-   "durum": "kuruldu",
+   "durum": "yapildi",
    "not": "",
    "trigger": "trig_014DYWhY1WUyfqDGJNA5Gx32",
    "soz": "",
-   "guncelleme": "19.11 21:47"
+   "guncelleme": "19.11 22:16"
+  },
+  {
+   "id": "TUR-1119-2240",
+   "ad": "Otomatik paylaşım turu",
+   "zaman": "2026-11-19T22:40",
+   "ne": "Son dakika; ilgi listesi; 13F",
+   "ticker": "",
+   "tur": "tur",
+   "durum": "kuruldu",
+   "not": "",
+   "trigger": "trig_01WMRmeb11AFsLLfaMcWoyyf",
+   "soz": "",
+   "guncelleme": "19.11 22:16"
   },
   {
    "id": "INTU-1120-hazirlik",
@@ -946,6 +959,19 @@
    "trigger": "trig_01R8LtGMfjJzC7uHWqafsYCD",
    "soz": "",
    "guncelleme": "19.11 09:02"
+  },
+  {
+   "id": "TUR-1119-2335",
+   "ad": "Otomatik paylaşım turu",
+   "zaman": "2026-11-19T23:35",
+   "ne": "Kapanış özeti",
+   "ticker": "",
+   "tur": "tur",
+   "durum": "kuruldu",
+   "not": "",
+   "trigger": "trig_01B9hUjG1ostZStny3KCp5Wb",
+   "soz": "",
+   "guncelleme": "19.11 22:16"
   },
   {
    "id": "INTU-1120-yayin",

@@ -144,3 +144,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 19.11 | 21:06 | 13f | Point72 MSFT NVDA artırdı AMD TSMC azalttı | uclu | 6aff3ab7ed6071e709915556 |
 | 19.11 | 21:46 | son-dakika | AMD Hunterbrook açığa satış -9 | spotlight | 6aff440fd9396e656819f13a |
 | 19.11 | 21:58 | son-dakika | Anthropic halka arz + 2;5 Tr silinen değer (ENES İSTEĞİ) | editoryal | 6aff46e0182c0ff41176a9c5 |
+| 19.11 | 22:16 | son-dakika | AMD Hunterbrook yanıtı (takip) | zaman | 6aff4af8ff0f4be226851b65 |
