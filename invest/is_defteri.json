@@ -525,11 +525,11 @@
    "ne": "Açılış öncesi hareketler; 13F Viking",
    "ticker": "",
    "tur": "tur",
-   "durum": "kuruldu",
+   "durum": "yapildi",
    "not": "",
    "trigger": "trig_013qQ3M122PuzbN6fqzsR9o7",
    "soz": "",
-   "guncelleme": "19.11 11:26"
+   "guncelleme": "19.11 11:52"
   },
   {
    "id": "P-1119-cagri",
@@ -543,6 +543,19 @@
    "trigger": "trig_012E6eTFXsY82sG1iCANWoCA",
    "soz": "",
    "guncelleme": "18.11 20:28"
+  },
+  {
+   "id": "TUR-1119-1235",
+   "ad": "Otomatik paylaşım turu",
+   "zaman": "2026-11-19T12:35",
+   "ne": "Son dakika + portföy taraması",
+   "ticker": "",
+   "tur": "tur",
+   "durum": "kuruldu",
+   "not": "",
+   "trigger": "trig_01NPXRZGjsf4rBa4kGdLvpcL",
+   "soz": "",
+   "guncelleme": "19.11 11:52"
   },
   {
    "id": "WMT-1119-hazirlik",
