@@ -435,3 +435,4 @@ Durdurmak için en alta `DURDUR` yazılı bir satır ekle (Enes ya da Claude, En
 - 13:36 (19.11) ENES 13:35 KURAL 51: bilanço tweetlerinde dönem 'Eylül 2026 çeyreği (mali 2027 2. çeyrek)' biçiminde.
 - 13:38 (19.11) AUTO (portfoy): g/20261119_1340_rklb_neutron.jpg (editoryal) -  Buffer 6afed1b6ffd0192517a92bde. Son 3 duzen: terminal, uclu, editoryal.
 - 13:47 (19.11) AUTO (bilanco-analiz): g/20261119_1350_baba_analiz.jpg (spotlight) -  Buffer 6afed3a8528b203593ecc2bc. Son 3 duzen: uclu, editoryal, spotlight.
+- 14:01 (19.11) AUTO (beklenti): g/20261119_1402_wmt_beklenti.jpg (beklenti) - - BEKLENTI: WMT 14:01 Buffer 6afed6f67c25de751c34e374. Son 3 duzen: editoryal, spotlight, beklenti.

@@ -120,3 +120,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 19.11 | 13:16 | bilanco-rakam | BABA mali 2027 Q2 rakamları | uclu | 6afecc95ec3834f154504283 |
 | 19.11 | 13:38 | portfoy | RKLB: Neutron fiyat 70 Mn; 16 görev | editoryal | 6afed1b6ffd0192517a92bde |
 | 19.11 | 13:47 | bilanco-analiz | BABA Eylül 2026 çeyreği analiz | spotlight | 6afed3a8528b203593ecc2bc |
+| 19.11 | 14:01 | beklenti | WMT bilanço beklentisi | beklenti | 6afed6f67c25de751c34e374 |
