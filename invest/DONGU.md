@@ -425,3 +425,4 @@ Durdurmak için en alta `DURDUR` yazılı bir satır ekle (Enes ya da Claude, En
 - 12:02 (19.11) AUTO (beklenti): g/20261119_1206_baba_beklenti.jpg (beklenti) - - BEKLENTI: BABA 12:02 Buffer 6afebb054ad8a97b3a2d1698. Son 3 duzen: terminal, dortlu, beklenti.
 - OPSIYON: BABA ±%7 (TipRanks + regardsofwallstreet)
 - 12:12 (19.11) AUTO (cagri): g/20261119_1216_p_c1.jpg (spotlight) - - CAGRI: P hyperscaler marjı %75-85 Buffer 6afebd8073dee41859366c49. Son 3 duzen: dortlu, beklenti, spotlight.
+- 12:20 (19.11) AUTO (cagri): g/20261119_1213_p_c2.jpg (split) - - CAGRI: P NAND maliyeti yüksek kalacak Buffer 6afebd834ad8a97b3a2e5ccd. Son 3 duzen: beklenti, spotlight, split.
