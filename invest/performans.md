@@ -135,3 +135,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 19.11 | 16:41 | cagri | BABA çağrı: yerli çip ana motor | split | 6afefca3b3b455c2f570013f |
 | 19.11 | 16:52 | cagri | BABA çağrı: nakit takvimi 2028 2. yarı | zaman | 6afefca503dff68ab45c3e12 |
 | 19.11 | 17:07 | vadeli | Açılış öncesi vadeliler; 10 yıllık %5; Fed tutanakları | isi | 6aff02b2abf4ba608b78c9d5 |
+| 19.11 | 17:46 | beklenen | PANW P BABA WMT opsiyon vs gercek tek tweet | dortlu | 6aff0bd8b3b455c2f5783672 |

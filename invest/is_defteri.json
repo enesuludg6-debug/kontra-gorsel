@@ -772,11 +772,11 @@
    "ne": "Kural 22n/39: opsiyon fiyatlaması vs açılıştaki gerçek hareket",
    "ticker": "PANW",
    "tur": "bilanco",
-   "durum": "kuruldu",
+   "durum": "yapildi",
    "not": "",
    "trigger": "trig_015GA6B2SFoABk1ugngUtBhU",
    "soz": "",
-   "guncelleme": "18.11 20:29"
+   "guncelleme": "19.11 17:46"
   },
   {
    "id": "BABA-1119-beklenen",
@@ -785,11 +785,11 @@
    "ne": "Kural 22n/39: opsiyon fiyatlaması vs açılıştaki gerçek hareket",
    "ticker": "BABA",
    "tur": "bilanco",
-   "durum": "kuruldu",
+   "durum": "yapildi",
    "not": "",
    "trigger": "trig_017pwuo7ZeukTkCsCM6tauwD",
    "soz": "",
-   "guncelleme": "19.11 12:02"
+   "guncelleme": "19.11 17:46"
   },
   {
    "id": "WMT-1119-beklenen",
@@ -798,11 +798,11 @@
    "ne": "Kural 22n/39: opsiyon fiyatlaması vs açılıştaki gerçek hareket",
    "ticker": "WMT",
    "tur": "bilanco",
-   "durum": "kuruldu",
+   "durum": "yapildi",
    "not": "17:48 (PANW 17:45 ile çakışmasın)",
    "trigger": "trig_01HzykcokPKJxKDMKExNkBHG",
    "soz": "",
-   "guncelleme": "18.11 20:30"
+   "guncelleme": "19.11 17:46"
   },
   {
    "id": "P-1119-beklenen",
@@ -811,11 +811,11 @@
    "ne": "Kural 22n/39: opsiyon fiyatlaması vs açılıştaki gerçek hareket",
    "ticker": "P",
    "tur": "bilanco",
-   "durum": "kuruldu",
+   "durum": "yapildi",
    "not": "",
    "trigger": "trig_01RhoRkSxL7DYTg98zBUvjHi",
    "soz": "",
-   "guncelleme": "18.11 20:30"
+   "guncelleme": "19.11 17:46"
   },
   {
    "id": "INTU-1120-opsiyon",

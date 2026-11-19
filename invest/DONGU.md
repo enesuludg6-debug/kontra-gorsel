@@ -452,3 +452,4 @@ Durdurmak için en alta `DURDUR` yazılı bir satır ekle (Enes ya da Claude, En
 - 16:52 (19.11) AUTO (cagri): g/20261119_1644_baba_c2.jpg (zaman) - - CAGRI: BABA nakit takvimi 2028 2. yarı Buffer 6afefca503dff68ab45c3e12. Son 3 duzen: editoryal, split, zaman.
 - 17:07 (19.11) AUTO (vadeli): g/20261119_1708_vadeli.jpg (isi) -  Buffer 6aff02b2abf4ba608b78c9d5. Son 3 duzen: split, zaman, isi.
 - 17:42 (19.11) ENES 17:39 KURAL 52: 'okuyorum/okumam/okunuşu/olarak okumak' kalıpları yasak; yasak.py + gorus.py güncellendi; DURUM, _ORTAK, DEVIR_TAM, skills. Daha önce atılanlarda geçenler: BABA analiz 13:47 'okunuşu şu', BABA çağrı 16:52 'dürüst bir takvim olarak okuyorum', P detay 01:30 'okumak gerekiyor' (silinmedi).
+- 17:46 (19.11) AUTO (beklenen): g/20261119_1750_beklenen4.jpg (dortlu) - - BEKLENEN: PANW P BABA WMT (dordu de fiyatlananin altinda; 17:48/17:50/17:53 gorevleri bu tweetle kapandi) Buffer 6aff0bd8b3b455c2f5783672. Son 3 duzen: zaman, isi, dortlu.
