@@ -759,11 +759,11 @@
    "ne": "Açılış öncesi son durum",
    "ticker": "",
    "tur": "tur",
-   "durum": "kuruldu",
+   "durum": "yapildi",
    "not": "",
    "trigger": "trig_0194wHdn7iBQd6NWWW3jbUK5",
    "soz": "",
-   "guncelleme": "19.11 16:21"
+   "guncelleme": "19.11 17:08"
   },
   {
    "id": "PANW-1119-beklenen",
@@ -829,6 +829,19 @@
    "trigger": "trig_018AS6GEQwKsCSrRdaTVyYm2",
    "soz": "",
    "guncelleme": "19.11 11:02"
+  },
+  {
+   "id": "TUR-1119-1808",
+   "ad": "Otomatik paylaşım turu",
+   "zaman": "2026-11-19T18:08",
+   "ne": "Açılış sonrası hareketler; işsizlik verisi",
+   "ticker": "",
+   "tur": "tur",
+   "durum": "kuruldu",
+   "not": "",
+   "trigger": "trig_01HGqaJwvx61L95EAHx4Mvei",
+   "soz": "",
+   "guncelleme": "19.11 17:08"
   },
   {
    "id": "WMT-1119-cagri",
