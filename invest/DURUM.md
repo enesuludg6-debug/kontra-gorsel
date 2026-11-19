@@ -128,6 +128,7 @@ Kural 22 (17.11 14:40): radar hf 14:20 trig_016SbofaS65yjLJA3vxEJFJn | sektör C
 - Yok (kaynak istisnası 12:58'de onaylandı).
 
 ## Radar (içeriden alım / geri alım, son 5)
+- 19.11 14:20: kayda değer yok (TSM yönetim kurulu üyesi Burns 500 bin $ alım, eşik altı)
 - 18.11 14:20: kayda değer yok (süre dışı izlenenler: ROK CEO 1,55 Mn$ 09.11; CVS Shah 2 Mn$ 06.11)
 
 ## İçerik karışımı (Enes onaylı, kural 22a)

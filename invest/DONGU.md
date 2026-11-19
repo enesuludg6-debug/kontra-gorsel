@@ -439,3 +439,4 @@ Durdurmak için en alta `DURDUR` yazılı bir satır ekle (Enes ya da Claude, En
 - 14:11 (19.11) AUTO (detay): g/20261119_1415_baba_d1.jpg (uclu) - - DETAY: BABA bulut kalitesi (dış +%64; tekrarlayan +%67) Buffer 6afed95e7fc65314b9ec2d45. Son 3 duzen: spotlight, beklenti, uclu.
 - 14:19 (19.11) AUTO (detay): g/20261119_1413_baba_d2.jpg (split) - - DETAY: BABA e-ticaret ve hızlı teslimat Buffer 6afed961ec3834f154558ede. Son 3 duzen: beklenti, uclu, split.
 - 14:25 (19.11) AUTO (detay): g/20261119_1414_baba_d3.jpg (zaman) - - DETAY: BABA kasa geri alım temettü Buffer 6afed9627fc65314b9ec2f41. Son 3 duzen: uclu, split, zaman.
+- 14:22 (19.11) RADAR: kayda değer yok (kural 46 alanında 1 Mn $ üstü P yok; TSM yön. kurulu üyesi Burns 500 bin $ alım (finviz, eşik altı); USAR opsiyon kullanımı (P değil); KURA/Skydance alan dışı). Sonraki radar trig_01PvNhCMrZgstMXFRVipyBAo 20.11 14:20.
