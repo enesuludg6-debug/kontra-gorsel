@@ -7,7 +7,7 @@ Görüş = tweetin son paragrafı (ya da 'bence/beğen/buldum/bana göre' geçen
 import sys, os, re, json
 D = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'gorus_defteri.json')
 KALIPLAR = [r'\bkarışık buldum', r'\bbeğendim\b', r'\bbeğenmedim\b', 
-            r'yapay zekâdan çıkmıyor', r'bu da .* uyumlu', r'izlenecek', r'ilk somut', r'tam aradığı',
+            r'yapay zekâdan çıkmıyor', r'bu da .* uyumlu', r'izlenecek', r'ilk somut', r'tam aradığı', r'okuyorum', r'okumam', r'okunuşu',
             r'\bçünkü\b', r'olumlu sinyal', r'mesaj şu', r'asıl soru', r'işaret ediyor']
 def gorus(t):
     ps=[p.strip() for p in t.strip().split('\n\n') if p.strip()]

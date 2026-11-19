@@ -15,6 +15,9 @@
 
 ## !!! KESİN KURAL 51 (Enes 19.11 13:35: "öyle yaz"): Bilanço tweetlerinde (beklenti, rakam, analiz, detay, çağrı, beklenen hareket) ve kartlarında dönem HER ZAMAN takvim + mali yıl birlikte yazılır: "$T Eylül 2026 çeyreği (mali 2027 2. çeyrek)". Takvim kısmı = çeyreğin bittiği ay ve takvim yılı (bültendeki 'quarter ended ...' tarihinden). Başlık örneği: "$BABA EYLÜL 2026 ÇEYREĞİ (MALİ 2027 2. ÇEYREK) BİLANÇOSU". Kartta etiket kısa tutulabilir: "EYLÜL 2026 ÇEYREĞİ". Mali yıl = takvim yılı olan şirketlerde (ör. çoğu ABD şirketi) yalnız "2026 3. çeyrek" yeterli.
 
+## !!! KESİN KURAL 52 (Enes 19.11 17:39: "şöyle okuyorum, böyle okuyorum vs gibi ifadeler ya da benim okumam vs gibi ifadeler kullanma"): Tweetlerde "okuyorum", "okumam", "benim okumam", "okunuşu", "... olarak okumak gerekiyor", "şöyle/böyle okuyorum", "okuyabiliriz" gibi "okuma" kalıpları YASAK. Görüşü doğrudan söyle: "Bunu dürüst buluyorum", "Bence bu ...", "Bu rakam hoşuma gitti", "Bu bana ... gösteriyor". yasak.py bu kalıpları yakalar (çıkış 1 = ATMA).
+
+
 
 
 B AKTİF (18.11 20:31) — hesap devri, oturum session_01EmZ47ompNeGsaQSXfJ8wHS; zincir ID'leri: sabah trig_01PRH17QF4d7mKnMtVAE9FvQ / keylevels trig_01HDAV8z9mH1mtikhdV766u5;radar trig_01RKc2msdYGvtbzKPiqVthX5;haftalikozet trig_012W7kajm3bk7kYHVuFM6vzq;sektor trig_01H46DZzZU9L3UeM6LdeAf4B;ilgisira trig_01PenSNDsaAXgM2oSZMxW7TW;analist trig_013PpjA6M1M5n7SBwpqFyf9P;sezon trig_01HE7QUxG8rycgwcMDRGyRZz;takvim trig_01Lw9gagHwLTF41tv9tmdpSd;performans trig_01FSULM53WLcHLoh6FQZJkzN;ayinozeti trig_01NhEZxf5q2TWZBfGLkAYWi2;13f trig_012G5zvXBcryoZR1tzBxV6ZM;

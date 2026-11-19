@@ -451,3 +451,4 @@ Durdurmak için en alta `DURDUR` yazılı bir satır ekle (Enes ya da Claude, En
 - 16:41 (19.11) AUTO (cagri): g/20261119_1643_baba_c1.jpg (split) - - CAGRI: BABA yerli çip ana motor Buffer 6afefca3b3b455c2f570013f. Son 3 duzen: uclu, editoryal, split.
 - 16:52 (19.11) AUTO (cagri): g/20261119_1644_baba_c2.jpg (zaman) - - CAGRI: BABA nakit takvimi 2028 2. yarı Buffer 6afefca503dff68ab45c3e12. Son 3 duzen: editoryal, split, zaman.
 - 17:07 (19.11) AUTO (vadeli): g/20261119_1708_vadeli.jpg (isi) -  Buffer 6aff02b2abf4ba608b78c9d5. Son 3 duzen: split, zaman, isi.
+- 17:42 (19.11) ENES 17:39 KURAL 52: 'okuyorum/okumam/okunuşu/olarak okumak' kalıpları yasak; yasak.py + gorus.py güncellendi; DURUM, _ORTAK, DEVIR_TAM, skills. Daha önce atılanlarda geçenler: BABA analiz 13:47 'okunuşu şu', BABA çağrı 16:52 'dürüst bir takvim olarak okuyorum', P detay 01:30 'okumak gerekiyor' (silinmedi).
