@@ -980,11 +980,11 @@
    "ne": "Kapanış özeti",
    "ticker": "",
    "tur": "tur",
-   "durum": "kuruldu",
+   "durum": "yapildi",
    "not": "",
    "trigger": "trig_01B9hUjG1ostZStny3KCp5Wb",
    "soz": "",
-   "guncelleme": "19.11 22:16"
+   "guncelleme": "19.11 23:36"
   },
   {
    "id": "INTU-1120-yayin",
@@ -1011,6 +1011,19 @@
    "trigger": "trig_01R4PWrFBVzTPXNFkpY8NKkc",
    "soz": "",
    "guncelleme": "19.11 22:27"
+  },
+  {
+   "id": "KAPANIS-1119",
+   "ad": "Kapanış özeti",
+   "zaman": "2026-11-20T00:10",
+   "ne": "Kapanış rakamları kesinleşince",
+   "ticker": "",
+   "tur": "tur",
+   "durum": "kuruldu",
+   "not": "",
+   "trigger": "trig_018oPmbTNyYsAfFAaS735QDu",
+   "soz": "",
+   "guncelleme": "19.11 23:36"
   },
   {
    "id": "INTU-1120-analiz",
