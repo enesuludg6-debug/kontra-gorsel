@@ -733,11 +733,11 @@
    "ne": "Everpure ön piyasa; siber güvenlik; 13F",
    "ticker": "",
    "tur": "tur",
-   "durum": "kuruldu",
+   "durum": "yapildi",
    "not": "",
    "trigger": "trig_01NLW9of3toMUSaudQmerntk",
    "soz": "",
-   "guncelleme": "19.11 15:48"
+   "guncelleme": "19.11 16:21"
   },
   {
    "id": "BABA-1119-cagri",
@@ -751,6 +751,19 @@
    "trigger": "trig_01Ki7c1JXJfCKumkZtkJvifG",
    "soz": "",
    "guncelleme": "19.11 12:02"
+  },
+  {
+   "id": "TUR-1119-1705",
+   "ad": "Otomatik paylaşım turu",
+   "zaman": "2026-11-19T17:05",
+   "ne": "Açılış öncesi son durum",
+   "ticker": "",
+   "tur": "tur",
+   "durum": "kuruldu",
+   "not": "",
+   "trigger": "trig_0194wHdn7iBQd6NWWW3jbUK5",
+   "soz": "",
+   "guncelleme": "19.11 16:21"
   },
   {
    "id": "PANW-1119-beklenen",
