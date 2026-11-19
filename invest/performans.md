@@ -124,3 +124,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 19.11 | 14:11 | detay | BABA detay: bulut kalitesi (dış +%64; tekrarlayan +%67) | uclu | 6afed95e7fc65314b9ec2d45 |
 | 19.11 | 14:19 | detay | BABA detay: e-ticaret ve hızlı teslimat | split | 6afed961ec3834f154558ede |
 | 19.11 | 14:25 | detay | BABA detay: kasa geri alım temettü | zaman | 6afed9627fc65314b9ec2f41 |
+| 19.11 | 14:38 | 13f | 13F Baillie Gifford: LRCX KLAC ARM SPCX | terminal | 6afedfb4f365ba93c5823ad7 |

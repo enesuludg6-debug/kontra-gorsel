@@ -440,3 +440,4 @@ Durdurmak için en alta `DURDUR` yazılı bir satır ekle (Enes ya da Claude, En
 - 14:19 (19.11) AUTO (detay): g/20261119_1413_baba_d2.jpg (split) - - DETAY: BABA e-ticaret ve hızlı teslimat Buffer 6afed961ec3834f154558ede. Son 3 duzen: beklenti, uclu, split.
 - 14:25 (19.11) AUTO (detay): g/20261119_1414_baba_d3.jpg (zaman) - - DETAY: BABA kasa geri alım temettü Buffer 6afed9627fc65314b9ec2f41. Son 3 duzen: uclu, split, zaman.
 - 14:22 (19.11) RADAR: kayda değer yok (kural 46 alanında 1 Mn $ üstü P yok; TSM yön. kurulu üyesi Burns 500 bin $ alım (finviz, eşik altı); USAR opsiyon kullanımı (P değil); KURA/Skydance alan dışı). Sonraki radar trig_01PvNhCMrZgstMXFRVipyBAo 20.11 14:20.
+- 14:38 (19.11) AUTO (13f): g/20261119_1440_13f_baillie.jpg (terminal) - - 13F SERİSİ: Baillie Gifford atıldı / sıradaki: Point72 ya da ARK Buffer 6afedfb4f365ba93c5823ad7. Son 3 duzen: split, zaman, terminal.
