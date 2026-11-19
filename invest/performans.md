@@ -106,3 +106,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 19.11 | 01:52 | son-dakika | NVDA: Huang dönmüyor, çalışan toplantısı | zaman | 6afe29b101ba7c5e7919d7b0 |
 | 19.11 | 11:01 | baslik | Günün başlıkları: vadeli; WMT; INTU; PANW | takvim | 6afeacef7dcd23a28ea92fa2 |
 | 19.11 | 11:26 | yapay-zeka | GOOGL: Gemini 4 Neon | uclu | 6afeb2b7fba2406b99ae654d |
+| 19.11 | 11:42 | cagri | PANW çağrı: acil durum bütçeleri | split | 6afeb6746d068c1c9d6701b6 |
