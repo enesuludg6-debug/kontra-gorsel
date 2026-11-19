@@ -455,3 +455,4 @@ Durdurmak için en alta `DURDUR` yazılı bir satır ekle (Enes ya da Claude, En
 - 17:46 (19.11) AUTO (beklenen): g/20261119_1750_beklenen4.jpg (dortlu) - - BEKLENEN: PANW P BABA WMT (dordu de fiyatlananin altinda; 17:48/17:50/17:53 gorevleri bu tweetle kapandi) Buffer 6aff0bd8b3b455c2f5783672. Son 3 duzen: zaman, isi, dortlu.
 - 18:12 (19.11) AUTO (makro): g/20261119_1815_makro.jpg (uclu) - - TUR 18:08: makro tweet; sonraki tur trig_01Lt9TSpQPje5EKvN6VTJ6us 18:35 Buffer 6aff11e15187bf7d546ee6ae. Son 3 duzen: isi, dortlu, uclu.
 - 18:36 (19.11) AUTO (haber): g/20261119_1838_cip.jpg (editoryal) - - TUR 18:35: çip tweeti; sonraki tur trig_01P51q9CYuDDSLjex74LGMeY 19:20 Buffer 6aff178ccfb6abb6944d8e38. Son 3 duzen: dortlu, uclu, editoryal.
+- 19:01 (19.11) AUTO (cagri): g/20261119_1902_wmt_c1.jpg (spotlight) - - CAGRI: WMT Sparky kullanım +129% sepet +40% Buffer 6aff1d60f996b44ffbc4e7b1. Son 3 duzen: uclu, editoryal, spotlight.

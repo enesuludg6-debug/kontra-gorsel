@@ -138,3 +138,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 19.11 | 17:46 | beklenen | PANW P BABA WMT opsiyon vs gercek tek tweet | dortlu | 6aff0bd8b3b455c2f5783672 |
 | 19.11 | 18:12 | makro | İşsizlik 203 bin; Philly Fed 6;3 | uclu | 6aff11e15187bf7d546ee6ae |
 | 19.11 | 18:36 | haber | Çip toparlanması MU AVGO AMD | editoryal | 6aff178ccfb6abb6944d8e38 |
+| 19.11 | 19:01 | cagri | WMT Sparky sepet +40% | spotlight | 6aff1d60f996b44ffbc4e7b1 |
