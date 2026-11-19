@@ -129,3 +129,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 19.11 | 15:17 | bilanco-analiz | WMT Ekim 2026 çeyreği analiz (makro) | editoryal | 6afee8d0fcd8732ff211a6d0 |
 | 19.11 | 15:32 | detay | WMT detay: ilaç fiyat düzenlemesi ve GLP-1 | split | 6afeec462b33bbf880bb151f |
 | 19.11 | 15:38 | detay | WMT detay: düzeltilmiş faaliyet kârı temposu 17;4 -> 5;5 | spotlight | 6afeec482d4643e56c937866 |
+| 19.11 | 15:44 | detay | WMT detay: üyelik +%17 ve 120 $ paket | zaman | 6afeec495eafbd656fdd9b20 |
