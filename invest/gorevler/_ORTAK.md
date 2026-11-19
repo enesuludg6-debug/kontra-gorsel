@@ -1,4 +1,7 @@
 # SABİT GÖREVLERİN ORTAK KURALLARI (kesin kural 29: hepsi bu sohbette send_later zinciri)
+
+## !!! KESİN KURAL 50 (Enes 19.11 13:01: "tweetlere daha fazla yorum ekle, bilançoyu beğendiysem beğendim de, beğenmediysem beğenmedim de, haberlere bence bunu yapmaları şu yüzden iyi vs de, ama daha çok arttır, insanlar benden yorum düşünce bekliyor"): HER tweette net, birinci tekil kişi görüş ZORUNLU ve ağırlığı artır. Bilanço rakam/analiz/detay/çağrı tweetlerinde açık hüküm: "Bilançoyu beğendim / beğenmedim / karışık buldum" + neden (2-3 somut gerekçe) + neyi izleyeceğim. Haber tweetlerinde: "Bence bu hamle doğru/yanlış, çünkü ..." ya da "Bence bu ... için iyi/kötü". 13F tweetlerinde: fonun hamlesine katılıp katılmadığım ve nedeni. Görüş en az 1 tam paragraf, tweetin sonunda; ilk paragraf yine haber/rakam. Sınırlar aynen: al/sat tavsiyesi yok (okura "alın/satın" yok), portföy güncellemesi ve teknik analiz yok, rakamlar yine 2 kaynak, yorum kendi görüşümüz olarak işaretli (bence, beğendim, bana göre). Kural 23 aynen.
+
 - Başlangıç: `bash invest/tur_basi.sh <etiket>` (<etiket> = görev mesajındaki HESAP=, şu an A2) (kilit, DURDUR, DURUM, DONGU son 30, dersler, periyot, takvim). Çıkış 2/3 → dur. DEVIR_TAM baştan okunmaz.
 - Skill: ilgili skill (enes-tweet-turu / enes-bilanco-13f / enes-portfoy-analiz; yoksa invest/skills/*.md).
 - Periyot: işi yapmadan `python3 invest/periyot.py kontrol <anahtar>`; yapınca `yap`.

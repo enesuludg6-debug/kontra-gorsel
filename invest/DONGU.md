@@ -429,3 +429,4 @@ Durdurmak için en alta `DURDUR` yazılı bir satır ekle (Enes ya da Claude, En
 - 12:26 (19.11) AUTO (cagri): g/20261119_1214_p_c3.jpg (zaman) - - CAGRI: P rehber 3. kez yükseldi; 2. hyperscaler gelecek yıl; FY28 Buffer 6afebd8373dee41859366cf1. Son 3 duzen: spotlight, split, zaman.
 - 12:36 (19.11) AUTO (haber): g/20261119_1238_amd_taalas.jpg (uclu) -  Buffer 6afec330bad67efd5adc1ba8. Son 3 duzen: split, zaman, uclu.
 - 13:01 (19.11) AUTO (13f): g/20261119_1303_13f_bridgewater.jpg (terminal) - - 13F SERİSİ: Bridgewater atıldı / sıradaki: teknoloji hamleli yeni fon (Point72/ARK/Baillie Gifford) Buffer 6afec8eea51c94c1af71f097. Son 3 duzen: zaman, uclu, terminal.
+- 13:05 (19.11) ENES 13:01 KURAL 50: her tweette daha güçlü kişisel görüş (bilanço: beğendim/beğenmedim + neden; haber: bence doğru/yanlış çünkü; 13F: katılıyor muyum). DURUM, _ORTAK, DEVIR_TAM, skills/enes-tweet-turu.md, skills/enes-bilanco-13f.md.
