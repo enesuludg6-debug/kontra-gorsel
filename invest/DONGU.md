@@ -426,3 +426,4 @@ Durdurmak için en alta `DURDUR` yazılı bir satır ekle (Enes ya da Claude, En
 - OPSIYON: BABA ±%7 (TipRanks + regardsofwallstreet)
 - 12:12 (19.11) AUTO (cagri): g/20261119_1216_p_c1.jpg (spotlight) - - CAGRI: P hyperscaler marjı %75-85 Buffer 6afebd8073dee41859366c49. Son 3 duzen: dortlu, beklenti, spotlight.
 - 12:20 (19.11) AUTO (cagri): g/20261119_1213_p_c2.jpg (split) - - CAGRI: P NAND maliyeti yüksek kalacak Buffer 6afebd834ad8a97b3a2e5ccd. Son 3 duzen: beklenti, spotlight, split.
+- 12:26 (19.11) AUTO (cagri): g/20261119_1214_p_c3.jpg (zaman) - - CAGRI: P rehber 3. kez yükseldi; 2. hyperscaler gelecek yıl; FY28 Buffer 6afebd8373dee41859366cf1. Son 3 duzen: spotlight, split, zaman.
