@@ -616,11 +616,11 @@
    "ne": "BABA kontrol; son dakika",
    "ticker": "",
    "tur": "tur",
-   "durum": "kuruldu",
+   "durum": "yapildi",
    "not": "",
    "trigger": "trig_015hR6zuFszH1sVBsQK5Pkg8",
    "soz": "",
-   "guncelleme": "19.11 13:01"
+   "guncelleme": "19.11 13:39"
   },
   {
    "id": "BABA-1119-analiz",
@@ -660,6 +660,19 @@
    "trigger": "trig_013ZCBjCbzbEy6VNhU4wPSit",
    "soz": "",
    "guncelleme": "19.11 12:02"
+  },
+  {
+   "id": "TUR-1119-1437",
+   "ad": "Otomatik paylaşım turu",
+   "zaman": "2026-11-19T14:37",
+   "ne": "Son dakika; 13F sıradaki",
+   "ticker": "",
+   "tur": "tur",
+   "durum": "kuruldu",
+   "not": "",
+   "trigger": "trig_01CAxRHRhf45DCRfE1Q5EVL6",
+   "soz": "",
+   "guncelleme": "19.11 13:39"
   },
   {
    "id": "WMT-1119-yayin",
