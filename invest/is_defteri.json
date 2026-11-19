@@ -876,11 +876,24 @@
    "ne": "Son dakika varsa; yoksa Point72 + INTU hazırlık",
    "ticker": "",
    "tur": "tur",
-   "durum": "kuruldu",
+   "durum": "yapildi",
    "not": "",
    "trigger": "trig_01P51q9CYuDDSLjex74LGMeY",
    "soz": "",
-   "guncelleme": "19.11 18:37"
+   "guncelleme": "19.11 19:21"
+  },
+  {
+   "id": "TUR-1119-2105",
+   "ad": "Otomatik paylaşım turu",
+   "zaman": "2026-11-19T21:05",
+   "ne": "Son dakika; 13F Point72; kapanışa doğru çipler",
+   "ticker": "",
+   "tur": "tur",
+   "durum": "kuruldu",
+   "not": "",
+   "trigger": "trig_01W7tmo8subziJFYc6VFSPPJ",
+   "soz": "",
+   "guncelleme": "19.11 19:21"
   },
   {
    "id": "INTU-1120-hazirlik",
