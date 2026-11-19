@@ -486,11 +486,11 @@
    "ne": "Kural 39: opsiyonların fiyatladığı hareket (±%, 2 kaynak) açıklamadan önce en az bir tweette; DONGU '- OPSIYON: T'",
    "ticker": "BABA",
    "tur": "bilanco",
-   "durum": "bekliyor",
+   "durum": "yapildi",
    "not": "",
    "trigger": "",
    "soz": "",
-   "guncelleme": "19.11 12:01"
+   "guncelleme": "19.11 12:02"
   },
   {
    "id": "WMT-1119-opsiyon",
@@ -564,11 +564,11 @@
    "ne": "Kural 16: beklentiler 2 kaynak, CRWV iskeleti, /tmp/hazir_T.py kart, bülten URL'leri",
    "ticker": "BABA",
    "tur": "bilanco",
-   "durum": "bekliyor",
+   "durum": "yapildi",
    "not": "",
    "trigger": "",
    "soz": "",
-   "guncelleme": "19.11 12:01"
+   "guncelleme": "19.11 12:02"
   },
   {
    "id": "TUR-1119-1235",
@@ -590,11 +590,11 @@
    "ne": "Kural 16 + O-011: rakam tweeti tam CRWV formatı, 3-5 dk içinde; Yahoo canlı blog/CNBC yedek",
    "ticker": "BABA",
    "tur": "bilanco",
-   "durum": "bekliyor",
+   "durum": "kuruldu",
    "not": "",
-   "trigger": "",
+   "trigger": "trig_011SX1XWHoLtPXwKAiKEsyGc",
    "soz": "",
-   "guncelleme": "19.11 12:01"
+   "guncelleme": "19.11 12:02"
   },
   {
    "id": "BABA-1119-analiz",
@@ -603,11 +603,11 @@
    "ne": "Kural 25: kapsamlı analiz tweeti",
    "ticker": "BABA",
    "tur": "bilanco",
-   "durum": "bekliyor",
+   "durum": "kuruldu",
    "not": "",
-   "trigger": "",
+   "trigger": "trig_01XnSouC6dRWFnzpHVKJvgJ2",
    "soz": "",
-   "guncelleme": "19.11 12:01"
+   "guncelleme": "19.11 12:02"
   },
   {
    "id": "WMT-1119-hazirlik",
@@ -629,11 +629,11 @@
    "ne": "Kural 41: belgeden 2-7 AYRI detay tweeti, BEKLEMEDEN (gece dahil), aralık serbest",
    "ticker": "BABA",
    "tur": "bilanco",
-   "durum": "bekliyor",
+   "durum": "kuruldu",
    "not": "",
-   "trigger": "",
+   "trigger": "trig_013ZCBjCbzbEy6VNhU4wPSit",
    "soz": "",
-   "guncelleme": "19.11 12:01"
+   "guncelleme": "19.11 12:02"
   },
   {
    "id": "WMT-1119-yayin",
@@ -681,11 +681,11 @@
    "ne": "Kural 40: görüşme önemli yerleri, AYNI GÜN, her konu ayrı tweet",
    "ticker": "BABA",
    "tur": "bilanco",
-   "durum": "bekliyor",
+   "durum": "kuruldu",
    "not": "",
-   "trigger": "",
+   "trigger": "trig_01Ki7c1JXJfCKumkZtkJvifG",
    "soz": "",
-   "guncelleme": "19.11 12:01"
+   "guncelleme": "19.11 12:02"
   },
   {
    "id": "PANW-1119-beklenen",
@@ -707,11 +707,11 @@
    "ne": "Kural 22n/39: opsiyon fiyatlaması vs açılıştaki gerçek hareket",
    "ticker": "BABA",
    "tur": "bilanco",
-   "durum": "bekliyor",
+   "durum": "kuruldu",
    "not": "",
-   "trigger": "",
+   "trigger": "trig_017pwuo7ZeukTkCsCM6tauwD",
    "soz": "",
-   "guncelleme": "19.11 12:01"
+   "guncelleme": "19.11 12:02"
   },
   {
    "id": "WMT-1119-beklenen",
