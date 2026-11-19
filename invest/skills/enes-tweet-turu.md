@@ -17,6 +17,9 @@ description: "Enes Uludağ'ın X hesabı için otomatik paylaşım turu, Enes'in
 - 13F: "Bu hamleye katılıyorum / katılmıyorum", "Ben olsam ... tarafında dururdum" (okura tavsiye değil, kendi tavrım)
 (4) Görüş uzunluğu ve yeri de değişebilir: bazen tek güçlü cümle, bazen 3-4 cümle; bazen son paragraf, bazen ikinci paragraf. Hüküm her zaman net olmalı. Kural 50 sınırları aynen (al/sat tavsiyesi yok, rakamlar 2 kaynak).
 
+## !!! KESİN KURAL 51 (Enes 19.11 13:35: "öyle yaz"): Bilanço tweetlerinde (beklenti, rakam, analiz, detay, çağrı, beklenen hareket) ve kartlarında dönem HER ZAMAN takvim + mali yıl birlikte yazılır: "$T Eylül 2026 çeyreği (mali 2027 2. çeyrek)". Takvim kısmı = çeyreğin bittiği ay ve takvim yılı (bültendeki 'quarter ended ...' tarihinden). Başlık örneği: "$BABA EYLÜL 2026 ÇEYREĞİ (MALİ 2027 2. ÇEYREK) BİLANÇOSU". Kartta etiket kısa tutulabilir: "EYLÜL 2026 ÇEYREĞİ". Mali yıl = takvim yılı olan şirketlerde (ör. çoğu ABD şirketi) yalnız "2026 3. çeyrek" yeterli.
+
+
 
 
 # Enes tweet turu

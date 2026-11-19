@@ -432,3 +432,4 @@ Durdurmak için en alta `DURDUR` yazılı bir satır ekle (Enes ya da Claude, En
 - 13:05 (19.11) ENES 13:01 KURAL 50: her tweette daha güçlü kişisel görüş (bilanço: beğendim/beğenmedim + neden; haber: bence doğru/yanlış çünkü; 13F: katılıyor muyum). DURUM, _ORTAK, DEVIR_TAM, skills/enes-tweet-turu.md, skills/enes-bilanco-13f.md.
 - 13:16 (19.11) AUTO (bilanco-rakam): g/20261119_1320_baba_rakam.jpg (uclu) -  Buffer 6afecc95ec3834f154504283. Son 3 duzen: uclu, terminal, uclu.
 - 13:35 (19.11) ENES 13:32 KURAL 50-B: görüş kalıpları her tweette farklı; gorus.py kontrol/kaydet; anlatım havuzu. DURUM, _ORTAK, DEVIR_TAM, skills (repo kopyaları).
+- 13:36 (19.11) ENES 13:35 KURAL 51: bilanço tweetlerinde dönem 'Eylül 2026 çeyreği (mali 2027 2. çeyrek)' biçiminde.
