@@ -954,11 +954,24 @@
    "ne": "Kural 16: beklentiler 2 kaynak, CRWV iskeleti, /tmp/hazir_T.py kart, bülten URL'leri",
    "ticker": "INTU",
    "tur": "bilanco",
-   "durum": "kuruldu",
+   "durum": "iptal",
    "not": "",
    "trigger": "trig_01R8LtGMfjJzC7uHWqafsYCD",
-   "soz": "",
+   "soz": "Enes 19.11 22:26: \"intuitle ilgili bir şey paylaşma onun yerine farklı içerikler yap\"",
    "guncelleme": "19.11 09:02"
+  },
+  {
+   "id": "TUR-1119-2305",
+   "ad": "Otomatik paylaşım turu",
+   "zaman": "2026-11-19T23:05",
+   "ne": "Intuit yerine farklı içerik",
+   "ticker": "",
+   "tur": "tur",
+   "durum": "kuruldu",
+   "not": "",
+   "trigger": "trig_019Z1sWUT9GsSSx3jwEXZB1Z",
+   "soz": "",
+   "guncelleme": "19.11 22:27"
   },
   {
    "id": "TUR-1119-2335",
@@ -980,11 +993,24 @@
    "ne": "Kural 16 + O-011: rakam tweeti tam CRWV formatı, 3-5 dk içinde; Yahoo canlı blog/CNBC yedek",
    "ticker": "INTU",
    "tur": "bilanco",
-   "durum": "kuruldu",
+   "durum": "iptal",
    "not": "",
    "trigger": "trig_01Hi5EWARcxyRcUSjDEjyipR",
-   "soz": "",
+   "soz": "Enes 19.11 22:26: \"intuitle ilgili bir şey paylaşma onun yerine farklı içerikler yap\"",
    "guncelleme": "19.11 09:02"
+  },
+  {
+   "id": "TUR-1120-0005",
+   "ad": "Otomatik paylaşım turu",
+   "zaman": "2026-11-20T00:05",
+   "ne": "Intuit yerine; after-hours",
+   "ticker": "",
+   "tur": "tur",
+   "durum": "kuruldu",
+   "not": "",
+   "trigger": "trig_01R4PWrFBVzTPXNFkpY8NKkc",
+   "soz": "",
+   "guncelleme": "19.11 22:27"
   },
   {
    "id": "INTU-1120-analiz",
@@ -993,11 +1019,24 @@
    "ne": "Kural 25: kapsamlı analiz tweeti",
    "ticker": "INTU",
    "tur": "bilanco",
-   "durum": "kuruldu",
+   "durum": "iptal",
    "not": "",
    "trigger": "trig_01QS9hmX2rBzdQpWWkmUnQ4h",
-   "soz": "",
+   "soz": "Enes 19.11 22:26: \"intuitle ilgili bir şey paylaşma onun yerine farklı içerikler yap\"",
    "guncelleme": "19.11 09:02"
+  },
+  {
+   "id": "TUR-1120-0025",
+   "ad": "Otomatik paylaşım turu",
+   "zaman": "2026-11-20T00:25",
+   "ne": "Intuit yerine; eğitici/analiz",
+   "ticker": "",
+   "tur": "tur",
+   "durum": "kuruldu",
+   "not": "",
+   "trigger": "trig_012KZ5mANstMtajKiLvndKNk",
+   "soz": "",
+   "guncelleme": "19.11 22:27"
   },
   {
    "id": "INTU-1120-detay",
@@ -1006,10 +1045,10 @@
    "ne": "Kural 41: belgeden 2-7 AYRI detay tweeti, BEKLEMEDEN (gece dahil), aralık serbest",
    "ticker": "INTU",
    "tur": "bilanco",
-   "durum": "kuruldu",
+   "durum": "iptal",
    "not": "",
    "trigger": "trig_014k5DfYgjpYENyYuM6FAuw3",
-   "soz": "",
+   "soz": "Enes 19.11 22:26: \"intuitle ilgili bir şey paylaşma onun yerine farklı içerikler yap\"",
    "guncelleme": "19.11 09:02"
   },
   {
@@ -1019,10 +1058,10 @@
    "ne": "Kural 40: görüşme önemli yerleri, gece bilançosunda AYNI SABAH, her konu ayrı tweet",
    "ticker": "INTU",
    "tur": "bilanco",
-   "durum": "kuruldu",
+   "durum": "iptal",
    "not": "",
    "trigger": "trig_01XQRXGALSSX6s7Vd1JomAUb",
-   "soz": "",
+   "soz": "Enes 19.11 22:26: \"intuitle ilgili bir şey paylaşma onun yerine farklı içerikler yap\"",
    "guncelleme": "19.11 09:02"
   },
   {
@@ -1032,10 +1071,10 @@
    "ne": "Kural 22n/39: opsiyon fiyatlaması vs açılıştaki gerçek hareket",
    "ticker": "INTU",
    "tur": "bilanco",
-   "durum": "kuruldu",
+   "durum": "iptal",
    "not": "",
    "trigger": "trig_01Xo8quq4Q4zEkjNEB1yhwmC",
-   "soz": "",
+   "soz": "Enes 19.11 22:26: \"intuitle ilgili bir şey paylaşma onun yerine farklı içerikler yap\"",
    "guncelleme": "19.11 09:02"
   }
  ]
