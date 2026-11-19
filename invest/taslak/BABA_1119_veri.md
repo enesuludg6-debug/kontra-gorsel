@@ -1,0 +1,15 @@
+# BABA mali 2027 Q2 (Eylül çeyreği) bülten verileri — BusinessWire 19.11 5:02 AM ET (financialcontent.com/article/bizwire-2026-11-19-alibaba-group-announces-september-quarter-2026-results...) + StockTitan özeti
+- Gelir RMB271.519 Mn (40.498 Mn $) +%10 (geçen yıl RMB247.795 Mn)
+- Düz. EBITA RMB32.636 Mn (4.868 Mn $) +%260 (geçen yıl RMB9.073 Mn): Taobao Instant Commerce ve bulutta iyileşme
+- Non-GAAP HBK (ADS) RMB8,10 (1,21 $) +%86; GAAP HBK (ADS) RMB25,94 (3,87 $)
+- Net kâr RMB64.420 Mn (9.608 Mn $) +%213 (yatırım geliri artışı)
+- AI Cloud and Compute Services RMB60.973 Mn (9.094 Mn $) +%53 (geçen yıl RMB39.914 Mn); dış müşteri +%64; dış müşteri tekrarlayan (donanım hariç) +%67; yapay zekâ ürün geliri RMB17.918 Mn (2.673 Mn $), 13. çeyrek üç haneli büyüme; bulut EBITA marjı %14,5 (önceki ~%12)
+- AI Labs and Applications RMB4.435 Mn (661 Mn $) +%51
+- CMR RMB75.033 Mn -%5 (benzer bazda +%1)
+- China Quick Commerce gelir RMB58.757 Mn (8.764 Mn $) +%22 (Freshippo); zarar belirgin azaldı (rakam yok)
+- Capex RMB50.477 Mn (7.529 Mn $) +%60
+- Serbest nakit -RMB34.472 Mn (-5.142 Mn $), geçen yıl -RMB21.840 Mn; önceki çeyrek -RMB44,7 Mr
+- Geri alım 2,24 Mn ADS, 221 Mn $ (önceki çeyrek 162 Mn $)
+- Nakit ve likit yatırım RMB487.929 Mn (72.776 Mn $)
+- CEO Eddie Wu / CFO Toby Xu: disiplinli yatırım, pozitif serbest nakit hedefi; Zhenwu V900 yapay zekâ çipi ve yeni nesil süper düğüm 2027 1. çeyrekte ticari satışa
+- Bağlam: hisse 18.11 kapanış 84,37 $, YTD ~-%42, 22 ayın dibi (Garattoni); ABD uzaktan Nvidia erişimi kısıtı bugün yürürlükte (Yahoo + Benzinga + pomegra); 6 çeyrektir kâr beklentisi kaçırılıyordu (pomegra); Q1 HBK 1,26 vs 1,85-1,94 beklenti (Benzinga + MarketBeat)
