@@ -902,11 +902,24 @@
    "ne": "Son dakika; 13F Point72; kapanışa doğru çipler",
    "ticker": "",
    "tur": "tur",
-   "durum": "kuruldu",
+   "durum": "yapildi",
    "not": "",
    "trigger": "trig_01W7tmo8subziJFYc6VFSPPJ",
    "soz": "",
-   "guncelleme": "19.11 19:21"
+   "guncelleme": "19.11 21:07"
+  },
+  {
+   "id": "TUR-1119-2145",
+   "ad": "Otomatik paylaşım turu",
+   "zaman": "2026-11-19T21:45",
+   "ne": "Son dakika; kapanışa doğru çipler; 13F sıradaki",
+   "ticker": "",
+   "tur": "tur",
+   "durum": "kuruldu",
+   "not": "",
+   "trigger": "trig_01NAkaPonpwHC2SqboVyf7Nn",
+   "soz": "",
+   "guncelleme": "19.11 21:07"
   },
   {
    "id": "INTU-1120-hazirlik",

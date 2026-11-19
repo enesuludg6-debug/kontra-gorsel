@@ -460,3 +460,4 @@ Durdurmak için en alta `DURDUR` yazılı bir satır ekle (Enes ya da Claude, En
 - 19:22 (19.11) TUR: tweet yok (D-003 18-21 sınırı dolu; 2 kaynaklı son dakika yok). Point72 taslak verisi hazırlandı (taslak/POINT72_Q3_veri.md). Sonraki tur trig_01W7tmo8subziJFYc6VFSPPJ 21:05.
 - 20:21 (19.11) ENES 20:20 KURAL 53: saat dilimine göre tweet sınırı YOK (18-21 dahil); D-003 sınır kısmı geçersiz işaretlendi. 19:20 turunda bu yüzden atlanan tweet açığı için 20:30 ek tur (trig_0177NgZcrNZPu1KFZQqZzfKW).
 - 20:31 (19.11) AUTO (son-dakika): g/20261119_2033_donus.jpg (isi) - - TUR 20:30: son dakika dönüş tweeti; sonraki tur 21:05 (kurulu) Buffer 6aff328195650eb4b8b88df2. Son 3 duzen: spotlight, zaman, isi.
+- 21:06 (19.11) AUTO (13f): g/20261119_2108_13f_point72.jpg (uclu) - - 13F SERİSİ: Point72 atıldı / sıradaki: teknoloji hamleli yeni fon; sonraki tur trig_01NAkaPonpwHC2SqboVyf7Nn 21:45 Buffer 6aff3ab7ed6071e709915556. Son 3 duzen: zaman, isi, uclu.

@@ -141,3 +141,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 19.11 | 19:01 | cagri | WMT Sparky sepet +40% | spotlight | 6aff1d60f996b44ffbc4e7b1 |
 | 19.11 | 19:12 | cagri | WMT tüketici istikrarlı ve dayanıklı | zaman | 6aff1d6270751782c0cfa052 |
 | 19.11 | 20:31 | son-dakika | Gün ortası sert dönüş; Nasdaq -1;5 Dow -2 | isi | 6aff328195650eb4b8b88df2 |
+| 19.11 | 21:06 | 13f | Point72 MSFT NVDA artırdı AMD TSMC azalttı | uclu | 6aff3ab7ed6071e709915556 |
