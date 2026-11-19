@@ -132,3 +132,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 19.11 | 15:44 | detay | WMT detay: üyelik +%17 ve 120 $ paket | zaman | 6afeec495eafbd656fdd9b20 |
 | 19.11 | 15:48 | son-dakika | PANW ön piyasa +%9; siber güvenlik rallisi | uclu | 6afef012d541877eb93a6454 |
 | 19.11 | 17:40 | 13f | 13F ARK: NVDA SPCX TSLA | editoryal | 6afef7cb03dff68ab45a60ae |
+| 19.11 | 16:41 | cagri | BABA çağrı: yerli çip ana motor | split | 6afefca3b3b455c2f570013f |
