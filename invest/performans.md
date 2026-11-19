@@ -116,3 +116,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 19.11 | 12:20 | cagri | P çağrı: NAND maliyeti yüksek kalacak | split | 6afebd834ad8a97b3a2e5ccd |
 | 19.11 | 12:26 | cagri | P çağrı: rehber 3. kez yükseldi; 2. hyperscaler gelecek yıl; FY28 | zaman | 6afebd8373dee41859366cf1 |
 | 19.11 | 12:36 | haber | AMD: Taalas alımı tamamlandı | uclu | 6afec330bad67efd5adc1ba8 |
+| 19.11 | 13:01 | 13f | 13F Bridgewater: NVDA QCOM MU SNDK | terminal | 6afec8eea51c94c1af71f097 |
