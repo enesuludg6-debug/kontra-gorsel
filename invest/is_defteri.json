@@ -590,11 +590,11 @@
    "ne": "Son dakika; RKLB; Bridgewater",
    "ticker": "",
    "tur": "tur",
-   "durum": "kuruldu",
+   "durum": "yapildi",
    "not": "",
    "trigger": "trig_013rQxkGNU24Q8LKMGa8AQyJ",
    "soz": "",
-   "guncelleme": "19.11 12:37"
+   "guncelleme": "19.11 13:01"
   },
   {
    "id": "BABA-1119-yayin",
@@ -608,6 +608,19 @@
    "trigger": "trig_011SX1XWHoLtPXwKAiKEsyGc",
    "soz": "",
    "guncelleme": "19.11 12:02"
+  },
+  {
+   "id": "TUR-1119-1337",
+   "ad": "Otomatik paylaşım turu",
+   "zaman": "2026-11-19T13:37",
+   "ne": "BABA kontrol; son dakika",
+   "ticker": "",
+   "tur": "tur",
+   "durum": "kuruldu",
+   "not": "",
+   "trigger": "trig_015hR6zuFszH1sVBsQK5Pkg8",
+   "soz": "",
+   "guncelleme": "19.11 13:01"
   },
   {
    "id": "BABA-1119-analiz",
