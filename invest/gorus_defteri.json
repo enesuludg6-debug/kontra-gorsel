@@ -1,0 +1,17 @@
+[
+{
+"acilis": "karışık buldum bulut",
+"kaliplar": [
+"\\bkarışık buldum"
+],
+"metin": "Karışık buldum. Bulut büyümesi hızlandı ve beklentinin üstünde ama hisse başı kâr beklentinin çok altında kaldı."
+},
+{
+"acilis": "bence fon yapay",
+"kaliplar": [
+"\\bbence\\b",
+"yapay zekâdan çıkmıyor"
+],
+"metin": "Bence fon yapay zekâdan çıkmıyor ama parayı en kalabalık isimlerden daha az sahiplenilmiş halkalara kaydırıyor. Bellek fiyatlarının yükseldiği bir dönemde Micro"
+}
+]

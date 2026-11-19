@@ -2,6 +2,19 @@
 
 ## !!! KESİN KURAL 50 (Enes 19.11 13:01: "tweetlere daha fazla yorum ekle, bilançoyu beğendiysem beğendim de, beğenmediysem beğenmedim de, haberlere bence bunu yapmaları şu yüzden iyi vs de, ama daha çok arttır, insanlar benden yorum düşünce bekliyor"): HER tweette net, birinci tekil kişi görüş ZORUNLU ve ağırlığı artır. Bilanço rakam/analiz/detay/çağrı tweetlerinde açık hüküm: "Bilançoyu beğendim / beğenmedim / karışık buldum" + neden (2-3 somut gerekçe) + neyi izleyeceğim. Haber tweetlerinde: "Bence bu hamle doğru/yanlış, çünkü ..." ya da "Bence bu ... için iyi/kötü". 13F tweetlerinde: fonun hamlesine katılıp katılmadığım ve nedeni. Görüş en az 1 tam paragraf, tweetin sonunda; ilk paragraf yine haber/rakam. Sınırlar aynen: al/sat tavsiyesi yok (okura "alın/satın" yok), portföy güncellemesi ve teknik analiz yok, rakamlar yine 2 kaynak, yorum kendi görüşümüz olarak işaretli (bence, beğendim, bana göre). Kural 23 aynen.
 
+## !!! KESİN KURAL 50-B (Enes 19.11 13:32: "görüş bildirmelerini sevdim ... ama her tweette aynı kalıpları kullanabilirsin, bunu istemeyiz, farklı farklı anlatımlarda bulun görüşlerini açıklarken"): Görüş paragrafı HER tweette farklı kurulur. (1) Aynı açılış (ilk 3 kelime) son 12 görüşte yok; aynı hüküm kalıbı ("karışık buldum", "beğendim", "bence ... çıkmıyor", "bununla uyumlu" vb.) son 6 görüşte yok. (2) Kontrol: tweet metni yazılınca `python3 invest/gorus.py kontrol < metin` (çıkış 1 = yeniden yaz), atınca `python3 invest/gorus.py kaydet < metin`. yasak.py ile birlikte çalışır. (3) Anlatım havuzu, sırayla değil bağlama göre seç ve kelimeleri her seferinde değiştir:
+- Doğrudan hüküm: "Bu bilanço beni tatmin etmedi", "Rakamlar hoşuma gitti", "Bu çeyrekten memnun kaldım", "Beklediğim gibi değil", "Açıkçası hayal kırıklığı"
+- Gerekçeyle başlayan: "Bulut tarafı güçlü ama kârdaki kaçış gözümden kaçmadı...", "Marjlar toparlanmasa daha sert düşünürdüm..."
+- Kıyas: "Geçen çeyreğe göre çok daha temiz bir tablo", "Rakiplerine göre bir adım önde duruyor"
+- Soru-cevap kurgusu YOK (tweet soruyla bitmez); onun yerine "Şunu merak ediyordum, cevabı geldi..." gibi düz anlatım
+- Senaryo: "Marj bu hızla toparlanırsa ...", "Bu tempo iki çeyrek daha sürerse ..."
+- Ölçülü/şüpheci: "Henüz ikna olmadım", "Kâğıt üzerinde iyi, ama ...", "Tek çeyrek yetmez"
+- Kişisel öncelik: "Benim için asıl rakam ...", "Ben en çok ... kısmına takıldım"
+- Hamle/haber yorumu: "Doğru zamanlama", "Pahalı ama mantıklı bir alım", "Bu adımı yerinde buluyorum", "Bunu riskli buluyorum çünkü"
+- 13F: "Bu hamleye katılıyorum / katılmıyorum", "Ben olsam ... tarafında dururdum" (okura tavsiye değil, kendi tavrım)
+(4) Görüş uzunluğu ve yeri de değişebilir: bazen tek güçlü cümle, bazen 3-4 cümle; bazen son paragraf, bazen ikinci paragraf. Hüküm her zaman net olmalı. Kural 50 sınırları aynen (al/sat tavsiyesi yok, rakamlar 2 kaynak).
+
+
 - Başlangıç: `bash invest/tur_basi.sh <etiket>` (<etiket> = görev mesajındaki HESAP=, şu an A2) (kilit, DURDUR, DURUM, DONGU son 30, dersler, periyot, takvim). Çıkış 2/3 → dur. DEVIR_TAM baştan okunmaz.
 - Skill: ilgili skill (enes-tweet-turu / enes-bilanco-13f / enes-portfoy-analiz; yoksa invest/skills/*.md).
 - Periyot: işi yapmadan `python3 invest/periyot.py kontrol <anahtar>`; yapınca `yap`.
