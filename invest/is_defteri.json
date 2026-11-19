@@ -681,11 +681,11 @@
    "ne": "Kural 16 + O-011: rakam tweeti tam CRWV formatı, 3-5 dk içinde; Yahoo canlı blog/CNBC yedek",
    "ticker": "WMT",
    "tur": "bilanco",
-   "durum": "kuruldu",
+   "durum": "yapildi",
    "not": "bülten 15:00 TSİ (7:00 ET; Earnings Whispers + Walmart IR 6:00 CT düzeni); O-001 ile doğrula",
    "trigger": "trig_01CaXoAzbfPeGZpsvX8wUsn7",
    "soz": "",
-   "guncelleme": "18.11 20:29"
+   "guncelleme": "19.11 15:07"
   },
   {
    "id": "WMT-1119-analiz",
