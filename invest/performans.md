@@ -140,3 +140,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 19.11 | 18:36 | haber | Çip toparlanması MU AVGO AMD | editoryal | 6aff178ccfb6abb6944d8e38 |
 | 19.11 | 19:01 | cagri | WMT Sparky sepet +40% | spotlight | 6aff1d60f996b44ffbc4e7b1 |
 | 19.11 | 19:12 | cagri | WMT tüketici istikrarlı ve dayanıklı | zaman | 6aff1d6270751782c0cfa052 |
+| 19.11 | 20:31 | son-dakika | Gün ortası sert dönüş; Nasdaq -1;5 Dow -2 | isi | 6aff328195650eb4b8b88df2 |

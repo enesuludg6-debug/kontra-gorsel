@@ -459,3 +459,4 @@ Durdurmak için en alta `DURDUR` yazılı bir satır ekle (Enes ya da Claude, En
 - 19:12 (19.11) AUTO (cagri): g/20261119_1903_wmt_c2.jpg (zaman) - - CAGRI: WMT tüketici + tatil beklentisi (19:12 zamanlandı) Buffer 6aff1d6270751782c0cfa052. Son 3 duzen: editoryal, spotlight, zaman.
 - 19:22 (19.11) TUR: tweet yok (D-003 18-21 sınırı dolu; 2 kaynaklı son dakika yok). Point72 taslak verisi hazırlandı (taslak/POINT72_Q3_veri.md). Sonraki tur trig_01W7tmo8subziJFYc6VFSPPJ 21:05.
 - 20:21 (19.11) ENES 20:20 KURAL 53: saat dilimine göre tweet sınırı YOK (18-21 dahil); D-003 sınır kısmı geçersiz işaretlendi. 19:20 turunda bu yüzden atlanan tweet açığı için 20:30 ek tur (trig_0177NgZcrNZPu1KFZQqZzfKW).
+- 20:31 (19.11) AUTO (son-dakika): g/20261119_2033_donus.jpg (isi) - - TUR 20:30: son dakika dönüş tweeti; sonraki tur 21:05 (kurulu) Buffer 6aff328195650eb4b8b88df2. Son 3 duzen: spotlight, zaman, isi.
