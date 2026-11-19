@@ -122,3 +122,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 19.11 | 13:47 | bilanco-analiz | BABA Eylül 2026 çeyreği analiz | spotlight | 6afed3a8528b203593ecc2bc |
 | 19.11 | 14:01 | beklenti | WMT bilanço beklentisi | beklenti | 6afed6f67c25de751c34e374 |
 | 19.11 | 14:11 | detay | BABA detay: bulut kalitesi (dış +%64; tekrarlayan +%67) | uclu | 6afed95e7fc65314b9ec2d45 |
+| 19.11 | 14:19 | detay | BABA detay: e-ticaret ve hızlı teslimat | split | 6afed961ec3834f154558ede |

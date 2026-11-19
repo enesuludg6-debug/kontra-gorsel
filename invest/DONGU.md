@@ -437,3 +437,4 @@ Durdurmak için en alta `DURDUR` yazılı bir satır ekle (Enes ya da Claude, En
 - 13:47 (19.11) AUTO (bilanco-analiz): g/20261119_1350_baba_analiz.jpg (spotlight) -  Buffer 6afed3a8528b203593ecc2bc. Son 3 duzen: uclu, editoryal, spotlight.
 - 14:01 (19.11) AUTO (beklenti): g/20261119_1402_wmt_beklenti.jpg (beklenti) - - BEKLENTI: WMT 14:01 Buffer 6afed6f67c25de751c34e374. Son 3 duzen: editoryal, spotlight, beklenti.
 - 14:11 (19.11) AUTO (detay): g/20261119_1415_baba_d1.jpg (uclu) - - DETAY: BABA bulut kalitesi (dış +%64; tekrarlayan +%67) Buffer 6afed95e7fc65314b9ec2d45. Son 3 duzen: spotlight, beklenti, uclu.
+- 14:19 (19.11) AUTO (detay): g/20261119_1413_baba_d2.jpg (split) - - DETAY: BABA e-ticaret ve hızlı teslimat Buffer 6afed961ec3834f154558ede. Son 3 duzen: beklenti, uclu, split.
