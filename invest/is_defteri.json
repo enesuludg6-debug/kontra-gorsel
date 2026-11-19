@@ -668,11 +668,11 @@
    "ne": "Son dakika; 13F sıradaki",
    "ticker": "",
    "tur": "tur",
-   "durum": "kuruldu",
+   "durum": "yapildi",
    "not": "",
    "trigger": "trig_01CAxRHRhf45DCRfE1Q5EVL6",
    "soz": "",
-   "guncelleme": "19.11 13:39"
+   "guncelleme": "19.11 14:38"
   },
   {
    "id": "WMT-1119-yayin",
@@ -712,6 +712,19 @@
    "trigger": "trig_013XjvVAPQ69LyGuCqPHzL8f",
    "soz": "",
    "guncelleme": "18.11 20:29"
+  },
+  {
+   "id": "TUR-1119-1547",
+   "ad": "Otomatik paylaşım turu",
+   "zaman": "2026-11-19T15:47",
+   "ne": "Açılış öncesi hareketler; 13F Point72/ARK",
+   "ticker": "",
+   "tur": "tur",
+   "durum": "kuruldu",
+   "not": "",
+   "trigger": "trig_013emWjdzCRS8wjiYjy7yuNJ",
+   "soz": "",
+   "guncelleme": "19.11 14:38"
   },
   {
    "id": "BABA-1119-cagri",
