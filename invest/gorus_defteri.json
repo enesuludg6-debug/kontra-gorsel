@@ -157,5 +157,12 @@
 "acilis": "bence en olası",
 "kaliplar": [],
 "metin": "Bence en olası senaryo 26.244'ün kırılıp 25.350-25.450 bölgesinin test edilmesi. Günlük kapanış 26.244 altına gelirse bu senaryo çalışmaya başlar."
+},
+{
+"acilis": "keysight yapay zekâ",
+"kaliplar": [
+"\\bçünkü\\b"
+],
+"metin": "Keysight yapay zekâ veri merkezlerinde kullanılan ağ ve çip test ekipmanlarını yapıyor. Geçen çeyrek iletişim tarafında ticari gelir %56 büyümüştü. Benim bakaca"
 }
 ]

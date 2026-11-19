@@ -147,3 +147,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 19.11 | 22:16 | son-dakika | AMD Hunterbrook yanıtı (takip) | zaman | 6aff4af8ff0f4be226851b65 |
 | 19.11 | 23:06 | 13f | Renaissance NVDA -99;7 MU en büyük | uclu | 6aff56b7afe79203125be4a2 |
 | 19.11 | 23:29 | teknik | NDX günlük teknik analiz (ENES İSTEĞİ; Enes'in TradingView görüntüleri) | ekran | 6aff5c31c233673006c1a233 |
+| 20.11 | 00:06 | beklenti | KEYS bilanço beklentisi | beklenti | 6aff64ecd606779a4df98c43 |

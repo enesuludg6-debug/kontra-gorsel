@@ -1006,11 +1006,11 @@
    "ne": "Intuit yerine; after-hours",
    "ticker": "",
    "tur": "tur",
-   "durum": "kuruldu",
+   "durum": "yapildi",
    "not": "",
    "trigger": "trig_01R4PWrFBVzTPXNFkpY8NKkc",
    "soz": "",
-   "guncelleme": "19.11 22:27"
+   "guncelleme": "20.11 00:07"
   },
   {
    "id": "KAPANIS-1119",
@@ -1037,6 +1037,19 @@
    "trigger": "trig_01QS9hmX2rBzdQpWWkmUnQ4h",
    "soz": "Enes 19.11 22:26: \"intuitle ilgili bir şey paylaşma onun yerine farklı içerikler yap\"",
    "guncelleme": "19.11 09:02"
+  },
+  {
+   "id": "KEYS-1120-yayin",
+   "ad": "Yayın: KEYS bilanço",
+   "zaman": "2026-11-20T00:18",
+   "ne": "Rakam tweeti + görüş",
+   "ticker": "",
+   "tur": "bilanco",
+   "durum": "kuruldu",
+   "not": "",
+   "trigger": "trig_01NTvU8q3iZcUVyScyvPkM58",
+   "soz": "",
+   "guncelleme": "20.11 00:07"
   },
   {
    "id": "TUR-1120-0025",
