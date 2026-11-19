@@ -26,3 +26,7 @@ MAKRO (kural 46 istisnası, analizde zorunlu): tüketici, tarife iadeleri/fiyat 
 - Yıllık rehber: net satış (cc) +%4,9-5,2 (önceki 4-5), düz. faaliyet kârı (cc) +%8,0-8,6 (önceki 7-8,5), düz. HBK 2,84-2,89 (önceki 2,80-2,87)
 - CEO: "We delivered strong results, growing our core business and gaining market share."
 - EKSİK (analiz/detay görevi bulmalı): ABD karşılaştırmalı satış, reklam büyümesi, üyelik geliri, Sam's Club, 4. çeyrek rehberi, ön piyasa tepkisi
+# EK (analiz 15:17; SEC sunum + StockTitan bülten özeti)
+- ABD karşılaştırmalı satış +%2,9 (ilaç fiyat düzenlemesi ~125 bp baskı; sağlık hariç +%3,6; GLP-1 ~+60 bp); işlem +%1,5; ABD net satış 125,0 Mr +%3,6
+- ABD e-ticaret +%23; küresel reklam +%25, ABD reklam +%37 (Walmart Connect ex-VIZIO/Vibe +%36); üyelik ücreti +%17 küresel; brüt kâr oranı +28 bp; ABD faaliyet kârı +%9
+- Walmart+ ve Sam's Club Plus paketi yıllık 120 $
