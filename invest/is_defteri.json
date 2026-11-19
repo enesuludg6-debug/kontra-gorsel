@@ -837,11 +837,24 @@
    "ne": "Açılış sonrası hareketler; işsizlik verisi",
    "ticker": "",
    "tur": "tur",
-   "durum": "kuruldu",
+   "durum": "yapildi",
    "not": "",
    "trigger": "trig_01HGqaJwvx61L95EAHx4Mvei",
    "soz": "",
-   "guncelleme": "19.11 17:08"
+   "guncelleme": "19.11 18:12"
+  },
+  {
+   "id": "TUR-1119-1835",
+   "ad": "Otomatik paylaşım turu",
+   "zaman": "2026-11-19T18:35",
+   "ne": "Son dakika; çip rallisi; 13F Point72",
+   "ticker": "",
+   "tur": "tur",
+   "durum": "kuruldu",
+   "not": "",
+   "trigger": "trig_01Lt9TSpQPje5EKvN6VTJ6us",
+   "soz": "",
+   "guncelleme": "19.11 18:12"
   },
   {
    "id": "WMT-1119-cagri",

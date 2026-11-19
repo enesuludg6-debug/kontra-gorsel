@@ -100,5 +100,12 @@
 "acilis": "en çok everpure",
 "kaliplar": [],
 "metin": "En çok Everpure'a şaşırdım. Beklentiyi rahat geçip rehberi üçüncü kez yükseltti ama hisse fiyatlanan hareketin yarısını bile yapmadı. Bana göre piyasa bu bilanç"
+},
+{
+"acilis": "nasdaq yine de",
+"kaliplar": [
+"\\bçünkü\\b"
+],
+"metin": "Nasdaq yine de güne yaklaşık %2 yükselişle başladı, piyasa veriyi görmezden geldi. Bence bu zayıf imalat verisi şu an Fed'i yolundan döndürmez, çünkü enflasyon "
 }
 ]
