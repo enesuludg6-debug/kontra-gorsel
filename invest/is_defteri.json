@@ -720,11 +720,24 @@
    "ne": "Açılış öncesi hareketler; 13F Point72/ARK",
    "ticker": "",
    "tur": "tur",
-   "durum": "kuruldu",
+   "durum": "yapildi",
    "not": "",
    "trigger": "trig_013emWjdzCRS8wjiYjy7yuNJ",
    "soz": "",
-   "guncelleme": "19.11 14:38"
+   "guncelleme": "19.11 15:48"
+  },
+  {
+   "id": "TUR-1119-1615",
+   "ad": "Otomatik paylaşım turu",
+   "zaman": "2026-11-19T16:15",
+   "ne": "Everpure ön piyasa; siber güvenlik; 13F",
+   "ticker": "",
+   "tur": "tur",
+   "durum": "kuruldu",
+   "not": "",
+   "trigger": "trig_01NLW9of3toMUSaudQmerntk",
+   "soz": "",
+   "guncelleme": "19.11 15:48"
   },
   {
    "id": "BABA-1119-cagri",
