@@ -456,3 +456,4 @@ Durdurmak için en alta `DURDUR` yazılı bir satır ekle (Enes ya da Claude, En
 - 18:12 (19.11) AUTO (makro): g/20261119_1815_makro.jpg (uclu) - - TUR 18:08: makro tweet; sonraki tur trig_01Lt9TSpQPje5EKvN6VTJ6us 18:35 Buffer 6aff11e15187bf7d546ee6ae. Son 3 duzen: isi, dortlu, uclu.
 - 18:36 (19.11) AUTO (haber): g/20261119_1838_cip.jpg (editoryal) - - TUR 18:35: çip tweeti; sonraki tur trig_01P51q9CYuDDSLjex74LGMeY 19:20 Buffer 6aff178ccfb6abb6944d8e38. Son 3 duzen: dortlu, uclu, editoryal.
 - 19:01 (19.11) AUTO (cagri): g/20261119_1902_wmt_c1.jpg (spotlight) - - CAGRI: WMT Sparky kullanım +129% sepet +40% Buffer 6aff1d60f996b44ffbc4e7b1. Son 3 duzen: uclu, editoryal, spotlight.
+- 19:12 (19.11) AUTO (cagri): g/20261119_1903_wmt_c2.jpg (zaman) - - CAGRI: WMT tüketici + tatil beklentisi (19:12 zamanlandı) Buffer 6aff1d6270751782c0cfa052. Son 3 duzen: editoryal, spotlight, zaman.
