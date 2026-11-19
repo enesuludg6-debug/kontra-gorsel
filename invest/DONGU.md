@@ -473,3 +473,4 @@ Durdurmak için en alta `DURDUR` yazılı bir satır ekle (Enes ya da Claude, En
 - 23:36 (19.11) TUR 23:35: kapanış öncesi (ABD kapanışı 00:00 TSİ) → kapanış özeti 00:10'a kaydı (trig_018oPmbTNyYsAfFAaS735QDu); 23:29 NDX teknik tweeti piyasa güncellemesi olarak yeterli.
 - 00:06 (20.11) AUTO (beklenti): g/20261120_0007_keys_beklenti.jpg (beklenti) - - BEKLENTI: KEYS 00:06 (kural 55); rakam görevi trig_01NTvU8q3iZcUVyScyvPkM58 00:18 Buffer 6aff64ecd606779a4df98c43. Son 3 duzen: uclu, ekran, beklenti.
 - 00:12 (20.11) AUTO (kapanis): g/20261120_0012_kapanis.jpg (isi) - - KAPANIS 19.11 atıldı; sonraki tur 00:50 trig_01RqgMev7iGYBRef8jybPL67 Buffer 6aff6634373c7db3cb537ce2. Son 3 duzen: ekran, beklenti, isi.
+- 00:19 (20.11) AUTO (bilanco-rakam): g/20261120_0020_keys_rakam.jpg (dortlu) - - KEYS rakam atıldı 00:19 (kural 55); analiz/çağrı görevi kurulmadı Buffer 6aff67ef8ba5b0cdc4ae936a. Son 3 duzen: beklenti, isi, dortlu.

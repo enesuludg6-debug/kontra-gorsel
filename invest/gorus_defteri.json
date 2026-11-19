@@ -169,5 +169,12 @@
 "acilis": "bu kapanış bence",
 "kaliplar": [],
 "metin": "Bu kapanış bence yorgun bir piyasanın işareti. Güzel bir haberle açılan her yükseliş satışa dönüyor. Yarın Nasdaq 100 tarafında teknik tweette yazdığım 26.244 d"
+},
+{
+"acilis": "bilançoyu beğendim hisse",
+"kaliplar": [
+"\\bbeğendim\\b"
+],
+"metin": "Bilançoyu beğendim. Hisse başı kâr beklentiyi yaklaşık %7 geçti, siparişler gelirin belirgin üstünde. En güçlü rakam ticari iletişimdeki %73 büyüme. Bence bu bü"
 }
 ]

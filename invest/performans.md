@@ -149,3 +149,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 19.11 | 23:29 | teknik | NDX günlük teknik analiz (ENES İSTEĞİ; Enes'in TradingView görüntüleri) | ekran | 6aff5c31c233673006c1a233 |
 | 20.11 | 00:06 | beklenti | KEYS bilanço beklentisi | beklenti | 6aff64ecd606779a4df98c43 |
 | 20.11 | 00:12 | kapanis | Kapanış: Nasdaq -2;25 S&P -1;97 Dow -2;19 | isi | 6aff6634373c7db3cb537ce2 |
+| 20.11 | 00:19 | bilanco-rakam | KEYS Ekim 2026 çeyreği rakam | dortlu | 6aff67ef8ba5b0cdc4ae936a |
