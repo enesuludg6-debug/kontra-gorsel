@@ -152,3 +152,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 20.11 | 00:19 | bilanco-rakam | KEYS Ekim 2026 çeyreği rakam | dortlu | 6aff67ef8ba5b0cdc4ae936a |
 | 20.11 | 00:26 | egitici | Açığa satış raporu nasıl işler (AMD örneği) | zaman | 6aff69838ec824f4cec13bb3 |
 | 20.11 | 00:51 | 13f | Whale Rock ALAB çıkış SITM artış | uclu | 6aff6f678ec824f4cec357fe |
+| 20.11 | 01:26 | gorus | Cuma için dört not | editoryal | 6aff778986abad2170218d8a |
