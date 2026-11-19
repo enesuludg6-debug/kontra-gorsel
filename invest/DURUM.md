@@ -1,5 +1,5 @@
 # DURUM — tek sayfa güncel durum (kesin kural 18)
-Son güncelleme: 19.11.2026 01:43 TSİ (B). Her tur ve görev sonunda güncellenir (en çok 80 satır). Turlar DEVIR_TAM'ı baştan okumaz: skill + bu dosya + DONGU.md son 30 satır. DEVIR_TAM'dan yalnız gereken bölüm grep ile açılır.
+Son güncelleme: 19.11.2026 09:02 TSİ (B). Her tur ve görev sonunda güncellenir (en çok 80 satır). Turlar DEVIR_TAM'ı baştan okumaz: skill + bu dosya + DONGU.md son 30 satır. DEVIR_TAM'dan yalnız gereken bölüm grep ile açılır.
 
 ## !!! Kural 49 (Enes 18.11 22:16: 'bizim yatırımcılık tarzımıza uyan tüm hisseler için bilanço açıklanmadan önce konsensüs beklentilerini tweet at bu şekilde kısaca'): kural 46 alanındaki (yapay zekâ / uzay / Nasdaq teknoloji + portföy, ilgi listesi, büyük takip; WMT 19.11 istisnası dahil) HER bilançodan önce AYRI, KISA bir konsensüs tweeti. Zaman: HAZIRLIK görevi içinde, açıklamadan 30-60 dk önce (önizleme tweeti olsa da ayrıca atılır; 3 saat ticker kuralına takılmaz, Enes'in açık isteği). Kart: kart2.beklenti(ticker, şirket adı, 'Mali YYYY • N. çeyrek', 'GG Ay, açılış öncesi/kapanış sonrası (TSİ ~SS:DD)', [(metrik, konsensüs, alt not)], kaynak, out) — büyük logo + Metrik/Konsensüs tablosu; satırlar gelir + hisse başı kâr (+ şirkete özgü 1-2 KPI ya da şirket rehberi). Metin 2-4 kısa satır, yorumsuz: '$T bu gece/yarın sabah ... bilançosunu açıklıyor. Piyasa beklentisi gelirde X, hisse başı kârda Y.' + varsa şirket rehberi ve opsiyon hareketi tek cümle. Her rakam 2 kaynak. DONGU '- BEKLENTI: T'.
 
@@ -84,7 +84,7 @@ Atılanlar: Berkshire, Ackman, Druckenmiller, Tepper, Soros, Third Point/Loeb. A
 
 ## Bugün / yarın (takvim.md ayrıntılı)
 - 17.11: HD yayın 13:58, DIS yayın 14:38, vadeli ~15:00-15:25, perakende satış hazırlık 15:40 yayın 16:28, teknik 18:00, teknik 23:30, NVDA hazırlık 23:25 yayın 00:18 (+15 dk analiz; 12:22 önizleme tahminleriyle kıyas: gelir 111-113, DC 103-105, GM %74,2-74,5, HBK 2,53-2,58; Q4 rehber 122-126, marj ~%72).
-- 18.11: TGT (açılış öncesi), FOMC notları 22:00, PANW. 19.11: WMT.
+- 18.11: TGT, FOMC notları, PANW, P (bitti). 19.11: WMT (15:00), INTU (00:00 TSİ 20.11, 7 görev kuruldu).
 - Cumartesi 21.11 11:00 haftalık özet (kural 19). Pazar 22.11 20:00 takvim + "gelecek hafta" tweeti (kural 20), 21:30 performans raporu.
 
 ## Son 10 tweet (17.11)

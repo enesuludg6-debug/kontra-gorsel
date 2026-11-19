@@ -139,39 +139,39 @@ tarih,saat,kaynak,tur,gorus,konu,duzen,buffer_id,gorunt,begeni,yanit,repost,er,o
 2026-11-17,22:41,sistem,EGITICI,evet,Ileri F/K nasil okunur,editoryal,6afcadf6ad43efddcc54c27a,,,,,,
 2026-11-17,23:06,sistem,BAGLAM-GORUS,evet,TSM iki gunde yuzde 10,cizgi,6afcb3cf7847359f57adbac4,,,,,,
 2026-11-17,23:19,sistem,EGITICI,evet,VIX nasil okunur,uclu,6afcb6d57338fb226f833d32,,,,,,
-2026-11-18,00:06,sistem,KAPANIS,evet,17.11 kapanis,isi,6afcc1cf9b0477630c937e20,,,,,,
-2026-11-18,00:23,sistem,BILANCO-RAKAM,hayir,NVDA 3. ceyrek,uclu,6afcc5b9fa88ce86dcb0cb94,,,,,,
-2026-11-18,00:25,sistem,BILANCO-RAKAM,hayir,NVDA 3. ceyrek tam format (Enes),uclu,6afcc632bbe886f1b5140175,,,,,,
-2026-11-18,00:41,sistem,BILANCO-ANALIZ,evet,NVDA 3. ceyrek analiz,ilerleme,6afcca0949939c25efa18bb2,,,,,,
-2026-11-18,01:08,sistem,DETAY,evet,NVDA taahhutler,grafik2,6afcd043536cf08383ca8135,,,,,,
-2026-11-18,01:31,sistem,OPSIYON,evet,TGT ve PANW bilanco oncesi opsiyon beklenen hareket,editoryal,6afcd5d48e2194ed032b0fb1,,,,,,
-2026-11-18,11:02,sistem,KEY-LEVELS,evet,Gunun basliklari 18.11: NVDA sonrasi vadeliler  TGT  FOMC  PANW  WMT,takvim,6afd5b93739d5342ff13f3ef,,,,,,
-2026-11-18,11:17,sistem,13F,evet,13F Coatue Q3 2026: MSFT +%120  CRM yeni  META +1 99 Mn  SHOP/V/ICE yeni,dortlu,6afd5f0e45783105f4378a2f,,,,,,
-2026-11-18,11:42,sistem,BILANCO-ANALIZ,evet,Cagri NVDA 1/2: GPU kira fiyatlari (Hopper 2x  B300 +%60  token -%60),uclu,6afd64f0805b2f3bff40e508,,,,,,
-2026-11-18,11:43,sistem,BILANCO-ANALIZ,evet,Cagri NVDA 2/2: yonetim kurulu Jensen geri donmuyor  CEO takvimi yok  %75 rehber,editoryal,6afd652c45783105f439a82c,,,,,,
-2026-11-18,12:07,sistem,13F,evet,13F Tiger Global Q3 2026: CBRS +%48  INTC +%30  NVDA +%7  DHR +%178; TSM -%36  META -%20,siralama,6afd6ad3d015b337f13f0f87,,,,,,
-2026-11-18,12:41,sistem,EGITICI,evet,13F nasil okunur: 45 gun gecikme  kapsam  baglam,zaman,6afd72da085e629e46f362eb,,,,,,
-2026-11-18,13:12,sistem,BAGLAM-GORUS,evet,Nvidia sonrasi acilis oncesi: neocloud NBIS IREN CRWV +%6-8  AMD +%3,isi,6afd79f3e4de71c5c6d9b5c8,,,,,,
-2026-11-18,13:57,sistem,13F,evet,13F Baupost Q3 2026: HONA ve SITE yeni  AXTA 2 kat  CME ekleme  GOOG azaltma  4 cikis,dortlu,6afd8483f4526871ade0df85,,,,,,
-2026-11-18,14:37,sistem,BILANCO-RAKAM,hayir,TGT 3. ceyrek rakam,uclu,6afd8de467b44b742a4f425d,,,,,,
-2026-11-18,14:47,sistem,BILANCO-ANALIZ,evet,TGT 3. ceyrek analiz (kural 45) + kural 21 duzeltme,editoryal,6afd904667b44b742a50348c,,,,,,
-2026-11-18,15:01,sistem,BILANCO-DETAY,evet,TGT kategoriler,ilerleme,6afd93b567b44b742a51bb38,,,,,,
-2026-11-18,15:02,sistem,BILANCO-DETAY,evet,TGT guzellik / Beauty Studio,zaman,6afd93f103c6b6e75e05a645,,,,,,
-2026-11-18,15:41,sistem,BILANCO-GORUS,evet,LOW 3. ceyrek,uclu,6afd9d1467b44b742a562442,,,,,,
-2026-11-18,15:42,sistem,ANALIST,evet,NVDA bilanco sonrasi analist hedefleri,editoryal,6afd9d4767b44b742a563ffd,,,,,,
-2026-11-18,16:42,sistem,BILANCO-GORUS,evet,TJX 3. ceyrek,ilerleme,6afdab3ab1824861ddb9bc98,,,,,,
-2026-11-18,16:58,sistem,13F,evet,13F Himalaya Li Lu Q3,dortlu,6afdaf05b24db460bb0445cc,,,,,,
-2026-11-18,18:08,sistem,UZUN-GORUS,evet,Yapay zeka stres testi: deger dar alanlara kayiyor (Enes metninden),uclu,6afdbf70b3f8322ac7454d4d,,,,,,
-2026-11-18,18:26,sistem,PIYASA,evet,Nasdaq acilis: cipler yukari  yazilim/perakende asagi,editoryal,6afdc3b06a70d040da0077e4,,,,,,
-2026-11-18,18:27,sistem,PORTFOY,evet,RKLB 100. Electron + siparis defteri,zaman,6afdc3db0a7aa6dca2c72948,,,,,,
-2026-11-18,18:46,sistem,BEKLENEN-HAREKET,evet,NVDA opsiyon 8 5 vs gercek ~-1,ilerleme,6afdc85cb3f8322ac7492dc0,,,,,,
-2026-11-18,19:23,sistem,ENES,evet,Bellek geri alim + sermaye rekabeti (Enes metni),uclu,6afdd0f9b35a3030f043de24,,,,,,
-2026-11-18,19:36,sistem,PORTFOY,evet,AXON RBC konferansi + Q3 yazilim,editoryal,6afdd415b35a3030f0453b15,,,,,,
+2026-11-18,00:06,sistem,KAPANIS,evet,17.11 kapanis,isi,6afcc1cf9b0477630c937e20,818,2,0,0,1.1,2026-11-18T08:40
+2026-11-18,00:23,sistem,BILANCO-RAKAM,hayir,NVDA 3. ceyrek,uclu,6afcc5b9fa88ce86dcb0cb94,0,0,0,0,0,2026-11-17T21:25
+2026-11-18,00:25,sistem,BILANCO-RAKAM,hayir,NVDA 3. ceyrek tam format (Enes),uclu,6afcc632bbe886f1b5140175,380,0,0,0,0.53,2026-11-18T08:40
+2026-11-18,00:41,sistem,BILANCO-ANALIZ,evet,NVDA 3. ceyrek analiz,ilerleme,6afcca0949939c25efa18bb2,563,3,0,0,1.78,2026-11-18T08:40
+2026-11-18,01:08,sistem,DETAY,evet,NVDA taahhutler,grafik2,6afcd043536cf08383ca8135,277,0,0,0,0.72,2026-11-18T08:40
+2026-11-18,01:31,sistem,OPSIYON,evet,TGT ve PANW bilanco oncesi opsiyon beklenen hareket,editoryal,6afcd5d48e2194ed032b0fb1,244,0,0,0,0.82,2026-11-18T08:40
+2026-11-18,11:02,sistem,KEY-LEVELS,evet,Gunun basliklari 18.11: NVDA sonrasi vadeliler  TGT  FOMC  PANW  WMT,takvim,6afd5b93739d5342ff13f3ef,211,2,0,0,1.9,2026-11-18T08:40
+2026-11-18,11:17,sistem,13F,evet,13F Coatue Q3 2026: MSFT +%120  CRM yeni  META +1 99 Mn  SHOP/V/ICE yeni,dortlu,6afd5f0e45783105f4378a2f,105,0,0,0,0,2026-11-18T08:40
+2026-11-18,11:42,sistem,BILANCO-ANALIZ,evet,Cagri NVDA 1/2: GPU kira fiyatlari (Hopper 2x  B300 +%60  token -%60),uclu,6afd64f0805b2f3bff40e508,0,0,0,0,0,2026-11-18T08:42
+2026-11-18,11:43,sistem,BILANCO-ANALIZ,evet,Cagri NVDA 2/2: yonetim kurulu Jensen geri donmuyor  CEO takvimi yok  %75 rehber,editoryal,6afd652c45783105f439a82c,0,0,0,0,0,2026-11-18T08:43
+2026-11-18,12:07,sistem,13F,evet,13F Tiger Global Q3 2026: CBRS +%48  INTC +%30  NVDA +%7  DHR +%178; TSM -%36  META -%20,siralama,6afd6ad3d015b337f13f0f87,0,0,0,0,0,2026-11-18T09:07
+2026-11-18,12:41,sistem,EGITICI,evet,13F nasil okunur: 45 gun gecikme  kapsam  baglam,zaman,6afd72da085e629e46f362eb,0,0,0,0,0,2026-11-18T09:45
+2026-11-18,13:12,sistem,BAGLAM-GORUS,evet,Nvidia sonrasi acilis oncesi: neocloud NBIS IREN CRWV +%6-8  AMD +%3,isi,6afd79f3e4de71c5c6d9b5c8,0,0,0,0,0,2026-11-18T10:12
+2026-11-18,13:57,sistem,13F,evet,13F Baupost Q3 2026: HONA ve SITE yeni  AXTA 2 kat  CME ekleme  GOOG azaltma  4 cikis,dortlu,6afd8483f4526871ade0df85,0,0,0,0,0,2026-11-18T10:57
+2026-11-18,14:37,sistem,BILANCO-RAKAM,hayir,TGT 3. ceyrek rakam,uclu,6afd8de467b44b742a4f425d,0,0,0,0,0,2026-11-18T11:37
+2026-11-18,14:47,sistem,BILANCO-ANALIZ,evet,TGT 3. ceyrek analiz (kural 45) + kural 21 duzeltme,editoryal,6afd904667b44b742a50348c,0,0,0,0,0,2026-11-18T11:47
+2026-11-18,15:01,sistem,BILANCO-DETAY,evet,TGT kategoriler,ilerleme,6afd93b567b44b742a51bb38,0,0,0,0,0,2026-11-18T12:02
+2026-11-18,15:02,sistem,BILANCO-DETAY,evet,TGT guzellik / Beauty Studio,zaman,6afd93f103c6b6e75e05a645,0,0,0,0,0,2026-11-18T12:03
+2026-11-18,15:41,sistem,BILANCO-GORUS,evet,LOW 3. ceyrek,uclu,6afd9d1467b44b742a562442,0,0,0,0,0,2026-11-18T12:42
+2026-11-18,15:42,sistem,ANALIST,evet,NVDA bilanco sonrasi analist hedefleri,editoryal,6afd9d4767b44b742a563ffd,0,0,0,0,0,2026-11-18T12:42
+2026-11-18,16:42,sistem,BILANCO-GORUS,evet,TJX 3. ceyrek,ilerleme,6afdab3ab1824861ddb9bc98,0,0,0,0,0,2026-11-18T13:42
+2026-11-18,16:58,sistem,13F,evet,13F Himalaya Li Lu Q3,dortlu,6afdaf05b24db460bb0445cc,0,0,0,0,0,2026-11-18T13:58
+2026-11-18,18:08,sistem,UZUN-GORUS,evet,Yapay zeka stres testi: deger dar alanlara kayiyor (Enes metninden),uclu,6afdbf70b3f8322ac7454d4d,0,0,0,0,0,2026-11-18T15:08
+2026-11-18,18:26,sistem,PIYASA,evet,Nasdaq acilis: cipler yukari  yazilim/perakende asagi,editoryal,6afdc3b06a70d040da0077e4,0,0,0,0,0,2026-11-18T15:26
+2026-11-18,18:27,sistem,PORTFOY,evet,RKLB 100. Electron + siparis defteri,zaman,6afdc3db0a7aa6dca2c72948,0,0,0,0,0,2026-11-18T15:27
+2026-11-18,18:46,sistem,BEKLENEN-HAREKET,evet,NVDA opsiyon 8 5 vs gercek ~-1,ilerleme,6afdc85cb3f8322ac7492dc0,0,0,0,0,0,2026-11-18T15:46
+2026-11-18,19:23,sistem,ENES,evet,Bellek geri alim + sermaye rekabeti (Enes metni),uclu,6afdd0f9b35a3030f043de24,0,0,0,0,0,2026-11-18T16:23
+2026-11-18,19:36,sistem,PORTFOY,evet,AXON RBC konferansi + Q3 yazilim,editoryal,6afdd415b35a3030f0453b15,0,0,0,0,0,2026-11-18T16:36
 2026-11-18,21:28,sistem,ENES-TEKNIK,evet,RKLB SMC teknik analiz (Enes gorselleri  zamanli 21:28),enes-grafik,6afdd9107f787ce2b19347c4,,,,,,
-2026-11-18,20:08,sistem,ENES-TEKNIK,evet,VRT SMC teknik analiz (Enes gorselleri),enes-grafik,6afddb974a03ad131e7dd5ee,,,,,,
-2026-11-18,20:15,sistem,ENES-TEKNIK,evet,CBRS SMC/ICT teknik analiz (Enes gorselleri),enes-grafik,6afddd3e4b233b0b898aab73,,,,,,
-2026-11-18,20:33,sistem,BILANCO-ONIZLEME,evet,PANW 1. ceyrek onizleme,uclu,6afde163ba7cb28cce133902,,,,,,
-2026-11-18,20:51,sistem,13F,evet,Lone Pine Q3 teknoloji hamleleri,dortlu,6afde59ea11f24337a0f73c8,,,,,,
+2026-11-18,20:08,sistem,ENES-TEKNIK,evet,VRT SMC teknik analiz (Enes gorselleri),enes-grafik,6afddb974a03ad131e7dd5ee,0,0,0,0,0,2026-11-18T17:08
+2026-11-18,20:15,sistem,ENES-TEKNIK,evet,CBRS SMC/ICT teknik analiz (Enes gorselleri),enes-grafik,6afddd3e4b233b0b898aab73,0,0,0,0,0,2026-11-18T17:15
+2026-11-18,20:33,sistem,BILANCO-ONIZLEME,evet,PANW 1. ceyrek onizleme,uclu,6afde163ba7cb28cce133902,0,0,0,0,0,2026-11-18T17:33
+2026-11-18,20:51,sistem,13F,evet,Lone Pine Q3 teknoloji hamleleri,dortlu,6afde59ea11f24337a0f73c8,0,0,0,0,0,2026-11-18T17:51
 2026-11-18,21:16,sistem,BILANCO-ONIZLEME,evet,Everpure 3. ceyrek onizleme + opsiyon,editoryal,6afdeb88144d89f0a5b5ff42,,,,,,
 2026-11-18,22:10,sistem,MAKRO,evet,FOMC ekim tutanaklari,zaman,6afdf820badbce99d00612fa,,,,,,
 2026-11-18,22:13,sistem,SON-DAKIKA,evet,AAOI 550 Mn ATM hisse satisi,uclu,6afdf8d37d64a85c92a34bf9,,,,,,
@@ -194,4 +194,18 @@ tarih,saat,kaynak,tur,gorus,konu,duzen,buffer_id,gorunt,begeni,yanit,repost,er,o
 2026-11-19,01:26,sistem,detay,Everpure detay (kural 41),P: Ürün marjı düşüşü,spotlight,6afe2424c69bd1cb888755fc,,,,,,
 2026-11-19,01:30,sistem,detay,Everpure detay (kural 41),P: Rehber ve büyüme,grafik2,6afe242401ba7c5e7917c41b,,,,,,
 2026-11-19,01:34,sistem,detay,Everpure detay (kural 41),P: Yapay zekâ kazanımları,editoryal,6afe2425ebd4409dc9fcb37e,,,,,,
-2026-11-19,01:52,sistem,son-dakika,Bloomberg + CNBC + Fortune + Newsquawk: yönetim kurulu başkanı Huang dönmüyor; Kress town hall (Bloomberg + CNBC); Huang dönmeye hazır (CNBC + Fortune). Tek kaynak atılmadı: Arm CEO'ya teklif, Ackman, Aralık zam/hisse. Günün 50. tweeti,NVDA: Huang dönmüyor  çalışan toplantısı,zaman,6afe29b101ba7c5e7919d7b0,,,,,,
+2026-11-19,01:52,sistem,son-dakika,Bloomberg + CNBC + Fortune + Newsquawk: yönetim kurulu başkanı Huang dönmüyor; Kress town hall (Bloomberg + CNBC); Huang dönmeye hazır (CNBC + Fortune). Tek kaynak atılmadı: Arm CEO'ya teklif; Ackman; Aralık zam/hisse. Günün 50. tweeti,NVDA: Huang dönmüyor; çalışan toplantısı,zaman,6afe29b101ba7c5e7919d7b0,,,,,,
+2026-11-18,20:03,sistem,?,?,Rocket Lab grafiğinde bilanço sonrası çok net bir yapı oluşt,,6afdda4f1ac79ffc3fc32afd,0,0,0,0,0,2026-11-18T17:03
+2026-11-18,19:23,sistem,?,?,"Bir çip şirketine sahipseniz, özellikle de bellek (Memory) s",,6afdd121650d22dcf08c9acd,0,0,0,0,0,2026-11-18T16:24
+2026-11-18,19:10,sistem,?,?,Anthropic’in halka arzında yatırımcı iştahı kontrolden çıkmı,,6afdcdf1bf7a917ada6425d4,0,0,0,0,0,2026-11-18T16:10
+2026-11-18,17:27,sistem,?,?,Nebius'un yapay zekâ modellerini hizmet olarak sunduğu Token,,6afdb5d3780cc286f916097d,0,0,0,0,0,2026-11-18T14:27
+2026-11-18,17:22,sistem,?,?,"$TJX Q3’27: Satış ve comps beat, EPS inline (adjusted)  • Ge",,6afdb49263fd8d42dc87ed11,0,0,0,0,0,2026-11-18T14:22
+2026-11-18,17:11,sistem,?,?,$NVDA dün şunları söyledi.  Token fiyatları Mayıs’tan beri ~,,6afdb216a783b6d23768fd32,0,0,0,0,0,2026-11-18T14:11
+2026-11-18,16:42,sistem,?,?,"Bakın, olayı zorlaştırmayın. Endeksin defalarca saygı duyduğ",,6afdab391513e76f54e09093,0,0,0,0,0,2026-11-18T13:42
+2026-11-18,13:56,sistem,?,?,$UBER | Morgan Stanley Konferansı’ndan öne çıkanlar:  • 2026,,6afd844b0a1c65e37bdc3da4,0,0,0,0,0,2026-11-18T10:56
+2026-11-18,08:26,sistem,?,?,"Günaydın dostlar,erkenciyiz çok çalışmamız lazım.Motivasyonu",,6afd3724a599666d2ddd0061,486,8,2,0,3.91,2026-11-18T08:40
+2026-11-18,01:37,sistem,?,?,Teşekkürler $NVDA . https://t.co/Hum8Cup2oi,,6afcd717ddb8a9875806887d,353,3,0,0,3.4,2026-11-18T08:40
+2026-11-18,00:33,sistem,?,?,"$NVDA, yapay zekâ altyapısında çıtayı yeniden yükseltiyor!  ",,6afcc833795696ed86b94eea,318,0,0,0,0.31,2026-11-18T08:40
+2026-11-18,00:28,sistem,?,?,"$NVDA Q3 FY27: Hyperscale $60.1B (+%71 YoY, $54.1B beklentin",,6afcc721a718c61389784cdd,326,0,0,0,1.84,2026-11-18T08:40
+2026-11-18,00:16,sistem,?,?,#RKLB https://t.co/5BN6HWJeWC,,6afcc42a795696ed86b91fb6,401,2,0,0,2.74,2026-11-18T08:40
+2026-11-18,00:08,sistem,?,?,PORTFÖY GÜNCELLEMESİ YTD %53.20 Günlük değişim -%0.16 $DOCN ,,6afcc24e795696ed86b91301,722,3,0,0,1.52,2026-11-18T08:40

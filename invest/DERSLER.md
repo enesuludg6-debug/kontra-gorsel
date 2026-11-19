@@ -62,6 +62,7 @@ O-010 Buffer'da sistem dışı gönderiler olabilir (Enes elle atıyor): tekrar 
 O-011 (18.11 00:24, Enes) Bilanço rakam tweeti CRWV formatından ASLA eksik çıkmaz (gelir, HBK, şirkete özgü 2-3 metrik, 'X. ÇEYREK TAHMİNİ' bölümü). Bülten açılamazsa ilk bakılacak yer Yahoo Finance canlı blogu (finance.yahoo.com/technology/live/...; aramada başlık 'Nvidia earnings live' gibi) ve CNBC; rakamlar orada dakikalar içinde çıkıyor. Bir satır tek kaynaktaysa o satır 2-3 dk içinde teyit edilip tam format atılır; formatı bozan 'yıllık büyüme' gibi yedek satır konmaz.
 
 ## Gözlemler (doğrulanmayı bekleyen, tarih + kanıt)
+- 19.11: 18.11'de 46 tweet, ort. 113 görüntülenme (16.11 78 tweette de düşük); en iyiler kapanış özeti (818) ve büyük isim analizi (NVDA 563). Gece detay tweetleri henüz ölçülmedi.
 - 18.11 (ders_analiz --gun 7): 'görüş: evet' işaretli 9 tweet göreli 0,77 (genel 1,00) ve ER 1,57 vs 1,82; analiz 'DERS ADAYI' dedi ama 9 tweetin çoğu 17.11 gece (az ölçüm) — 3. hafta ve 12+ saat ölçümüyle yeniden bakılacak, görüşlü tweet kuralı (25) değişmez.
 - 18.11: en iyi 5'in 4'ü 16.11 13:20-14:57 arası (RKLB, NBIS, NVDA önizleme, vadeli); öğlen dilimi (12-15) güçlü görünüyor, tek günden ders yok. 17.11 16:31/17:36/19:32 tweetlerinde Buffer metrikleri hep 0 geldi (ölçüm gecikmesi olabilir), boş bırakıldı, yarın tekrar ölçülecek.
 - 17.11: Buffer metrikleri ~24 saat gecikmeli; aynı günün tweetleri ertesi sabah ölçülür.

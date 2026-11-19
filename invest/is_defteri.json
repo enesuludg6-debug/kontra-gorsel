@@ -623,6 +623,19 @@
    "guncelleme": "18.11 20:30"
   },
   {
+   "id": "INTU-1120-opsiyon",
+   "ad": "Opsiyon: INTU",
+   "zaman": "2026-11-19T18:00",
+   "ne": "Kural 39: opsiyonların fiyatladığı hareket (±%, 2 kaynak) açıklamadan önce en az bir tweette; DONGU '- OPSIYON: T'",
+   "ticker": "INTU",
+   "tur": "bilanco",
+   "durum": "kuruldu",
+   "not": "",
+   "trigger": "trig_018AS6GEQwKsCSrRdaTVyYm2",
+   "soz": "",
+   "guncelleme": "19.11 09:02"
+  },
+  {
    "id": "WMT-1119-cagri",
    "ad": "Çağrı: WMT",
    "zaman": "2026-11-19T19:00",
@@ -634,6 +647,84 @@
    "trigger": "trig_01Bmn5w79EztPHmmoevGtWPL",
    "soz": "",
    "guncelleme": "18.11 20:30"
+  },
+  {
+   "id": "INTU-1120-hazirlik",
+   "ad": "Hazırlık: INTU",
+   "zaman": "2026-11-19T23:00",
+   "ne": "Kural 16: beklentiler 2 kaynak, CRWV iskeleti, /tmp/hazir_T.py kart, bülten URL'leri",
+   "ticker": "INTU",
+   "tur": "bilanco",
+   "durum": "kuruldu",
+   "not": "",
+   "trigger": "trig_01R8LtGMfjJzC7uHWqafsYCD",
+   "soz": "",
+   "guncelleme": "19.11 09:02"
+  },
+  {
+   "id": "INTU-1120-yayin",
+   "ad": "Yayın: INTU bilanço",
+   "zaman": "2026-11-19T23:58",
+   "ne": "Kural 16 + O-011: rakam tweeti tam CRWV formatı, 3-5 dk içinde; Yahoo canlı blog/CNBC yedek",
+   "ticker": "INTU",
+   "tur": "bilanco",
+   "durum": "kuruldu",
+   "not": "",
+   "trigger": "trig_01Hi5EWARcxyRcUSjDEjyipR",
+   "soz": "",
+   "guncelleme": "19.11 09:02"
+  },
+  {
+   "id": "INTU-1120-analiz",
+   "ad": "Analiz: INTU bilanço",
+   "zaman": "2026-11-20T00:15",
+   "ne": "Kural 25: kapsamlı analiz tweeti",
+   "ticker": "INTU",
+   "tur": "bilanco",
+   "durum": "kuruldu",
+   "not": "",
+   "trigger": "trig_01QS9hmX2rBzdQpWWkmUnQ4h",
+   "soz": "",
+   "guncelleme": "19.11 09:02"
+  },
+  {
+   "id": "INTU-1120-detay",
+   "ad": "Detay: INTU",
+   "zaman": "2026-11-20T00:30",
+   "ne": "Kural 41: belgeden 2-7 AYRI detay tweeti, BEKLEMEDEN (gece dahil), aralık serbest",
+   "ticker": "INTU",
+   "tur": "bilanco",
+   "durum": "kuruldu",
+   "not": "",
+   "trigger": "trig_014k5DfYgjpYENyYuM6FAuw3",
+   "soz": "",
+   "guncelleme": "19.11 09:02"
+  },
+  {
+   "id": "INTU-1120-cagri",
+   "ad": "Çağrı: INTU",
+   "zaman": "2026-11-20T11:40",
+   "ne": "Kural 40: görüşme önemli yerleri, gece bilançosunda AYNI SABAH, her konu ayrı tweet",
+   "ticker": "INTU",
+   "tur": "bilanco",
+   "durum": "kuruldu",
+   "not": "",
+   "trigger": "trig_01XQRXGALSSX6s7Vd1JomAUb",
+   "soz": "",
+   "guncelleme": "19.11 09:02"
+  },
+  {
+   "id": "INTU-1120-beklenen",
+   "ad": "Beklenen hareket: INTU",
+   "zaman": "2026-11-20T17:45",
+   "ne": "Kural 22n/39: opsiyon fiyatlaması vs açılıştaki gerçek hareket",
+   "ticker": "INTU",
+   "tur": "bilanco",
+   "durum": "kuruldu",
+   "not": "",
+   "trigger": "trig_01Xo8quq4Q4zEkjNEB1yhwmC",
+   "soz": "",
+   "guncelleme": "19.11 09:02"
   }
  ]
 }
