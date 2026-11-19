@@ -443,3 +443,4 @@ Durdurmak için en alta `DURDUR` yazılı bir satır ekle (Enes ya da Claude, En
 - 14:38 (19.11) AUTO (13f): g/20261119_1440_13f_baillie.jpg (terminal) - - 13F SERİSİ: Baillie Gifford atıldı / sıradaki: Point72 ya da ARK Buffer 6afedfb4f365ba93c5823ad7. Son 3 duzen: split, zaman, terminal.
 - 15:07 (19.11) AUTO (bilanco-rakam): g/20261119_1510_wmt_rakam.jpg (uclu) -  Buffer 6afee66f2938086e1d4d8e9a. Son 3 duzen: zaman, terminal, uclu.
 - 15:17 (19.11) AUTO (bilanco-analiz): g/20261119_1520_wmt_analiz.jpg (editoryal) -  Buffer 6afee8d0fcd8732ff211a6d0. Son 3 duzen: terminal, uclu, editoryal.
+- 15:32 (19.11) AUTO (detay): g/20261119_1532_wmt_d1.jpg (split) - - DETAY: WMT ilaç fiyat düzenlemesi ve GLP-1 Buffer 6afeec462b33bbf880bb151f. Son 3 duzen: uclu, editoryal, split.
