@@ -480,6 +480,19 @@
    "guncelleme": "19.11 01:42"
   },
   {
+   "id": "BABA-1119-opsiyon",
+   "ad": "Opsiyon: BABA",
+   "zaman": "2026-11-19T11:00",
+   "ne": "Kural 39: opsiyonların fiyatladığı hareket (±%, 2 kaynak) açıklamadan önce en az bir tweette; DONGU '- OPSIYON: T'",
+   "ticker": "BABA",
+   "tur": "bilanco",
+   "durum": "bekliyor",
+   "not": "",
+   "trigger": "",
+   "soz": "",
+   "guncelleme": "19.11 12:01"
+  },
+  {
    "id": "WMT-1119-opsiyon",
    "ad": "Opsiyon: WMT",
    "zaman": "2026-11-19T11:20",
@@ -545,6 +558,19 @@
    "guncelleme": "18.11 20:28"
   },
   {
+   "id": "BABA-1119-hazirlik",
+   "ad": "Hazırlık: BABA",
+   "zaman": "2026-11-19T12:30",
+   "ne": "Kural 16: beklentiler 2 kaynak, CRWV iskeleti, /tmp/hazir_T.py kart, bülten URL'leri",
+   "ticker": "BABA",
+   "tur": "bilanco",
+   "durum": "bekliyor",
+   "not": "",
+   "trigger": "",
+   "soz": "",
+   "guncelleme": "19.11 12:01"
+  },
+  {
    "id": "TUR-1119-1235",
    "ad": "Otomatik paylaşım turu",
    "zaman": "2026-11-19T12:35",
@@ -558,6 +584,32 @@
    "guncelleme": "19.11 11:52"
   },
   {
+   "id": "BABA-1119-yayin",
+   "ad": "Yayın: BABA bilanço",
+   "zaman": "2026-11-19T13:28",
+   "ne": "Kural 16 + O-011: rakam tweeti tam CRWV formatı, 3-5 dk içinde; Yahoo canlı blog/CNBC yedek",
+   "ticker": "BABA",
+   "tur": "bilanco",
+   "durum": "bekliyor",
+   "not": "",
+   "trigger": "",
+   "soz": "",
+   "guncelleme": "19.11 12:01"
+  },
+  {
+   "id": "BABA-1119-analiz",
+   "ad": "Analiz: BABA bilanço",
+   "zaman": "2026-11-19T13:45",
+   "ne": "Kural 25: kapsamlı analiz tweeti",
+   "ticker": "BABA",
+   "tur": "bilanco",
+   "durum": "bekliyor",
+   "not": "",
+   "trigger": "",
+   "soz": "",
+   "guncelleme": "19.11 12:01"
+  },
+  {
    "id": "WMT-1119-hazirlik",
    "ad": "Hazırlık: WMT",
    "zaman": "2026-11-19T14:00",
@@ -569,6 +621,19 @@
    "trigger": "trig_01PsQsX6EN4PxLnvxocg8en7",
    "soz": "",
    "guncelleme": "18.11 20:29"
+  },
+  {
+   "id": "BABA-1119-detay",
+   "ad": "Detay: BABA",
+   "zaman": "2026-11-19T14:00",
+   "ne": "Kural 41: belgeden 2-7 AYRI detay tweeti, BEKLEMEDEN (gece dahil), aralık serbest",
+   "ticker": "BABA",
+   "tur": "bilanco",
+   "durum": "bekliyor",
+   "not": "",
+   "trigger": "",
+   "soz": "",
+   "guncelleme": "19.11 12:01"
   },
   {
    "id": "WMT-1119-yayin",
@@ -610,6 +675,19 @@
    "guncelleme": "18.11 20:29"
   },
   {
+   "id": "BABA-1119-cagri",
+   "ad": "Çağrı: BABA",
+   "zaman": "2026-11-19T17:00",
+   "ne": "Kural 40: görüşme önemli yerleri, AYNI GÜN, her konu ayrı tweet",
+   "ticker": "BABA",
+   "tur": "bilanco",
+   "durum": "bekliyor",
+   "not": "",
+   "trigger": "",
+   "soz": "",
+   "guncelleme": "19.11 12:01"
+  },
+  {
    "id": "PANW-1119-beklenen",
    "ad": "Beklenen hareket: PANW",
    "zaman": "2026-11-19T17:45",
@@ -621,6 +699,19 @@
    "trigger": "trig_015GA6B2SFoABk1ugngUtBhU",
    "soz": "",
    "guncelleme": "18.11 20:29"
+  },
+  {
+   "id": "BABA-1119-beklenen",
+   "ad": "Beklenen hareket: BABA",
+   "zaman": "2026-11-19T17:45",
+   "ne": "Kural 22n/39: opsiyon fiyatlaması vs açılıştaki gerçek hareket",
+   "ticker": "BABA",
+   "tur": "bilanco",
+   "durum": "bekliyor",
+   "not": "",
+   "trigger": "",
+   "soz": "",
+   "guncelleme": "19.11 12:01"
   },
   {
    "id": "WMT-1119-beklenen",
