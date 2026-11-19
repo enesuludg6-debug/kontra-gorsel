@@ -18,3 +18,11 @@ $WMT EKİM 2026 ÇEYREĞİ (MALİ 2027 3. ÇEYREK) BİLANÇOSU
 4. ÇEYREK TAHMİNİ / 2027 MALİ YIL TAHMİNİ: HBK, satış, faaliyet kârı (önceki 2,80-2,87)
 + kural 50/50-B hüküm satırı (gorus.py kontrol)
 MAKRO (kural 46 istisnası, analizde zorunlu): tüketici, tarife iadeleri/fiyat yatırımı, enflasyon, Fed, Nasdaq'a etkisi.
+
+# SONUÇ (bülten SEC 8-K 000010416926000168, earningsreleasefy27q3.htm + earningspresentationfy27.htm; WebFetch client_error, veriler arama özetinden)
+- Gelir 188,8 Mr $ +%5,2 (sabit kur +%4,5); GAAP HBK 0,62, düz. HBK 0,65 (hisse yatırımlarında 0,03 net zarar hariç)
+- Faaliyet kârı +1,1 Mr $ +%16; düz. (sabit kur) +%5,5; düz. faaliyet gideri / net satış %21,5 (+34 bp)
+- Küresel e-ticaret +%17 (Q2 +%23); Flipkart BBD zamanlaması karşılaştırmayı etkiledi
+- Yıllık rehber: net satış (cc) +%4,9-5,2 (önceki 4-5), düz. faaliyet kârı (cc) +%8,0-8,6 (önceki 7-8,5), düz. HBK 2,84-2,89 (önceki 2,80-2,87)
+- CEO: "We delivered strong results, growing our core business and gaining market share."
+- EKSİK (analiz/detay görevi bulmalı): ABD karşılaştırmalı satış, reklam büyümesi, üyelik geliri, Sam's Club, 4. çeyrek rehberi, ön piyasa tepkisi
