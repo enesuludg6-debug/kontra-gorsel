@@ -418,3 +418,4 @@ Durdurmak için en alta `DURDUR` yazılı bir satır ekle (Enes ya da Claude, En
 - OPSIYON: INTU ±%8-11 (Unusual Whales + Benzinga)
 - 11:26 (19.11) AUTO (yapay-zeka): g/20261119_1128_googl_neon.jpg (uclu) -  Buffer 6afeb2b7fba2406b99ae654d. Son 3 duzen: zaman, takvim, uclu.
 - 11:42 (19.11) AUTO (cagri): g/20261119_1145_panw_c1.jpg (split) - - CAGRI: PANW acil durum bütçeleri Buffer 6afeb6746d068c1c9d6701b6. Son 3 duzen: takvim, uclu, split.
+- 11:50 (19.11) AUTO (cagri): g/20261119_1149_panw_c2.jpg (spotlight) - - CAGRI: PANW ajan trafiği ücretlendirme 6-9 ay Buffer 6afeb6776d068c1c9d6703b1. Son 3 duzen: uclu, split, spotlight.
