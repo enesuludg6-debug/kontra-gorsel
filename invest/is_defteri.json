@@ -850,11 +850,11 @@
    "ne": "Son dakika; çip rallisi; 13F Point72",
    "ticker": "",
    "tur": "tur",
-   "durum": "kuruldu",
+   "durum": "yapildi",
    "not": "",
    "trigger": "trig_01Lt9TSpQPje5EKvN6VTJ6us",
    "soz": "",
-   "guncelleme": "19.11 18:12"
+   "guncelleme": "19.11 18:37"
   },
   {
    "id": "WMT-1119-cagri",
@@ -868,6 +868,19 @@
    "trigger": "trig_01Bmn5w79EztPHmmoevGtWPL",
    "soz": "",
    "guncelleme": "18.11 20:30"
+  },
+  {
+   "id": "TUR-1119-1920",
+   "ad": "Otomatik paylaşım turu",
+   "zaman": "2026-11-19T19:20",
+   "ne": "Son dakika varsa; yoksa Point72 + INTU hazırlık",
+   "ticker": "",
+   "tur": "tur",
+   "durum": "kuruldu",
+   "not": "",
+   "trigger": "trig_01P51q9CYuDDSLjex74LGMeY",
+   "soz": "",
+   "guncelleme": "19.11 18:37"
   },
   {
    "id": "INTU-1120-hazirlik",
