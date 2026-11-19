@@ -112,3 +112,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 19.11 | 12:02 | cagri | PANW çağrı: segment büyümesi ve 170 platform geçişi | terminal | 6afeb6792276cdcb15da1482 |
 | 19.11 | 14:30 | 13f | 13F Viking Global: TSLA TSM GOOGL META | dortlu | 6afeb8c44a35072d027c8425 |
 | 19.11 | 12:02 | beklenti | BABA bilanço beklentisi | beklenti | 6afebb054ad8a97b3a2d1698 |
+| 19.11 | 12:12 | cagri | P çağrı: hyperscaler marjı %75-85 | spotlight | 6afebd8073dee41859366c49 |
