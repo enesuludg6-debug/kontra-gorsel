@@ -151,3 +151,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 20.11 | 00:12 | kapanis | Kapanış: Nasdaq -2;25 S&P -1;97 Dow -2;19 | isi | 6aff6634373c7db3cb537ce2 |
 | 20.11 | 00:19 | bilanco-rakam | KEYS Ekim 2026 çeyreği rakam | dortlu | 6aff67ef8ba5b0cdc4ae936a |
 | 20.11 | 00:26 | egitici | Açığa satış raporu nasıl işler (AMD örneği) | zaman | 6aff69838ec824f4cec13bb3 |
+| 20.11 | 00:51 | 13f | Whale Rock ALAB çıkış SITM artış | uclu | 6aff6f678ec824f4cec357fe |

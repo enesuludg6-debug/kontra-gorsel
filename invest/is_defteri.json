@@ -1084,11 +1084,24 @@
    "ne": "After-hours; 13F; yarın takvim",
    "ticker": "",
    "tur": "tur",
-   "durum": "kuruldu",
+   "durum": "yapildi",
    "not": "",
    "trigger": "trig_01RqgMev7iGYBRef8jybPL67",
    "soz": "",
-   "guncelleme": "20.11 00:12"
+   "guncelleme": "20.11 00:51"
+  },
+  {
+   "id": "TUR-1120-0125",
+   "ad": "Otomatik paylaşım turu",
+   "zaman": "2026-11-20T01:25",
+   "ne": "Gecenin son turu",
+   "ticker": "",
+   "tur": "tur",
+   "durum": "kuruldu",
+   "not": "",
+   "trigger": "trig_013ZphNDxD9V4CXKkkCprNVG",
+   "soz": "",
+   "guncelleme": "20.11 00:51"
   },
   {
    "id": "INTU-1120-cagri",
