@@ -883,6 +883,19 @@
    "guncelleme": "19.11 19:21"
   },
   {
+   "id": "TUR-1119-2030",
+   "ad": "Otomatik paylaşım turu",
+   "zaman": "2026-11-19T20:30",
+   "ne": "Son dakika; gün ortası yapay zekâ hareketleri",
+   "ticker": "",
+   "tur": "tur",
+   "durum": "kuruldu",
+   "not": "",
+   "trigger": "trig_0177NgZcrNZPu1KFZQqZzfKW",
+   "soz": "",
+   "guncelleme": "19.11 20:21"
+  },
+  {
    "id": "TUR-1119-2105",
    "ad": "Otomatik paylaşım turu",
    "zaman": "2026-11-19T21:05",

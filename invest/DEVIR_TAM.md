@@ -15,6 +15,8 @@
 
 ## !!! KESİN KURAL 51 (Enes 19.11 13:35: "öyle yaz"): Bilanço tweetlerinde (beklenti, rakam, analiz, detay, çağrı, beklenen hareket) ve kartlarında dönem HER ZAMAN takvim + mali yıl birlikte yazılır: "$T Eylül 2026 çeyreği (mali 2027 2. çeyrek)". Takvim kısmı = çeyreğin bittiği ay ve takvim yılı (bültendeki 'quarter ended ...' tarihinden). Başlık örneği: "$BABA EYLÜL 2026 ÇEYREĞİ (MALİ 2027 2. ÇEYREK) BİLANÇOSU". Kartta etiket kısa tutulabilir: "EYLÜL 2026 ÇEYREĞİ". Mali yıl = takvim yılı olan şirketlerde (ör. çoğu ABD şirketi) yalnız "2026 3. çeyrek" yeterli.
 
+## !!! KESİN KURAL 53 (Enes 19.11 20:20: "iki saat arası tweet sınırı olmasın"): Hiçbir saat diliminde tweet adedi sınırı YOK (18-21 dahil). D-003 yalnız 'görüşlü analizi 12-15 / 21-24'e koy' tercihi olarak kalır, tweet atmayı ENGELLEMEZ. Görev mesajlarında '18-21 en çok 2' yazsa bile UYGULANMAZ. Günlük adet yine kural 48 (Pzt-Cmt 30-50, Pazar 10); turlar 15-25 dk arayla, her turda 1-2 tweet.
+
 ## !!! KESİN KURAL 52 (Enes 19.11 17:39: "şöyle okuyorum, böyle okuyorum vs gibi ifadeler ya da benim okumam vs gibi ifadeler kullanma"): Tweetlerde "okuyorum", "okumam", "benim okumam", "okunuşu", "... olarak okumak gerekiyor", "şöyle/böyle okuyorum", "okuyabiliriz" gibi "okuma" kalıpları YASAK. Görüşü doğrudan söyle: "Bunu dürüst buluyorum", "Bence bu ...", "Bu rakam hoşuma gitti", "Bu bana ... gösteriyor". yasak.py bu kalıpları yakalar (çıkış 1 = ATMA).
 
 

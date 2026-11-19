@@ -44,7 +44,7 @@ F) TAKVİM
 Durum notu (17.11 17:35): aşağıdaki D-001..D-005 Enes ONAYLI DENEME olarak uygulanıyor. ders_analiz.py ile ilk ölçümde (120 tweet, 1,5 hafta) hiçbiri eşiği henüz geçmedi (saat dilimleri: 21-24 1,21x, 12-15 1,20x, 18-21 0,98x; tür farkları < %25). Bu yüzden seviye = ONAYLI DENEME; 01.12 ve 13.12 raporlarında eşiğe göre AKTİF'e çıkar ya da silinir.
 D-001 Fikir kazanır: görüş/duruş içeren tweetler (YTD, RKLB grafik görüşü, NBIS, "tepeden almanızı") 1.200-3.300 görüntülenme; düz haber/bilanço medyanı ~340-370. Her tweette net düşünce (kural 25).
 D-002 Adet değil kalite: 16.11'de 78 tweet, tweet başı görüntülenme artmadı. Günde toplam 12-15 tweet hedefi.
-D-003 Saat: 12-15 (~633) ve 21-24 (~602) en iyi; 18-21 (~385) en zayıf → 18-21 arası en çok 2 tweet; görüşlü analizleri 12-15 ve 21-24'e koy.
+D-003 Saat: 12-15 (~633) ve 21-24 (~602) en iyi; görüşlü analizleri 12-15 ve 21-24'e koy. [18-21 'en çok 2 tweet' kısmı GEÇERSİZ: Enes 18.11 01:18 kaldırdı, 19.11 20:20 tekrar: 'iki saat arası tweet sınırı olmasın'. Saat dilimine göre tweet sınırı YOK.]
 D-004 13F ve eğitici en düşük etkileşim (%1,2-1,4): 13F sezonda günde en çok 2; eğitici haftada 3 (alt sınır) ve 21-24'te dene.
 D-005 Günlük karışım: görüşlü hisse/tema analizi 4-5 | bilanço 2-4 (bilanço günü, büyük isimler) | son dakika 1-2 (yorumlu) | vadeli + key levels + kapanış 3 | makro veri günü 1 (yorumlu) | analist notu 0-1 | 13F en çok 2.
 
