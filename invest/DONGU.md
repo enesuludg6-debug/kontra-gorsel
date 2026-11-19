@@ -449,3 +449,4 @@ Durdurmak için en alta `DURDUR` yazılı bir satır ekle (Enes ya da Claude, En
 - 15:48 (19.11) AUTO (son-dakika): g/20261119_1550_panw_onpiyasa.jpg (uclu) -  Buffer 6afef012d541877eb93a6454. Son 3 duzen: spotlight, zaman, uclu.
 - 17:40 (19.11) AUTO (13f): g/20261119_1622_13f_ark.jpg (editoryal) - - 13F SERİSİ: ARK zamanlandı 17:40 / sıradaki: Point72 Buffer 6afef7cb03dff68ab45a60ae. Son 3 duzen: zaman, uclu, editoryal.
 - 16:41 (19.11) AUTO (cagri): g/20261119_1643_baba_c1.jpg (split) - - CAGRI: BABA yerli çip ana motor Buffer 6afefca3b3b455c2f570013f. Son 3 duzen: uclu, editoryal, split.
+- 16:52 (19.11) AUTO (cagri): g/20261119_1644_baba_c2.jpg (zaman) - - CAGRI: BABA nakit takvimi 2028 2. yarı Buffer 6afefca503dff68ab45c3e12. Son 3 duzen: editoryal, split, zaman.
