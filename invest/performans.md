@@ -118,3 +118,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 19.11 | 12:36 | haber | AMD: Taalas alımı tamamlandı | uclu | 6afec330bad67efd5adc1ba8 |
 | 19.11 | 13:01 | 13f | 13F Bridgewater: NVDA QCOM MU SNDK | terminal | 6afec8eea51c94c1af71f097 |
 | 19.11 | 13:16 | bilanco-rakam | BABA mali 2027 Q2 rakamları | uclu | 6afecc95ec3834f154504283 |
+| 19.11 | 13:38 | portfoy | RKLB: Neutron fiyat 70 Mn; 16 görev | editoryal | 6afed1b6ffd0192517a92bde |

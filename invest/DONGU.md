@@ -433,3 +433,4 @@ Durdurmak için en alta `DURDUR` yazılı bir satır ekle (Enes ya da Claude, En
 - 13:16 (19.11) AUTO (bilanco-rakam): g/20261119_1320_baba_rakam.jpg (uclu) -  Buffer 6afecc95ec3834f154504283. Son 3 duzen: uclu, terminal, uclu.
 - 13:35 (19.11) ENES 13:32 KURAL 50-B: görüş kalıpları her tweette farklı; gorus.py kontrol/kaydet; anlatım havuzu. DURUM, _ORTAK, DEVIR_TAM, skills (repo kopyaları).
 - 13:36 (19.11) ENES 13:35 KURAL 51: bilanço tweetlerinde dönem 'Eylül 2026 çeyreği (mali 2027 2. çeyrek)' biçiminde.
+- 13:38 (19.11) AUTO (portfoy): g/20261119_1340_rklb_neutron.jpg (editoryal) -  Buffer 6afed1b6ffd0192517a92bde. Son 3 duzen: terminal, uclu, editoryal.
