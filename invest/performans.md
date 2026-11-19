@@ -111,3 +111,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 19.11 | 11:56 | cagri | PANW çağrı: Applied Compute 1 Mr ARR hedefi | editoryal | 6afeb6786d068c1c9d670415 |
 | 19.11 | 12:02 | cagri | PANW çağrı: segment büyümesi ve 170 platform geçişi | terminal | 6afeb6792276cdcb15da1482 |
 | 19.11 | 14:30 | 13f | 13F Viking Global: TSLA TSM GOOGL META | dortlu | 6afeb8c44a35072d027c8425 |
+| 19.11 | 12:02 | beklenti | BABA bilanço beklentisi | beklenti | 6afebb054ad8a97b3a2d1698 |
