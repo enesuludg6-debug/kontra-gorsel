@@ -109,3 +109,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 19.11 | 11:42 | cagri | PANW çağrı: acil durum bütçeleri | split | 6afeb6746d068c1c9d6701b6 |
 | 19.11 | 11:50 | cagri | PANW çağrı: ajan trafiği ücretlendirme 6-9 ay | spotlight | 6afeb6776d068c1c9d6703b1 |
 | 19.11 | 11:56 | cagri | PANW çağrı: Applied Compute 1 Mr ARR hedefi | editoryal | 6afeb6786d068c1c9d670415 |
+| 19.11 | 12:02 | cagri | PANW çağrı: segment büyümesi ve 170 platform geçişi | terminal | 6afeb6792276cdcb15da1482 |
