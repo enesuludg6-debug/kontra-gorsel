@@ -23,5 +23,22 @@
 "acilis": "ben bu raporu",
 "kaliplar": [],
 "metin": "Ben bu raporu kâr tarafı yüzünden alkışlayamıyorum ama bulut rakamlarını da küçümseyemiyorum. Bulutta hem büyüme hem marj aynı anda iyileşiyorsa, yatırımın meyv"
+},
+{
+"acilis": "bu ayrım önemli",
+"kaliplar": [
+"\\bçünkü\\b"
+],
+"metin": "Bu ayrım önemli çünkü bulut büyümesinin bir kısmı tek seferlik donanım satışından gelseydi sürdürülebilir olmazdı. Tekrarlayan gelirin toplamdan hızlı büyümesi,"
+},
+{
+"acilis": "yine de zararın",
+"kaliplar": [],
+"metin": "Yine de zararın tutarı açıklanmadı. Rakam paylaşılmadan \"zarar azaldı\" demek bana yetmiyor. Asıl para makinesi olan e-ticaretin yerinde sayması, yapay zekâ yatı"
+},
+{
+"acilis": "serbest nakit akışı",
+"kaliplar": [],
+"metin": "Serbest nakit akışı eksideyken temettü ve geri alımı sürdürebilmesi, bu kasanın sayesinde. Şu an için yatırımcıya dağıtım ile yapay zekâ harcaması aynı anda yür"
 }
 ]
