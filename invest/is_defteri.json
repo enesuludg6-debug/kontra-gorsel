@@ -1019,11 +1019,11 @@
    "ne": "Kapanış rakamları kesinleşince",
    "ticker": "",
    "tur": "tur",
-   "durum": "kuruldu",
+   "durum": "yapildi",
    "not": "",
    "trigger": "trig_018oPmbTNyYsAfFAaS735QDu",
    "soz": "",
-   "guncelleme": "19.11 23:36"
+   "guncelleme": "20.11 00:12"
   },
   {
    "id": "INTU-1120-analiz",
@@ -1076,6 +1076,19 @@
    "trigger": "trig_014k5DfYgjpYENyYuM6FAuw3",
    "soz": "Enes 19.11 22:26: \"intuitle ilgili bir şey paylaşma onun yerine farklı içerikler yap\"",
    "guncelleme": "19.11 09:02"
+  },
+  {
+   "id": "TUR-1120-0050",
+   "ad": "Otomatik paylaşım turu",
+   "zaman": "2026-11-20T00:50",
+   "ne": "After-hours; 13F; yarın takvim",
+   "ticker": "",
+   "tur": "tur",
+   "durum": "kuruldu",
+   "not": "",
+   "trigger": "trig_01RqgMev7iGYBRef8jybPL67",
+   "soz": "",
+   "guncelleme": "20.11 00:12"
   },
   {
    "id": "INTU-1120-cagri",
