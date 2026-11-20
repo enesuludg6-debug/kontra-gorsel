@@ -75,3 +75,5 @@ O-011 (18.11 00:24, Enes) Bilanço rakam tweeti CRWV formatından ASLA eksik ç�
 - (yok)
 
 - 20.11 (perf_isle --ozet 7 gün, 184 olgun tweet): saat medyanları 21-24 416, 00-03 376, 12-15 364, 18-21 337, 15-18 322, 09-12 303. Enes elle (n=17) 472 vs sistem 327. 13F 247 (D-004 ile uyumlu). En iyiler portföy hissesi grafik/teknik (RKLB 2.243). ders_analiz eşiği henüz geçmedi (tek hafta) → DURUM İÇERİK AYARI "DENE" satırları.
+
+- 20.11 gözlem (248 olgun, 15-19.11): detay/bilanço-detay med 212-226 en zayıf; son-dakika 497, vadeli 497, kapanış 534, haber 382; portföy evet 400 vs hayır 318; Enes elle 486 vs sistem 318. 19.11: 59 tweet, toplam 22.679 gösterim, medyan 261.
