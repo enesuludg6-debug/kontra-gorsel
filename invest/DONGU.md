@@ -494,3 +494,4 @@ Durdurmak için en alta `DURDUR` yazılı bir satır ekle (Enes ya da Claude, En
 - 12:06 (20.11) AUTO (haber): g/20261120_1208_ihracat.jpg (zaman) - TUR 12:05; sonraki tur 12:45 trig_01T73sGq1H4ktQnQA8q59owH (12:30 Enes tweeti arada) Buffer 6b000da4738ce4635f9fb12d. Son 3 duzen: uclu, ilerleme, zaman.
 - 12:12 (20.11) AUTO (enes-teknik): g/20261120_1215_nbis_smc.png; g/20261120_1215_nbis_rsi.png (enes-grafik) - ENES 12:12 isteği (TA istisnası; kendi ekran görüntüleri); takip 23.11 17:10 trig_01Pi6bLjML8FTpPqx8deSPPo Buffer 6b000f177b0a126cebc1ffdf. Son 3 duzen: ilerleme, zaman, enes-grafik.
 - 12:18 (20.11) ENES: takip tweetlerinde yalnız tutan beklentiler yazılır -> KURAL 56-B (56-3 iptal; görev mesajlarındaki aksi ifadenin önüne geçer).
+- 12:44 (20.11) ENES: KURAL 48-B Cumartesi en çok 20, Pazar en çok 10 tweet, alt sınır yok.
