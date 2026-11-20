@@ -175,3 +175,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 20.11 | 18:04 | ENES-ISTEGI | Michigan kasim nihai enflasyon beklentisi 3.7 | dortlu | 6b0061865d9549971cb5d47b |
 | 20.11 | 18:26 | BAGLAM-GORUS | Faiz dustu cip satisi hizlandi SOX | isi | 6b0066a7234b6bb6eea902c0 |
 | 20.11 | 18:49 | BAGLAM-GORUS | CBRS satista artida | spotlight | 6b006c112473d9c25a98c4c2 |
+| 20.11 | 19:14 | BAGLAM-GORUS | SOX 5 Kasim kapanisinin altinda | grafik2 | 6b0071cdfcc25b8656450926 |
