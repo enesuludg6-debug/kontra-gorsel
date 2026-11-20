@@ -1,6 +1,6 @@
 # AKTİF HESAP KİLİDİ (kesin kural 17)
 
-AKTIF: B
+AKTIF: B2
 
 Etiketler:
 - A = Enes'in kendi Claude hesabı (enesuludg6). 17.11.2026'dan beri aktif.
@@ -13,3 +13,4 @@ Geçmiş:
 - 17.11.2026 13:15 dosya oluşturuldu, AKTIF: A.
 - 18.11.2026 01:21 A2 devraldı (sohbet devri).
 - 18.11.2026 20:26 B devraldı (hesap devri).
+- 20.11.2026 14:49 B2 devraldı (sohbet devri).

@@ -503,3 +503,4 @@ Durdurmak için en alta `DURDUR` yazılı bir satır ekle (Enes ya da Claude, En
 - 14:22 (20.11) RADAR: kayda değer yok (alan içinde 1 Mn $ üstü P alımı/büyük geri alım yok; USAR direktör 3 Mn $ alımı konu filtresi dışı; OpenInsider WebFetch onaysız kaldı, WebSearch ile tarandı). Zincir: 23.11 14:20 trig_01AtMCkW9CjhgccWop9UVa4A.
 - 14:33 (20.11) ENES: 'Bu tabloda gördüğüm şey ... kapıya koşması' yapay -> KURAL 54-C (mecaz/dramatik sahne + sunucu açılışları yasak); yasak.py'ye eklendi.
 - 14:42 (20.11) AUTO (haber): g/20261120_1442_asml.jpg (once_sonra) - TUR 14:40; sonraki tur 15:02 trig_01M3eiKcaHCxV6cko6vQNRpX Buffer 6b00320e0c6d6b9052827be3. Son 3 duzen: ilerleme, spotlight, once_sonra.
+20.11 14:49 SOHBET DEVRİ: B2 aktif
