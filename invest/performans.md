@@ -181,3 +181,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 20.11 | 20:21 | BAGLAM-GORUS | Uzay hisseleri satisi ASTS yillik dip | isi | 6b0081a96f199ec35b6961be |
 | 20.11 | 20:47 | ICERIDEN-ALIM | TSMC yonetici alimlari | spotlight | 6b00879444c36191134c4278 |
 | 20.11 | 21:10 | BAGLAM-GORUS | BofA anketi cipler en kalabalik islem | grafik2 | 6b008d1d63ab5fef6744ed10 |
+| 20.11 | 21:26 | ENES-HABER | Trump yurt disi veri merkezi vergi tehdidi | sondakika | 6b0090cd44c3619113508860 |

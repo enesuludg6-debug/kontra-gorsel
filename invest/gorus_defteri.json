@@ -1,12 +1,5 @@
 [
 {
-"acilis": "bu ayrım önemli",
-"kaliplar": [
-"\\bçünkü\\b"
-],
-"metin": "Bu ayrım önemli çünkü bulut büyümesinin bir kısmı tek seferlik donanım satışından gelseydi sürdürülebilir olmazdı. Tekrarlayan gelirin toplamdan hızlı büyümesi,"
-},
-{
 "acilis": "yine de zararın",
 "kaliplar": [],
 "metin": "Yine de zararın tutarı açıklanmadı. Rakam paylaşılmadan \"zarar azaldı\" demek bana yetmiyor. Asıl para makinesi olan e-ticaretin yerinde sayması, yapay zekâ yatı"
@@ -308,5 +301,10 @@
 "acilis": "bence bu hafta",
 "kaliplar": [],
 "metin": "Bence bu hafta gördüğümüz şey tam olarak bu. Fiyatı aşağı çeken şey çip şirketlerinin bilançoları değil, aylardır aynı hisselerde toplanmış fonların pozisyon az"
+},
+{
+"acilis": "bence bu açıklama",
+"kaliplar": [],
+"metin": "Bence bu açıklama ABD içindeki veri merkezi zincirine yarar. Microsoft, Amazon ve Google yurt dışı yatırımlarının bir kısmını ABD'ye kaydırırsa güç, soğutma, el"
 }
 ]
