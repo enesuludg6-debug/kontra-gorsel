@@ -1552,11 +1552,24 @@
    "ne": "gece turu",
    "ticker": "",
    "tur": "tur",
-   "durum": "kuruldu",
-   "not": "",
+   "durum": "yapildi",
+   "not": "NVDA",
    "trigger": "trig_01WLRGb9tkhdouMqGzGvvwk6",
    "soz": "",
-   "guncelleme": "20.11 23:33"
+   "guncelleme": "21.11 00:37"
+  },
+  {
+   "id": "TUR-1121-0100",
+   "ad": "Otomatik paylaşım turu",
+   "zaman": "2026-11-21T01:00",
+   "ne": "gece turu",
+   "ticker": "",
+   "tur": "tur",
+   "durum": "kuruldu",
+   "not": "",
+   "trigger": "trig_011zYPrpw9badKXEt9D7wbC3",
+   "soz": "",
+   "guncelleme": "21.11 00:37"
   },
   {
    "id": "TAKIP-2311-nbis",
