@@ -163,3 +163,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 20.11 | 13:11 | haber | vadeliler; YZ satışı Asya ve Avrupa'ya yayıldı | terminal | 6b001ce6e0dc26301cccee1f |
 | 20.11 | 13:33 | fikir | VIX 28.44; korku endeksi | uclu | 6b0021e439116a845dcbedd3 |
 | 20.11 | 13:56 | haber | Asya çip satışı; Tayvan 1991'den beri en kötü hafta | ilerleme | 6b00276539116a845dcdfe6d |
+| 20.11 | 14:18 | makro | Michigan tüketici güveni 18:00 beklentisi | spotlight | 6b002c870c6d6b9052805c0a |
