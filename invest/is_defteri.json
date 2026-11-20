@@ -1344,11 +1344,24 @@
    "ne": "Michigan nihai veri",
    "ticker": "",
    "tur": "tur",
-   "durum": "kuruldu",
-   "not": "",
+   "durum": "yapildi",
+   "not": "Michigan 18:04 Enes talimatıyla atıldı Buffer 6b0061865d9549971cb5d47b",
    "trigger": "trig_01CjLq14qKpRdaPyHutwrgnX",
    "soz": "",
-   "guncelleme": "20.11 17:38"
+   "guncelleme": "20.11 18:05"
+  },
+  {
+   "id": "TUR-1120-1825",
+   "ad": "Otomatik paylaşım turu",
+   "zaman": "2026-11-20T18:25",
+   "ne": "Michigan teyit + tur",
+   "ticker": "",
+   "tur": "tur",
+   "durum": "kuruldu",
+   "not": "",
+   "trigger": "trig_01JWWnPdQ3cxG3oA9FxywQJ7",
+   "soz": "",
+   "guncelleme": "20.11 18:05"
   },
   {
    "id": "TAKIP-2011-kapanis",
