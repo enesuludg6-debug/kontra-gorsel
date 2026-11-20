@@ -1539,11 +1539,11 @@
    "ne": "Kural 56: cuma notları c-d + NDX teknik senaryo",
    "ticker": "",
    "tur": "takip",
-   "durum": "kuruldu",
-   "not": "",
+   "durum": "yapildi",
+   "not": "kapanis takip tweeti",
    "trigger": "trig_01JdnyYd9WTQu8P6fKL7go3E",
    "soz": "",
-   "guncelleme": "20.11 14:53"
+   "guncelleme": "21.11 00:13"
   },
   {
    "id": "TUR-1121-0035",
