@@ -1578,11 +1578,11 @@
    "ne": "gecenin son turu",
    "ticker": "",
    "tur": "tur",
-   "durum": "kuruldu",
-   "not": "",
+   "durum": "yapildi",
+   "not": "yeni gelisme yok tweet yok",
    "trigger": "trig_011puh5iJQA1J8s1GprZAQvC",
    "soz": "",
-   "guncelleme": "21.11 01:01"
+   "guncelleme": "21.11 01:26"
   },
   {
    "id": "TAKIP-2311-nbis",
