@@ -145,7 +145,7 @@ $TICKER 3. ÇEYREK BİLANÇOSU
 - Uzun tek tweet serbest; Enes "flood değil tek tweet" derse tek tweet.
 - Ardından Enes'e `SendUserMessage`: başlık "Paylaşıldı (SS:DD): TÜR", tweet metninin aynısı, sonra "Ne anlama geliyor?" (terimler, tweete konmayan tek kaynaklı bilgiler, Enes'in hisseleri etkileniyor mu).
 - "Ne anlama geliyor?" 3-6 kısa madde: terim/bilgi sade anlatım, piyasada neden önemli, iyi/kötü sinyal nasıl okunur, varsa tarihten örnek, doğrulanamayıp tweete girmeyen rakamlar. Bu bölüm tweete girmez.
-- Enes'in portföyündeki hisseleri (DEVIR_TAM bölüm 1; şu an DOCN RKLB SITM AXON CBRS VRT AVGO, NBIS YOK) etkileyen büyük hareket varsa ayrıca kısa "ben olsam" notu.
+- Enes'in portföyündeki hisseleri (DEVIR_TAM bölüm 1; şu an DOCN RKLB SITM AXON CBRS VRT AVGO NBIS; NBIS 20.11 eklendi) etkileyen büyük hareket varsa ayrıca kısa "ben olsam" notu.
 - Her turda tweetten sonra portföy taraması (kural 37): 7 portföy hissesinde son haber/8-K/Form 4/analist revizyonu; teze dokunan bir gelişme varsa Enes'e kısa "ben olsam" notu (değerleme bölgesi + tez durumu). Değişiklik yoksa mesaj zorunlu değil.
 
 Tarayıcı: Enes'in X hesabına ve x.com'a HİÇBİR ŞEKİLDE girilmez. Chrome yalnız tradingview.com ve haber/birincil kaynak okumak için (yeni sekme, get_page_text, iş bitince sekmeyi kapat, TradingView sekmesine dokunma). Form, giriş, abonelik, yorum, paylaşım yok; çerez bannerında en gizli seçenek.

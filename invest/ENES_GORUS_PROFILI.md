@@ -2,7 +2,7 @@
 Kaynak: Enes'in kendi attığı tweetler (Buffer via=network) + portföyü + sohbette söyledikleri. Tahmin değil, bunlardan çıkan çerçeve. 10:15 perfogren görevi her gün Enes'in son 24 saatteki kendi tweetlerine bakar; yeni bir duruş görürse aşağıya "GG.AA gözlem" satırı ekler.
 
 ## Portföy ve yatırım tarzı
-- Portföy: DOCN RKLB SITM AXON CBRS VRT AVGO (NBIS yok). YTD ~%54.
+- Portföy: DOCN RKLB SITM AXON CBRS VRT AVGO NBIS (NBIS 20.11 eklendi). YTD ~%54.
 - Uzun vadeli yatırımcı, dip avcısı: iyi şirketi ucuzken parça parça toplar ("Aceleci davranmıyorum, alımlarımı parça parça yapıyorum", 16.11).
 - Yatırımlarının merkezinde yapay zekâ altyapısı var: bulut (DOCN), zamanlama çipi (SITM), veri merkezi güç/soğutma (VRT), özel çip ve ağ (AVGO), YZ donanımı (CBRS); yanında uzay (RKLB) ve YZ'li güvenlik (AXON).
 

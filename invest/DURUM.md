@@ -1,3 +1,5 @@
+## !!! PORTFÖY GÜNCEL (Enes 20.11 09:53 "NBİSTE EKLEDİM PORTFÖYE"): DOCN RKLB SITM AXON CBRS VRT AVGO NBIS. NBIS artık portföy hissesi: haber taraması, ben olsam notları, karne/tez kartı, görüş profili ve portföy önceliği NBIS'i de kapsar. Eski "NBIS YOK" satırları geçersiz.
+
 # DURUM — tek sayfa güncel durum (kesin kural 18)
 Son güncelleme: 20.11.2026 09:16 TSİ (B). Her tur ve görev sonunda güncellenir (en çok 80 satır). Turlar DEVIR_TAM'ı baştan okumaz: skill + bu dosya + DONGU.md son 30 satır. DEVIR_TAM'dan yalnız gereken bölüm grep ile açılır.
 
@@ -110,7 +112,7 @@ NOT (20.11 09:50 test): Claude in Chrome uzantısı reddit.com'u "güvenlik kıs
 - Chrome: 17.11 15:31 bagli (TradingView ve bulten sayfalari icin). Oturum: session_01JKiyuk5Mhinmn4mL9usBPz (zincir + tek seferlik yayınlar). Sabit görevler bulut (persist_session false).
 
 ## Portföy ve listeler
-- Portföy: DOCN RKLB SITM AXON CBRS VRT AVGO. NBIS YOK.
+- Portföy: DOCN RKLB SITM AXON CBRS VRT AVGO NBIS (NBIS 20.11 09:53 eklendi; eski NBIS YOK geçersiz).
 - Kartlı adaylar: TSM (/50 39), ECL (36). Karne: temel_karne.md.
 - İlgi listesi (kural 22r): ON AAOI HOOD TEM CRDO PLTR ISRG ASTS MU | yeni, karnesi bekleniyor (günde 1-2, 30/50 altı çıkar): ANET ALAB MRVL COHR LITE ETN GEV CRWD NET DDOG APP RBRK PL LUNR | çıkarılanlar: -
 - Büyük takip: NVDA AMD TSM MSFT GOOGL AMZN META ORCL CRWV SNOW.

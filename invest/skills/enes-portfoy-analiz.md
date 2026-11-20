@@ -7,7 +7,7 @@ description: "Enes'in portföyü için ben olsam notları, aday hisse seçimi ve
 
 Repo `/home/claude/kontra-gorsel/invest`. Ayrıntı ve geçmiş: `DEVIR_TAM.md` bölüm 11-14i ve kesin kural 37, `temel_karne.md`, `tez_kartlari.md`, `DONGU.md`. Her zaman Türkçe.
 
-Güncel portföy: DOCN RKLB SITM AXON CBRS VRT AVGO. NBIS YOK (bakılmaz, aday olarak da sunulmaz). Enes YATIRIMCI ve DİP AVCISI: iyi şirketi ucuzken toplamak ister.
+Güncel portföy: DOCN RKLB SITM AXON CBRS VRT AVGO NBIS (Enes 20.11 09:53: "NBİSTE EKLEDİM PORTFÖYE"; eski "NBIS YOK" kuralı GEÇERSİZ). Enes YATIRIMCI ve DİP AVCISI: iyi şirketi ucuzken toplamak ister.
 
 ## TEKNİK ANALİZ YOK (kesin kural 37, Enes 17.11 22:17: "teknik analize bakmıyoruz bir daha, onunla alakalı her şeyi kaldır, onun yerine temel analize daha da yoğunlaş")
 - Gösterge, grafik, TradingView, ekran görüntüsü, destek/direnç, kademe seviyesi, teknik taslak YOK. ta2.py / ta_ek.py / seviye_takip.csv arşivde, kullanılmaz. 18:00/23:30 teknik kontrol zincirleri kapatıldı; 18:00 temel analiz görevi de kaldırıldı (kesin kural 44, 18.11).
