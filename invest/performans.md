@@ -182,3 +182,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 20.11 | 20:47 | ICERIDEN-ALIM | TSMC yonetici alimlari | spotlight | 6b00879444c36191134c4278 |
 | 20.11 | 21:10 | BAGLAM-GORUS | BofA anketi cipler en kalabalik islem | grafik2 | 6b008d1d63ab5fef6744ed10 |
 | 20.11 | 21:26 | ENES-HABER | Trump yurt disi veri merkezi vergi tehdidi | sondakika | 6b0090cd44c3619113508860 |
+| 20.11 | 21:34 | BAGLAM-GORUS | DOCN haber yok rakamlar guclu | uclu | 6b0092a4d425f1473a04a15a |
