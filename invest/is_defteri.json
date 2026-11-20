@@ -1409,11 +1409,24 @@
    "ne": "tur",
    "ticker": "",
    "tur": "tur",
-   "durum": "kuruldu",
-   "not": "",
+   "durum": "yapildi",
+   "not": "19:59 Buffer 6b007c6f8323fb252aa64612",
    "trigger": "trig_01VZBu7SDTzNAkA4aSh9Kw4u",
    "soz": "",
-   "guncelleme": "20.11 19:36"
+   "guncelleme": "20.11 19:59"
+  },
+  {
+   "id": "TUR-1120-2020",
+   "ad": "Otomatik paylaşım turu",
+   "zaman": "2026-11-20T20:20",
+   "ne": "tur",
+   "ticker": "",
+   "tur": "tur",
+   "durum": "kuruldu",
+   "not": "",
+   "trigger": "trig_01U8ToCqDd3u2JCL3833kLQk",
+   "soz": "",
+   "guncelleme": "20.11 19:59"
   },
   {
    "id": "TAKIP-2011-kapanis",
