@@ -157,3 +157,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 20.11 | 11:04 | baslik | Günün başlıkları 20.11; vadeliler ekside; Michigan 18:00; AMD ve Keysight takibi | terminal | 6afffef10f5eda1a57d1e806 |
 | 20.11 | 11:19 | portfoy | NBIS Eylül 2026 çeyreği; gelir +%571; gecikme zamanlama sorunu | uclu | 6b0002857b0a126cebbce091 |
 | 20.11 | 11:41 | portfoy | AVGO YZ çip geliri 16;7 Mr +%221; Ekim rehberi 21;7 Mr +%236; 115 Mr tedarik | ilerleme | 6b0007c97b0a126cebbec84e |
+| 20.11 | 12:06 | haber | ABD uzaktan erişim çip kuralı 19.11 yürürlükte; Çin; lisans | zaman | 6b000da4738ce4635f9fb12d |

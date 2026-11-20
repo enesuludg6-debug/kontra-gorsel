@@ -491,3 +491,4 @@ Durdurmak için en alta `DURDUR` yazılı bir satır ekle (Enes ya da Claude, En
 - 11:09 (20.11) ENES: 'Ben panik yapmıyorum' yapay -> KURAL 54-B, yasak.py'ye ruh hali klişeleri eklendi.
 - 11:19 (20.11) AUTO (portfoy): g/20261120_1122_nbis.jpg (uclu) - TUR 11:15; FIKIR-TWEET 1/10: Nebius IR + haber NBIS; sonraki tur 11:40 trig_01D55s5X7KebxkTTYC5EQE5b Buffer 6b0002857b0a126cebbce091. Son 3 duzen: dortlu, terminal, uclu.
 - 11:41 (20.11) AUTO (portfoy): g/20261120_1145_avgo.jpg (ilerleme) - TUR 11:40; sonraki tur 12:05 trig_01129sZDcPaccjZ39noC4jTz Buffer 6b0007c97b0a126cebbec84e. Son 3 duzen: terminal, uclu, ilerleme.
+- 12:06 (20.11) AUTO (haber): g/20261120_1208_ihracat.jpg (zaman) - TUR 12:05; sonraki tur 12:45 trig_01T73sGq1H4ktQnQA8q59owH (12:30 Enes tweeti arada) Buffer 6b000da4738ce4635f9fb12d. Son 3 duzen: uclu, ilerleme, zaman.
