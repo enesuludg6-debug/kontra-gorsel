@@ -1318,11 +1318,11 @@
    "ne": "açılış tweeti",
    "ticker": "",
    "tur": "tur",
-   "durum": "kuruldu",
-   "not": "",
+   "durum": "yapildi",
+   "not": "17:38 Buffer 6b005b61fc5b97f0f8135743",
    "trigger": "trig_017kDp2WiiTEvcHiouRQbBey",
    "soz": "",
-   "guncelleme": "20.11 16:51"
+   "guncelleme": "20.11 17:38"
   },
   {
    "id": "INTU-1120-beklenen",
@@ -1336,6 +1336,19 @@
    "trigger": "trig_01Xo8quq4Q4zEkjNEB1yhwmC",
    "soz": "Enes 19.11 22:26: \"intuitle ilgili bir şey paylaşma onun yerine farklı içerikler yap\"",
    "guncelleme": "19.11 09:02"
+  },
+  {
+   "id": "TUR-1120-1803",
+   "ad": "Otomatik paylaşım turu",
+   "zaman": "2026-11-20T18:03",
+   "ne": "Michigan nihai veri",
+   "ticker": "",
+   "tur": "tur",
+   "durum": "kuruldu",
+   "not": "",
+   "trigger": "trig_01CjLq14qKpRdaPyHutwrgnX",
+   "soz": "",
+   "guncelleme": "20.11 17:38"
   },
   {
    "id": "TAKIP-2011-kapanis",
