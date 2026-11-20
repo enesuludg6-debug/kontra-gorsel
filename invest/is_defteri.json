@@ -1305,11 +1305,11 @@
    "ne": "Kural 56: cuma notlarından a ve b",
    "ticker": "",
    "tur": "takip",
-   "durum": "kuruldu",
-   "not": "",
+   "durum": "yapildi",
+   "not": "17:15 Buffer 6b0055ef5d9549971cb061f6; AMD maddesi 56-B ile atlandi",
    "trigger": "trig_01V9Qhknzm9YKK9KfReRPbLv",
    "soz": "",
-   "guncelleme": "20.11 14:53"
+   "guncelleme": "20.11 17:15"
   },
   {
    "id": "TUR-1120-1737",
