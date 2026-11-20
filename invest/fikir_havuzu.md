@@ -4,7 +4,7 @@ Kurallar: yalnız fikir ve yaklaşım alınır; metin, cümle, grafik KOPYALANMA
 
 - 20.11 | Substack (Michael Burry, WSJ haberine atıf) | 253 beğeni / 38 yorum | Wall Street'in Nvidia müşterilerinin çip alımını finanse etmek için söz verdiği 500 milyar dolarlık fonun henüz hiç kullanılmadığı iddiası; | NVDA | şüpheli: "YZ talebi finansmana bağlı" tezi Enes görüşüne ters; ancak "fon gelmese de talep sağlam" açısıyla ve 2 kaynakla kullanılabilir (WSJ + 2. kaynakla doğrula)
 - 20.11 | Substack (Oracle bilanço derin analizi, paylaşan Leyla Kunimoto) | düşük etkileşim | Oracle'ın yatırım notu ile borç yükü arasındaki makas | ORCL | kullanıldı 20.11 12:46 — SADECE "Oracle'a özgü borç sorunu; YZ talebini temsil etmez" açısıyla (borç/nakit rakamlarını 10-Q + haberle doğrula)
-- 20.11 | Substack (SmartReversals) | 19 beğeni | S&P 500 yapısının bozulduğu, VIX'in 30'a yaklaştığı tezi; seviyeler | SPX QQQ SMH | yeni (kural 56 takip tweetiyle harmanlanabilir; VIX değeri 2 kaynak)
+- 20.11 | Substack (SmartReversals) | 19 beğeni | S&P 500 yapısının bozulduğu, VIX'in 30'a yaklaştığı tezi; seviyeler | SPX QQQ SMH | kullanıldı 20.11 13:33 (VIX açısı) (kural 56 takip tweetiyle harmanlanabilir; VIX değeri 2 kaynak)
 - 20.11 | Substack (Macleod Finance) | 20 beğeni | Altın ve gümüş satışının tahvil tarafında likidite sıkışmasının işareti olabileceği tezi (Mart 2020 benzetmesi) | makro | yeni (alan dışıysa ele; Nasdaq'a etkisiyle bağlanırsa kullan)
 - 20.11 | Substack (Robert Reich "The Anthropic Bubble") | 1,7 B beğeni | — | — | elendi: Anthropic tweete girmez (kural 46)
 
