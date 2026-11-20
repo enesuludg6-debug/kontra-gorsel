@@ -1526,11 +1526,11 @@
    "ne": "tur",
    "ticker": "",
    "tur": "tur",
-   "durum": "kuruldu",
-   "not": "",
+   "durum": "yapildi",
+   "not": "Fed egitim",
    "trigger": "trig_01CtaH8z5K5E3R89NWA46vAw",
    "soz": "",
-   "guncelleme": "20.11 23:10"
+   "guncelleme": "20.11 23:33"
   },
   {
    "id": "TAKIP-2011-kapanis",
@@ -1544,6 +1544,19 @@
    "trigger": "trig_01JdnyYd9WTQu8P6fKL7go3E",
    "soz": "",
    "guncelleme": "20.11 14:53"
+  },
+  {
+   "id": "TUR-1121-0035",
+   "ad": "Otomatik paylaşım turu",
+   "zaman": "2026-11-21T00:35",
+   "ne": "gece turu",
+   "ticker": "",
+   "tur": "tur",
+   "durum": "kuruldu",
+   "not": "",
+   "trigger": "trig_01WLRGb9tkhdouMqGzGvvwk6",
+   "soz": "",
+   "guncelleme": "20.11 23:33"
   },
   {
    "id": "TAKIP-2311-nbis",
