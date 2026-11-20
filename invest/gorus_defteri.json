@@ -1,12 +1,5 @@
 [
 {
-"acilis": "karışık buldum bulut",
-"kaliplar": [
-"\\bkarışık buldum"
-],
-"metin": "Karışık buldum. Bulut büyümesi hızlandı ve beklentinin üstünde ama hisse başı kâr beklentinin çok altında kaldı."
-},
-{
 "acilis": "bence fon yapay",
 "kaliplar": [
 "\\bbence\\b",
@@ -313,5 +306,10 @@
 "acilis": "bence bu alphabet",
 "kaliplar": [],
 "metin": "Bence bu Alphabet için bir zayıflık değil, yapay zekâ talebinin hâlâ ne kadar güçlü olduğunun kanıtı. Dünyanın en kârlı şirketlerinden biri nakit akışını eksiye"
+},
+{
+"acilis": "bence bu şirketler",
+"kaliplar": [],
+"metin": "Bence bu şirketler kendi aralarında aynı değil. Kiralanan kapasiteye talep sürdükçe, müşterisi güçlü ve finansmanı ön ödemeyle desteklenen isimler bu dönemden a"
 }
 ]

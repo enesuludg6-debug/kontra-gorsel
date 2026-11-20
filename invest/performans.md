@@ -177,3 +177,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 20.11 | 18:49 | BAGLAM-GORUS | CBRS satista artida | spotlight | 6b006c112473d9c25a98c4c2 |
 | 20.11 | 19:14 | BAGLAM-GORUS | SOX 5 Kasim kapanisinin altinda | grafik2 | 6b0071cdfcc25b8656450926 |
 | 20.11 | 19:36 | BAGLAM-GORUS | GOOGL harcama serbest nakit akisi | uclu | 6b0076fc825e970fbdfa8276 |
+| 20.11 | 19:59 | EGITICI | Neocloud nedir NBIS IREN CRWV satisi | dortlu | 6b007c6f8323fb252aa64612 |
