@@ -160,3 +160,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 20.11 | 12:06 | haber | ABD uzaktan erişim çip kuralı 19.11 yürürlükte; Çin; lisans | zaman | 6b000da4738ce4635f9fb12d |
 | 20.11 | 12:12 | enes-teknik | NBIS teknik; kademeler 88-93 / 82-85 / 74-78; dönüş 110 üstü | enes-grafik | 6b000f177b0a126cebc1ffdf |
 | 20.11 | 12:46 | haber | ORCL S&P BBB-; borçla finansman; YZ talebiyle karıştırma | spotlight | 6b0017073409fcd68aa03586 |
+| 20.11 | 13:11 | haber | vadeliler; YZ satışı Asya ve Avrupa'ya yayıldı | terminal | 6b001ce6e0dc26301cccee1f |

@@ -496,3 +496,4 @@ Durdurmak için en alta `DURDUR` yazılı bir satır ekle (Enes ya da Claude, En
 - 12:18 (20.11) ENES: takip tweetlerinde yalnız tutan beklentiler yazılır -> KURAL 56-B (56-3 iptal; görev mesajlarındaki aksi ifadenin önüne geçer).
 - 12:44 (20.11) ENES: KURAL 48-B Cumartesi en çok 20, Pazar en çok 10 tweet, alt sınır yok.
 - 12:46 (20.11) AUTO (haber): g/20261120_1247_orcl.jpg (spotlight) - TUR 12:45; FIKIR-TWEET 2/10: Substack Oracle; sonraki tur 13:10 trig_013iQKuTGAcSb4GpadSmmCDd Buffer 6b0017073409fcd68aa03586. Son 3 duzen: zaman, enes-grafik, spotlight.
+- 13:11 (20.11) AUTO (haber): g/20261120_1312_vadeli.jpg (terminal) - TUR 13:10; sonraki tur 13:32 trig_01JQv6EJtPfiR9wqFYdvYfqt; ENES: CBRS tüm gösterge taraması gönderildi (çizgiler yanlışlıkla silindi ve aynı fiyatlarla geri çizildi) Buffer 6b001ce6e0dc26301cccee1f. Son 3 duzen: enes-grafik, spotlight, terminal.
