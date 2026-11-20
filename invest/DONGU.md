@@ -487,3 +487,4 @@ Durdurmak için en alta `DURDUR` yazılı bir satır ekle (Enes ya da Claude, En
 - 09:54 (20.11) Enes: 'NBİSTE EKLEDİM PORTFÖYE' -> portföy DOCN RKLB SITM AXON CBRS VRT AVGO NBIS; tüm kurallarda güncellendi.
 - 10:17 PERF-OGREN 20.11: 92 tweet metriği güncellendi; 19.11 toplam 22.679 / medyan 261; yeni DENE: detay tweetlerini kıs, son dakikaya öncelik. Zincir: 21.11 10:15 trig_01YCTaaG5kDiHcVND1Nif3G2.
 - 10:22 FIKIR taraması #2 (perfogren): Substack bugün 09:51'de okundu; b+d bakıldı, NBIS fikri BUGÜN DENE; a/c sonraki taramaya. FIKIR-TWEET sayacı 0/10.
+- 11:04 (20.11) AUTO (baslik): g/20261120_1102_baslik.jpg (terminal) - KEYLEVELS 20.11 atıldı; zincir 23.11 11:00 trig_01BubsgnRtKXJDnAMLbAreNf; tur 11:15 kurulu; bugün portföy bilançosu yok, opsiyon/çağrı/detay görevi gerekmedi (INTU iptal) Buffer 6afffef10f5eda1a57d1e806. Son 3 duzen: editoryal, dortlu, terminal.

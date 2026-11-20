@@ -154,3 +154,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 20.11 | 00:51 | 13f | Whale Rock ALAB çıkış SITM artış | uclu | 6aff6f678ec824f4cec357fe |
 | 20.11 | 01:26 | gorus | Cuma için dört not | editoryal | 6aff778986abad2170218d8a |
 | 20.11 | 12:30 | gorus | ENES İSTEĞİ: iyi bilançolar ve token düşüşüne rağmen düşüş gerçekçi değil (12:30 zamanlandı) | dortlu | 6affdc97738ce4635f8ce777 |
+| 20.11 | 11:04 | baslik | Günün başlıkları 20.11; vadeliler ekside; Michigan 18:00; AMD ve Keysight takibi | terminal | 6afffef10f5eda1a57d1e806 |
