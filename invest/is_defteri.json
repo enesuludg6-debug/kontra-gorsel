@@ -1474,11 +1474,24 @@
    "ne": "tur",
    "ticker": "",
    "tur": "tur",
-   "durum": "kuruldu",
-   "not": "",
+   "durum": "yapildi",
+   "not": "ARR egitim",
    "trigger": "trig_015uUrWdHv42KmU13sfq8MLq",
    "soz": "",
-   "guncelleme": "20.11 21:34"
+   "guncelleme": "20.11 22:00"
+  },
+  {
+   "id": "TUR-1120-2222",
+   "ad": "Otomatik paylaşım turu",
+   "zaman": "2026-11-20T22:22",
+   "ne": "tur",
+   "ticker": "",
+   "tur": "tur",
+   "durum": "kuruldu",
+   "not": "",
+   "trigger": "trig_01WRmkzanqwda2oUY1P18Qjs",
+   "soz": "",
+   "guncelleme": "20.11 22:00"
   },
   {
    "id": "TAKIP-2011-kapanis",
