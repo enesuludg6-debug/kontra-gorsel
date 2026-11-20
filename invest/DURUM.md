@@ -1,3 +1,5 @@
+## !!! KURAL 54-B (Enes 20.11 11:08: "Ben panik yapmıyorum ifadesi çok yapay zeka gibi"): "panik yapmıyorum / panik yok / sakin kalıyorum / soğukkanlı / büyük resim / gürültüye kulak asmıyorum / duygusal davranmıyorum / uzun vadeli düşünüyorum" gibi KENDİ RUH HALİNİ ANLATAN klişe cümleler YASAK (yasak.py'ye eklendi). Görüş duygu durumu değil, somut bir şeyle söylenir: ne yapacağım ya da neye bakacağım + somut gerekçe/rakam (ör. "Bu fiyatlardan satacak bir şey görmüyorum, Keysight'ın siparişleri hâlâ büyüyor").
+
 ## !!! PORTFÖY GÜNCEL (Enes 20.11 09:53 "NBİSTE EKLEDİM PORTFÖYE"): DOCN RKLB SITM AXON CBRS VRT AVGO NBIS. NBIS artık portföy hissesi: haber taraması, ben olsam notları, karne/tez kartı, görüş profili ve portföy önceliği NBIS'i de kapsar. Eski "NBIS YOK" satırları geçersiz.
 
 # DURUM — tek sayfa güncel durum (kesin kural 18)
