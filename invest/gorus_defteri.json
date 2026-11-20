@@ -1,10 +1,5 @@
 [
 {
-"acilis": "serbest nakit akışı",
-"kaliplar": [],
-"metin": "Serbest nakit akışı eksideyken temettü ve geri alımı sürdürebilmesi, bu kasanın sayesinde. Şu an için yatırımcıya dağıtım ile yapay zekâ harcaması aynı anda yür"
-},
-{
 "acilis": "13f 30 eylül",
 "kaliplar": [],
 "metin": "13F 30 Eylül tarihli, sonrasında pozisyonlar değişmiş olabilir."
@@ -306,5 +301,10 @@
 "acilis": "fiyattaki düşüşün sebebi",
 "kaliplar": [],
 "metin": "Fiyattaki düşüşün sebebi şirketin kendisi değil. Büyüme hedefini yeni yükselten bir şirketin sektörle birlikte bu kadar satılması bence fiyatı rakamlardan uzakl"
+},
+{
+"acilis": "ben bir yazılım",
+"kaliplar": [],
+"metin": "Ben bir yazılım şirketinde ilk olarak ARR büyümesinin hızlanıp hızlanmadığına bakarım. Gelir büyürken ARR yavaşlıyorsa büyümenin bir kısmı tek seferlik işlerden"
 }
 ]
