@@ -169,3 +169,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 20.11 | 15:37 | BAGLAM-GORUS | RKLB siparis defteri Neutron gecikmesi | uclu | 6b003ef6fc5b97f0f8056789 |
 | 20.11 | 16:00 | BAGLAM-GORUS | LITE MRVL birlesme farki | spotlight | 6b00447144831c50e4c5dde2 |
 | 20.11 | 16:25 | VADELI | Vadeli ayrisma Nasdaq Dow opsiyon vade gunu | isi | 6b004a37234b6bb6ee9a983a |
+| 20.11 | 16:51 | BAGLAM-GORUS | VRT temettu artisi yuzde 60 | grafik2 | 6b00504cfc5b97f0f80d6ee4 |
