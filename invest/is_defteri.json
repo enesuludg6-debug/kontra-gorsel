@@ -1461,11 +1461,24 @@
    "ne": "tur",
    "ticker": "",
    "tur": "tur",
-   "durum": "kuruldu",
-   "not": "",
+   "durum": "yapildi",
+   "not": "DOCN tweeti",
    "trigger": "trig_01WBmvx3nUsMwsbdHHbtGKPC",
    "soz": "",
-   "guncelleme": "20.11 21:11"
+   "guncelleme": "20.11 21:34"
+  },
+  {
+   "id": "TUR-1120-2158",
+   "ad": "Otomatik paylaşım turu",
+   "zaman": "2026-11-20T21:58",
+   "ne": "tur",
+   "ticker": "",
+   "tur": "tur",
+   "durum": "kuruldu",
+   "not": "",
+   "trigger": "trig_015uUrWdHv42KmU13sfq8MLq",
+   "soz": "",
+   "guncelleme": "20.11 21:34"
   },
   {
    "id": "TAKIP-2011-kapanis",
