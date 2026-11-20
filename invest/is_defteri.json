@@ -1130,6 +1130,19 @@
    "guncelleme": "19.11 09:02"
   },
   {
+   "id": "TAKIP-2011-acilis",
+   "ad": "Takip: AMD + Keysight açılış",
+   "zaman": "2026-11-20T17:10",
+   "ne": "Kural 56: cuma notlarından a ve b",
+   "ticker": "",
+   "tur": "takip",
+   "durum": "kuruldu",
+   "not": "",
+   "trigger": "trig_01T39g4sfd2n9UhUfKUYvuGM",
+   "soz": "",
+   "guncelleme": "20.11 09:07"
+  },
+  {
    "id": "INTU-1120-beklenen",
    "ad": "Beklenen hareket: INTU",
    "zaman": "2026-11-20T17:45",
@@ -1141,6 +1154,19 @@
    "trigger": "trig_01Xo8quq4Q4zEkjNEB1yhwmC",
    "soz": "Enes 19.11 22:26: \"intuitle ilgili bir şey paylaşma onun yerine farklı içerikler yap\"",
    "guncelleme": "19.11 09:02"
+  },
+  {
+   "id": "TAKIP-2011-kapanis",
+   "ad": "Takip: kapanış NDX 26.244 + S&P serisi",
+   "zaman": "2026-11-21T00:10",
+   "ne": "Kural 56: cuma notları c-d + NDX teknik senaryo",
+   "ticker": "",
+   "tur": "takip",
+   "durum": "kuruldu",
+   "not": "",
+   "trigger": "trig_01JNdJvxSXf2F727AF9beYWG",
+   "soz": "",
+   "guncelleme": "20.11 09:07"
   }
  ]
 }
