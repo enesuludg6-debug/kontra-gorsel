@@ -1,10 +1,5 @@
 [
 {
-"acilis": "bu ilginç bir",
-"kaliplar": [],
-"metin": "Bu ilginç bir makro detay. Devletin ilaç fiyatlarını aşağı çekmesi, Walmart gibi şirketlerin cirosunu küçültüyor ama tüketicinin cebinde para bırakıyor ve enfla"
-},
-{
 "acilis": "yıllık kâr rehberinin",
 "kaliplar": [],
 "metin": "Yıllık kâr rehberinin yükseltilmesi güzel ama çeyrek bazında kâr temposunun düştüğü de bir gerçek. Giderlerin satıştan hızlı arttığı bir tabloyu iki çeyrek üst "
@@ -306,5 +301,10 @@
 "acilis": "altının hisselerle birlikte",
 "kaliplar": [],
 "metin": "Altının hisselerle birlikte satılması klasik bir zorunlu pozisyon azaltımı işareti. Güvenli liman bu dönemde koruma aracı değil, nakit kaynağı olarak kullanılıy"
+},
+{
+"acilis": "faiz artışı değerleme",
+"kaliplar": [],
+"metin": "Faiz artışı değerleme çarpanını aşağı çeker, şirketin gelir büyümesini değil. Talebi ve sipariş defteri güçlü şirketlerde çarpan daralması fiyatı temelden uzakl"
 }
 ]
