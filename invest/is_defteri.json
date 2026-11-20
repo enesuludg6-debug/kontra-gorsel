@@ -1357,11 +1357,24 @@
    "ne": "Michigan teyit + tur",
    "ticker": "",
    "tur": "tur",
-   "durum": "kuruldu",
-   "not": "",
+   "durum": "yapildi",
+   "not": "18:26 Buffer 6b0066a7234b6bb6eea902c0; Michigan teyit OK",
    "trigger": "trig_01JWWnPdQ3cxG3oA9FxywQJ7",
    "soz": "",
-   "guncelleme": "20.11 18:05"
+   "guncelleme": "20.11 18:26"
+  },
+  {
+   "id": "TUR-1120-1848",
+   "ad": "Otomatik paylaşım turu",
+   "zaman": "2026-11-20T18:48",
+   "ne": "tur",
+   "ticker": "",
+   "tur": "tur",
+   "durum": "kuruldu",
+   "not": "",
+   "trigger": "trig_01CtsK7AkhDBiFqJbRocGeEb",
+   "soz": "",
+   "guncelleme": "20.11 18:26"
   },
   {
    "id": "TAKIP-2011-kapanis",
