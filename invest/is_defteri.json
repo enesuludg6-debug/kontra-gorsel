@@ -1279,11 +1279,24 @@
    "ne": "tur",
    "ticker": "",
    "tur": "tur",
-   "durum": "kuruldu",
-   "not": "",
+   "durum": "yapildi",
+   "not": "16:25 Buffer 6b004a37234b6bb6ee9a983a",
    "trigger": "trig_01GnKbTZsceAGUFwWNN2Ad5v",
    "soz": "",
-   "guncelleme": "20.11 16:00"
+   "guncelleme": "20.11 16:25"
+  },
+  {
+   "id": "TUR-1120-1648",
+   "ad": "Otomatik paylaşım turu",
+   "zaman": "2026-11-20T16:48",
+   "ne": "tur",
+   "ticker": "",
+   "tur": "tur",
+   "durum": "kuruldu",
+   "not": "",
+   "trigger": "trig_01R7LftKzspEZdKa9N9dftYU",
+   "soz": "",
+   "guncelleme": "20.11 16:25"
   },
   {
    "id": "TAKIP-2011-acilis",
