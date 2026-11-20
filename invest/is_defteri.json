@@ -1242,9 +1242,9 @@
    "tur": "tur",
    "durum": "kuruldu",
    "not": "",
-   "trigger": "trig_01M3eiKcaHCxV6cko6vQNRpX",
+   "trigger": "trig_012DvpWzKHdr5KeR4rfCj51b",
    "soz": "",
-   "guncelleme": "20.11 14:42"
+   "guncelleme": "20.11 14:53"
   },
   {
    "id": "TAKIP-2011-acilis",
@@ -1255,9 +1255,9 @@
    "tur": "takip",
    "durum": "kuruldu",
    "not": "",
-   "trigger": "trig_01T39g4sfd2n9UhUfKUYvuGM",
+   "trigger": "trig_01V9Qhknzm9YKK9KfReRPbLv",
    "soz": "",
-   "guncelleme": "20.11 09:07"
+   "guncelleme": "20.11 14:53"
   },
   {
    "id": "INTU-1120-beklenen",
@@ -1281,9 +1281,9 @@
    "tur": "takip",
    "durum": "kuruldu",
    "not": "",
-   "trigger": "trig_01JNdJvxSXf2F727AF9beYWG",
+   "trigger": "trig_01JdnyYd9WTQu8P6fKL7go3E",
    "soz": "",
-   "guncelleme": "20.11 09:07"
+   "guncelleme": "20.11 14:53"
   },
   {
    "id": "TAKIP-2311-nbis",
@@ -1294,9 +1294,9 @@
    "tur": "tek",
    "durum": "kuruldu",
    "not": "",
-   "trigger": "trig_01Pi6bLjML8FTpPqx8deSPPo",
+   "trigger": "trig_014vA7yv8gRCSJD9Qjdb4bPJ",
    "soz": "",
-   "guncelleme": "20.11 12:13"
+   "guncelleme": "20.11 14:53"
   }
  ]
 }
