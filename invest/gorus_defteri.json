@@ -1,10 +1,5 @@
 [
 {
-"acilis": "13f 30 eylül",
-"kaliplar": [],
-"metin": "13F 30 Eylül tarihli, sonrasında pozisyonlar değişmiş olabilir."
-},
-{
 "acilis": "hem gelirde hem",
 "kaliplar": [],
 "metin": "Hem gelirde hem kârda beklentinin üstüne çıkıp yıllık rehberi yükseltmesi hoşuma gitti. Gözüme takılan tek şey e-ticaretteki yavaşlama."
@@ -306,5 +301,10 @@
 "acilis": "ben bir yazılım",
 "kaliplar": [],
 "metin": "Ben bir yazılım şirketinde ilk olarak ARR büyümesinin hızlanıp hızlanmadığına bakarım. Gelir büyürken ARR yavaşlıyorsa büyümenin bir kısmı tek seferlik işlerden"
+},
+{
+"acilis": "fiyatları aşağı çeken",
+"kaliplar": [],
+"metin": "Fiyatları aşağı çeken bilançolar değil, yapay zekâ işlemindeki pozisyon azaltımı. Yapay zekâ capex döngüsü sürerken endekslerin %10-17 aşağıda fiyatlanması, uzu"
 }
 ]
