@@ -1292,11 +1292,11 @@
    "ne": "tur",
    "ticker": "",
    "tur": "tur",
-   "durum": "kuruldu",
-   "not": "",
+   "durum": "yapildi",
+   "not": "16:51 Buffer 6b00504cfc5b97f0f80d6ee4",
    "trigger": "trig_01R7LftKzspEZdKa9N9dftYU",
    "soz": "",
-   "guncelleme": "20.11 16:25"
+   "guncelleme": "20.11 16:51"
   },
   {
    "id": "TAKIP-2011-acilis",
@@ -1310,6 +1310,19 @@
    "trigger": "trig_01V9Qhknzm9YKK9KfReRPbLv",
    "soz": "",
    "guncelleme": "20.11 14:53"
+  },
+  {
+   "id": "TUR-1120-1737",
+   "ad": "Otomatik paylaşım turu",
+   "zaman": "2026-11-20T17:37",
+   "ne": "açılış tweeti",
+   "ticker": "",
+   "tur": "tur",
+   "durum": "kuruldu",
+   "not": "",
+   "trigger": "trig_017kDp2WiiTEvcHiouRQbBey",
+   "soz": "",
+   "guncelleme": "20.11 16:51"
   },
   {
    "id": "INTU-1120-beklenen",
