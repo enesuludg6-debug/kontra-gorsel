@@ -483,3 +483,4 @@ Durdurmak için en alta `DURDUR` yazılı bir satır ekle (Enes ya da Claude, En
 - 09:16 (20.11) ENES 09:08 KURAL 57: perf_isle.py + Sabit: performans öğrenme 10:15 zinciri (trig_01Budzx1CDNQkeaH6CrYAyLH) + DURUM İÇERİK AYARI bloğu + HESAP_DEVRI çift kurulum notu. performans_veri.csv 22 satır olgun metrikle güncellendi.
 - 09:46 (20.11) ENES 09:44 KURAL 58: Reddit/Substack fikir taraması (yalnız Chrome bağlıysa; perfogren 10:15 adım 7 + akşam ilk tur); fikir_havuzu.md; turlar günde 1-3 fikirden tweet. Şu an Chrome bağlı değil.
 - 09:48 (20.11) ENES 09:46: kural 58 düzeltme — fikir tweetlerinin ayrı performansı ölçülmez; fikirler genel performans öğrenimine göre harmanlanır.
+- 09:51 (20.11) FIKIR taraması #1: Chrome bağlandı; Reddit uzantı tarafından engelli; Substack finans 'En üst' okundu, 4 fikir havuza (1 elendi: Anthropic).
