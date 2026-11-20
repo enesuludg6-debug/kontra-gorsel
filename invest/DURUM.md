@@ -9,7 +9,7 @@
 ## !!! PORTFÖY GÜNCEL (Enes 20.11 09:53 "NBİSTE EKLEDİM PORTFÖYE"): DOCN RKLB SITM AXON CBRS VRT AVGO NBIS. NBIS artık portföy hissesi: haber taraması, ben olsam notları, karne/tez kartı, görüş profili ve portföy önceliği NBIS'i de kapsar. Eski "NBIS YOK" satırları geçersiz.
 
 # DURUM — tek sayfa güncel durum (kesin kural 18)
-Son güncelleme: 20.11.2026 16:00 TSİ (B2 — sohbet devri; bütün görevler HESAP=B2). Her tur ve görev sonunda güncellenir (en çok 80 satır). Turlar DEVIR_TAM'ı baştan okumaz: skill + bu dosya + DONGU.md son 30 satır. DEVIR_TAM'dan yalnız gereken bölüm grep ile açılır.
+Son güncelleme: 20.11.2026 16:25 TSİ (B2 — sohbet devri; bütün görevler HESAP=B2). Her tur ve görev sonunda güncellenir (en çok 80 satır). Turlar DEVIR_TAM'ı baştan okumaz: skill + bu dosya + DONGU.md son 30 satır. DEVIR_TAM'dan yalnız gereken bölüm grep ile açılır.
 
 ## !!! KESİN KURAL 50 (Enes 19.11 13:01: "tweetlere daha fazla yorum ekle, bilançoyu beğendiysem beğendim de, beğenmediysem beğenmedim de, haberlere bence bunu yapmaları şu yüzden iyi vs de, ama daha çok arttır, insanlar benden yorum düşünce bekliyor"): HER tweette net, birinci tekil kişi görüş ZORUNLU ve ağırlığı artır. Bilanço rakam/analiz/detay/çağrı tweetlerinde açık hüküm: "Bilançoyu beğendim / beğenmedim / karışık buldum" + neden (2-3 somut gerekçe) + neyi izleyeceğim. Haber tweetlerinde: "Bence bu hamle doğru/yanlış, çünkü ..." ya da "Bence bu ... için iyi/kötü". 13F tweetlerinde: fonun hamlesine katılıp katılmadığım ve nedeni. Görüş en az 1 tam paragraf, tweetin sonunda; ilk paragraf yine haber/rakam. Sınırlar aynen: al/sat tavsiyesi yok (okura "alın/satın" yok), portföy güncellemesi ve teknik analiz yok, rakamlar yine 2 kaynak, yorum kendi görüşümüz olarak işaretli (bence, beğendim, bana göre). Kural 23 aynen.
 
@@ -136,7 +136,7 @@ REDDIT (Enes 20.11 09:58 "redditte bağlan"): her taramada Chrome ile r/stocks t
 NDX 26.990 (4s ST AL) / 26.600 kritik | DOCN k1 72-74 k2 69-70 tez hf<69,8 | RKLB k1 55-57 k2 50-52 tez G<43,9 | SITM k1 395-405 k2 345-365 tez G<335 | AXON k1 291-298 k2 255-270 tez hf<255 | CBRS k1 96-99 k2 88-91 tez G<77,8 | VRT k1 178-183 k2 169-174 tez hf<150 | AVGO k1 323-330 k2 300-311 tez G<289,8 | TSM k1 351-360 | ECL 294-301
 
 ## Kart
-- Son 3 düzen: terminal (On piyasa cip satisi), uclu (RKLB siparis defteri), spotlight (LITE MRVL birlesme f).44; korku end).). k). ceyrek o). ceyrek onizl). Electron +). ceyrek). ceyrek). ceyrek analiz). ceyrek rakam).). ceyrek anali). ceyrek tam f). ceyrek). LOGO_BUYUT 1.8, küçültme YOK; bento ve skor kare logoyu taşımıyor → bilanço rakamı uclu.
+- Son 3 düzen: uclu (RKLB siparis defteri), spotlight (LITE MRVL birlesme f), isi (Vadeli ayrisma Nasda).44; korku end).). k). ceyrek o). ceyrek onizl). Electron +). ceyrek). ceyrek). ceyrek analiz). ceyrek rakam).). ceyrek anali). ceyrek tam f). ceyrek). LOGO_BUYUT 1.8, küçültme YOK; bento ve skor kare logoyu taşımıyor → bilanço rakamı uclu.
 
 ## 13F serisi (Q3 2026)
 Atılanlar: Berkshire, Ackman, Druckenmiller, Tepper, Soros, Third Point/Loeb. Atıldı: Greenlight, Coatue (18.11 11:17), Tiger Global (18.11 12:07), Baupost (18.11 13:57), Himalaya (18.11 16:58). Atıldı: Lone Pine (18.11 20:51). Viking 19.11 14:30 zamanlandı, Bridgewater 19.11 13:01 atıldı. Sıradaki: teknoloji hamleli yeni fon (Point72, ARK, Baillie Gifford) (yalnız teknoloji hamleleri); Pabrai, Icahn atlandı. Bitince Enes'e özet. Burry yok (SEC kaydı silindi).
