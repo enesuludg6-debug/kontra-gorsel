@@ -1,4 +1,9 @@
 # >>> 18.11.2026 20:25 GÜNCEL — YENİ HESABA GEÇİŞ (A2 → B) İÇİN EK (önce bunu oku) <<<
+## 20.11.2026 09:15 EK — YENİ SOHBETE GEÇİŞTE ÇİFT KURULUM YAPMA (kural 57)
+- Önce list_triggers (enabled true) çek. `python3 invest/sonraki.py hepsi` 13 sabit zinciri verir (perfogren 20.11'de eklendi). Her biri için list_triggers'ta AYNI ADLI bekleyen varsa DOKUNMA; yalnız eksik olanı kur.
+- Tek seferlik işler: `python3 invest/isler.py devir` → defterde 'kuruldu' olup list_triggers'ta tetiklenmemiş görevi varsa dokunma; görevi kaybolmuşsa yeniden kur.
+- Performans öğrenme her gün 10:15; içerik ayarları DURUM.md 'İÇERİK AYARI (kural 57)' bloğunda. Yeni sohbet bu bloğu okur ve uygular.
+
 Enes 18.11 20:22: "Yeni bir hesaba geçeceğim, yapacağımız her şey bugünün devamında oraya yollansın, bugün de devam ettirsin her şeyiyle, sonra gelecek günlerde tamamen aynı şekilde yapsın; o hesapta GitHub ve Buffer bağlı."
 SIRA (yeni hesapta, etiket B):
 1. Aşağıdaki "HESAP DEVRİ — BAŞKA BİR CLAUDE HESABINDA SIFIRDAN KURULUM" bölümünün 1-4. adımları (repo, KİLİT `AKTIF: B` (şu an `AKTIF: A2`), sistem kontrolü, skill önerisi). Kilit B olunca A2 hesabındaki bütün görevler kendini kapatır (hepsi `AKTIF: A2` kontrolü yapıyor) — çift tweet olmaz.

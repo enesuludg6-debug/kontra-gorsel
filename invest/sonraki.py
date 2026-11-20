@@ -18,6 +18,7 @@ G = {
  "sezon":       ("Sabit: bilanço sezonu karnesi Paz 14:25", "haftalik", "14:25", 6),
  "takvim":      ("Sabit: haftalık takvim Paz 20:00", "haftalik", "20:00", 6),
  "performans":  ("Sabit: performans raporu Paz 21:30", "haftalik", "21:30", 6),
+ "perfogren":   ("Sabit: performans öğrenme 10:15", "gunluk", "10:15", None),  # kural 57
  "ayinozeti":   ("Sabit: ayın özeti + mevsimsellik 10:55", "ay_ilk7", "10:55", None),
  "13f":         ("Sabit: 13F serisi başlangıcı 09:05", "yillik", "09:05", [(2, 15), (5, 16), (8, 15), (11, 15)]),
 }
