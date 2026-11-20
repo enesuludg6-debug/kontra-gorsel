@@ -15,4 +15,9 @@ KURAL 58 GÜNLÜK KOTA (Enes 20.11 10:04 "tüm mecraların hepsinden günlük to
 - 20.11 | (b) Nebius IR + (d) analist/haber taraması | — | Nebius 3. çeyrekte gelir +%571 (980,8 Mn $, beklenti ~907-917 Mn) ve düz. FAVÖK 465,8 Mn ile beklentiyi geçti ama hisse ağustostaki zirvesinin yarısına indi; gecikmeler 2026 rehberini alt banda çekti. Açı (Enes görüşü): "talep sorunu değil kapasite gecikmesi; büyüme bu hızdayken bu fiyat bana ucuz geliyor" | NBIS (portföy) | kullanıldı 20.11 11:19 — — 2 kaynak: nebius.com bülteni + newsquawk/stockanalysis; fiyat/zirve oranını güncel fiyatla yeniden kontrol et
 - 20.11 | (d) analist notları | — | Bugün tarihli taze hedef fiyat haberi bulunamadı (arama sonuçları eski yıllardan) | — | atlandı; turlarda TipRanks/MarketBeat'e doğrudan bak
 - 20.11 | (a) SEC EDGAR | — | bu taramada bakılmadı (süre) | — | bir sonraki taramada ilk sırada
-SON ROTASYON: a(eksik) b d 20.11 — sıradaki: a, c, e, f
+SON ROTASYON: a(eksik) b d 20.11 akşam: Substack + Reddit(erişilemedi) — sıradaki: a, c, e, f
+
+- 20.11 21:10 | Substack 'En üst' (fon yöneticisi yazısı) | düşük | Fon yöneticileri yazın çipleri 'en kalabalık işlem' saydı; bugünkü satış pozisyon boşaltma | SOX NVDA | kullanıldı 20.11 21:10 (BofA anketi 2+ kaynak: Benzinga + Cryptobriefing + Longbridge + Yahoo/24-7)
+- 20.11 21:10 | Substack 'En üst' (tanınmış ayı yatırımcı) | 190 beğeni | 1929 ve 2000 ile benzerlik: liderlerin bilançoları güçlü ama hisseler düşüyor | NVDA | Enes görüşüne ters (balon tezi); yalnız 'bilanço güçlü, satış bilançodan değil' açısıyla kullanılabilir, isim yazılmaz
+- 20.11 21:10 | Substack 'En üst' | 31 beğeni | Altın-gümüş satışı tahvilde likidite sıkışması işareti (Mart 2020 benzetmesi) | makro | elendi: alan dışı/spekülatif
+- 20.11 21:10 | Reddit r/stocks | — | erişilemedi 20.11 (Chrome safety restrictions; dolanılmadı) | — | —
