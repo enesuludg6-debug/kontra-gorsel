@@ -1565,11 +1565,24 @@
    "ne": "gece turu",
    "ticker": "",
    "tur": "tur",
-   "durum": "kuruldu",
-   "not": "",
+   "durum": "yapildi",
+   "not": "bitcoin",
    "trigger": "trig_011zYPrpw9badKXEt9D7wbC3",
    "soz": "",
-   "guncelleme": "21.11 00:37"
+   "guncelleme": "21.11 01:01"
+  },
+  {
+   "id": "TUR-1121-0125",
+   "ad": "Otomatik paylaşım turu",
+   "zaman": "2026-11-21T01:25",
+   "ne": "gecenin son turu",
+   "ticker": "",
+   "tur": "tur",
+   "durum": "kuruldu",
+   "not": "",
+   "trigger": "trig_011puh5iJQA1J8s1GprZAQvC",
+   "soz": "",
+   "guncelleme": "21.11 01:01"
   },
   {
    "id": "TAKIP-2311-nbis",
