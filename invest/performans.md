@@ -167,3 +167,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 20.11 | 14:42 | haber | ASML %6 düşüş; zirvenin %30 altı | once_sonra | 6b00320e0c6d6b9052827be3 |
 | 20.11 | 15:12 | SONDAKIKA | On piyasa cip satisi AMD MU MRVL | terminal | 6b00392644831c50e4c0c8d7 |
 | 20.11 | 15:37 | BAGLAM-GORUS | RKLB siparis defteri Neutron gecikmesi | uclu | 6b003ef6fc5b97f0f8056789 |
+| 20.11 | 16:00 | BAGLAM-GORUS | LITE MRVL birlesme farki | spotlight | 6b00447144831c50e4c5dde2 |
