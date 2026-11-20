@@ -1104,6 +1104,19 @@
    "guncelleme": "20.11 01:26"
   },
   {
+   "id": "TUR-1120-1115",
+   "ad": "Otomatik paylaşım turu",
+   "zaman": "2026-11-20T11:15",
+   "ne": "İlk tur",
+   "ticker": "",
+   "tur": "tur",
+   "durum": "kuruldu",
+   "not": "",
+   "trigger": "trig_016hAvVbXpxNczZrZCWF9w54",
+   "soz": "",
+   "guncelleme": "20.11 09:01"
+  },
+  {
    "id": "INTU-1120-cagri",
    "ad": "Çağrı: INTU",
    "zaman": "2026-11-20T11:40",

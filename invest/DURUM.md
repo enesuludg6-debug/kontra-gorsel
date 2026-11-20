@@ -1,5 +1,5 @@
 # DURUM — tek sayfa güncel durum (kesin kural 18)
-Son güncelleme: 20.11.2026 08:37 TSİ (B). Her tur ve görev sonunda güncellenir (en çok 80 satır). Turlar DEVIR_TAM'ı baştan okumaz: skill + bu dosya + DONGU.md son 30 satır. DEVIR_TAM'dan yalnız gereken bölüm grep ile açılır.
+Son güncelleme: 20.11.2026 09:02 TSİ (B). Her tur ve görev sonunda güncellenir (en çok 80 satır). Turlar DEVIR_TAM'ı baştan okumaz: skill + bu dosya + DONGU.md son 30 satır. DEVIR_TAM'dan yalnız gereken bölüm grep ile açılır.
 
 ## !!! KESİN KURAL 50 (Enes 19.11 13:01: "tweetlere daha fazla yorum ekle, bilançoyu beğendiysem beğendim de, beğenmediysem beğenmedim de, haberlere bence bunu yapmaları şu yüzden iyi vs de, ama daha çok arttır, insanlar benden yorum düşünce bekliyor"): HER tweette net, birinci tekil kişi görüş ZORUNLU ve ağırlığı artır. Bilanço rakam/analiz/detay/çağrı tweetlerinde açık hüküm: "Bilançoyu beğendim / beğenmedim / karışık buldum" + neden (2-3 somut gerekçe) + neyi izleyeceğim. Haber tweetlerinde: "Bence bu hamle doğru/yanlış, çünkü ..." ya da "Bence bu ... için iyi/kötü". 13F tweetlerinde: fonun hamlesine katılıp katılmadığım ve nedeni. Görüş en az 1 tam paragraf, tweetin sonunda; ilk paragraf yine haber/rakam. Sınırlar aynen: al/sat tavsiyesi yok (okura "alın/satın" yok), portföy güncellemesi ve teknik analiz yok, rakamlar yine 2 kaynak, yorum kendi görüşümüz olarak işaretli (bence, beğendim, bana göre). Kural 23 aynen.
 
@@ -41,8 +41,6 @@ Son güncelleme: 20.11.2026 08:37 TSİ (B). Her tur ve görev sonunda güncellen
 ## !!! Kural 47 (Enes 18.11 18:07): her tweetten sonra Enes'e ÖĞRETİCİ 'Ne anlama geliyor?': terimler, neden önemli, nasıl okunur, Nasdaq/portföy bağlantısı, izlenecek.
 
 ## !!! Kural 46 (Enes 18.11 17:12): KONU FİLTRESİ: yalnız YAPAY ZEKÂ, UZAY, NASDAQ (+ bunları etkileyen makro). Perakende/tüketim/banka/sanayi/ilaç vb. tweet YOK. 13F'te yalnız teknoloji hamleleri; Pabrai, Icahn atlandı. İSTİSNA: WMT 19.11 görevleri kalır (Enes 17:16), analiz/detayda MAKRO bölüm zorunlu (tüketici, enflasyon/tarife, Fed ve Nasdaq'a etkisi).
-
-## BUGÜNLÜK 18.11 (Enes 15:39): Target (TGT) hakkında bugün başka tweet YOK; TGT beklenen ve çağrı iptal. Haklar diğer konulara. Yalnız 18.11 için.
 
 ## !!! Kural 11-B (Enes 18.11 14:55): HER tweetten önce `python3 invest/yasak.py` taraması; çıkış 1 = ATMA. 'Benim görüşüm:', 'Not:' ve paragraf başı 'X:' yasak.
 
@@ -113,7 +111,7 @@ Atılanlar: Berkshire, Ackman, Druckenmiller, Tepper, Soros, Third Point/Loeb. A
 
 ## Bugün / yarın (takvim.md ayrıntılı)
 - 17.11: HD yayın 13:58, DIS yayın 14:38, vadeli ~15:00-15:25, perakende satış hazırlık 15:40 yayın 16:28, teknik 18:00, teknik 23:30, NVDA hazırlık 23:25 yayın 00:18 (+15 dk analiz; 12:22 önizleme tahminleriyle kıyas: gelir 111-113, DC 103-105, GM %74,2-74,5, HBK 2,53-2,58; Q4 rehber 122-126, marj ~%72).
-- 18.11: TGT, FOMC notları, PANW, P (bitti). 19.11: WMT (15:00), INTU (Enes 22:26 iptal: tweet yok).
+- 19.11 bitti (49 tweet). 20.11 Cuma: normal gün; 12:30 Enes görüş tweeti zamanlı; INTU tweet yok.
 - Cumartesi 21.11 11:00 haftalık özet (kural 19). Pazar 22.11 20:00 takvim + "gelecek hafta" tweeti (kural 20), 21:30 performans raporu.
 
 ## Son 10 tweet (17.11)
