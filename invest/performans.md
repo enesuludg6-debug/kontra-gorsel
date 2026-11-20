@@ -190,3 +190,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 20.11 | 23:33 | EGITICI | Fed Aralik artirimi ve buyume hisseleri | uclu | 6b00ae6dd425f1473a10b634 |
 | 21.11 | 00:12 | TAKIP | Cuma kapanisi ve dort not takibi | dortlu | 6b00b7da5e993799d82c10ff |
 | 21.11 | 00:37 | BAGLAM-GORUS | NVDA dusus ve temel | grafik2 | 6b00bd7dd9cbb430a1fac617 |
+| 21.11 | 01:01 | BAGLAM-GORUS | Bitcoin 60 bin alti ETF cikisi | spotlight | 6b00c3225102766245d70fd9 |
