@@ -1,3 +1,11 @@
+# >>> 20.11.2026 14:50 EK — SOHBET DEVRİ B → B2 (ÖNCE BUNU OKU) <<<
+- Yeni sohbetin etiketi B2 (sonrakiler B3, B4 ...). Aşağıdaki "SOHBET DEVRİ" bölümünü uygula.
+- ÇİFT KURULUM KONTROLÜ YALNIZ YENİ ETİKETE GÖRE: list_triggers'ta görünen ama mesajı "HESAP=B." (eski etiket) ile başlayan görevler ESKİ SOHBETE bağlıdır; kilit B2 olunca kendilerini kapatırlar. Onları "zaten kurulu" SAYMA. Bütün sabit zincirleri (`sonraki.py hepsi`), bütün tek seferlik işleri (`isler.py devir`, durumu 'kuruldu' olanlar dahil — yeniden kur ve trigger id'yi güncelle) ve "Otomatik paylaşım turu" zincirini HESAP=B2 ile yeniden kur. Yalnız mesajı "HESAP=B2." ile başlayan bekleyen görev varsa onu tekrar kurma.
+- Eski sohbetteki bekleyen görevlere dokunma/silme (kilit onları kapatır). Silmek istersen yalnız mesajı "HESAP=B." ile başlayanları sil.
+- Tur mesajlarında: o anki "Bugün atılanlar" listesini DONGU.md'nin bugünkü AUTO satırlarından çıkar; son 3 kart düzeni DONGU son AUTO satırında; fikir sayacı DONGU'daki FIKIR-TWEET satırları; 18:00 Michigan nihai verisi 18:00-18:20 turunda tweetlenir; 16:30 açılış tweeti öncelikli.
+- 20.11 14:31 yeni kural 54-C (mecaz/dramatik sahne ve "Bu tabloda gördüğüm şey..." gibi açılışlar yasak) DURUM.md başında; yasak.py yakalıyor.
+- CBRS/SITM gösterge taraması (Enes 20.11 12:58 isteği) kısmen yapıldı: CBRS'te EMA 20/50/100/200, VWAP, Volume Profile, Fibonacci/OTE, SMC+MFI haftalık/1s, Aroon haftalık/4s eksik; SITM'de tam tarama yapılmadı. Enes isterse TradingView'dan (2 gösterge sınırı, çiftler hâlinde) tamamla. TradingView düzeninde değişiklikler KAYDEDİLMEDİ; Enes'in CBRS çizgileri 253,68 ve 162,13 yerinde.
+
 # >>> 18.11.2026 20:25 GÜNCEL — YENİ HESABA GEÇİŞ (A2 → B) İÇİN EK (önce bunu oku) <<<
 ## 20.11.2026 09:15 EK — YENİ SOHBETE GEÇİŞTE ÇİFT KURULUM YAPMA (kural 57)
 - Önce list_triggers (enabled true) çek. `python3 invest/sonraki.py hepsi` 13 sabit zinciri verir (perfogren 20.11'de eklendi). Her biri için list_triggers'ta AYNI ADLI bekleyen varsa DOKUNMA; yalnız eksik olanı kur.
@@ -20,7 +28,7 @@ enesuludg6-debug/kontra-gorsel reposunu bu sohbete PUSH yetkisiyle eklemeni onay
 ```
 (Her yeni sohbette etiketi bir artır: A2 → A3 → A4 ... Başka bir Claude HESABINA geçişte aşağıdaki "YENİ HESAPTA" mesajı kullanılır.)
 
-## SOHBET DEVRİ (aynı Claude hesabı, yeni sohbet)
+## SOHBET DEVRİ (aynı Claude hesabı, yeni sohbet) — ÇİFT KURULUM KONTROLÜ YALNIZ YENİ ETİKETLE (en üstteki 20.11 14:50 EK)
 KURAL 44: 18:00 (temel1800) ve 23:30 (teknik2330) analiz görevleri KURULMAZ; diğer her şey aynen.
 Neden gerekli: send_later zincirleri ve tek seferlik görevler KURULDUKLARI SOHBETE bağlıdır; Enes yeni sohbete geçince eski sohbetteki görevler orada çalışmaya devam eder ve mesajlar eski sohbete düşer (kural 29: her şey Enes'in kullandığı sohbete gelmeli). Çözüm: hesap kilidini yeni etikete çevir (eski sohbetin görevleri kilidi görüp kendini kapatır, çift tweet olmaz), bütün zincirleri yeni sohbette yeniden kur.
 1. Repo: add_repo (push) → `git clone --depth 1 https://github.com/enesuludg6-debug/kontra-gorsel /home/claude/kontra-gorsel` (varsa `git pull`), register_repo_root, `git config user.email noreply@anthropic.com; git config user.name Claude`.
