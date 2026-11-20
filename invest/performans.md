@@ -186,3 +186,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 20.11 | 21:59 | EGITICI | ARR nedir | poster | 6b0098a444c3619113537103 |
 | 20.11 | 22:24 | SONDAKIKA | S&P 500 ve Dow duzeltme bolgesinde | dortlu | 6b009e50861298c9b1483458 |
 | 20.11 | 22:47 | BAGLAM-GORUS | Sektor rotasyonu defansif | isi | 6b00a3c6d425f1473a0c2779 |
+| 20.11 | 23:10 | BAGLAM-GORUS | Altin Eylul 2025 dibi | spotlight | 6b00a9296f199ec35b7b8b50 |
