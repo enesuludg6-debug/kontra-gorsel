@@ -251,5 +251,12 @@
 "acilis": "asml en gelişmiş",
 "kaliplar": [],
 "metin": "ASML, en gelişmiş çiplerin üretildiği EUV makinelerini yapan tek şirket. TSMC, Samsung ve Intel yeni fabrika kurdukça bu makineleri ondan almak zorunda. Bugünkü"
+},
+{
+"acilis": "bence bu düşüş",
+"kaliplar": [
+"\\bçünkü\\b"
+],
+"metin": "Bence bu düşüş şirketlerin işlerinde bir bozulmadan gelmiyor. Bugün sipariş iptali ya da rehber düşürme haberi görmedim, düşen şey beklentiler. Açılışta kayıpla"
 }
 ]
