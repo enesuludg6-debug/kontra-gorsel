@@ -173,3 +173,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 20.11 | 17:15 | TAKIP | KEYS takip prim yok | uclu | 6b0055ef5d9549971cb061f6 |
 | 20.11 | 17:38 | SONDAKIKA | ABD acilis cip satisi DOCN NBIS DELL AXON | terminal | 6b005b61fc5b97f0f8135743 |
 | 20.11 | 18:04 | ENES-ISTEGI | Michigan kasim nihai enflasyon beklentisi 3.7 | dortlu | 6b0061865d9549971cb5d47b |
+| 20.11 | 18:26 | BAGLAM-GORUS | Faiz dustu cip satisi hizlandi SOX | isi | 6b0066a7234b6bb6eea902c0 |
