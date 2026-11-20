@@ -162,3 +162,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 20.11 | 12:46 | haber | ORCL S&P BBB-; borçla finansman; YZ talebiyle karıştırma | spotlight | 6b0017073409fcd68aa03586 |
 | 20.11 | 13:11 | haber | vadeliler; YZ satışı Asya ve Avrupa'ya yayıldı | terminal | 6b001ce6e0dc26301cccee1f |
 | 20.11 | 13:33 | fikir | VIX 28.44; korku endeksi | uclu | 6b0021e439116a845dcbedd3 |
+| 20.11 | 13:56 | haber | Asya çip satışı; Tayvan 1991'den beri en kötü hafta | ilerleme | 6b00276539116a845dcdfe6d |
