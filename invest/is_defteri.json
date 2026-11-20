@@ -1110,11 +1110,11 @@
    "ne": "İlk tur",
    "ticker": "",
    "tur": "tur",
-   "durum": "kuruldu",
+   "durum": "yapildi",
    "not": "",
    "trigger": "trig_016hAvVbXpxNczZrZCWF9w54",
    "soz": "",
-   "guncelleme": "20.11 09:01"
+   "guncelleme": "20.11 11:19"
   },
   {
    "id": "INTU-1120-cagri",
@@ -1128,6 +1128,19 @@
    "trigger": "trig_01XQRXGALSSX6s7Vd1JomAUb",
    "soz": "Enes 19.11 22:26: \"intuitle ilgili bir şey paylaşma onun yerine farklı içerikler yap\"",
    "guncelleme": "19.11 09:02"
+  },
+  {
+   "id": "TUR-1120-1140",
+   "ad": "Otomatik paylaşım turu",
+   "zaman": "2026-11-20T11:40",
+   "ne": "tur",
+   "ticker": "",
+   "tur": "tur",
+   "durum": "kuruldu",
+   "not": "",
+   "trigger": "trig_01D55s5X7KebxkTTYC5EQE5b",
+   "soz": "",
+   "guncelleme": "20.11 11:19"
   },
   {
    "id": "TAKIP-2011-acilis",

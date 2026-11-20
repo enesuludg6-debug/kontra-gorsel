@@ -489,3 +489,4 @@ Durdurmak için en alta `DURDUR` yazılı bir satır ekle (Enes ya da Claude, En
 - 10:22 FIKIR taraması #2 (perfogren): Substack bugün 09:51'de okundu; b+d bakıldı, NBIS fikri BUGÜN DENE; a/c sonraki taramaya. FIKIR-TWEET sayacı 0/10.
 - 11:04 (20.11) AUTO (baslik): g/20261120_1102_baslik.jpg (terminal) - KEYLEVELS 20.11 atıldı; zincir 23.11 11:00 trig_01BubsgnRtKXJDnAMLbAreNf; tur 11:15 kurulu; bugün portföy bilançosu yok, opsiyon/çağrı/detay görevi gerekmedi (INTU iptal) Buffer 6afffef10f5eda1a57d1e806. Son 3 duzen: editoryal, dortlu, terminal.
 - 11:09 (20.11) ENES: 'Ben panik yapmıyorum' yapay -> KURAL 54-B, yasak.py'ye ruh hali klişeleri eklendi.
+- 11:19 (20.11) AUTO (portfoy): g/20261120_1122_nbis.jpg (uclu) - TUR 11:15; FIKIR-TWEET 1/10: Nebius IR + haber NBIS; sonraki tur 11:40 trig_01D55s5X7KebxkTTYC5EQE5b Buffer 6b0002857b0a126cebbce091. Son 3 duzen: dortlu, terminal, uclu.
