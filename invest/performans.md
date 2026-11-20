@@ -158,3 +158,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 20.11 | 11:19 | portfoy | NBIS Eylül 2026 çeyreği; gelir +%571; gecikme zamanlama sorunu | uclu | 6b0002857b0a126cebbce091 |
 | 20.11 | 11:41 | portfoy | AVGO YZ çip geliri 16;7 Mr +%221; Ekim rehberi 21;7 Mr +%236; 115 Mr tedarik | ilerleme | 6b0007c97b0a126cebbec84e |
 | 20.11 | 12:06 | haber | ABD uzaktan erişim çip kuralı 19.11 yürürlükte; Çin; lisans | zaman | 6b000da4738ce4635f9fb12d |
+| 20.11 | 12:12 | enes-teknik | NBIS teknik; kademeler 88-93 / 82-85 / 74-78; dönüş 110 üstü | enes-grafik | 6b000f177b0a126cebc1ffdf |

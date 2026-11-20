@@ -1206,6 +1206,19 @@
    "trigger": "trig_01JNdJvxSXf2F727AF9beYWG",
    "soz": "",
    "guncelleme": "20.11 09:07"
+  },
+  {
+   "id": "TAKIP-2311-nbis",
+   "ad": "Takip: NBIS teknik seviyeler",
+   "zaman": "2026-11-23T17:10",
+   "ne": "NBIS kademe takibi",
+   "ticker": "",
+   "tur": "tek",
+   "durum": "kuruldu",
+   "not": "",
+   "trigger": "trig_01Pi6bLjML8FTpPqx8deSPPo",
+   "soz": "",
+   "guncelleme": "20.11 12:13"
   }
  ]
 }
