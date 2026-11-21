@@ -1,12 +1,5 @@
 [
 {
-"acilis": "nasdaq yine de",
-"kaliplar": [
-"\\bçünkü\\b"
-],
-"metin": "Nasdaq yine de güne yaklaşık %2 yükselişle başladı, piyasa veriyi görmezden geldi. Bence bu zayıf imalat verisi şu an Fed'i yolundan döndürmez, çünkü enflasyon "
-},
-{
 "acilis": "bu bana henüz",
 "kaliplar": [],
 "metin": "Bu bana henüz bir dönüş gibi gelmiyor, şimdilik soluklanma. Dün de çipler güne güçlü başlamış, kazancın çoğunu gün içinde geri vermişti. Asıl test kapanış. Micr"
@@ -306,5 +299,10 @@
 "acilis": "ayı piyasası bir",
 "kaliplar": [],
 "metin": "Ayı piyasası bir tanımdır, bir tahmin değildir. Etiket manşetleri ve yatırımcı psikolojisini etkiler, şirketlerin rakamlarını değiştirmez. Hangi eşikte olursak "
+},
+{
+"acilis": "bu hamle vertiv",
+"kaliplar": [],
+"metin": "Bu hamle Vertiv'i bir ekipman tedarikçisinden, Nvidia'nın yol haritasıyla eş zamanlı çalışan bir altyapı ortağına dönüştürüyor. Yeni nesil platform için referan"
 }
 ]
