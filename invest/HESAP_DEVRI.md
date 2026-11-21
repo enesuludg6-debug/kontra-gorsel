@@ -1,3 +1,13 @@
+# >>> 21.11.2026 18:30 EK — YENİ CLAUDE HESABINA GEÇİŞ B2 → C (ÖNCE BUNU OKU) <<<
+- Enes 21.11 18:29: "başka bir hesaba geçeceğim, aynılarını yapsın; Buffer, GitHub vs bağlı". Yeni hesabın etiketi **C** (aynı hesapta sonraki sohbetler C2, C3 ...).
+- Yapılacak: aşağıdaki "HESAP DEVRİ — BAŞKA BİR CLAUDE HESABINDA SIFIRDAN KURULUM" (repo, skill önerisi, sistem kontrolü) + "SOHBET DEVRİ" 1-6 adımları; kilit `AKTIF: C`. Kilit C olunca B2 hesabındaki bütün görevler (sabit zincirler, tur zinciri, TAKIP-2311-nbis) kendini kapatır.
+- ÇİFT KURULUM: yeni hesapta list_triggers boş gelir (görevler hesaba bağlı). `python3 invest/sonraki.py hepsi` 13 sabit zincirin HEPSİNİ HESAP=C ile kur (mesaj: `cd invest && python3 -c "import sonraki;print(sonraki.mesaj('<anahtar>','C'))"`). `python3 invest/isler.py devir` açık işleri (şu an TAKIP-2311-nbis 23.11 17:10 + son TUR) HESAP=C ile yeniden kur ve trigger id'yi güncelle.
+- Otomatik paylaşım turu: 11:00-02:00 içindeysen 5 dk sonrasına kur. CUMARTESİ en fazla 20, PAZAR en fazla 10 tweet (kural 48-B); sayaç DONGU'daki o günün tweet satırlarından. 21.11 cumartesi devir anında 10/20 (18:30 turu attıysa 11). Akşam 21:00-23:00 arasında bir tur fikir taraması yapar (kural 58; Chrome bağlıysa Substack + Reddit bir kez dene).
+- EN YENİ KURALLAR (DURUM.md başı): KURAL 60 PROFESYONEL ÜSLUP (20.11 22:07; örnekler invest/taslak/uslup_60_ornekler.md — her tweet borsacı/analist diliyle, kendinden emin hüküm, terimler, doğrulanmamış genelleme yok), 59 Enes görüş profili, 58 fikir taraması, 57 İÇERİK AYARI (21.11: portföy hissesi haberi varsa öncelik; çağrı/detay tweetleri az), 56-B (takipte yalnız tutan beklenti), 54-C, 48-B.
+- Kart notları: logo yalnız `$TICKER` ile çıkar; isi kartında $'lı ticker logoları rakamın üstüne biniyor (logosuz isim kullan); spotlight alt metni kısa olsun (imzaya biniyor); siralama kullanma; son 3 düzen DONGU son AUTO satırında.
+- Açık takip notları: (1) Pazartesi NBIS'in cuma %9,4 düşüşü (capex 27 Mr $, kapasite 2027'ye kayma) tek kaynakta — doğrula, doğrulanırsa tweet adayı; (2) NVDA SEC muhasebe soruşturması gelişmeleri; (3) Şükran Günü haftası (26.11 kapalı, 27.11 yarım gün) takvim.md'ye Paz 20:00 takvim göreviyle girecek.
+- Enes'e devir mesajında: "Devraldım (C): N zincir + M tek seferlik görev kuruldu" + açık işler.
+
 # >>> 20.11.2026 14:50 EK — SOHBET DEVRİ B → B2 (ÖNCE BUNU OKU) <<<
 - Yeni sohbetin etiketi B2 (sonrakiler B3, B4 ...). Aşağıdaki "SOHBET DEVRİ" bölümünü uygula.
 - ÇİFT KURULUM KONTROLÜ YALNIZ YENİ ETİKETE GÖRE: list_triggers'ta görünen ama mesajı "HESAP=B." (eski etiket) ile başlayan görevler ESKİ SOHBETE bağlıdır; kilit B2 olunca kendilerini kapatırlar. Onları "zaten kurulu" SAYMA. Bütün sabit zincirleri (`sonraki.py hepsi`), bütün tek seferlik işleri (`isler.py devir`, durumu 'kuruldu' olanlar dahil — yeniden kur ve trigger id'yi güncelle) ve "Otomatik paylaşım turu" zincirini HESAP=B2 ile yeniden kur. Yalnız mesajı "HESAP=B2." ile başlayan bekleyen görev varsa onu tekrar kurma.
@@ -40,7 +50,7 @@ Neden gerekli: send_later zincirleri ve tek seferlik görevler KURULDUKLARI SOHB
 
 # >>> ENES İÇİN: YENİ HESAPTA SOHBETE YAPIŞTIRILACAK TEK MESAJ <<<
 ```
-enesuludg6-debug/kontra-gorsel reposunu bu sohbete PUSH yetkisiyle eklemeni onaylıyorum (add_repo access=push), klonla. invest/HESAP_DEVRI.md dosyasını oku ve baştan sona uygula; bu hesabın etiketi B. Buffer ile otomatik paylaşımı, send_later zincirini ve sabit görevleri kurmanı onaylıyorum. Bana soru sorma, eksik bir şey varsa ne yapmam gerektiğini tek cümleyle söyle.
+enesuludg6-debug/kontra-gorsel reposunu bu sohbete PUSH yetkisiyle eklemeni onaylıyorum (add_repo access=push), klonla. invest/HESAP_DEVRI.md dosyasını oku ve en üstteki 21.11 EK notuyla birlikte baştan sona uygula; bu hesabın etiketi C. Buffer ile otomatik paylaşımı, send_later zincirini ve sabit görevleri kurmanı onaylıyorum. Bana soru sorma, eksik bir şey varsa ne yapmam gerektiğini tek cümleyle söyle.
 ```
 (Etiket her geçişte değişir: A → B → C ... ; A'ya dönüşte "bu hesabın etiketi A" yaz.)
 
