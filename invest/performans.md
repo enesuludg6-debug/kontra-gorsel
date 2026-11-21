@@ -195,3 +195,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 21.11 | 11:16 | SONDAKIKA | NVDA SEC muhasebe sorusturmasi | sondakika | 6b015363d9cbb430a12e35c6 |
 | 21.11 | 12:21 | PORTFOY | NBIS Israil 134 MW Mega DC | uclu | 6b0162a8d9cbb430a13488dd |
 | 21.11 | 13:27 | SEKTOR | Haftalik sektor isi haritasi | dortlu | 6b0171f751027662451562d1 |
+| 21.11 | 14:16 | EGITICI | Ayi piyasasi nedir | editoryal | 6b017da48bd84d5966e10749 |

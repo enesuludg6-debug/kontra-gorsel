@@ -1,10 +1,5 @@
 [
 {
-"acilis": "en çok everpure",
-"kaliplar": [],
-"metin": "En çok Everpure'a şaşırdım. Beklentiyi rahat geçip rehberi üçüncü kez yükseltti ama hisse fiyatlanan hareketin yarısını bile yapmadı. Bana göre piyasa bu bilanç"
-},
-{
 "acilis": "nasdaq yine de",
 "kaliplar": [
 "\\bçünkü\\b"
@@ -306,5 +301,10 @@
 "acilis": "teknolojideki 12 5",
 "kaliplar": [],
 "metin": "Teknolojideki %12,5'lik kayıp, endeksteki ağırlığı yüzünden tüm piyasayı aşağı çekti. Ancak satışın en sert olduğu yer, rehberlerin yukarı revize edildiği yarı "
+},
+{
+"acilis": "ayı piyasası bir",
+"kaliplar": [],
+"metin": "Ayı piyasası bir tanımdır, bir tahmin değildir. Etiket manşetleri ve yatırımcı psikolojisini etkiler, şirketlerin rakamlarını değiştirmez. Hangi eşikte olursak "
 }
 ]
