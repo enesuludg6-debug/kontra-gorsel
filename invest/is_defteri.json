@@ -1630,11 +1630,24 @@
    "ne": "tur",
    "ticker": "",
    "tur": "tur",
-   "durum": "kuruldu",
-   "not": "",
+   "durum": "yapildi",
+   "not": "VRT ATLAS",
    "trigger": "trig_01NJYFfEMt5yKsLfj5Jv29HU",
    "soz": "",
-   "guncelleme": "21.11 14:17"
+   "guncelleme": "21.11 15:22"
+  },
+  {
+   "id": "TUR-1121-1715",
+   "ad": "Otomatik paylaşım turu",
+   "zaman": "2026-11-21T17:15",
+   "ne": "tur",
+   "ticker": "",
+   "tur": "tur",
+   "durum": "kuruldu",
+   "not": "",
+   "trigger": "trig_01ETfoTTz8JfvzrE4xjuco5Z",
+   "soz": "",
+   "guncelleme": "21.11 15:22"
   },
   {
    "id": "TAKIP-2311-nbis",
