@@ -197,3 +197,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 21.11 | 13:27 | SEKTOR | Haftalik sektor isi haritasi | dortlu | 6b0171f751027662451562d1 |
 | 21.11 | 14:16 | EGITICI | Ayi piyasasi nedir | editoryal | 6b017da48bd84d5966e10749 |
 | 21.11 | 15:21 | PORTFOY | VRT ATLAS Lab Nvidia | spotlight | 6b018ce4d5eabfb8cc2c016d |
+| 21.11 | 17:16 | EGITICI | Neocloud nedir | uclu | 6b01a7be8bd84d5966f3eed3 |
