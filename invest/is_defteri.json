@@ -1617,11 +1617,24 @@
    "ne": "tur",
    "ticker": "",
    "tur": "tur",
-   "durum": "kuruldu",
-   "not": "",
+   "durum": "yapildi",
+   "not": "ayi piyasasi egitim",
    "trigger": "trig_01XLsLWF7du1HGH7U6sUDgTA",
    "soz": "",
-   "guncelleme": "21.11 12:22"
+   "guncelleme": "21.11 14:17"
+  },
+  {
+   "id": "TUR-1121-1520",
+   "ad": "Otomatik paylaşım turu",
+   "zaman": "2026-11-21T15:20",
+   "ne": "tur",
+   "ticker": "",
+   "tur": "tur",
+   "durum": "kuruldu",
+   "not": "",
+   "trigger": "trig_01NJYFfEMt5yKsLfj5Jv29HU",
+   "soz": "",
+   "guncelleme": "21.11 14:17"
   },
   {
    "id": "TAKIP-2311-nbis",
