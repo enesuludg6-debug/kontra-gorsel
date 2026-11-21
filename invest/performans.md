@@ -191,3 +191,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 21.11 | 00:12 | TAKIP | Cuma kapanisi ve dort not takibi | dortlu | 6b00b7da5e993799d82c10ff |
 | 21.11 | 00:37 | BAGLAM-GORUS | NVDA dusus ve temel | grafik2 | 6b00bd7dd9cbb430a1fac617 |
 | 21.11 | 01:01 | BAGLAM-GORUS | Bitcoin 60 bin alti ETF cikisi | spotlight | 6b00c3225102766245d70fd9 |
+| 21.11 | 10:56 | HAFTALIK-OZET | 16-20 Kasim haftalik ozet | isi | 6b014ec29ffbc8503c09f1ed |
