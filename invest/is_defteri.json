@@ -1591,11 +1591,24 @@
    "ne": "cumartesi ilk tur",
    "ticker": "",
    "tur": "tur",
-   "durum": "kuruldu",
-   "not": "",
+   "durum": "yapildi",
+   "not": "NVDA SEC",
    "trigger": "trig_01K8MeTZBuBjCFosBF3s6HYG",
    "soz": "",
-   "guncelleme": "21.11 09:02"
+   "guncelleme": "21.11 11:17"
+  },
+  {
+   "id": "TUR-1121-1220",
+   "ad": "Otomatik paylaşım turu",
+   "zaman": "2026-11-21T12:20",
+   "ne": "tur",
+   "ticker": "",
+   "tur": "tur",
+   "durum": "kuruldu",
+   "not": "",
+   "trigger": "trig_01DfVnzeHLz62HL5daaQ8dXP",
+   "soz": "",
+   "guncelleme": "21.11 11:17"
   },
   {
    "id": "TAKIP-2311-nbis",
