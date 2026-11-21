@@ -1,6 +1,6 @@
 # AKTİF HESAP KİLİDİ (kesin kural 17)
 
-AKTIF: B2
+AKTIF: DURDU
 
 Etiketler:
 - A = Enes'in kendi Claude hesabı (enesuludg6). 17.11.2026'dan beri aktif.
@@ -14,3 +14,4 @@ Geçmiş:
 - 18.11.2026 01:21 A2 devraldı (sohbet devri).
 - 18.11.2026 20:26 B devraldı (hesap devri).
 - 20.11.2026 14:49 B2 devraldı (sohbet devri).
+- 21.11.2026 18:31 Enes 'durdur' dedi: B2 durduruldu (kilit DURDU). B2'nin bütün görevleri kendini kapatır. Yeni hesap (C) devri kilidi C yapar.
