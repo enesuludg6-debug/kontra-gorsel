@@ -15,6 +15,7 @@ B) ÖLÇÜ (elle "bence iyi gitti" yok; tek yol `python3 ders_analiz.py`)
 
 C) DERS EŞİĞİ VE SEVİYELER
 - GÖZLEM: herhangi bir dikkat çeken fark (DERSLER.md "Gözlemler", tarih + rakam).
+- 21.11 sabah (7 gün): en iyi skorlar RKLB grafik/haber (7.45, 4.19) ve NBIS/NVDA bilanço tweetleri; en kötüler bilanço DETAY tweetleri (PANW, WMT, TGT 0.5-0.6). Detay tweetlerini azalt, portföy hissesi grafik/haberine ağırlık ver.
 - ADAY DERS: ≥ 8 tweet, ≥ 2 farklı hafta, medyan farkı ≥ %25 (≥1,25x ya da ≤0,80x) ve iki haftada da aynı yön (`ders_analiz.py` "DERS ADAYI"). Pazar raporunda Enes'e bildirilir.
 - AKTİF DERS: aday + bir sonraki hafta da aynı yönde (toplam 3 hafta) → turlar uygular. Adet/karışım/sabit seri değiştiren dersler Enes "onay" deyince aktif olur; saat, kart, uzunluk, ifade gibi küçük dersler otomatik aktif olur ve Pazar raporunda bildirilir.
 - SAĞLAM DERS: 6+ hafta tutarlı.

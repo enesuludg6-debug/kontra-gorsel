@@ -1585,6 +1585,19 @@
    "guncelleme": "21.11 01:26"
   },
   {
+   "id": "TUR-1121-1115",
+   "ad": "Otomatik paylaşım turu",
+   "zaman": "2026-11-21T11:15",
+   "ne": "cumartesi ilk tur",
+   "ticker": "",
+   "tur": "tur",
+   "durum": "kuruldu",
+   "not": "",
+   "trigger": "trig_01K8MeTZBuBjCFosBF3s6HYG",
+   "soz": "",
+   "guncelleme": "21.11 09:02"
+  },
+  {
    "id": "TAKIP-2311-nbis",
    "ad": "Takip: NBIS teknik seviyeler",
    "zaman": "2026-11-23T17:10",
