@@ -62,6 +62,7 @@ O-010 Buffer'da sistem dışı gönderiler olabilir (Enes elle atıyor): tekrar 
 O-011 (18.11 00:24, Enes) Bilanço rakam tweeti CRWV formatından ASLA eksik çıkmaz (gelir, HBK, şirkete özgü 2-3 metrik, 'X. ÇEYREK TAHMİNİ' bölümü). Bülten açılamazsa ilk bakılacak yer Yahoo Finance canlı blogu (finance.yahoo.com/technology/live/...; aramada başlık 'Nvidia earnings live' gibi) ve CNBC; rakamlar orada dakikalar içinde çıkıyor. Bir satır tek kaynaktaysa o satır 2-3 dk içinde teyit edilip tam format atılır; formatı bozan 'yıllık büyüme' gibi yedek satır konmaz.
 
 ## Gözlemler (doğrulanmayı bekleyen, tarih + kanıt)
+- 21.11 perfogren (7 gün, 300 olgun, med 342): 20.11 medyan 387 (19.11 284). Tür: portfoy n=9 med 1223; vadeli 494; haber 397; teknik 393; bilanco 336; çağrı 257; detay 243; bilanco-detay 221. Enes elle med 604 vs sistem 330. Düzenlerde fark eşiği geçen yok (hepsi 1 hafta).
 - 21.11 sabah (7 gün): en iyi skorlar RKLB grafik/haber (7.45, 4.19) ve NBIS/NVDA bilanço tweetleri; en kötüler bilanço DETAY tweetleri (PANW, WMT, TGT 0.5-0.6). Detay tweetlerini azalt, portföy hissesi grafik/haberine ağırlık ver.
 - 19.11: 18.11'de 46 tweet, ort. 113 görüntülenme (16.11 78 tweette de düşük); en iyiler kapanış özeti (818) ve büyük isim analizi (NVDA 563). Gece detay tweetleri henüz ölçülmedi.
 - 18.11 (ders_analiz --gun 7): 'görüş: evet' işaretli 9 tweet göreli 0,77 (genel 1,00) ve ER 1,57 vs 1,82; analiz 'DERS ADAYI' dedi ama 9 tweetin çoğu 17.11 gece (az ölçüm) — 3. hafta ve 12+ saat ölçümüyle yeniden bakılacak, görüşlü tweet kuralı (25) değişmez.

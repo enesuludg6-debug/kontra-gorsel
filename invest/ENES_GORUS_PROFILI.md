@@ -22,6 +22,7 @@ Kaynak: Enes'in kendi attığı tweetler (Buffer via=network) + portföyü + soh
 - Kural 50-B (her seferinde farklı anlatım), 52 (okuma kalıbı yok), 54 (yapay denge cümlesi yok) aynen.
 
 ## Gözlemler
+- 20.11: "diplere yakın olduğumuzu düşünüyorum ama tereddüt ve sorumluluk hissediyorum" (temkinli dip yorumu, okura sorumluluk vurgusu); NDX için "dibe yaklaşıyoruz ama dip daha gelmedi"; NVDA drawdown grafiği (geçmişte %25-35 düşüşlerden çıktı, şu an -%41) ile toparlanma tezi; "$AVGO diğer hisselere kıyasla çok güçlü"; CBRS'nin -%5'ten +%5'e dönüşünü paylaştı; YZ dışı büyük haber de atıyor (UnitedHealth-CMS davası).
 - 20.11 ilk sürüm (Enes'in 15-20.11 tweetleri + portföy).
 
 ## !!! KURAL 54-B (Enes 20.11 11:08: "Ben panik yapmıyorum ifadesi çok yapay zeka gibi"): "panik yapmıyorum / panik yok / sakin kalıyorum / soğukkanlı / büyük resim / gürültüye kulak asmıyorum / duygusal davranmıyorum / uzun vadeli düşünüyorum" gibi KENDİ RUH HALİNİ ANLATAN klişe cümleler YASAK (yasak.py'ye eklendi). Görüş duygu durumu değil, somut bir şeyle söylenir: ne yapacağım ya da neye bakacağım + somut gerekçe/rakam (ör. "Bu fiyatlardan satacak bir şey görmüyorum, Keysight'ın siparişleri hâlâ büyüyor").
