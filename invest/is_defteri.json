@@ -1643,11 +1643,24 @@
    "ne": "tur",
    "ticker": "",
    "tur": "tur",
-   "durum": "kuruldu",
-   "not": "",
+   "durum": "yapildi",
+   "not": "neocloud egitim",
    "trigger": "trig_01ETfoTTz8JfvzrE4xjuco5Z",
    "soz": "",
-   "guncelleme": "21.11 15:22"
+   "guncelleme": "21.11 17:16"
+  },
+  {
+   "id": "TUR-1121-1830",
+   "ad": "Otomatik paylaşım turu",
+   "zaman": "2026-11-21T18:30",
+   "ne": "tur",
+   "ticker": "",
+   "tur": "tur",
+   "durum": "kuruldu",
+   "not": "",
+   "trigger": "trig_018DC1LSeZ7iXd7PJJZtvXP1",
+   "soz": "",
+   "guncelleme": "21.11 17:16"
   },
   {
    "id": "TAKIP-2311-nbis",
