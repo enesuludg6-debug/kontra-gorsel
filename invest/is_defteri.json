@@ -1604,11 +1604,24 @@
    "ne": "tur",
    "ticker": "",
    "tur": "tur",
-   "durum": "kuruldu",
-   "not": "",
+   "durum": "yapildi",
+   "not": "NBIS Israil",
    "trigger": "trig_01DfVnzeHLz62HL5daaQ8dXP",
    "soz": "",
-   "guncelleme": "21.11 11:17"
+   "guncelleme": "21.11 12:22"
+  },
+  {
+   "id": "TUR-1121-1415",
+   "ad": "Otomatik paylaşım turu",
+   "zaman": "2026-11-21T14:15",
+   "ne": "tur",
+   "ticker": "",
+   "tur": "tur",
+   "durum": "kuruldu",
+   "not": "",
+   "trigger": "trig_01XLsLWF7du1HGH7U6sUDgTA",
+   "soz": "",
+   "guncelleme": "21.11 12:22"
   },
   {
    "id": "TAKIP-2311-nbis",
