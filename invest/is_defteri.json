@@ -1669,11 +1669,11 @@
    "ne": "NBIS kademe takibi",
    "ticker": "",
    "tur": "tek",
-   "durum": "kuruldu",
-   "not": "C devri: 20:10 ilk tura eklendi (sistem 17:10'da duruyordu)",
+   "durum": "yapildi",
+   "not": "20:18 tweeti: NBIS kazancin ~2/3'unu korudu; capex 2027 40-45 Mr$ ve on odeme %75-85 (3 kaynak). Cuma -%9,4 dogrulanamadi (Yahoo cuma -16,1) yazilmadi.",
    "trigger": "trig_011hdikxa2Ke2xM2TGfBFfkz",
    "soz": "",
-   "guncelleme": "23.11 20:04"
+   "guncelleme": "23.11 20:18"
   },
   {
    "id": "TUR-2311-2010",
@@ -1682,11 +1682,24 @@
    "ne": "tur",
    "ticker": "",
    "tur": "tur",
-   "durum": "kuruldu",
+   "durum": "yapildi",
    "not": "",
    "trigger": "trig_011hdikxa2Ke2xM2TGfBFfkz",
    "soz": "",
-   "guncelleme": "23.11 20:04"
+   "guncelleme": "23.11 20:18"
+  },
+  {
+   "id": "TUR-2311-2100",
+   "ad": "Otomatik paylaşım turu",
+   "zaman": "2026-11-23T21:00",
+   "ne": "tur",
+   "ticker": "",
+   "tur": "tur",
+   "durum": "kuruldu",
+   "not": "",
+   "trigger": "trig_01KT85NUmRbmuijkiPFzjHgr",
+   "soz": "",
+   "guncelleme": "23.11 20:18"
   }
  ]
 }
