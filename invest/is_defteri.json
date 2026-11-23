@@ -1700,6 +1700,19 @@
    "trigger": "trig_01KT85NUmRbmuijkiPFzjHgr",
    "soz": "",
    "guncelleme": "23.11 20:37"
+  },
+  {
+   "id": "TUR-2311-2100",
+   "ad": "Otomatik paylaşım turu",
+   "zaman": "2026-11-23T21:00",
+   "ne": "tur",
+   "ticker": "",
+   "tur": "tur",
+   "durum": "kuruldu",
+   "not": "",
+   "trigger": "trig_01SrpHx1WpDYh9w6jgfLQdAp",
+   "soz": "",
+   "guncelleme": "23.11 20:39"
   }
  ]
 }

@@ -199,3 +199,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 21.11 | 15:21 | PORTFOY | VRT ATLAS Lab Nvidia | spotlight | 6b018ce4d5eabfb8cc2c016d |
 | 21.11 | 17:16 | EGITICI | Neocloud nedir | uclu | 6b01a7be8bd84d5966f3eed3 |
 | 23.11 | 20:18 | PORTFOY | NBIS neocloud korunan kazanc | grafik2 | 6b04754b827feee79c10a65f |
+| 23.11 | 20:37 | PORTFOY | AVGO Kuo TPU kesintisi | dortlu | 6b0479bcff0a846b7faca7a9 |
