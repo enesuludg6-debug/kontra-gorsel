@@ -1,3 +1,5 @@
+C AKTİF (23.11 20:05) — hesap devri tamam; görev ID listesi DONGU 23.11 20:05 satırında.
+
 
 ## !!! KESİN KURAL 48-B (Enes 20.11 12:43: "artık cumartesi alt sınır olmadan en fazla 20 tweet atılacak, pazar alt sınırı olmadan en fazla on tweet atılacak"): Günlük tweet sayısı: Pazartesi-Cuma en az 30 en çok 50 (aynen). CUMARTESİ: alt sınır YOK, EN FAZLA 20. PAZAR: alt sınır YOK, EN FAZLA 10. Cumartesi/Pazar turları sayaç doluysa (20/10) tweet atmaz; "tur boş geçmez" (kural 55) ve fikir kotası alt sınırı (kural 58: en az 3) hafta sonu UYGULANMAZ, fikir tweetleri de bu tavanların içinde. Turlar DONGU'daki o günün tweet satırlarını sayar. Kural 48'deki "Pzt-Cmt 30-50" ifadesi bu kuralla değişti.
 

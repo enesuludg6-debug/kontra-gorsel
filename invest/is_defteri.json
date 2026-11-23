@@ -1670,10 +1670,23 @@
    "ticker": "",
    "tur": "tek",
    "durum": "kuruldu",
-   "not": "",
-   "trigger": "trig_014vA7yv8gRCSJD9Qjdb4bPJ",
+   "not": "C devri: 20:10 ilk tura eklendi (sistem 17:10'da duruyordu)",
+   "trigger": "trig_011hdikxa2Ke2xM2TGfBFfkz",
    "soz": "",
-   "guncelleme": "20.11 14:53"
+   "guncelleme": "23.11 20:04"
+  },
+  {
+   "id": "TUR-2311-2010",
+   "ad": "Otomatik paylaşım turu",
+   "zaman": "2026-11-23T20:10",
+   "ne": "tur",
+   "ticker": "",
+   "tur": "tur",
+   "durum": "kuruldu",
+   "not": "",
+   "trigger": "trig_011hdikxa2Ke2xM2TGfBFfkz",
+   "soz": "",
+   "guncelleme": "23.11 20:04"
   }
  ]
 }
