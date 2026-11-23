@@ -1,32 +1,44 @@
 [
 {
+"jargon": {
+"fiyatlama": 2,
+"denklem": 1,
+"belirsizlik": 1
+},
 "tarih": [],
 "terim": [],
 "acilis": "nbis açılışta 35 yukarıdaydı",
 "kapanis": "nebius ta yönü ön",
 "rekor": 0,
 "tur": "PORTFOY",
-"zaman": "23.11 20:18",
+"zaman": "23.11 20:40",
 "uzunluk": 651
 },
 {
+"jargon": {
+"ayrışma": 1
+},
 "tarih": [],
 "terim": [],
 "acilis": "avgo bugün yalnız 1",
 "kapanis": "burada talep düşüşü görmüyorum",
 "rekor": 0,
 "tur": "PORTFOY",
-"zaman": "23.11 20:37",
+"zaman": "23.11 20:40",
 "uzunluk": 699
 },
 {
+"jargon": {
+"fiyatlama": 1,
+"iskonto": 2
+},
 "tarih": [],
 "terim": [],
 "acilis": "nvda bugünkü 33 lük",
 "kapanis": "aradaki farkı bu açık",
 "rekor": 0,
-"tur": "BAGLAM-GORUS",
-"zaman": "23.11 20:39",
+"tur": "PORTFOY",
+"zaman": "23.11 20:40",
 "uzunluk": 549
 }
 ]

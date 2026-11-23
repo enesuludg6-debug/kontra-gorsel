@@ -56,6 +56,22 @@ TERIM = ['capex', 'sermaye harcaması', 'katalizör', 'konsensüs', 'çarpan dar
          'açık pozisyon', 'mikro yapı', 'sipariş defteri', 'sipariş görünürlüğü', 'büyümenin kalitesi', 'ivmelenme',
          'rehber revizyonu', 'risk azaltımı', 'durasyon', 'duration', 'reel faiz', 'terminal faiz', 'bilanço daralması',
          'operasyonel kaldıraç', 'birim ekonomisi', 'nakit yakımı', 'sulandırma', 'hisse geri alımı']
+# KURAL 62 (Enes 23.11 20:40: "çok fazla fiyatlandı iskonto ve bunun gibi kelimeler kullanıyorsun, bunları bu kadar sık kullanmanı istemiyorum"):
+# piyasa jargonu aileleri. Her aile tweet başına en çok 1 kez, son 6 tweette geçtiyse HATA; bir tweette en çok 1 aile.
+JARGON = {
+    'fiyatlama': r'fiyatla(n|m|d|y)\w*|fiyatlıyor\w*|fiyattan (çık|düş)\w*|fiyata (yansı|gir)\w*|fiyatına (yansı|gir)\w*',
+    'iskonto': r'iskonto\w*',
+    'prim': r'\bprim(i|ini|le|li)?\b|risk primi',
+    'denklem': r'denklem\w*',
+    'çarpan': r'çarpan\w*',
+    'katalizör': r'katalizör\w*',
+    'pozisyonlanma': r'pozisyon(lanma|lar|ların|ları)?\w*',
+    'konsensüs': r'konsensüs\w*',
+    'iştah': r'iştah\w*',
+    'kâr satışı': r'kâr (satış|realiz)\w*|kar satış\w*',
+    'belirsizlik': r'belirsizli\w*',
+    'ayrışma': r'ayrış\w*',
+}
 # Bilanço tweetinde makro/kripto bağlantısı ve kripto tweetinde tahvil bağlantısı: zorlama riski
 ZORLA = {
     'BILANCO': [r'\bfed\b', r'faiz', r'tahvil', r'bitcoin', r'kripto', r'dolar endeksi', r'\bdxy\b'],
@@ -79,7 +95,9 @@ def ozellik(t):
         if re.search(k, l): tarih.add(y)
     terim = sorted({k for k in TERIM if re.search(r'(?<!\w)' + re.escape(k) + r'(?!\w)', l)})
     ps = paragraflar(t)
+    jar = {k: len(re.findall(v, l)) for k, v in JARGON.items()}
     return {
+        'jargon': {k: n for k, n in jar.items() if n},
         'tarih': sorted(tarih), 'terim': terim,
         'acilis': kelime(ps[0], 4) if ps else '', 'kapanis': kelime(ps[-1], 4) if ps else '',
         'rekor': len(re.findall(REKOR, l)),
@@ -146,6 +164,14 @@ def main():
     if grup:
         zz = [re.search(k, l).group(0) for k in ZORLA[grup] if re.search(k, l)]
         if zz: uyari.append(f'{tur} tweetinde {zz}: bu bağlantı şirketin/konunun rakamlarına doğrudan etki ediyor mu? Etmiyorsa sil.')
+    # 7b) KURAL 62 piyasa jargonu sıklığı
+    jg = f['jargon']
+    for k, n in jg.items():
+        if n > 1: hata.append(f'kural 62: "{k}" ailesi bu tweette {n} kez: en çok 1, gerekirse hiç kullanma, düz anlat.')
+        son6 = [x for x in d[-6:] if k in x.get('jargon', {})]
+        if son6: hata.append(f'kural 62: "{k}" ailesi son 6 tweette {len(son6)} kez geçti: bu tweette kullanma, ne olduğunu düz cümleyle söyle.')
+    if len(jg) > 1:
+        hata.append(f'kural 62: bir tweette birden fazla piyasa jargonu {sorted(jg)}: en çok 1.')
     # 8) Tekrar (bölüm 8): son tweetlerle aynı tarihsel örnek / açılış / kapanış / terim seti
     son15, son30 = d[-15:], d[-30:]
     for y in f['tarih']:

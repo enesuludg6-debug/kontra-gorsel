@@ -141,6 +141,10 @@ Herhangi birine "hayır" cevabı çıkarsa metin yeniden yazılır; en fazla 2 k
 | Tutmayan tahminin anılması | "Dün yazdığım seviye kırıldı" | Kural 56-B: yalnız tutanlar yazılır |
 | Al/sat tavsiyesine kayma | "Bu fiyattan alım fırsatı" | Kendi tavrı ya da gözlem olarak yazılır; okura emir kipi kullanılmaz |
 
+## 6b. KURAL 62 — piyasa jargonu sıklığı (Enes 23.11 20:40)
+
+Enes "fiyatlandı", "iskonto" ve benzeri kelimelerin çok sık kullanılmasını istemiyor. Aileler: fiyatlama (fiyatlandı/fiyatlanmış/fiyatlıyor/fiyattan çıkardı/fiyata yansıdı), iskonto, prim/risk primi, denklem, çarpan, katalizör, pozisyonlanma, konsensüs, iştah, kâr satışı, belirsizlik, ayrışma. Bir tweette en çok 1 aile ve o da 1 kez; son 6 tweette geçen aile kullanılmaz. Yerine ne olduğu düz cümleyle söylenir. `kalite.py` bunu HATA olarak yakalar. Kural 60'taki terim listesi bu kuralla sınırlıdır.
+
 ## 7. Kayıt ve öğrenme
 
 - Her tweetten sonra `kalite.py kaydet` çalıştırılır. DONGU satırına, varsa, "kalite: ..." gerekçeleri eklenir.
