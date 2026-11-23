@@ -92,10 +92,10 @@ Bilinen çakışmalar ve çözümleri:
 **A. Mekanik kontroller.** Üçü de çalıştırılır:
 - `python3 invest/yasak.py` → çıkış 1 ise ATMA.
 - `python3 invest/gorus.py kontrol` → çıkış 1 ise yeniden yaz.
-- `python3 invest/kalite.py kontrol --tur <TÜR> < metin`:
+- `python3 invest/kalite.py kontrol --tur <TÜR> --kalip <X veya X+Y> < metin`:
   - Çıkış 1 = HATA: atma, düzelt, tekrar çalıştır.
   - Çıkış 2 = UYARI: atılabilir, ama her uyarı için DONGU satırına "kalite: <uyarı> -> <tek cümle gerekçe>" yazılır. Gerekçe yazılamıyorsa düzelt.
-  - Atıldıktan sonra `python3 invest/kalite.py kaydet --tur <TÜR> < metin` çalıştırılır (tekrar takibi bu kayda dayanır).
+  - Atıldıktan sonra `python3 invest/kalite.py kaydet --tur <TÜR> --kalip <X> < metin` çalıştırılır (tekrar takibi bu kayda dayanır).
 
 **B. Düşünme kontrolü.** Asıl metnin 9 sorusu kafada tek tek cevaplanır; tweete yazılmaz:
 1. Gerçekten yeni ya da değerli bir bilgi sunuyor mu?
@@ -151,11 +151,14 @@ Enes "fiyatlandı", "iskonto" ve benzeri kelimelerin çok sık kullanılmasını
 - 10:15 perfogren görevi uzunluk ile görüntülenme ilişkisine bakar. Tavanlar ancak veri gösterirse DERSLER.md'de önerilir ve Enes onaylarsa değiştirilir (kalite.py SINIR). Asıl metin hiçbir zaman değiştirilmez.
 - Kural değişirse hem bu skill (improvement) hem `invest/skills/enes-analiz-kalitesi.md` kopyası güncellenir.
 
-## 8. KURAL 63 — Derinlik kalıpları, sade anlatım (Enes 23.11 20:44)
+## 8. KURAL 63 — Derinlik kalıpları (Enes 23.11 20:44-21:19)
 
-Enes'in isteği: "bizim tweet'lerimiz de bu kadar detaylı bu kadar profesyonel olmalı ama bunun biraz daha kolay anlaşılır hali olmalı." Referans, Enes'in beğendiği ve derin piyasa mekanizması bilen bir finans hesabı: rakamla konuşuyor, mekanizmayı adım adım kuruyor, kendi değer hesabını yapıyor. Hedefimiz o derinlik, ama ABD borsasını az bilen okurun anlayacağı dille. Referans hesabın metni kopyalanmaz; argosu, hakaretleri ve kaba şakaları alınmaz (kural 60 profesyonel üslup).
+Enes'in isteği (20:44): "bizim tweet'lerimiz de bu kadar detaylı bu kadar profesyonel olmalı ama bunun biraz daha kolay anlaşılır hali olmalı." Referans, Enes'in beğendiği ve derin piyasa mekanizması bilen bir finans hesabı: rakamla konuşuyor, mekanizmayı adım adım kuruyor, kendi değer hesabını yapıyor. Hedef o derinlik, ama ABD borsasını az bilen okurun anlayacağı dille. Referans hesabın metni kopyalanmaz; argosu, hakaretleri ve kaba şakaları alınmaz.
 
-**Alınacak 6 kalıp.** Her tweette konuya en uygun BİR kalıp kullanılır; hepsi aynı anda kullanılmaz (kural 61 bölüm 8, çeşitlilik):
+### 8.1 Kalıplar (14 analiz açısı)
+Her tweet bir birincil kalıpla (gerekirse ikincil bir kalıpla birlikte) yazılır. Kalıp cümle şablonu değil, analiz açısıdır.
+
+Referans hesaptan çıkarılan 6 kalıp:
 - **A. Adım adım mekanizma zinciri.** 3-5 kısa adımla, her adımın bir sonrakini doğurduğunu göster. Örnek iskelet: "Borçla pozisyon taşıyan fonların varlığı düştü. Aynı borçla taşıyabilecekleri pozisyon küçüldü. Zorunlu satış geldi. İşlem hacmi düşük hisselerde düşüş büyüdü." Her adım ya kaynaklı bir olgudur ya da "bence" ile kurulmuş bir çıkarım.
 - **B. "O zaman / şimdi" farkı.** Geçmişteki benzer toparlanmayı ya da düşüşü hangi somut mekanizmanın desteklediğini söyle, sonra bugün o mekanizmanın var olup olmadığını söyle. Kural 61 bölüm 1 adım 5'teki tarihsel karşılaştırma testi aynen geçerli.
 - **C. Koşullu eşik.** "Endeks X'in altına inerse şu mekanizma devreye girer; Y olursa tablo tersine döner." Eşik ve tetikleyici rakam 2 kaynaklı olmalı. Opsiyon ya da pozisyon verisi kaynak olmadan YAZILMAZ.
@@ -163,6 +166,41 @@ Enes'in isteği: "bizim tweet'lerimiz de bu kadar detaylı bu kadar profesyonel 
 - **E. Tek kavram dersi.** Olaydan genel bir kural çıkar ve tek cümleyle söyle. Örnek: "Endeksin oynaklığını hisselerin ne kadar oynadığı değil, aynı anda aynı yöne ne kadar oynadığı belirler."
 - **F. Hareketi normalleştirmek.** Küçük ve nakit yakan şirketlerde iki yönlü sert hareketin olağan olduğunu okura anlat. Al/sat önerisi verilmez.
 
+Profesyonel bakış açılarından 8 ek kalıp (Enes 21:14: "sadece o tweet'lerden yararlanma, daha da profesyonel bakış açıları ekleyebilirsin"). Bunlar bir yatırım fonu analistinin bir habere bakarken sorduğu sorulardır:
+- **G. Beklenti farkı.** Hisse rakama değil beklentiye tepki verir. Beklenen ve gelen rakam yan yana yazılır, fiyat tepkisi bu farkla açıklanır. Örnek iskelet: "Beklenti gelirde 1,55 milyar dolardı, 1,58 milyar dolar geldi. Hisse yine de %10 düştü; çıta açıklanan rakamdan yüksekti." Beklenti 2 kaynaklı, "çıta" yorumu görüş olarak.
+- **H. Birim ekonomisi.** Büyük rakamı tek birime indir: müşteri başına gelir, MW başına gelir, fırlatma başına fiyat, GPU saati fiyatı, abone başına harcama. Okur büyüklüğü ancak böyle kavrar. Örnek iskelet: "Bu sözleşme MW başına yıllık X milyon dolar demek; şirketin mevcut ortalamasının Y katı."
+- **I. Nakit ve sermaye izi.** Kâr ile nakit aynı şey değildir. Serbest nakit akışı, yatırım harcamasının gelire oranı, borç, hisse sayısındaki artış (seyrelme) ya da geri alım rakamla yazılır. Örnek iskelet: "Şirket çeyrekte X milyon dolar kâr açıkladı ama Y milyon dolar nakit yaktı; fark stokta biriken üründen geliyor."
+- **J. Değer zinciri.** Bir şirketin haberi başka şirketlerin gelirine dönüşür: hiperölçekli bulutun yatırım harcaması → çip → bellek → ağ → güç ve soğutma. "Kimin harcaması kimin geliri" sorusuyla en az iki şirketi bağla. Örnek iskelet: "$MSFT'nin yatırım harcamasındaki her artışın bir kısmı $VRT'nin soğutma siparişine dönüşüyor."
+- **K. Tersine hesap.** Hedef fiyat vermeden, bugünkü fiyatın haklı çıkması için neyin olması gerektiğini hesapla. Örnek iskelet: "Bugünkü piyasa değerinin bugünkü satış katında kalması için gelirin 3 yılda X katına çıkması gerekiyor; şirketin rehberi Y diyor." Hesap DONGU'ya "kendi hesabım".
+- **L. Akran kıyası.** Aynı ölçüyle en az iki şirket: satışın kaç katı, büyüme hızı, brüt marj. "Ucuz/pahalı" hükmü değil, farkın nedeni anlatılır. Örnek iskelet: "$CRWV satışlarının X katından, $NBIS Y katından işlem görüyor; aradaki fark büyüme hızından değil borç yükünden."
+- **M. Tetikleyici takvimi.** Önümüzdeki somut tarih ve o tarihte bakılacak TEK rakam. Örnek iskelet: "17 Aralık'taki bilançoda sözleşmelerin fiyat koşulu netleşecek; fiyat sabitse bugünkü kâr kalıcı demektir."
+- **N. Kırılma noktası.** Tezi bozacak tek şey ve bugün ona ne kadar uzak olduğumuz, rakamla. Örnek iskelet: "Şirketin elinde X milyon dolar nakit var, çeyrekte Y milyon dolar yakıyor; bu nakit yaklaşık Z çeyrek yeter. Tezi bozacak şey yeni hisse ihracı olur."
+
+Bütün kalıplar hedef fiyat yasağına, 2 kaynak kuralına, kural 62, 64, 64-B, 54-D ve kural 11'e (iki noktalı etiket yok) tabidir. Kalıptaki rakamlar ya 2 kaynaklıdır ya da 2 kaynaklı girdilerden yapılmış "kendi hesabım"dır (DONGU'ya yazılır).
+
+**Konu eşleştirmesi:**
+- Bilanço: G (beklenti farkı), I (nakit), M (sonraki tarih), D/K (değer).
+- Sözleşme/anlaşma haberi: H (birim ekonomisi), J (değer zinciri).
+- Birleşme/satın alma: D (birleşme farkı: teklif oranı × alıcının fiyatı ile hedefin fiyatı arasındaki fark), I (seyrelme).
+- Sert yükseliş ya da düşüş: K (tersine hesap), B (o zaman/şimdi), F (normalleştirme), A (çok nedenli satışın zinciri).
+- Piyasa stresi ve oynaklık: C (eşik), A (zincir), oynaklık vade eğrisi (kural 65).
+- Küçük/nakit yakan şirket: N (kırılma noktası), D (piyasa değeri - nakit).
+- Sektör/rotasyon: L (akran kıyası), J.
+- Takvim/veri haftası: M (+C).
+- Eğitici: E.
+
+### 8.2 Zorunluluk ve görünürlük (63-B, Enes 21:11 "çoğunun etkisini göremiyorum, görmek istiyorum")
+- Her tweet `kalite.py kontrol --tur <TÜR> --kalip <X veya X+Y>` ile kontrol edilir (A-N). Kalıbın izi metinde yoksa HATA. VADELI, BEKLENTI, BILANCO-RAKAM, KEYLEVELS ve Enes'in kendi metinleri muaf.
+- En az 2 doğrulanmış rakam.
+- Görünür farkın işaretleri (her tweette en az 3'ü): hesap kuran ya da çerçeve çizen ilk cümle; en az bir kendi hesabımız (kârın kaç katı, piyasa değeri eksi nakit, zirveden uzaklık, korunan kazanç payı, birleşme farkı); kısa satırlarla mekanizma; koşullu sonuç ("... olursa X, olmazsa Y"); gerekirse izlenecek tek somut şey (64-B sınırına tabi, zorunlu değil).
+- Önce/sonra örneği: `invest/taslak/derinlik_63_ornekler.md`.
+
+### 8.3 Çeşitlilik (63-D, Enes 21:19 "sadece 14 tane olması 14 tweet'te bir kalıbın tekrarlanması demek değil mi")
+- Birincil kalıp son 4 tweette tekrar etmez. İki kalıp birleştirilebilir (`--kalip D+J`); aynı ikili son 12 tweette tekrar etmez.
+- YAPI İMZASI (paragraf sayısı, kısa satır ya da düz yazı, uzunluk bandı, açılış türü) son 3 tweetten biriyle aynı olamaz (kalite.py HATA). 23.11 ölçümü: kuraldan önceki 5 tweetin 4'ü aynı yapıdaydı.
+- Biçimler döndürülür: tek güçlü paragraf; kısa satırlı zincir; rakam satırları + tek hüküm cümlesi; iki kısa paragraf; uzun derin analiz.
+
+### 8.4 Sadeleştirme ve uzunluk
 **Sadeleştirme kuralları (anlaşılır hâli):**
 - Her teknik kavram ilk geçtiği yerde gündelik Türkçeyle anlatılır. Örnek: "piyasa yapıcılar (alım-satım emirlerini karşılayan büyük kurumlar) riskten korunmak için vadeli satıyor."
 - Ham İngilizce opsiyon ve fon jargonu tweete YAZILMAZ: vanna, vega, gamma, delta hedge, IV, ATM/OTM/ITM, skew, NAV, deleverage, squeeze, roll, collar, catch-up trade, feedback loop, hedge. Yerine kavramın ne yaptığı anlatılır. `kalite.py` bunları HATA olarak yakalar.
@@ -171,39 +209,45 @@ Enes'in isteği: "bizim tweet'lerimiz de bu kadar detaylı bu kadar profesyonel 
 - Kural 62 (jargon sıklığı), kural 54-C (mecaz yasağı) ve kural 61 hiyerarşisi aynen geçerli.
 - Referans hesapta görülen ama ALINMAYACAK olanlar: doğrulanmamış olasılık tahminleri ("kaynak: ben + yapay zekâ" türü), kişisel işlem stratejileri (takvim yayılımı gibi), okura işlem önerisi, kendi pozisyon geçmişini anlatmak (Enes açıkça istemedikçe).
 
-**Uzunluk:** Bu kalıplar alan ister. Bunun için yeni bir tür var: `DERIN-ANALIZ`. Tavanı 1.200 karakter, günde en fazla 2 kez kullanılır ve `kalite.py` sayar. Diğer türlerde tavanlar değişmez; kalıplar kısa hâlleriyle kullanılır (bir zincir 2-3 adımla, bir eşik tek cümleyle).
+- `DERIN-ANALIZ` türü: tavan 1.200 karakter, günde en fazla 2 (kalite.py sayar). Diğer türlerin tavanları değişmez; kalıplar kısa hâlleriyle kullanılır.
 
-**63-B Zorunluluk (Enes 23.11 21:11 "çoğunun etkisini göremiyorum, görmek istiyorum"):** Her tweet `kalite.py kontrol --tur <TÜR> --kalip <A-N>` ile kontrol edilir; kalıbın izi metinde yoksa HATA, aynı kalıp üst üste 3 kez olmaz, en az 2 doğrulanmış rakam gerekir (VADELI, BEKLENTI, BILANCO-RAKAM, KEYLEVELS ve Enes'in kendi metinleri muaf). Görünür farkın 5 işareti: hesap kuran ilk cümle; en az bir kendi hesabımız (kârın kaç katı, piyasa değeri eksi nakit, zirveden uzaklık, korunan kazanç payı); kısa satırlarla mekanizma; koşullu sonuç; bakılacak tek somut kalem. Önce/sonra örneği `invest/taslak/derinlik_63_ornekler.md`.
+## 9. Dil kuralları (Enes 23.11 21:31-22:07)
 
-**Profesyonel bakış açılarından 8 ek kalıp (Enes 23.11 21:14: "sadece o tweet'lerden yararlanma, daha da profesyonel bakış açıları ekleyebilirsin").** Bunlar bir yatırım fonu analistinin bir habere bakarken sorduğu sorulardır; her biri sade dille, rakamla yazılır:
-- **G. Beklenti farkı.** Hisse rakama değil beklentiye tepki verir. Beklenen ve gelen rakam yan yana yazılır, fiyat tepkisi bu farkla açıklanır. Örnek iskelet: "Beklenti gelirde 1,55 milyar dolardı, 1,58 milyar dolar geldi. Hisse yine de %10 düştü; çıta açıklanan rakamdan yüksekti." Beklenti 2 kaynaklı, "çıta" yorumu görüş olarak.
-- **H. Birim ekonomisi.** Büyük rakamı tek birime indir: müşteri başına gelir, MW başına gelir, fırlatma başına fiyat, GPU saati fiyatı, abone başına harcama. Okur büyüklüğü ancak böyle kavrar. Örnek iskelet: "Bu sözleşme MW başına yıllık X milyon dolar demek; şirketin mevcut ortalamasının Y katı."
-- **I. Nakit ve sermaye izi.** Kâr ile nakit aynı şey değildir. Serbest nakit akışı, yatırım harcamasının gelire oranı, borç, hisse sayısındaki artış (seyrelme) ya da geri alım rakamla yazılır. Örnek iskelet: "Şirket çeyrekte X milyon dolar kâr açıkladı ama Y milyon dolar nakit yaktı; fark stokta biriken üründen geliyor."
-- **J. Değer zinciri.** Bir şirketin haberi başka şirketlerin gelirine dönüşür: hiperölçekli bulutun yatırım harcaması → çip → bellek → ağ → güç ve soğutma. "Kimin harcaması kimin geliri" sorusuyla en az iki şirketi bağla. Örnek iskelet: "$MSFT'nin yatırım harcamasındaki her artışın bir kısmı $VRT'nin soğutma siparişine dönüşüyor."
-- **K. Tersine hesap.** Hedef fiyat vermeden, bugünkü fiyatın haklı çıkması için neyin olması gerektiğini hesapla. Örnek iskelet: "Bugünkü piyasa değerinin bugünkü satış katında kalması için gelirin 3 yılda X katına çıkması gerekiyor; şirketin rehberi Y diyor." Hesap DONGU'ya "kendi hesabım".
-- **L. Akran kıyası.** Aynı ölçüyle en az iki şirket: satışın kaç katı, büyüme hızı, brüt marj. "Ucuz/pahalı" hükmü değil, farkın nedeni anlatılır. Örnek iskelet: "$CRWV satışlarının X katından, $NBIS Y katından işlem görüyor; aradaki fark büyüme hızından değil borç yükünden."
-- **M. Tetikleyici takvimi.** Önümüzdeki somut tarih ve o tarihte bakılacak TEK rakam. Örnek iskelet: "17 Aralık'taki bilançoda bakacağım tek satır sözleşmelerin fiyat koşulu."
-- **N. Kırılma noktası.** Tezi bozacak tek şey ve bugün ona ne kadar uzak olduğumuz, rakamla. Örnek iskelet: "Şirketin elinde X milyon dolar nakit var, çeyrekte Y milyon dolar yakıyor; bu nakit yaklaşık Z çeyrek yeter. Tezi bozacak şey yeni hisse ihracı olur."
+### 9.1 KURAL 64 — Konuşma dili (21:31: "bilançoda ilk bakacağım satır bu yazmaktan ziyade ben bilançolarda ilk bunu kontrol edeceğim mesela bu tarz şeyler daha konuşma diliyle oluyor")
+- Analiz derin olur ama cümleler Enes konuşuyormuş gibi kurulur; rapor ya da analist notu dili kullanılmaz.
+- YASAK rapor kalıpları (yasak.py): "bakacağım tek ...", "ilk bakacağım satır", "bakacağım satır", "izlenecek (tek) kalem", "bakılacak tek kalem/rakam", "takip edilecek tek ...".
+- Gerekirse öznesi "ben" olan doğal cümle: "Ben bilançoda ilk bunu kontrol edeceğim." Ama bu tür cümleler 64-B sınırına tabidir.
 
-Bu kalıplar da hedef fiyat yasağına, 2 kaynak kuralına, kural 62 (jargon sıklığı) ve kural 11'e (iki noktalı etiket yok) tabidir. `kalite.py --kalip` A-N harflerini tanır ve her birinin izini metinde arar.
+### 9.2 KURAL 64-B — İzleme kapanışı sınırı (22:03: "ben en çok şunu takip edeceğim, benim için önemlisi, en yakından izleyeceğim bunları çok sık kullanıyorsun")
+- "takip edeceğim / izleyeceğim / merak ediyorum / bakacağım / kontrol edeceğim / benim için (asıl) önemlisi / en yakından / ilk bakarım / odaklanacağım" ailesi tweet başına en çok 1 kez; son 5 tweette geçtiyse hiç kullanılmaz (kalite.py HATA).
+- Tweet "ben şunu izleyeceğim" ile BİTMEZ; verinin vardığı SONUÇLA biter. Örnek: "Eğri normale dönmeden bugünkü yükselişi kalıcı bir dip saymak erken."
 
-**63-D Çeşitlilik (Enes 23.11 21:19: "sadece 14 tane olması 14 tweet'te bir kalıbın tekrarlanması demek değil mi"):** Kalıp cümle şablonu değil, analiz açısıdır; aynı açı farklı konu, biçim ve uzunlukta bambaşka okunur. Tekrarı önlemek için: birincil kalıp son 4 tweette tekrar etmez; iki kalıp birleştirilebilir (`--kalip D+J`: değer hesabı + değer zinciri gibi; aynı ikili son 12 tweette tekrar etmez, bu 14 kalıpla yüzlerce farklı açı demek); YAPI İMZASI (paragraf sayısı, kısa satır ya da düz yazı, uzunluk bandı, açılış türü) son 3 tweetten biriyle aynı olamaz. Biçimler döndürülür: tek güçlü paragraf; kısa satırlı zincir; rakam satırları + tek hüküm cümlesi; iki kısa paragraf; uzun derin analiz. 23.11 ölçümü: kuraldan önceki 5 tweetin 4'ü aynı yapıdaydı (3 paragraf, düz yazı, orta uzunluk, rakamla açılış).
+### 9.3 KURAL 54-D — Yapay zekâ gibi duran kurgulu cümleler (22:06 ve 22:07: "çok ai yazmış gibi bir cümle")
+- Veriye, manşete ya da tabloya konuşma yükleyen kurgulu karşıtlık YASAK: "Manşet X diyor; vade yapısı başka bir şey söylüyor", "rakamlar başka bir hikâye anlatıyor", "veri fısıldıyor/bağırıyor", "tablo itiraf ediyor".
+- Piyasanın ruh hâlini soyut kelimeyle özetlemek YASAK: "stres geçmiş değil", "stres sürüyor", "panik bitti", "korku geçti", "nefes aldı", "rahatlama geldi".
+- Yerine olgu ve rakamın gösterdiği şey düz cümleyle: "VIX cuma 35,9'du, bugün 27,1'e indi. Ama kısa vadeli oynaklık hâlâ uzun vadelinin üzerinde."
+- yasak.py bu kalıpları yakalar. Kural 54, 54-B, 54-C ile birlikte geçerlidir.
 
-**64 Konuşma dili (Enes 23.11 21:31):** Analiz derin olur ama cümleler Enes konuşuyormuş gibi kurulur. "Bakacağım tek satır", "izlenecek tek kalem" gibi rapor cümleleri yerine "Ben bilançoda ilk bunu kontrol edeceğim", "En çok ön ödemelerin ne olacağını merak ediyorum", "Bu fark kapanırsa içim rahatlar" gibi öznesi "ben" olan doğal cümleler. yasak.py rapor kalıplarını yakalar.
+## 10. KURAL 65 — Profesyonellik çıtası (Enes 23.11 22:03: "sana attığım tweet örnekleri senin yaptıklarından çok daha profesyonel, ben o derecede profesyonel şeyler istiyorum")
 
-**Konu eşleştirmesi (A-N):**
-- Bilanço: G (beklenti farkı), I (nakit), M (sonraki tarih), D/K (değer).
-- Sözleşme/anlaşma haberi: H (birim ekonomisi), J (değer zinciri).
-- Sert yükseliş ya da düşüş: K (tersine hesap), B (o zaman/şimdi), F (normalleştirme).
-- Piyasa stresi ve zorunlu satış: A (zincir), C (eşik).
-- Küçük/nakit yakan şirket: N (kırılma noktası), D (piyasa değeri - nakit).
-- Sektör/rotasyon: L (akran kıyası), J.
-- Eğitici: E.
+- Fiyat yüzdesi + manşet + yorum YETERSİZDİR. Her analiz tweetinde (EGITICI, SONDAKIKA, HABER ve muaf türler dışında) en az bir İKİNCİ KATMAN veri bulunur; yoksa kalite.py HATA verir.
+- İkinci katman veri örnekleri ve kamuya açık kaynakları:
+  - Oynaklık yapısı: VIX 9 gün / 1 ay / 3 ay vade eğrisi (Yahoo ^VIX9D ^VIX ^VIX3M), VVIX, SKEW, Nasdaq oynaklığı VXN. Ters eğri (kısa vade > uzun vade) piyasanın yakın riski daha pahalı ödediğini gösterir.
+  - Örtük korelasyon (^COR1M, ^COR3M): endeks oynaklığını hisselerin aynı yöne hareketi belirler.
+  - Piyasa genişliği (yükselen/düşen hisse sayısı), açığa satış oranı, marj borcu (FINRA), ETF ve fon akışları, CFTC pozisyonları.
+  - Analist tahmin revizyonları.
+  - Şirket tablosundan derin kalemler: ertelenmiş gelir, kalan performans yükümlülüğü, serbest nakit akışı, yatırım harcamasının gelire oranı, hisse sayısı/seyrelme, sipariş/satış oranı, brüt ve faaliyet marjı.
+  - Kendi hesaplarımız: kâr/satış katı, birleşme farkı, piyasa değeri eksi nakit, korunan kazanç payı.
+- Referans tweetlerdeki fark tam olarak budur: manşeti değil, manşetin altındaki yapıyı anlatmak.
+- Yazım: kendinden emin, yoğun, dolgu cümlesi yok ("Bu da ... açıklıyor" gibi boş bağlayıcılar), sonuç cümlesiyle biter (64-B).
+- SINIR: "Şu seviyede şu kadar kontrat var" gibi opsiyon pozisyonu verisi yalnız 2 bağımsız kaynakla yazılır. Kaynak yoksa yazılmaz; yerine kamuya açık oynaklık, korelasyon ve akış verisi kullanılır. Uydurma veri Enes'in en kesin yasağıdır.
+- Örnek (taslak/derinlik_63_ornekler.md "KURAL 65 ÖRNEĞİ"): "Korku endeksi VIX cuma 35,9'du, bugün 27,1'e indi. Ama kısa vadeli oynaklık hâlâ uzun vadelinin üzerinde. 9 günlük 28,9 / 1 aylık 27,1 / 3 aylık 25,5. Normal piyasada uzak vadeli koruma daha pahalıdır; şu an tersi geçerli. Eğri normale dönmeden bugünkü yükselişi kalıcı bir dip saymak erken."
 
-## 10. KURAL 64-B ve 65 — İzleme kapanışı sınırı ve profesyonellik çıtası (Enes 23.11 22:03)
+## 11. Yayın düzeni ve tasarruf (Enes 23.11 20:47 ve 21:29)
 
-**64-B** (Enes 23.11 22:03 "ben en çok şunu takip edeceğim, benim için önemlisi, en yakından izleyeceğim bunları çok sık kullanıyorsun"): "takip edeceğim / izleyeceğim / merak ediyorum / benim için önemlisi / en yakından / ilk bakarım" ailesi tweet başına en çok 1 ve son 5 tweette geçtiyse kullanılmaz (kalite.py HATA). Tweet "ben şunu izleyeceğim" ile BİTMEZ; verinin vardığı SONUÇLA biter (ör. "Bu yapı düzelmeden yükselişe güvenmek erken."). 63-B'deki "bakılacak tek kalem" işareti ZORUNLU DEĞİL, 5 tweette en çok 1.
-**65** PROFESYONELLİK ÇITASI (Enes 23.11 22:03 "sana attığım tweet örnekleri senin yaptıklarından çok daha profesyonel, ben o derecede profesyonel şeyler istiyorum"): Fiyat yüzdesi + manşet + yorum = YETERSİZ. Her analiz tweetinde en az bir İKİNCİ KATMAN veri (kalite.py HATA): oynaklık yapısı (VIX 9 gün/1 ay/3 ay vade eğrisi, VVIX, SKEW, VXN — Yahoo ^VIX ^VIX9D ^VIX3M ^VVIX ^SKEW ^VXN), örtük korelasyon (^COR1M/^COR3M), piyasa genişliği, açığa satış oranı, marj borcu (FINRA), ETF/fon akışı, CFTC pozisyonları, analist tahmin revizyonları, şirket tablosundan derin kalem (ertelenmiş gelir, RPO, serbest nakit, yatırım harcaması/gelir, hisse sayısı, sipariş/satış), birleşme farkı, kâr/satış katı. Referans tweetlerde olan şey bu: manşeti değil, manşetin altındaki yapıyı anlatıyor. Yazım: kendinden emin, yoğun, dolgu cümlesi yok ("Bu da ... açıklıyor" gibi), sonuç cümlesiyle biter. Opsiyon pozisyonu (hangi seviyede kaç kontrat) yalnız 2 kaynakla yazılır; kaynak yoksa yazılmaz, onun yerine kamuya açık oynaklık ve akış verisi kullanılır. Örnek: taslak/derinlik_63_ornekler.md "KURAL 65 ÖRNEĞİ".
+- ARALIK (21:29 "neden ikisini de 1 dakika arayla attın"): Bir turda 2 tweet varsa arka arkaya atılmaz. İlki Buffer shareNow, ikincisi Buffer `mode: customScheduled`, `dueAt` ilkinden ~12 dk sonra (+03:00). Sonraki tur, zamanlanan tweetin saatinden en az 10 dk sonra kurulur. Enes'e giden mesajda planlanan saat yazılır.
+- TASARRUF (20:47 "çok fazla yetenek olması kredileri kötü etkiliyorsa bir düzenleme getir ama hiçbir yeteneği de atlamanı istemiyorum"): Turlar `bash invest/tur_basi.sh <etiket>` çıktısındaki `invest/KURAL_DIZINI.md`'yi okur; bu dosya bütün kuralların güncel kısa listesidir. Tam metinler `invest/KURALLAR_TAM.md` ve `invest/skills/*.md`'de durur; turlar bunları baştan okumaz, yalnız gereken bölümü grep ile açar. Hiçbir kural silinmedi. Kural eklenince KURAL_DIZINI.md de güncellenir.
+- Enes'e giden mesaj kısa olur: tweet metni + kullanılan kalıp + 3-5 maddelik "Ne anlama geliyor?".
 
 ## EK — ASIL METİN (Enes 23.11.2026 20:08; KELİMESİ KELİMESİNE, değiştirilmez)
 
