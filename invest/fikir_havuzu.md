@@ -21,3 +21,5 @@ SON ROTASYON: a(eksik) b d 20.11 akşam: Substack + Reddit(erişilemedi) — sı
 - 20.11 21:10 | Substack 'En üst' (tanınmış ayı yatırımcı) | 190 beğeni | 1929 ve 2000 ile benzerlik: liderlerin bilançoları güçlü ama hisseler düşüyor | NVDA | Enes görüşüne ters (balon tezi); yalnız 'bilanço güçlü, satış bilançodan değil' açısıyla kullanılabilir, isim yazılmaz
 - 20.11 21:10 | Substack 'En üst' | 31 beğeni | Altın-gümüş satışı tahvilde likidite sıkışması işareti (Mart 2020 benzetmesi) | makro | elendi: alan dışı/spekülatif
 - 20.11 21:10 | Reddit r/stocks | — | erişilemedi 20.11 (Chrome safety restrictions; dolanılmadı) | — | —
+- 23.11 21:28 | Substack Value Report 'Vertiv: the fear is political, the backlog is real' + AlCapital + Seeking Alpha | — | VRT şubattan beri sipariş defteri açıklamıyor; izlenecek kalem müşteri ön ödemeleri | VRT | kullanıldı 23.11 21:28
+- SON ROTASYON: h (Seeking Alpha) + g (Substack) 23.11

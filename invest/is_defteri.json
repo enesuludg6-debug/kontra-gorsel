@@ -1721,11 +1721,24 @@
    "ne": "tur",
    "ticker": "",
    "tur": "tur",
-   "durum": "kuruldu",
+   "durum": "yapildi",
    "not": "",
    "trigger": "trig_01Jpy3dJKBnVY8QoqPtXvSLW",
    "soz": "",
-   "guncelleme": "23.11 21:03"
+   "guncelleme": "23.11 21:28"
+  },
+  {
+   "id": "TUR-2311-2150",
+   "ad": "Otomatik paylaşım turu",
+   "zaman": "2026-11-23T21:50",
+   "ne": "tur",
+   "ticker": "",
+   "tur": "tur",
+   "durum": "kuruldu",
+   "not": "",
+   "trigger": "trig_018GjPbCMeRT6nQtQBjiD7CD",
+   "soz": "",
+   "guncelleme": "23.11 21:28"
   }
  ]
 }

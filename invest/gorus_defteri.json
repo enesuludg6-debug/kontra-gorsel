@@ -1,10 +1,5 @@
 [
 {
-"acilis": "bugünkü 9 luk",
-"kaliplar": [],
-"metin": "Bugünkü %9'luk düşüş bana fazla geldi. Elde kanıtlanmış bir ihlal yok, şirket de net bir ret açıklaması yaptı. Ticaret Bakanlığı'ndan bir soruşturma haberi gelm"
-},
-{
 "acilis": "renaissance tamamen bilgisayar",
 "kaliplar": [],
 "metin": "Renaissance tamamen bilgisayar modelleriyle işlem yapan bir fon, yani bu bir \"inanç\" hamlesi değil, modelin sinyali. Ben bunu Nvidia için kötü haber olarak görm"
@@ -306,5 +301,12 @@
 "acilis": "kapanışa kadar bu",
 "kaliplar": [],
 "metin": "Kapanışa kadar bu fark daralırsa piyasa anlaşmaya güveniyor demektir. Açılırsa düzenleyici onayı ya da hissedar oyu tarafındaki risk büyüyor demektir. Bakacağım"
+},
+{
+"acilis": "bu veri yokken",
+"kaliplar": [
+"izlenecek"
+],
+"metin": "Bu veri yokken izlenecek tek kalem müşteri ön ödemeleri. Kapasite ayırtmak için önceden ödeme yapan müşteriler bu ödemeleri azaltırsa tezi bozar; bilançoda ilk "
 }
 ]

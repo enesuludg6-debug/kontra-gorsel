@@ -1,7 +1,7 @@
 ## !!! BUGÜNLÜK KURAL 23.11 (Enes 23.11 20:19: "bugün gece 12:45'a kadar çalışacağız toplam 20 tweet atmanı istiyorum bu saate kadar ondan sonra durabilirsin 12:45'dan sonra tek bir kredi bile harcama"): 23.11 paylaşım günü HEDEFİ TOPLAM 20 sistem tweeti (20:18 NBIS = 1/20). Kural 48-B'deki "en az 30" bu gün için GEÇERSİZ, tavan 20. Plan: turlar ~25 dk arayla (20:35, 21:00, 21:25, 21:50, 22:15, 22:40, 23:05, 23:30, 23:55, 00:20), her turda 2 tweet (kalite izin vermezse 1); sayaç DONGU'daki 23.11 AUTO satırlarından. 20'ye ulaşan tur sonraki turu KURMAZ. SON TUR en geç 00:20 başlar, 00:45'ten önce biter ve sonraki turu KURMAZ (yarın tur zincirini 09:00 sabah kontrolü kurar). 00:45 SONRASI 23.11 gecesi için HİÇBİR iş yok: tur, takip, tweet, push, mesaj yok; 00:45'ten sonra ateşlenen bir tur görevi kilit/DURUM okur okumaz hiçbir şey yapmadan kapanır. Bu gecenin kalan tweetlerinde KURAL 63-B görünür olmalı: her tweet --kalip ile, en az yarısı kendi hesabımızı içeren kalıplardan (D değer, H birim, I nakit, K tersine hesap, L akran, N kırılma) ve kalıplar çeşitli (A-N), en az 1 DERIN-ANALIZ; önce taslak/derinlik_63_ornekler.md. Kural 61 kalite kontrolü aynen (sayı uğruna kalitesiz tweet atılmaz; 20'ye ulaşılamazsa ulaşılamaz).
 
 # DURUM — tek sayfa GÜNCEL DURUM (kural 18; 23.11 20:50'den beri yalnız durum, kurallar KURAL_DIZINI.md)
-Son güncelleme: 23.11.2026 21:27 TSİ (C). Turlar şunu okur: tur_basi.sh çıktısı (KURAL_DIZINI.md + bu dosya + DONGU son 30 + dersler + defter). Kuralların tam metni KURALLAR_TAM.md ve skills/*.md: yalnız gerektiğinde grep ile.
+Son güncelleme: 23.11.2026 21:28 TSİ (C). Turlar şunu okur: tur_basi.sh çıktısı (KURAL_DIZINI.md + bu dosya + DONGU son 30 + dersler + defter). Kuralların tam metni KURALLAR_TAM.md ve skills/*.md: yalnız gerektiğinde grep ile.
 
 ## Hesap
 - AKTIF: C (23.11 20:02 hesap devri; görev mesajları HESAP=C; tur_basi.sh C). Chrome bağlı değil (fikir taramasının Chrome adımı atlanır).
@@ -25,7 +25,7 @@ Son güncelleme: 23.11.2026 21:27 TSİ (C). Turlar şunu okur: tur_basi.sh çık
 - Kural 23: tutmayan tahmin tweette anılmaz, yalnız doğru çıkanlar. Yanlış rakamda kural 21 düzeltme.
 
 ## Kart
-- Son 3 düzen: spotlight (MU Citi bellek taleb), uclu (Bellek DRAM ve NAND ), editoryal (CRWD ZS birlesme far).
+- Son 3 düzen: uclu (Bellek DRAM ve NAND ), editoryal (CRWD ZS birlesme far), terminal (VRT siparis verisi g).
 - LOGO_BUYUT 1.8, küçültme YOK; bento ve skor kare logoyu taşımıyor (bilanço rakamı = uclu); dortlu/isi kartında logolu ticker rakama biniyor (logosuz isim).
 
 ## 13F serisi (Q3 2026)
