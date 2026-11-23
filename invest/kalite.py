@@ -21,7 +21,7 @@ SINIR = {
     'SONDAKIKA': 600, 'HABER': 600, 'VADELI': 500, 'BEKLENTI': 500, 'OPSIYON': 600, 'KEYLEVELS': 700,
     'BILANCO-RAKAM': 700, 'TAKIP': 700, 'ICERIDEN-ALIM': 700, 'FED-TAHVIL': 700, 'MAKRO': 700, 'KRIPTO': 700,
     'BAGLAM-GORUS': 800, 'PORTFOY': 800, 'FIKIR': 800, 'SEKTOR': 800, 'ENES-HABER': 800, 'ENES-ISTEGI': 900,
-    'EGITICI': 900, '13F': 1000, 'ANALIST': 1000, 'BILANCO-ANALIZ': 1200, 'HAFTALIK-OZET': 1200, 'AYIN-OZETI': 1200,
+    'EGITICI': 900, 'DERIN-ANALIZ': 1200, '13F': 1000, 'ANALIST': 1000, 'BILANCO-ANALIZ': 1200, 'HAFTALIK-OZET': 1200, 'AYIN-OZETI': 1200,
 }
 VARSAYILAN = 800
 UZUN_UYARI = 700          # bu uzunluğu geçen her metin "kısa yazılınca değer kaybeder mi?" sorusunu cevaplar
@@ -65,13 +65,18 @@ JARGON = {
     'denklem': r'denklem\w*',
     'çarpan': r'çarpan\w*',
     'katalizör': r'katalizör\w*',
-    'pozisyonlanma': r'pozisyon(lanma|lar|ların|ları)?\w*',
+    'pozisyonlanma': r'pozisyonlan\w*|pozisyon yoğunlaş\w*',
     'konsensüs': r'konsensüs\w*',
     'iştah': r'iştah\w*',
     'kâr satışı': r'kâr (satış|realiz)\w*|kar satış\w*',
     'belirsizlik': r'belirsizli\w*',
     'ayrışma': r'ayrış\w*',
 }
+# KURAL 63 (Enes 23.11 20:44): derinlik evet, ham İngilizce opsiyon/fon jargonu hayır (okur anlamıyor). Ne yaptığını Türkçe anlat.
+HAM_JARGON = [r'\bvanna\b', r'\bvega\b', r'\bgamma\b', r'\bdelta (hedge|hedg|nötr|riski)', r'\biv\b', r'\batm\b', r'\botm\b',
+              r'\bitm\b', r'\bskew\b', r'\bnav\b', r'deleverag', r'squeeze', r'\broll\b', r'\bcollar\b', r'catch-?up trade',
+              r'\bfeedback loop', r'\bspot down', r'\bvol down', r'\bhedge\b', r'\bleptokurt']
+DERIN_GUNLUK = 2
 # Bilanço tweetinde makro/kripto bağlantısı ve kripto tweetinde tahvil bağlantısı: zorlama riski
 ZORLA = {
     'BILANCO': [r'\bfed\b', r'faiz', r'tahvil', r'bitcoin', r'kripto', r'dolar endeksi', r'\bdxy\b'],
@@ -118,7 +123,8 @@ def main():
     if not t.strip(): sys.exit('boş metin')
     f = ozellik(t); d = yukle()
     if m == 'kaydet':
-        f.update({'tur': tur, 'zaman': dt.datetime.now().strftime('%d.%m %H:%M'), 'uzunluk': len(t.strip())})
+        _n = dt.datetime.now(dt.timezone(dt.timedelta(hours=3)))
+        f.update({'tur': tur, 'zaman': _n.strftime('%d.%m %H:%M'), 'gun': (_n - dt.timedelta(hours=2)).strftime('%d.%m'), 'uzunluk': len(t.strip())})
         d.append(f); json.dump(d[-60:], open(D, 'w', encoding='utf-8'), ensure_ascii=False, indent=0)
         print('KALITE KAYDEDILDI'); return
 
@@ -164,6 +170,13 @@ def main():
     if grup:
         zz = [re.search(k, l).group(0) for k in ZORLA[grup] if re.search(k, l)]
         if zz: uyari.append(f'{tur} tweetinde {zz}: bu bağlantı şirketin/konunun rakamlarına doğrudan etki ediyor mu? Etmiyorsa sil.')
+    # 7a) KURAL 63: ham jargon ve derin analiz günlük sınırı
+    hj = [re.search(k, l).group(0) for k in HAM_JARGON if re.search(k, l)]
+    if hj: hata.append(f'kural 63: ham İngilizce jargon {hj}: terimi yazma, ne yaptığını gündelik Türkçeyle anlat (ör. "piyasa yapıcılar riskten korunmak için vadeli satıyor").')
+    if tur == 'DERIN-ANALIZ':
+        bugun = dt.datetime.now(dt.timezone(dt.timedelta(hours=3))) - dt.timedelta(hours=2)
+        n_bugun = sum(1 for x in d if x.get('tur') == 'DERIN-ANALIZ' and x.get('gun') == bugun.strftime('%d.%m'))
+        if n_bugun >= DERIN_GUNLUK: hata.append(f'kural 63: bugün zaten {n_bugun} DERIN-ANALIZ atıldı (günde en çok {DERIN_GUNLUK}); başka türde, kısa yaz.')
     # 7b) KURAL 62 piyasa jargonu sıklığı
     jg = f['jargon']
     for k, n in jg.items():

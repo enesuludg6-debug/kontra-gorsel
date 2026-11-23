@@ -151,6 +151,35 @@ Enes "fiyatlandı", "iskonto" ve benzeri kelimelerin çok sık kullanılmasını
 - 10:15 perfogren görevi uzunluk ile görüntülenme ilişkisine bakar. Tavanlar ancak veri gösterirse DERSLER.md'de önerilir ve Enes onaylarsa değiştirilir (kalite.py SINIR). Asıl metin hiçbir zaman değiştirilmez.
 - Kural değişirse hem bu skill (improvement) hem `invest/skills/enes-analiz-kalitesi.md` kopyası güncellenir.
 
+## 8. KURAL 63 — Derinlik kalıpları, sade anlatım (Enes 23.11 20:44)
+
+Enes'in isteği: "bizim tweet'lerimiz de bu kadar detaylı bu kadar profesyonel olmalı ama bunun biraz daha kolay anlaşılır hali olmalı." Referans, Enes'in beğendiği ve derin piyasa mekanizması bilen bir finans hesabı: rakamla konuşuyor, mekanizmayı adım adım kuruyor, kendi değer hesabını yapıyor. Hedefimiz o derinlik, ama ABD borsasını az bilen okurun anlayacağı dille. Referans hesabın metni kopyalanmaz; argosu, hakaretleri ve kaba şakaları alınmaz (kural 60 profesyonel üslup).
+
+**Alınacak 6 kalıp.** Her tweette konuya en uygun BİR kalıp kullanılır; hepsi aynı anda kullanılmaz (kural 61 bölüm 8, çeşitlilik):
+- **A. Adım adım mekanizma zinciri.** 3-5 kısa adımla, her adımın bir sonrakini doğurduğunu göster. Örnek iskelet: "Borçla pozisyon taşıyan fonların varlığı düştü. Aynı borçla taşıyabilecekleri pozisyon küçüldü. Zorunlu satış geldi. İşlem hacmi düşük hisselerde düşüş büyüdü." Her adım ya kaynaklı bir olgudur ya da "bence" ile kurulmuş bir çıkarım.
+- **B. "O zaman / şimdi" farkı.** Geçmişteki benzer toparlanmayı ya da düşüşü hangi somut mekanizmanın desteklediğini söyle, sonra bugün o mekanizmanın var olup olmadığını söyle. Kural 61 bölüm 1 adım 5'teki tarihsel karşılaştırma testi aynen geçerli.
+- **C. Koşullu eşik.** "Endeks X'in altına inerse şu mekanizma devreye girer; Y olursa tablo tersine döner." Eşik ve tetikleyici rakam 2 kaynaklı olmalı. Opsiyon ya da pozisyon verisi kaynak olmadan YAZILMAZ.
+- **D. Piyasa neye ne kadar değer biçiyor.** Piyasa değerinden net nakit çıkarılır ve şirketin geri kalan işine biçilen değer bulunur; ya da piyasanın ima ettiği beklenti ile şirketin kendi rehberi karşılaştırılır. Bu bir HEDEF FİYAT DEĞİLDİR: "hisse başı X dolar eder" ya da "baz senaryom X dolar" yazılmaz (hedef fiyat yasağı aynen geçerli). Yazılabilecek olan şudur: "Piyasa şirketin bütün ürün hattına yalnız X milyar dolar değer veriyor." Hesap DONGU'ya "kendi hesabım" olarak yazılır, girdilerin her biri 2 kaynaklıdır.
+- **E. Tek kavram dersi.** Olaydan genel bir kural çıkar ve tek cümleyle söyle. Örnek: "Endeksin oynaklığını hisselerin ne kadar oynadığı değil, aynı anda aynı yöne ne kadar oynadığı belirler."
+- **F. Hareketi normalleştirmek.** Küçük ve nakit yakan şirketlerde iki yönlü sert hareketin olağan olduğunu okura anlat. Al/sat önerisi verilmez.
+
+**Sadeleştirme kuralları (anlaşılır hâli):**
+- Her teknik kavram ilk geçtiği yerde gündelik Türkçeyle anlatılır. Örnek: "piyasa yapıcılar (alım-satım emirlerini karşılayan büyük kurumlar) riskten korunmak için vadeli satıyor."
+- Ham İngilizce opsiyon ve fon jargonu tweete YAZILMAZ: vanna, vega, gamma, delta hedge, IV, ATM/OTM/ITM, skew, NAV, deleverage, squeeze, roll, collar, catch-up trade, feedback loop, hedge. Yerine kavramın ne yaptığı anlatılır. `kalite.py` bunları HATA olarak yakalar.
+- Tweet başına tek ana mekanizma anlatılır. İkinci mekanizma Enes'e giden "Ne anlama geliyor?" mesajına taşınır.
+- Rakamlar somut yazılır ("30 bin kontrat", "123 milyon dolar"), ama her rakam 2 kaynaklıdır.
+- Kural 62 (jargon sıklığı), kural 54-C (mecaz yasağı) ve kural 61 hiyerarşisi aynen geçerli.
+- Referans hesapta görülen ama ALINMAYACAK olanlar: doğrulanmamış olasılık tahminleri ("kaynak: ben + yapay zekâ" türü), kişisel işlem stratejileri (takvim yayılımı gibi), okura işlem önerisi, kendi pozisyon geçmişini anlatmak (Enes açıkça istemedikçe).
+
+**Uzunluk:** Bu kalıplar alan ister. Bunun için yeni bir tür var: `DERIN-ANALIZ`. Tavanı 1.200 karakter, günde en fazla 2 kez kullanılır ve `kalite.py` sayar. Diğer türlerde tavanlar değişmez; kalıplar kısa hâlleriyle kullanılır (bir zincir 2-3 adımla, bir eşik tek cümleyle).
+
+**Konu eşleştirmesi:**
+- Piyasa stresinde ve zorunlu satış günlerinde: A ve C.
+- Sert toparlanma ya da düşüş günlerinde: B.
+- Portföydeki ve ilgi listesindeki küçük/orta şirketlerde: D (piyasa değeri eksi net nakit).
+- Eğitici slotlarda: E.
+- Haber yokken sert hareket eden küçük hisselerde: F.
+
 ## EK — ASIL METİN (Enes 23.11.2026 20:08; KELİMESİ KELİMESİNE, değiştirilmez)
 
 GLOBAL FINANCIAL INTELLIGENCE & CONTENT QUALITY STANDARD
