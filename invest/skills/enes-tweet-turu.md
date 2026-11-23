@@ -7,6 +7,8 @@
 (6) Diğer kurallar aynen: 50-B (her tweette farklı ifade, gorus.py), 52, 54/54-B/54-C (mecaz ve sunucu açılışı yok), 59 (Enes'in YZ yatırımcısı görüşü), al/sat tavsiyesi yok, soru ile bitmez, yasak.py.
 
 ---
+
+> **KURAL 61 (23.11, ÖNCE BUNU UYGULA):** Bu skill ile yazılan her içerik ayrıca `enes-analiz-kalitesi` skill'ine (yoksa `invest/skills/enes-analiz-kalitesi.md`) uyar: konuya özgü mercek, veri kartı, tarihsel karşılaştırma ve senaryo disiplini, zorla bağlantı ve terim yığını yok, uzunluk tavanı. Yayından önce `python3 invest/kalite.py kontrol --tur <TUR>` (1 = atma), atınca `kalite.py kaydet --tur <TUR>`. Bu dosyadaki daha uzun/esnek uzunluk ifadeleri kural 61 tavanlarıyla sınırlıdır.
 name: "enes-tweet-turu"
 description: "Enes Uludağ'ın X hesabı için otomatik paylaşım turu, Enes'in istediği tweet veya 13F tweeti hazırlanıp Buffer'dan atılırken kullanılır: kontrol listesi, kaynak, yazım, kart ve kayıt kuralları."
 ---
