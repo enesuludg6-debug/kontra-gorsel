@@ -76,7 +76,9 @@
 "kalip": "E"
 },
 {
-"jargon": {},
+"jargon": {
+"izleme kapanışı": 1
+},
 "tarih": [],
 "terim": [
 "arr"
@@ -92,7 +94,9 @@
 "uzunluk": 632
 },
 {
-"jargon": {},
+"jargon": {
+"izleme kapanışı": 1
+},
 "tarih": [],
 "terim": [],
 "acilis": "vrt şubattan beri sipariş",
@@ -106,7 +110,9 @@
 "uzunluk": 378
 },
 {
-"jargon": {},
+"jargon": {
+"izleme kapanışı": 3
+},
 "tarih": [],
 "terim": [],
 "acilis": "geçen haftaki satışın tek",
@@ -120,7 +126,9 @@
 "uzunluk": 923
 },
 {
-"jargon": {},
+"jargon": {
+"izleme kapanışı": 1
+},
 "tarih": [],
 "terim": [],
 "acilis": "bu hafta abd borsalarında",

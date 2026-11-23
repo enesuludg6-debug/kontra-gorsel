@@ -71,12 +71,15 @@ JARGON = {
     'kâr satışı': r'kâr (satış|realiz)\w*|kar satış\w*',
     'belirsizlik': r'belirsizli\w*',
     'ayrışma': r'ayrış\w*',
+    # KURAL 64-B (Enes 23.11 22:03 "ben en çok şunu takip edeceğim, benim için önemlisi, en yakından izleyeceğim bunları çok sık kullanıyorsun"):
+    'izleme kapanışı': r'takip edece|izleyece|merak ediyorum|bakacağım|kontrol edece|benim için (asıl |en )?önemli|en yakından|ilk bakarım|ilk bunu|gözüm .{0,20}olacak|odaklanaca',
 }
 # KURAL 63 (Enes 23.11 20:44): derinlik evet, ham İngilizce opsiyon/fon jargonu hayır (okur anlamıyor). Ne yaptığını Türkçe anlat.
 HAM_JARGON = [r'\bvanna\b', r'\bvega\b', r'\bgamma\b', r'\bdelta (hedge|hedg|nötr|riski)', r'\biv\b', r'\batm\b', r'\botm\b',
               r'\bitm\b', r'\bskew\b', r'\bnav\b', r'deleverag', r'squeeze', r'\broll\b', r'\bcollar\b', r'catch-?up trade',
               r'\bfeedback loop', r'\bspot down', r'\bvol down', r'\bhedge\b', r'\bleptokurt']
 DERIN_GUNLUK = 2
+IKINCI_KATMAN = r'vix|vvix|skew|vxn|oynaklık endeks|vade (eğrisi|yapısı)|korelasyon|piyasa genişli|yükselen hisse sayısı|açığa satış|marj borcu|etf (giriş|çıkış|akış)|fon akış|cftc|tahmin revizyon|beklenti revizyon|ertelenmiş gelir|kalan performans yükümlülüğü|rpo|serbest nakit|yatırım harcaması|hisse sayısı|seyrel|geri alım|birleşme farkı|piyasa değer|kârının .{0,15}kat|satış(lar)?ının .{0,15}kat|katından|ön ödeme|sipariş defteri|sipariş/satış|brüt marj|faaliyet marjı|başına|nakit (yak|akış)|borç|vade(li)? işlem|kontrat|put|opsiyon'
 # KURAL 63-B (Enes 23.11 21:11: "çoğunun etkisini göremiyorum, görmek istiyorum"): her tweet --kalip A..F ile yazılır ve kalıbın izi metinde olmalı.
 KALIP_MUAF = {'VADELI', 'BEKLENTI', 'BILANCO-RAKAM', 'KEYLEVELS', 'ENES-ISTEGI', 'ENES-HABER'}
 def _sayilar(l): return re.findall(r'\d+(?:[.,]\d+)?', l)
@@ -234,6 +237,10 @@ def main():
     imza = yapi_imzasi(t)
     if any(x.get('imza') == imza for x in d[-3:]):
         hata.append(f'kural 63-D: yapı imzası {imza} son 3 tweetten biriyle aynı; paragraf sayısını, satır biçimini (kısa satır/düz yazı), uzunluğu ya da açılış türünü (rakam/soru-olmayan çerçeve/isim/kavram) değiştir.')
+    # KURAL 65 (Enes 23.11 22:03 "örnek tweetler senin yaptıklarından çok daha profesyonel, o derecede profesyonel şeyler istiyorum"): fiyat yüzdesi ve manşetin ötesinde en az bir İKİNCİ KATMAN veri
+    if tur not in KALIP_MUAF and tur not in {'EGITICI', 'SONDAKIKA', 'HABER'}:
+        if not re.search(IKINCI_KATMAN, l):
+            hata.append('kural 65: ikinci katman veri yok. Fiyat yüzdesi ve manşet yetmez; oynaklık yapısı (VIX vade eğrisi, VVIX, SKEW, VXN), örtük korelasyon, piyasa genişliği, açığa satış oranı, marj borcu, ETF/fon akışı, CFTC pozisyonu, analist tahmin revizyonu, ertelenmiş gelir/RPO, serbest nakit akışı, yatırım harcamasının gelire oranı, hisse sayısı/seyrelme, birleşme farkı, piyasa değeri/kâr ya da satış katı gibi bir veri ekle (2 kaynak ya da kendi hesabın).')
     # 7a) KURAL 63: ham jargon ve derin analiz günlük sınırı
     hj = [re.search(k, l).group(0) for k in HAM_JARGON if re.search(k, l)]
     if hj: hata.append(f'kural 63: ham İngilizce jargon {hj}: terimi yazma, ne yaptığını gündelik Türkçeyle anlat (ör. "piyasa yapıcılar riskten korunmak için vadeli satıyor").')
@@ -246,7 +253,9 @@ def main():
     for k, n in jg.items():
         if n > 1: hata.append(f'kural 62: "{k}" ailesi bu tweette {n} kez: en çok 1, gerekirse hiç kullanma, düz anlat.')
         son6 = [x for x in d[-6:] if k in x.get('jargon', {})]
-        if son6: hata.append(f'kural 62: "{k}" ailesi son 6 tweette {len(son6)} kez geçti: bu tweette kullanma, ne olduğunu düz cümleyle söyle.')
+        pencere = 5 if k == 'izleme kapanışı' else 6
+        sonN = [x for x in d[-pencere:] if k in x.get('jargon', {})]
+        if sonN: hata.append(f'kural 62/64-B: "{k}" ailesi son {pencere} tweette {len(sonN)} kez geçti: bu tweette kullanma. Kapanışı "ben şunu izleyeceğim" ile değil, verinin vardığı sonuçla bitir.')
     if len(jg) > 1:
         hata.append(f'kural 62: bir tweette birden fazla piyasa jargonu {sorted(jg)}: en çok 1.')
     # 8) Tekrar (bölüm 8): son tweetlerle aynı tarihsel örnek / açılış / kapanış / terim seti

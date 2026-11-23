@@ -200,6 +200,11 @@ Bu kalıplar da hedef fiyat yasağına, 2 kaynak kuralına, kural 62 (jargon sı
 - Sektör/rotasyon: L (akran kıyası), J.
 - Eğitici: E.
 
+## 10. KURAL 64-B ve 65 — İzleme kapanışı sınırı ve profesyonellik çıtası (Enes 23.11 22:03)
+
+**64-B** (Enes 23.11 22:03 "ben en çok şunu takip edeceğim, benim için önemlisi, en yakından izleyeceğim bunları çok sık kullanıyorsun"): "takip edeceğim / izleyeceğim / merak ediyorum / benim için önemlisi / en yakından / ilk bakarım" ailesi tweet başına en çok 1 ve son 5 tweette geçtiyse kullanılmaz (kalite.py HATA). Tweet "ben şunu izleyeceğim" ile BİTMEZ; verinin vardığı SONUÇLA biter (ör. "Bu yapı düzelmeden yükselişe güvenmek erken."). 63-B'deki "bakılacak tek kalem" işareti ZORUNLU DEĞİL, 5 tweette en çok 1.
+**65** PROFESYONELLİK ÇITASI (Enes 23.11 22:03 "sana attığım tweet örnekleri senin yaptıklarından çok daha profesyonel, ben o derecede profesyonel şeyler istiyorum"): Fiyat yüzdesi + manşet + yorum = YETERSİZ. Her analiz tweetinde en az bir İKİNCİ KATMAN veri (kalite.py HATA): oynaklık yapısı (VIX 9 gün/1 ay/3 ay vade eğrisi, VVIX, SKEW, VXN — Yahoo ^VIX ^VIX9D ^VIX3M ^VVIX ^SKEW ^VXN), örtük korelasyon (^COR1M/^COR3M), piyasa genişliği, açığa satış oranı, marj borcu (FINRA), ETF/fon akışı, CFTC pozisyonları, analist tahmin revizyonları, şirket tablosundan derin kalem (ertelenmiş gelir, RPO, serbest nakit, yatırım harcaması/gelir, hisse sayısı, sipariş/satış), birleşme farkı, kâr/satış katı. Referans tweetlerde olan şey bu: manşeti değil, manşetin altındaki yapıyı anlatıyor. Yazım: kendinden emin, yoğun, dolgu cümlesi yok ("Bu da ... açıklıyor" gibi), sonuç cümlesiyle biter. Opsiyon pozisyonu (hangi seviyede kaç kontrat) yalnız 2 kaynakla yazılır; kaynak yoksa yazılmaz, onun yerine kamuya açık oynaklık ve akış verisi kullanılır. Örnek: taslak/derinlik_63_ornekler.md "KURAL 65 ÖRNEĞİ".
+
 ## EK — ASIL METİN (Enes 23.11.2026 20:08; KELİMESİ KELİMESİNE, değiştirilmez)
 
 GLOBAL FINANCIAL INTELLIGENCE & CONTENT QUALITY STANDARD

@@ -25,3 +25,20 @@ Satılan üretim fiyatı da sabitliyorsa bugünkü oran fazla düşük. Sabitlem
 
 ## Kalıp seçimi (kalite.py --kalip zorunlu, aynı kalıp üst üste 3 kez olmaz)
 A zincir · B o zaman/şimdi · C koşullu eşik · D değer hesabı · E tek kavram (EGITICI) · F normalleştirme · G beklenti farkı · H birim ekonomisi · I nakit/sermaye · J değer zinciri · K tersine hesap · L akran kıyası · M tetikleyici takvimi · N kırılma noktası (iskeletler skill bölüm 8)
+
+
+## KURAL 65 ÖRNEĞİ (23.11 22:05; veri Yahoo ^VIX ^VIX9D ^VIX3M, tweete girmeden önce ikinci kaynak gerekir)
+ESKİ TARZ (ilk katman, izleme kapanışı): "S&P 500 bugün %4,7 yükseldi, geçen haftaki kaybının yarısını geri aldı. Ben en yakından neocloud finansman haberlerini takip edeceğim."
+
+YENİ TARZ (ikinci katman, sonuçla biten):
+Korku endeksi VIX cuma 35,9'du, bugün 27,1. Manşet "panik bitti" diyor; vade yapısı başka bir şey söylüyor.
+
+9 günlük oynaklık 28,9
+1 aylık 27,1
+3 aylık 25,5
+
+Normal piyasada uzak vadeli koruma daha pahalıdır, eğri yukarı eğimlidir. Şu an tersi geçerli: yatırımcılar önümüzdeki iki haftanın riski için üç ayın riskinden fazla ödüyor. Cuma bu fark çok daha açıktı (40,7'ye karşı 30,9); daraldı ama kapanmadı.
+
+Eğri normale dönmeden bugünkü yükselişi kalıcı bir dip saymak erken. Çarşambaki PCE bu eğrinin yönünü belirleyecek ilk veri.
+
+Neden daha profesyonel: (1) manşet verisinin (VIX düştü) altındaki yapı (vade eğrisi) anlatılıyor; (2) teknik kavram tek cümlede sade açıklanıyor; (3) üç somut rakam kısa satırlarla; (4) cuma ile kıyas; (5) "takip edeceğim" yok, sonuç cümlesi var.
