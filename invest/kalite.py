@@ -80,6 +80,14 @@ DERIN_GUNLUK = 2
 # KURAL 63-B (Enes 23.11 21:11: "çoğunun etkisini göremiyorum, görmek istiyorum"): her tweet --kalip A..F ile yazılır ve kalıbın izi metinde olmalı.
 KALIP_MUAF = {'VADELI', 'BEKLENTI', 'BILANCO-RAKAM', 'KEYLEVELS', 'ENES-ISTEGI', 'ENES-HABER'}
 def _sayilar(l): return re.findall(r'\d+(?:[.,]\d+)?', l)
+def yapi_imzasi(t):
+    ps = [p for p in re.split(r'\n\s*\n', t.strip()) if p.strip()]
+    kisa = sum(1 for p in ps for x in p.split('\n') if 0 < len(x.strip()) < 110 and '\n' in p)
+    bicim = 'satir' if kisa >= 3 else 'duz'
+    n = len(t.strip()); bant = 'k' if n < 450 else ('o' if n < 750 else 'u')
+    ilk = ps[0].strip() if ps else ''
+    acilis = 'rakam' if re.match(r'^[\$%]?\S*\d', ilk) or re.search(r'\d', ilk[:40]) else ('ticker' if ilk.startswith('$') else 'cerceve')
+    return f'{len(ps)}p-{bicim}-{bant}-{acilis}'
 def kalip_kontrol(k, l, t):
     cumle = [c for c in re.split(r'[.!\n]+', t) if c.strip()]
     if k == 'A':
@@ -159,7 +167,7 @@ def main():
     f = ozellik(t); d = yukle()
     if m == 'kaydet':
         _n = dt.datetime.now(dt.timezone(dt.timedelta(hours=3)))
-        f.update({'kalip': (a[a.index('--kalip') + 1].upper() if '--kalip' in a else ''), 'tur': tur, 'zaman': _n.strftime('%d.%m %H:%M'), 'gun': (_n - dt.timedelta(hours=2)).strftime('%d.%m'), 'uzunluk': len(t.strip())})
+        f.update({'imza': yapi_imzasi(t), 'kalip': (a[a.index('--kalip') + 1].upper() if '--kalip' in a else ''), 'tur': tur, 'zaman': _n.strftime('%d.%m %H:%M'), 'gun': (_n - dt.timedelta(hours=2)).strftime('%d.%m'), 'uzunluk': len(t.strip())})
         d.append(f); json.dump(d[-60:], open(D, 'w', encoding='utf-8'), ensure_ascii=False, indent=0)
         print('KALITE KAYDEDILDI'); return
 
@@ -211,12 +219,21 @@ def main():
         if not kalip:
             hata.append('kural 63-B: --kalip A-N ver (A zincir, B o zaman/şimdi, C koşullu eşik, D değer hesabı, E tek kavram, F normalleştirme, G beklenti farkı, H birim ekonomisi, I nakit/sermaye, J değer zinciri, K tersine hesap, L akran kıyası, M tetikleyici takvimi, N kırılma noktası).')
         else:
-            ok, msg = kalip_kontrol(kalip, l, t)
-            if not ok: hata.append('kural 63-B: ' + msg)
+            for kk in [x for x in kalip.split('+') if x][:2]:
+                ok, msg = kalip_kontrol(kk, l, t)
+                if not ok: hata.append('kural 63-B: ' + msg)
         if len(_sayilar(l)) < 2 and tur != 'EGITICI':
             hata.append('kural 63-B: rakamla konuş; en az 2 doğrulanmış rakam.')
-    if kalip and len(d) >= 2 and all(x.get('kalip') == kalip for x in d[-2:]):
-        hata.append(f'kural 63-B: {kalip} kalıbı son 2 tweette kullanıldı; başka kalıp seç (çeşitlilik).')
+    # 63-D (Enes 23.11 21:19 "14 kalıp = 14 tweette bir tekrar mı?"): birincil kalıp son 4 tweette, kalıp ikilisi son 12 tweette tekrar etmez; yapı imzası (paragraf sayısı, kısa satır/düz yazı, uzunluk bandı, açılış türü) son 3 tweetten biriyle aynı olamaz.
+    if kalip:
+        birincil = kalip.split('+')[0]
+        if any(x.get('kalip', '').split('+')[0] == birincil for x in d[-4:]):
+            hata.append(f'kural 63-D: birincil kalıp {birincil} son 4 tweette kullanıldı; başka birincil kalıp seç (A-N) ya da bunu ikincil yap.')
+        if '+' in kalip and any(x.get('kalip') == kalip for x in d[-12:]):
+            hata.append(f'kural 63-D: {kalip} ikilisi son 12 tweette kullanıldı.')
+    imza = yapi_imzasi(t)
+    if any(x.get('imza') == imza for x in d[-3:]):
+        hata.append(f'kural 63-D: yapı imzası {imza} son 3 tweetten biriyle aynı; paragraf sayısını, satır biçimini (kısa satır/düz yazı), uzunluğu ya da açılış türünü (rakam/soru-olmayan çerçeve/isim/kavram) değiştir.')
     # 7a) KURAL 63: ham jargon ve derin analiz günlük sınırı
     hj = [re.search(k, l).group(0) for k in HAM_JARGON if re.search(k, l)]
     if hj: hata.append(f'kural 63: ham İngilizce jargon {hj}: terimi yazma, ne yaptığını gündelik Türkçeyle anlat (ör. "piyasa yapıcılar riskten korunmak için vadeli satıyor").')

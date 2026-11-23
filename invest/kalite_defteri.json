@@ -12,7 +12,9 @@
 "rekor": 0,
 "tur": "PORTFOY",
 "zaman": "23.11 20:40",
-"uzunluk": 651
+"uzunluk": 651,
+"imza": "3p-duz-o-rakam",
+"kalip": ""
 },
 {
 "jargon": {
@@ -25,7 +27,9 @@
 "rekor": 0,
 "tur": "PORTFOY",
 "zaman": "23.11 20:40",
-"uzunluk": 699
+"uzunluk": 699,
+"imza": "3p-duz-o-rakam",
+"kalip": ""
 },
 {
 "jargon": {
@@ -39,7 +43,9 @@
 "rekor": 0,
 "tur": "PORTFOY",
 "zaman": "23.11 20:40",
-"uzunluk": 549
+"uzunluk": 549,
+"imza": "3p-duz-o-rakam",
+"kalip": ""
 },
 {
 "jargon": {},
@@ -51,7 +57,9 @@
 "tur": "BAGLAM-GORUS",
 "zaman": "23.11 21:01",
 "gun": "23.11",
-"uzunluk": 582
+"uzunluk": 582,
+"imza": "3p-duz-o-rakam",
+"kalip": ""
 },
 {
 "jargon": {},
@@ -63,6 +71,8 @@
 "tur": "EGITICI",
 "zaman": "23.11 21:03",
 "gun": "23.11",
-"uzunluk": 648
+"uzunluk": 648,
+"imza": "3p-duz-o-cerceve",
+"kalip": "E"
 }
 ]
