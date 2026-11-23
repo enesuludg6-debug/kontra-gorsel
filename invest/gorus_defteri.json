@@ -1,17 +1,5 @@
 [
 {
-"acilis": "bilançoyu beğendim hisse",
-"kaliplar": [
-"\\bbeğendim\\b"
-],
-"metin": "Bilançoyu beğendim. Hisse başı kâr beklentiyi yaklaşık %7 geçti, siparişler gelirin belirgin üstünde. En güçlü rakam ticari iletişimdeki %73 büyüme. Bence bu bü"
-},
-{
-"acilis": "böyle bir rapor",
-"kaliplar": [],
-"metin": "Böyle bir rapor gördüğümde ben üç şeye bakarım. Yazanın hissede açık pozisyonu var mı, iddia somut belgeye mi dayanıyor, düzenleyici kurum harekete geçiyor mu. "
-},
-{
 "acilis": "sitime portföyümde olduğu",
 "kaliplar": [],
 "metin": "SiTime portföyümde olduğu için bu hamle hoşuma gitti. Fon yapay zekâ altyapısından çıkmamış, sadece az sayıda müşteriye bağımlı bir isimden çıkıp SiTime'a ağırl"
@@ -308,5 +296,15 @@
 "acilis": "bence bu çeyrekte",
 "kaliplar": [],
 "metin": "Bence bu çeyrekte belirleyici olan sipariş defterinin kâra nasıl döndüğü. Dell'in elinde 95 milyar dolarlık yapay zekâ sunucusu siparişi var, bu çeyrek bu işten"
+},
+{
+"acilis": "bence çıta bu",
+"kaliplar": [],
+"metin": "Bence çıta bu kadar yüksekken gelirin rehberin üst ucuna yakın gelmesi tek başına yetmez; hisseyi asıl gelecek çeyrek rehberi hareket ettirir."
+},
+{
+"acilis": "korelasyon düşükken endeks",
+"kaliplar": [],
+"metin": "Korelasyon düşükken endeks sakin kalır, hisseler kendi haberleriyle ayrı oynar.\nBu yüzden endeksin sakin kalacağına kurulan pozisyonlar büyür.\nArdından yapay ze"
 }
 ]
