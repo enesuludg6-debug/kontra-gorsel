@@ -198,5 +198,35 @@
 "zaman": "23.11 22:44",
 "gun": "23.11",
 "uzunluk": 656
+},
+{
+"jargon": {
+"fiyatlama": 1
+},
+"tarih": [],
+"terim": [],
+"acilis": "geçen hafta vix 86",
+"kapanis": "bence bu tablo satışın",
+"rekor": 0,
+"imza": "4p-duz-o-rakam",
+"kalip": "F",
+"tur": "BAGLAM-GORUS",
+"zaman": "23.11 23:11",
+"gun": "23.11",
+"uzunluk": 525
+},
+{
+"jargon": {},
+"tarih": [],
+"terim": [],
+"acilis": "bugünkü yükselişin ne kadar",
+"kapanis": "ortalama hisse büyük isimlere",
+"rekor": 0,
+"imza": "2p-duz-o-cerceve",
+"kalip": "D",
+"tur": "BAGLAM-GORUS",
+"zaman": "23.11 23:11",
+"gun": "23.11",
+"uzunluk": 598
 }
 ]

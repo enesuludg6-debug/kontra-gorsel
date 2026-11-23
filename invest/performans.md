@@ -211,3 +211,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 23.11 | 22:30 | BAGLAM-GORUS | DELL bilanco oncesi | editoryal | 6b0491940191a6ffcb8993ad |
 | 23.11 | 22:43 | BAGLAM-GORUS | HPE bilanco oncesi | uclu | 6b04976f768ab8d8e40cc694 |
 | 23.11 | 22:57 | BAGLAM-GORUS | ortuk korelasyon COR1M | once_sonra | 6b0497a90720ccb67308310a |
+| 23.11 | 23:10 | BAGLAM-GORUS | SKEW cokus korumasi | cizgi | 6b049da1d73c10ed4ca51708 |

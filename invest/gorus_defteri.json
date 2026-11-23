@@ -1,15 +1,5 @@
 [
 {
-"acilis": "sitime portföyümde olduğu",
-"kaliplar": [],
-"metin": "SiTime portföyümde olduğu için bu hamle hoşuma gitti. Fon yapay zekâ altyapısından çıkmamış, sadece az sayıda müşteriye bağımlı bir isimden çıkıp SiTime'a ağırl"
-},
-{
-"acilis": "bence cuma bu",
-"kaliplar": [],
-"metin": "Bence cuma bu haftanın yönünü belirleyecek gün. Güzel bilançolara rağmen satış sürerse piyasa haber değil pozisyon temizliği yapıyordur, o zaman ben acele etmem"
-},
-{
 "acilis": "buna rağmen nasdaq",
 "kaliplar": [],
 "metin": "Buna rağmen Nasdaq kasımda sert düşüyor ve piyasa yapay zekâya bitmiş bir hikâye gibi davranıyor. Belirsizlikler var, faiz yüksek, Çin ve ihracat tarafında risk"
@@ -306,5 +296,15 @@
 "acilis": "korelasyon düşükken endeks",
 "kaliplar": [],
 "metin": "Korelasyon düşükken endeks sakin kalır, hisseler kendi haberleriyle ayrı oynar.\nBu yüzden endeksin sakin kalacağına kurulan pozisyonlar büyür.\nArdından yapay ze"
+},
+{
+"acilis": "bence bu tablo",
+"kaliplar": [],
+"metin": "Bence bu tablo satışın bir çöküş beklentisinden çok kalabalık pozisyonların hızlı boşalmasından geldiğini gösteriyor; uç risk bu kadar ucuz fiyatlanırken bugünk"
+},
+{
+"acilis": "ortalama hisse büyük",
+"kaliplar": [],
+"metin": "Ortalama hisse büyük isimlere yetişmedikçe bu toparlanma geniş bir dönüşten çok birkaç dev hissenin geri tepmesi olarak kalır."
 }
 ]
