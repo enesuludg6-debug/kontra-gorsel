@@ -200,3 +200,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 21.11 | 17:16 | EGITICI | Neocloud nedir | uclu | 6b01a7be8bd84d5966f3eed3 |
 | 23.11 | 20:18 | PORTFOY | NBIS neocloud korunan kazanc | grafik2 | 6b04754b827feee79c10a65f |
 | 23.11 | 20:37 | PORTFOY | AVGO Kuo TPU kesintisi | dortlu | 6b0479bcff0a846b7faca7a9 |
+| 23.11 | 20:38 | BAGLAM-GORUS | NVDA skandal oncesinin %11 alti | cizgi | 6b047a1c4129dae94380575d |
