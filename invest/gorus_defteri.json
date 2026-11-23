@@ -1,10 +1,5 @@
 [
 {
-"acilis": "bu düşüşü abartılı",
-"kaliplar": [],
-"metin": "Bu düşüşü abartılı buluyorum ama riski de hafife almıyorum. Şu an elimizde açığa satış yapan bir tarafın iddiası var, kanıtlanmış bir ihlal yok. Öte yandan iddi"
-},
-{
 "acilis": "bence yatırımcılar yeni",
 "kaliplar": [],
 "metin": "Bence yatırımcılar yeni çıkan yapay zekâ devine yer açmak için ellerindeki diğer teknoloji hisselerini sattı. Bugün kazanan tek isim oldu, sepetin geri kalanı b"
@@ -306,5 +301,10 @@
 "asıl soru"
 ],
 "metin": "Micron'da asıl soru talep değil, bellek fiyatlarının yüksek seviyede ne kadar kalacağı. Aralık'taki bilanço bu soruya ilk net cevabı verecek."
+},
+{
+"acilis": "yapay zekâ talebi",
+"kaliplar": [],
+"metin": "Yapay zekâ talebi en doğrudan yüksek kapasiteli belleğe akıyor. NAND tarafında fiyatı hâlâ genel arz ve talep dengesi belirliyor. Bu iki hisseyi aynı haberle ay"
 }
 ]
