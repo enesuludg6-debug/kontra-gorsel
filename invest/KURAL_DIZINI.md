@@ -51,6 +51,7 @@ Bu dosya kural 1-63'ün GÜNCEL hâlinin kısa listesidir; hiçbir kural silinme
 - `kart2.py`; son 3 turdaki düzen tekrar edilmez (DURUM "Son 3 düzen"). LOGO_BUYUT 1.8, küçültme YOK; logo `$TICKER` ile çıkar; dortlu/isi kartında logolu ticker rakama biniyor → logosuz isim; spotlight alt metni kısa; kaynak satırı kısa; "AI" değil "Yapay zekâ"; her kart Read ile kontrol edilir, kötü çıkarsa yeni dosya adıyla yeniden çizilir.
 - Dosya `g/YYYYMMDD_HHMM_konu.jpg` → commit + push → raw URL 200 olmalı; main 404 ise commit SHA'lı raw URL. 200 yoksa görselsiz tweet atma.
 - Paylaşmadan önce Buffer son gönderiler + DONGU son satır (son 20 dk aynı konu varsa atma). Buffer create_post: org 6af5719777bce44fa736607b, kanal 6af99a1aece6dfde5fd109c7, automatic, shareNow, görsel + Türkçe altText.
+- ARALIK (Enes 23.11 21:29): bir turda 2 tweet varsa ikisi arka arkaya atılmaz. İlki shareNow, ikincisi Buffer `customScheduled` ile ~12 dk sonraya (dueAt +03:00); tweetler akışa eşit aralıkla düşer. Sonraki tur, zamanlanmış tweetin saatinden en az 10 dk sonra kurulur.
 - 47 Her tweetten sonra Enes'e "Paylaşıldı (SS:DD): TÜR" + metin + öğretici "Ne anlama geliyor?" (3-6 madde; tweete girmeyen tek kaynaklı bilgiler dahil).
 - 26 Kayıt: `kayit.py` (DONGU + performans) + `gorus.py kaydet` + `kalite.py kaydet`; dersler `ders_analiz.py` ile, DERSLER.md aktif dersler uygulanır.
 - Portföy (DURUM.md) hissesinde teze dokunan gelişme varsa Enes'e kısa "ben olsam" notu (enes-portfoy-analiz).
