@@ -25,7 +25,7 @@ Son güncelleme: 23.11.2026 23:36 TSİ (C). Turlar şunu okur: tur_basi.sh çık
 - Kural 23: tutmayan tahmin tweette anılmaz, yalnız doğru çıkanlar. Yanlış rakamda kural 21 düzeltme.
 
 ## Kart
-- Son 3 düzen: cizgi (SKEW cokus korumasi), siralama (esit agirlik genisli), spotlight (SITM satin alinan bu).
+- Son 3 düzen: siralama (esit agirlik genisli), spotlight (SITM satin alinan bu), halka (DOCN YZ payi ve naki).
 - LOGO_BUYUT 1.8, küçültme YOK; bento ve skor kare logoyu taşımıyor (bilanço rakamı = uclu); dortlu/isi kartında logolu ticker rakama biniyor (logosuz isim).
 
 ## 13F serisi (Q3 2026)
