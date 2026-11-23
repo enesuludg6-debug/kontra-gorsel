@@ -114,7 +114,7 @@ def kalip_kontrol(k, l, t):
     if k == 'L':
         return len(set(re.findall(r'\$[A-Z]{1,5}', t))) >= 2 and bool(re.search(r'göre|kıyasla|karşılaştır|aynı ölçü', l)) and len(_sayilar(l)) >= 3, 'L akran kıyası: en az 2 şirket aynı ölçüyle, en az 3 rakam'
     if k == 'M':
-        return bool(re.search(r'\b\d{1,2} (ocak|şubat|mart|nisan|mayıs|haziran|temmuz|ağustos|eylül|ekim|kasım|aralık)|aralık|ocak|haftaya|yarın|perşembe|cuma', l)) and bool(re.search(r'bakacağım|izleyeceğim|belirleyecek|gösterecek|netleşecek', l)), 'M tetikleyici takvimi: somut tarih ve o tarihte bakılacak rakam'
+        return bool(re.search(r'\b\d{1,2} (ocak|şubat|mart|nisan|mayıs|haziran|temmuz|ağustos|eylül|ekim|kasım|aralık)|aralık|ocak|haftaya|yarın|perşembe|cuma', l)) and bool(re.search(r'bakacağım|izleyeceğim|belirleyecek|gösterecek|netleşecek|kontrol edeceğim|takip edeceğim|merak ediyorum|bekliyorum', l)), 'M tetikleyici takvimi: somut tarih ve o tarihte bakılacak rakam'
     if k == 'N':
         return bool(re.search(r'bozar|bozulur|yeter|çeyrek boyunca|dayanır|kırılma', l)) and len(_sayilar(l)) >= 2, 'N kırılma noktası: tezi bozacak tek şey ve bugünkü mesafesi, rakamla (ör. nakit kaç çeyrek yeter)'
     if k == 'F':

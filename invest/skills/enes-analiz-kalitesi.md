@@ -189,6 +189,8 @@ Bu kalıplar da hedef fiyat yasağına, 2 kaynak kuralına, kural 62 (jargon sı
 
 **63-D Çeşitlilik (Enes 23.11 21:19: "sadece 14 tane olması 14 tweet'te bir kalıbın tekrarlanması demek değil mi"):** Kalıp cümle şablonu değil, analiz açısıdır; aynı açı farklı konu, biçim ve uzunlukta bambaşka okunur. Tekrarı önlemek için: birincil kalıp son 4 tweette tekrar etmez; iki kalıp birleştirilebilir (`--kalip D+J`: değer hesabı + değer zinciri gibi; aynı ikili son 12 tweette tekrar etmez, bu 14 kalıpla yüzlerce farklı açı demek); YAPI İMZASI (paragraf sayısı, kısa satır ya da düz yazı, uzunluk bandı, açılış türü) son 3 tweetten biriyle aynı olamaz. Biçimler döndürülür: tek güçlü paragraf; kısa satırlı zincir; rakam satırları + tek hüküm cümlesi; iki kısa paragraf; uzun derin analiz. 23.11 ölçümü: kuraldan önceki 5 tweetin 4'ü aynı yapıdaydı (3 paragraf, düz yazı, orta uzunluk, rakamla açılış).
 
+**64 Konuşma dili (Enes 23.11 21:31):** Analiz derin olur ama cümleler Enes konuşuyormuş gibi kurulur. "Bakacağım tek satır", "izlenecek tek kalem" gibi rapor cümleleri yerine "Ben bilançoda ilk bunu kontrol edeceğim", "En çok ön ödemelerin ne olacağını merak ediyorum", "Bu fark kapanırsa içim rahatlar" gibi öznesi "ben" olan doğal cümleler. yasak.py rapor kalıplarını yakalar.
+
 **Konu eşleştirmesi (A-N):**
 - Bilanço: G (beklenti farkı), I (nakit), M (sonraki tarih), D/K (değer).
 - Sözleşme/anlaşma haberi: H (birim ekonomisi), J (değer zinciri).

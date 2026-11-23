@@ -14,14 +14,14 @@ Bu oranla piyasa, bellek fiyatlarının 2027'de sert düşeceğini ve bugünkü 
 Micron ise 2027 üretiminin %75'inden fazlasını şimdiden sattığını söylüyor.
 Citi'ye göre Nvidia bağlantılı finansman tamamen dursa bile bellek talebi yalnız biraz azalır.
 
-Satılan üretim fiyatı da sabitliyorsa bugünkü oran fazla düşük. Sabitlemiyorsa asıl risk fiyatta. Aralık bilançosunda bakacağım tek şey sözleşmelerin fiyat koşulu.
+Satılan üretim fiyatı da sabitliyorsa bugünkü oran fazla düşük. Sabitlemiyorsa asıl risk fiyatta. Ben Aralık bilançosunda ilk sözleşmelerin fiyat koşulunu kontrol edeceğim.
 
 ## Görünür farkın 5 işareti (her tweette en az 3'ü)
 1. İlk cümle bir hesap ya da soru-olmayan bir çerçeve kurar ("fiyatını kârıyla yan yana koyalım"), haberi tekrar etmez.
 2. En az bir KENDİ HESABIMIZ var: kârın kaç katı, piyasa değeri eksi nakit, zirveden uzaklık, günün kazancının korunan payı, gelir/yatırım oranı. Girdiler 2 kaynaklı, hesap DONGU'ya "kendi hesabım".
 3. Mekanizma kısa satırlarla, her satır tek fikir (zincir ya da "piyasa şunu diyor / şirket şunu diyor / üçüncü taraf şunu diyor").
 4. Koşullu sonuç: "... ise X, değilse Y" (kesinlik yok, ama net).
-5. Bakılacak TEK somut kalem: "sözleşmelerin fiyat koşulu", "ön ödeme tutarı", "brüt marj" gibi.
+5. Takip edilecek tek somut şey, KONUŞMA DİLİYLE (kural 64): "Ben bilançoda ilk bunu kontrol edeceğim", "En çok ön ödemelerin ne olacağını merak ediyorum". "Bakacağım tek satır/kalem" gibi rapor cümleleri yasak.
 
 ## Kalıp seçimi (kalite.py --kalip zorunlu, aynı kalıp üst üste 3 kez olmaz)
 A zincir · B o zaman/şimdi · C koşullu eşik · D değer hesabı · E tek kavram (EGITICI) · F normalleştirme · G beklenti farkı · H birim ekonomisi · I nakit/sermaye · J değer zinciri · K tersine hesap · L akran kıyası · M tetikleyici takvimi · N kırılma noktası (iskeletler skill bölüm 8)
