@@ -1663,6 +1663,19 @@
    "guncelleme": "21.11 18:30"
   },
   {
+   "id": "TUR-2311-2240",
+   "ad": "Otomatik paylaşım turu",
+   "zaman": "2026-11-23 22:42",
+   "ne": "tur",
+   "ticker": "",
+   "tur": "tur",
+   "durum": "kuruldu",
+   "not": "",
+   "trigger": "trig_015jTsN2ScRVpsE3Mxdi6uj2",
+   "soz": "",
+   "guncelleme": "23.11 22:19"
+  },
+  {
    "id": "TAKIP-2311-nbis",
    "ad": "Takip: NBIS teknik seviyeler",
    "zaman": "2026-11-23T17:10",
@@ -1747,11 +1760,11 @@
    "ne": "tur",
    "ticker": "",
    "tur": "tur",
-   "durum": "kuruldu",
+   "durum": "tamam",
    "not": "",
    "trigger": "trig_01C8amUjNNfbbtVTM8ArTcUG",
    "soz": "",
-   "guncelleme": "23.11 21:53"
+   "guncelleme": "23.11 22:19"
   }
  ]
 }
