@@ -45,7 +45,7 @@ Kapsam: sistemin ürettiği BÜTÜN finans içeriği. Buna tur tweetleri, son da
 | BAGLAM-GORUS, PORTFOY, FIKIR, SEKTOR, ENES-HABER, diğer | 800 |
 | EGITICI, ENES-ISTEGI | 900 |
 | 13F, ANALIST | 1000 |
-| BILANCO-ANALIZ, HAFTALIK-OZET, AYIN-OZETI | 1200 |
+| BILANCO-ANALIZ, HAFTALIK-OZET, AYIN-OZETI, DERIN-ANALIZ | 1200 |
 
 - Tavan bir HEDEF değildir. Konu kısaysa tweet kısa kalır. 700 karakteri geçen her metin için "Daha kısa yazılınca değer kaybeder mi?" sorusu dürüstçe cevaplanır.
 - Kısaltma sırası: önce tekrar eden bağlam, sonra ikinci örnek, ikinci senaryo, terim açıklaması, ikinci derece etkinin ayrıntısı. Atılan derinlik kaybolmaz; Enes'e giden "Ne anlama geliyor?" mesajına (kural 47) taşınır. Bu mesajın tavanı yoktur, ama o mesaj da kısa maddeler hâlinde yazılır.
@@ -55,9 +55,9 @@ Kapsam: sistemin ürettiği BÜTÜN finans içeriği. Buna tur tweetleri, son da
 ## 3. Hiyerarşi ve mevcut kurallarla uzlaştırma (ÇAKIŞMADA BU SIRA)
 
 1. **Doğruluk:** her rakam 2 bağımsız kaynaktan gelir (bilanço rakam tweetinde şirket bülteni istisnası aynen geçerli). Kural 23: yalnız doğrulananlar yazılır. Uydurma rakam, akış, pozisyon ya da beklenti YASAK.
-2. **Enes'in açık yasakları:** Anthropic yazılmaz; al/sat tavsiyesi verilmez; x.com'a girilmez; yasak.py çalıştırılır; kurallar 54, 54-B ve 54-C uygulanır; tweet soruyla bitmez; emoji, hashtag ve link kullanılmaz; kural 46 konu alanı; kural 48-B tweet sayısı tavanı; kural 56-B (yalnız tutan beklenti yazılır); iptal listesi.
+2. **Enes'in açık yasakları:** Anthropic yazılmaz; al/sat tavsiyesi verilmez; x.com'a girilmez; yasak.py çalıştırılır; kurallar 54, 54-B, 54-C ve 54-D uygulanır; tweet soruyla bitmez; emoji, hashtag ve link kullanılmaz; kural 46 konu alanı; kural 48-B tweet sayısı tavanı; kural 56-B (yalnız tutan beklenti yazılır); iptal listesi.
 3. **Kural 59:** Enes'in görüş profili (ENES_GORUS_PROFILI.md).
-4. **Bu standart (kural 61).**
+4. **Bu standart (kural 61) ve eklentileri (62-65).**
 5. **Kural 60 üslubu, kural 50/50-B görüş kuralları, İÇERİK AYARI.**
 
 Bilinen çakışmalar ve çözümleri:
@@ -65,7 +65,7 @@ Bilinen çakışmalar ve çözümleri:
 - **Kural 59 (Enes YZ'ye inanır) ↔ asıl metin "karşıt tez geliştir":** Karşıt düşünce araştırmada ZORUNLU bir adımdır: piyasanın kötümser açıklaması gerçekten belirleyici mi diye sorgulanır. Tweette karşıt tez kanıtla kurulur ve çoğunlukla "piyasanın yorumu neyi kaçırıyor" yönündedir. YZ'yi toptan kötüleyen tez yine yazılmaz. Ama Enes'in tezine ters düşen tartışmasız kötü veri de gizlenmez; sakin ve kısa yazılır. Görüş profili, verinin söylemediği bir şeyi söyletmek için kullanılmaz.
 - **Kural 54 (dengeleme yasağı) ↔ asıl metin "senaryo yönetimi":** Senaryolar "bir yandan ... öte yandan" kalıbıyla değil, koşul cümlesiyle yazılır. Görüş tek yönde verilir; çekince ayrı, kısa ve somut bir cümle olur.
 - **Kural 54-C (mecaz yasağı) ↔ asıl metin "beklenmedik bağlantılar":** Bağlantı mekanizmayla anlatılır, benzetmeyle anlatılmaz.
-- **Kural 60 terim listesi ↔ asıl metin bölüm 2 "ilgisiz teknik kavramları sırf profesyonel görünmek için ekleme":** Bir terim ancak cümleden çıkarıldığında analiz bir şey kaybediyorsa kalır. Tweet başına en fazla 4-5 terim kullanılır (6'dan fazlası kalite.py'de HATA). Aynı terim art arda tweetlerde tekrar edilmez. İngilizce terimin Türkçesi ilk geçtiği yerde verilir.
+- **Kural 60 terim listesi ↔ asıl metin bölüm 2 "ilgisiz teknik kavramları sırf profesyonel görünmek için ekleme":** Bir terim ancak cümleden çıkarıldığında analiz bir şey kaybediyorsa kalır. Tweet başına en fazla 4-5 terim kullanılır (6'dan fazlası kalite.py'de HATA). Aynı terim art arda tweetlerde tekrar edilmez. İngilizce terimin Türkçesi ilk geçtiği yerde verilir. Kural 62 ve 63 bu listeyi ayrıca sınırlar.
 - **Hedef okur (ABD borsasını az bilen) ↔ "hedge fon analisti derinliği":** Asıl metindeki "Karmaşık düşün, sade ve doğal anlat" ilkesi uygulanır. Derinlik düşüncede ve seçilen mekanizmada olur, dilde ağırlık yaratmaz.
 - **Hız kuralları ↔ derinlik:** Bilanço RAKAM tweeti (10 dakika kuralı) ve son dakika tweeti hızlı modda yazılır. Bu modda veri kartı, konsensüs ayrımı ve tavan uygulanır; mekanizma analizi 15 dakika sonraki ANALIZ tweetine bırakılır. Derinlik uğruna hız kuralı çiğnenmez.
 - **Kural 55 (hafta içi tur boş geçmez) ↔ "kontrolden geçmeyen içeriği yeniden geliştir":** Bir içerik en fazla 2 kez yeniden yazılır. Hâlâ geçmiyorsa konu değiştirilir; hafta içi turlar başka bir konuyla tamamlanır. Kontrolden geçmeyen içerik "tur boş kalmasın" diye ATILMAZ. Hafta sonu tur boş geçebilir.
@@ -78,7 +78,7 @@ Bilinen çakışmalar ve çözümleri:
 | Şirket haberi (anlaşma, ortaklık, ürün) | Gelire ne zaman ve ne ölçekte döner, kim kazanır kim kaybeder, rakip etkisi, finansmanı | Tarihsel benzetme, makro |
 | Makro veri | Beklenti ile gerçekleşenin farkı, revizyonlar, öncü/nihai ayrımı, parasal aktarım (Fed'in tepki fonksiyonu → faizler → değerleme) | Opsiyon mikro yapısı, tek hisse hikâyesi |
 | Fed / faiz / tahvil | Piyasa fiyatlaması (FedWatch) ile Fed söyleminin farkı, reel faiz, vade yapısı | Kripto, şirket ayrıntısı |
-| Opsiyon / vade günü | Örtük hareket, açık pozisyon, vade etkisi (yalnız veri varsa) | Uydurma "gamma duvarı" ya da dealer pozisyonu |
+| Opsiyon / vade günü / oynaklık | Örtük hareket, açık pozisyon, vade etkisi, VIX vade eğrisi (yalnız veri varsa) | Uydurma "gamma duvarı" ya da dealer pozisyonu |
 | Kripto | Kaldıraç ve fonlama oranları, ETF akışları, tasfiyeler, likidite | Tahvil ya da Fed (gerçek ve güncel bir bağ yoksa) |
 | Sektör / rotasyon | Göreli performans, kazanç revizyonları, değerleme farkı | "Fonlar kaçıyor" türü kaynaksız akış iddiası |
 | 13F | Tarih gecikmesi (45 gün; "30 Eylül itibarıyla"), pozisyonun portföydeki ağırlığı ve değişimi | Bugünkü pozisyon sanmak |
@@ -127,7 +127,7 @@ Herhangi birine "hayır" cevabı çıkarsa metin yeniden yazılır; en fazla 2 k
 | Beklenti ile gerçekleşenin karışması | FedWatch olasılığını karar gibi yazmak; rehberi sonuç gibi yazmak | Türü cümlede açıkça yaz: "piyasa fiyatlaması", "şirket rehberi", "konsensüs" |
 | Kesinlik ↔ çekingenlik dengesizliği | Ya "kesinlikle yükselir" ya da her cümlede "olabilir" | Olgu net, gelecek koşullu; tek bir koşul cümlesi |
 | Her tweete senaryo üçlüsü | Boğa/ayı/baz kalıbı | Asıl metin bunu yasaklıyor; kalite.py HATA (özet türlerinde UYARI) |
-| Hep aynı yapı | Her tweet "haber → mekanizma → görüş" sırasıyla | Asıl metin bölüm 8: türü değiştir (veri odaklı, mekanizma odaklı, eleştirel, hipotez); açılış ve kapanış tekrarı kalite.py'de HATA; gorus.py |
+| Hep aynı yapı | Her tweet "haber → mekanizma → görüş" sırasıyla | Asıl metin bölüm 8 ve kural 63-D: yapı imzası kontrolü; açılış ve kapanış tekrarı kalite.py'de HATA; gorus.py |
 | Aynı fikrin farklı kelimelerle tekrarı | Gün içinde üç kez "satış temelden değil çarpandan" | DONGU son 30 satır ve kalite_defteri kontrolü; tez aynıysa yeni veri yoksa yazma |
 | Karşıt tez uğruna gerçeği bükmek | Kötü bilançoyu "aslında harika" diye sunmak | Kural 59 ile birlikte "tartışmasız kötü veri gizlenmez"; karşıt tez kanıtla kurulur |
 | Özgünlük adına spekülasyon | Kanıtsız "yanlış fiyatlama" iddiası | Hipotez görüş olarak etiketlenir ve dayandığı veri yazılır; veri yoksa yazılmaz |
@@ -140,6 +140,10 @@ Herhangi birine "hayır" cevabı çıkarsa metin yeniden yazılır; en fazla 2 k
 | Rakamların çelişmesi | İki kaynak farklı rakam veriyor | Fark küçükse yuvarlak ve "yaklaşık" yaz; büyükse rakamı kullanma, DONGU'ya "çelişkili" yaz |
 | Tutmayan tahminin anılması | "Dün yazdığım seviye kırıldı" | Kural 56-B: yalnız tutanlar yazılır |
 | Al/sat tavsiyesine kayma | "Bu fiyattan alım fırsatı" | Kendi tavrı ya da gözlem olarak yazılır; okura emir kipi kullanılmaz |
+| Her tweet "izleyeceğim" ile biter | "Ben en çok şunu takip edeceğim" tekrarı | Kural 64-B: son 5 tweette geçtiyse kullanılmaz; sonuç cümlesiyle bitir |
+| Yapay zekâ gibi kurgulu cümle | "Manşet X diyor, veri başka bir şey söylüyor", "stres geçmiş değil" | Kural 54-D: yasak.py yakalar; olgu ve rakam düz cümleyle |
+| Yüzeysel analiz | Fiyat yüzdesi + manşet + yorum | Kural 65: ikinci katman veri zorunlu (kalite.py HATA) |
+| İki tweet aynı dakikada | Akışta birbirini gölgeler | Aralık kuralı: ikinci tweet Buffer'da ~12 dk sonraya zamanlanır |
 
 ## 6b. KURAL 62 — piyasa jargonu sıklığı (Enes 23.11 20:40)
 
@@ -149,7 +153,7 @@ Enes "fiyatlandı", "iskonto" ve benzeri kelimelerin çok sık kullanılmasını
 
 - Her tweetten sonra `kalite.py kaydet` çalıştırılır. DONGU satırına, varsa, "kalite: ..." gerekçeleri eklenir.
 - 10:15 perfogren görevi uzunluk ile görüntülenme ilişkisine bakar. Tavanlar ancak veri gösterirse DERSLER.md'de önerilir ve Enes onaylarsa değiştirilir (kalite.py SINIR). Asıl metin hiçbir zaman değiştirilmez.
-- Kural değişirse hem bu skill (improvement) hem `invest/skills/enes-analiz-kalitesi.md` kopyası güncellenir.
+- Kural değişirse hem bu skill (improvement) hem `invest/skills/enes-analiz-kalitesi.md` kopyası hem `invest/KURAL_DIZINI.md` güncellenir.
 
 ## 8. KURAL 63 — Derinlik kalıpları (Enes 23.11 20:44-21:19)
 
