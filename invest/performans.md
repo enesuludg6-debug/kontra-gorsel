@@ -203,3 +203,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 23.11 | 20:38 | BAGLAM-GORUS | NVDA skandal oncesinin %11 alti | cizgi | 6b047a1c4129dae94380575d |
 | 23.11 | 21:01 | BAGLAM-GORUS | MU Citi bellek talebi | spotlight | 6b047f690191a6ffcb813076 |
 | 23.11 | 21:02 | EGITICI | Bellek DRAM ve NAND ayrimi | uclu | 6b047fc00720ccb673fd4e36 |
+| 23.11 | 21:27 | BAGLAM-GORUS | CRWD ZS birlesme farki | editoryal | 6b04858376f8581f138ec5a1 |
