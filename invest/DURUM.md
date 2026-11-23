@@ -25,7 +25,7 @@ Son güncelleme: 23.11.2026 23:11 TSİ (C). Turlar şunu okur: tur_basi.sh çık
 - Kural 23: tutmayan tahmin tweette anılmaz, yalnız doğru çıkanlar. Yanlış rakamda kural 21 düzeltme.
 
 ## Kart
-- Son 3 düzen: uclu (HPE bilanco oncesi), once_sonra (ortuk korelasyon COR), cizgi (SKEW cokus korumasi).
+- Son 3 düzen: once_sonra (ortuk korelasyon COR), cizgi (SKEW cokus korumasi), siralama (esit agirlik genisli).
 - LOGO_BUYUT 1.8, küçültme YOK; bento ve skor kare logoyu taşımıyor (bilanço rakamı = uclu); dortlu/isi kartında logolu ticker rakama biniyor (logosuz isim).
 
 ## 13F serisi (Q3 2026)
