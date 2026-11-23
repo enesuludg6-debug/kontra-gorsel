@@ -1669,11 +1669,24 @@
    "ne": "tur",
    "ticker": "",
    "tur": "tur",
-   "durum": "kuruldu",
+   "durum": "tamam",
    "not": "",
    "trigger": "trig_015jTsN2ScRVpsE3Mxdi6uj2",
    "soz": "",
-   "guncelleme": "23.11 22:19"
+   "guncelleme": "23.11 22:45"
+  },
+  {
+   "id": "TUR-2311-2305",
+   "ad": "Otomatik paylaşım turu",
+   "zaman": "2026-11-23 23:08",
+   "ne": "tur",
+   "ticker": "",
+   "tur": "tur",
+   "durum": "kuruldu",
+   "not": "",
+   "trigger": "trig_017Pq37XUyYBGgpPnJAUzQyK",
+   "soz": "",
+   "guncelleme": "23.11 22:45"
   },
   {
    "id": "TAKIP-2311-nbis",
