@@ -228,5 +228,35 @@
 "zaman": "23.11 23:11",
 "gun": "23.11",
 "uzunluk": 598
+},
+{
+"jargon": {},
+"tarih": [],
+"terim": [],
+"acilis": "sitm bugün 20 ye",
+"kapanis": "satın almanın katkısı gelecek",
+"rekor": 0,
+"imza": "3p-duz-o-rakam",
+"kalip": "I",
+"tur": "PORTFOY",
+"zaman": "23.11 23:36",
+"gun": "23.11",
+"uzunluk": 621
+},
+{
+"jargon": {},
+"tarih": [],
+"terim": [
+"serbest nakit akışı"
+],
+"acilis": "docn un yıllık gelir",
+"kapanis": "yapay zekâ payı bu",
+"rekor": 0,
+"imza": "3p-duz-o-rakam",
+"kalip": "H",
+"tur": "PORTFOY",
+"zaman": "23.11 23:36",
+"gun": "23.11",
+"uzunluk": 632
 }
 ]
