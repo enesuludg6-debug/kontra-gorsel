@@ -25,7 +25,7 @@ Son güncelleme: 23.11.2026 22:18 TSİ (C). Turlar şunu okur: tur_basi.sh çık
 - Kural 23: tutmayan tahmin tweette anılmaz, yalnız doğru çıkanlar. Yanlış rakamda kural 21 düzeltme.
 
 ## Kart
-- Son 3 düzen: dortlu (Dort endiseden biri ), takvim (Sukran haftasi takvi), grafik2 (VIX vade yapisi).
+- Son 3 düzen: takvim (Sukran haftasi takvi), grafik2 (VIX vade yapisi), editoryal (DELL bilanco oncesi).
 - LOGO_BUYUT 1.8, küçültme YOK; bento ve skor kare logoyu taşımıyor (bilanço rakamı = uclu); dortlu/isi kartında logolu ticker rakama biniyor (logosuz isim).
 
 ## 13F serisi (Q3 2026)
