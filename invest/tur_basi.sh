@@ -8,6 +8,7 @@ echo "=== KILIT: $(grep -m1 '^AKTIF:' AKTIF_HESAP.md) (bu gorev HESAP=$H)"
 grep -qE "^AKTIF: $H[[:space:]]*$" AKTIF_HESAP.md || { echo "!!! AKTIF $H DEGIL -> HICBIR SEY YAPMA, GOREVI KAPAT"; exit 2; }
 tail -n 40 DONGU.md | grep -q '^DURDUR' && { echo "!!! DURDUR VAR -> DUR"; exit 3; }
 echo "=== SAAT (TSI): $(TZ=Europe/Istanbul date '+%d.%m %a %H:%M')"
+echo "=== KURAL_DIZINI.md (TEK kural listesi; tam metin KURALLAR_TAM.md, skill dosyalarini bastan OKUMA)"; cat KURAL_DIZINI.md
 echo "=== DURUM.md"; cat DURUM.md
 echo "=== DONGU son 30"; tail -n 30 DONGU.md | cut -c1-400
 echo "=== SON OTOMATIK/ENES PAYLASIM"; grep -E '^- [0-9]{2}:[0-9]{2} \([0-9.]+\) (AUTO|ENES-ISTEGI)' DONGU.md | tail -n 3 | cut -c1-120

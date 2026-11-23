@@ -3,6 +3,8 @@ name: "enes-portfoy-analiz"
 description: "Enes'in portföyü için ben olsam notları, aday hisse seçimi ve kıyas, temel karne (/50) yazılırken kullanılır."
 ---
 
+> **KURALLAR (23.11 20:50, kredi tasarrufu):** Bu dosyanın başındaki "!!!" kural blokları kelimesi kelimesine `invest/KURALLAR_TAM.md`'ye taşındı (hiçbiri silinmedi). Güncel kısa liste `invest/KURAL_DIZINI.md` (tur_basi.sh basar). Ayrıntı gerekince ilgili kural grep ile açılır.
+
 > **KURAL 61 (23.11, ÖNCE BUNU UYGULA):** Bu skill ile yazılan her içerik ayrıca `enes-analiz-kalitesi` skill'ine (yoksa `invest/skills/enes-analiz-kalitesi.md`) uyar: konuya özgü mercek, veri kartı, tarihsel karşılaştırma ve senaryo disiplini, zorla bağlantı ve terim yığını yok, uzunluk tavanı. Yayından önce `python3 invest/kalite.py kontrol --tur <TUR>` (1 = atma), atınca `kalite.py kaydet --tur <TUR>`. Bu dosyadaki daha uzun/esnek uzunluk ifadeleri kural 61 tavanlarıyla sınırlıdır.
 
 # Portföy analizi: temel analiz, ben olsam notu, temel karne
