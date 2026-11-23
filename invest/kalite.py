@@ -98,7 +98,7 @@ def kalip_kontrol(k, l, t):
     if k == 'C':
         return bool(re.search(r'\w+(?:ırsa|irse|ursa|ürse|arsa|erse|sa|se)\b', l)) and len(_sayilar(l)) >= 2, 'C eşik: en az bir koşul (-sa/-se) ve eşik rakamı gerekli'
     if k == 'D':
-        return len(_sayilar(l)) >= 3 and bool(re.search(r'piyasa değer|katı|katından|kat\b|nakit|yıllığa|biçiyor|değer veriyor|oran', l)), 'D değer hesabı: en az 3 rakam ve kendi hesap ifadesi (piyasa değeri, kârın X katı, nakit, yıllığa çevrilince, biçilen değer) gerekli'
+        return len(_sayilar(l)) >= 3 and bool(re.search(r'piyasa değer|katı|katından|kat\b|nakit|yıllığa|biçiyor|değer veriyor|oran|ediyor|eder\b|değerinde', l)), 'D değer hesabı: en az 3 rakam ve kendi hesap ifadesi (piyasa değeri, kârın X katı, nakit, yıllığa çevrilince, biçilen değer) gerekli'
     if k == 'E':
         return len(cumle) >= 3, 'E tek kavram dersi: kavram + örnek + çıkarım'
     if k == 'G':
