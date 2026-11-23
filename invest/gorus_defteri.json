@@ -1,10 +1,5 @@
 [
 {
-"acilis": "bu hamleye büyük",
-"kaliplar": [],
-"metin": "Bu hamleye büyük ölçüde katılıyorum. Hesaplama gücü zincirinde çok kalabalık bir alım vardı, oradan çıkıp yapay zekâyı doğrudan gelire çeviren Microsoft'a geçme"
-},
-{
 "acilis": "bu düşüşü abartılı",
 "kaliplar": [],
 "metin": "Bu düşüşü abartılı buluyorum ama riski de hafife almıyorum. Şu an elimizde açığa satış yapan bir tarafın iddiası var, kanıtlanmış bir ihlal yok. Öte yandan iddi"
@@ -304,5 +299,12 @@
 "acilis": "aradaki farkı bu",
 "kaliplar": [],
 "metin": "Aradaki farkı bu açık dosyanın iskontosu olarak görüyorum. Şirketin son çeyrek rehberinde bu iskontoyu haklı çıkaran bir bozulma yok. Soruşturma ciddi bir bulgu"
+},
+{
+"acilis": "micron da asıl",
+"kaliplar": [
+"asıl soru"
+],
+"metin": "Micron'da asıl soru talep değil, bellek fiyatlarının yüksek seviyede ne kadar kalacağı. Aralık'taki bilanço bu soruya ilk net cevabı verecek."
 }
 ]

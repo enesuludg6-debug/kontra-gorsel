@@ -201,3 +201,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 23.11 | 20:18 | PORTFOY | NBIS neocloud korunan kazanc | grafik2 | 6b04754b827feee79c10a65f |
 | 23.11 | 20:37 | PORTFOY | AVGO Kuo TPU kesintisi | dortlu | 6b0479bcff0a846b7faca7a9 |
 | 23.11 | 20:38 | BAGLAM-GORUS | NVDA skandal oncesinin %11 alti | cizgi | 6b047a1c4129dae94380575d |
+| 23.11 | 21:01 | BAGLAM-GORUS | MU Citi bellek talebi | spotlight | 6b047f690191a6ffcb813076 |
