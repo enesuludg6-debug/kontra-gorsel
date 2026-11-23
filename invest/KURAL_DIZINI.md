@@ -34,7 +34,7 @@ Bu dosya kural 1-63'ün GÜNCEL hâlinin kısa listesidir; hiçbir kural silinme
 
 ## D. Yazım (her tweet)
 - 11/11-B/52/54/54-B/54-C `yasak.py` her tweetten önce (çıkış 1 = atma): etiketli giriş ("Görüşüm:", "Not:", satır başı "X:"), "okuyorum/okumam", iki tarafı dengeleyen kalıplar, ruh hâli klişeleri, mecaz ve dramatik sahne, sunucu açılışları yasak.
-- 54-D (Enes 23.11 22:06): veriye/manşete konuşma yükleyen kurgulu karşıtlık yasak ("Manşet X diyor; veri başka bir şey söylüyor", "rakamlar başka bir hikâye anlatıyor", "fısıldıyor"); yasak.py yakalar. Olgu düz cümleyle.
+- 54-D (Enes 23.11 22:06): veriye/manşete konuşma yükleyen kurgulu karşıtlık yasak ("Manşet X diyor; veri başka bir şey söylüyor", "rakamlar başka bir hikâye anlatıyor", "fısıldıyor"); yasak.py yakalar. Olgu düz cümleyle. Piyasanın ruh hâlini soyut kelimeyle özetlemek de yasak ("stres geçmiş değil", "panik bitti", "nefes aldı"); rakamın gösterdiğini düz söyle ("kısa vadeli oynaklık hâlâ uzun vadelinin üzerinde").
 - 25/50 Her haber tweeti haber + YORUM; birinci tekil net görüş zorunlu (bilanço rakam tweeti hariç).
 - 50-B `gorus.py kontrol/kaydet`: görüş açılışı ve kalıbı son tweetlerde tekrar etmez.
 - 59 Görüş Enes'in profiliyle (ENES_GORUS_PROFILI.md): YZ altyapısına inanan, dip toplayan uzun vadeli yatırımcı; şirkete özgü sorunu YZ talebinden ayır; YZ'yi toptan kötüleme; kötü veriyi gizleme.

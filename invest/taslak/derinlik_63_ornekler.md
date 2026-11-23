@@ -31,7 +31,7 @@ A zincir · B o zaman/şimdi · C koşullu eşik · D değer hesabı · E tek ka
 ESKİ TARZ (ilk katman, izleme kapanışı): "S&P 500 bugün %4,7 yükseldi, geçen haftaki kaybının yarısını geri aldı. Ben en yakından neocloud finansman haberlerini takip edeceğim."
 
 YENİ TARZ (ikinci katman, sonuçla biten):
-Korku endeksi VIX cuma 35,9'du, bugün 27,1'e indi. Ama vadelere bakınca stres geçmiş değil.
+Korku endeksi VIX cuma 35,9'du, bugün 27,1'e indi. Ama kısa vadeli oynaklık hâlâ uzun vadelinin üzerinde.
 
 9 günlük oynaklık 28,9
 1 aylık 27,1
@@ -44,3 +44,4 @@ Eğri normale dönmeden bugünkü yükselişi kalıcı bir dip saymak erken. Ça
 Neden daha profesyonel: (1) manşet verisinin (VIX düştü) altındaki yapı (vade eğrisi) anlatılıyor; (2) teknik kavram tek cümlede sade açıklanıyor; (3) üç somut rakam kısa satırlarla; (4) cuma ile kıyas; (5) "takip edeceğim" yok, sonuç cümlesi var.
 
 - 54-D (Enes 23.11 22:06 "çok ai yazmış gibi bir cümle"): "Manşet X diyor; vade yapısı başka bir şey söylüyor" türü, veriye/manşete/tabloya konuşma yükleyen kurgulu karşıtlık YASAK (yasak.py). Olguyu düz söyle: "VIX 27,1'e indi. Ama vadelere bakınca stres geçmiş değil."
+- 54-D devamı (Enes 22:07 "stres geçmiş değil, bu da çok ai"): piyasanın ruh hâlini soyut kelimeyle özetleme ("stres geçmiş değil", "panik bitti", "nefes aldı", "rahatlama geldi") YASAK. Rakamın gösterdiği şeyi düz söyle: "Kısa vadeli oynaklık hâlâ uzun vadelinin üzerinde."
