@@ -77,6 +77,25 @@ HAM_JARGON = [r'\bvanna\b', r'\bvega\b', r'\bgamma\b', r'\bdelta (hedge|hedg|nö
               r'\bitm\b', r'\bskew\b', r'\bnav\b', r'deleverag', r'squeeze', r'\broll\b', r'\bcollar\b', r'catch-?up trade',
               r'\bfeedback loop', r'\bspot down', r'\bvol down', r'\bhedge\b', r'\bleptokurt']
 DERIN_GUNLUK = 2
+# KURAL 63-B (Enes 23.11 21:11: "çoğunun etkisini göremiyorum, görmek istiyorum"): her tweet --kalip A..F ile yazılır ve kalıbın izi metinde olmalı.
+KALIP_MUAF = {'VADELI', 'BEKLENTI', 'BILANCO-RAKAM', 'KEYLEVELS', 'ENES-ISTEGI', 'ENES-HABER'}
+def _sayilar(l): return re.findall(r'\d+(?:[.,]\d+)?', l)
+def kalip_kontrol(k, l, t):
+    cumle = [c for c in re.split(r'[.!\n]+', t) if c.strip()]
+    if k == 'A':
+        bag = len(re.findall(r'\b(bu yüzden|bu da|böylece|dolayısıyla|bu nedenle|o yüzden|bunun sonucunda|sonra|ardından|bu durumda)\b|→', l))
+        return bag >= 2 and len(cumle) >= 4, 'A zinciri: en az 3 adım ve en az 2 bağlaç (bu yüzden, bu da, böylece, dolayısıyla, ardından...) gerekli'
+    if k == 'B':
+        return bool(re.search(r'\b(o zaman|o dönem|geçen sefer|önceki|o seferde)\b', l)) and bool(re.search(r'\b(bugün|şimdi|bu kez|bu sefer)\b', l)), 'B: geçmişteki durum (o zaman/önceki) ve bugünkü durum (bugün/şimdi/bu kez) açıkça karşılaştırılmalı'
+    if k == 'C':
+        return bool(re.search(r'\w+(?:ırsa|irse|ursa|ürse|arsa|erse|sa|se)\b', l)) and len(_sayilar(l)) >= 2, 'C eşik: en az bir koşul (-sa/-se) ve eşik rakamı gerekli'
+    if k == 'D':
+        return len(_sayilar(l)) >= 3 and bool(re.search(r'piyasa değer|katı|katından|kat\b|nakit|yıllığa|biçiyor|değer veriyor|oran', l)), 'D değer hesabı: en az 3 rakam ve kendi hesap ifadesi (piyasa değeri, kârın X katı, nakit, yıllığa çevrilince, biçilen değer) gerekli'
+    if k == 'E':
+        return len(cumle) >= 3, 'E tek kavram dersi: kavram + örnek + çıkarım'
+    if k == 'F':
+        return bool(re.search(r'olağan|normal|sık görülür|alışılmış', l)), 'F: hareketin olağan olduğunu açıkça söyle'
+    return False, 'kalıp A-F olmalı'
 # Bilanço tweetinde makro/kripto bağlantısı ve kripto tweetinde tahvil bağlantısı: zorlama riski
 ZORLA = {
     'BILANCO': [r'\bfed\b', r'faiz', r'tahvil', r'bitcoin', r'kripto', r'dolar endeksi', r'\bdxy\b'],
@@ -124,7 +143,7 @@ def main():
     f = ozellik(t); d = yukle()
     if m == 'kaydet':
         _n = dt.datetime.now(dt.timezone(dt.timedelta(hours=3)))
-        f.update({'tur': tur, 'zaman': _n.strftime('%d.%m %H:%M'), 'gun': (_n - dt.timedelta(hours=2)).strftime('%d.%m'), 'uzunluk': len(t.strip())})
+        f.update({'kalip': (a[a.index('--kalip') + 1].upper() if '--kalip' in a else ''), 'tur': tur, 'zaman': _n.strftime('%d.%m %H:%M'), 'gun': (_n - dt.timedelta(hours=2)).strftime('%d.%m'), 'uzunluk': len(t.strip())})
         d.append(f); json.dump(d[-60:], open(D, 'w', encoding='utf-8'), ensure_ascii=False, indent=0)
         print('KALITE KAYDEDILDI'); return
 
@@ -170,6 +189,18 @@ def main():
     if grup:
         zz = [re.search(k, l).group(0) for k in ZORLA[grup] if re.search(k, l)]
         if zz: uyari.append(f'{tur} tweetinde {zz}: bu bağlantı şirketin/konunun rakamlarına doğrudan etki ediyor mu? Etmiyorsa sil.')
+    # 7-0) KURAL 63-B: kalıp zorunlu ve izi görünmeli
+    kalip = (a[a.index('--kalip') + 1].upper() if '--kalip' in a else '')
+    if tur not in KALIP_MUAF:
+        if not kalip:
+            hata.append('kural 63-B: --kalip A|B|C|D|E|F ver (A zincir, B o zaman/şimdi, C koşullu eşik, D değer hesabı, E tek kavram, F normalleştirme).')
+        else:
+            ok, msg = kalip_kontrol(kalip, l, t)
+            if not ok: hata.append('kural 63-B: ' + msg)
+        if len(_sayilar(l)) < 2 and tur != 'EGITICI':
+            hata.append('kural 63-B: rakamla konuş; en az 2 doğrulanmış rakam.')
+    if kalip and len(d) >= 2 and all(x.get('kalip') == kalip for x in d[-2:]):
+        hata.append(f'kural 63-B: {kalip} kalıbı son 2 tweette kullanıldı; başka kalıp seç (çeşitlilik).')
     # 7a) KURAL 63: ham jargon ve derin analiz günlük sınırı
     hj = [re.search(k, l).group(0) for k in HAM_JARGON if re.search(k, l)]
     if hj: hata.append(f'kural 63: ham İngilizce jargon {hj}: terimi yazma, ne yaptığını gündelik Türkçeyle anlat (ör. "piyasa yapıcılar riskten korunmak için vadeli satıyor").')

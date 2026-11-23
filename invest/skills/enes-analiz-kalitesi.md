@@ -173,6 +173,8 @@ Enes'in isteği: "bizim tweet'lerimiz de bu kadar detaylı bu kadar profesyonel 
 
 **Uzunluk:** Bu kalıplar alan ister. Bunun için yeni bir tür var: `DERIN-ANALIZ`. Tavanı 1.200 karakter, günde en fazla 2 kez kullanılır ve `kalite.py` sayar. Diğer türlerde tavanlar değişmez; kalıplar kısa hâlleriyle kullanılır (bir zincir 2-3 adımla, bir eşik tek cümleyle).
 
+**63-B Zorunluluk (Enes 23.11 21:11 "çoğunun etkisini göremiyorum, görmek istiyorum"):** Her tweet `kalite.py kontrol --tur <TÜR> --kalip <A-F>` ile kontrol edilir; kalıbın izi metinde yoksa HATA, aynı kalıp üst üste 3 kez olmaz, en az 2 doğrulanmış rakam gerekir (VADELI, BEKLENTI, BILANCO-RAKAM, KEYLEVELS ve Enes'in kendi metinleri muaf). Görünür farkın 5 işareti: hesap kuran ilk cümle; en az bir kendi hesabımız (kârın kaç katı, piyasa değeri eksi nakit, zirveden uzaklık, korunan kazanç payı); kısa satırlarla mekanizma; koşullu sonuç; bakılacak tek somut kalem. Önce/sonra örneği `invest/taslak/derinlik_63_ornekler.md`.
+
 **Konu eşleştirmesi:**
 - Piyasa stresinde ve zorunlu satış günlerinde: A ve C.
 - Sert toparlanma ya da düşüş günlerinde: B.
