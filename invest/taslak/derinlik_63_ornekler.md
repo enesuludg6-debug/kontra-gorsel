@@ -24,4 +24,4 @@ Satılan üretim fiyatı da sabitliyorsa bugünkü oran fazla düşük. Sabitlem
 5. Bakılacak TEK somut kalem: "sözleşmelerin fiyat koşulu", "ön ödeme tutarı", "brüt marj" gibi.
 
 ## Kalıp seçimi (kalite.py --kalip zorunlu, aynı kalıp üst üste 3 kez olmaz)
-A zincir · B o zaman/şimdi · C koşullu eşik · D değer hesabı · E tek kavram (EGITICI) · F normalleştirme
+A zincir · B o zaman/şimdi · C koşullu eşik · D değer hesabı · E tek kavram (EGITICI) · F normalleştirme · G beklenti farkı · H birim ekonomisi · I nakit/sermaye · J değer zinciri · K tersine hesap · L akran kıyası · M tetikleyici takvimi · N kırılma noktası (iskeletler skill bölüm 8)

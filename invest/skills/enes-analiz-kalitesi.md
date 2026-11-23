@@ -173,14 +173,28 @@ Enes'in isteği: "bizim tweet'lerimiz de bu kadar detaylı bu kadar profesyonel 
 
 **Uzunluk:** Bu kalıplar alan ister. Bunun için yeni bir tür var: `DERIN-ANALIZ`. Tavanı 1.200 karakter, günde en fazla 2 kez kullanılır ve `kalite.py` sayar. Diğer türlerde tavanlar değişmez; kalıplar kısa hâlleriyle kullanılır (bir zincir 2-3 adımla, bir eşik tek cümleyle).
 
-**63-B Zorunluluk (Enes 23.11 21:11 "çoğunun etkisini göremiyorum, görmek istiyorum"):** Her tweet `kalite.py kontrol --tur <TÜR> --kalip <A-F>` ile kontrol edilir; kalıbın izi metinde yoksa HATA, aynı kalıp üst üste 3 kez olmaz, en az 2 doğrulanmış rakam gerekir (VADELI, BEKLENTI, BILANCO-RAKAM, KEYLEVELS ve Enes'in kendi metinleri muaf). Görünür farkın 5 işareti: hesap kuran ilk cümle; en az bir kendi hesabımız (kârın kaç katı, piyasa değeri eksi nakit, zirveden uzaklık, korunan kazanç payı); kısa satırlarla mekanizma; koşullu sonuç; bakılacak tek somut kalem. Önce/sonra örneği `invest/taslak/derinlik_63_ornekler.md`.
+**63-B Zorunluluk (Enes 23.11 21:11 "çoğunun etkisini göremiyorum, görmek istiyorum"):** Her tweet `kalite.py kontrol --tur <TÜR> --kalip <A-N>` ile kontrol edilir; kalıbın izi metinde yoksa HATA, aynı kalıp üst üste 3 kez olmaz, en az 2 doğrulanmış rakam gerekir (VADELI, BEKLENTI, BILANCO-RAKAM, KEYLEVELS ve Enes'in kendi metinleri muaf). Görünür farkın 5 işareti: hesap kuran ilk cümle; en az bir kendi hesabımız (kârın kaç katı, piyasa değeri eksi nakit, zirveden uzaklık, korunan kazanç payı); kısa satırlarla mekanizma; koşullu sonuç; bakılacak tek somut kalem. Önce/sonra örneği `invest/taslak/derinlik_63_ornekler.md`.
 
-**Konu eşleştirmesi:**
-- Piyasa stresinde ve zorunlu satış günlerinde: A ve C.
-- Sert toparlanma ya da düşüş günlerinde: B.
-- Portföydeki ve ilgi listesindeki küçük/orta şirketlerde: D (piyasa değeri eksi net nakit).
-- Eğitici slotlarda: E.
-- Haber yokken sert hareket eden küçük hisselerde: F.
+**Profesyonel bakış açılarından 8 ek kalıp (Enes 23.11 21:14: "sadece o tweet'lerden yararlanma, daha da profesyonel bakış açıları ekleyebilirsin").** Bunlar bir yatırım fonu analistinin bir habere bakarken sorduğu sorulardır; her biri sade dille, rakamla yazılır:
+- **G. Beklenti farkı.** Hisse rakama değil beklentiye tepki verir. Beklenen ve gelen rakam yan yana yazılır, fiyat tepkisi bu farkla açıklanır. Örnek iskelet: "Beklenti gelirde 1,55 milyar dolardı, 1,58 milyar dolar geldi. Hisse yine de %10 düştü; çıta açıklanan rakamdan yüksekti." Beklenti 2 kaynaklı, "çıta" yorumu görüş olarak.
+- **H. Birim ekonomisi.** Büyük rakamı tek birime indir: müşteri başına gelir, MW başına gelir, fırlatma başına fiyat, GPU saati fiyatı, abone başına harcama. Okur büyüklüğü ancak böyle kavrar. Örnek iskelet: "Bu sözleşme MW başına yıllık X milyon dolar demek; şirketin mevcut ortalamasının Y katı."
+- **I. Nakit ve sermaye izi.** Kâr ile nakit aynı şey değildir. Serbest nakit akışı, yatırım harcamasının gelire oranı, borç, hisse sayısındaki artış (seyrelme) ya da geri alım rakamla yazılır. Örnek iskelet: "Şirket çeyrekte X milyon dolar kâr açıkladı ama Y milyon dolar nakit yaktı; fark stokta biriken üründen geliyor."
+- **J. Değer zinciri.** Bir şirketin haberi başka şirketlerin gelirine dönüşür: hiperölçekli bulutun yatırım harcaması → çip → bellek → ağ → güç ve soğutma. "Kimin harcaması kimin geliri" sorusuyla en az iki şirketi bağla. Örnek iskelet: "$MSFT'nin yatırım harcamasındaki her artışın bir kısmı $VRT'nin soğutma siparişine dönüşüyor."
+- **K. Tersine hesap.** Hedef fiyat vermeden, bugünkü fiyatın haklı çıkması için neyin olması gerektiğini hesapla. Örnek iskelet: "Bugünkü piyasa değerinin bugünkü satış katında kalması için gelirin 3 yılda X katına çıkması gerekiyor; şirketin rehberi Y diyor." Hesap DONGU'ya "kendi hesabım".
+- **L. Akran kıyası.** Aynı ölçüyle en az iki şirket: satışın kaç katı, büyüme hızı, brüt marj. "Ucuz/pahalı" hükmü değil, farkın nedeni anlatılır. Örnek iskelet: "$CRWV satışlarının X katından, $NBIS Y katından işlem görüyor; aradaki fark büyüme hızından değil borç yükünden."
+- **M. Tetikleyici takvimi.** Önümüzdeki somut tarih ve o tarihte bakılacak TEK rakam. Örnek iskelet: "17 Aralık'taki bilançoda bakacağım tek satır sözleşmelerin fiyat koşulu."
+- **N. Kırılma noktası.** Tezi bozacak tek şey ve bugün ona ne kadar uzak olduğumuz, rakamla. Örnek iskelet: "Şirketin elinde X milyon dolar nakit var, çeyrekte Y milyon dolar yakıyor; bu nakit yaklaşık Z çeyrek yeter. Tezi bozacak şey yeni hisse ihracı olur."
+
+Bu kalıplar da hedef fiyat yasağına, 2 kaynak kuralına, kural 62 (jargon sıklığı) ve kural 11'e (iki noktalı etiket yok) tabidir. `kalite.py --kalip` A-N harflerini tanır ve her birinin izini metinde arar.
+
+**Konu eşleştirmesi (A-N):**
+- Bilanço: G (beklenti farkı), I (nakit), M (sonraki tarih), D/K (değer).
+- Sözleşme/anlaşma haberi: H (birim ekonomisi), J (değer zinciri).
+- Sert yükseliş ya da düşüş: K (tersine hesap), B (o zaman/şimdi), F (normalleştirme).
+- Piyasa stresi ve zorunlu satış: A (zincir), C (eşik).
+- Küçük/nakit yakan şirket: N (kırılma noktası), D (piyasa değeri - nakit).
+- Sektör/rotasyon: L (akran kıyası), J.
+- Eğitici: E.
 
 ## EK — ASIL METİN (Enes 23.11.2026 20:08; KELİMESİ KELİMESİNE, değiştirilmez)
 

@@ -93,9 +93,25 @@ def kalip_kontrol(k, l, t):
         return len(_sayilar(l)) >= 3 and bool(re.search(r'piyasa değer|katı|katından|kat\b|nakit|yıllığa|biçiyor|değer veriyor|oran', l)), 'D değer hesabı: en az 3 rakam ve kendi hesap ifadesi (piyasa değeri, kârın X katı, nakit, yıllığa çevrilince, biçilen değer) gerekli'
     if k == 'E':
         return len(cumle) >= 3, 'E tek kavram dersi: kavram + örnek + çıkarım'
+    if k == 'G':
+        return bool(re.search(r'beklen|tahmin', l)) and bool(re.search(r'geldi|açıkla|gerçekleş|oldu', l)) and len(_sayilar(l)) >= 2, 'G beklenti farkı: beklenen rakam ve gelen rakam yan yana (en az 2 rakam)'
+    if k == 'H':
+        return bool(re.search(r'başına', l)) and len(_sayilar(l)) >= 2, 'H birim ekonomisi: "X başına" hesap (müşteri/MW/fırlatma/GPU saati başına) ve rakam'
+    if k == 'I':
+        return bool(re.search(r'nakit akış|serbest nakit|hisse sayısı|seyrel|geri alım|yatırım harcama|borç|nakd', l)) and len(_sayilar(l)) >= 2, 'I nakit ve sermaye: kâr ile nakit farkı, yatırım harcaması, borç, seyrelme ya da geri alım rakamla'
+    if k == 'J':
+        return len(set(re.findall(r'\$[A-Z]{1,5}', t))) >= 2 and bool(re.search(r'müşteri|tedarikçi|harcama|sipariş|geliri', l)), 'J değer zinciri: bir şirketin haberinden müşterisine/tedarikçisine geçiş (en az 2 $TICKER ve müşteri/tedarikçi bağı)'
+    if k == 'K':
+        return bool(re.search(r'haklı çıka|gerekiyor|gerekir|büyümesi gerek|için .{0,30}gerek', l)) and len(_sayilar(l)) >= 2, 'K tersine hesap: bugünkü fiyatın haklı çıkması için neyin olması gerektiği, rakamla'
+    if k == 'L':
+        return len(set(re.findall(r'\$[A-Z]{1,5}', t))) >= 2 and bool(re.search(r'göre|kıyasla|karşılaştır|aynı ölçü', l)) and len(_sayilar(l)) >= 3, 'L akran kıyası: en az 2 şirket aynı ölçüyle, en az 3 rakam'
+    if k == 'M':
+        return bool(re.search(r'\b\d{1,2} (ocak|şubat|mart|nisan|mayıs|haziran|temmuz|ağustos|eylül|ekim|kasım|aralık)|aralık|ocak|haftaya|yarın|perşembe|cuma', l)) and bool(re.search(r'bakacağım|izleyeceğim|belirleyecek|gösterecek|netleşecek', l)), 'M tetikleyici takvimi: somut tarih ve o tarihte bakılacak rakam'
+    if k == 'N':
+        return bool(re.search(r'bozar|bozulur|yeter|çeyrek boyunca|dayanır|kırılma', l)) and len(_sayilar(l)) >= 2, 'N kırılma noktası: tezi bozacak tek şey ve bugünkü mesafesi, rakamla (ör. nakit kaç çeyrek yeter)'
     if k == 'F':
         return bool(re.search(r'olağan|normal|sık görülür|alışılmış', l)), 'F: hareketin olağan olduğunu açıkça söyle'
-    return False, 'kalıp A-F olmalı'
+    return False, 'kalıp A-N olmalı'
 # Bilanço tweetinde makro/kripto bağlantısı ve kripto tweetinde tahvil bağlantısı: zorlama riski
 ZORLA = {
     'BILANCO': [r'\bfed\b', r'faiz', r'tahvil', r'bitcoin', r'kripto', r'dolar endeksi', r'\bdxy\b'],
@@ -193,7 +209,7 @@ def main():
     kalip = (a[a.index('--kalip') + 1].upper() if '--kalip' in a else '')
     if tur not in KALIP_MUAF:
         if not kalip:
-            hata.append('kural 63-B: --kalip A|B|C|D|E|F ver (A zincir, B o zaman/şimdi, C koşullu eşik, D değer hesabı, E tek kavram, F normalleştirme).')
+            hata.append('kural 63-B: --kalip A-N ver (A zincir, B o zaman/şimdi, C koşullu eşik, D değer hesabı, E tek kavram, F normalleştirme, G beklenti farkı, H birim ekonomisi, I nakit/sermaye, J değer zinciri, K tersine hesap, L akran kıyası, M tetikleyici takvimi, N kırılma noktası).')
         else:
             ok, msg = kalip_kontrol(kalip, l, t)
             if not ok: hata.append('kural 63-B: ' + msg)
