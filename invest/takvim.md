@@ -16,3 +16,10 @@ TSİ = ET + 8 saat (ABD kış saati, 2 Kasım 2026 - 8 Mart 2027).
 | 19.11 Per | açılış öncesi (EW 5:30 ET = 13:30 TSİ); görüşme 15:00 (7:00 ET) | Alibaba (BABA) | bilanço (mali 2027 Q2) | gelir 40,2-40,5 Mr $, HBK 1,62-1,63 $ (MarketBeat, TipRanks, EW) | businesswire / alibabagroup.com | 12:02 | 13:15 | kuruldu (Enes 12:01) |
 | 19.11 Per | ~00:05 TSİ (4:05 PM ET, 18.11 kapanış sonrası); görüşme 01:00 TSİ (2:00 PM PT) | Everpure (P, eski Pure Storage) | bilanço (mali 2027 Q3) | HBK 0,77-0,78 $ (FXEmpire, Arincen), gelir 1,33-1,36 Mr $; Earnings Whisper 0,81 | investor.everpuredata.com | 23:15 | 00:05 | kuruldu (isler.py; Enes 13:16 bol tweet) |
 | 20.11 Cum | ~00:00 TSİ (19.11 4:00 PM ET kapanış sonrası) | Intuit (INTU) | bilanço (mali 2027 Q1) | gelir ~4,30-4,31 Mr $ (Earnings Whispers, Tiger), şirket rehberi 4,29-4,31 Mr $ / düz. HBK 2,44-2,48 $; whisper 2,59 | BusinessWire | 23:00 | 23:58 | kuruldu (isler.py, sabah 19.11) |
+
+## Şükran Günü haftası (23-27.11.2026, kaynak: Gotrade + Leafy/Substack + RoboForex + UnifyBrowse + Coingabbar)
+- Çar 25.11 16:30 TSİ: Ekim PCE + 3. çeyrek GDP ikinci tahmin + haftalık işsizlik başvuruları (perşembeden alındı). 22:00 Bej Kitap.
+- Per 26.11: Şükran Günü, NYSE/Nasdaq KAPALI.
+- Cum 27.11: hisse 21:00 TSİ erken kapanış (opsiyon 21:15).
+- Bu hafta bilanço: Dell, HPE, Analog Devices, Deere, Best Buy (tarihler takvimde ayrıca doğrulanacak; yalnız YZ ile ilgili olanlar tweet).
+- Fed toplantısı 8-9 Aralık.

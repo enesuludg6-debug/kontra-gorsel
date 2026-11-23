@@ -1,10 +1,5 @@
 [
 {
-"acilis": "bence en olası",
-"kaliplar": [],
-"metin": "Bence en olası senaryo 26.244'ün kırılıp 25.350-25.450 bölgesinin test edilmesi. Günlük kapanış 26.244 altına gelirse bu senaryo çalışmaya başlar."
-},
-{
 "acilis": "keysight yapay zekâ",
 "kaliplar": [
 "\\bçünkü\\b"
@@ -308,5 +303,12 @@
 "acilis": "bence bugün bir",
 "kaliplar": [],
 "metin": "Bence bugün bir ralli başlamadı, yalnız tek bir risk ortadan kalktı. Kalan üç endişeden hangisinin önce çözüleceğini merak ediyorum. Ben en yakından neocloud'la"
+},
+{
+"acilis": "pce fed in",
+"kaliplar": [
+"\\bçünkü\\b"
+],
+"metin": "PCE, Fed'in 8-9 Aralık toplantısından önce gelen önemli enflasyon verilerinden biri. Enflasyon beklentiyi aşarsa bugünkü toparlanma çabuk sınanır, çünkü perşemb"
 }
 ]

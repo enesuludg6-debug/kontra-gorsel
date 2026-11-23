@@ -205,3 +205,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 23.11 | 21:02 | EGITICI | Bellek DRAM ve NAND ayrimi | uclu | 6b047fc00720ccb673fd4e36 |
 | 23.11 | 21:27 | BAGLAM-GORUS | CRWD ZS birlesme farki | editoryal | 6b04858376f8581f138ec5a1 |
 | 23.11 | 21:28 | FIKIR | VRT siparis verisi gizli | terminal | 6b0485c783d02a1633847b27 |
+| 23.11 | 21:52 | DERIN-ANALIZ | Dort endiseden biri kalkti | dortlu | 6b048b686dffe25404d712e6 |
