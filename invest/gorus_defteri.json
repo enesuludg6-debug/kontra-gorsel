@@ -1,12 +1,5 @@
 [
 {
-"acilis": "keysight yapay zekâ",
-"kaliplar": [
-"\\bçünkü\\b"
-],
-"metin": "Keysight yapay zekâ veri merkezlerinde kullanılan ağ ve çip test ekipmanlarını yapıyor. Geçen çeyrek iletişim tarafında ticari gelir %56 büyümüştü. Benim bakaca"
-},
-{
 "acilis": "bu kapanış bence",
 "kaliplar": [],
 "metin": "Bu kapanış bence yorgun bir piyasanın işareti. Güzel bir haberle açılan her yükseliş satışa dönüyor. Yarın Nasdaq 100 tarafında teknik tweette yazdığım 26.244 d"
@@ -310,5 +303,10 @@
 "\\bçünkü\\b"
 ],
 "metin": "PCE, Fed'in 8-9 Aralık toplantısından önce gelen önemli enflasyon verilerinden biri. Enflasyon beklentiyi aşarsa bugünkü toparlanma çabuk sınanır, çünkü perşemb"
+},
+{
+"acilis": "vix in tek",
+"kaliplar": [],
+"metin": "VIX'in tek günde 8 puan düşmesi tek başına dip demek değil. Asıl eşik 9 günlük ölçünün yeniden 3 aylığın altına inmesi; o olmadan bu yükseliş kısa vadeli koruma"
 }
 ]
