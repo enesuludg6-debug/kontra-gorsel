@@ -1,11 +1,12 @@
 # AKTİF HESAP KİLİDİ (kesin kural 17)
 
-AKTIF: C
+AKTIF: C2
 
 Etiketler:
 - A = Enes'in kendi Claude hesabı (enesuludg6). 17.11.2026'dan beri aktif.
 - B = arkadaşının Claude hesabı (Enes'in hakkı bitince kullanılır).
 - C = yeni Claude hesabı (23.11.2026'dan beri).
+- C2 = C hesabında yeni sohbet (24.11.2026).
 
 Kural: her tur/görev/yayın en başta bu dosyayı okur. Kendi mesajındaki `HESAP=<etiket>` buradaki `AKTIF:` ile aynı değilse hiçbir şey yapmaz (tweet yok, push yok) ve kendi tekrarlayan görevlerini devre dışı bırakır.
 Hesap değiştirirken yeni hesap bu satırı kendi etiketine çevirir, commit + push eder, SONRA görev kurar. Geri dönerken aynısı ters yönde.
@@ -17,3 +18,4 @@ Geçmiş:
 - 20.11.2026 14:49 B2 devraldı (sohbet devri).
 - 21.11.2026 18:31 Enes 'durdur' dedi: B2 durduruldu (kilit DURDU). B2'nin bütün görevleri kendini kapatır. Yeni hesap (C) devri kilidi C yapar.
 - 23.11.2026 20:02 C devraldı (hesap devri; Enes onayı).
+- 24.11.2026 08:33 C2 devraldı (sohbet devri).
