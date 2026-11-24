@@ -37,6 +37,18 @@ for c in re.split(r"(?<=[.!?;])\s+|\n+", t):
     if ":" in ilk and not re.search(r"\d:\d", ilk):
         hata.append(f"cümle başında etiket (':'): '{ilk}'")
 
+# Kural 54-E (Enes 24.11 09:10: "'Nakit tarafı da güçlü.' çok yapay zekâ ibaresi gibi duruyor, böyle şeyler kullanmasın"):
+# rakamsız "X tarafı/cephesi (da) güçlü/zayıf/sağlam..." hüküm cümleleri ve rakamsız kısa sıfat-hüküm cümleleri yasak.
+SIFAT = r"(güçlü|zayıf|sağlam|temiz|olumlu|olumsuz|iyi|kötü|parlak|sağlıklı|net|rahat|sorunlu|cılız|kuvvetli|istikrarlı|dengeli|sıkıntılı)"
+if re.search(r"\b(taraf[ıi]|tarafında|cephe(si|sinde)|kanad[ıi]|ayağ[ıi])\s+(da|de)\b", low):
+    hata.append("54-E: 'X tarafı da / cephesinde de' kalıbı")
+if re.search(r"\b(taraf[ıi]|cephesi|kanad[ıi]|ayağ[ıi])\s+(da\s+|de\s+)?(çok\s+|oldukça\s+|gayet\s+)?" + SIFAT + r"\b", low):
+    hata.append("54-E: 'X tarafı güçlü/zayıf' hüküm kalıbı")
+for c in re.split(r"(?<=[.!?;])\s+|\n+", t):
+    c2 = c.strip().lower().rstrip(".!;")
+    if c2 and not re.search(r"\d", c2) and len(c2.split()) <= 5 and re.search(r"\b(de|da)\s+(çok\s+|oldukça\s+|gayet\s+)?" + SIFAT + r"(\s*(görünüyor|duruyor|kalıyor))?$", c2):
+        hata.append(f"54-E: rakamsız kısa hüküm cümlesi: '{c.strip()}'")
+
 if re.search(r"#\w", t): hata.append("hashtag")
 if re.search(r"https?://", t): hata.append("link")
 if re.search(r"[\U0001F300-\U0001FAFF\u2600-\u27BF]", t): hata.append("emoji")

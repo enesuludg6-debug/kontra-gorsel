@@ -142,6 +142,7 @@ Herhangi birine "hayır" cevabı çıkarsa metin yeniden yazılır; en fazla 2 k
 | Al/sat tavsiyesine kayma | "Bu fiyattan alım fırsatı" | Kendi tavrı ya da gözlem olarak yazılır; okura emir kipi kullanılmaz |
 | Her tweet "izleyeceğim" ile biter | "Ben en çok şunu takip edeceğim" tekrarı | Kural 64-B: son 5 tweette geçtiyse kullanılmaz; sonuç cümlesiyle bitir |
 | Yapay zekâ gibi kurgulu cümle | "Manşet X diyor, veri başka bir şey söylüyor", "stres geçmiş değil" | Kural 54-D: yasak.py yakalar; olgu ve rakam düz cümleyle |
+| Rakamsız hüküm cümlesi | "Nakit tarafı da güçlü.", "Bilanço tarafı sağlam.", "Talep de güçlü görünüyor." | Kural 54-E: yasak.py yakalar; hükmü rakamla ve düz cümleyle ver |
 | Yüzeysel analiz | Fiyat yüzdesi + manşet + yorum | Kural 65: ikinci katman veri zorunlu (kalite.py HATA) |
 | İki tweet aynı dakikada | Akışta birbirini gölgeler | Aralık kuralı: ikinci tweet Buffer'da ~12 dk sonraya zamanlanır |
 
@@ -231,6 +232,13 @@ Bütün kalıplar hedef fiyat yasağına, 2 kaynak kuralına, kural 62, 64, 64-B
 - Piyasanın ruh hâlini soyut kelimeyle özetlemek YASAK: "stres geçmiş değil", "stres sürüyor", "panik bitti", "korku geçti", "nefes aldı", "rahatlama geldi".
 - Yerine olgu ve rakamın gösterdiği şey düz cümleyle: "VIX cuma 35,9'du, bugün 27,1'e indi. Ama kısa vadeli oynaklık hâlâ uzun vadelinin üzerinde."
 - yasak.py bu kalıpları yakalar. Kural 54, 54-B, 54-C ile birlikte geçerlidir.
+
+### 9.4 KURAL 54-E — Rakamsız "X tarafı da güçlü" hüküm cümleleri (Enes 24.11 09:10: "'Nakit tarafı da güçlü.' çok yapay zekâ ibaresi gibi duruyor, böyle şeyler kullanmasın")
+- Bir kalemi rakam vermeden tek kelimelik sıfatla özetleyen cümle YASAK: "Nakit tarafı da güçlü.", "Bilanço tarafı sağlam.", "Marj cephesinde de baskı var.", "Talep de güçlü görünüyor.", "Rehber tarafı olumlu."
+- "X tarafı / X tarafında / X cephesi(nde) / X ayağı / X kanadı" kalıpları hiç kullanılmaz; kalemin adı doğrudan özne olur.
+- Rakamsız 5 kelimeden kısa "... de/da güçlü/zayıf/sağlam ..." kapanış ya da geçiş cümlesi yazılmaz. Hüküm her zaman rakamla birlikte verilir.
+- Yerine: "Serbest nakit akışı çeyrekte 1,9 Mr $ oldu, şirket 2027 için en az 5,5 Mr $ bekliyor." Güçlü olup olmadığını rakam ve kıyas gösterir, sıfat değil.
+- yasak.py bu kalıpları yakalar (54-E satırları).
 
 ## 10. KURAL 65 — Profesyonellik çıtası (Enes 23.11 22:03: "sana attığım tweet örnekleri senin yaptıklarından çok daha profesyonel, ben o derecede profesyonel şeyler istiyorum")
 
