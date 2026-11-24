@@ -83,6 +83,11 @@ IKINCI_KATMAN = r'vix|vvix|skew|vxn|oynaklık endeks|vade (eğrisi|yapısı)|kor
 # KURAL 63-B (Enes 23.11 21:11: "çoğunun etkisini göremiyorum, görmek istiyorum"): her tweet --kalip A..F ile yazılır ve kalıbın izi metinde olmalı.
 KALIP_MUAF = {'VADELI', 'BEKLENTI', 'BILANCO-RAKAM', 'KEYLEVELS', 'ENES-ISTEGI', 'ENES-HABER'}
 def _sayilar(l): return re.findall(r'\d+(?:[.,]\d+)?', l)
+def acilis_tipi(t):
+    # KURAL 79 (F-009): ilk satır en çok 12 kelime ve rakam/ticker ile başlamıyorsa 'iddia'
+    ilk = t.strip().split('\n')[0].strip()
+    ilk_cumle = re.split(r'(?<=[.!?])\s', ilk)[0]
+    return 'iddia' if len(ilk_cumle.split()) <= 12 and not re.match(r'^\W*[\d%$+−-]', ilk_cumle) else 'normal'
 def yapi_imzasi(t):
     ps = [p for p in re.split(r'\n\s*\n', t.strip()) if p.strip()]
     kisa = sum(1 for p in ps for x in p.split('\n') if 0 < len(x.strip()) < 110 and '\n' in p)
@@ -170,7 +175,8 @@ def main():
     f = ozellik(t); d = yukle()
     if m == 'kaydet':
         _n = dt.datetime.now(dt.timezone(dt.timedelta(hours=3)))
-        f.update({'imza': yapi_imzasi(t), 'kalip': (a[a.index('--kalip') + 1].upper() if '--kalip' in a else ''), 'tur': tur, 'zaman': _n.strftime('%d.%m %H:%M'), 'gun': (_n - dt.timedelta(hours=2)).strftime('%d.%m'), 'uzunluk': len(t.strip())})
+        f.update({'imza': yapi_imzasi(t), 'kalip': (a[a.index('--kalip') + 1].upper() if '--kalip' in a else ''), 'tur': tur, 'zaman': _n.strftime('%d.%m %H:%M'), 'gun': (_n - dt.timedelta(hours=2)).strftime('%d.%m'), 'uzunluk': len(t.strip()), 'acilis': acilis_tipi(t)})
+        print('ACILIS (kural 79):', f['acilis'], '-> kayit.py --konu basina [A:' + f['acilis'] + '] ekle')
         d.append(f); json.dump(d[-60:], open(D, 'w', encoding='utf-8'), ensure_ascii=False, indent=0)
         print('KALITE KAYDEDILDI'); return
 
