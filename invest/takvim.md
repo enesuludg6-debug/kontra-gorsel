@@ -17,6 +17,7 @@ TSİ = ET + 8 saat (ABD kış saati, 2 Kasım 2026 - 8 Mart 2027).
 | 19.11 Per | ~00:05 TSİ (4:05 PM ET, 18.11 kapanış sonrası); görüşme 01:00 TSİ (2:00 PM PT) | Everpure (P, eski Pure Storage) | bilanço (mali 2027 Q3) | HBK 0,77-0,78 $ (FXEmpire, Arincen), gelir 1,33-1,36 Mr $; Earnings Whisper 0,81 | investor.everpuredata.com | 23:15 | 00:05 | kuruldu (isler.py; Enes 13:16 bol tweet) |
 | 20.11 Cum | ~00:00 TSİ (19.11 4:00 PM ET kapanış sonrası) | Intuit (INTU) | bilanço (mali 2027 Q1) | gelir ~4,30-4,31 Mr $ (Earnings Whispers, Tiger), şirket rehberi 4,29-4,31 Mr $ / düz. HBK 2,44-2,48 $; whisper 2,59 | BusinessWire | 23:00 | 23:58 | kuruldu (isler.py, sabah 19.11) |
 
+| 25.11 Çar | ~00:00 TSİ (24.11 4:00 PM ET kapanış sonrası); görüşme ~00:30 | Dell (DELL) | bilanço (mali 2027 Q3) | gelir ~49,3 Mr $ (TipRanks 49,27, EBC 49,32), HBK ~6,6 $ (EBC 6,62, TipRanks 6,55) | investors.delltechnologies.com | 23:00 | 23:58 | kuruldu (isler.py, C2 24.11) |
 ## Şükran Günü haftası (23-27.11.2026, kaynak: Gotrade + Leafy/Substack + RoboForex + UnifyBrowse + Coingabbar)
 - Çar 25.11 16:30 TSİ: Ekim PCE + 3. çeyrek GDP ikinci tahmin + haftalık işsizlik başvuruları (perşembeden alındı). 22:00 Bej Kitap.
 - Per 26.11: Şükran Günü, NYSE/Nasdaq KAPALI.

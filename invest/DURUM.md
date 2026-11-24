@@ -1,7 +1,5 @@
-## !!! BUGÜNLÜK KURAL 23.11 (Enes 23.11 20:19: "bugün gece 12:45'a kadar çalışacağız toplam 20 tweet atmanı istiyorum bu saate kadar ondan sonra durabilirsin 12:45'dan sonra tek bir kredi bile harcama"): 23.11 paylaşım günü HEDEFİ TOPLAM 20 sistem tweeti (20:18 NBIS = 1/20). Kural 48-B'deki "en az 30" bu gün için GEÇERSİZ, tavan 20. Plan: turlar ~25 dk arayla (20:35, 21:00, 21:25, 21:50, 22:15, 22:40, 23:05, 23:30, 23:55, 00:20), her turda 2 tweet (kalite izin vermezse 1); İKİ TWEET ARKA ARKAYA ATILMAZ (Enes 21:29 "neden ikisini de 1 dakika arayla attın"): ilki Buffer shareNow, ikincisi Buffer `mode: customScheduled`, `dueAt` = ilkinden ~12 dk sonra (+03:00 saatiyle, gelecekte olmalı); DONGU ve Enes mesajında ikincinin planlanan saati yazılır; sayaç DONGU'daki 23.11 AUTO satırlarından. 20'ye ulaşan tur sonraki turu KURMAZ. SON TUR en geç 00:20 başlar, 00:45'ten önce biter ve sonraki turu KURMAZ (yarın tur zincirini 09:00 sabah kontrolü kurar). 00:45 SONRASI 23.11 gecesi için HİÇBİR iş yok: tur, takip, tweet, push, mesaj yok; 00:45'ten sonra ateşlenen bir tur görevi kilit/DURUM okur okumaz hiçbir şey yapmadan kapanır. Bu gecenin kalan tweetlerinde KURAL 65 (ikinci katman veri, sonuçla biten kapanış, 'takip edeceğim' yok; örnek taslak/derinlik_63_ornekler.md sonunda) ve KURAL 63-B görünür olmalı: her tweet --kalip ile, en az yarısı kendi hesabımızı içeren kalıplardan (D değer, H birim, I nakit, K tersine hesap, L akran, N kırılma) ve kalıplar çeşitli (A-N), en az 1 DERIN-ANALIZ; önce taslak/derinlik_63_ornekler.md. Kural 61 kalite kontrolü aynen (sayı uğruna kalitesiz tweet atılmaz; 20'ye ulaşılamazsa ulaşılamaz).
-
 # DURUM — tek sayfa GÜNCEL DURUM (kural 18; 23.11 20:50'den beri yalnız durum, kurallar KURAL_DIZINI.md)
-Son güncelleme: 24.11.2026 08:31 TSİ (C). Turlar şunu okur: tur_basi.sh çıktısı (KURAL_DIZINI.md + bu dosya + DONGU son 30 + dersler + defter). Kuralların tam metni KURALLAR_TAM.md ve skills/*.md: yalnız gerektiğinde grep ile.
+Son güncelleme: 24.11.2026 09:05 TSİ (C2). Turlar şunu okur: tur_basi.sh çıktısı (KURAL_DIZINI.md + bu dosya + DONGU son 30 + dersler + defter). Kuralların tam metni KURALLAR_TAM.md ve skills/*.md: yalnız gerektiğinde grep ile.
 
 ## Hesap
 - AKTIF: C2 (24.11 08:33 sohbet devri; görev mesajları HESAP=C2; tur_basi.sh C2). Chrome bağlı değil (fikir taramasının Chrome adımı atlanır).
@@ -32,7 +30,8 @@ Son güncelleme: 24.11.2026 08:31 TSİ (C). Turlar şunu okur: tur_basi.sh çık
 Atılanlar: Berkshire, Ackman, Druckenmiller, Tepper, Soros, Third Point/Loeb. Atıldı: Greenlight, Coatue (18.11 11:17), Tiger Global (18.11 12:07), Baupost (18.11 13:57), Himalaya (18.11 16:58). Atıldı: Lone Pine (18.11 20:51). Viking 19.11 14:30 zamanlandı, Bridgewater 19.11 13:01 atıldı. Sıradaki: teknoloji hamleli yeni fon (Point72, ARK, Baillie Gifford) (yalnız teknoloji hamleleri); Pabrai, Icahn atlandı. Bitince Enes'e özet. Burry yok (SEC kaydı silindi).
 
 ## Bugün / yarın (takvim.md ayrıntılı)
-- 23.11 Pzt: Huang NVDA CEO'luğuna döndü (NDX ~+7, NVDA ~+33). Bu gece 00:45'e kadar 20 tweet (BUGÜNLÜK KURAL). Enes Huang dönüşü, Trump açıklaması, CRWD rakamları, ARM Haas, Deutsche Bank 9.000 hedefini kendisi attı.
+- 24.11 Sal: HPE 4. çeyrek sonuç tweeti sabah ilk turlarda (kalıp G). DELL bilançosu bu gece 00:00 TSİ (opsiyon 18:00, hazırlık+beklenti 23:00, yayın 23:58, analiz 00:15). Normal düzen: kural 48-B (Pzt-Cuma 30-50).
+- 25.11 Çar: 16:30 PCE + GDP 2. tahmin + işsizlik başvuruları, 22:00 Bej Kitap.
 - Şükran Günü haftası: 26.11 Perşembe borsa kapalı, 27.11 Cuma yarım gün (takvim.md'ye Paz 20:00 görevi girecek).
 - Açık takip: NVDA SEC muhasebe incelemesi ve istihbarat soruşturması gelişmeleri; AVGO Aralık bilançosu (Google TPU 8i kesintisi sorusu).
 
