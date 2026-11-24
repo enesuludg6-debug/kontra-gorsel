@@ -220,3 +220,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 24.11 | 11:17 | BILANCO-ANALIZ | HPE Q4 sonuc takibi marj gider | uclu | 6b05480df1f0435123304e80 |
 | 24.11 | 11:39 | PORTFOY | RKLB Electron fiyat gucu Neutron | once_sonra | 6b054d47e7f2021e56805e1a |
 | 24.11 | 12:02 | BAGLAM-GORUS | Asya cip zincir TSMC Foxconn | siralama | 6b0552a42acbde8befbc8dc1 |
+| 24.11 | 12:23 | PORTFOY | CBRS beta iki kat satis carpani | spotlight | 6b055794428d2546b7f950a7 |
