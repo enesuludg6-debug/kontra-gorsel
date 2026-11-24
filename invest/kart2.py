@@ -80,7 +80,16 @@ LOGO_BUYUT = 1.8  # Enes 16.11 10:30+10:32: logolar daha da belirgin olsun
 
 
 def _logo(ticker, size):
-    return K.logo(ticker, int(size * LOGO_BUYUT)) if ticker and ticker.startswith("$") else None
+    if not (ticker and ticker.startswith("$")):
+        return None
+    # KURAL 77 (F-007): doğrulanmamış logo uyarısı; kart Read ile kontrol edilmeden yayınlanmaz
+    try:
+        import logo_dogrula
+        if not logo_dogrula.dogrulandi(ticker):
+            print(f"LOGO DOGRULANMADI: {ticker[1:]} -> karti Read ile kontrol et; dogruysa `python3 logo_dogrula.py ekle {ticker[1:]}`, yanlissa logo/{ticker[1:]}.png sil ve logosuz ciz", flush=True)
+    except Exception:
+        pass
+    return K.logo(ticker, int(size * LOGO_BUYUT))
 
 
 def _footer(img, kaynak, ink=(235, 235, 240), muted=(150, 150, 160), line=(60, 60, 70), acc=None):

@@ -9,7 +9,17 @@ Enes: "tweetleri atarken bir yandan nasıl geliştirebiliriz diye sürekli süre
 
 Repo `/home/claude/kontra-gorsel/invest`. Her zaman Türkçe. Fikir defteri: `invest/gelistirme_fikirleri.md` (tek kaynak).
 
+## 0. KURAL 68-B — FİKİRLERİN YÖNÜ (Enes 24.11 20:24, ÖNCE BUNU UYGULA)
+Enes: "bundan sonra istediğim fikirler daha çok tweet'leri geliştirme yönünden, insanların daha çok beğenmesi, daha çok etkileşim ve daha çok takipçi kazanması yönünden olsun. Amacımız insanların daha çok beğenmesi, daha çok öğrenmesi, bizim daha bilgili ve daha profesyonel gözükmemiz, daha çok etkileşim alması."
+- Fikirlerin ANA hedefi (öncelik sırası yok, hepsi birlikte): (1) daha çok beğeni ve etkileşim (yanıt, repost, alıntı, kaydetme), (2) daha çok takipçi, (3) okurun daha çok ÖĞRENMESİ, (4) hesabın daha BİLGİLİ ve PROFESYONEL görünmesi.
+- Fikirlerin EN AZ 5'te 4'ü bu hedeflere dönük olur: içerik türü, açılış cümlesi/kanca, kart tasarımı, seri/format (ör. haftalık sabit seri), saat, uzunluk, kavram öğretme biçimi, veri sunumu, uzmanlık izi, gündem yakalama hızı, okuru konuşmaya çeken (ama soruyla bitmeyen) yapı, takip etme sebebi yaratan tekrar eden formatlar.
+- İç işleyiş/hata önleme fikirleri (betik, defter, logo gibi) yalnız bir hata tweet kalitesini ya da güveni doğrudan tehdit ediyorsa önerilir; en çok 5'te 1.
+- Her fikirde "hangi hedefe hizmet ediyor" (beğeni/etkileşim, takipçi, öğrenme, profesyonel görünüm) açıkça yazılır ve KANIT olarak mümkünse performans verisi (performans_veri.csv, ders_analiz.py, bilanco_perf.py: görüntülenme, beğeni, yanıt, repost; tür/saat/düzen/uzunluk kırılımı) kullanılır.
+- Ölçüm her zaman etkileşim metriğiyle: görüntülenme, beğeni oranı, yanıt+repost, takipçi değişimi (2 hafta, göreli skor).
+- Kesin kurallar değişmez: 2 kaynak, al/sat yok, Anthropic yasağı, x.com'a girmeme, kural 46/73 konu alanı, soruyla bitmeme, emoji/hashtag yok. Etkileşim için abartı, tık tuzağı ya da doğrulanmamış iddia ÖNERİLMEZ.
+
 ## 1. Her turda ve görevde (iş bittikten sonra, 1-2 dk düşünme)
+Önce KURAL 68-B sorusu: "Bu turdaki tweet daha çok beğenilsin, daha çok öğretsin, daha profesyonel dursun diye ne değişebilirdi?" Sonra:
 Şu sorulardan en az birine bak; yalnız somut bir fikir çıkarsa deftere yaz:
 - Bu turda ne yavaş, zor ya da hatalı oldu? (kaynak bulamama, kart sorunu, tekrar eden elle iş, kural çakışması)
 - Performans verisi ne söylüyor? (performans_veri.csv, DERSLER gözlemleri; hangi tür/saat/düzen iyi ya da kötü)
