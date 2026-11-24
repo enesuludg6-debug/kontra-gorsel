@@ -232,3 +232,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 24.11 | 17:42 | BILANCO-ANALIZ | HPE nakit akis tedarikci borcu | uclu | 6b05a25bc592f5a905e46428 |
 | 24.11 | 18:15 | MAKRO-YORUM | Tüketici güveni Kasım 103,3 | once_sonra | 6b05a9f1e86dabb983d85d4a |
 | 24.11 | 18:32 | BAGLAM-GORUS | Çip rallisi geri verme oranı | dortlu | 6b05adf387ca84f8fe769833 |
+| 24.11 | 18:54 | BILANCO-ANALIZ | ADI rehber: gelir +0,6 HBK -5,9 | editoryal | 6b05b334dac0a74131de0d38 |
