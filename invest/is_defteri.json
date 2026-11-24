@@ -2033,11 +2033,37 @@
    "ne": "tur",
    "ticker": "",
    "tur": "tur",
-   "durum": "basladi",
+   "durum": "yapildi",
    "not": "",
    "trigger": "",
    "soz": "",
-   "guncelleme": "24.11 18:11"
+   "guncelleme": "24.11 18:15"
+  },
+  {
+   "id": "TUR-2411-1830",
+   "ad": "Otomatik paylaşım turu",
+   "zaman": "2026-11-24T18:30",
+   "ne": "tur",
+   "ticker": "",
+   "tur": "tur",
+   "durum": "basladi",
+   "not": "",
+   "trigger": "trig_01H9uLGhDY4kb9VZHKN5iUZB",
+   "soz": "",
+   "guncelleme": "24.11 18:30"
+  },
+  {
+   "id": "TUR-2411-1852",
+   "ad": "Otomatik paylaşım turu",
+   "zaman": "2026-11-24T18:52",
+   "ne": "tur",
+   "ticker": "",
+   "tur": "tur",
+   "durum": "kuruldu",
+   "not": "",
+   "trigger": "trig_01YAQ1wvErMBNzJY4n3JZyQs",
+   "soz": "",
+   "guncelleme": "24.11 18:31"
   },
   {
    "id": "DELL-1125-hazirlik",
@@ -2131,6 +2157,19 @@
    "guncelleme": "24.11 08:37"
   },
   {
+   "id": "TEST-PCE-2511",
+   "ad": "Sonuç takibi: Ekim PCE",
+   "zaman": "2026-11-25T16:45",
+   "ne": "Kural 66: 24.11 18:15 tüketici güveni tweeti (Buffer 6b05a9f1e86dabb983d85d4a) — eşik: çekirdek PCE beklentiyi aşarsa Aralık artırım ihtimali güçlenir (FedWatch 2 kaynak, önce/sonra)",
+   "ticker": "",
+   "tur": "test",
+   "durum": "bekliyor",
+   "not": "",
+   "trigger": "",
+   "soz": "",
+   "guncelleme": "24.11 18:15"
+  },
+  {
    "id": "DELL-1125-beklenen",
    "ad": "Beklenen hareket: DELL",
    "zaman": "2026-11-25T17:45",
@@ -2142,32 +2181,6 @@
    "trigger": "trig_01PdKmG9Er7msvyTEqBcxjSB",
    "soz": "",
    "guncelleme": "24.11 08:37"
-  },
-  {
-   "id": "TUR-2411-1830",
-   "ad": "2026-11-24 18:30",
-   "zaman": "Otomatik paylaşım turu",
-   "ne": "tur",
-   "ticker": "",
-   "tur": "tek",
-   "durum": "bekliyor",
-   "not": "",
-   "trigger": "",
-   "soz": "",
-   "guncelleme": "24.11 18:11"
-  },
-  {
-   "id": "TEST-PCE-2511",
-   "ad": "2026-11-25 16:45",
-   "zaman": "Sonuç takibi: Ekim PCE",
-   "ne": "test",
-   "ticker": "",
-   "tur": "tek",
-   "durum": "bekliyor",
-   "not": "",
-   "trigger": "",
-   "soz": "",
-   "guncelleme": "24.11 18:15"
   }
  ]
 }
