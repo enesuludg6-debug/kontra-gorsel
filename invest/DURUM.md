@@ -1,5 +1,5 @@
 # DURUM — tek sayfa GÜNCEL DURUM (kural 18; 23.11 20:50'den beri yalnız durum, kurallar KURAL_DIZINI.md)
-Son güncelleme: 24.11.2026 13:31 TSİ (C2). Turlar şunu okur: tur_basi.sh çıktısı (KURAL_DIZINI.md + bu dosya + DONGU son 30 + dersler + defter). Kuralların tam metni KURALLAR_TAM.md ve skills/*.md: yalnız gerektiğinde grep ile.
+Son güncelleme: 24.11.2026 14:23 TSİ (C2). Turlar şunu okur: tur_basi.sh çıktısı (KURAL_DIZINI.md + bu dosya + DONGU son 30 + dersler + defter). Kuralların tam metni KURALLAR_TAM.md ve skills/*.md: yalnız gerektiğinde grep ile.
 
 ## Hesap
 - AKTIF: C2 (24.11 08:33 sohbet devri; görev mesajları HESAP=C2; tur_basi.sh C2). Chrome bağlı değil (fikir taramasının Chrome adımı atlanır).
@@ -24,7 +24,7 @@ Son güncelleme: 24.11.2026 13:31 TSİ (C2). Turlar şunu okur: tur_basi.sh çı
 - Kural 23: tutmayan tahmin tweette anılmaz, yalnız doğru çıkanlar. Yanlış rakamda kural 21 düzeltme.
 
 ## Kart
-- Son 3 düzen: editoryal (AXON rehber revizyon), uclu (PCE TUFE farki Fed h), siralama (NVDA not degisikligi).
+- Son 3 düzen: uclu (PCE TUFE farki Fed h), siralama (NVDA not degisikligi), halka (HPE geri alim 5 Mr F).
 - LOGO_BUYUT 1.8, küçültme YOK; bento ve skor kare logoyu taşımıyor (bilanço rakamı = uclu); dortlu/isi kartında logolu ticker rakama biniyor (logosuz isim).
 
 ## 13F serisi (Q3 2026)
@@ -43,6 +43,7 @@ Atılanlar: Berkshire, Ackman, Druckenmiller, Tepper, Soros, Third Point/Loeb. A
 - Yok (kaynak istisnası 12:58'de onaylandı).
 
 ## Radar (içeriden alım / geri alım, son 5)
+- 24.11 14:20: HPE +5 Mr $ geri alım yetkisi (toplam ~7,3 Mr $, 2027 FCF'nin ≥%75'i ortaklara) -> tweet atıldı; içeriden alım tarafında konu filtresine uyan kayda değer alım yok (OpenInsider izin bekledi, açılamadı)
 - 19.11 14:20: kayda değer yok (TSM yönetim kurulu üyesi Burns 500 bin $ alım, eşik altı)
 - 18.11 14:20: kayda değer yok (süre dışı izlenenler: ROK CEO 1,55 Mn$ 09.11; CVS Shah 2 Mn$ 06.11)
 
