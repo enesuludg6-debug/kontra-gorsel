@@ -54,7 +54,7 @@ Kapsam: sistemin ürettiği BÜTÜN finans içeriği. Buna tur tweetleri, son da
 
 ## 3. Hiyerarşi ve mevcut kurallarla uzlaştırma (ÇAKIŞMADA BU SIRA)
 
-1. **Doğruluk:** her rakam 2 bağımsız kaynaktan gelir (bilanço rakam tweetinde şirket bülteni istisnası aynen geçerli). Kural 23: yalnız doğrulananlar yazılır. Uydurma rakam, akış, pozisyon ya da beklenti YASAK.
+1. **Doğruluk:** her rakam 2 bağımsız kaynaktan gelir (bilanço rakam tweetinde şirket bülteni istisnası aynen geçerli; KURAL 75: resmi kurum bültenindeki ALT KALEMLER — alt endeks, enflasyon beklentisi, iş farkı, revizyon — tek başına bültenden yazılabilir, bülten URL'si DONGU'ya 'birincil: <url>' diye düşülür; manşet rakam ve beklenti/konsensüs yine 2 kaynak). Kural 23: yalnız doğrulananlar yazılır. Uydurma rakam, akış, pozisyon ya da beklenti YASAK.
 2. **Enes'in açık yasakları:** Anthropic yazılmaz; al/sat tavsiyesi verilmez; x.com'a girilmez; yasak.py çalıştırılır; kurallar 54, 54-B, 54-C ve 54-D uygulanır; tweet soruyla bitmez; emoji, hashtag ve link kullanılmaz; kural 46 konu alanı; kural 48-B tweet sayısı tavanı; kural 56-B (yalnız tutan beklenti yazılır); iptal listesi.
 3. **Kural 59:** Enes'in görüş profili (ENES_GORUS_PROFILI.md).
 4. **Bu standart (kural 61) ve eklentileri (62-65).**

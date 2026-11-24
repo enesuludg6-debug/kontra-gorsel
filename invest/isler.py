@@ -126,6 +126,19 @@ def main(a):
         return
     if a[0] == "ekle":
         i, ad, z, ne = a[1], a[2], a[3], a[4]
+        # KURAL 76 (F-006): zaman alani dogrulanir; ad/zaman yer degistirmisse duzeltir, degilse reddeder
+        def _tarih(v):
+            try:
+                dt.datetime.fromisoformat(v.strip().replace(" ", "T")); return True
+            except Exception:
+                return False
+        if not _tarih(z) and _tarih(ad):
+            ad, z = z, ad
+            print("UYARI kural 76: ad ve zaman yer degistirmisti, duzeltildi")
+        if not _tarih(z):
+            print("HATA kural 76: zaman YYYY-AA-GGTSS:DD olmali. Dogru sira: isler.py ekle <ID> \"<ad>\" <YYYY-AA-GGTSS:DD> \"<ne>\" [--ticker T] [--tur tur|test|tek]")
+            sys.exit(1)
+        z = z.strip().replace(" ", "T")[:16]
         ticker = a[a.index("--ticker") + 1] if "--ticker" in a else ""
         tur = a[a.index("--tur") + 1] if "--tur" in a else "tek"
         print("eklendi" if ekle(d, i, ad, z, ne, ticker, tur) else "zaten var")
