@@ -54,3 +54,5 @@ Atılanlar: Berkshire, Ackman, Druckenmiller, Tepper, Soros, Third Point/Loeb. A
 - Yok (TGT 160,32 -> 159,53 düzeltmesi 18.11 14:47 analiz tweetinde yapıldı).
 
 ## Bekleyen tek seferlik görevler → ARTIK `python3 invest/isler.py liste` (kural 43; is_defteri.json tek kaynak)
+
+- ESLEME SERISI (kural 82): sıradaki #1, Cuma 27.11 22:30 ya da Cmt 28.11 12:30 (python3 invest/esleme.py)
