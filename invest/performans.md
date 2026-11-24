@@ -241,3 +241,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 24.11 | 21:07 | MAKRO-YORUM | [A:normal] Fed kararı Kasım TÜFE'den 1 gün önce, PCE eşiği | takvim | 6b05d2749694e6b567097272 |
 | 24.11 | 21:29 | ANALIST | [A:iddia] PLTR analist hedefleri 80-265, 3,3 kat | siralama | 6b05d79220f9e770f0855c16 |
 | 24.11 | 21:53 | BILANCO-BEKLENTI | [A:normal] SNOW 2 Aralık önizleme: RPO kırılma noktası | uclu | 6b05dd3720f9e770f087da78 |
+| 24.11 | 22:16 | TAKVIM | [A:iddia] Yarın ne var: hafta tek seansa sıkıştı | dortlu | 6b05e2912db23f32428c5d3a |
