@@ -1838,11 +1838,24 @@
    "ne": "tur",
    "ticker": "",
    "tur": "tur",
-   "durum": "kuruldu",
+   "durum": "yapildi",
    "not": "",
    "trigger": "trig_01HkzT1WobDWfadFpjcrjBxG",
    "soz": "",
-   "guncelleme": "24.11 11:16"
+   "guncelleme": "24.11 11:39"
+  },
+  {
+   "id": "TUR-2411-1200",
+   "ad": "Otomatik paylaşım turu",
+   "zaman": "2026-11-24T12:00",
+   "ne": "tur",
+   "ticker": "",
+   "tur": "tur",
+   "durum": "kuruldu",
+   "not": "",
+   "trigger": "trig_01CWW8nhSTJkVUTn7FXyMx4d",
+   "soz": "",
+   "guncelleme": "24.11 11:39"
   },
   {
    "id": "DELL-1125-opsiyon",
