@@ -228,3 +228,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 24.11 | 14:36 | SONDAKIKA | vadeliler geri cekilme NQ -2 | once_sonra | 6b0576b498255767f867683d |
 | 24.11 | 15:00 | BILANCO-ANALIZ | HPE islem oncesi -10 marj | terminal | 6b057c3fbc0aa0829453a3b5 |
 | 24.11 | 16:42 | BAGLAM-GORUS | DELL bilanco oncesi HPE kiyasi | dortlu | 6b05944ba9e62b5051a850e6 |
+| 24.11 | 17:37 | BAGLAM-GORUS | ABD acilis sunucu bellek satis | siralama | 6b05a1086bb1e3ab6a388fc4 |
