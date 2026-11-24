@@ -15,6 +15,7 @@ Bu dosya kural 1-63'ün GÜNCEL hâlinin kısa listesidir; hiçbir kural silinme
 ## B. Konu seçimi
 - 46 KONU FİLTRESİ: yalnız yapay zekâ (çip, bellek, ağ, bulut/neocloud, veri merkezi enerjisi, YZ yazılımı/siber güvenlik), uzay, Nasdaq/büyük teknoloji + bunları etkileyen makro. Perakende, banka, sanayi, ilaç, enerji/emtia YOK.
 - 55 YZ ile ilgili her hisse konu olabilir; hafta içi tur "haber yok" diye boş geçmez (YZ evreninde tara). 3 saat ticker kuralı yalnız aynı bilginin tekrarını engeller.
+- 73 KONU KAPSAMI (Enes 24.11 16:39): tarama yalnız portföy değil; yapay zekâ ile ilgili her hisse, portföyü etkileyen her gelişme (müşteri/tedarikçi/rakip/makro) ve portföyle aynı sektör/tedarik zincirindeki tüm hisselerin haberleri ve bilançoları paylaşılır (VRT -> ETN/GEV; AVGO -> MRVL/ANET/CRDO/ALAB; DOCN/NBIS -> CRWV/ORCL/IREN; SITM/CBRS -> NVDA/AMD/TSM/MU; RKLB -> ASTS/LUNR/PL). Portföy haberi varsa yine önce o. Ayrıntı skills/enes-tweet-turu.md 0b.
 - 57 İÇERİK AYARI (DURUM.md): portföy hissesinde gelişme varsa turun ilk tweeti o; son dakika öncelikli; ayrı detay/çağrı tweeti az; görüşlü analiz 21:00-01:00.
 - 48 Her turda ilk iş son dakika taraması (newsquawk + WebSearch, portföy ve listeler).
 - 58 Fikir taraması: 10:15 görevi + 21:00-23:00 arası ilk tur; Chrome yoksa Chrome adımı atlanır; Reddit Chrome'da engelli, dolanılmaz; fikir tweeti hafta içi günde 3-10 (hafta sonu alt sınır yok), DONGU "FIKIR-TWEET n/10"; YZ'yi toptan kötüleyen fikir elenir.
