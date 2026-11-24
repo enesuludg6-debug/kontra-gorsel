@@ -22,6 +22,7 @@ Kaynak: Enes'in kendi attığı tweetler (Buffer via=network) + portföyü + soh
 - Kural 50-B (her seferinde farklı anlatım), 52 (okuma kalıbı yok), 54 (yapay denge cümlesi yok) aynen.
 
 ## Gözlemler
+- 24.11 (23.11 tweetleri): sert yükselişe temkinli — 'güzel bir tepki geldi ama aldanmamak gerek, daha çok onay görmemiz lazım'; hisse seçiminde göreceli güç yaklaşımı (düşüşte dirençli kalan hisseleri yükselişte izlemek); NVDA'da Huang dönüşü ve kısa pozisyon kaybını öne çıkardı; CRWD çeyreğini güçlü buldu.
 - 20.11: "diplere yakın olduğumuzu düşünüyorum ama tereddüt ve sorumluluk hissediyorum" (temkinli dip yorumu, okura sorumluluk vurgusu); NDX için "dibe yaklaşıyoruz ama dip daha gelmedi"; NVDA drawdown grafiği (geçmişte %25-35 düşüşlerden çıktı, şu an -%41) ile toparlanma tezi; "$AVGO diğer hisselere kıyasla çok güçlü"; CBRS'nin -%5'ten +%5'e dönüşünü paylaştı; YZ dışı büyük haber de atıyor (UnitedHealth-CMS davası).
 - 20.11 ilk sürüm (Enes'in 15-20.11 tweetleri + portföy).
 
