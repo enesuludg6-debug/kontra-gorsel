@@ -217,3 +217,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 23.11 | 23:47 | PORTFOY | DOCN YZ payi ve nakit | halka | 6b04a3b6f80929239f3f3bea |
 | 24.11 | 00:09 | BAGLAM-GORUS | kapanis rekora uzaklik | terminal | 6b04ab7407fee37ee600eee5 |
 | 24.11 | 11:04 | KEYLEVELS | gunun basliklari DELL PCE | takvim | 6b05450eb34a1444db97adfd |
+| 24.11 | 11:17 | BILANCO-ANALIZ | HPE Q4 sonuc takibi marj gider | uclu | 6b05480df1f0435123304e80 |
