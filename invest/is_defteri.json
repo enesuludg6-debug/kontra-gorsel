@@ -2155,6 +2155,19 @@
    "trigger": "",
    "soz": "",
    "guncelleme": "24.11 18:11"
+  },
+  {
+   "id": "TEST-PCE-2511",
+   "ad": "2026-11-25 16:45",
+   "zaman": "Sonuç takibi: Ekim PCE",
+   "ne": "test",
+   "ticker": "",
+   "tur": "tek",
+   "durum": "bekliyor",
+   "not": "",
+   "trigger": "",
+   "soz": "",
+   "guncelleme": "24.11 18:15"
   }
  ]
 }
