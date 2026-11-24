@@ -4,7 +4,7 @@
 Son güncelleme: 24.11.2026 08:31 TSİ (C). Turlar şunu okur: tur_basi.sh çıktısı (KURAL_DIZINI.md + bu dosya + DONGU son 30 + dersler + defter). Kuralların tam metni KURALLAR_TAM.md ve skills/*.md: yalnız gerektiğinde grep ile.
 
 ## Hesap
-- AKTIF: C (23.11 20:02 hesap devri; görev mesajları HESAP=C; tur_basi.sh C). Chrome bağlı değil (fikir taramasının Chrome adımı atlanır).
+- AKTIF: C2 (24.11 08:33 sohbet devri; görev mesajları HESAP=C2; tur_basi.sh C2). Chrome bağlı değil (fikir taramasının Chrome adımı atlanır).
 
 ## İÇERİK AYARI (kural 57; perfogren görevi günceller — son: 21.11 10:17, veri 7 gün, 300 olgun tweet, medyan 342)
 - DENE: görüşlü analiz ve yorum tweetlerini ağırlıkla 21:00-01:00 arasına koy (21-24 medyan 416, 00-03 376; 09-12 303, 15-18 322).
@@ -37,7 +37,7 @@ Atılanlar: Berkshire, Ackman, Druckenmiller, Tepper, Soros, Third Point/Loeb. A
 - Açık takip: NVDA SEC muhasebe incelemesi ve istihbarat soruşturması gelişmeleri; AVGO Aralık bilançosu (Google TPU 8i kesintisi sorusu).
 
 ## Zincir
-- Tur zinciri bu gece 00:20'ye kadar (BUGÜNLÜK KURAL); yarın 09:00 sabah kontrolü kurar. Sabit zincir ID'leri DONGU 23.11 20:05 satırında.
+- C2 sabit zincir ID leri DONGU 24.11 08:38 satırında. Tur zinciri 24.11 11:15 trig_01QTLQeSnxD3WqsLuPLxCV9M. DELL bilanço 7 adım kurulu (isler.py liste).
 
 ## Bekleyen kararlar
 - Yok (kaynak istisnası 12:58'de onaylandı).
