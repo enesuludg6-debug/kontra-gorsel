@@ -225,3 +225,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 24.11 | 13:10 | EGITICI | PCE TUFE farki Fed hedefi | uclu | 6b0562768feb7d2bb85ea89f |
 | 24.11 | 13:31 | BAGLAM-GORUS | NVDA not degisikligi F/K tersine hesap | siralama | 6b056796b2a80eb8e45d2744 |
 | 24.11 | 14:22 | GERI-ALIM | HPE geri alim 5 Mr FCF %75 | halka | 6b05738c81eea170c9176e00 |
+| 24.11 | 14:36 | SONDAKIKA | vadeliler geri cekilme NQ -2 | once_sonra | 6b0576b498255767f867683d |
