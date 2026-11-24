@@ -238,3 +238,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 24.11 | 19:59 | BAGLAM-GORUS | Güç zinciri: ekipman vs elektrik satıcısı (VRT portföy) | halka | 6b05c2882aa1a78e43941fc2 |
 | 24.11 | 20:21 | PORTFOY | RKLB Neutron fiyat 55->70 | once_sonra | 6b05c7919694e6b567041954 |
 | 24.11 | 20:44 | PORTFOY | [A:iddia] SITM 3'e 1 bölünme | spotlight | 6b05ccdabd6e90a3281cf52d |
+| 24.11 | 21:07 | MAKRO-YORUM | [A:normal] Fed kararı Kasım TÜFE'den 1 gün önce, PCE eşiği | takvim | 6b05d2749694e6b567097272 |
