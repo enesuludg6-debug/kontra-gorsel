@@ -2033,11 +2033,11 @@
    "ne": "tur",
    "ticker": "",
    "tur": "tur",
-   "durum": "bekliyor",
+   "durum": "basladi",
    "not": "",
    "trigger": "",
    "soz": "",
-   "guncelleme": "24.11 17:36"
+   "guncelleme": "24.11 18:11"
   },
   {
    "id": "DELL-1125-hazirlik",
@@ -2142,6 +2142,19 @@
    "trigger": "trig_01PdKmG9Er7msvyTEqBcxjSB",
    "soz": "",
    "guncelleme": "24.11 08:37"
+  },
+  {
+   "id": "TUR-2411-1830",
+   "ad": "2026-11-24 18:30",
+   "zaman": "Otomatik paylaşım turu",
+   "ne": "tur",
+   "ticker": "",
+   "tur": "tek",
+   "durum": "bekliyor",
+   "not": "",
+   "trigger": "",
+   "soz": "",
+   "guncelleme": "24.11 18:11"
   }
  ]
 }
