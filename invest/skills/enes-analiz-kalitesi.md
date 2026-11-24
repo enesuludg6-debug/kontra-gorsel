@@ -237,7 +237,7 @@ Bütün kalıplar hedef fiyat yasağına, 2 kaynak kuralına, kural 62, 64, 64-B
 - Bir kalemi rakam vermeden tek kelimelik sıfatla özetleyen cümle YASAK: "Nakit tarafı da güçlü.", "Bilanço tarafı sağlam.", "Marj cephesinde de baskı var.", "Talep de güçlü görünüyor.", "Rehber tarafı olumlu."
 - "X tarafı / X tarafında / X cephesi(nde) / X ayağı / X kanadı" kalıpları hiç kullanılmaz; kalemin adı doğrudan özne olur.
 - Rakamsız 5 kelimeden kısa "... de/da güçlü/zayıf/sağlam ..." kapanış ya da geçiş cümlesi yazılmaz. Hüküm her zaman rakamla birlikte verilir.
-- Yerine: "Serbest nakit akışı çeyrekte 1,9 Mr $ oldu, şirket 2027 için en az 5,5 Mr $ bekliyor." Güçlü olup olmadığını rakam ve kıyas gösterir, sıfat değil.
+- Yerine (örnek kalıp, rakamlar doğrulanmış kaynaktan): "Serbest nakit akışı çeyrekte X Mr $ oldu, şirket gelecek yıl için en az Y Mr $ bekliyor." Güçlü olup olmadığını rakam ve kıyas gösterir, sıfat değil.
 - yasak.py bu kalıpları yakalar (54-E satırları).
 
 ## 10. KURAL 65 — Profesyonellik çıtası (Enes 23.11 22:03: "sana attığım tweet örnekleri senin yaptıklarından çok daha profesyonel, ben o derecede profesyonel şeyler istiyorum")
