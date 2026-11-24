@@ -30,7 +30,7 @@ Repo `/home/claude/kontra-gorsel/invest`. Her zaman Türkçe. Fikir defteri: `in
 
 ## 4. Enes'e gönderme
 - Fikir "gonderildi" olunca SendUserMessage ile, tweet mesajlarından AYRI, kısa: "Geliştirme fikri F-NNN: <başlık>" + 2-4 satır (ne, neden, nasıl ölçeriz) + "Kabul edersen yetenek olarak eklerim."
-- Sıklık: tur başına en çok 1 fikir; günde en çok 4; aynı anda en çok 3 cevapsız fikir (fazlası defterde 'oneri' bekler). Zayıf fikirle kota doldurulmaz; fikir yoksa hiçbir şey gönderilmez.
+- Sıklık: tur başına en çok 1 fikir; günde en çok 6 (Enes 24.11 16:41); aynı anda en çok 3 cevapsız fikir (fazlası defterde 'oneri' bekler). Zayıf fikirle kota doldurulmaz; fikir yoksa hiçbir şey gönderilmez.
 - Gece 02:00-09:00 arası gönderilmez; bekleyen fikir sabah kontrolünden sonra gider.
 - Pazar 21:30 performans raporu haftanın en iyi 1-2 bekleyen fikrini de özetler.
 
