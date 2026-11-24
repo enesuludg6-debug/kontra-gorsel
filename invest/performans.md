@@ -236,3 +236,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 24.11 | 19:17 | EGITICI | Neocloud neden sert oynar | siralama | 6b05b88684a6c936472b8ada |
 | 24.11 | 19:38 | BAGLAM-GORUS | SOX-IGV korelasyon koptu, güvenlik artıda | terminal | 6b05bd9e78f91355c97a0071 |
 | 24.11 | 19:59 | BAGLAM-GORUS | Güç zinciri: ekipman vs elektrik satıcısı (VRT portföy) | halka | 6b05c2882aa1a78e43941fc2 |
+| 24.11 | 20:21 | PORTFOY | RKLB Neutron fiyat 55->70 | once_sonra | 6b05c7919694e6b567041954 |
