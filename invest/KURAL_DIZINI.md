@@ -16,6 +16,7 @@ Bu dosya kural 1-63'ün GÜNCEL hâlinin kısa listesidir; hiçbir kural silinme
 - 46 KONU FİLTRESİ: yalnız yapay zekâ (çip, bellek, ağ, bulut/neocloud, veri merkezi enerjisi, YZ yazılımı/siber güvenlik), uzay, Nasdaq/büyük teknoloji + bunları etkileyen makro. Perakende, banka, sanayi, ilaç, enerji/emtia YOK.
 - 55 YZ ile ilgili her hisse konu olabilir; hafta içi tur "haber yok" diye boş geçmez (YZ evreninde tara). 3 saat ticker kuralı yalnız aynı bilginin tekrarını engeller.
 - 73 KONU KAPSAMI (Enes 24.11 16:39): tarama yalnız portföy değil; yapay zekâ ile ilgili her hisse, portföyü etkileyen her gelişme (müşteri/tedarikçi/rakip/makro) ve portföyle aynı sektör/tedarik zincirindeki tüm hisselerin haberleri ve bilançoları paylaşılır (VRT -> ETN/GEV; AVGO -> MRVL/ANET/CRDO/ALAB; DOCN/NBIS -> CRWV/ORCL/IREN; SITM/CBRS -> NVDA/AMD/TSM/MU; RKLB -> ASTS/LUNR/PL). Portföy haberi varsa yine önce o. Ayrıntı skills/enes-tweet-turu.md 0b.
+- 74 UZMAN DİLİ (Enes 24.11 17:39: "okurken 'bu adam işinde çok bilgili, donanımlı' desin"): her tweet en az İKİ uzmanlık izi taşır: U1 sektöre özgü ölçü (sözlük), U2 birinci elden belge satırı (8-K/10-Q/transkript kalemi adıyla), U3 görünür kendi hesabı (işlemle), U4 tarih+rakamlı kesin emsal, U5 ikinci derece etki (kimin maliyeti kimin geliri), U6 beklenti yapısı (aralık, rehber-konsensüs farkı, opsiyon). DONGU kaydına 'uzman: U1+U3' yazılır; iki iz yoksa atılmaz. Ayrıntı ve sektör ölçü sözlüğü `skills/enes-uzman-dil.md`.
 - 57 İÇERİK AYARI (DURUM.md): portföy hissesinde gelişme varsa turun ilk tweeti o; son dakika öncelikli; ayrı detay/çağrı tweeti az; görüşlü analiz 21:00-01:00.
 - 48 Her turda ilk iş son dakika taraması (newsquawk + WebSearch, portföy ve listeler).
 - 58 Fikir taraması: 10:15 görevi + 21:00-23:00 arası ilk tur; Chrome yoksa Chrome adımı atlanır; Reddit Chrome'da engelli, dolanılmaz; fikir tweeti hafta içi günde 3-10 (hafta sonu alt sınır yok), DONGU "FIKIR-TWEET n/10"; YZ'yi toptan kötüleyen fikir elenir.
@@ -71,5 +72,5 @@ Bu dosya kural 1-63'ün GÜNCEL hâlinin kısa listesidir; hiçbir kural silinme
 ## F. Ayrıntı nerede
 - Tur akışı ayrıntısı: `skills/enes-tweet-turu.md` bölüm 1-7 (yalnız gereken bölüm).
 - Bilanço/13F: `skills/enes-bilanco-13f.md`. Portföy/karne: `skills/enes-portfoy-analiz.md`.
-- Kalite (61-63): `skills/enes-analiz-kalitesi.md`. Sonuç takibi (66): `skills/enes-sonuc-takibi.md`.
+- Kalite (61-63): `skills/enes-analiz-kalitesi.md`. Sonuç takibi (66): `skills/enes-sonuc-takibi.md`. Uzman dili (74): `skills/enes-uzman-dil.md`.
 - Kuralların tam metni: `KURALLAR_TAM.md`; eski geçmiş: `DEVIR_TAM.md`.

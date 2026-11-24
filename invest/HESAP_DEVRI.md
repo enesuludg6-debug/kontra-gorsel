@@ -69,7 +69,7 @@ Her zaman Türkçe yaz. Enes'e soru sorma; eksik bir şey varsa ne yapması gere
 ## 0. Bu hesapta OLMAYANLAR ve yerlerine geçenler
 | A hesabında vardı | B hesabında | Ne yapılır |
 |---|---|---|
-| 7 skill (enes-tweet-turu, enes-bilanco-13f, enes-portfoy-analiz, enes-analiz-kalitesi, enes-sonuc-takibi, enes-gelistirme-fikirleri, enes-taslak) | yok | `invest/skills/*.md` dosyalarından okunur; Adım 4'te propose_skills ile bu hesaba kaydettirilir. Kaydedilmese de her tur bu dosyaları okuyarak çalışır. |
+| 8 skill (enes-tweet-turu, enes-bilanco-13f, enes-portfoy-analiz, enes-analiz-kalitesi, enes-sonuc-takibi, enes-gelistirme-fikirleri, enes-taslak, enes-uzman-dil) | yok | `invest/skills/*.md` dosyalarından okunur; Adım 4'te propose_skills ile bu hesaba kaydettirilir. Kaydedilmese de her tur bu dosyaları okuyarak çalışır. |
 | Enes'in kalıcı tercihleri (bellek) | yok | Hepsi `invest/DEVIR_TAM.md` ve skill dosyalarında. |
 | İzinli alan adları (query1.finance.yahoo.com) | muhtemelen yok | Adım 3 testi; yoksa Enes'e tek cümle. |
 | Chrome eklentisi (TradingView) A hesabına giriş yapmış | B'de yok | TradingView opsiyonel; yoksa Yahoo (ta2.py) ile devam. |
@@ -98,9 +98,9 @@ g) Chrome: `list_connected_browsers`. Yoksa TradingView atlanır, sorun sayılma
 h) Saat: `mcp__claude_ai__current_time` ya da `date`; Türkiye saatiyle (TSİ, UTC+3) çalış; cron'larda MUTLAKA `CRON_TZ=Europe/Istanbul`.
 
 ## 4. Skill'leri bu hesaba kaydettir
-- (24.11 EK) SOHBET DEVRİNDE skill kurulmaz (aynı hesapta kayıtlı). HESAP DEVRİNDE yeni hesapta 7 skill'in hepsi önerilir. Yeni yetenek eklenince hem `invest/skills/` kopyası hem propose_skills yapılır ve bu listeye eklenir. Kural 66-72 (sonuç takibi, geliştirme fikirleri, Enes taslak, bilanço 6 hak/dağılım, belirleyici kalem, yayın betiği) skill dosyalarında ve KURAL_DIZINI'nde.
-- `invest/skills/` altındaki 7 dosyayı TAMAMEN oku.
-- `propose_skills` ile `invest/skills/` altındaki 7 dosyanın hepsini (enes-tweet-turu, enes-bilanco-13f, enes-portfoy-analiz, enes-analiz-kalitesi, enes-sonuc-takibi, enes-gelistirme-fikirleri, enes-taslak; en fazla 3'er 3'er, birkaç çağrıda) `kind: new`, `skillMd` = dosya içeriğinin aynısı olarak öner (ad ve açıklama dosyanın başındaki frontmatter'dan). Enes'e: "Çıkan 7 skill kartını kaydet." Kaydedilmese de her tur bu dosyaları okur; görev mesajlarına "skill yoksa invest/skills/<ad>.md oku" yaz.
+- (24.11 EK) SOHBET DEVRİNDE skill kurulmaz (aynı hesapta kayıtlı). HESAP DEVRİNDE yeni hesapta 8 skill'in hepsi önerilir. Yeni yetenek eklenince hem `invest/skills/` kopyası hem propose_skills yapılır ve bu listeye eklenir. Kural 66-72 (sonuç takibi, geliştirme fikirleri, Enes taslak, bilanço 6 hak/dağılım, belirleyici kalem, yayın betiği) skill dosyalarında ve KURAL_DIZINI'nde.
+- `invest/skills/` altındaki 8 dosyayı TAMAMEN oku.
+- `propose_skills` ile `invest/skills/` altındaki 8 dosyanın hepsini (enes-tweet-turu, enes-bilanco-13f, enes-portfoy-analiz, enes-analiz-kalitesi, enes-sonuc-takibi, enes-gelistirme-fikirleri, enes-taslak, enes-uzman-dil; en fazla 3'er 3'er, birkaç çağrıda) `kind: new`, `skillMd` = dosya içeriğinin aynısı olarak öner (ad ve açıklama dosyanın başındaki frontmatter'dan). Enes'e: "Çıkan 8 skill kartını kaydet." Kaydedilmese de her tur bu dosyaları okur; görev mesajlarına "skill yoksa invest/skills/<ad>.md oku" yaz.
 - Kural değişirse hem skill (improvement) hem `invest/skills/` kopyası güncellenir.
 
 ## 5. Okuma
@@ -139,13 +139,13 @@ SORUN: görev "bilgisayar gerekiyor / onay bekliyor" derse Enes'e: "Telefonda/uy
 - Kurallar: DEVIR_TAM kesin kural 1-43 (13 key levels, 14-16 performans/sabit görev/hız, 17 hesap kilidi, 18-21 tasarruf/özetler/düzeltme, 22-23 içerikler/yalnız doğrular, 24 periyot defteri, 25 haber+yorum, 26 ders sistemi, 27 ekran görüntüsünü Claude alır, 28 kredi tasarrufu).
 - Dosyalar: DURUM.md, DONGU.md, DERSLER.md, periyot.json, performans_veri.csv, sablonlar.md, makro_sozluk.md, takvim.md, gundem.md, temel_karne.md, HATA_GUNLUGU.md.
 - Araçlar: kart2.py, ta2.py, ta_ek.py (kural 33), periyot.py (etiket dahil), ders_analiz.py, sonraki.py + gorevler/ (kural 29 zincirleri), tur_basi.sh (`bash invest/tur_basi.sh B`), yayinla_gorsel.sh, kayit.py (`CS=<bu oturumun linki> python3 invest/kayit.py ...`).
-- Skill'ler: invest/skills/ altındaki 7 dosya bütün bu kuralları içerir (bölüm 13-15 dahil); propose_skills ile bu hesaba kaydettir.
+- Skill'ler: invest/skills/ altındaki 8 dosya bütün bu kuralları içerir (bölüm 13-15 dahil); propose_skills ile bu hesaba kaydettir.
 - Chrome bu hesapla bağlıysa: 18:00/23:30 sabit kontrolden sonra bu oturumdan "TradingView teyidi" tek seferlik görevleri kur (kural 27: ekran görüntüleri Claude'dan, SendUserFile). Bağlı değilse talimat satırıyla devam.
 - O güne özel kural (DURUM.md en üst, ör. tweet hakkı sayacı) aynen devam; sayaç sıfırlanmaz.
 - Zincir mesajlarında HESAP=B ve `bash invest/tur_basi.sh B`.
 
 ## 7. Enes'e başlangıç mesajı (tek mesaj)
-"Devraldım (B hesabı). Kontroller: Buffer ✓/✗ (EnesInvestUS doğrulandı), repo/push ✓/✗, kart ✓/✗, Yahoo ✓/✗, zamanlayıcı ✓/✗, TradingView ✓/✗ (yoksa Yahoo). Hesap kilidi B'ye çevrildi, eski hesabın görevleri kendini kapatacak. Kurulan görevler: ... İlk tur başladı. Senden beklenen: [varsa tek cümle] + çıkan 7 skill kartını kaydet."
+"Devraldım (B hesabı). Kontroller: Buffer ✓/✗ (EnesInvestUS doğrulandı), repo/push ✓/✗, kart ✓/✗, Yahoo ✓/✗, zamanlayıcı ✓/✗, TradingView ✓/✗ (yoksa Yahoo). Hesap kilidi B'ye çevrildi, eski hesabın görevleri kendini kapatacak. Kurulan görevler: ... İlk tur başladı. Senden beklenen: [varsa tek cümle] + çıkan 8 skill kartını kaydet."
 
 ## 8. Olası sorunlar ve önlemler (hepsini düşün)
 | Sorun | Belirti | Önlem / çözüm |
