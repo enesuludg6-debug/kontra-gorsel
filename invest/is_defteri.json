@@ -2007,11 +2007,11 @@
    "ne": "tur",
    "ticker": "",
    "tur": "tur",
-   "durum": "bekliyor",
+   "durum": "yapildi",
    "not": "",
    "trigger": "",
    "soz": "",
-   "guncelleme": "24.11 16:41"
+   "guncelleme": "24.11 17:36"
   },
   {
    "id": "DELL-1125-opsiyon",
@@ -2025,6 +2025,19 @@
    "trigger": "trig_01459ADN3XF48bJET2ZTWPyx",
    "soz": "",
    "guncelleme": "24.11 08:37"
+  },
+  {
+   "id": "TUR-2411-1808",
+   "ad": "Otomatik paylaşım turu",
+   "zaman": "2026-11-24T18:08",
+   "ne": "tur",
+   "ticker": "",
+   "tur": "tur",
+   "durum": "bekliyor",
+   "not": "",
+   "trigger": "",
+   "soz": "",
+   "guncelleme": "24.11 17:36"
   },
   {
    "id": "DELL-1125-hazirlik",
