@@ -660,5 +660,24 @@
 "zaman": "24.11 22:16",
 "gun": "24.11",
 "uzunluk": 692
+},
+{
+"jargon": {
+"fiyatlama": 1
+},
+"tarih": [],
+"terim": [
+"brüt marj",
+"sipariş defteri"
+],
+"acilis": "normal",
+"kapanis": "belirleyici kalem brüt marj",
+"rekor": 0,
+"imza": "3p-satir-k-rakam",
+"kalip": "G",
+"tur": "BEKLENTI",
+"zaman": "24.11 23:01",
+"gun": "24.11",
+"uzunluk": 444
 }
 ]
