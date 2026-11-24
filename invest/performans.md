@@ -243,3 +243,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 24.11 | 21:53 | BILANCO-BEKLENTI | [A:normal] SNOW 2 Aralık önizleme: RPO kırılma noktası | uclu | 6b05dd3720f9e770f087da78 |
 | 24.11 | 22:16 | TAKVIM | [A:iddia] Yarın ne var: hafta tek seansa sıkıştı | dortlu | 6b05e2912db23f32428c5d3a |
 | 24.11 | 23:01 | BILANCO-BEKLENTI | [A:normal] DELL bilanço beklentisi + brüt marj %20 eşiği | terminal | 6b05ecfe53ba61949d6178ac |
+| 25.11 | 00:15 | BILANCO-RAKAM | [A:muaf] DELL 3Ç rakam: 54,9 / 9,45 / defter 132,3 | uclu | 6b05fe72bbd94e83696f6f13 |
