@@ -5,6 +5,7 @@ Son güncelleme: 24.11.2026 09:05 TSİ (C2). Turlar şunu okur: tur_basi.sh çı
 - AKTIF: C2 (24.11 08:33 sohbet devri; görev mesajları HESAP=C2; tur_basi.sh C2). Chrome bağlı değil (fikir taramasının Chrome adımı atlanır).
 
 ## İÇERİK AYARI (kural 57; perfogren görevi günceller — son: 21.11 10:17, veri 7 gün, 300 olgun tweet, medyan 342)
+- BILANCO DAGILIM (kural 67/70, 24.11): toplam en fazla 6 — BEKLENTI 1 (+opsiyon cümlesi, + kural 71 belirleyici kalem), RAKAM 1, ANALIZ 1 (kural 66 testiyle açılır), DETAY en çok 2, CAGRI/HAREKET 1. bilanco_perf.py 30 gün: BEKLENTI 0,99 ANALIZ 0,99 HAREKET 0,92 CAGRI 0,90 RAKAM 0,86 DETAY 0,80 (en zayıf) -> sonraki bilançolarda DETAY 1, ANALIZ 2 (perfogren teyit eder).
 - DENE: görüşlü analiz ve yorum tweetlerini ağırlıkla 21:00-01:00 arasına koy (21-24 medyan 416, 00-03 376; 09-12 303, 15-18 322).
 - DENE: portföy hisselerinde grafik/teknik ve bilanço sonrası görüş en iyi gidiyor (RKLB grafik 2.243, RKLB 1.475, NBIS 1.466) → portföy hissesinde haber varsa öncelik ver; teknik tweetleri Enes atar (kural 38), sistem onun için taslak + seviye hazırlar.
 - DENE: Enes'in kısa, iddialı elle tweetleri (medyan 472) sistemin uzun tweetlerini (327) geçiyor → ilk cümle kısa ve iddialı olsun, ilk 2 satırda haber + görüş; 900 karakteri yalnız bilanço/analizde aş.

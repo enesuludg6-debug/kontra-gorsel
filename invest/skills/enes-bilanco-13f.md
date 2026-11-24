@@ -66,6 +66,15 @@ $TICKER 3. ÇEYREK BİLANÇOSU
 - Bilanço ve saati belli veri başlıklarında `enes-tweet-turu` bölüm 9'daki "+3 dk tek seferlik tur" yerine bu protokol uygulanır.
 - Konferans görüşmesinde rehber değişikliği ya da önemli söz çıkarsa ayrı kısa tweet.
 
+## KURAL 70 — Bilanço hak dağılımı veriyle (F-002, Enes 24.11 09:53 kabul)
+- Bilanço tweetleri performans_veri.csv `tur` alanına şu etiketlerle yazılır: BILANCO-BEKLENTI, BILANCO-RAKAM, BILANCO-ANALIZ, BILANCO-DETAY, BILANCO-CAGRI, BILANCO-HAREKET (kayit.py --tur ile).
+- perfogren her gün `python3 invest/bilanco_perf.py --gun 30` çalıştırır; her türde en az 3 olgun tweet olunca zayıf türün 1 hakkı güçlü türe kaydırılır. BEKLENTI, RAKAM, ANALIZ en az 1 kalır; kaydırılan hak güçlü türün ikinci tweeti olur (ör. ikinci analiz). Dağılım DURUM.md İÇERİK AYARI 'BILANCO DAGILIM' satırında; bilanço görevleri oradan okur. Toplam yine en fazla 6 (kural 67).
+
+## KURAL 71 — Beklenti tweetinde belirleyici kalem (F-003, Enes 24.11 09:53 kabul)
+- Kural 49 beklenti tweeti rakamlardan sonra TEK cümleyle o çeyreği belirleyecek kalemi ve eşiğini ya da iki dalını yazar. Örnek: "Bu çeyrekte belirleyici kalem brüt marj: gelir beklentiyi geçip marj gerilerse sipariş defteri kâra aynı oranda dönmüyor demektir."
+- Kalem 2 kaynaklı veriye ve şirket rehberine dayanır; mecaz yok, yasak.py temiz. Beklenti tweetinin geri kalanı yorumsuz kalır.
+- Aynı anda kural 66 kaydı: `isler.py ekle TEST-<T>-<GGAA> ... --tur sonuctakip` ve o bilançonun ANALİZ görevine test eklenir; analiz tweeti bu testle açılır.
+
 ## KURAL 67 — Bilanço başına tweet tavanı (Enes 24.11 09:47: "bilanço başına en fazla 6 twit hakkın olsun")
 - Bir bilanço için toplam EN FAZLA 6 tweet: beklenti, opsiyon, rakam, analiz, detay, görüşme (çağrı), beklenen hareket hepsi bu 6'ya dahil. Eski "en çok 2 tweet + beklenti" sınırı geçersiz.
 - 6 tavandır, hedef değil: detay ve çağrı tweetleri yalnız gerçekten yeni bilgi varsa atılır (kural 57 performans verisi). Sayaç: DONGU'daki o tickerın bilanço satırları.
