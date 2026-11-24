@@ -1,3 +1,10 @@
+# >>> 24.11.2026 08:35 EK — SOHBET DEVRİ C → C2 (ÖNCE BUNU OKU) <<<
+- Aynı hesap, yeni sohbet; etiket **C2**. Aşağıdaki "SOHBET DEVRİ" bölümünü uygula, kilit `AKTIF: C2`. Mesajı "HESAP=C." ile başlayan eski görevler kilit yüzünden kendini kapatır; sabit zincirleri (`sonraki.py hepsi`) ve açık işleri (`isler.py devir`) HESAP=C2 ile yeniden kur.
+- TASARRUF: turlar `bash invest/tur_basi.sh C2` + `KURAL_DIZINI.md` okur; skill/KURALLAR_TAM baştan okunmaz. Kural 61-65, 54-D, ARALIK (turda 2. tweet Buffer customScheduled ~12 dk sonra) KURAL_DIZINI'nde ve enes-analiz-kalitesi skill'inde.
+- 23.11 gecesi: 18 sistem tweeti atıldı (hedef 20; kullanım limiti 00:12'de doldu). "Bugünlük 20 tweet / 00:45 sonrası dur" kuralı YALNIZ 23.11 içindi; 24.11'den itibaren normal düzen (kural 48-B tavanları).
+- Bugün (Salı 24.11): HPE 4. çeyrek sonuçları 23.11 gece açıklandı (gelir 14,5 Mr $, +%50; düzeltilmiş brüt marj %38,2, çeyreklik -220 bp; 2027 serbest nakit akışı en az 5,5 Mr $ — StockTitan bülten; 2. kaynakla doğrula, HBK ve rehberi ekle) → sabah ilk turlarda HPE sonuç tweeti (kalıp G). DELL bilançosu bu akşam kapanış sonrası = Çarşamba 00:00 TSİ (beklenti 49,3 Mr $ / HBK ~6,6 $; rakam+analiz akışı). Çarşamba 16:30 PCE+GDP+işsizlik, 22:00 Bej Kitap; Perşembe kapalı; Cuma 21:00 erken kapanış.
+- Kart notları: halka 'yan' = (etiket, değer); siralama satırları (etiket, değer, '+%x'), vurgu verme; once_sonra 'degisim' kısa; son 3 düzen: spotlight, halka, terminal.
+
 # >>> 21.11.2026 18:30 EK — YENİ CLAUDE HESABINA GEÇİŞ B2 → C (ÖNCE BUNU OKU) <<<
 - Enes 21.11 18:29: "başka bir hesaba geçeceğim, aynılarını yapsın; Buffer, GitHub vs bağlı". Yeni hesabın etiketi **C** (aynı hesapta sonraki sohbetler C2, C3 ...).
 - Yapılacak: aşağıdaki "HESAP DEVRİ — BAŞKA BİR CLAUDE HESABINDA SIFIRDAN KURULUM" (repo, skill önerisi, sistem kontrolü) + "SOHBET DEVRİ" 1-6 adımları; kilit `AKTIF: C`. Kilit C olunca B2 hesabındaki bütün görevler (sabit zincirler, tur zinciri, TAKIP-2311-nbis) kendini kapatır.
