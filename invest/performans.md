@@ -244,3 +244,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 24.11 | 22:16 | TAKVIM | [A:iddia] Yarın ne var: hafta tek seansa sıkıştı | dortlu | 6b05e2912db23f32428c5d3a |
 | 24.11 | 23:01 | BILANCO-BEKLENTI | [A:normal] DELL bilanço beklentisi + brüt marj %20 eşiği | terminal | 6b05ecfe53ba61949d6178ac |
 | 25.11 | 00:15 | BILANCO-RAKAM | [A:muaf] DELL 3Ç rakam: 54,9 / 9,45 / defter 132,3 | uclu | 6b05fe72bbd94e83696f6f13 |
+| 25.11 | 00:17 | BILANCO-ANALIZ | [A:normal] DELL analiz: defter kâra dönüyor, marj sabit, 4Ç HBK -%11 | once_sonra | 6b05fec99dd8377af120a802 |
