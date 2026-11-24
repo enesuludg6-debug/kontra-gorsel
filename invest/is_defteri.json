@@ -2228,11 +2228,11 @@
    "ne": "Kural 25: kapsamlı analiz tweeti",
    "ticker": "DELL",
    "tur": "bilanco",
-   "durum": "kuruldu",
+   "durum": "yapildi",
    "not": "",
    "trigger": "trig_018FmQvTA7SrU9bNpPQfAZuF",
    "soz": "",
-   "guncelleme": "24.11 08:37"
+   "guncelleme": "25.11 00:17"
   },
   {
    "id": "TEST-DELL-2411",
@@ -2241,11 +2241,11 @@
    "ne": "Kural 66: 23.11 22:30 tweeti (Buffer 6b0491940191a6ffcb8993ad) testi — gelir vs 49,3/49,0 Mr $, HBK vs 6,6/6,50 $, YZ sunucu geliri vs ~19 Mr $, 95 Mr $ defterin yeni hâli ve kaç çeyreklik iş, brüt marj yönü + bellek maliyeti; dallar: gelir geçti+marj geriledi = defter kâra aynı oranda dönmüyor / marj korundu = asıl destek. DELL-1125-analiz tweetinin kendisi. | 24.11 23:01 beklenti tweeti eşiği: non-GAAP brüt marj %20 altı mı (2Ç %21,1)",
    "ticker": "DELL",
    "tur": "sonuctakip",
-   "durum": "kuruldu",
+   "durum": "yapildi",
    "not": "",
    "trigger": "trig_018FmQvTA7SrU9bNpPQfAZuF",
    "soz": "",
-   "guncelleme": "24.11 09:45"
+   "guncelleme": "25.11 00:17"
   },
   {
    "id": "DELL-1125-detay",
@@ -2254,11 +2254,11 @@
    "ne": "Kural 41: belgeden 2-7 AYRI detay tweeti, BEKLEMEDEN (gece dahil), aralık serbest",
    "ticker": "DELL",
    "tur": "bilanco",
-   "durum": "kuruldu",
-   "not": "KURAL 67: DELL sayacı rakam+analizden sonra 5/6 olacak; bu üçünden YALNIZ en güçlüsü atılır (detay 00:30 ancak çok güçlü belge kalemi varsa; yoksa atla ve hakkı 17:45 beklenen harekete bırak).",
+   "durum": "atlandi",
+   "not": "kural 67/70: DELL sayacı 5/6, son hak 11:40 çağrı ya da 17:45 beklenen harekete; belgeden yeni kalemler (25 Mr geri alım, CSG +%3) tek kaynak/zayıf",
    "trigger": "trig_01LjEfziM8cYBxwTnMg6mGu9",
    "soz": "",
-   "guncelleme": "24.11 08:37"
+   "guncelleme": "25.11 00:30"
   },
   {
    "id": "TUR-2511-0040",
