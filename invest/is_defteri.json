@@ -2176,11 +2176,11 @@
    "ne": "tur",
    "ticker": "",
    "tur": "tur",
-   "durum": "bekliyor",
+   "durum": "yapildi",
    "not": "",
    "trigger": "",
    "soz": "",
-   "guncelleme": "24.11 21:53"
+   "guncelleme": "24.11 22:16"
   },
   {
    "id": "DELL-1125-hazirlik",
@@ -2259,6 +2259,19 @@
    "trigger": "trig_01LjEfziM8cYBxwTnMg6mGu9",
    "soz": "",
    "guncelleme": "24.11 08:37"
+  },
+  {
+   "id": "TUR-2511-0040",
+   "ad": "Otomatik paylaşım turu",
+   "zaman": "2026-11-25T00:40",
+   "ne": "tur",
+   "ticker": "",
+   "tur": "tur",
+   "durum": "bekliyor",
+   "not": "",
+   "trigger": "",
+   "soz": "",
+   "guncelleme": "24.11 22:16"
   },
   {
    "id": "DELL-1125-cagri",
