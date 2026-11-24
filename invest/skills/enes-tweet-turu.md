@@ -304,3 +304,6 @@ Yalnız iki zamanlanmış görev kaldırıldı: 18:00 temel analiz (temel1800) v
 
 ## 20. Detaylı analiz yazısı (kesin kural 45, Enes 18.11 07:40)
 Bilanço sonrası analiz ve bir hisse üzerine her analiz/uzun görüş yazısı ÇOK DETAYLI ve ÇOK KAYNAKLI olur: 10-15 kısa paragraf, en az 6 bağımsız kaynak (en az 4 tür: şirket belgesi, görüşme, 2+ haber kuruluşu, 2+ analist kurumu, konsensüs/veri sitesi), 13 maddelik içerik sırası ve gönderim öncesi kontrol. Tam yöntem: `enes-bilanco-13f` skill'i 'Detaylı analiz yazısı' bölümü (ve DEVIR_TAM kural 45).
+
+## KURAL 66 — Sonuç takibi (Enes 24.11 09:44)
+- Olaydan önce ölçülebilir yorum içeren tweet atıldığı an `isler.py ekle TEST-<T>-<GGAA> ... --tur sonuctakip`; olay açıklanınca o yorumu sınayan analiz tweeti. Bilançoda ANALİZ tweeti testin kalemleriyle açılır (ayrı tweet değil). Ayrıntı: `invest/skills/enes-sonuc-takibi.md` (skill enes-sonuc-takibi).

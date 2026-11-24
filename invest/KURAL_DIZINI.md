@@ -28,6 +28,7 @@ Bu dosya kural 1-63'ün GÜNCEL hâlinin kısa listesidir; hiçbir kural silinme
 ## C. Doğrulama
 - 3/16 Her rakam ve yan iddia 2 BAĞIMSIZ kaynak (aynı haberin kopyası sayılmaz). Tek istisna: bilanço rakam tweetinde şirket bülteni (10 dk içinde ikinci kaynak teyidi).
 - 23/56-B Yalnız doğrulananlar ve TUTAN beklentiler yazılır; tutmayan tahmin hiç anılmaz.
+- 66 SONUÇ TAKİBİ (Enes 24.11 09:44): olaydan önce ölçülebilir yorum (belirleyici kalem, eşik, "şu olursa şu demektir") içeren her tweet atıldığı an `isler.py ekle TEST-<T>-<GGAA> ... --tur sonuctakip` ile kaydedilir; olay açıklanınca o yorumu gerçek rakamla sınayan analiz tweeti atılır (hangi dal gerçekleşti + kendi hesabımız + sonuç cümlesi). Bilançoda bu ANALİZ tweetinin kendisidir (kural 57 sayısı artmaz); veri ve diğer olaylarda ayrı görev. Koşullu yorumda önceki nota tek cümle atıf serbest; tutmayan yön tahmini 56-B ile anılmaz. Ayrıntı `skills/enes-sonuc-takibi.md`.
 - 21 Yanlış rakamda düzeltme tweeti.
 - 56 Beklenti/seviye tweeti atılınca her madde için TAKIP işi açılır (yalnız tutanlar yazılır).
 - Yıl/çeyrek karışmasına dikkat (2025/2026). Canlı fiyat Yahoo chart uç noktası.
@@ -64,5 +65,5 @@ Bu dosya kural 1-63'ün GÜNCEL hâlinin kısa listesidir; hiçbir kural silinme
 ## F. Ayrıntı nerede
 - Tur akışı ayrıntısı: `skills/enes-tweet-turu.md` bölüm 1-7 (yalnız gereken bölüm).
 - Bilanço/13F: `skills/enes-bilanco-13f.md`. Portföy/karne: `skills/enes-portfoy-analiz.md`.
-- Kalite (61-63): `skills/enes-analiz-kalitesi.md`.
+- Kalite (61-63): `skills/enes-analiz-kalitesi.md`. Sonuç takibi (66): `skills/enes-sonuc-takibi.md`.
 - Kuralların tam metni: `KURALLAR_TAM.md`; eski geçmiş: `DEVIR_TAM.md`.

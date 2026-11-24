@@ -1819,6 +1819,19 @@
    "guncelleme": "24.11 08:37"
   },
   {
+   "id": "TEST-HPE-2411",
+   "ad": "Sonuç takibi: HPE",
+   "zaman": "2026-11-24T11:15",
+   "ne": "Kural 66: 23.11 22:43 tweeti (Buffer 6b04976f768ab8d8e40cc694) — gelir vs rehber 13,9-14,8 ve konsensüs 14,47 Mr $, HBK vs 1,28 $; 11:15 turundaki HPE sonuç tweeti.",
+   "ticker": "HPE",
+   "tur": "sonuctakip",
+   "durum": "kuruldu",
+   "not": "",
+   "trigger": "trig_01QTLQeSnxD3WqsLuPLxCV9M",
+   "soz": "",
+   "guncelleme": "24.11 09:45"
+  },
+  {
    "id": "DELL-1125-opsiyon",
    "ad": "Opsiyon: DELL",
    "zaman": "2026-11-24T18:00",
@@ -1869,6 +1882,19 @@
    "trigger": "trig_018FmQvTA7SrU9bNpPQfAZuF",
    "soz": "",
    "guncelleme": "24.11 08:37"
+  },
+  {
+   "id": "TEST-DELL-2411",
+   "ad": "Sonuç takibi: DELL",
+   "zaman": "2026-11-25T00:15",
+   "ne": "Kural 66: 23.11 22:30 tweeti (Buffer 6b0491940191a6ffcb8993ad) testi — gelir vs 49,3/49,0 Mr $, HBK vs 6,6/6,50 $, YZ sunucu geliri vs ~19 Mr $, 95 Mr $ defterin yeni hâli ve kaç çeyreklik iş, brüt marj yönü + bellek maliyeti; dallar: gelir geçti+marj geriledi = defter kâra aynı oranda dönmüyor / marj korundu = asıl destek. DELL-1125-analiz tweetinin kendisi.",
+   "ticker": "DELL",
+   "tur": "sonuctakip",
+   "durum": "kuruldu",
+   "not": "",
+   "trigger": "trig_018FmQvTA7SrU9bNpPQfAZuF",
+   "soz": "",
+   "guncelleme": "24.11 09:45"
   },
   {
    "id": "DELL-1125-detay",

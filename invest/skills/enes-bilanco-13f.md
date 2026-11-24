@@ -66,6 +66,9 @@ $TICKER 3. ÇEYREK BİLANÇOSU
 - Bilanço ve saati belli veri başlıklarında `enes-tweet-turu` bölüm 9'daki "+3 dk tek seferlik tur" yerine bu protokol uygulanır.
 - Konferans görüşmesinde rehber değişikliği ya da önemli söz çıkarsa ayrı kısa tweet.
 
+## KURAL 66 — Sonuç takibi (Enes 24.11 09:44)
+- Olaydan önce ölçülebilir yorum içeren tweet atıldığı an `isler.py ekle TEST-<T>-<GGAA> ... --tur sonuctakip`; olay açıklanınca o yorumu sınayan analiz tweeti. Bilançoda ANALİZ tweeti testin kalemleriyle açılır (ayrı tweet değil). Ayrıntı: `invest/skills/enes-sonuc-takibi.md` (skill enes-sonuc-takibi).
+
 ## B. 13F serisi (kesin kural 10)
 
 - KURAL 46 (Enes 18.11 17:12): 13F tweetinde yalnız fonun yapay zekâ / uzay / teknoloji hamleleri; bu alanda anlamlı hamlesi olmayan fon atlanır. Bilanço önizleme/rakam/analiz de yalnız bu alandaki şirketler için (perakende, banka, sanayi vb. yok).
