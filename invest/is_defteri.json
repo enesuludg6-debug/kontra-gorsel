@@ -1812,11 +1812,11 @@
    "ne": "tur",
    "ticker": "",
    "tur": "tur",
-   "durum": "kuruldu",
+   "durum": "yapildi",
    "not": "",
    "trigger": "trig_01QTLQeSnxD3WqsLuPLxCV9M",
    "soz": "",
-   "guncelleme": "24.11 08:37"
+   "guncelleme": "24.11 11:16"
   },
   {
    "id": "TEST-HPE-2411",
@@ -1830,6 +1830,19 @@
    "trigger": "trig_01QTLQeSnxD3WqsLuPLxCV9M",
    "soz": "",
    "guncelleme": "24.11 09:45"
+  },
+  {
+   "id": "TUR-2411-1137",
+   "ad": "Otomatik paylaşım turu",
+   "zaman": "2026-11-24T11:37",
+   "ne": "tur",
+   "ticker": "",
+   "tur": "tur",
+   "durum": "kuruldu",
+   "not": "",
+   "trigger": "trig_01HkzT1WobDWfadFpjcrjBxG",
+   "soz": "",
+   "guncelleme": "24.11 11:16"
   },
   {
    "id": "DELL-1125-opsiyon",
