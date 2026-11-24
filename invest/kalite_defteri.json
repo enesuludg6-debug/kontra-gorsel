@@ -629,5 +629,22 @@
 "zaman": "24.11 21:29",
 "gun": "24.11",
 "uzunluk": 607
+},
+{
+"jargon": {},
+"tarih": [],
+"terim": [
+"kalan performans yükümlülüğü",
+"rpo"
+],
+"acilis": "normal",
+"kapanis": "rpo büyümesi 30 un",
+"rekor": 0,
+"imza": "4p-duz-o-rakam",
+"kalip": "N",
+"tur": "BILANCO-BEKLENTI",
+"zaman": "24.11 21:53",
+"gun": "24.11",
+"uzunluk": 594
 }
 ]
