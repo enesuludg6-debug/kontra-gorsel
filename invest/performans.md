@@ -235,3 +235,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 24.11 | 18:54 | BILANCO-ANALIZ | ADI rehber: gelir +0,6 HBK -5,9 | editoryal | 6b05b334dac0a74131de0d38 |
 | 24.11 | 19:17 | EGITICI | Neocloud neden sert oynar | siralama | 6b05b88684a6c936472b8ada |
 | 24.11 | 19:38 | BAGLAM-GORUS | SOX-IGV korelasyon koptu, güvenlik artıda | terminal | 6b05bd9e78f91355c97a0071 |
+| 24.11 | 19:59 | BAGLAM-GORUS | Güç zinciri: ekipman vs elektrik satıcısı (VRT portföy) | halka | 6b05c2882aa1a78e43941fc2 |
