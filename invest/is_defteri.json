@@ -2202,11 +2202,11 @@
    "ne": "Kural 16 + O-011: rakam tweeti tam CRWV formatı, 3-5 dk içinde; Yahoo canlı blog/CNBC yedek",
    "ticker": "DELL",
    "tur": "bilanco",
-   "durum": "kuruldu",
+   "durum": "yapildi",
    "not": "",
    "trigger": "trig_01MfcRRCQUbLGifyVNBJbfLE",
    "soz": "",
-   "guncelleme": "24.11 08:37"
+   "guncelleme": "25.11 00:15"
   },
   {
    "id": "TEST-NDX-2411",
