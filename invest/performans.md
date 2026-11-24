@@ -222,3 +222,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 24.11 | 12:02 | BAGLAM-GORUS | Asya cip zincir TSMC Foxconn | siralama | 6b0552a42acbde8befbc8dc1 |
 | 24.11 | 12:23 | PORTFOY | CBRS beta iki kat satis carpani | spotlight | 6b055794428d2546b7f950a7 |
 | 24.11 | 12:46 | PORTFOY | AXON rehber revizyonu Dedrone zamanlama | editoryal | 6b055d03387f16878f837677 |
+| 24.11 | 13:10 | EGITICI | PCE TUFE farki Fed hedefi | uclu | 6b0562768feb7d2bb85ea89f |
