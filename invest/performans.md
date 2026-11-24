@@ -215,3 +215,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 23.11 | 23:22 | BAGLAM-GORUS | esit agirlik genislik | siralama | 6b049df1c890e50e66ac0c41 |
 | 23.11 | 23:35 | PORTFOY | SITM satin alinan buyume | spotlight | 6b04a3745678330d31d88a1f |
 | 23.11 | 23:47 | PORTFOY | DOCN YZ payi ve nakit | halka | 6b04a3b6f80929239f3f3bea |
+| 24.11 | 00:09 | BAGLAM-GORUS | kapanis rekora uzaklik | terminal | 6b04ab7407fee37ee600eee5 |
