@@ -234,3 +234,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 24.11 | 18:32 | BAGLAM-GORUS | Çip rallisi geri verme oranı | dortlu | 6b05adf387ca84f8fe769833 |
 | 24.11 | 18:54 | BILANCO-ANALIZ | ADI rehber: gelir +0,6 HBK -5,9 | editoryal | 6b05b334dac0a74131de0d38 |
 | 24.11 | 19:17 | EGITICI | Neocloud neden sert oynar | siralama | 6b05b88684a6c936472b8ada |
+| 24.11 | 19:38 | BAGLAM-GORUS | SOX-IGV korelasyon koptu, güvenlik artıda | terminal | 6b05bd9e78f91355c97a0071 |
