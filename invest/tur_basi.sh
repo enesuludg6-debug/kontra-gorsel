@@ -55,6 +55,7 @@ for l in open("takvim.md",encoding="utf-8"):
         m=re.search(r"\(([A-Z]{1,5})\)",l)
         if m and len(re.findall(r"DETAY: "+m.group(1)+r"\b",dongu))<2: print("  EKSIK DETAY:",m.group(1),"->",l.split("|")[1].strip())
 P
+echo "=== GELISTIRME FIKIRLERI (kural 68)"; grep -E "\| (gonderildi|oneri|kabul) \|" gelistirme_fikirleri.md | cut -c1-160; echo "  cevapsiz: $(grep -c "| gonderildi |" gelistirme_fikirleri.md)/3 | bugun gonderilen: $(grep -c "| $(TZ=Europe/Istanbul date +%d.%m) .*| gonderildi |" gelistirme_fikirleri.md)/4"
 echo "=== PERIYOT"; python3 periyot.py durum | grep -E 'YAPILMALI|BEKLE' | head -n 12
 echo "=== TAKVIM (bugun/yarin)"; D1=$(TZ=Europe/Istanbul date +%d.%m); D2=$(TZ=Europe/Istanbul date -d tomorrow +%d.%m); grep -E "$D1|$D2" takvim.md | head -n 15 | cut -c1-200
 echo "=== GUNDEM (son 5)"; tail -n 5 gundem.md | cut -c1-250
