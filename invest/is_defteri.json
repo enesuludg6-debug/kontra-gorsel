@@ -2181,6 +2181,19 @@
    "trigger": "trig_01PdKmG9Er7msvyTEqBcxjSB",
    "soz": "",
    "guncelleme": "24.11 08:37"
+  },
+  {
+   "id": "TEST-AYRISMA-2511",
+   "ad": "2026-11-25T23:00",
+   "zaman": "Sonuç takibi: çip ayrışması",
+   "ne": "Kural 66: 24.11 18:32 geri verme tweeti (Buffer 6b05adf387ca84f8fe769833) — 'ayrışma sürerse': 25.11 kapanışta NVDA hâlâ Cuma kapanışı (125,53) üstünde ve AMD (424,39) / AVGO (304,41) altında mı?",
+   "ticker": "",
+   "tur": "tek",
+   "durum": "bekliyor",
+   "not": "",
+   "trigger": "",
+   "soz": "",
+   "guncelleme": "24.11 18:32"
   }
  ]
 }
