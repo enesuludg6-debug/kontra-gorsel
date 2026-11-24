@@ -2215,11 +2215,11 @@
    "ne": "Kural 66: 24.11 14:36 vadeli tweeti (Buffer 6b0576b498255767f867683d) — eşik: NDX kaybı pazartesiki +%6,86'nın yarısı (~%3,4) aşıldı mı? (pazartesi kapanış 26.746,10). Aşılmadıysa 'ralli bozulmadı', aşıldıysa 'odak faiz riskine kaydı'. 00:10 sonrası ilk turda (DELL analiziyle çakışmazsa) kısa sonuç tweeti; 23 tutmayan tahmin anılmaz kuralına dikkat (koşullu eşik).",
    "ticker": "NDX",
    "tur": "sonuctakip",
-   "durum": "bekliyor",
+   "durum": "yapildi",
    "not": "",
    "trigger": "",
    "soz": "",
-   "guncelleme": "24.11 14:36"
+   "guncelleme": "25.11 00:31"
   },
   {
    "id": "DELL-1125-analiz",
@@ -2267,11 +2267,11 @@
    "ne": "tur",
    "ticker": "",
    "tur": "tur",
-   "durum": "bekliyor",
-   "not": "",
+   "durum": "yapildi",
+   "not": "tweet yok, gün kapandı",
    "trigger": "",
    "soz": "",
-   "guncelleme": "24.11 22:16"
+   "guncelleme": "25.11 00:40"
   },
   {
    "id": "DELL-1125-cagri",
