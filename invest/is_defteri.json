@@ -2163,11 +2163,24 @@
    "ne": "tur",
    "ticker": "",
    "tur": "tur",
+   "durum": "yapildi",
+   "not": "",
+   "trigger": "",
+   "soz": "",
+   "guncelleme": "24.11 21:53"
+  },
+  {
+   "id": "TUR-2411-2215",
+   "ad": "Otomatik paylaşım turu",
+   "zaman": "2026-11-24T22:15",
+   "ne": "tur",
+   "ticker": "",
+   "tur": "tur",
    "durum": "bekliyor",
    "not": "",
    "trigger": "",
    "soz": "",
-   "guncelleme": "24.11 21:29"
+   "guncelleme": "24.11 21:53"
   },
   {
    "id": "DELL-1125-hazirlik",
@@ -2298,6 +2311,19 @@
    "trigger": "",
    "soz": "",
    "guncelleme": "24.11 18:32"
+  },
+  {
+   "id": "TEST-SNOW-0312",
+   "ad": "Sonuç takibi: SNOW RPO",
+   "zaman": "2026-12-03T00:30",
+   "ne": "Kural 66: 24.11 21:53 SNOW önizleme (Buffer 6b05dd3720f9e770f087da78) — eşik: RPO yıllık büyümesi %30 altına indi mi; ürün geliri 1,588-1,593 rehberi",
+   "ticker": "",
+   "tur": "test",
+   "durum": "bekliyor",
+   "not": "",
+   "trigger": "",
+   "soz": "",
+   "guncelleme": "24.11 21:53"
   }
  ]
 }
