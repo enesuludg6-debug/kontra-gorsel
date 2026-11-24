@@ -223,3 +223,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 24.11 | 12:23 | PORTFOY | CBRS beta iki kat satis carpani | spotlight | 6b055794428d2546b7f950a7 |
 | 24.11 | 12:46 | PORTFOY | AXON rehber revizyonu Dedrone zamanlama | editoryal | 6b055d03387f16878f837677 |
 | 24.11 | 13:10 | EGITICI | PCE TUFE farki Fed hedefi | uclu | 6b0562768feb7d2bb85ea89f |
+| 24.11 | 13:31 | BAGLAM-GORUS | NVDA not degisikligi F/K tersine hesap | siralama | 6b056796b2a80eb8e45d2744 |
