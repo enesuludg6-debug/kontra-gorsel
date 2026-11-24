@@ -66,6 +66,10 @@ $TICKER 3. ÇEYREK BİLANÇOSU
 - Bilanço ve saati belli veri başlıklarında `enes-tweet-turu` bölüm 9'daki "+3 dk tek seferlik tur" yerine bu protokol uygulanır.
 - Konferans görüşmesinde rehber değişikliği ya da önemli söz çıkarsa ayrı kısa tweet.
 
+## KURAL 67 — Bilanço başına tweet tavanı (Enes 24.11 09:47: "bilanço başına en fazla 6 twit hakkın olsun")
+- Bir bilanço için toplam EN FAZLA 6 tweet: beklenti, opsiyon, rakam, analiz, detay, görüşme (çağrı), beklenen hareket hepsi bu 6'ya dahil. Eski "en çok 2 tweet + beklenti" sınırı geçersiz.
+- 6 tavandır, hedef değil: detay ve çağrı tweetleri yalnız gerçekten yeni bilgi varsa atılır (kural 57 performans verisi). Sayaç: DONGU'daki o tickerın bilanço satırları.
+
 ## KURAL 66 — Sonuç takibi (Enes 24.11 09:44)
 - Olaydan önce ölçülebilir yorum içeren tweet atıldığı an `isler.py ekle TEST-<T>-<GGAA> ... --tur sonuctakip`; olay açıklanınca o yorumu sınayan analiz tweeti. Bilançoda ANALİZ tweeti testin kalemleriyle açılır (ayrı tweet değil). Ayrıntı: `invest/skills/enes-sonuc-takibi.md` (skill enes-sonuc-takibi).
 

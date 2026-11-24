@@ -10,7 +10,7 @@ Son güncelleme: 24.11.2026 09:05 TSİ (C2). Turlar şunu okur: tur_basi.sh çı
 - DENE: Enes'in kısa, iddialı elle tweetleri (medyan 472) sistemin uzun tweetlerini (327) geçiyor → ilk cümle kısa ve iddialı olsun, ilk 2 satırda haber + görüş; 900 karakteri yalnız bilanço/analizde aş.
 - DENE: 13F tweetleri düşük (medyan 247) → 13F günde en çok 1, akşam 21-24 arasında.
 - İZLE: kapanış (534) ve vadeli (497) iyi görünüyor ama n<5; 7 gün daha ölç.
-- DENE (20.11): bilanço DETAY tweetleri en zayıf grup (detay med 226, bilanco-detay 212, en kötü 5'in 4'ü detay) → ayrı detay tweeti açma; detayı rakam tweetine ya da 15 dk sonraki analize göm (bilanço başına en çok 2 tweet + beklenti).
+- DENE (20.11): bilanço DETAY tweetleri en zayıf grup (detay med 226, bilanco-detay 212, en kötü 5'in 4'ü detay) → ayrı detay tweeti açma; detayı rakam tweetine ya da 15 dk sonraki analize göm (kural 67: bilanço başına en fazla 6 tweet, beklenti dahil).
 - DENE (20.11): son dakika haberleri (med 497) ve genel haber (382) bilanço tweetlerinin (336) üstünde → her turda son dakikaya öncelik sürsün; boş kalan slotu detay yerine haberle doldur.
 - DENE (21.11): portföy türü tweetler açık ara en iyi (n=9 med 1.223; NBIS bilanço 1.943) → portföy hissesinde gelişme varsa turun ilk tweeti o olsun. Çağrı (med 257) ve detay (221-243) en zayıf; makro genel (304) ortalamanın altında → makroyu portföy/YZ bağlantısıyla yaz.
 - İZLE (21.11): kural 60 profesyonel üslup 20.11 22:07'de başladı; ilk ölçüm 22.11 10:15 (22:24 sonrası tweetler olgunlaşınca). 20.11 toplam 44 olgun tweet 26.309 görüntülenme, medyan 387 (19.11: 284).

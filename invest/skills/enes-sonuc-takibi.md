@@ -39,7 +39,7 @@ Olay türü serbest: bilanço, makro veri (PCE, GDP, istihdam, TÜFE), Fed karar
 - Rakam yanlış çıktıysa (ör. beklenti yanlış yazılmışsa) kural 21 düzeltmesi bu tweette yapılır.
 
 ## 5. Sınırlar ve öncelik
-- Kural 57 (bilanço başına en çok 2 tweet + beklenti): bilançoda sonuç takibi ANALİZ tweetinin kendisidir; sayıyı artırmaz. Analiz tweeti testin kalemleriyle AÇILIR, kalan konular sonra gelir.
+- Kural 67 (bilanço başına en fazla 6 tweet, beklenti dahil): bilançoda sonuç takibi ANALİZ tweetinin kendisidir; ayrı tweet sayılmaz. Analiz tweeti testin kalemleriyle AÇILIR, kalan konular sonra gelir.
 - Gece 02:00 sonrasına düşen veri dışı olaylarda sonuç tweeti sabah 11:00 sonrasındaki ilk tura kalır (bilanço gecesi istisna; kural 41 gece dahil).
 - Test edilecek rakam açıklanmadıysa (ör. şirket marj vermedi) bunu tek cümleyle yaz ve eldeki en yakın ölçüyü kullan; uydurma yok.
 - Bitince `isler.py durum <id> yapildi`, DONGU AUTO satırına "TEST-SONUC: <T> dal=<...>".

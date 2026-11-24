@@ -22,7 +22,7 @@ Bu dosya kural 1-63'ün GÜNCEL hâlinin kısa listesidir; hiçbir kural silinme
 - 10/13F: çeyreklik seri, yalnız teknoloji hamleleri, "30 Eylül itibarıyla" uyarısı, 13F günde en çok 1 (21-24).
 - 13 Key levels = seviyesiz "günün başlıkları" (kural 37 sonrası).
 - 37/38 Claude TEKNİK ANALİZ YAPMAZ ve teknik tweet atmaz; Enes teknik analiz atarsa yalnız sade, mecazsız taslak yazılıp Enes'e yollanır (30-31, 33-35 teknik kuralları bu yüzden yalnız Enes'in taslakları için).
-- 39-41/45/49 Bilanço: önce konsensüs beklenti tweeti (49, açıklamadan 30-60 dk önce); opsiyon beklenen hareketi en az bir tweette (39); RAKAM tweeti yorumsuz ve hızlı (10 dk), 15 dk sonra yorumlu ANALIZ (45: detaylı, çok kaynaklı); görüşme ve detay tweetleri 40-41 (57'ye göre azaltılmış: bilanço başına en çok 2 tweet + beklenti); 51 dönem = takvim + mali yıl birlikte.
+- 39-41/45/49 Bilanço: önce konsensüs beklenti tweeti (49, açıklamadan 30-60 dk önce); opsiyon beklenen hareketi en az bir tweette (39); RAKAM tweeti yorumsuz ve hızlı (10 dk), 15 dk sonra yorumlu ANALIZ (45: detaylı, çok kaynaklı); görüşme ve detay tweetleri 40-41; KURAL 67 (Enes 24.11 09:47): bilanço başına EN FAZLA 6 tweet (beklenti, opsiyon, rakam, analiz, detay, çağrı, beklenen hareket HEPSİ dahil; 6 tavan, hedef değil — zayıf detay/çağrı tweeti sayı doldurmak için atılmaz); 51 dönem = takvim + mali yıl birlikte.
 - Anthropic adı/konusu ASLA. x.com'a girilmez. Enes'in kendi attığı konu tekrar edilmez (Buffer son gönderiler).
 
 ## C. Doğrulama
