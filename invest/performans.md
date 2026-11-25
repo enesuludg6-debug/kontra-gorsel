@@ -249,3 +249,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 25.11 | 11:02 | KEYLEVELS | [A:normal] Günün başlıkları: NQ -2 vadeli, DELL primi geri verdi, PCE 0,3=yıllık 3,7 | takvim | 6b069620c68d7845a492dc71 |
 | 25.11 | 11:07 | HABER | [A:iddia] BIS kara liste 7 şirket MY/SG/TH, Megaspeed; ABD merkezli muafiyet -> kanal temizliği | editoryal | 6b069756d8874a038c0514ea |
 | 25.11 | 11:20 | GUNUN-OLAYLARI | [A:normal] Bugünün önemli olayları (TSİ) listesi 25.11 — kural 83 ilk | terminal | 6b069874b6204bca46dbff6c |
+| 25.11 | 11:43 | BILANCO-CAGRI | [A:iddia] DELL görüşme: her sipariş 4 kontrol (sermaye, müşteri kalitesi, ihracat, arazi/elektrik), açık 2027'de büyüyor | sutun | 6b069fa2b6204bca46deda4e |
