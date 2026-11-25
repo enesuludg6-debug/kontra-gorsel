@@ -32,7 +32,7 @@ Son güncelleme: 25.11.2026 18:00 TSİ (C2). Turlar şunu okur: tur_basi.sh çı
 Atılanlar: Berkshire, Ackman, Druckenmiller, Tepper, Soros, Third Point/Loeb. Atıldı: Greenlight, Coatue (18.11 11:17), Tiger Global (18.11 12:07), Baupost (18.11 13:57), Himalaya (18.11 16:58). Atıldı: Lone Pine (18.11 20:51). Viking 19.11 14:30 zamanlandı, Bridgewater 19.11 13:01 atıldı. Sıradaki: teknoloji hamleli yeni fon (Point72, ARK, Baillie Gifford) (yalnız teknoloji hamleleri); Pabrai, Icahn atlandı. Bitince Enes'e özet. Burry yok (SEC kaydı silindi).
 
 ## Bugün / yarın (takvim.md ayrıntılı)
-- 24.11 Sal: HPE 4. çeyrek sonuç tweeti sabah ilk turlarda (kalıp G). DELL bilançosu bu gece 00:00 TSİ (opsiyon 18:00, hazırlık+beklenti 23:00, yayın 23:58, analiz 00:15). Normal düzen: kural 48-B (Pzt-Cuma 30-50).
+- 24.11 Sal: HPE 4. çeyrek sonuç tweeti sabah ilk turlarda (kalıp G). DELL bilançosu bu gece 00:00 TSİ (opsiyon 18:00, hazırlık+beklenti 23:00, yayın 23:58, analiz 00:15). Normal düzen: kural 86 (günde en çok 20 güçlü tweet; 48-B 30-50 kalktı 25.11 18:05).
 - 25.11 Çar: 16:30 PCE + GDP 2. tahmin + işsizlik başvuruları, 22:00 Bej Kitap.
 - Şükran Günü haftası: 26.11 Perşembe borsa kapalı, 27.11 Cuma yarım gün (takvim.md'ye Paz 20:00 görevi girecek).
 - Açık takip: NVDA SEC muhasebe incelemesi ve istihbarat soruşturması gelişmeleri; AVGO Aralık bilançosu (Google TPU 8i kesintisi sorusu).

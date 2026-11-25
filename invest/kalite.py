@@ -254,6 +254,20 @@ def main():
         bugun = dt.datetime.now(dt.timezone(dt.timedelta(hours=3))) - dt.timedelta(hours=2)
         n_bugun = sum(1 for x in d if x.get('tur') == 'DERIN-ANALIZ' and x.get('gun') == bugun.strftime('%d.%m'))
         if n_bugun >= DERIN_GUNLUK: hata.append(f'kural 63: bugün zaten {n_bugun} DERIN-ANALIZ atıldı (günde en çok {DERIN_GUNLUK}); başka türde, kısa yaz.')
+    # KURAL 86 (Enes 25.11 18:05, F-012/F-017): günlük tavan 20 + kısa, tek fikir
+    MUAF86 = {'GUNUN-OLAYLARI', 'BILANCO-RAKAM', 'BILANCO', 'KEYLEVELS', 'ENES-ISTEGI', 'ENES-HABER', 'VADELI'}
+    _bg = (dt.datetime.now(dt.timezone(dt.timedelta(hours=3))) - dt.timedelta(hours=2)).strftime('%d.%m')
+    n_gun = sum(1 for x in d if x.get('gun') == _bg)
+    if n_gun >= 20 and tur not in {'ENES-ISTEGI', 'ENES-HABER', 'SONDAKIKA'}:
+        hata.append(f'kural 86: bugün {n_gun} sistem tweeti atıldı (günde en çok 20); yalnız son dakika ya da Enes isteği.')
+    if tur not in MUAF86:
+        ilk = t.strip().split('\n')[0]
+        if len(re.findall(r'\w+', ilk)) > 12:
+            hata.append('kural 86: ilk satır 12 kelimeyi geçiyor; tek, net iddia cümlesi yaz.')
+        sy = {x for x in _sayilar(t) if not re.fullmatch(r'(19|20)\d\d', x)}
+        if len(sy) > 5: hata.append(f'kural 86: {len(sy)} farklı rakam; tek fikir, en çok 3 (sınır 5). Fazlasını karta taşı.')
+        elif len(sy) > 3: uyari.append(f'kural 86: {len(sy)} farklı rakam; hedef en çok 3, fazlası kartta.')
+        if len(paragraflar(t)) > 3: hata.append('kural 86: 3 paragraftan uzun; tek fikir, kısa yaz.')
     # 7b) KURAL 62 piyasa jargonu sıklığı
     jg = f['jargon']
     for k, n in jg.items():

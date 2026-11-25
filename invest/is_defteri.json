@@ -2599,6 +2599,19 @@
    "guncelleme": "25.11 14:04"
   },
   {
+   "id": "KARNE-2811",
+   "ad": "Sabit: tutan yorumlar karnesi",
+   "zaman": "2026-11-28T20:25",
+   "ne": "kural 86 F-018",
+   "ticker": "",
+   "tur": "tek",
+   "durum": "kuruldu",
+   "not": "",
+   "trigger": "trig_018MKK2QSwRpVaUxxDmVDyLw",
+   "soz": "",
+   "guncelleme": "25.11 18:06"
+  },
+  {
    "id": "TEST-SNOW-0312",
    "ad": "Sonuç takibi: SNOW RPO",
    "zaman": "2026-12-03T00:30",
