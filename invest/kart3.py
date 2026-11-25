@@ -35,7 +35,7 @@ def cerceve(kicker, baslik, alt="", sonuc="", kaynak=""):
     fig = plt.figure(figsize=(W, H), dpi=100, facecolor=BG)
     # vurgu şeridi
     fig.add_artist(Rectangle((0.0555, 0.935), 0.05, 0.006, transform=fig.transFigure, color=ACC))
-    _t(fig, 0.0555, 0.905, kicker.upper(), 26, "bold", ACC)
+    _t(fig, 0.0555, 0.905, kicker.replace("i", "İ").upper(), 26, "bold", ACC)
     # başlık (en çok 2 satır, otomatik küçülme)
     size = 72 if len(baslik) <= 28 else (64 if len(baslik) <= 44 else 56)
     import textwrap
@@ -423,7 +423,7 @@ def dosya(ticker, kicker, baslik, spot, seri, kiyas, olaylar, sonuc, kaynak, out
     renk = MARKA.get(ticker, ACC)
     fig = plt.figure(figsize=(W, H), dpi=100, facecolor=BG); _zemin(fig, renk)
     son = dt.date.fromisoformat(seri[-1][0]); L = 0.0555; R = 0.944
-    fig.text(L, 0.94, kicker.upper(), fontsize=24 * 0.72, color=renk, family=FAM, fontweight="black", va="center")
+    fig.text(L, 0.94, kicker.replace("i", "İ").upper(), fontsize=24 * 0.72, color=renk, family=FAM, fontweight="black", va="center")
     fig.text(R, 0.94, f"DOSYA • {son.day:02d}.{son.month:02d}.{son.year}", fontsize=22 * 0.72, color=MUTED, family=MONO, ha="right", va="center")
     fig.add_artist(Rectangle((L, 0.922), R - L, 0.0012, transform=fig.transFigure, color=GRID))
     lg = _logo_png(ticker); lw_ = 0
@@ -516,7 +516,7 @@ def _kabuk(ticker, kicker, etiket, baslik, spot, kaynak, yontem, son_tarih=None)
     import textwrap
     renk = MARKA.get(ticker, ACC); L = 0.0555; R = 0.944
     fig = plt.figure(figsize=(W, H), dpi=100, facecolor=BG); _zemin(fig, renk)
-    fig.text(L, 0.94, kicker.upper(), fontsize=24 * 0.72, color=renk, family=FAM, fontweight="black", va="center")
+    fig.text(L, 0.94, kicker.replace("i", "İ").upper(), fontsize=24 * 0.72, color=renk, family=FAM, fontweight="black", va="center")
     sag = etiket + (f" • {son_tarih}" if son_tarih else "")
     fig.text(R, 0.94, sag, fontsize=22 * 0.72, color=MUTED, family=MONO, ha="right", va="center")
     fig.add_artist(Rectangle((L, 0.922), R - L, 0.0012, transform=fig.transFigure, color=GRID))
