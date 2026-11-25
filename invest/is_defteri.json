@@ -2716,11 +2716,11 @@
    "ne": "C3 tur; Enes'in konularında sistem tweeti yok",
    "ticker": "",
    "tur": "tek",
-   "durum": "bekliyor",
+   "durum": "yapildi",
    "not": "",
    "trigger": "",
    "soz": "",
-   "guncelleme": "25.11 22:36"
+   "guncelleme": "25.11 23:10"
   },
   {
    "id": "TEST-AYRISMA-KAP",
@@ -2734,6 +2734,19 @@
    "trigger": "",
    "soz": "",
    "guncelleme": "25.11 23:00"
+  },
+  {
+   "id": "TUR-2511-0025",
+   "ad": "Otomatik paylaşım turu",
+   "zaman": "2026-11-26T00:25",
+   "ne": "C3 tur; kapanış özeti",
+   "ticker": "",
+   "tur": "tek",
+   "durum": "bekliyor",
+   "not": "",
+   "trigger": "",
+   "soz": "",
+   "guncelleme": "25.11 23:10"
   },
   {
    "id": "TEST-TARIFE-2511",
