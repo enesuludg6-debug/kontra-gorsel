@@ -17,9 +17,9 @@
   "yorum": "Tayvan'a %15 üstü gümrük gelirse en açık risk TSM",
   "esik": "USTR Section 301 Tayvan oranı >%15 ve TSM tepkisi",
   "kontrol": "2026-11-26",
-  "sonuc": "",
-  "ne_oldu": "",
-  "sonuc_tarih": ""
+  "sonuc": "olculemedi",
+  "ne_oldu": "Tayvan önerisi en çok %15; koşul (%15 üstü) oluşmadı",
+  "sonuc_tarih": "2026-11-25"
  },
  {
   "id": "TEST-SNOW-0312",

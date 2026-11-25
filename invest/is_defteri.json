@@ -2579,11 +2579,25 @@
    "ne": "C3 tur",
    "ticker": "",
    "tur": "tek",
-   "durum": "kuruldu",
+   "durum": "yapildi",
    "not": "",
    "trigger": "trig_01DjXNTBHyDyeRobiGyp7Xbt",
    "soz": "",
-   "guncelleme": "25.11 18:22"
+   "guncelleme": "25.11 18:52"
+  },
+  {
+   "id": "TUR-2511-1920",
+   "ad": "Otomatik paylaşım turu",
+   "zaman": "2026-11-25T19:20",
+   "ne": "C3 tur",
+   "ticker": "",
+   "tur": "tek",
+   "durum": "kuruldu",
+   "not": "",
+   "trigger": "trig_018ELxUKFJ6WeqfX79cRs5Yc",
+   "soz": "",
+   "guncelleme": "25.11 18:52",
+   "mesaj": "HESAP=C3. Önce invest/AKTIF_HESAP.md oku; AKTIF: C3 değilse hiçbir şey yapma (tweet ve push yok) ve bu görevi kapat. OTOMATİK PAYLAŞIM TURU (TUR-2511-1920, kural 42/86/87/89; paylaşım günü 25.11, 02:00'de biter). `bash invest/tur_basi.sh C3` çalıştır (çıkış 2/3 → dur; AYRISMA sinyali bugün kullanıldı, tekrar yok) ve KURAL_DIZINI.md'ye göre çalış; skill enes-tweet-turu + enes-fon-yoneticisi-dili + enes-konu-secimi + enes-ilk-satir + enes-analiz-kalitesi + enes-uzman-dil + enes-gorsel (akşam: enes-egitici; yoksa invest/skills/*.md). KURAL 89 + 89-B: hedge fon yöneticisi üslubu (fiyatlanan ne, fark, asimetri, katalizör, pozisyonlanma, eşik — her tweette 2-4'ü, SIRA ve KAPANIŞ değişir, hazır cümleler soğumalı; kalite.py denetler); yalnız üslup: al/sat, hedef fiyat, 'fonumuz' YOK. KURAL 87: 2-4 adayı `python3 invest/konu_puan.py` ile puanla, 60+ at, 50 altı atma, puanları DONGU'ya yaz. KURAL 88 İPTAL. KURAL 86: HAFTA İÇİ EN AZ 18 EN ÇOK 26 (sayıyı `python3 -c \"import json;print(sum(1 for x in json.load(open('invest/kalite_defteri.json')) if x.get('gun')=='25.11'))\"` ile al); turda 1 tweet, güçlü konu varsa 2. İlk satır en çok 12 kelime, Enes'in birinci tekil sesi; en çok 3 farklı rakam, en çok 3 paragraf; en güçlü tweetler 20-23; akşam 1 EĞİTİCİ (20-23, örn. 'çekirdek PCE nedir'); portföy dosyası bugün 2/2 TAMAM; 15+ beğeni/2.000+ gösterim alan tweete yeni veri gelirse güncelleme. Ölçülebilir yorum atarsan kural 66: isler.py ekle + isler.py mesaj --yaz + yorumlar.py ekle. GÖRSEL: KURAL 84 kart3 DOSYA AİLESİ, grafik ham veriyle birebir. YAZIM: 54-F + EK — dramatik/soyut kalıp YOK. Bugün atılanlar DONGU son AUTO satırlarından kontrol et — tekrarlama. Konu adayları: ABD kapanışı (22:00 sonrası değil, 00:00) öncesi çip/endeks, gümrük duyurusu (TEST-TARIFE-2511), Micron not indirimi (2. kaynak), eğitici. KURAL 69 akşam Enes taslağı 21-24 ilk turda, 22:00 Bej Kitap tweeti, kural 81 büyük çerçeve (bu hafta 0/2). KURAL 79: tweet sırası çiftse iddia açılışı. Son 3 düzen: DONGU son AUTO satırından al. İLK İŞ olarak 20-35 dk sonrasına aynı adla (\"Otomatik paylaşım turu\") bu mesajla send_later kur, yalnız TUR id, konu/öncelik ve kalan tweet sayısını güncelle; 02:00 sonrasına düşerse ya da günlük 26 dolduysa (son dakika hariç) kurma. Kurduğun tur görevini `isler.py ekle` + `isler.py mesaj <ID> --yaz` ile deftere yaz. Bütün mesajlar bu sohbete (SendUserMessage / SendUserFile)."
   },
   {
    "id": "TEST-AYRISMA-2511",
@@ -2606,11 +2620,11 @@
    "ne": "Kural 66: 25.11 14:04 tweeti (Buffer 6b06c0a64f2f059ad9a4f8a6) — USTR Section 301 duyurusunda Tayvan oranı %15 üstü mü; TSM etkisi. Duyuru gelmediyse tarihi ileri al",
    "ticker": "",
    "tur": "test",
-   "durum": "kuruldu",
-   "not": "",
+   "durum": "yapildi",
+   "not": "18:52 haber tweetinde duyuru işlendi; koşul oluşmadı",
    "trigger": "trig_01FAbyw2jQHs5hmM8gQv3CV2",
    "soz": "",
-   "guncelleme": "25.11 14:04",
+   "guncelleme": "25.11 18:52",
    "mesaj": "HESAP=C3. Önce invest/AKTIF_HESAP.md oku; AKTIF: C3 değilse hiçbir şey yapma (tweet ve push yok) ve bu görevi kapat. git pull, DURDUR kontrolü. İŞ TEST-TARIFE-2511 (Sonuç takibi: Tayvan gümrük oranı). Önce `isler.py liste | grep TARIFE` ve DONGU: duyuru 25.11'de bir turda zaten işlendiyse 'yapildi' yap ve bitir. KURAL 66: 25.11 14:04 tweeti (Buffer 6b06c0a64f2f059ad9a4f8a6) — 'Tayvan'a %15 üstü oran gelirse en açık risk TSM'. USTR Section 301 aşırı kapasite duyurusu çıktı mı (2 kaynak): Tayvan oranı ve yarı iletken muafiyeti. Çıktıysa sonuç takibi tweeti (kart3 haber_dosya, skill enes-gorsel + enes-sonuc-takibi); kural 23: yön tutmadıysa tahmin anılmaz, yalnız haber + yorum. Sonucu `python3 invest/yorumlar.py sonuc TEST-TARIFE-2511 ...` ile yaz. Duyuru yoksa tarihi 1 gün ileri al (`isler.py` ile) ve send_later'ı yeniden kur (`isler.py mesaj --yaz` ile mesajı da güncelle). Perşembe ABD borsası kapalı. invest/gorevler/_ORTAK.md oku. Bitince `python3 invest/isler.py durum TEST-TARIFE-2511 yapildi`. Bütün mesajlar bu sohbete (SendUserMessage / SendUserFile)."
   },
   {
