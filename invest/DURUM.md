@@ -1,5 +1,5 @@
 # DURUM — tek sayfa GÜNCEL DURUM (kural 18; 23.11 20:50'den beri yalnız durum, kurallar KURAL_DIZINI.md)
-Son güncelleme: 25.11.2026 20:58 TSİ (C2). Turlar şunu okur: tur_basi.sh çıktısı (KURAL_DIZINI.md + bu dosya + DONGU son 30 + dersler + defter). Kuralların tam metni KURALLAR_TAM.md ve skills/*.md: yalnız gerektiğinde grep ile.
+Son güncelleme: 25.11.2026 22:10 TSİ (C2). Turlar şunu okur: tur_basi.sh çıktısı (KURAL_DIZINI.md + bu dosya + DONGU son 30 + dersler + defter). Kuralların tam metni KURALLAR_TAM.md ve skills/*.md: yalnız gerektiğinde grep ile.
 
 ## Hesap
 - AKTIF: C3 (25.11 08:40 sohbet devri; görev mesajları HESAP=C3; tur_basi.sh C3). Chrome bağlı değil (fikir taramasının Chrome adımı atlanır).
@@ -25,7 +25,7 @@ Son güncelleme: 25.11.2026 20:58 TSİ (C2). Turlar şunu okur: tur_basi.sh çı
 
 ## Kart
 - 25.11 11:38 KART3 VARSAYILAN (kural 84): Enes 6 örneğin hepsini beğendi (cizgi_olay, esleme, siralama, isi, bilanco, goreli); grafikler ham veriyle birebir, 'son veri' damgası, kart3.dogrula. Ölçüm: 2 hafta kart3 vs eski kart göreli görüntülenme (perfogren).
-- Son 3 düzen: siralama ([A:normal] Kredi tem), haber_dosya ([A:iddia] FCC SpaceX), cizgi_pro ([A:normal] Nasdaq 10).
+- Son 3 düzen: haber_dosya ([A:iddia] FCC SpaceX), cizgi_pro ([A:normal] Nasdaq 10), haber_dosya ([A:iddia] Fed Bej Ki).
 - LOGO_BUYUT 1.8, küçültme YOK; bento ve skor kare logoyu taşımıyor (bilanço rakamı = uclu); dortlu/isi kartında logolu ticker rakama biniyor (logosuz isim).
 
 ## 13F serisi (Q3 2026)

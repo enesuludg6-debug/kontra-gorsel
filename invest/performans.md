@@ -264,3 +264,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 25.11 | 20:02 | EGITICI | [A:normal] Kredi temerrüt swabı (CDS) nedir; CRWV 1.155 / ORCL 298 / NVDA 139 bp (6.11) | siralama | 6b07125a95a0fa08d474a277 |
 | 25.11 | 20:14 | ENES-HABER | [A:iddia] FCC SpaceX Starmind 1 milyon uydu izni; Starlink Gen2 15.000; ilk etki fırlatma talebi/Starship | haber_dosya | 6b0713abdb153417ca0fe4e1 |
 | 25.11 | 20:57 | BAGLAM-GORUS | [A:normal] Nasdaq 100 ayı çizgisine (24.980) dokunup döndü; VIX gün içi zirveden ~5 puan geri; çizgi %3 yukarıda | cizgi_pro | 6b07218d52de4830633e1512 |
+| 25.11 | 22:10 | MAKRO | [A:iddia] Fed Bej Kitap: 8/12 bölge büyüme, girdi maliyeti > satış fiyatı, ücret hızlandı; Aralık artırımı değişmez, baskı marjlarda; 13 Ocak sonraki Bej Kitap | haber_dosya | 6b07329c636c52154b99315f |
