@@ -258,3 +258,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 25.11 | 15:22 | BILANCO-ANALIZ | [A:normal] GDS analiz: FAVÖK +2,8, doluluk 74,4->81,2, marj 46,5->43,4, capex 8,5, net borç/FAVÖK ~5,3 | sutun | 6b06d2fca98b4d223dac3eba |
 | 25.11 | 16:47 | MAKRO | [A:iddia] [TEST-SONUC] PCE: çekirdek 3,3 yıllık / 0,3 aylık, GDP 4,3; eşik tuttu, 50 bp sorusu | haber_dosya | 6b06e6ec3b100906e7587db1 |
 | 25.11 | 17:37 | BAGLAM-GORUS | [A:normal] Açılış: NDX ~−4, SPX ~−2,7; MU −11, CRWV/NBIS −10, NVDA −8,5; en az HPE/AXON/CRWD | isi | 6b06f2c1232e485be0cd5b9a |
+| 25.11 | 18:00 | MAKRO | [A:iddia] Hisse düşerken tahvil yükseldi: 10Y 4,90->4,82, ZT/ZQ yukarı, NDX −3 (açılış −4); 17:37 açıklaması düzeltildi | haber_dosya | 6b06f80ecabcf2e3e37bd992 |
