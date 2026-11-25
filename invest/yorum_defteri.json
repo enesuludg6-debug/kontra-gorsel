@@ -1,0 +1,46 @@
+[
+ {
+  "id": "TEST-AYRISMA-2511",
+  "tweet": "24.11 18:32",
+  "buffer": "6b05adf387ca84f8fe769833",
+  "yorum": "Çipte ayrışma sürerse NVDA Cuma kapanışı üstünde, AMD/AVGO altında kalır",
+  "esik": "25.11 kapanış: NVDA>125,53, AMD<424,39, AVGO<304,41",
+  "kontrol": "2026-11-25",
+  "sonuc": "",
+  "ne_oldu": "",
+  "sonuc_tarih": ""
+ },
+ {
+  "id": "TEST-TARIFE-2511",
+  "tweet": "25.11 14:04",
+  "buffer": "6b06c0a64f2f059ad9a4f8a6",
+  "yorum": "Tayvan'a %15 üstü gümrük gelirse en açık risk TSM",
+  "esik": "USTR Section 301 Tayvan oranı >%15 ve TSM tepkisi",
+  "kontrol": "2026-11-26",
+  "sonuc": "",
+  "ne_oldu": "",
+  "sonuc_tarih": ""
+ },
+ {
+  "id": "TEST-SNOW-0312",
+  "tweet": "24.11 21:53",
+  "buffer": "6b05dd3720f9e770f087da78",
+  "yorum": "SNOW'da belirleyici kalem RPO büyümesi",
+  "esik": "RPO yıllık büyümesi %30 altı mı; ürün geliri 1,588-1,593 Mr $",
+  "kontrol": "2026-12-03",
+  "sonuc": "",
+  "ne_oldu": "",
+  "sonuc_tarih": ""
+ },
+ {
+  "id": "TEST-CRWV-TAHVIL",
+  "tweet": "25.11 18:22",
+  "buffer": "6b06fd325fe597980b65b3cf",
+  "yorum": "CoreWeave tahvil getirisi %16 altına inerse hisse toparlanması güçlenir",
+  "esik": "2031/2032 tahvil getirisi <%16 ve CRWV >38,25",
+  "kontrol": "2026-12-09",
+  "sonuc": "",
+  "ne_oldu": "",
+  "sonuc_tarih": ""
+ }
+]

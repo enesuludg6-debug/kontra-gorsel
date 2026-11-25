@@ -8,6 +8,9 @@ Komutlar:
   python3 isler.py devir                        yeni sohbette kurulacak görevler (zamanı gelmemiş açık işler + geçmişte kalıp yapılmamışlar)
   python3 isler.py ekle <id> "<ad>" <YYYY-MM-DDTHH:MM> "<ne yapılacak>" [--ticker T] [--tur X]
   python3 isler.py durum <id> <bekliyor|kuruldu|yapildi|iptal|atlandi> [--not "..."] [--trigger trig_x] [--soz "Enes'in aynen sözü (iptal için zorunlu)"]
+  python3 isler.py mesaj <id> [ETIKET] [--yaz "<tam görev mesajı>"]
+      → (Enes 25.11 18:26: sık sohbet/hesap değiştiriyor) görevin TAM mesajını defterde saklar / okur.
+        Okurken mesajdaki "HESAP=<eski>." etiketini verilen ETIKET ile değiştirip basar: yeni sohbet send_later'a AYNEN koyar.
   python3 isler.py bilanco <TICKER> <YYYY-MM-DDTHH:MM açıklama TSİ> <acilis_oncesi|kapanis_sonrasi> ["görüşme saati HH:MM"]
       → standart bilanço adımlarını ekler: opsiyon (kural 39), hazirlik (T-60), yayin (T-2), analiz (+15 dk),
         detay (+30 dk, beklemeden, kural 41), cagri (kural 40), beklenen_hareket (ilk açılış +15 dk, kural 22n)
@@ -118,7 +121,8 @@ def main(a):
         for x in d["isler"]:
             if acik(x):
                 etiket = "GECIKMIS" if zaman(x["zaman"]) < n else "KUR"
-                print(f"{etiket:8} {satir(x)}")
+                print(f"{etiket:8} {satir(x)}" + ("" if x.get("mesaj") else "   [TAM MESAJ YOK]"))
+        print("# Tam mesaj: python3 invest/isler.py mesaj <ID> <YENİ_ETİKET>  -> çıktıyı send_later message'a AYNEN koy (ad = defterdeki ad, zaman = defterdeki zaman).")
         print("# İPTAL edilenler (Enes'in sözüyle):")
         for x in d["isler"]:
             if x["durum"] == "iptal":
@@ -163,6 +167,20 @@ def main(a):
         kaydet(d)
         print(satir(x))
         return
+    if a[0] == "mesaj":
+        x = bul(d, a[1])
+        if not x:
+            sys.exit(f"yok: {a[1]}")
+        if "--yaz" in a:
+            x["mesaj"] = a[a.index("--yaz") + 1]; kaydet(d); print("mesaj kaydedildi"); return
+        m = x.get("mesaj") or ""
+        if not m:
+            sys.exit(f"{a[1]}: kayıtlı tam mesaj yok; 'ne' alanı: {x.get('ne','')} — mesajı DEVIR_TAM/gorevler/*.md ve skill'den yaz, sonra --yaz ile sakla")
+        import re
+        if len(a) > 2 and not a[2].startswith("--"):
+            m = re.sub(r"HESAP=[A-Z]\d*\.", f"HESAP={a[2]}.", m)
+            m = re.sub(r"AKTIF: [A-Z]\d* değilse", f"AKTIF: {a[2]} değilse", m)
+        print(m); return
     if a[0] == "bilanco":
         n = bilanco(d, a[1], a[2], a[3], a[4] if len(a) > 4 else None)
         kaydet(d)

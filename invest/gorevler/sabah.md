@@ -7,3 +7,5 @@
 (f) KART/TA-FARK: dünkü DONGU'da TA-FARK ya da kart hatası varsa DERSLER 'Gözlemler'e ekle.
 (g) KURAL 42: bu görev tweet atmaz. Tur zincirini 11:15'e kur; günlük hedef Pzt-Cmt 30-40 (Pazar üst 40).
 (h) KURAL 43: `python3 invest/isler.py devir` ile list_triggers'ı karşılaştır; defterde açık olup görevi olmayanı kur, zamanı geçmiş yapılmamışı Enes'e yaz.
+
+- (Enes 25.11 18:26) `python3 invest/yorumlar.py bekleyen` ve `python3 invest/isler.py devir | grep 'TAM MESAJ YOK\|GECIKMIS'`: kontrol tarihi gelmiş yorum varsa görevi bu sohbette yoksa bugünkü ilk turda sına (skill enes-sonuc-takibi); eksik görev varsa `isler.py mesaj <ID> <ETİKET>` ile kur.
