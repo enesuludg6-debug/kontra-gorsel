@@ -261,3 +261,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 25.11 | 18:00 | MAKRO | [A:iddia] Hisse düşerken tahvil yükseldi: 10Y 4,90->4,82, ZT/ZQ yukarı, NDX −3 (açılış −4); 17:37 açıklaması düzeltildi | haber_dosya | 6b06f80ecabcf2e3e37bd992 |
 | 25.11 | 18:22 | PORTFOY | [A:normal] CRWV/NBIS tahvil baskısı: kredi primi rekor, 2031 tahvil %16 üstü; eşik %16 | dosya | 6b06fd325fe597980b65b3cf |
 | 25.11 | 18:52 | HABER | [A:iddia] Tayvan USTR resmi öneri en çok %15 (anlaşma tavanı); TSM −%7 gümrükten değil çip satışından | haber_dosya | 6b070424304332fdc8e12c9b |
+| 25.11 | 20:02 | EGITICI | [A:normal] Kredi temerrüt swabı (CDS) nedir; CRWV 1.155 / ORCL 298 / NVDA 139 bp (6.11) | siralama | 6b07125a95a0fa08d474a277 |
