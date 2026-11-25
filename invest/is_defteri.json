@@ -2689,11 +2689,11 @@
    "ne": "C3 tur; hedge fon re-gross adayı",
    "ticker": "",
    "tur": "tek",
-   "durum": "kuruldu",
+   "durum": "yapildi",
    "not": "",
    "trigger": "trig_01UHxzAKttReMxiY4GNyGzn9",
    "soz": "",
-   "guncelleme": "25.11 21:55"
+   "guncelleme": "25.11 22:36"
   },
   {
    "id": "TEST-AYRISMA-2511",
@@ -2708,6 +2708,19 @@
    "soz": "",
    "guncelleme": "25.11 08:43",
    "mesaj": "HESAP=C3. Önce invest/AKTIF_HESAP.md oku; AKTIF: C3 değilse hiçbir şey yapma (tweet ve push yok) ve bu görevi kapat. git pull, DURDUR kontrolü. İŞ TEST-AYRISMA-2511 (Sonuç takibi: çip ayrışması). KURAL 66: 24.11 18:32 geri verme tweeti (Buffer 6b05adf387ca84f8fe769833) — 'ayrışma sürerse': 25.11 kapanışa doğru NVDA hâlâ Cuma kapanışı (125,53) üstünde ve AMD (424,39) / AVGO (304,41) altında mı? Fiyatları 2 kaynakla doğrula (fiyat_teyit.py, kural 78); tuttuysa sonuç takibi tweeti (kendi tweetini alıntılayabilirsin, id Buffer externalLink'ten, kural 80), tutmadıysa kural 23: tweet yok, DONGU'ya not. Sonucu `python3 invest/yorumlar.py sonuc TEST-AYRISMA-2511 tuttu|tutmadi|kismen \"<tek rakam>\"` ile yaz. invest/gorevler/_ORTAK.md + skill enes-sonuc-takibi, enes-analiz-kalitesi, enes-uzman-dil (yoksa invest/skills/*.md) oku. Bitince `python3 invest/isler.py durum TEST-AYRISMA-2511 yapildi`. Bütün mesajlar bu sohbete (SendUserMessage / SendUserFile)."
+  },
+  {
+   "id": "TUR-2511-2310",
+   "ad": "Otomatik paylaşım turu",
+   "zaman": "2026-11-25T23:10",
+   "ne": "C3 tur; Enes'in konularında sistem tweeti yok",
+   "ticker": "",
+   "tur": "tek",
+   "durum": "bekliyor",
+   "not": "",
+   "trigger": "",
+   "soz": "",
+   "guncelleme": "25.11 22:36"
   },
   {
    "id": "TEST-TARIFE-2511",
