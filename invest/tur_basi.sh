@@ -71,4 +71,4 @@ for t in ["ES=F","NQ=F","^TNX","DX-Y.NYB","^GSPC","^NDX"]:
 E
 
 # KURAL 85 ayrışma ölçüsü
-python3 "$(dirname "$0")/ayrisma.py" --sessiz
+{ [ -f ayrisma.py ] && python3 ayrisma.py --sessiz; } || { [ -f invest/ayrisma.py ] && python3 invest/ayrisma.py --sessiz; }
