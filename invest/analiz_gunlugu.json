@@ -10,5 +10,17 @@
   "gerekce": "Günlük ayı FVG 26.059-26.386 + Enes 26.261 + AVWAP; MTF -17",
   "tarih": "2026-11-25",
   "sonuc": ""
+ },
+ {
+  "id": 2,
+  "t": "AVGO",
+  "yon": "yukari",
+  "giris": 300.0,
+  "stop": 278.0,
+  "hedef": 327.0,
+  "gun": 15,
+  "gerekce": "Dip 5/10, günlük RSI boğa uyumsuzluğu, 278 dipten dönüş; onay 327 (EMA20+FVG)",
+  "tarih": "2026-11-25",
+  "sonuc": ""
  }
 ]

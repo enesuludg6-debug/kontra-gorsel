@@ -685,3 +685,4 @@ Durdurmak için en alta `DURDUR` yazılı bir satır ekle (Enes ya da Claude, En
 - 23:10 (25.11) AUTO C3 Enes 23:04: grafik içinde 'Enes' yazmaz (Seviye / yatay seviye), isim yalnız sağ alt imza; cizim.py, teknik_pro.py, teknik_ek.py, skill.
 - 23:20 (25.11) ENES-ISTEGI: CBRS teknik+temel görsel (g/20261125_cbrs_teknik.jpg) + 4h çizim (g/20261125_cbrs_cizim.png) + tweet metni; ENES ATACAK. Kaynak: SEC 8-K 12.11 (Q3 GAAP 210,8 / çekirdek 230,9), CNBC/LSEG beklenti 214,7, Investing Q4 rehber 310-330, kilit 9.11 (FinanceFeeds + Fool + CryptoTicker), halka arz 185 (FinanceFeeds + MarketBeat); Yahoo fiyat; dip_tepe 6/10, trend ERKEN; göreli güç −41,2.
 - 23:11 (25.11) TUR-2511-2310 (C3): tweet yok — kapanış 00:00, çip ayrışma sonucu 00:10 (TEST-AYRISMA-KAP), kapanış özeti 00:25 turuna. Enes DOCN/CBRS metinleri ayrı (ENES ATACAK). 20/18-26.
+- 00:00 (26.11) ENES-ISTEGI AVGO analizi (çizim 1d/4h), günlüğe senaryo: yukarı 300/278/327 15 gün.
