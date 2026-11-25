@@ -247,3 +247,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 25.11 | 00:17 | BILANCO-ANALIZ | [A:normal] DELL analiz: defter kâra dönüyor, marj sabit, 4Ç HBK -%11 | once_sonra | 6b05fec99dd8377af120a802 |
 | 25.11 | 00:31 | KAPANIS | [A:iddia] [ALINTI-kendi] NDX sonuç takibi: rallinin %31'i geri verildi, %50 eşiği aşılmadı | halka | 6b060233bbd94e83697121fe |
 | 25.11 | 11:02 | KEYLEVELS | [A:normal] Günün başlıkları: NQ -2 vadeli, DELL primi geri verdi, PCE 0,3=yıllık 3,7 | takvim | 6b069620c68d7845a492dc71 |
+| 25.11 | 11:07 | HABER | [A:iddia] BIS kara liste 7 şirket MY/SG/TH, Megaspeed; ABD merkezli muafiyet -> kanal temizliği | editoryal | 6b069756d8874a038c0514ea |
