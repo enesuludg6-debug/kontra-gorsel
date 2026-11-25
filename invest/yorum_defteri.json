@@ -6,9 +6,9 @@
   "yorum": "Çipte ayrışma sürerse NVDA Cuma kapanışı üstünde, AMD/AVGO altında kalır",
   "esik": "25.11 kapanış: NVDA>125,53, AMD<424,39, AVGO<304,41",
   "kontrol": "2026-11-25",
-  "sonuc": "",
-  "ne_oldu": "",
-  "sonuc_tarih": ""
+  "sonuc": "tuttu",
+  "ne_oldu": "NVDA 149,30 / AMD 406,03 / AVGO 300,86",
+  "sonuc_tarih": "2026-11-26"
  },
  {
   "id": "TEST-TARIFE-2511",
