@@ -1,6 +1,10 @@
 # >>> 25.11.2026 08:40 EK — SOHBET DEVRİ C2 → C3 (ÖNCE BUNU OKU) <<<
 - Aynı Claude hesabı, yeni sohbet; etiket **C3**. Aşağıdaki "SOHBET DEVRİ" bölümünü 1-6 uygula, kilit `AKTIF: C3`. "HESAP=C2" ile başlayan eski görevler kilit yüzünden kendini kapatır (çift tweet olmaz).
 
+## KALICI ONAYLAR (her hesap/sohbet)
+- Enes 25.11.2026 22:11: `pip install --break-system-packages -q smartmoneyconcepts pandas_ta` onaylı ('başka hesapta da onayladığımı bilsin'); teknik/SMC analizi `invest/smc_analiz.py`, skill enes-teknik-smc. TEXT TO QUANT bağlı (yalnız kripto planı).
+
+
 ## SIK SOHBET/HESAP DEĞİŞİMİ (Enes 25.11 18:26: 'sık sık sohbet değiştiriyorum, 9 Aralık'ta başka sohbet veya hesapta olacağım')
 - Görevler (send_later) kurulduğu sohbete ve hesaba bağlıdır; Enes geçince eskileri kilitle kapanır. KALICI OLAN TEK ŞEY REPO.
 - Her tek seferlik görev kurulurken TAM mesajı da deftere yazılır: `python3 invest/isler.py mesaj <ID> --yaz "<mesaj>"`. Yeni sohbette `isler.py devir` listesindeki her KUR satırı için `python3 invest/isler.py mesaj <ID> <YENİ_ETİKET>` çıktısı send_later'a AYNEN konur (ad ve zaman defterden), sonra `isler.py durum <ID> kuruldu --trigger <trig>`. '[TAM MESAJ YOK]' yazan iş varsa mesajı gorevler/*.md + skill'den yaz ve --yaz ile sakla.
