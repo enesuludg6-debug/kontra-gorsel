@@ -2358,11 +2358,24 @@
    "ne": "C3 tur",
    "ticker": "",
    "tur": "tek",
-   "durum": "kuruldu",
+   "durum": "yapildi",
    "not": "",
    "trigger": "trig_015gi5fNK3dXTagZR5WxvYVm",
    "soz": "",
-   "guncelleme": "25.11 12:54"
+   "guncelleme": "25.11 13:17"
+  },
+  {
+   "id": "TUR-2511-1340",
+   "ad": "Otomatik paylaşım turu",
+   "zaman": "2026-11-25T13:40",
+   "ne": "C3 tur",
+   "ticker": "",
+   "tur": "tek",
+   "durum": "kuruldu",
+   "not": "",
+   "trigger": "trig_01SQRZCXjWacM8Px28yE9uvL",
+   "soz": "",
+   "guncelleme": "25.11 13:17"
   },
   {
    "id": "TEST-PCE-2511",
