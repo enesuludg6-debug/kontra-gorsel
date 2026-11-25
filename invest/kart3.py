@@ -319,3 +319,74 @@ def sutun(kicker, baslik, alt, donemler, seriler, sonuc, kaynak, out, birim=" Mr
         x0 += 0.05 + len(ad) * 0.0125
     _t(fig, r[0] + r[2], r[1] + r[3] - 0.022, birim.strip(), 22, "bold", MUTED, ha="right", va="center")
     return kaydet(fig, out)
+
+# ================= v3 (25.11 11:45, 'daha da iyisini yapabiliriz') =================
+from PIL import Image as _Img
+def _logo_png(t):
+    p = os.path.join(D, "logo", f"{t}.png"); ok = os.path.join(D, "logo", "DOGRULANDI.txt")
+    if not os.path.exists(p) or t not in open(ok, encoding="utf-8").read().split(): return None
+    return _Img.open(p).convert("RGBA")
+
+def hikaye(kicker, baslik, alt, ticker, seri, kiyas, notlar, kutular, sonuc, kaynak, out, kiyas_ad="Nasdaq 100"):
+    """Hikâye grafiği: hisse (kalın, vurgu) + kıyas endeksi (soluk gri) ilk gün=100; tarihli cümle notları; sağ üstte doğrulanmış logo;
+    üstte 3 kilit rakam şeridi. notlar: [(tarih, 'kısa cümle', 'ust'|'alt')]; kutular: [(rakam, etiket, renk)] x3"""
+    alt = _damga(alt, seri[-1][0])
+    fig, r = cerceve(kicker, baslik, alt, sonuc, kaynak)
+    lg = _logo_png(ticker)
+    if lg:
+        h = 120; lg = lg.resize((int(lg.width * h / lg.height), h))
+        fig.figimage(lg, xo=int(1080 * 0.944) - lg.width, yo=int(1350 * 0.865) - h + 10, zorder=10)
+    # kilit rakam şeridi
+    kw = r[2] / 3; ky = r[1] + r[3] - 0.10
+    for i, (rk, et, c) in enumerate(kutular[:3]):
+        x0 = r[0] + i * kw
+        fig.add_artist(FancyBboxPatch((x0 + 0.004, ky), kw - 0.008, 0.095, boxstyle="round,pad=0,rounding_size=0.01",
+                                      transform=fig.transFigure, fc=PANEL, ec="none", zorder=-5))
+        _t(fig, x0 + 0.022, ky + 0.062, rk, 44, "black", c, va="center")
+        _t(fig, x0 + 0.022, ky + 0.022, et, 22, "bold", MUTED, va="center")
+    ax = _ax(fig, [r[0], r[1], r[2], r[3] - 0.12], (0.0, 0.05, 0.06, 0.0)); ax.yaxis.tick_right()
+    x = [dt.date.fromisoformat(a) for a, _ in seri]; y = [100 * b / seri[0][1] for _, b in seri]
+    kd = dict(kiyas); xk = [dt.date.fromisoformat(a) for a, _ in seri if a in kd]; yk = [100 * kd[a] / kd[seri[0][0]] for a, _ in seri if a in kd]
+    ax.plot(xk, yk, color=GREY, lw=2.5, alpha=0.9)
+    ax.plot(x, y, color=ACC, lw=4.5, solid_joinstyle="round")
+    ax.axhline(100, color=GRID, lw=1.5)
+    ax.set_xlim(x[0], x[-1] + (x[-1] - x[0]) * 0.24)
+    lo = min(min(y), min(yk)); hi = max(max(y), max(yk)); ax.set_ylim(lo - (hi - lo) * 0.08, hi + (hi - lo) * 0.10)
+    for xx, yy, c, ad in ((x[-1], y[-1], ACC, ticker), (xk[-1], yk[-1], GREY, kiyas_ad)):
+        ax.scatter([xx], [yy], s=110, color=c, zorder=6)
+        ax.annotate(f"{ad}\n{_yuzde(yy-100,0)}", (xx, yy), xytext=(12, 0), textcoords="offset points", va="center",
+                    fontsize=24 * 0.72, color=c if c != GREY else MUTED, family=FAM, fontweight="black", linespacing=0.95)
+    for td, cumle, yon in notlar:
+        d0 = dt.date.fromisoformat(td); i = min(range(len(x)), key=lambda k: abs((x[k] - d0).days))
+        ax.scatter([x[i]], [y[i]], s=140, color=INK, zorder=7, edgecolor=BG, lw=3)
+        dx, dy = (-150, 80) if yon == "ust" else (-230, 10)
+        ax.annotate(cumle, (x[i], y[i]), xytext=(dx, dy), textcoords="offset points", ha="center", va="center",
+                    fontsize=21 * 0.72, color=INK, family=FAM, fontweight="bold", linespacing=1.1,
+                    bbox=dict(boxstyle="round,pad=0.55", fc=PANEL, ec=ACC, lw=1.5), arrowprops=dict(arrowstyle="-", color=ACC, lw=1.6))
+    ax.xaxis.set_major_locator(mdates.MonthLocator()); _tr_eksen(ax)
+    return kaydet(fig, out)
+
+def esleme_video(kicker, baslik, alt, yollar, sonuc, kaynak, out_mp4, sure=7, fps=30):
+    """Animasyonlu karşılaştırma: çizgiler soldan sağa çizilir, son 2 sn sonuç bandıyla durur. X akışında video kendiliğinden oynar."""
+    import subprocess, tempfile, shutil
+    tmp = tempfile.mkdtemp(); n = max(len(ys) for _, ys, _, _ in yollar)
+    kare = sure * fps; ciz = int(kare * 0.7)
+    for f in range(kare):
+        k = max(2, int(n * min(1, (f + 1) / ciz)))
+        kes = [(ad, ys[:k], c, kal) for ad, ys, c, kal in yollar]
+        fig, r = cerceve(kicker, baslik, alt, sonuc if f >= ciz else " ", kaynak)
+        ax = _ax(fig, r, (0.07, 0.06, 0.12, 0.02)); ax.set_xlim(0, n + 2)
+        lo = min(min(ys) for _, ys, _, _ in yollar); ax.set_ylim(lo * 1.12, 2)
+        for ad, ys, c, kal in kes:
+            ax.plot(range(len(ys)), ys, color=c, lw=5 if kal else 3)
+            ax.scatter([len(ys) - 1], [ys[-1]], s=90 if kal else 50, color=c, zorder=5)
+            ax.annotate(ad, (len(ys) - 1, ys[-1]), xytext=(10, 0), textcoords="offset points", va="center",
+                        fontsize=28 * 0.72, color=c, family=FAM, fontweight="black")
+        ax.axhline(0, color=GREY, lw=1.5)
+        ax.yaxis.set_major_formatter(matplotlib.ticker.FuncFormatter(lambda v, _: f"%{v:.0f}".replace("%-", "−%")))
+        ax.set_xlabel("zirveden sonra işlem günü", color=MUTED, fontsize=22 * 0.72, family=FAM)
+        fig.savefig(os.path.join(tmp, f"{f:04d}.png"), dpi=100, facecolor=BG); plt.close(fig)
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-framerate", str(fps), "-i", os.path.join(tmp, "%04d.png"),
+                    "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", "-pix_fmt", "yuv420p", "-movflags", "+faststart",
+                    os.path.join(D, out_mp4)], check=True)
+    shutil.rmtree(tmp); return out_mp4

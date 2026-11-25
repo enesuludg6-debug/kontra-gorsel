@@ -2306,11 +2306,11 @@
    "ne": "Kural 40: görüşme önemli yerleri, gece bilançosunda AYNI SABAH, her konu ayrı tweet",
    "ticker": "DELL",
    "tur": "bilanco",
-   "durum": "kuruldu",
+   "durum": "yapildi",
    "not": "KURAL 67: DELL sayacı rakam+analizden sonra 5/6 olacak; bu üçünden YALNIZ en güçlüsü atılır (detay 00:30 ancak çok güçlü belge kalemi varsa; yoksa atla ve hakkı 17:45 beklenen harekete bırak).",
    "trigger": "trig_01EZHKzMK9MMowtGxkAWFpiq",
    "soz": "",
-   "guncelleme": "25.11 08:43"
+   "guncelleme": "25.11 11:43"
   },
   {
    "id": "TUR-2511-1205",
@@ -2345,11 +2345,11 @@
    "ne": "Kural 22n/39: opsiyon fiyatlaması vs açılıştaki gerçek hareket",
    "ticker": "DELL",
    "tur": "bilanco",
-   "durum": "kuruldu",
-   "not": "KURAL 67: DELL sayacı rakam+analizden sonra 5/6 olacak; bu üçünden YALNIZ en güçlüsü atılır (detay 00:30 ancak çok güçlü belge kalemi varsa; yoksa atla ve hakkı 17:45 beklenen harekete bırak).",
+   "durum": "atlandi",
+   "not": "kural 67: 6/6, hak çağrıya gitti",
    "trigger": "trig_01UB7upwYbLLyVM4wuKHd4ef",
    "soz": "",
-   "guncelleme": "25.11 08:43"
+   "guncelleme": "25.11 11:43"
   },
   {
    "id": "TEST-AYRISMA-2511",
