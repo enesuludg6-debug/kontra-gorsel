@@ -2566,11 +2566,24 @@
    "ne": "C3 tur",
    "ticker": "",
    "tur": "tek",
-   "durum": "kuruldu",
+   "durum": "yapildi",
    "not": "",
    "trigger": "trig_01GfiAStAJzkvEhApzA5z17W",
    "soz": "",
-   "guncelleme": "25.11 18:00"
+   "guncelleme": "25.11 18:22"
+  },
+  {
+   "id": "TUR-2511-1850",
+   "ad": "Otomatik paylaşım turu",
+   "zaman": "2026-11-25T18:50",
+   "ne": "C3 tur",
+   "ticker": "",
+   "tur": "tek",
+   "durum": "kuruldu",
+   "not": "",
+   "trigger": "trig_01DjXNTBHyDyeRobiGyp7Xbt",
+   "soz": "",
+   "guncelleme": "25.11 18:22"
   },
   {
    "id": "TEST-AYRISMA-2511",

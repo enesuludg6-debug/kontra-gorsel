@@ -1,21 +1,6 @@
 [
 {
 "jargon": {
-"ayrışma": 1
-},
-"tarih": [],
-"terim": [],
-"acilis": "avgo bugün yalnız 1",
-"kapanis": "burada talep düşüşü görmüyorum",
-"rekor": 0,
-"tur": "PORTFOY",
-"zaman": "23.11 20:40",
-"uzunluk": 699,
-"imza": "3p-duz-o-rakam",
-"kalip": ""
-},
-{
-"jargon": {
 "fiyatlama": 1,
 "iskonto": 2
 },
@@ -900,5 +885,21 @@
 "zaman": "25.11 18:00",
 "gun": "25.11",
 "uzunluk": 636
+},
+{
+"jargon": {
+"prim": 1
+},
+"tarih": [],
+"terim": [],
+"acilis": "iddia",
+"kapanis": "bence bu iki hissede",
+"rekor": 0,
+"imza": "3p-duz-k-cerceve",
+"kalip": "C",
+"tur": "PORTFOY",
+"zaman": "25.11 18:22",
+"gun": "25.11",
+"uzunluk": 446
 }
 ]
