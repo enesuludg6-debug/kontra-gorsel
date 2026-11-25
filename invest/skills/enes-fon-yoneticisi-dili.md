@@ -18,10 +18,11 @@ Okur tweeti bitirince şunu düşünmeli: "Bu adam haberi değil, haberin fiyata
 
 ## 2. Üslup
 - Sakin, kısa, kesin. Heyecan yok, ünlem yok, "inanılmaz", "çılgın", "bomba", "uçtu", "çöktü" yok; "sert düştü", "yüzde 11 geriledi".
-- Birinci tekil, ölçülü özgüven: "Bence", "benim okumam", "burada riski aşağı yönde görüyorum". Kesinlik yok: "kesin", "garanti", "kaçınılmaz".
+- Birinci tekil, ölçülü özgüven: "Bence" (tweette en çok 1), "riski aşağı yönde görüyorum", "bu görüşü değiştiririm". "Benim okumam" ve ":" ile etiketli giriş YASAK (yasak.py). Kesinlik yok: "kesin", "garanti", "kaçınılmaz".
 - Olasılık dili: "daha olası", "zayıf ihtimal", "piyasa yüzde 60 fiyatlıyor". Tahmin yerine senaryo.
 - Haberi tekrar etme; haberin **ikinci derece etkisine** geç (kimin geliri, kimin maliyeti, kimin bilançosu).
-- Jargon Türkçe ve anlaşılır: "fiyatlanmış", "beklenti farkı", "risk/getiri dengesi", "katalizör", "pozisyonlanma", "kalabalık işlem", "aşağı yönlü risk". Ham İngilizce terim yok (kural 63).
+- "Fiyatlama/fiyatlıyor" ailesi tweette EN ÇOK 1 kez ve son 6 tweette geçtiyse hiç (kural 62); yerine "beklenti", "piyasanın varsaydığı", "vadeliler zaten içeriyordu", "hisse fiyatında henüz yok".
+- Jargon Türkçe ve anlaşılır: "beklenti farkı", "risk/getiri dengesi", "katalizör", "pozisyonlanma", "kalabalık işlem", "aşağı yönlü risk". Ham İngilizce terim yok (kural 63).
 - Rakam az ama yerinde (kural 86: en çok 3 farklı rakam); her rakam bir karar sorusuna hizmet eder.
 - Son cümle izlenecek eşik ya da tarih olur, nasihat değil.
 
@@ -35,7 +36,7 @@ Okur tweeti bitirince şunu düşünmeli: "Bu adam haberi değil, haberin fiyata
 - Önce: "CoreWeave bugün %11 düştü, yatırımcılar borç endişesi yaşıyor."
 - Sonra: "CoreWeave'de hisse, tahvilin söylediğini yeni fiyatlıyor. 2031 tahvili yüzde 16 getiriyle işlem görüyor; borç verenler şirketi hissedardan daha riskli buluyor. Bence aşağı yönlü risk hisse fiyatında henüz tam değil. Görüşümü değiştirecek tek gösterge tahvil getirisinin yüzde 16 altına inmesi."
 - Önce: "PCE beklentinin üstünde geldi, piyasalar düştü."
-- Sonra: "Çekirdek PCE yüzde 3,3 ile beklentinin 0,1 puan üstünde. Vadeli işlemler Aralık artırımını zaten fiyatlıyordu; değişen tek kalem Ocak. Benim okumam: veri sürprizi faizden çok büyüme hisselerinin çarpanına gidiyor."
+- Sonra: "Çekirdek PCE yüzde 3,3 ile beklentinin 0,1 puan üstünde. Vadeli işlemler Aralık artırımını zaten içeriyordu; değişen tek kalem Ocak. Bence veri sürprizi faizden çok büyüme hisselerinin çarpanına gidiyor."
 
 
 ## 5. Kontrol
