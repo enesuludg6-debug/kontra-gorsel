@@ -2636,6 +2636,19 @@
    "trigger": "trig_017SwQuS4bFBDogT9V5q1x2t",
    "soz": "",
    "guncelleme": "25.11 08:43"
+  },
+  {
+   "id": "TEST-CRWV-TAHVIL",
+   "ad": "Sonuç takibi: CRWV tahvil eşiği",
+   "zaman": "2026-12-09T20:10",
+   "ne": "Kural 66: 25.11 18:22 tweeti (Buffer 6b06fd325fe597980b65b3cf) eşik %16",
+   "ticker": "",
+   "tur": "tek",
+   "durum": "kuruldu",
+   "not": "",
+   "trigger": "trig_01Xi6uaX1vmsuNAo5tJPkLyC",
+   "soz": "",
+   "guncelleme": "25.11 18:22"
   }
  ]
 }
