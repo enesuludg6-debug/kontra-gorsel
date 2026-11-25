@@ -1,0 +1,28 @@
+---
+name: enes-ilk-satir
+description: Enes'in X hesabındaki her sistem tweetinin ilk satırı (kanca) Enes'in birinci tekil, iddialı ve somut sesinde yazılırken kullanılır (kural 79 + 86-b/f).
+---
+# İlk satır: Enes sesi (kural 79, 86-b, 86-f)
+
+Veri: en çok beğenilen 10 tweetin 5'i Enes'in kişisel/iddialı tonunda ("Hani çok iyiydiniz?", "Beni aşağı çekmeye çalışmaya devam edin.", "Bir ara 130$ seviyesindeydi, hikaye bu kadar."). Sistem tweetleri ise rapor gibi başlıyor.
+
+## Kurallar
+- En çok 12 kelime, tek cümle, sonunda nokta.
+- Birinci tekil ya da doğrudan okura: "yazıyorum", "bence", "bakıyorum", "söylemiştim". "Bence" tüm tweette en çok 1 kez.
+- Somut: bir hisse, bir rakam ya da bir tarih içerir. Soyut özet yok.
+- Kibir, alay, hakaret, kesinlik ("kesin", "garanti") yok. Okura soru sorarak bitirmez.
+- Çift sıralı tweetlerde iddia açılışı (kural 79); tek sıralı tweetlerde de düz olgu ama Enes sesiyle.
+
+## Kalıp aileleri (döndürerek kullan, aynı aile son 4 tweette yok)
+1. Takip: "MU'yu üç haftadır yazıyorum, bugün −%11." 
+2. Ters görüş: "Bugünkü düşüşü faize bağlayanlara katılmıyorum."
+3. Kendi hesabım: "Hesapladım: NVDA zirveden 1,4 trilyon dolar sildi."
+4. Tarih çapası: "22 Ocak'ta tepede olan hisse bugün yarı fiyatına indi."
+5. Söylemiştim (yalnız kural 66 testi tuttuysa): "Dün akşam 4,90 üstü faizin çipi vuracağını yazmıştım."
+6. Kısa hüküm: "RKLB'de aracı kurum notu değil, sipariş defteri önemli."
+
+## YASAK (54-F ile birlikte)
+- "Asıl X…", "masadaki soru", "işin içi başka", "tablo netleşti", "X'in hisselere yansıması", "genel bir kaçış", "kimse konuşmuyor ama", "herkes X derken", "dikkat çekici bir gelişme", "gözler X'e çevrildi".
+
+## Kontrol
+`python3 invest/yasak.py` + `python3 invest/kalite.py kontrol` (ilk satır 12 kelime denetimi kural 86). İlk satır, kart başlığıyla aynı cümle olmaz.
