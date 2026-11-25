@@ -2293,11 +2293,11 @@
    "ne": "C3 tur",
    "ticker": "",
    "tur": "tek",
-   "durum": "kuruldu",
+   "durum": "yapildi",
    "not": "",
    "trigger": "trig_014DwDrHdKtfL3YCDY7HzQq2",
    "soz": "",
-   "guncelleme": "25.11 11:06"
+   "guncelleme": "25.11 11:29"
   },
   {
    "id": "DELL-1125-cagri",
@@ -2311,6 +2311,19 @@
    "trigger": "trig_01EZHKzMK9MMowtGxkAWFpiq",
    "soz": "",
    "guncelleme": "25.11 08:43"
+  },
+  {
+   "id": "TUR-2511-1205",
+   "ad": "Otomatik paylaşım turu",
+   "zaman": "2026-11-25T12:05",
+   "ne": "C3 tur, 12-15 ilk tur (Enes taslak)",
+   "ticker": "",
+   "tur": "tek",
+   "durum": "kuruldu",
+   "not": "",
+   "trigger": "trig_011NViECVGLwSxLA9Sr9EEsq",
+   "soz": "",
+   "guncelleme": "25.11 11:29"
   },
   {
    "id": "TEST-PCE-2511",
