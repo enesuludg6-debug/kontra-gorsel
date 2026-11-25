@@ -258,8 +258,10 @@ def main():
     MUAF86 = {'GUNUN-OLAYLARI', 'BILANCO-RAKAM', 'BILANCO', 'KEYLEVELS', 'ENES-ISTEGI', 'ENES-HABER', 'VADELI'}
     _bg = (dt.datetime.now(dt.timezone(dt.timedelta(hours=3))) - dt.timedelta(hours=2)).strftime('%d.%m')
     n_gun = sum(1 for x in d if x.get('gun') == _bg)
-    if n_gun >= 20 and tur not in {'ENES-ISTEGI', 'ENES-HABER', 'SONDAKIKA'}:
-        hata.append(f'kural 86: bugün {n_gun} sistem tweeti atıldı (günde en çok 20); yalnız son dakika ya da Enes isteği.')
+    _hs = (dt.datetime.now(dt.timezone(dt.timedelta(hours=3))) - dt.timedelta(hours=2)).weekday() >= 5
+    TAVAN = 10 if _hs else 26  # Enes 25.11 18:08: hafta içi en az 18 en çok 26, hafta sonu en çok 10
+    if n_gun >= TAVAN and tur not in {'ENES-ISTEGI', 'ENES-HABER', 'SONDAKIKA'}:
+        hata.append(f'kural 86: bugün {n_gun} sistem tweeti atıldı ({"hafta sonu" if _hs else "hafta içi"} en çok {TAVAN}); yalnız son dakika ya da Enes isteği.')
     if tur not in MUAF86:
         ilk = t.strip().split('\n')[0]
         if len(re.findall(r'\w+', ilk)) > 12:
