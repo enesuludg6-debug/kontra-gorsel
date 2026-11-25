@@ -2345,11 +2345,24 @@
    "ne": "C3 tur; RKLB Mizuho 2. kaynak ara",
    "ticker": "",
    "tur": "tek",
-   "durum": "kuruldu",
+   "durum": "yapildi",
    "not": "",
    "trigger": "trig_01HwZChawgz9fjTYHWAsRpQJ",
    "soz": "",
-   "guncelleme": "25.11 12:31"
+   "guncelleme": "25.11 12:54"
+  },
+  {
+   "id": "TUR-2511-1315",
+   "ad": "Otomatik paylaşım turu",
+   "zaman": "2026-11-25T13:15",
+   "ne": "C3 tur",
+   "ticker": "",
+   "tur": "tek",
+   "durum": "kuruldu",
+   "not": "",
+   "trigger": "trig_015gi5fNK3dXTagZR5WxvYVm",
+   "soz": "",
+   "guncelleme": "25.11 12:54"
   },
   {
    "id": "TEST-PCE-2511",
