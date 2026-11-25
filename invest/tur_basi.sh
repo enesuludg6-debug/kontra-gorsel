@@ -69,3 +69,6 @@ for t in ["ES=F","NQ=F","^TNX","DX-Y.NYB","^GSPC","^NDX"]:
         print(f"  {t:9} {p:>10} ({(p/pc-1)*100:+.2f}%)")
     except Exception as e: print("  ", t, "hata", e)
 E
+
+# KURAL 85 ayrışma ölçüsü
+python3 "$(dirname "$0")/ayrisma.py" --sessiz
