@@ -44,6 +44,7 @@ Atılanlar: Berkshire, Ackman, Druckenmiller, Tepper, Soros, Third Point/Loeb. A
 - Yok (kaynak istisnası 12:58'de onaylandı).
 
 ## Radar (içeriden alım / geri alım, son 5)
+- 25.11 14:20: kayda değer yok — YZ evreninde kod P 1 Mn $ üstü alım bulunamadı (Bunge, Williams, Skydance konu dışı); DELL +25 Mr $ geri alım (BigGo + analystlens) bilançoyla açıklandı, kural 67 (DELL 6/6) nedeniyle tweet yok
 - 24.11 14:20: HPE +5 Mr $ geri alım yetkisi (toplam ~7,3 Mr $, 2027 FCF'nin ≥%75'i ortaklara) -> tweet atıldı; içeriden alım tarafında konu filtresine uyan kayda değer alım yok (OpenInsider izin bekledi, açılamadı)
 - 19.11 14:20: kayda değer yok (TSM yönetim kurulu üyesi Burns 500 bin $ alım, eşik altı)
 - 18.11 14:20: kayda değer yok (süre dışı izlenenler: ROK CEO 1,55 Mn$ 09.11; CVS Shah 2 Mn$ 06.11)
