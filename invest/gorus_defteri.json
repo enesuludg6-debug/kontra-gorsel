@@ -1,10 +1,5 @@
 [
 {
-"acilis": "bu bana satışın",
-"kaliplar": [],
-"metin": "Bu bana satışın faiz ya da ekonomi kaygısından değil, çip grubundaki pozisyonların boşaltılmasından geldiğini gösteriyor. Ne bir sipariş iptali var ne de bir şi"
-},
-{
 "acilis": "hisse mayıstaki 185",
 "kaliplar": [],
 "metin": "Hisse mayıstaki 185 dolarlık halka arz fiyatının yarısının altında, ilk gün gördüğü 386 dolarlık zirveden ise %75'ten fazla aşağıda. Bence bugünkü ayrışmanın se"
@@ -306,5 +301,10 @@
 "acilis": "vadeli işlemler aralık",
 "kaliplar": [],
 "metin": "Vadeli işlemler Aralık artırımını neredeyse kesin görüyor, rapor bunu değiştirmez. Baskı önce kâr marjlarında birikir; 13 Ocak'taki bir sonraki Bej Kitap, maliy"
+},
+{
+"acilis": "nvidia 149 30",
+"kaliplar": [],
+"metin": "Nvidia 149,30 ile Cuma kapanışının belirgin üstünde kaldı; AMD ve Broadcom yine Cuma seviyelerinin altında bitirdi. Kendi taramamda piyasa genişliği nötr, Nasda"
 }
 ]

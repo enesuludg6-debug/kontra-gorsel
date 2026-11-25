@@ -1,22 +1,6 @@
 [
 {
 "jargon": {
-"izleme kapanışı": 3
-},
-"tarih": [],
-"terim": [],
-"acilis": "geçen haftaki satışın tek",
-"kapanis": "bence bugün bir ralli",
-"rekor": 0,
-"imza": "4p-satir-u-cerceve",
-"kalip": "A",
-"tur": "DERIN-ANALIZ",
-"zaman": "23.11 21:52",
-"gun": "23.11",
-"uzunluk": 923
-},
-{
-"jargon": {
 "izleme kapanışı": 1
 },
 "tarih": [],
@@ -933,5 +917,26 @@
 "zaman": "25.11 22:10",
 "gun": "25.11",
 "uzunluk": 442
+},
+{
+"jargon": {
+"ayrışma": 1
+},
+"tarih": [],
+"terim": [],
+"acilis": "iddia",
+"kapanis": "nvidia 149 30 ile",
+"rekor": 0,
+"k89": [
+"esik"
+],
+"k89_son": "esik",
+"k89_hazir": [],
+"imza": "2p-duz-o-cerceve",
+"kalip": "E",
+"tur": "SONUC",
+"zaman": "26.11 00:16",
+"gun": "25.11",
+"uzunluk": 465
 }
 ]
