@@ -2501,11 +2501,24 @@
    "ne": "C3 tur (PCE tepkisi, gümrük)",
    "ticker": "",
    "tur": "tek",
-   "durum": "kuruldu",
+   "durum": "yapildi",
    "not": "",
    "trigger": "trig_01Xt4Tyf4Hu1SnxsEu4E2D3h",
    "soz": "",
-   "guncelleme": "25.11 15:56"
+   "guncelleme": "25.11 17:01"
+  },
+  {
+   "id": "TUR-2511-1736",
+   "ad": "Otomatik paylaşım turu",
+   "zaman": "2026-11-25T17:36",
+   "ne": "C3 açılış tweeti",
+   "ticker": "",
+   "tur": "tek",
+   "durum": "kuruldu",
+   "not": "",
+   "trigger": "trig_0123TsHfb3oxsg9Hc35csxPQ",
+   "soz": "",
+   "guncelleme": "25.11 17:01"
   },
   {
    "id": "DELL-1125-beklenen",
