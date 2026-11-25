@@ -2514,11 +2514,11 @@
    "ne": "C3 açılış tweeti",
    "ticker": "",
    "tur": "tek",
-   "durum": "kuruldu",
+   "durum": "yapildi",
    "not": "",
    "trigger": "trig_0123TsHfb3oxsg9Hc35csxPQ",
    "soz": "",
-   "guncelleme": "25.11 17:01"
+   "guncelleme": "25.11 17:38"
   },
   {
    "id": "DELL-1125-beklenen",
@@ -2545,6 +2545,19 @@
    "trigger": "",
    "soz": "",
    "guncelleme": "25.11 13:42"
+  },
+  {
+   "id": "TUR-2511-1758",
+   "ad": "Otomatik paylaşım turu",
+   "zaman": "2026-11-25T17:58",
+   "ne": "C3 tur",
+   "ticker": "",
+   "tur": "tek",
+   "durum": "kuruldu",
+   "not": "",
+   "trigger": "trig_01FNPh7nHaciipPt4w5RgVEL",
+   "soz": "",
+   "guncelleme": "25.11 17:38"
   },
   {
    "id": "TEST-AYRISMA-2511",

@@ -1,12 +1,5 @@
 [
 {
-"acilis": "bence bu düşüş",
-"kaliplar": [
-"\\bçünkü\\b"
-],
-"metin": "Bence bu düşüş şirketlerin işlerinde bir bozulmadan gelmiyor. Bugün sipariş iptali ya da rehber düşürme haberi görmedim, düşen şey beklentiler. Açılışta kayıpla"
-},
-{
 "acilis": "gecikme hoşuma gitmedi",
 "kaliplar": [],
 "metin": "Gecikme hoşuma gitmedi ama fiyatın bunu fazlasıyla yansıttığını düşünüyorum. Roket daha uçmadan müşterilerin sözleşme imzalaması talep konusunda bana yeterince "
@@ -308,5 +301,10 @@
 "acilis": "bence veri öncesinde",
 "kaliplar": [],
 "metin": "Bence veri öncesinde yüzde 97 fiyatlanan 25 baz puanlık artırım artık tartışma konusu değil; masadaki soru 50 baz puanın ihtimali."
+},
+{
+"acilis": "bence bu seans",
+"kaliplar": [],
+"metin": "Bence bu seans faiz beklentisinin hisselere yansıması; borçla büyüyen ve değerlemesi en yüksek isimler en çok kaybediyor. Perşembe borsa kapalı, Cuma yarım gün."
 }
 ]
