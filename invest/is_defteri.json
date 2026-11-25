@@ -2449,11 +2449,11 @@
    "ne": "C3 tur",
    "ticker": "",
    "tur": "tek",
-   "durum": "kuruldu",
+   "durum": "yapildi",
    "not": "",
    "trigger": "trig_01WWkhcM4bsHSuxWb6R9QYF9",
    "soz": "",
-   "guncelleme": "25.11 14:04"
+   "guncelleme": "25.11 15:56"
   },
   {
    "id": "GDS-1125-detay",
@@ -2493,6 +2493,19 @@
    "trigger": "",
    "soz": "",
    "guncelleme": "25.11 13:42"
+  },
+  {
+   "id": "TUR-2511-1700",
+   "ad": "Otomatik paylaşım turu",
+   "zaman": "2026-11-25T17:00",
+   "ne": "C3 tur (PCE tepkisi, gümrük)",
+   "ticker": "",
+   "tur": "tek",
+   "durum": "kuruldu",
+   "not": "",
+   "trigger": "trig_01Xt4Tyf4Hu1SnxsEu4E2D3h",
+   "soz": "",
+   "guncelleme": "25.11 15:56"
   },
   {
    "id": "DELL-1125-beklenen",
