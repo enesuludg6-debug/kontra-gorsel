@@ -687,3 +687,4 @@ Durdurmak için en alta `DURDUR` yazılı bir satır ekle (Enes ya da Claude, En
 - 23:11 (25.11) TUR-2511-2310 (C3): tweet yok — kapanış 00:00, çip ayrışma sonucu 00:10 (TEST-AYRISMA-KAP), kapanış özeti 00:25 turuna. Enes DOCN/CBRS metinleri ayrı (ENES ATACAK). 20/18-26.
 - 00:00 (26.11) ENES-ISTEGI AVGO analizi (çizim 1d/4h), günlüğe senaryo: yukarı 300/278/327 15 gün.
 - 00:05 (26.11) AUTO C3 Enes 23:58 'teknik analizi daha da geliştir': invest/teknik_ust.py (hisseye özel sinyal karnesi, Nasdaq 100 genişliği, OBV/AD uyumsuzluğu, güven skoru 0-100). AVGO: güven 37/100, OBV birikim izi, genişlik 50G %50 (düşüş dar tabanlı).
+- 00:10 (26.11) AUTO C3 Enes 00:00 'daha da geliştir': invest/teknik_plus.py (benzer günler, beklenen hareket bandı, mevsimsellik, göreli güç, tepe riski skoru). AVGO: benzer 12 günün %75'i 1 ay sonra yukarıda (medyan +12), 1 hafta bandı 267-339.

@@ -72,3 +72,11 @@ Enes telefondan kısa mesaj yazar ya da grafik ekran görüntüsü atar; sen aş
 - Ekran görüntüsünden seviye okuma: sağdaki fiyat etiketlerini (mavi kutular) aynen al, Türk biçimini (28.319,8) 28319.8'e çevir; trend çizgisini iki noktasıyla tarif et.
 - Kart başlığında yön (MTF), en güçlü direnç ve destek (çakışma puanı en yüksek), günlük + 4h mini grafik olur.
 - Çakışma puanı 3+ = GÜÇLÜ seviye. Planı bu seviyelere göre kur (giriş güçlü dirençte/destekte, stop bir sonraki seviyenin ötesinde, en az 0,5 x 4h ATR).
+
+## ARTI KATMAN (Enes 26.11 00:00 "daha da geliştir") — `python3 invest/teknik_plus.py <T>`
+- BENZER GÜNLER: bugünün parmak izine (20g/5g getiri, RSI, 200G'den ATR uzaklığı, zirveden düşüş, oynaklık yüzdeliği) en yakın 12 geçmiş gün (aralarında ≥30 gün) ve 5/20/60 gün sonrası: medyan, yukarıda biten oran, en kötü. Enes'e "geçmişte buna benzeyen 12 günün 9'unda 1 ay sonra yukarıdaydı" diye anlat.
+- BEKLENEN HAREKET: 20 günlük oynaklıktan 1 hafta / 1 ay ±1σ bandı (~%68) ve oynaklık yüzdeliği; band dışı = haber/kırılım.
+- MEVSİMSELLİK: içinde bulunulan ay ve bugünkü takvim gününden sonraki 20 işlem günü, yıllara göre.
+- GÖRELİ GÜÇ: QQQ ve sektör ETF'i (SOXX/IGV/ITA/XLI); endeks için S&P 500 ve eşit ağırlık RSP. Göreli güç çizgisi 3 ay dibi = liderlik kaybı.
+- TEPE RİSKİ SKORU 0-100 (tepe işaretleri, RSI>60, 200G'den >3 ATR, yüksek oynaklıkta yükseliş, göreli zayıflıkta yükseliş). Dip güven skoru (teknik_ust.py) ile birlikte ver.
+- Benzer günler istatistiktir, garanti değildir; örneklem 12 olduğunu her zaman söyle.
