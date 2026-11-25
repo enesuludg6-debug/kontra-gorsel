@@ -1,22 +1,6 @@
 [
 {
 "jargon": {
-"izleme kapanışı": 1
-},
-"tarih": [],
-"terim": [],
-"acilis": "vrt şubattan beri sipariş",
-"kapanis": "bu veri yokken izlenecek",
-"rekor": 0,
-"imza": "2p-duz-k-ticker",
-"kalip": "N",
-"tur": "FIKIR",
-"zaman": "23.11 21:28",
-"gun": "23.11",
-"uzunluk": 378
-},
-{
-"jargon": {
 "izleme kapanışı": 3
 },
 "tarih": [],
@@ -929,5 +913,25 @@
 "zaman": "25.11 20:58",
 "gun": "25.11",
 "uzunluk": 524
+},
+{
+"jargon": {},
+"tarih": [],
+"terim": [],
+"acilis": "iddia",
+"kapanis": "vadeli işlemler aralık artırımını",
+"rekor": 0,
+"k89": [
+"fiyatlanan",
+"katalizor"
+],
+"k89_son": "katalizor",
+"k89_hazir": [],
+"imza": "3p-satir-k-cerceve",
+"kalip": "M",
+"tur": "MAKRO",
+"zaman": "25.11 22:10",
+"gun": "25.11",
+"uzunluk": 442
 }
 ]
