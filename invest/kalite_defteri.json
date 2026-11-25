@@ -884,7 +884,13 @@
 "tur": "MAKRO",
 "zaman": "25.11 18:00",
 "gun": "25.11",
-"uzunluk": 636
+"uzunluk": 636,
+"k89": [
+"fiyatlanan",
+"fark"
+],
+"k89_son": "fark",
+"k89_hazir": []
 },
 {
 "jargon": {
@@ -900,6 +906,12 @@
 "tur": "PORTFOY",
 "zaman": "25.11 18:22",
 "gun": "25.11",
-"uzunluk": 446
+"uzunluk": 446,
+"k89": [
+"fark",
+"esik"
+],
+"k89_son": "esik",
+"k89_hazir": []
 }
 ]

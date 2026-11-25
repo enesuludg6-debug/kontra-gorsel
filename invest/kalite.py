@@ -159,6 +159,38 @@ def ozellik(t):
         'rekor': len(re.findall(REKOR, l)),
     }
 
+
+# KURAL 89-B (Enes 25.11 18:36: 'sürekli aynı bütünlük olmasın, her madde için'): öğe sırası, kapanış ve hazır cümle çeşitliliği
+K89 = {
+    'fiyatlanan': r"zaten (içeriyordu|fiyatl|bekleniyordu|biliniyordu)|piyasanın varsaydığı|fiyatl|konsensüs|beklenti",
+    'fark': r"bağlamıyorum|katılmıyorum|bence|farklı düşünüyorum|ayrılıyorum",
+    'asimetri': r"aşağı yön|yukarı yön|asimetri|risk/getiri|aşağı alan|yukarı alan",
+    'katalizor': r"katalizör|bilanço(su)? (geldiğinde|gelince|ile)|kararı|\d{1,2} (ocak|şubat|mart|nisan|mayıs|haziran|temmuz|ağustos|eylül|ekim|kasım|aralık)",
+    'pozisyon': r"açığa satış|pozisyonlan|kalabalık|fon akış|cftc|opsiyon yerleşim",
+    'esik': r"(fikrimi|görüşümü|görüşü|okumamı) değiştir|değiştiririm|eşi(k|ğ)|altına inerse|üstüne çıkarsa",
+}
+K89_HAZIR = {  # hazır cümle aileleri: son N tweette tekrar edilmez
+    'degistiririm': (r"değiştiririm|görüşümü değiştir|fikrimi değiştir|görüşü değiştir", 5),
+    'risk_asagi': (r"riski? (hâlâ |yine )?aşağı yönde", 5),
+    'zaten_icinde': (r"zaten (içeriyordu|fiyatl|bekleniyordu|biliniyordu)", 5),
+    'baglamiyorum': (r"bağlamıyorum|katılmıyorum", 4),
+    'yeni_sey_yok': (r"yeni bir şey eklemedi|yeni bilgi yok", 6),
+}
+def k89(t):
+    l = low(t); poz = []
+    for ad, r in K89.items():
+        m = re.search(r, l)
+        if m: poz.append((m.start(), ad))
+    sira = [a for _, a in sorted(poz)]
+    cumle = [c for c in re.split(r'(?<=[.!?])\s+', t.strip()) if c.strip()]
+    son = ''
+    if cumle:
+        lc = low(cumle[-1])
+        for ad, r in K89.items():
+            if re.search(r, lc): son = ad
+    hazir = [ad for ad, (r, _) in K89_HAZIR.items() if re.search(r, l)]
+    return {'k89': sira, 'k89_son': son, 'k89_hazir': hazir}
+
 def yukle():
     try: return json.load(open(D, encoding='utf-8'))
     except Exception: return []
@@ -172,7 +204,7 @@ def main():
     tur = (a[a.index('--tur') + 1] if '--tur' in a else 'DIGER').upper()
     t = sys.stdin.read()
     if not t.strip(): sys.exit('boş metin')
-    f = ozellik(t); d = yukle()
+    f = ozellik(t); f.update(k89(t)); d = yukle()
     if m == 'kaydet':
         _n = dt.datetime.now(dt.timezone(dt.timedelta(hours=3)))
         f.update({'imza': yapi_imzasi(t), 'kalip': (a[a.index('--kalip') + 1].upper() if '--kalip' in a else ''), 'tur': tur, 'zaman': _n.strftime('%d.%m %H:%M'), 'gun': (_n - dt.timedelta(hours=2)).strftime('%d.%m'), 'uzunluk': len(t.strip()), 'acilis': acilis_tipi(t)})
@@ -274,6 +306,16 @@ def main():
     if tur not in MUAF86 and tur not in {'EGITICI'}:
         if not re.search(r"fiyatl|beklenti|konsens|olasılı|ihtimal|eşi[kğ]|katalizör|risk|asimetri|pozisyonlan|kalabalık|görüşümü değiştir", l):
             uyari.append('kural 89: fon yöneticisi dili yok — fiyatlanan ne, beklentiden fark, risk/eşik ya da katalizörden en az birini yaz (skill enes-fon-yoneticisi-dili).')
+    # KURAL 89-B çeşitlilik (her öğe için)
+    if tur not in MUAF86:
+        for ad in f.get('k89_hazir', []):
+            pen = K89_HAZIR[ad][1]
+            if any(ad in x.get('k89_hazir', []) for x in d[-pen:]):
+                hata.append(f'kural 89-B: hazır cümle ailesi "{ad}" son {pen} tweette kullanıldı; aynı fikri başka biçimde söyle ya da bu öğeyi bu tweette hiç kullanma.')
+        if len(f.get('k89', [])) >= 3 and any(x.get('k89') == f['k89'] for x in d[-4:]):
+            hata.append(f'kural 89-B: öğe sırası {"→".join(f["k89"])} son 4 tweetten biriyle aynı; sırayı değiştir (ör. eşikle ya da pozisyonlanmayla aç) ya da öğelerden birini çıkar.')
+        if f.get('k89_son') and [x.get('k89_son') for x in d[-2:]].count(f['k89_son']) >= 1:
+            hata.append(f'kural 89-B: kapanış türü "{f["k89_son"]}" bir önceki 2 tweetten birinde de kapanıştı; başka öğeyle bitir (katalizör tarihi, pozisyonlanma, ikinci derece etki, düz olgu).')
     # 7b) KURAL 62 piyasa jargonu sıklığı
     jg = f['jargon']
     for k, n in jg.items():

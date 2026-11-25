@@ -39,6 +39,19 @@ Okur tweeti bitirince şunu düşünmeli: "Bu adam haberi değil, haberin fiyata
 - Sonra: "Çekirdek PCE yüzde 3,3 ile beklentinin 0,1 puan üstünde. Vadeli işlemler Aralık artırımını zaten içeriyordu; değişen tek kalem Ocak. Bence veri sürprizi faizden çok büyüme hisselerinin çarpanına gidiyor."
 
 
+## 6. Çeşitlilik — her tweet aynı kalıpla kurulmaz (kural 89-B, Enes 25.11 18:36: "sürekli aynı bütünlük olmasın, sürekli 'şöyle olursa değiştiririm' olmasın, her madde için")
+- Altı öğenin HEPSİ her tweette olmaz; konuya en uyan 2-4 tanesi seçilir ve seçim tweetten tweete değişir.
+- SIRA değişir: bir tweet eşikle açılır, biri pozisyonlanmayla, biri katalizör tarihiyle, biri düz olguyla. Aynı öğe sırası son 4 tweette tekrar edilmez (kalite.py yakalar).
+- KAPANIŞ değişir: aynı öğeyle (ör. eşik) art arda bitirilmez. Kapanış seçenekleri: katalizör tarihi, ikinci derece etki (kimin geliri/maliyeti), pozisyonlanma notu, kıyas rakamı, düz olgu, eşik.
+- HAZIR CÜMLE aileleri soğuma süresiyle: "…olursa görüşümü değiştiririm" (5 tweet), "risk hâlâ aşağı yönde" (5), "zaten içeriyordu/fiyatlıyordu" (5), "…bağlamıyorum/katılmıyorum" (4), "yeni bir şey eklemedi" (6). Aynı fikir başka biçimde söylenir.
+- Her öğe için en az 3 farklı söyleyiş (döndürerek kullan):
+  - Fiyatlanan: "vadeliler Aralık artırımını zaten içeriyordu" / "hisse bu haberi haftalardır biliyor" / "çarpan 25'te, bu büyümeyi zaten varsayıyor" / "konsensüs 3,2'de toplanmıştı".
+  - Fark: "bence mesele faiz değil" / "piyasa X'e bakıyor, ben Y'ye" / "burada konsensüsle aynı yerde değilim" / doğrudan görüş cümlesi, etiketsiz.
+  - Asimetri: "aşağıda alan yukarıdakinden geniş" / "kötü senaryo fiyatta, iyi senaryo değil" / "düşüş riski yükselişten büyük duruyor".
+  - Katalizör: "3 Aralık bilançosu bunu netleştirir" / "Fed 9 Aralık'ta karar veriyor" / "ocak ortasındaki veri belirleyici".
+  - Pozisyonlanma: "açığa satış oranı yüzde 12'ye çıktı" / "fonlar sektörü üç haftadır azaltıyor" / "işlem tek tarafa yığılmış".
+  - Eşik: "tahvil getirisi yüzde 16'nın altına inmeden ikna olmam" / "320 doların üstünde kalıcı kapanış tezi bozar" / "RPO büyümesi yüzde 30'un altına inerse tez zayıflar".
+
 ## 5. Kontrol
 - Yazdıktan sonra sor: (1) fiyatlanan ne yazıldı mı, (2) farkım net mi, (3) fikrimi değiştiren eşik var mı. Üçünden biri eksikse yeniden yaz.
 - `python3 invest/yasak.py` ve `python3 invest/kalite.py kontrol` (kural 89 uyarısı: fiyatlama/beklenti/olasılık/eşik dili yoksa).
