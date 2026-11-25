@@ -570,19 +570,23 @@ def bilanco_dosya(ticker, kicker, baslik, spot, kalemler, trend, sonuc, kaynak, 
     kalemler: [(ad, gelen, beklenti, birim)]; trend: (başlık, [dönem], [değer], birim)"""
     fig, y, renk = _kabuk(ticker, kicker, "BİLANÇO", baslik, spot, kaynak, yontem, tarih)
     L, R = 0.0555, 0.944
-    fig.text(L, y - 0.005, "GELEN vs BEKLENTİ", fontsize=19 * 0.72, color=MUTED, family=MONO, va="top")
+    fig.text(L, y - 0.005, "GELEN vs BEKLENTİ / GEÇEN YIL", fontsize=19 * 0.72, color=MUTED, family=MONO, va="top")
     fig.text(0.56, y - 0.005, trend[0].upper(), fontsize=19 * 0.72, color=MUTED, family=MONO, va="top")
     ust = y - 0.035; alt = 0.18; n = len(kalemler); rh = (ust - alt) / n
-    for i, (ad, gel, bek, br) in enumerate(kalemler):
-        y0 = ust - (i + 1) * rh; fark = 100 * (gel / bek - 1); c = UP if fark >= 0 else DOWN
+    for i, k in enumerate(kalemler):
+        ad, gel, bek, br = k[:4]; ref = k[4] if len(k) > 4 else "bkl."
+        puan = br.strip() == "%"
+        y0 = ust - (i + 1) * rh; fark = (gel - bek) if puan else 100 * (gel / bek - 1); c = UP if fark >= 0 else DOWN
         _t(fig, L, y0 + rh * 0.78, ad.upper(), 21, "bold", MUTED, va="center")
-        _t(fig, L, y0 + rh * 0.48, f"{_sayi(gel) if gel >= 100 else _kisa(gel)}{br}", 44, "black", INK, va="center")
-        _t(fig, 0.36, y0 + rh * 0.48, _yuzde(fark), 30, "black", c, va="center")
+        val = (f"%{_kisa(gel)}" if puan else f"{_sayi(gel) if gel >= 1000 else _kisa(gel)}{br}")
+        _t(fig, L, y0 + rh * 0.48, val, 44, "black", INK, va="center")
+        ft = (f"{'+' if fark >= 0 else '−'}{_kisa(abs(fark))} puan" if puan else _yuzde(fark))
+        _t(fig, 0.36, y0 + rh * 0.48, ft, 30, "black", c, va="center")
         bw = 0.42; mx = max(gel, bek) * 1.1; bx = L; by = y0 + rh * 0.12
         fig.add_artist(Rectangle((bx, by), bw, 0.012, transform=fig.transFigure, color=(1, 1, 1, 0.08)))
         fig.add_artist(Rectangle((bx, by), bw * gel / mx, 0.012, transform=fig.transFigure, color=c))
         fig.add_artist(Rectangle((bx + bw * bek / mx - 0.002, by - 0.006), 0.004, 0.024, transform=fig.transFigure, color=INK))
-        fig.text(bx + bw * bek / mx, by - 0.012, "bkl.", fontsize=16 * 0.72, color=MUTED, family=FAM, ha="center", va="top")
+        fig.text(bx + bw * bek / mx, by - 0.012, ref, fontsize=16 * 0.72, color=MUTED, family=FAM, ha="center", va="top")
     ax = fig.add_axes([0.56, alt + 0.01, R - 0.56, ust - alt - 0.02]); ax.set_facecolor("none")
     for s_ in ax.spines.values(): s_.set_visible(False)
     ax.set_yticks([]); xs = range(len(trend[1]))
