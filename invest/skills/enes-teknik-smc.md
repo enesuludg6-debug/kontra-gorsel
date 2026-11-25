@@ -28,3 +28,17 @@ Enes 25.11.2026 22:11: "kurulumu onaylıyorum ayrıca yeteneklere ekle başka he
 ## Kurallar
 - Rakamlar yalnız veriden; uydurma seviye yok. ICT kavramları Türkçe açıklamalı (FVG = dengesiz boşluk, OB = emir bloğu, SSL/BSL = dip/tepe likiditesi, NWOG = haftalık açılış boşluğu).
 - Tweet'e dönüşecekse kural 84 (grafik ham veriyle birebir), 86, 89 ve 54-F; hedef fiyat ve al/sat emri tweete yazılmaz (Enes'e özel analizde senaryo seviyeleri serbest).
+
+## TELEFON KOMUTLARI (Enes 25.11 22:16 "çok daha geliştir, sadece telefondan yapabileyim")
+Enes telefondan kısa mesaj yazar ya da grafik ekran görüntüsü atar; sen aşağıdakini çalıştırıp sonucu mobil biçimde (kart + en çok 2 ekran metin) verirsin. Soru sorma.
+| Enes yazarsa | Çalıştır |
+|---|---|
+| "teknik NVDA" / "analiz et NVDA" / grafik ekran görüntüsü | `teknik_pro.py <T> --seviyeler <görüntüden okunan çizgiler> --png` + `teknik_ek.py derin <T> --seviyeler …` + `teknik_ek.py kart <T> --seviyeler … --out g/teknik_<T>.jpg` -> kartı ve 4h grafiği SendUserFile, özet metin |
+| "derin NVDA" | `teknik_ek.py derin` (çakışma haritası, RSI uyumsuzluğu 1d/4h, pivot + Camarilla, Ichimoku, Bollinger sıkışması, oynaklık rejimi, VIX/VXN'den 1 gün/1 hafta beklenen hareket, Nasdaq 100'e göre göreli güç, mevsimsellik) |
+| "tara" / "portföyü tara" / "tara NVDA,AMD,MU" | `teknik_ek.py tara [liste]` — varsayılan Enes portföyü (DOCN RKLB SITM AXON CBRS VRT AVGO NBIS); MTF puanına göre sıralı tablo |
+| "istatistik NDX zirveden<-20" / "rsi<30 olunca ne oluyor" | `teknik_ek.py istatistik <T> "<koşul>"` (rsi<30, zirveden<-20, ema200_alti, gun_dustu>3): 20 yıl, koşula ilk giriş, 5/10/20/60 gün sonrası dağılım; <15 olay = güvenilmez de |
+| "alarm NDX 24915 aşağı" | `teknik_ek.py alarm ekle <T> <seviye> <yukari|asagi> "<not>"`; her paylaşım turu başında `alarm kontrol` çalışır (tur_basi.sh), tetiklenince SendUserMessage: "ALARM: …" |
+| "alarmlar" / "alarm sil 2" | `teknik_ek.py alarm liste` / `alarm sil <id>` |
+- Ekran görüntüsünden seviye okuma: sağdaki fiyat etiketlerini (mavi kutular) aynen al, Türk biçimini (28.319,8) 28319.8'e çevir; trend çizgisini iki noktasıyla tarif et.
+- Kart başlığında yön (MTF), en güçlü direnç ve destek (çakışma puanı en yüksek), günlük + 4h mini grafik olur; tweet olarak ATILMAZ (Enes'e özel), Enes "paylaş" derse kural 84/86/89 ile tweete çevrilir.
+- Çakışma puanı 3+ = GÜÇLÜ seviye. Planı bu seviyelere göre kur (giriş güçlü dirençte/destekte, stop bir sonraki seviyenin ötesinde, en az 0,5 x 4h ATR).

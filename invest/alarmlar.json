@@ -1,0 +1,20 @@
+[
+ {
+  "id": 1,
+  "t": "^NDX",
+  "seviye": 26386.0,
+  "yon": "yukari",
+  "not": "Günlük ayı FVG üstü: yukarı senaryo",
+  "kuruldu": "25.11 22:18",
+  "tetik": ""
+ },
+ {
+  "id": 2,
+  "t": "^NDX",
+  "seviye": 24915.0,
+  "yon": "asagi",
+  "not": "Ayı çizgisi kırılımı",
+  "kuruldu": "25.11 22:18",
+  "tetik": ""
+ }
+]

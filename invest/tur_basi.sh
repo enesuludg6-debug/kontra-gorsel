@@ -72,3 +72,6 @@ E
 
 # KURAL 85 ayrışma ölçüsü
 { [ -f ayrisma.py ] && python3 ayrisma.py --sessiz; } || { [ -f invest/ayrisma.py ] && python3 invest/ayrisma.py --sessiz; }
+
+# Fiyat alarmları (teknik_ek.py, Enes 25.11 22:16)
+{ [ -f teknik_ek.py ] && python3 teknik_ek.py alarm kontrol; } 2>/dev/null || { [ -f invest/teknik_ek.py ] && python3 invest/teknik_ek.py alarm kontrol; } 2>/dev/null
