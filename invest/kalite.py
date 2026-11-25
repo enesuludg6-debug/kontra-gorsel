@@ -19,7 +19,7 @@ D = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'kalite_defteri.jso
 # ve İÇERİK AYARI kısa+iddialı olanın daha iyi gittiğini söylüyor). Sınır HEDEF DEĞİL, tavandır.
 SINIR = {
     'SONDAKIKA': 600, 'HABER': 600, 'VADELI': 500, 'BEKLENTI': 500, 'OPSIYON': 600, 'KEYLEVELS': 700,
-    'BILANCO-RAKAM': 700, 'TAKIP': 700, 'ICERIDEN-ALIM': 700, 'FED-TAHVIL': 700, 'MAKRO': 700, 'KRIPTO': 700,
+    'BILANCO-RAKAM': 700, 'GUNUN-OLAYLARI': 700, 'TAKIP': 700, 'ICERIDEN-ALIM': 700, 'FED-TAHVIL': 700, 'MAKRO': 700, 'KRIPTO': 700,
     'BAGLAM-GORUS': 800, 'PORTFOY': 800, 'FIKIR': 800, 'SEKTOR': 800, 'ENES-HABER': 800, 'ENES-ISTEGI': 900,
     'EGITICI': 900, 'DERIN-ANALIZ': 1200, '13F': 1000, 'ANALIST': 1000, 'BILANCO-ANALIZ': 1200, 'HAFTALIK-OZET': 1200, 'AYIN-OZETI': 1200,
 }
@@ -81,7 +81,7 @@ HAM_JARGON = [r'\bvanna\b', r'\bvega\b', r'\bgamma\b', r'\bdelta (hedge|hedg|nö
 DERIN_GUNLUK = 2
 IKINCI_KATMAN = r'vix|vvix|skew|vxn|oynaklık endeks|vade (eğrisi|yapısı)|korelasyon|piyasa genişli|yükselen hisse sayısı|açığa satış|marj borcu|etf (giriş|çıkış|akış)|fon akış|cftc|tahmin revizyon|beklenti revizyon|ertelenmiş gelir|kalan performans yükümlülüğü|rpo|serbest nakit|yatırım harcaması|hisse sayısı|seyrel|geri alım|birleşme farkı|piyasa değer|kârının .{0,15}kat|satış(lar)?ının .{0,15}kat|katından|ön ödeme|sipariş defteri|sipariş/satış|brüt marj|faaliyet marjı|başına|nakit (yak|akış)|borç|vade(li)? işlem|kontrat|put|opsiyon'
 # KURAL 63-B (Enes 23.11 21:11: "çoğunun etkisini göremiyorum, görmek istiyorum"): her tweet --kalip A..F ile yazılır ve kalıbın izi metinde olmalı.
-KALIP_MUAF = {'VADELI', 'BEKLENTI', 'BILANCO-RAKAM', 'KEYLEVELS', 'ENES-ISTEGI', 'ENES-HABER'}
+KALIP_MUAF = {'GUNUN-OLAYLARI', 'VADELI', 'BEKLENTI', 'BILANCO-RAKAM', 'KEYLEVELS', 'ENES-ISTEGI', 'ENES-HABER'}
 def _sayilar(l): return re.findall(r'\d+(?:[.,]\d+)?', l)
 def acilis_tipi(t):
     # KURAL 79 (F-009): ilk satır en çok 12 kelime ve rakam/ticker ile başlamıyorsa 'iddia'
