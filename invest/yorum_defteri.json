@@ -42,5 +42,16 @@
   "sonuc": "",
   "ne_oldu": "",
   "sonuc_tarih": ""
+ },
+ {
+  "id": "TEST-NDX-AYI",
+  "tweet": "25.11 20:57",
+  "buffer": "6b07218d52de4830633e1512",
+  "yorum": "Nasdaq 100 ayı çizgisinde döndü; eşik savunuldu, kapanış bazında kırılırsa ayı piyasası",
+  "esik": "27.11 kapanış ^NDX > 24.980",
+  "kontrol": "2026-11-28",
+  "sonuc": "",
+  "ne_oldu": "",
+  "sonuc_tarih": ""
  }
 ]
