@@ -1,0 +1,119 @@
+{
+ "^NDX|4h": {
+  "tarih": "25.11.2026",
+  "sup_boga": {
+   "oran": 60,
+   "n": 45,
+   "fark": 2,
+   "hukum": "FARK YOK"
+  },
+  "mss_boga": {
+   "oran": 58,
+   "n": 12,
+   "fark": 1,
+   "hukum": "FARK YOK"
+  },
+  "sup_ayi": {
+   "oran": 38,
+   "n": 48,
+   "fark": -5,
+   "hukum": "FARK YOK"
+  },
+  "mss_ayi": {
+   "oran": 9,
+   "n": 11,
+   "fark": -33,
+   "hukum": "TERS İŞARET"
+  },
+  "fvg_boga_kalite": {
+   "oran": 50,
+   "n": 2,
+   "fark": -8,
+   "hukum": "KANIT YOK"
+  },
+  "fvg_ayi_kalite": {
+   "oran": 53,
+   "n": 19,
+   "fark": 10,
+   "hukum": "ZAYIF KANIT"
+  }
+ },
+ "AVGO|1d": {
+  "tarih": "25.11.2026",
+  "sup_boga": {
+   "oran": 69,
+   "n": 144,
+   "fark": 9,
+   "hukum": "GÜÇLÜ KANIT"
+  },
+  "mss_boga": {
+   "oran": 57,
+   "n": 42,
+   "fark": -3,
+   "hukum": "FARK YOK"
+  },
+  "sup_ayi": {
+   "oran": 40,
+   "n": 174,
+   "fark": 0,
+   "hukum": "FARK YOK"
+  },
+  "mss_ayi": {
+   "oran": 36,
+   "n": 25,
+   "fark": -4,
+   "hukum": "FARK YOK"
+  },
+  "fvg_boga_kalite": {
+   "oran": 100,
+   "n": 3,
+   "fark": 40,
+   "hukum": "KANIT YOK"
+  },
+  "fvg_ayi_kalite": {
+   "oran": 42,
+   "n": 24,
+   "fark": 2,
+   "hukum": "FARK YOK"
+  }
+ },
+ "AVGO|4h": {
+  "tarih": "25.11.2026",
+  "sup_boga": {
+   "oran": 49,
+   "n": 47,
+   "fark": -2,
+   "hukum": "FARK YOK"
+  },
+  "mss_boga": {
+   "oran": 31,
+   "n": 13,
+   "fark": -20,
+   "hukum": "TERS İŞARET"
+  },
+  "sup_ayi": {
+   "oran": 47,
+   "n": 51,
+   "fark": -2,
+   "hukum": "FARK YOK"
+  },
+  "mss_ayi": {
+   "oran": 38,
+   "n": 13,
+   "fark": -10,
+   "hukum": "TERS İŞARET"
+  },
+  "fvg_boga_kalite": {
+   "oran": 40,
+   "n": 5,
+   "fark": -11,
+   "hukum": "KANIT YOK"
+  },
+  "fvg_ayi_kalite": {
+   "oran": 57,
+   "n": 14,
+   "fark": 8,
+   "hukum": "ZAYIF KANIT"
+  }
+ }
+}
