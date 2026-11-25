@@ -2274,6 +2274,19 @@
    "guncelleme": "25.11 00:40"
   },
   {
+   "id": "GDS-1125-opsiyon",
+   "ad": "Opsiyon: GDS",
+   "zaman": "2026-11-25T11:00",
+   "ne": "Kural 39: opsiyonların fiyatladığı hareket (±%, 2 kaynak) açıklamadan önce en az bir tweette; DONGU '- OPSIYON: T'",
+   "ticker": "GDS",
+   "tur": "bilanco",
+   "durum": "kuruldu",
+   "not": "",
+   "trigger": "trig_01H9niArW5KpcgeC5xJxpuay",
+   "soz": "",
+   "guncelleme": "25.11 13:42"
+  },
+  {
    "id": "TUR-2511-1105",
    "ad": "Otomatik paylaşım turu",
    "zaman": "2026-11-25T11:05",
@@ -2371,11 +2384,76 @@
    "ne": "C3 tur",
    "ticker": "",
    "tur": "tek",
-   "durum": "kuruldu",
+   "durum": "yapildi",
    "not": "",
    "trigger": "trig_01SQRZCXjWacM8Px28yE9uvL",
    "soz": "",
-   "guncelleme": "25.11 13:17"
+   "guncelleme": "25.11 13:42"
+  },
+  {
+   "id": "TUR-2511-1402",
+   "ad": "Otomatik paylaşım turu",
+   "zaman": "2026-11-25T14:02",
+   "ne": "C3 tur",
+   "ticker": "",
+   "tur": "tek",
+   "durum": "kuruldu",
+   "not": "",
+   "trigger": "trig_018hp9QH4M6zqBt6jVGZVYbP",
+   "soz": "",
+   "guncelleme": "25.11 13:42"
+  },
+  {
+   "id": "GDS-1125-hazirlik",
+   "ad": "Hazırlık: GDS",
+   "zaman": "2026-11-25T14:30",
+   "ne": "Kural 16: beklentiler 2 kaynak, CRWV iskeleti, /tmp/hazir_T.py kart, bülten URL'leri",
+   "ticker": "GDS",
+   "tur": "bilanco",
+   "durum": "kuruldu",
+   "not": "",
+   "trigger": "trig_01H9niArW5KpcgeC5xJxpuay",
+   "soz": "",
+   "guncelleme": "25.11 13:42"
+  },
+  {
+   "id": "GDS-1125-yayin",
+   "ad": "Yayın: GDS bilanço",
+   "zaman": "2026-11-25T15:28",
+   "ne": "Kural 16 + O-011: rakam tweeti tam CRWV formatı, 3-5 dk içinde; Yahoo canlı blog/CNBC yedek",
+   "ticker": "GDS",
+   "tur": "bilanco",
+   "durum": "kuruldu",
+   "not": "",
+   "trigger": "trig_01MHkSZcB7G29oimZEHeVKtv",
+   "soz": "",
+   "guncelleme": "25.11 13:42"
+  },
+  {
+   "id": "GDS-1125-analiz",
+   "ad": "Analiz: GDS bilanço",
+   "zaman": "2026-11-25T15:45",
+   "ne": "Kural 25: kapsamlı analiz tweeti",
+   "ticker": "GDS",
+   "tur": "bilanco",
+   "durum": "kuruldu",
+   "not": "",
+   "trigger": "trig_01MHkSZcB7G29oimZEHeVKtv",
+   "soz": "",
+   "guncelleme": "25.11 13:42"
+  },
+  {
+   "id": "GDS-1125-detay",
+   "ad": "Detay: GDS",
+   "zaman": "2026-11-25T16:00",
+   "ne": "Kural 41: belgeden 2-7 AYRI detay tweeti, BEKLEMEDEN (gece dahil), aralık serbest",
+   "ticker": "GDS",
+   "tur": "bilanco",
+   "durum": "atlandi",
+   "not": "kural 67/70: GDS küçük şirket, 3 tweet (beklenti, rakam, analiz)",
+   "trigger": "",
+   "soz": "",
+   "guncelleme": "25.11 13:42"
   },
   {
    "id": "TEST-PCE-2511",
@@ -2391,6 +2469,19 @@
    "guncelleme": "25.11 08:43"
   },
   {
+   "id": "GDS-1125-cagri",
+   "ad": "Çağrı: GDS",
+   "zaman": "2026-11-25T17:00",
+   "ne": "Kural 40: görüşme önemli yerleri, AYNI GÜN, her konu ayrı tweet",
+   "ticker": "GDS",
+   "tur": "bilanco",
+   "durum": "atlandi",
+   "not": "kural 67/70: GDS küçük şirket, 3 tweet (beklenti, rakam, analiz)",
+   "trigger": "",
+   "soz": "",
+   "guncelleme": "25.11 13:42"
+  },
+  {
    "id": "DELL-1125-beklenen",
    "ad": "Beklenen hareket: DELL",
    "zaman": "2026-11-25T17:45",
@@ -2402,6 +2493,19 @@
    "trigger": "trig_01UB7upwYbLLyVM4wuKHd4ef",
    "soz": "",
    "guncelleme": "25.11 11:43"
+  },
+  {
+   "id": "GDS-1125-beklenen",
+   "ad": "Beklenen hareket: GDS",
+   "zaman": "2026-11-25T17:45",
+   "ne": "Kural 22n/39: opsiyon fiyatlaması vs açılıştaki gerçek hareket",
+   "ticker": "GDS",
+   "tur": "bilanco",
+   "durum": "atlandi",
+   "not": "kural 67/70: GDS küçük şirket, 3 tweet (beklenti, rakam, analiz)",
+   "trigger": "",
+   "soz": "",
+   "guncelleme": "25.11 13:42"
   },
   {
    "id": "TEST-AYRISMA-2511",
