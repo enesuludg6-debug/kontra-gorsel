@@ -207,6 +207,61 @@ def kart(t, enes, out):
                   tarih=dt.date.today().strftime("%d.%m.%Y"), etk_et="FİYAT")
     print(f"kart: {out}")
 
+GF = os.path.join(D0, "analiz_gunlugu.json")
+def gunluk(a):
+    """Enes'in analiz günlüğü: senaryo kaydı -> N gün sonra otomatik puanlama (isabet oranı)."""
+    G = json.load(open(GF)) if os.path.exists(GF) else []
+    k = a[0] if a else "liste"
+    if k == "ekle":  # gunluk ekle <T> <yon yukari|asagi> <giris> <stop> <hedef> <gun> "<gerekçe>"
+        t, yon, g, s_, h, n = a[1], a[2], float(a[3]), float(a[4]), float(a[5]), int(a[6])
+        G.append({"id": len(G) + 1, "t": t, "yon": yon, "giris": g, "stop": s_, "hedef": h, "gun": n, "gerekce": a[7] if len(a) > 7 else "",
+                  "tarih": dt.date.today().isoformat(), "sonuc": ""})
+        json.dump(G, open(GF, "w"), ensure_ascii=False, indent=1); print("kaydedildi", len(G)); return
+    if k == "kontrol":
+        for x in G:
+            if x["sonuc"]: continue
+            d = veri(x["t"], "1d"); d = d[d.index.date >= dt.date.fromisoformat(x["tarih"])]
+            if d.empty: continue
+            sonuc = ""
+            girdi = (d.low <= x["giris"]).any() if x["yon"] == "asagi" and False else ((d.high >= x["giris"]) & (d.low <= x["giris"])).any() or True
+            for r in d.itertuples():
+                if x["yon"] == "asagi":
+                    if r.high >= x["stop"]: sonuc = "STOP"; break
+                    if r.low <= x["hedef"]: sonuc = "HEDEF"; break
+                else:
+                    if r.low <= x["stop"]: sonuc = "STOP"; break
+                    if r.high >= x["hedef"]: sonuc = "HEDEF"; break
+            if not sonuc and (dt.date.today() - dt.date.fromisoformat(x["tarih"])).days >= x["gun"]: sonuc = "SÜRE DOLDU"
+            if sonuc: x["sonuc"] = sonuc; x["kapanis"] = dt.date.today().isoformat(); print(f"{x['id']} {x['t']} {x['yon']} -> {sonuc}")
+        json.dump(G, open(GF, "w"), ensure_ascii=False, indent=1)
+    kap = [x for x in G if x["sonuc"]]
+    if kap:
+        h = sum(x["sonuc"] == "HEDEF" for x in kap); s_ = sum(x["sonuc"] == "STOP" for x in kap)
+        print(f"KARNE: {len(kap)} kapanan senaryo | hedef {h} | stop {s_} | süre doldu {len(kap)-h-s_} | isabet {h/max(1,h+s_)*100:.0f}%")
+    for x in G[-10:]: print(f"{x['id']:3} {x['tarih']} {x['t']:6} {x['yon']:6} giriş {x['giris']:,.0f} stop {x['stop']:,.0f} hedef {x['hedef']:,.0f} -> {x['sonuc'] or 'açık'} | {x['gerekce'][:60]}")
+
+def seviye_test(t, seviyeler, tol_atr=0.25, ileri=5):
+    """Seviyenin geçmişte işe yarayıp yaramadığı: fiyat seviyeye (±0,25 ATR) değdiği günlerden sonra
+    5 günde en az 1 ATR tepki verdi mi (destekte yukarı / dirençte aşağı) yoksa kırıldı mı."""
+    ta = _ta(); d = veri(t, "1d"); atr = ta.atr(d.high, d.low, d.close, 14); o = []
+    for s_ in seviyeler:
+        dok = tepki = kir = 0; i = 15
+        while i < len(d) - ileri:
+            r = d.iloc[i]; a_ = atr.iloc[i]
+            if r.low - tol_atr * a_ <= s_ <= r.high + tol_atr * a_:
+                dok += 1; ust = d.close.iloc[i - 1] > s_  # seviyeye yukarıdan mı geldi (destek)
+                fut = d.iloc[i + 1:i + 1 + ileri]
+                if ust:
+                    if (fut.high.max() - s_) >= a_ and fut.close.min() > s_ - a_: tepki += 1
+                    elif fut.close.min() < s_ - a_: kir += 1
+                else:
+                    if (s_ - fut.low.min()) >= a_ and fut.close.max() < s_ + a_: tepki += 1
+                    elif fut.close.max() > s_ + a_: kir += 1
+                i += ileri
+            else: i += 1
+        o.append(f"  {s_:,.1f}: {dok} temas (2 yıl) | tepki {tepki} | kırılım {kir} | tepki oranı {tepki/max(1,dok)*100:.0f}%{'  <- işe yarayan seviye' if dok >= 3 and tepki/dok >= 0.5 else ''}")
+    return f"SEVİYE TESTİ {t} (temas = ±0,25 ATR; tepki = 5 günde ≥1 ATR geri dönüş):\n" + "\n".join(o)
+
 if __name__ == "__main__":
     a = sys.argv[1:]; k = a[0]
     sev = [float(x) for x in a[a.index("--seviyeler") + 1].split(",")] if "--seviyeler" in a else []
@@ -214,5 +269,7 @@ if __name__ == "__main__":
     elif k == "tara": print(tara(a[1].split(",") if len(a) > 1 and not a[1].startswith("--") else PORTFOY))
     elif k == "istatistik": print(istatistik(a[1], a[2]))
     elif k == "alarm": alarm(a[1:])
+    elif k == "gunluk": gunluk(a[1:])
+    elif k == "seviye_test": print(seviye_test(a[1], sev))
     elif k == "kart": kart(a[1], sev, a[a.index("--out") + 1] if "--out" in a else f"g/teknik_{a[1].strip('^')}.jpg")
     else: print(__doc__)

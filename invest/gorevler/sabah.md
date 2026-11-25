@@ -9,3 +9,4 @@
 (h) KURAL 43: `python3 invest/isler.py devir` ile list_triggers'ı karşılaştır; defterde açık olup görevi olmayanı kur, zamanı geçmiş yapılmamışı Enes'e yaz.
 
 - (Enes 25.11 18:26) `python3 invest/yorumlar.py bekleyen` ve `python3 invest/isler.py devir | grep 'TAM MESAJ YOK\|GECIKMIS'`: kontrol tarihi gelmiş yorum varsa görevi bu sohbette yoksa bugünkü ilk turda sına (skill enes-sonuc-takibi); eksik görev varsa `isler.py mesaj <ID> <ETİKET>` ile kur.
+- (Enes 25.11 22:20) `python3 invest/teknik_ek.py gunluk kontrol`: Enes analiz günlüğünde HEDEF/STOP olanları ve isabet karnesini Enes'e kısa bildir (tweet yok).

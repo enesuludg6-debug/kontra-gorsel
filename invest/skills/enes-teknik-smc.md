@@ -25,6 +25,14 @@ Enes 25.11.2026 22:11: "kurulumu onaylıyorum ayrıca yeteneklere ekle başka he
 4. Plan: en az 2 senaryo (trend yönünde + karşı trend), her birinde giriş bölgesi, tetik (alt zaman diliminde CHoCH/MSS), stop, 2-3 hedef, kabaca R:R; geçersizlik seviyeleri (günlük kapanış bazında). "Tavsiye değil, senaryo" notu tek satır; pozisyon küçüklüğü/ince piyasa uyarısı gerekiyorsa.
 5. Mobil: 2 ekranı geçme; başlıklar + kısa maddeler.
 
+## AMAÇ: ENES'İN ANALİZ KALİTESİ — OTOMATİK TWEET YOK (Enes 25.11 22:20)
+- Bu yeteneğin hiçbir çıktısı (kart, seviye, plan, tarama, alarm) otomatik tweete/Buffer'a GİTMEZ; paylaşım turlarında konu adayı da yapılmaz. Yalnız Enes'e SendUserMessage/SendUserFile. Enes açıkça "bunu tweet at" derse ayrı iş olarak kural 84/86/89 ile ele alınır.
+- Kaliteyi artıran döngü:
+  1. SEVİYE TESTİ: Enes seviye verdiğinde `teknik_ek.py seviye_test <T> --seviyeler …` çalıştır — her seviyenin son 2 yılda kaç kez temas aldığı, kaçında ≥1 ATR tepki verdiği, kaçında kırıldığı. Tepki oranı ≥%50 ve ≥3 temas = "işe yarayan seviye"; düşük oranlı seviyeleri Enes'e açıkça söyle ("25.446 son 2 yılda 14 temasta yalnız 5 tepki verdi, zayıf").
+  2. ANALİZ GÜNLÜĞÜ: her planı kaydet `teknik_ek.py gunluk ekle <T> <yukari|asagi> <giriş> <stop> <hedef> <gün> "<gerekçe>"`; sabah kontrolünde `gunluk kontrol` -> HEDEF/STOP/SÜRE DOLDU ve isabet karnesi. Enes'e haftalık (Pazar) karnesini ver: hangi gerekçe türü (FVG, OB, likidite süpürmesi, Enes seviyesi) daha çok tuttu.
+  3. ÖN KONTROL LİSTESİ (her plandan önce, metinde ✓/✗ yazmadan kısa): üst zaman dilimi yönüyle uyumlu mu (MTF), seviye çakışma puanı ≥3 mü, seviye testi tepki oranı ≥%50 mi, R:R ≥2 mi, stop ≥0,5 x 4h ATR mi, beklenen hareket (VIX/VXN) hedefe izin veriyor mu, takvim riski (veri/Fed/bilanço/tatil) var mı. Eksik olanı tek satırda uyar.
+  4. SENARYO OLASILIĞI: iki senaryoya kabaca olasılık ver (ör. %60/%40) ve dayanağını yaz (MTF puanı, istatistik modülü, seviye testi). Olasılık uydurma değil, bu verilerden türetilir; belirsizse "eşit" de.
+
 ## Kurallar
 - Rakamlar yalnız veriden; uydurma seviye yok. ICT kavramları Türkçe açıklamalı (FVG = dengesiz boşluk, OB = emir bloğu, SSL/BSL = dip/tepe likiditesi, NWOG = haftalık açılış boşluğu).
 - Tweet'e dönüşecekse kural 84 (grafik ham veriyle birebir), 86, 89 ve 54-F; hedef fiyat ve al/sat emri tweete yazılmaz (Enes'e özel analizde senaryo seviyeleri serbest).
@@ -40,5 +48,5 @@ Enes telefondan kısa mesaj yazar ya da grafik ekran görüntüsü atar; sen aş
 | "alarm NDX 24915 aşağı" | `teknik_ek.py alarm ekle <T> <seviye> <yukari|asagi> "<not>"`; her paylaşım turu başında `alarm kontrol` çalışır (tur_basi.sh), tetiklenince SendUserMessage: "ALARM: …" |
 | "alarmlar" / "alarm sil 2" | `teknik_ek.py alarm liste` / `alarm sil <id>` |
 - Ekran görüntüsünden seviye okuma: sağdaki fiyat etiketlerini (mavi kutular) aynen al, Türk biçimini (28.319,8) 28319.8'e çevir; trend çizgisini iki noktasıyla tarif et.
-- Kart başlığında yön (MTF), en güçlü direnç ve destek (çakışma puanı en yüksek), günlük + 4h mini grafik olur; tweet olarak ATILMAZ (Enes'e özel), Enes "paylaş" derse kural 84/86/89 ile tweete çevrilir.
+- Kart başlığında yön (MTF), en güçlü direnç ve destek (çakışma puanı en yüksek), günlük + 4h mini grafik olur.
 - Çakışma puanı 3+ = GÜÇLÜ seviye. Planı bu seviyelere göre kur (giriş güçlü dirençte/destekte, stop bir sonraki seviyenin ötesinde, en az 0,5 x 4h ATR).
