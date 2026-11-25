@@ -122,7 +122,7 @@ def main():
     for i, yon, v, karsi in son_ev:
         ic_ = [x for x in (T1 if yon == "boga" else D1) if x[0] < len(d) - 1]
         ic_s = ic_[-1][1] if ic_ else None
-        if ic_s is None or ic_s == karsi: ic_s = d.high.iloc[-4:-1].max() if yon == "boga" else d.low.iloc[-4:-1].min()
+        if ic_s is None or ic_s == karsi: ic_s = d.high.iloc[-3:-1].max() if yon == "boga" else d.low.iloc[-3:-1].min()
         m = [x for x in ms if x[2] == i]
         print(f"   {d.index[i]:%d.%m %H:%M} {'DİP süpürüldü (boğa)' if yon == 'boga' else 'TEPE süpürüldü (ayı)'} seviye {v:,.2f}"
               + (f" -> MSS onaylı {d.index[m[0][0]]:%d.%m %H:%M}" if m else (f" -> MSS henüz yok; onay için {karsi:,.2f} {'üstünde' if yon == 'boga' else 'altında'} kapanış (fiyata {(karsi / fiy - 1) * 100:+.1f}%)" + (f"; erken iç yapı onayı {ic_s:,.2f} (fiyata {(ic_s / fiy - 1) * 100:+.1f}%)" if ic_s else "") if karsi else " -> MSS henüz yok")))
