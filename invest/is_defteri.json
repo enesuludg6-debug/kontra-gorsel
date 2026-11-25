@@ -2280,11 +2280,11 @@
    "ne": "Kural 39: opsiyonların fiyatladığı hareket (±%, 2 kaynak) açıklamadan önce en az bir tweette; DONGU '- OPSIYON: T'",
    "ticker": "GDS",
    "tur": "bilanco",
-   "durum": "kuruldu",
-   "not": "",
+   "durum": "atlandi",
+   "not": "tek kaynak, bülten erken",
    "trigger": "trig_01H9niArW5KpcgeC5xJxpuay",
    "soz": "",
-   "guncelleme": "25.11 13:42"
+   "guncelleme": "25.11 14:36"
   },
   {
    "id": "TUR-2511-1105",
@@ -2410,11 +2410,11 @@
    "ne": "Kural 16: beklentiler 2 kaynak, CRWV iskeleti, /tmp/hazir_T.py kart, bülten URL'leri",
    "ticker": "GDS",
    "tur": "bilanco",
-   "durum": "kuruldu",
-   "not": "",
+   "durum": "yapildi",
+   "not": "bülten erken, beklenti atlandı",
    "trigger": "trig_01H9niArW5KpcgeC5xJxpuay",
    "soz": "",
-   "guncelleme": "25.11 13:42"
+   "guncelleme": "25.11 14:36"
   },
   {
    "id": "GDS-1125-yayin",
@@ -2423,11 +2423,11 @@
    "ne": "Kural 16 + O-011: rakam tweeti tam CRWV formatı, 3-5 dk içinde; Yahoo canlı blog/CNBC yedek",
    "ticker": "GDS",
    "tur": "bilanco",
-   "durum": "kuruldu",
+   "durum": "yapildi",
    "not": "",
    "trigger": "trig_01MHkSZcB7G29oimZEHeVKtv",
    "soz": "",
-   "guncelleme": "25.11 13:42"
+   "guncelleme": "25.11 14:36"
   },
   {
    "id": "GDS-1125-analiz",
