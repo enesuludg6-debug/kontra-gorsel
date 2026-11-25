@@ -24,6 +24,7 @@ Son güncelleme: 25.11.2026 11:12 TSİ (C2). Turlar şunu okur: tur_basi.sh çı
 - Kural 23: tutmayan tahmin tweette anılmaz, yalnız doğru çıkanlar. Yanlış rakamda kural 21 düzeltme.
 
 ## Kart
+- 25.11 11:38 KART3 VARSAYILAN (kural 84): Enes 6 örneğin hepsini beğendi (cizgi_olay, esleme, siralama, isi, bilanco, goreli); grafikler ham veriyle birebir, 'son veri' damgası, kart3.dogrula. Ölçüm: 2 hafta kart3 vs eski kart göreli görüntülenme (perfogren).
 - Son 3 düzen: takvim ([A:normal] Günün baş), editoryal ([A:iddia] BIS kara l), terminal ([A:normal] Bugünün ö).
 - LOGO_BUYUT 1.8, küçültme YOK; bento ve skor kare logoyu taşımıyor (bilanço rakamı = uclu); dortlu/isi kartında logolu ticker rakama biniyor (logosuz isim).
 

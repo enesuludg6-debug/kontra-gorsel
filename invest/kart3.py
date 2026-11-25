@@ -57,6 +57,18 @@ def cerceve(kicker, baslik, alt="", sonuc="", kaynak=""):
     fig.add_artist(Rectangle((0.0555, 0.062), 0.889, 0.0015, transform=fig.transFigure, color=GRID))
     return fig, [0.0555, alt_y, 0.889, ust - alt_y]
 
+def _damga(alt, son_tarih):
+    """KURAL 84: grafikli kartta verinin son günü alt başlıkta görünür (okur neyi gördüğünü bilir)."""
+    g = dt.date.fromisoformat(son_tarih)
+    return (alt + " • " if alt else "") + f"son veri {g.day:02d}.{g.month:02d}.{g.year}"
+
+def dogrula(seri, kaynak_seri):
+    """KURAL 84: çizilecek seri kaynaktan değiştirilmeden mi geldi? Her nokta aynı tarih/değer olmalı."""
+    k = dict(kaynak_seri)
+    hata = [(a, b, k.get(a)) for a, b in seri if a not in k or abs(k[a] - b) > 1e-9]
+    if hata: raise ValueError(f"GRAFIK VERISI KAYNAKLA UYUSMUYOR: {hata[:3]}")
+    return True
+
 def _ax(fig, rect, pad=(0.06, 0.04, 0.02, 0.02)):
     l, b, r, t = pad
     ax = fig.add_axes([rect[0] + l, rect[1] + b, rect[2] - l - r, rect[3] - b - t], facecolor=BG)
@@ -73,6 +85,7 @@ def kaydet(fig, out):
 # ---------- 1. Fiyat çizgisi + olay işaretleri ----------
 def cizgi_olay(kicker, baslik, alt, seri, olaylar, sonuc, kaynak, out, birim="$", vurgu=ACC):
     """seri: [(tarih_str, değer)], olaylar: [(tarih_str, etiket)]"""
+    alt = _damga(alt, seri[-1][0])
     fig, r = cerceve(kicker, baslik, alt, sonuc, kaynak)
     ax = _ax(fig, r, (0.0, 0.05, 0.10, 0.02))
     x = [dt.date.fromisoformat(a) for a, _ in seri]; y = [b for _, b in seri]
@@ -158,6 +171,7 @@ def bilanco(kicker, baslik, alt, kalemler, sonuc, kaynak, out):
 # ---------- 6. Göreli performans (iki çizgi, 100'e endeks) ----------
 def goreli(kicker, baslik, alt, seriler, sonuc, kaynak, out):
     """seriler: [(ad, [(tarih,değer)], renk)] -> ilk gün = 100"""
+    alt = _damga(alt, seriler[0][1][-1][0])
     fig, r = cerceve(kicker, baslik, alt, sonuc, kaynak)
     ax = _ax(fig, r, (0.0, 0.05, 0.08, 0.02)); ax.yaxis.tick_right()
     x0 = dt.date.fromisoformat(seriler[0][1][0][0]); x1 = dt.date.fromisoformat(seriler[0][1][-1][0])
