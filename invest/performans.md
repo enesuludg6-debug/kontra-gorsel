@@ -253,3 +253,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 25.11 | 12:07 | BAGLAM-GORUS | [A:iddia] NVDA dosya: zirveden −35 vs NDX −16, 1 yıl −14 vs +4, DELL defter 51->132 | dosya | 6b06a53222dfb7833a979788 |
 | 25.11 | 12:54 | BAGLAM-GORUS | [A:normal] YZ çipleri 52 hafta: MU +180/−48, AMD ×2/−36, ANET −22 TSM −28, NBIS/CRWV −69/70; CRWV tahvil %14-16 | aralik | 6b06b03f6212ba833cb06fb0 |
 | 25.11 | 13:17 | MAKRO | [A:iddia] Yeni gümrük vergileri: Çin, AB + 14 ekonomi, USTR aşırı kapasite; PCE 0,3 ile zincir | haber_dosya | 6b06b5a6f7449faeec45287e |
+| 25.11 | 14:04 | HABER | [A:normal] Gümrük listesi 16 ekonomi: Tayvan, Kore, Japonya, Malezya, Singapur; tavan %15/%19, Tayvan tavansız -> TSM riski | haber_dosya | 6b06c0a64f2f059ad9a4f8a6 |
