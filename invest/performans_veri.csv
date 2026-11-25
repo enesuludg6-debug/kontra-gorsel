@@ -372,7 +372,7 @@ tarih,saat,kaynak,tur,gorus,konu,duzen,buffer_id,gorunt,begeni,yanit,repost,er,o
 2026-11-24,14:36,sistem,SONDAKIKA,evet,vadeliler geri cekilme NQ -2,once_sonra,6b0576b498255767f867683d,696,3,0,0,1.01,2026-11-25T01:41
 2026-11-24,15:00,sistem,BILANCO-ANALIZ,evet,HPE islem oncesi -10 marj,terminal,6b057c3fbc0aa0829453a3b5,282,1,0,0,1.42,2026-11-25T01:41
 2026-11-24,16:42,sistem,BAGLAM-GORUS,evet,DELL bilanco oncesi HPE kiyasi,dortlu,6b05944ba9e62b5051a850e6,,,,,,
-2026-11-24,17:29,enes,HABER*,?,"HPE, kritik bileşen kıtlığının en az 2028'in ikinci yarısına",,6b059f519c32ec001603311b,,,,,,
+2026-11-24,17:29,enes,ENES-TASLAK,?,"HPE, kritik bileşen kıtlığının en az 2028'in ikinci yarısına",,6b059f519c32ec001603311b,,,,,,
 2026-11-24,17:37,sistem,BAGLAM-GORUS,evet,ABD acilis sunucu bellek satis,siralama,6b05a1086bb1e3ab6a388fc4,,,,,,
 2026-11-24,17:42,sistem,BILANCO-ANALIZ,evet,HPE nakit akis tedarikci borcu,uclu,6b05a25bc592f5a905e46428,,,,,,
 2026-11-24,18:15,sistem,MAKRO-YORUM,evet,Tüketici güveni Kasım 103 3,once_sonra,6b05a9f1e86dabb983d85d4a,,,,,,

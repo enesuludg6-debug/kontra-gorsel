@@ -4,9 +4,9 @@ Son güncelleme: 25.11.2026 00:31 TSİ (C2). Turlar şunu okur: tur_basi.sh çı
 ## Hesap
 - AKTIF: C3 (25.11 08:40 sohbet devri; görev mesajları HESAP=C3; tur_basi.sh C3). Chrome bağlı değil (fikir taramasının Chrome adımı atlanır).
 
-## İÇERİK AYARI (kural 57; perfogren görevi günceller — son: 24.11 10:17, veri 7 gün, 204 olgun tweet, medyan 332)
-- BILANCO DAGILIM (kural 67/70, 24.11): toplam en fazla 6 — BEKLENTI 1 (+opsiyon cümlesi, + kural 71 belirleyici kalem), RAKAM 1, ANALIZ 1 (kural 66 testiyle açılır), DETAY en çok 2, CAGRI/HAREKET 1. bilanco_perf.py 30 gün: BEKLENTI 0,99 ANALIZ 0,99 HAREKET 0,92 CAGRI 0,90 RAKAM 0,86 DETAY 0,80 (en zayıf) -> sonraki bilançolarda DETAY 1, ANALIZ 2 (perfogren teyit eder).
-- DENE: görüşlü analiz ve yorum tweetlerini ağırlıkla 21:00-01:00 arasına koy (21-24 medyan 416, 00-03 376; 09-12 303, 15-18 322).
+## İÇERİK AYARI (kural 57; perfogren görevi günceller — son: 25.11 10:18, veri 7 gün, 221 olgun tweet, medyan 343)
+- BILANCO DAGILIM (kural 67/70, 24.11): toplam en fazla 6 — BEKLENTI 1 (+opsiyon cümlesi, + kural 71 belirleyici kalem), RAKAM 1, ANALIZ 1 (kural 66 testiyle açılır), DETAY en çok 2, CAGRI/HAREKET 1. bilanco_perf.py 30 gün: BEKLENTI 0,99 ANALIZ 0,99 HAREKET 0,92 CAGRI 0,90 RAKAM 0,86 DETAY 0,80 (en zayıf) -> sonraki bilançolarda DETAY 1, ANALIZ 2 (25.11 perfogren teyit: DETAY 0,80 n=19 en zayıf; BEKLENTI/ANALIZ ~0,98-0,99 eşit, fazladan hak ANALIZ'de kalır).
+- DENE (25.11 güncel): görüşlü analiz ve yorum tweetlerini ağırlıkla 18:00-24:00 arasına koy (7 gün: 18-21 med 443, 21-24 380; 00-03 293 en zayıf, 12-18 ~330). 00-02 arası yalnız zamanlı işler/kapanış.
 - DENE: portföy hisselerinde grafik/teknik ve bilanço sonrası görüş en iyi gidiyor (RKLB grafik 2.243, RKLB 1.475, NBIS 1.466) → portföy hissesinde haber varsa öncelik ver; teknik tweetleri Enes atar (kural 38), sistem onun için taslak + seviye hazırlar.
 - DENE: Enes'in kısa, iddialı elle tweetleri (medyan 472) sistemin uzun tweetlerini (327) geçiyor → ilk cümle kısa ve iddialı olsun, ilk 2 satırda haber + görüş; 900 karakteri yalnız bilanço/analizde aş.
 - DENE: 13F tweetleri düşük (medyan 247) → 13F günde en çok 1, akşam 21-24 arasında.
