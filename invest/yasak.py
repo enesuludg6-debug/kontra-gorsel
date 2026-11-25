@@ -53,6 +53,9 @@ for r_, ad in [
     (r"manşet,|manşet\.|manşet ama", "'manşet' çerçeve kalıbı"),
     (r"zincir basit|denklem basit|hesap basit|mantık basit", "'zincir basit' kalıbı"),
     (r"oyunun kuralı|oyun değiştir|kartlar yeniden", "oyun/kart mecazı"),
+    (r"\b(bu|bugünkü|bugün|günün|haftanın|bu sabahki) (seans|satış|düşüş|yükseliş|hareket|tablo|gün|hafta|rally|ralli)\w* .{0,60}?(yansıması|ifadesi|göstergesi|fiyatlaması|sonucu|hikâyesi|hikayesi|testi)\b", "'bu seans X'in yansıması' soyut özet kalıbı"),
+    (r"\w+(ın|in|un|ün|nın|nin|nun|nün) (hisselere|piyasaya|fiyatlara|borsaya|endekse) yansıması", "'X'in hisselere yansıması' kalıbı"),
+    (r"büyüme hisselerinden genel bir kaçış|genel bir kaçış|risk iştahının (geri )?çekilmesi", "soyut 'genel kaçış' özeti"),
 ]:
     if re.search(r_, low):
         hata.append("54-F: " + ad)
