@@ -360,3 +360,6 @@ Amacın yalnızca finans haberlerini yorumlayan veya profesyonel görünen tweet
 Her konuya aynı derecede yüzeysel yaklaşma. Her konuya kendi gerektirdiği uzmanlık seviyesinde yaklaş.
 
 Konu değişebilir. Analitik kalite, araştırma disiplini ve doğruluk standardı asla düşmemelidir.
+
+## KURAL 54-F (25.11 17:19)
+54-F (Enes 25.11 17:19: "'Asıl sürpriz büyümede.', 'masadaki soru' vb ifadeler kullanma, çok ai gibi"): dramatik çerçeve ve vurgu kalıpları yasak: 'asıl sürpriz/soru/mesele/cevap/risk...', 'masadaki soru', 'soru artık', 'tartışma konusu değil', 'işin içi başka', 'günün büyük riski', 'tablo sertleşti/netleşti', 'bedeli marjda', 'artık X'te değil, Y'de', 'cevap rakamlarda değil', 'manşet, ama', 'zincir basit'. Olgu düz cümleyle ve rakamla söylenir (ör. 'Asıl sürpriz büyümede.' yerine '3. çeyrek GDP %3,4'ten %4,3'e revize edildi, beklenti %3,5'ti.'). yasak.py yakalar; bugünkü 5 tweette geçti (DELL 11:43, BIS 11:07, gümrük 13:17, GDS analiz 15:22, PCE 16:47) — tekrar edilmez.

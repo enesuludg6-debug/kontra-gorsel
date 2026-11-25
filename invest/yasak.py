@@ -37,6 +37,26 @@ for c in re.split(r"(?<=[.!?;])\s+|\n+", t):
     if ":" in ilk and not re.search(r"\d:\d", ilk):
         hata.append(f"cümle başında etiket (':'): '{ilk}'")
 
+
+# Kural 54-F (Enes 25.11 17:19: "'Asıl sürpriz büyümede.', 'masadaki soru' vb ifadeler kullanma, çok ai gibi"):
+# dramatik çerçeve/vurgu kalıpları. Olgu düz cümleyle, rakamla söylenir.
+for r_, ad in [
+    (r"\basıl (sürpriz|soru|mesele|haber|risk|cevap|konu|fark|olay|sorun|nokta|kazanan|kaybeden|test|hamle|tehlike|neden)", "'asıl X' vurgu kalıbı"),
+    (r"masadaki (soru|seçenek|konu|ihtimal)", "'masadaki soru' kalıbı"),
+    (r"(soru|tartışma) artık|artık tartışma konusu değil|tartışma konusu bile değil", "'soru artık / tartışma konusu değil' kalıbı"),
+    (r"işin içi başka|işin rengi|işin aslı", "'işin içi başka' kalıbı"),
+    (r"(bugünün|günün|haftanın) (ikinci |asıl |en )?büyük (riski|sorusu|sürprizi)", "'günün büyük riski/sürprizi' kalıbı"),
+    (r"tablo .{0,25}(sertleşti|netleşti|değişti|karardı|aydınlandı)", "'tablo sertleşti/netleşti' kalıbı"),
+    (r"\bbedeli \w+(da|de|ta|te)\b|bedeli ağır|faturası", "'bedeli X'te' kalıbı"),
+    (r"artık \w+(da|de|ta|te) değil, \w+(da|de|ta|te)", "'artık X'te değil, Y'de' karşıtlık kalıbı"),
+    (r"\b(rakamlarda|fiyatta|manşette|sayılarda) değil\b", "'cevap rakamlarda değil' karşıtlık kalıbı"),
+    (r"manşet,|manşet\.|manşet ama", "'manşet' çerçeve kalıbı"),
+    (r"zincir basit|denklem basit|hesap basit|mantık basit", "'zincir basit' kalıbı"),
+    (r"oyunun kuralı|oyun değiştir|kartlar yeniden", "oyun/kart mecazı"),
+]:
+    if re.search(r_, low):
+        hata.append("54-F: " + ad)
+
 # Kural 54-E (Enes 24.11 09:10: "'Nakit tarafı da güçlü.' çok yapay zekâ ibaresi gibi duruyor, böyle şeyler kullanmasın"):
 # rakamsız "X tarafı/cephesi (da) güçlü/zayıf/sağlam..." hüküm cümleleri ve rakamsız kısa sıfat-hüküm cümleleri yasak.
 SIFAT = r"(güçlü|zayıf|sağlam|temiz|olumlu|olumsuz|iyi|kötü|parlak|sağlıklı|net|rahat|sorunlu|cılız|kuvvetli|istikrarlı|dengeli|sıkıntılı)"
