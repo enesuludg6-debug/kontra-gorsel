@@ -2729,11 +2729,11 @@
    "ne": "Kural 66 kapanış kontrolü; 23:00 ara kontrol üç koşul sağlandı",
    "ticker": "",
    "tur": "sonuctakip",
-   "durum": "bekliyor",
+   "durum": "yapildi",
    "not": "",
    "trigger": "",
    "soz": "",
-   "guncelleme": "25.11 23:00"
+   "guncelleme": "26.11 00:25"
   },
   {
    "id": "TUR-2511-0025",
@@ -2742,11 +2742,25 @@
    "ne": "C3 tur; kapanış özeti",
    "ticker": "",
    "tur": "tek",
+   "durum": "yapildi",
+   "not": "",
+   "trigger": "",
+   "soz": "",
+   "guncelleme": "26.11 00:26"
+  },
+  {
+   "id": "TUR-2511-0055",
+   "ad": "Otomatik paylaşım turu",
+   "zaman": "2026-11-26T00:55",
+   "ne": "send_later trig_01AiRqcP5kNjjfqFRDxy1FoL; kapanış özeti / kapanış sonrası",
+   "ticker": "",
+   "tur": "tek",
    "durum": "bekliyor",
    "not": "",
    "trigger": "",
    "soz": "",
-   "guncelleme": "25.11 23:10"
+   "guncelleme": "26.11 00:25",
+   "mesaj": "HESAP=C3. OTOMATİK PAYLAŞIM TURU (TUR-2511-0055) — 00:25 turundaki mesajın aynısı; çip ayrışması 00:16 atıldı; ana aday 25.11 kapanış özeti ya da kapanış sonrası son dakika; 02:00 sonrasına tur kurma."
   },
   {
    "id": "TEST-TARIFE-2511",
