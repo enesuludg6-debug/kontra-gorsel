@@ -2397,11 +2397,11 @@
    "ne": "C3 tur",
    "ticker": "",
    "tur": "tek",
-   "durum": "kuruldu",
+   "durum": "yapildi",
    "not": "",
    "trigger": "trig_018hp9QH4M6zqBt6jVGZVYbP",
    "soz": "",
-   "guncelleme": "25.11 13:42"
+   "guncelleme": "25.11 14:04"
   },
   {
    "id": "GDS-1125-hazirlik",
@@ -2441,6 +2441,19 @@
    "trigger": "trig_01MHkSZcB7G29oimZEHeVKtv",
    "soz": "",
    "guncelleme": "25.11 13:42"
+  },
+  {
+   "id": "TUR-2511-1555",
+   "ad": "Otomatik paylaşım turu",
+   "zaman": "2026-11-25T15:55",
+   "ne": "C3 tur",
+   "ticker": "",
+   "tur": "tek",
+   "durum": "kuruldu",
+   "not": "",
+   "trigger": "trig_01WWkhcM4bsHSuxWb6R9QYF9",
+   "soz": "",
+   "guncelleme": "25.11 14:04"
   },
   {
    "id": "GDS-1125-detay",
@@ -2519,6 +2532,19 @@
    "trigger": "trig_0138knhdQR98j4SShzZrU6UP",
    "soz": "",
    "guncelleme": "25.11 08:43"
+  },
+  {
+   "id": "TEST-TARIFE-2511",
+   "ad": "Sonuç takibi: Tayvan gümrük oranı",
+   "zaman": "2026-11-26T11:00",
+   "ne": "Kural 66: 25.11 14:04 tweeti (Buffer 6b06c0a64f2f059ad9a4f8a6) — USTR Section 301 duyurusunda Tayvan oranı %15 üstü mü; TSM etkisi. Duyuru gelmediyse tarihi ileri al",
+   "ticker": "",
+   "tur": "test",
+   "durum": "bekliyor",
+   "not": "",
+   "trigger": "",
+   "soz": "",
+   "guncelleme": "25.11 14:04"
   },
   {
    "id": "TEST-SNOW-0312",

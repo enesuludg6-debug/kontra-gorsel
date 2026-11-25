@@ -1,10 +1,5 @@
 [
 {
-"acilis": "bu tabloda gördüğüm",
-"kaliplar": [],
-"metin": "Bu tabloda gördüğüm şey yabancı yatırımcının topluca kapıya koşması. Bu şirketlerin sipariş defterleri ve ürettikleri çiplere olan talep bir hafta içinde değişm"
-},
-{
 "acilis": "benim bu veride",
 "kaliplar": [],
 "metin": "Benim bu veride baktığım asıl yer güven endeksi değil, enflasyon beklentileri. 10 yıllık faiz %5'in üstünde ve teknoloji hisselerine en çok o baskı yapıyor. Enf"
@@ -306,5 +301,12 @@
 "acilis": "bence nasdaq vadeli",
 "kaliplar": [],
 "metin": "Bence Nasdaq vadeli işlemlerindeki yüzde 2'lik düşüşü yalnız çiplerle açıklamak eksik kalır; gümrük başlığı da fiyatın içinde."
+},
+{
+"acilis": "tayvan için haberlerde",
+"kaliplar": [
+"\\bçünkü\\b"
+],
+"metin": "Tayvan için haberlerde bir tavan geçmiyor. Bence Tayvan'a yüzde 15'in üstünde bir oran gelirse en açık risk $TSM tarafında olur, çünkü $NVDA ve $AMD çipleri ora"
 }
 ]
