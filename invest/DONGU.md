@@ -657,3 +657,4 @@ Durdurmak için en alta `DURDUR` yazılı bir satır ekle (Enes ya da Claude, En
 - 18:06 (25.11) AUTO C3 KURAL 86 (F-012..F-019 HEPSİ KABUL; 18:06 karne yalnız tutanlar): kalite.py günlük 20 tavanı + ilk satır 12 kelime + rakam/paragraf sınırı; yeni sabit zincir karne Cmt 20:25 trig_018MKK2QSwRpVaUxxDmVDyLw; TUR-2511-1820 mesajı kural 86'ya göre güncellendi (25-40 dk aralık).
 - 18:09 (25.11) AUTO C3 Enes 18:08: günlük sayı hafta içi en az 18 en çok 26, hafta sonu en çok 10 (kural 86-a, 42/48 satırı, kalite.py tavan, _ORTAK, skill, HESAP_DEVRI, tur mesajı).
 - 18:13 (25.11) AUTO C3 Enes 18:11 'daha da geliştir': kural 87 konu_puan.py + kural 88 numaralı seriler (seri.py, seriler.json); skill enes-konu-secimi, enes-seri. Yetenekler enes-egitici/ilk-satir/karne-guncelleme Enes tarafından kaydedildi.
+- 18:19 (25.11) AUTO C3 Enes 18:18: enes-seri beğenilmedi -> kural 88 iptal (seri.py, skill silindi); enes-konu-secimi kaydedildi (kural 87 sürüyor).
