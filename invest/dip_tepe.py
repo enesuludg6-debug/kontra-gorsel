@@ -21,7 +21,8 @@ def yahoo(t, aralik="1d", rng="20y"):
 def isaretler(d, vix):
     import pandas_ta as ta
     c, h, l, o = d.close, d.high, d.low, d.open
-    rsi = ta.rsi(c, 14); e200 = ta.ema(c, 200); e50 = ta.ema(c, 50); e20 = ta.ema(c, 20)
+    rsi = ta.rsi(c, 14); e50 = ta.ema(c, 50); e20 = ta.ema(c, 20)
+    e200 = ta.ema(c, 200) if len(c) > 210 else ta.ema(c, max(20, len(c) // 2))  # kısa geçmiş (yeni halka arz): uzun ortalama yerine yarı ömür
     atr = ta.atr(h, l, c, 14); bb = ta.bbands(c, 20, 2); bl, bu = bb.iloc[:, 0], bb.iloc[:, 2]
     uzak = (c - e200) / atr                       # 200 EMA'dan kaç ATR uzak
     dd = c / c.cummax() - 1
