@@ -1,10 +1,5 @@
 [
 {
-"acilis": "bence burada ayırmamız",
-"kaliplar": [],
-"metin": "Bence burada ayırmamız gereken bir şey var. Bu Oracle'ın kendi finansman tercihi, yapay zekâ talebinin zayıfladığını göstermiyor. Talep olmasa bu kadar borçla k"
-},
-{
 "acilis": "bence fiyatlar şu",
 "kaliplar": [],
 "metin": "Bence fiyatlar şu an talepten çok korkuyu yansıtıyor. Son bilançolarda yapay zekâ talebinde bir yavaşlama görmedim, o tablo bir haftada değişmedi. Listemde bu d"
@@ -306,5 +301,10 @@
 "acilis": "şirket arz ile",
 "kaliplar": [],
 "metin": "Şirket arz ile talep arasındaki açığın 2027'de daha da büyüyeceğini söylüyor. Bence defteri bozabilecek tek şey müşterinin parayı bulamaması; 22 milyar dolarlık"
+},
+{
+"acilis": "bence fiyattaki kayıp",
+"kaliplar": [],
+"metin": "Bence fiyattaki kayıp müşterinin harcamasından değil, faiz ve değerleme baskısından geliyor; sipariş tarafı bozulmadıkça bu fark kapanmaya aday."
 }
 ]
