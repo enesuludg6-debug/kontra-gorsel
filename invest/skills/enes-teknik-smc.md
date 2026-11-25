@@ -39,6 +39,14 @@ Enes 25.11.2026 22:11: "kurulumu onaylıyorum ayrıca yeteneklere ekle başka he
 - Tweet için de bu çizim kullanılabilir (Enes atacaksa); yazılar Türkçe, kart3 renkleri.
 - GÖRSEL İMZA KURALI (Enes 25.11 23:04): grafik/kart İÇİNDE hiçbir yerde "Enes" yazmaz (seviye etiketi "Seviye 26.980", çakışma kaynağı "yatay seviye"); isim yalnız sağ altta "ENES ULUDAĞ" imzası olarak, grafik alanının dışında durur.
 
+## ÜST KATMAN (Enes 25.11 23:58 "teknik analizi daha da geliştir")
+- Her hisse analizinde dip_tepe.py'den sonra `python3 invest/teknik_ust.py <T>` çalıştır; endeks yorumu için `teknik_ust.py genislik`.
+- HİSSEYE ÖZEL SİNYAL KARNESİ: 10 dip işaretinin her birinin BU hissede 20 gün sonra kazandırma oranı; şu an yanan sinyallerin geçmiş başarısını söyle ("AVGO'da VIX 30 üstü sinyali 42 olayda %74 tuttu"). Genel kural yerine hisseye özel kanıt.
+- PİYASA GENİŞLİĞİ (Nasdaq 100 bileşenleri): 20/50/200 günlük üstü oranı, 52 hafta dibine yakın oranı. 50G üstü <%15 = genişlik yıkanmış (dip için olumlu); >%85 = aşırı alım (tepe riski). Endeks düşerken genişlik nötrse "düşüş dar tabanlı, birkaç dev hisseden" de.
+- HACİM: OBV ve birikim/dağıtım uyumsuzluğu (fiyat dipte, para akışı dipte değil = sessiz birikim), göreli hacim.
+- GÜVEN SKORU 0-100 (dip işaretleri + hisseye özel sinyal başarısı + trend onay adımı + genişlik + hacim + 1d/4h yapı): ≥70 YÜKSEK, 45-69 ORTA, <45 DÜŞÜK. Enes'e tek cümle hükümle ver.
+- Opsiyon verisi (put/call, gamma) Yahoo'da 401 verdiği için yok; Enes bağlarsa başka kaynak (Financial Datasets vb.) değerlendirilir.
+
 ## AMAÇ: ENES'İN ANALİZ KALİTESİ — OTOMATİK TWEET YOK (Enes 25.11 22:20)
 - Bu yeteneğin hiçbir çıktısı (kart, seviye, plan, tarama, alarm) otomatik tweete/Buffer'a GİTMEZ; paylaşım turlarında konu adayı da yapılmaz. Yalnız Enes'e SendUserMessage/SendUserFile. Enes açıkça "bunu tweet at" derse ayrı iş olarak kural 84/86/89 ile ele alınır.
 - Kaliteyi artıran döngü:
