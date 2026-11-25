@@ -1,10 +1,5 @@
 [
 {
-"acilis": "asml en gelişmiş",
-"kaliplar": [],
-"metin": "ASML, en gelişmiş çiplerin üretildiği EUV makinelerini yapan tek şirket. TSMC, Samsung ve Intel yeni fabrika kurdukça bu makineleri ondan almak zorunda. Bugünkü"
-},
-{
 "acilis": "bence bu düşüş",
 "kaliplar": [
 "\\bçünkü\\b"
@@ -308,5 +303,10 @@
 "acilis": "bence çin deki",
 "kaliplar": [],
 "metin": "Bence Çin'deki yapay zekâ talebi doluluk rakamında görünüyor; şirketin önceliği büyümeden borç kontrolüne kaymış durumda."
+},
+{
+"acilis": "bence veri öncesinde",
+"kaliplar": [],
+"metin": "Bence veri öncesinde yüzde 97 fiyatlanan 25 baz puanlık artırım artık tartışma konusu değil; masadaki soru 50 baz puanın ihtimali."
 }
 ]
