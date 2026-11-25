@@ -245,6 +245,9 @@ def _ayir(ys, aralik):
         if out[idx[k]] - out[idx[k - 1]] < aralik: out[idx[k]] = out[idx[k - 1]] + aralik
     return out
 
+def _kisa(v):
+    t = f"{v:.2f}".rstrip("0").rstrip("."); return t.replace(".", ",")
+
 def _sayi(v):
     if v >= 1000: return f"{v:,.0f}".replace(",", ".")
     return f"{v:.2f}".replace(".", ",")
@@ -413,7 +416,7 @@ def _parlak(ax, x, y, renk, lw=4.5):
         ax.plot(x, y, color=renk, lw=lw * k, alpha=a, solid_capstyle="round", zorder=3)
     ax.plot(x, y, color=renk, lw=lw, solid_capstyle="round", zorder=4)
 
-def dosya(ticker, kicker, baslik, spot, seri, kiyas, olaylar, sonuc, kaynak, out, kiyas_ad="Nasdaq 100"):
+def dosya(ticker, kicker, baslik, spot, seri, kiyas, olaylar, sonuc, kaynak, out, kiyas_ad="Nasdaq 100", kesit=1.0, kaydetme=False):
     """Hisse dosyası: marka ışıklı zemin, parlayan fiyat çizgisi + kıyas, olay şeritleri, alt panelde 'zirveden uzaklık',
     altta 4 istatistik ve yöntem notu. olaylar: [(tarih, kısa etiket)]. Yerleşim yukarıdan aşağı sırayla hesaplanır."""
     import textwrap
@@ -444,45 +447,150 @@ def dosya(ticker, kicker, baslik, spot, seri, kiyas, olaylar, sonuc, kaynak, out
     ax = fig.add_axes([L, ana_alt, 0.78, ust - ana_alt]); ax.set_facecolor("none")
     for s_ in ax.spines.values(): s_.set_visible(False)
     ax.tick_params(colors=MUTED, labelsize=22 * 0.72, length=0); ax.grid(axis="y", color=GRID, lw=1)
-    ax.plot(xk, yk, color="#6B7385", lw=2.2, alpha=0.85, zorder=2)
-    ax.fill_between(x, yv, min(yv + yk) * 0.95, color=renk, alpha=0.07, lw=0, zorder=1)
-    _parlak(ax, x, yv, renk)
+    nk = max(2, int(len(x) * kesit)); son_kare = kesit >= 1.0
+    ax.plot(xk[:nk], yk[:nk], color="#6B7385", lw=2.2, alpha=0.85, zorder=2)
+    ax.fill_between(x[:nk], yv[:nk], min(yv + yk) * 0.95, color=renk, alpha=0.07, lw=0, zorder=1)
+    _parlak(ax, x[:nk], yv[:nk], renk)
     lo = min(yv + yk); hi = max(yv + yk); ax.set_ylim(lo - (hi - lo) * 0.05, hi + (hi - lo) * 0.30)
     ax.set_xlim(x[0], x[-1]); ax.set_xticks([])
     ax.yaxis.set_major_formatter(matplotlib.ticker.FuncFormatter(lambda v, _: f"{v:.0f}"))
-    for j, (td, et) in enumerate(olaylar):
+    for j, (td, et) in enumerate(olaylar if son_kare else []):
         d0 = dt.date.fromisoformat(td); i = min(range(len(x)), key=lambda k: abs((x[k] - d0).days))
         ax.axvline(x[i], color=INK, lw=1, alpha=0.35, ls=(0, (2, 3)), zorder=2)
         ty = hi + (hi - lo) * (0.26 - 0.15 * j)
         ax.text(x[i], ty, et, ha="right", va="center", fontsize=19 * 0.72, color=BG, family=FAM, fontweight="black",
                 bbox=dict(boxstyle="round,pad=0.35", fc=INK, ec="none"), zorder=6)
         ax.scatter([x[i]], [yv[i]], s=90, color=INK, edgecolor=BG, lw=2, zorder=7)
-    yl = ax.get_ylim(); fy = ana_alt + (ust - ana_alt) * (yv[-1] - yl[0]) / (yl[1] - yl[0])
-    fig.text(L + 0.79, fy, _sayi(yv[-1]), fontsize=30 * 0.72, color=renk, family=FAM, fontweight="black", va="center")
+    yl = ax.get_ylim(); fy = ana_alt + (ust - ana_alt) * (yv[nk - 1] - yl[0]) / (yl[1] - yl[0])
+    fig.text(L + 0.79, fy, _sayi(yv[nk - 1]), fontsize=30 * 0.72, color=renk, family=FAM, fontweight="black", va="center")
     # zirveden uzaklık paneli
     tepe = []; m = -1
     for v in yv: m = max(m, v); tepe.append(100 * (v / m - 1))
     fig.text(L, 0.405, "ZİRVEDEN UZAKLIK", fontsize=19 * 0.72, color=MUTED, family=MONO, va="center")
     a2 = fig.add_axes([L, 0.31, 0.78, 0.085]); a2.set_facecolor("none")
     for s_ in a2.spines.values(): s_.set_visible(False)
-    a2.fill_between(x, tepe, 0, color=DOWN, alpha=0.35, lw=0); a2.plot(x, tepe, color=DOWN, lw=1.6)
-    a2.set_xlim(x[0], x[-1]); a2.tick_params(colors=MUTED, labelsize=20 * 0.72, length=0)
+    a2.fill_between(x[:nk], tepe[:nk], 0, color=DOWN, alpha=0.35, lw=0); a2.plot(x[:nk], tepe[:nk], color=DOWN, lw=1.6)
+    a2.set_ylim(min(tepe) * 1.08, 3); a2.set_xlim(x[0], x[-1]); a2.tick_params(colors=MUTED, labelsize=20 * 0.72, length=0)
     a2.yaxis.tick_right(); a2.set_yticks([0, round(min(tepe) / 10) * 10]); a2.grid(axis="y", color=GRID, lw=1)
     a2.yaxis.set_major_formatter(matplotlib.ticker.FuncFormatter(lambda v, _: f"%{v:.0f}".replace("%-", "−%")))
     a2.xaxis.set_major_locator(mdates.MonthLocator(interval=2)); a2.xaxis.set_major_formatter(matplotlib.ticker.FuncFormatter(lambda v, _: AYLAR[mdates.num2date(v).month]))
     # 4 istatistik
     yil = 100 * (yv[-1] / yv[0] - 1); kyil = 100 * (yk[-1] / yk[0] - 1)
     st4 = [(_yuzde(yil, 0), f"{ticker}, dönem"), (_yuzde(kyil, 0), f"{kiyas_ad}, dönem"), (_yuzde(min(tepe), 0), "en derin düşüş"), (_yuzde(tepe[-1], 0), "bugün zirveden")]
-    for i, (rk, et) in enumerate(st4):
+    for i, (rk, et) in enumerate(st4 if son_kare else []):
         x0 = L + i * (R - L) / 4
         fig.add_artist(FancyBboxPatch((x0 + 0.003, 0.17), (R - L) / 4 - 0.006, 0.08, boxstyle="round,pad=0,rounding_size=0.01",
                                       transform=fig.transFigure, fc=(1, 1, 1, 0.04), ec=(1, 1, 1, 0.08), lw=1))
         _t(fig, x0 + 0.02, 0.225, rk, 40, "black", UP if rk.startswith("+") else DOWN, va="center")
         _t(fig, x0 + 0.02, 0.188, et, 20, "bold", MUTED, va="center")
     fig.add_artist(Rectangle((L, 0.112), 0.008, 0.042, transform=fig.transFigure, color=renk))
-    _t(fig, L + 0.02, 0.133, sonuc, 34 if len(sonuc) < 42 else 30, "black", INK, va="center")
+    if son_kare: _t(fig, L + 0.02, 0.133, sonuc, 34 if len(sonuc) < 42 else 30, "black", INK, va="center")
     fig.text(L, 0.083, "YÖNTEM  günlük kapanış • zirveden uzaklık: o güne kadarki en yüksek kapanışa göre", fontsize=17 * 0.72, color="#6B7385", family=MONO, va="center")
     fig.add_artist(Rectangle((L, 0.062), R - L, 0.0012, transform=fig.transFigure, color=GRID))
     fig.text(L, 0.035, ("KAYNAK  " + kaynak).upper(), fontsize=20 * 0.72, color=MUTED, family=MONO, va="center")
     _t(fig, R, 0.035, HANDLE, 26, "black", INK, ha="right", va="center")
+    if kaydetme: return fig
+    return kaydet(fig, out)
+
+
+def _video(kare_uret, out_mp4, sure=8, fps=30, ciz_orani=0.7):
+    """kare_uret(kesit) -> fig. Çizim süresi boyunca kesit 0->1, sonra son kare sabit (sonuç ve istatistikler görünür)."""
+    import subprocess, tempfile, shutil
+    tmp = tempfile.mkdtemp(); kare = sure * fps; ciz = int(kare * ciz_orani); son = None
+    for f in range(kare):
+        k = min(1.0, (f + 1) / ciz)
+        if k >= 1.0 and son:
+            shutil.copy(son, os.path.join(tmp, f"{f:04d}.png")); continue
+        fig = kare_uret(k); p = os.path.join(tmp, f"{f:04d}.png"); fig.savefig(p, dpi=100, facecolor=BG); plt.close(fig)
+        if k >= 1.0: son = p
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-framerate", str(fps), "-i", os.path.join(tmp, "%04d.png"),
+                    "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", "-pix_fmt", "yuv420p", "-movflags", "+faststart",
+                    os.path.join(D, out_mp4)], check=True)
+    shutil.rmtree(tmp); return out_mp4
+
+def dosya_video(*a, out_mp4, sure=8, **k):
+    return _video(lambda ks: dosya(*a, kesit=ks, kaydetme=True, **k), out_mp4, sure)
+
+def _kabuk(ticker, kicker, etiket, baslik, spot, kaynak, yontem, son_tarih=None):
+    """Dosya ailesinin ortak kabuğu: marka zemin, üst şerit, logo, başlık, spot. Döner: fig, içerik_ust_y."""
+    import textwrap
+    renk = MARKA.get(ticker, ACC); L = 0.0555; R = 0.944
+    fig = plt.figure(figsize=(W, H), dpi=100, facecolor=BG); _zemin(fig, renk)
+    fig.text(L, 0.94, kicker.upper(), fontsize=24 * 0.72, color=renk, family=FAM, fontweight="black", va="center")
+    sag = etiket + (f" • {son_tarih}" if son_tarih else "")
+    fig.text(R, 0.94, sag, fontsize=22 * 0.72, color=MUTED, family=MONO, ha="right", va="center")
+    fig.add_artist(Rectangle((L, 0.922), R - L, 0.0012, transform=fig.transFigure, color=GRID))
+    lg = _logo_png(ticker)
+    if lg:
+        h = 100; lg = lg.resize((int(lg.width * h / lg.height), h)); fig.figimage(lg, xo=int(1080 * R) - lg.width, yo=int(1350 * 0.905) - h, zorder=10)
+    y = 0.905
+    for s_ in textwrap.wrap(baslik, 26 if lg else 30)[:3]:
+        _t(fig, L, y, s_, 64, "black", INK, va="top"); y -= 0.056
+    y -= 0.006
+    fig.text(L, y, spot, fontsize=32 * 0.72, color="#C9CED8", family="Instrument Serif", style="italic", va="top"); y -= 0.05
+    fig.text(L, 0.083, "YÖNTEM  " + yontem, fontsize=17 * 0.72, color="#6B7385", family=MONO, va="center")
+    fig.add_artist(Rectangle((L, 0.062), R - L, 0.0012, transform=fig.transFigure, color=GRID))
+    fig.text(L, 0.035, ("KAYNAK  " + kaynak).upper(), fontsize=20 * 0.72, color=MUTED, family=MONO, va="center")
+    _t(fig, R, 0.035, HANDLE, 26, "black", INK, ha="right", va="center")
+    return fig, y, renk
+
+def _sonuc(fig, renk, sonuc):
+    fig.add_artist(Rectangle((0.0555, 0.112), 0.008, 0.042, transform=fig.transFigure, color=renk))
+    _t(fig, 0.0755, 0.133, sonuc, 34 if len(sonuc) < 42 else 30, "black", INK, va="center")
+
+def haber_dosya(ticker, kicker, baslik, spot, maddeler, etkilenen, sonuc, kaynak, out, yontem="", tarih=""):
+    """HABER: numaralı 3 olgu + etkilenen hisselerin 5 günlük mini grafikleri. maddeler: [(büyük, açıklama)];
+    etkilenen: [(ticker, [(tarih,değer)])]"""
+    fig, y, renk = _kabuk(ticker, kicker, "HABER", baslik, spot, kaynak, yontem, tarih)
+    L, R = 0.0555, 0.944; h = 0.075
+    fig.text(L, y - 0.005, "NE OLDU", fontsize=19 * 0.72, color=MUTED, family=MONO, va="top"); y -= 0.03
+    for i, (b, a) in enumerate(maddeler[:3]):
+        y0 = y - (i + 1) * (h + 0.01)
+        fig.add_artist(FancyBboxPatch((L, y0), R - L, h, boxstyle="round,pad=0,rounding_size=0.01", transform=fig.transFigure,
+                                      fc=(1, 1, 1, 0.04), ec=(1, 1, 1, 0.08), lw=1))
+        fig.text(L + 0.025, y0 + h / 2, f"0{i+1}", fontsize=22 * 0.72, color=renk, family=MONO, fontweight="bold", va="center")
+        _t(fig, L + 0.085, y0 + h / 2, b, 46, "black", INK, va="center")
+        _t(fig, L + 0.33, y0 + h / 2, a, 25, "bold", "#C9CED8", va="center")
+    y = y - 3 * (h + 0.01) - 0.035
+    fig.text(L, y, "ETKİLENENLER • 5 GÜN", fontsize=19 * 0.72, color=MUTED, family=MONO, va="center"); y -= 0.015
+    n = len(etkilenen); cw = (R - L) / n; ch = y - 0.18
+    for i, (t, s_) in enumerate(etkilenen):
+        x0 = L + i * cw; vv = [b for _, b in s_]; dv = 100 * (vv[-1] / vv[0] - 1); c = UP if dv >= 0 else DOWN
+        fig.add_artist(FancyBboxPatch((x0 + 0.004, 0.18), cw - 0.008, ch, boxstyle="round,pad=0,rounding_size=0.01", transform=fig.transFigure,
+                                      fc=(1, 1, 1, 0.04), ec=(1, 1, 1, 0.08), lw=1))
+        _t(fig, x0 + 0.02, 0.18 + ch - 0.025, t, 30, "black", INK, va="center")
+        _t(fig, x0 + cw - 0.02, 0.18 + ch - 0.025, _yuzde(dv), 28, "black", c, va="center", ha="right")
+        ax = fig.add_axes([x0 + 0.02, 0.195, cw - 0.04, ch - 0.06]); ax.axis("off"); ax.patch.set_alpha(0)
+        _parlak(ax, range(len(vv)), vv, c, lw=2.5); ax.set_xlim(0, len(vv) - 1)
+    _sonuc(fig, renk, sonuc)
+    return kaydet(fig, out)
+
+def bilanco_dosya(ticker, kicker, baslik, spot, kalemler, trend, sonuc, kaynak, out, yontem="", tarih=""):
+    """BİLANÇO: beklenti çizgisi + gelen çubuk (fark yüzdesiyle) ve sağda çeyreklik trend.
+    kalemler: [(ad, gelen, beklenti, birim)]; trend: (başlık, [dönem], [değer], birim)"""
+    fig, y, renk = _kabuk(ticker, kicker, "BİLANÇO", baslik, spot, kaynak, yontem, tarih)
+    L, R = 0.0555, 0.944
+    fig.text(L, y - 0.005, "GELEN vs BEKLENTİ", fontsize=19 * 0.72, color=MUTED, family=MONO, va="top")
+    fig.text(0.56, y - 0.005, trend[0].upper(), fontsize=19 * 0.72, color=MUTED, family=MONO, va="top")
+    ust = y - 0.035; alt = 0.18; n = len(kalemler); rh = (ust - alt) / n
+    for i, (ad, gel, bek, br) in enumerate(kalemler):
+        y0 = ust - (i + 1) * rh; fark = 100 * (gel / bek - 1); c = UP if fark >= 0 else DOWN
+        _t(fig, L, y0 + rh * 0.78, ad.upper(), 21, "bold", MUTED, va="center")
+        _t(fig, L, y0 + rh * 0.48, f"{_sayi(gel) if gel >= 100 else _kisa(gel)}{br}", 44, "black", INK, va="center")
+        _t(fig, 0.36, y0 + rh * 0.48, _yuzde(fark), 30, "black", c, va="center")
+        bw = 0.42; mx = max(gel, bek) * 1.1; bx = L; by = y0 + rh * 0.12
+        fig.add_artist(Rectangle((bx, by), bw, 0.012, transform=fig.transFigure, color=(1, 1, 1, 0.08)))
+        fig.add_artist(Rectangle((bx, by), bw * gel / mx, 0.012, transform=fig.transFigure, color=c))
+        fig.add_artist(Rectangle((bx + bw * bek / mx - 0.002, by - 0.006), 0.004, 0.024, transform=fig.transFigure, color=INK))
+        fig.text(bx + bw * bek / mx, by - 0.012, "bkl.", fontsize=16 * 0.72, color=MUTED, family=FAM, ha="center", va="top")
+    ax = fig.add_axes([0.56, alt + 0.01, R - 0.56, ust - alt - 0.02]); ax.set_facecolor("none")
+    for s_ in ax.spines.values(): s_.set_visible(False)
+    ax.set_yticks([]); xs = range(len(trend[1]))
+    cols = [(1, 1, 1, 0.18)] * (len(xs) - 1) + [renk]
+    ax.bar(xs, trend[2], color=cols, width=0.62)
+    for xx, v in zip(xs, trend[2]):
+        ax.text(xx, v + max(trend[2]) * 0.02, f"{v:.1f}".replace(".", ",").replace(",0", ""), ha="center", va="bottom", fontsize=26 * 0.72, color=INK, family=FAM, fontweight="black")
+    ax.set_xticks(list(xs)); ax.set_xticklabels(trend[1], fontsize=22 * 0.72, color=MUTED, fontweight="bold"); ax.tick_params(length=0)
+    ax.set_ylim(0, max(trend[2]) * 1.15)
+    _sonuc(fig, renk, sonuc)
     return kaydet(fig, out)
