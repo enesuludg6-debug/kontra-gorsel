@@ -2540,9 +2540,9 @@
    "ne": "Kural 66: 25.11 14:04 tweeti (Buffer 6b06c0a64f2f059ad9a4f8a6) — USTR Section 301 duyurusunda Tayvan oranı %15 üstü mü; TSM etkisi. Duyuru gelmediyse tarihi ileri al",
    "ticker": "",
    "tur": "test",
-   "durum": "bekliyor",
+   "durum": "kuruldu",
    "not": "",
-   "trigger": "",
+   "trigger": "trig_01FAbyw2jQHs5hmM8gQv3CV2",
    "soz": "",
    "guncelleme": "25.11 14:04"
   },
