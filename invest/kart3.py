@@ -186,3 +186,113 @@ def goreli(kicker, baslik, alt, seriler, sonuc, kaynak, out):
     ax.axhline(100, color=GREY, lw=1.5)
     ax.xaxis.set_major_formatter(mdates.DateFormatter("%d.%m")); ax.xaxis.set_major_locator(mdates.MonthLocator())
     return kaydet(fig, out)
+
+# ================= v2 (25.11 11:40, Enes 'piyasanın en iyisi olmalıyız') =================
+def _yuzde(v, ondalik=1):
+    t = f"{abs(v):.{ondalik}f}".replace(".", ",")
+    return ("+%" if v >= 0 else "−%") + t
+
+def _kahraman(fig, rect, deger, etiket, renk):
+    """Grafiğin sol üstüne büyük 'kahraman rakam' (okur ilk bunu görür)."""
+    _t(fig, rect[0] + 0.005, rect[1] + rect[3] - 0.005, deger, 96, "black", renk, va="top")
+    _t(fig, rect[0] + 0.008, rect[1] + rect[3] - 0.085, etiket, 26, "bold", MUTED, va="top")
+
+def cizgi_pro(kicker, baslik, alt, seri, olaylar, sonuc, kaynak, out, kahraman=None, zirve=True, golge=None, ref=None, renk=ACC):
+    """Açıklamalı çizgi: zirve çizgisi + zirveden düşüş gölgesi + kahraman rakam + olay notları.
+    golge: (baş_tarih, son_tarih, etiket) gri dönem bandı; ref: [(değer, etiket)] yatay referans çizgileri."""
+    alt = _damga(alt, seri[-1][0])
+    fig, r = cerceve(kicker, baslik, alt, sonuc, kaynak)
+    ax = _ax(fig, [r[0], r[1], r[2], r[3] - 0.10], (0.0, 0.05, 0.12, 0.0))
+    x = [dt.date.fromisoformat(a) for a, _ in seri]; y = [b for _, b in seri]
+    lo, hi = min(y), max(y); pad = (hi - lo) * 0.06
+    ax.set_ylim(lo - pad, hi + pad * 2.5); ax.yaxis.tick_right()
+    ax.set_xlim(x[0], x[-1] + (x[-1] - x[0]) * 0.13)
+    if golge:
+        a, b, et = golge; a, b = dt.date.fromisoformat(a), dt.date.fromisoformat(b)
+        ax.axvspan(a, b, color=INK, alpha=0.06, lw=0)
+        ax.text(a + (b - a) / 2, hi + pad * 1.6, et, ha="center", fontsize=22 * 0.72, color=MUTED, family=FAM, fontweight="bold")
+    ax.plot(x, y, color=renk, lw=4.5, solid_joinstyle="round", zorder=3)
+    if zirve:
+        zi = y.index(hi)
+        ax.axhline(hi, color=MUTED, lw=1.4, ls=(0, (4, 4)))
+        ax.text(x[0], hi + pad * 0.5, f"zirve {x[zi].day:02d}.{x[zi].month:02d}  {_sayi(hi)}", fontsize=22 * 0.72, color=MUTED, family=FAM, fontweight="bold")
+        ax.fill_between(x[zi:], y[zi:], hi, color=DOWN, alpha=0.12, lw=0)
+    for v, et in (ref or []):
+        ax.axhline(v, color=GOLD, lw=1.6, ls=(0, (2, 3)))
+        ax.text(x[-1] + (x[-1] - x[0]) * 0.13, v, " " + et, va="center", ha="right", fontsize=22 * 0.72, color=GOLD, family=FAM, fontweight="bold")
+    for j, (td, et) in enumerate(olaylar):
+        d0 = dt.date.fromisoformat(td); i = min(range(len(x)), key=lambda k: abs((x[k] - d0).days))
+        ax.scatter([x[i]], [y[i]], s=150, color=INK, zorder=5, edgecolor=BG, lw=3)
+        ax.annotate(et, (x[i], y[i]), xytext=(-190, 40 + 62 * j), textcoords="offset points", ha="center",
+                    fontsize=22 * 0.72, color=INK, family=FAM, fontweight="bold",
+                    bbox=dict(boxstyle="round,pad=0.45", fc=PANEL, ec=GRID), arrowprops=dict(arrowstyle="-", color=MUTED, lw=1.4))
+    ax.scatter([x[-1]], [y[-1]], s=120, color=renk, zorder=6)
+    ax.annotate(_sayi(y[-1]), (x[-1], y[-1]), xytext=(14, 0), textcoords="offset points", va="center",
+                fontsize=28 * 0.72, color=renk, family=FAM, fontweight="black")
+    ax.xaxis.set_major_locator(mdates.MonthLocator()); _tr_eksen(ax)
+    if kahraman: _kahraman(fig, r, kahraman[0], kahraman[1], kahraman[2] if len(kahraman) > 2 else (DOWN if kahraman[0].startswith("−") else UP))
+    return kaydet(fig, out)
+
+AYLAR = ["", "Oca", "Şub", "Mar", "Nis", "May", "Haz", "Tem", "Ağu", "Eyl", "Eki", "Kas", "Ara"]
+def _tr_eksen(ax):
+    ax.xaxis.set_major_formatter(matplotlib.ticker.FuncFormatter(lambda v, _: AYLAR[mdates.num2date(v).month]))
+    ax.yaxis.set_major_formatter(matplotlib.ticker.FuncFormatter(lambda v, _: _sayi(v) if abs(v) >= 1000 else (f"{v:.0f}" if v == int(v) else f"{v:.1f}".replace(".", ","))))
+
+def _ayir(ys, aralik):
+    """Etiket y konumlarını çakışmasın diye en az 'aralik' kadar ayırır (sıra korunur)."""
+    idx = sorted(range(len(ys)), key=lambda i: ys[i]); out = list(ys)
+    for k in range(1, len(idx)):
+        if out[idx[k]] - out[idx[k - 1]] < aralik: out[idx[k]] = out[idx[k - 1]] + aralik
+    return out
+
+def _sayi(v):
+    if v >= 1000: return f"{v:,.0f}".replace(",", ".")
+    return f"{v:.2f}".replace(".", ",")
+
+def kucuk_coklu(kicker, baslik, alt, seriler, sonuc, kaynak, out, kolon=2):
+    """Küçük çoklu: her hisse için kendi mini grafiği + dönem değişimi. seriler: [(ad, [(tarih,değer)])]"""
+    alt = _damga(alt, seriler[0][1][-1][0])
+    fig, r = cerceve(kicker, baslik, alt, sonuc, kaynak)
+    n = len(seriler); sat = -(-n // kolon); cw = r[2] / kolon; ch = r[3] / sat
+    for i, (ad, s) in enumerate(seriler):
+        cx = r[0] + (i % kolon) * cw; cy = r[1] + r[3] - (i // kolon + 1) * ch
+        fig.add_artist(FancyBboxPatch((cx + 0.006, cy + 0.006), cw - 0.012, ch - 0.012, boxstyle="round,pad=0,rounding_size=0.01",
+                                      transform=fig.transFigure, fc=PANEL, ec="none", zorder=-5))
+        y = [b for _, b in s]; dv = 100 * (y[-1] / y[0] - 1); c = UP if dv >= 0 else DOWN
+        _t(fig, cx + 0.022, cy + ch - 0.03, ad, 30, "black", INK, va="top")
+        _t(fig, cx + cw - 0.022, cy + ch - 0.03, _yuzde(dv), 30, "black", c, va="top", ha="right")
+        ax = fig.add_axes([cx + 0.02, cy + 0.02, cw - 0.04, ch - 0.085]); ax.axis("off"); ax.set_zorder(5); ax.patch.set_alpha(0)
+        ax.plot(range(len(y)), y, color=c, lw=2.8); ax.fill_between(range(len(y)), y, min(y), color=c, alpha=0.12, lw=0)
+        ax.set_xlim(0, len(y) - 1)
+    return kaydet(fig, out)
+
+def egim(kicker, baslik, alt, satirlar, sol_et, sag_et, sonuc, kaynak, out):
+    """Eğim grafiği: iki tarih arasında her hissenin değişimi. satirlar: [(ad, sol_yüzde, sağ_yüzde)] (aynı baz)"""
+    fig, r = cerceve(kicker, baslik, alt, sonuc, kaynak)
+    ax = _ax(fig, r, (0.16, 0.04, 0.16, 0.04)); ax.grid(False); ax.set_yticks([])
+    ax.set_xticks([0, 1]); ax.set_xticklabels([sol_et, sag_et], fontsize=26 * 0.72, color=INK, fontweight="bold")
+    allv = [v for _, a, b in satirlar for v in (a, b)]; gap = (max(allv) - min(allv)) * 0.045
+    ya = _ayir([a for _, a, _ in satirlar], gap); yb = _ayir([b for _, _, b in satirlar], gap)
+    for k, (ad, a, b) in enumerate(satirlar):
+        c = UP if b >= a else DOWN
+        ax.plot([0, 1], [a, b], color=c, lw=3.5, marker="o", ms=10, alpha=0.9)
+        ax.text(-0.04, ya[k], f"{ad} {_yuzde(a,0)}", ha="right", va="center", fontsize=22 * 0.72, color=INK, family=FAM, fontweight="bold")
+        ax.text(1.04, yb[k], f"{_yuzde(b,0)} {ad}", ha="left", va="center", fontsize=22 * 0.72, color=c, family=FAM, fontweight="bold")
+    ax.axhline(0, color=GREY, lw=1.2); ax.set_xlim(-0.02, 1.02)
+    return kaydet(fig, out)
+
+def aralik(kicker, baslik, alt, satirlar, sonuc, kaynak, out):
+    """52 haftalık aralık: her hisse için en düşük-en yüksek çubuğu ve bugünkü yeri. satirlar: [(ad, dusuk, yuksek, son)]"""
+    fig, r = cerceve(kicker, baslik, alt, sonuc, kaynak)
+    ax = _ax(fig, r, (0.13, 0.05, 0.22, 0.02)); ax.grid(False); ax.set_xlim(-2, 102)
+    ax.set_xticks([0, 50, 100]); ax.set_xticklabels(["yıllık dip", "orta", "yıllık zirve"], fontsize=22 * 0.72, color=MUTED)
+    s = sorted(satirlar, key=lambda z: (z[3] - z[1]) / (z[2] - z[1]))
+    for i, (ad, lo, hi, son) in enumerate(s):
+        p = 100 * (son - lo) / (hi - lo)
+        ax.plot([0, 100], [i, i], color=GRID, lw=12, solid_capstyle="round")
+        ax.plot([0, p], [i, i], color=ACC, lw=12, solid_capstyle="round", alpha=0.55)
+        ax.scatter([p], [i], s=260, color=INK, zorder=5, edgecolor=ACC, lw=3)
+        ax.text(104, i, f"zirveden {_yuzde(100*(son/hi-1),0)}", ha="left", va="center", fontsize=22 * 0.72, color=MUTED, family=FAM, fontweight="bold")
+    ax.set_yticks(range(len(s))); ax.set_yticklabels([z[0] for z in s], fontsize=28 * 0.72, color=INK, fontweight="bold")
+    ax.set_ylim(-0.6, len(s) - 0.2)
+    return kaydet(fig, out)
