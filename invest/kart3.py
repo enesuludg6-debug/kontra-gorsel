@@ -296,3 +296,26 @@ def aralik(kicker, baslik, alt, satirlar, sonuc, kaynak, out):
     ax.set_yticks(range(len(s))); ax.set_yticklabels([z[0] for z in s], fontsize=28 * 0.72, color=INK, fontweight="bold")
     ax.set_ylim(-0.6, len(s) - 0.2)
     return kaydet(fig, out)
+
+def sutun(kicker, baslik, alt, donemler, seriler, sonuc, kaynak, out, birim=" Mr $"):
+    """Bilanço çeyrek sütunu (gruplu). donemler: ['1Ç','2Ç','3Ç']; seriler: [(ad, [değerler], renk)]
+    Veri şirket bülteni/görüşme dökümünden; her değer 2 kaynak (kural 84 + 3)."""
+    fig, r = cerceve(kicker, baslik, alt, sonuc, kaynak)
+    ax = _ax(fig, [r[0], r[1], r[2], r[3] - 0.05], (0.02, 0.05, 0.02, 0.0)); ax.set_yticks([]); ax.grid(False)
+    n = len(seriler); w = 0.8 / n
+    mx = max(v for _, vs, _ in seriler for v in vs)
+    for j, (ad, vs, c) in enumerate(seriler):
+        xs = [i - 0.4 + w * (j + 0.5) for i in range(len(donemler))]
+        ax.bar(xs, vs, width=w * 0.88, color=c)
+        for x_, v in zip(xs, vs):
+            ax.text(x_, v + mx * 0.015, f"{v:.1f}".replace(".", ",").replace(",0", ""), ha="center", va="bottom",
+                    fontsize=26 * 0.72, color=INK, family=FAM, fontweight="black")
+    ax.set_xticks(range(len(donemler))); ax.set_xticklabels(donemler, fontsize=28 * 0.72, color=INK, fontweight="bold")
+    ax.set_ylim(0, mx * 1.12)
+    x0 = r[0] + 0.01
+    for j, (ad, _, c) in enumerate(seriler):
+        fig.add_artist(Rectangle((x0, r[1] + r[3] - 0.03), 0.022, 0.016, transform=fig.transFigure, color=c))
+        t = _t(fig, x0 + 0.03, r[1] + r[3] - 0.022, ad, 24, "bold", INK, va="center")
+        x0 += 0.05 + len(ad) * 0.0125
+    _t(fig, r[0] + r[2], r[1] + r[3] - 0.022, birim.strip(), 22, "bold", MUTED, ha="right", va="center")
+    return kaydet(fig, out)
