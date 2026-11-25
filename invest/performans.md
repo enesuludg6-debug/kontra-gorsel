@@ -254,3 +254,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 25.11 | 12:54 | BAGLAM-GORUS | [A:normal] YZ çipleri 52 hafta: MU +180/−48, AMD ×2/−36, ANET −22 TSM −28, NBIS/CRWV −69/70; CRWV tahvil %14-16 | aralik | 6b06b03f6212ba833cb06fb0 |
 | 25.11 | 13:17 | MAKRO | [A:iddia] Yeni gümrük vergileri: Çin, AB + 14 ekonomi, USTR aşırı kapasite; PCE 0,3 ile zincir | haber_dosya | 6b06b5a6f7449faeec45287e |
 | 25.11 | 14:04 | HABER | [A:normal] Gümrük listesi 16 ekonomi: Tayvan, Kore, Japonya, Malezya, Singapur; tavan %15/%19, Tayvan tavansız -> TSM riski | haber_dosya | 6b06c0a64f2f059ad9a4f8a6 |
+| 25.11 | 14:36 | BILANCO-RAKAM | [A:muaf] GDS 3Ç26 rakam: gelir 3,18 Mr yuan +10,1, net marj 0,9, alan +25,5, capex 8,5 | bilanco_dosya | 6b06c849e3ac2fcff79fbc05 |
