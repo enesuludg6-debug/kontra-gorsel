@@ -2769,11 +2769,11 @@
    "ne": "send_later; son tur, kapanış sonrası son dakika",
    "ticker": "",
    "tur": "tek",
-   "durum": "bekliyor",
+   "durum": "yapildi",
    "not": "",
    "trigger": "",
    "soz": "",
-   "guncelleme": "26.11 00:55",
+   "guncelleme": "26.11 01:25",
    "mesaj": "HESAP=C3. OTOMATİK PAYLAŞIM TURU (TUR-2511-0125) son tur; kapanış sonrası son dakika (portföy önce); yeni tur kurma."
   },
   {
