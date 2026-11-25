@@ -80,3 +80,9 @@ Enes telefondan kısa mesaj yazar ya da grafik ekran görüntüsü atar; sen aş
 - GÖRELİ GÜÇ: QQQ ve sektör ETF'i (SOXX/IGV/ITA/XLI); endeks için S&P 500 ve eşit ağırlık RSP. Göreli güç çizgisi 3 ay dibi = liderlik kaybı.
 - TEPE RİSKİ SKORU 0-100 (tepe işaretleri, RSI>60, 200G'den >3 ATR, yüksek oynaklıkta yükseliş, göreli zayıflıkta yükseliş). Dip güven skoru (teknik_ust.py) ile birlikte ver.
 - Benzer günler istatistiktir, garanti değildir; örneklem 12 olduğunu her zaman söyle.
+
+## VERİ KALİTESİ VE KANIT KURALI (Enes 26.11 00:04 "kaliteli veri, daha iyi analiz")
+- Tüm araçlar artık `veri_kalite.temiz()` üzerinden veri çeker (dip_tepe.yahoo): temettü/bölünme düzeltmeli OHLC, çift/boş mum atma, tepe/dip tutarsızlığı düzeltme, ertesi gün geri dönen bozuk sıçramaları ayıklama.
+- Her analizin başında `python3 invest/veri_kalite.py <T>`: VERİ ESKİ / canlı mum / eksik gün / kısa geçmiş / sıfır hacim uyarısı varsa Enes'e ilk satırda söyle. Son kapanışı WebFetch ile ikinci kaynaktan doğrula (shell yalnız Yahoo'ya çıkıyor); fark >%0,5 ise belirt.
+- KANIT KURALI: "%X tuttu" asla tek başına yazılmaz; yanına TABAN ORAN (rastgele bir günden aynı süre sonra yukarıda olma oranı) ve %95 güven aralığı (Wilson) gelir. Hüküm: alt sınır > taban = GÜÇLÜ; fark ≥8 = zayıf; ±8 içinde = farksız; ≤−8 = TERS. <10 olay = kanıt yok.
+- YÖNTEM DOĞRULAMASI: `veri_kalite.py <T> --dogrula` benzer-gün yöntemini ve dip sinyallerini ileriye dönük (o günün verisiyle) test eder. 26.11 sonucu: AVGO ve NDX'te benzer-gün tahmini taban orandan FARKSIZ; AVGO'da yalnız VIX≥30 ve RSI≤32 zayıf üstünlük (+10/+11). Bu yüzden benzer günleri "bağlam" diye ver, tahmin diye değil; doğrulamada farksız çıkan aracı hükmün dayanağı yapma.

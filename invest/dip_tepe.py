@@ -12,6 +12,11 @@ import numpy as np, pandas as pd
 warnings.filterwarnings("ignore")
 
 def yahoo(t, aralik="1d", rng="20y"):
+    try:
+        from veri_kalite import temiz
+        return temiz(t, aralik, rng)[0]
+    except Exception:
+        pass
     u = f"https://query1.finance.yahoo.com/v8/finance/chart/{t}?interval={aralik}&range={rng}"
     d = json.load(urllib.request.urlopen(urllib.request.Request(u, headers={"User-Agent": "Mozilla/5.0"}), timeout=25))["chart"]["result"][0]
     q = d["indicators"]["quote"][0]

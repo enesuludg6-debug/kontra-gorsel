@@ -81,12 +81,16 @@ def main(t):
     yon, asama, kos = trend_okuma(d, tr); adim = sum(1 for _, ok, _ in kos if ok)
     print(f"== {t} {d.close.iloc[-1]:,.2f}")
     kar = sinyal_karnesi(d, DIP); yanan = set(k for k, v in DIP.iloc[-5:].any().items() if v)
-    print("HİSSEYE ÖZEL SİNYAL KARNESİ (20 gün sonra kazanma oranı, bu hissenin tüm geçmişi):")
+    from veri_kalite import taban_oran, wilson
+    tb = taban_oran(d.close)
+    print(f"HİSSEYE ÖZEL SİNYAL KARNESİ (20 gün sonra kazanma oranı; TABAN ORAN = rastgele bir günde %{tb:.0f}; fark ≥8 puan değilse sinyal sıradan günden farksız):")
     agirlik = []
     for k, n_, oran, ort in kar:
         isaret = "✔ şimdi yanıyor" if k in yanan else ""
-        print(f"  %{oran:3.0f}  ort {ort:+5.1f}%  ({n_:3d} olay)  {k}  {isaret}")
-        if k in yanan: agirlik.append(oran)
+        _, alt, ust = wilson(round(oran * n_ / 100), n_)
+        etiket = "GÜÇLÜ" if alt > tb else "zayıf" if oran - tb >= 8 else "farksız" if oran - tb > -8 else "TERS"
+        print(f"  %{oran:3.0f} (aralık {alt:.0f}-{ust:.0f}, fark {oran - tb:+.0f} -> {etiket})  ort {ort:+5.1f}%  ({n_:3d} olay)  {k}  {isaret}")
+        if k in yanan: agirlik.append(50 + (oran - tb))
     guvenilir = np.mean(agirlik) if agirlik else 50
     notlar, rv, hacim_puan = hacim(d)
     print(f"HACİM: göreli hacim {rv:.1f}x (bugün / 50 gün ort.)"); [print("  " + x) for x in notlar]
@@ -108,7 +112,7 @@ def main(t):
     skor = int(max(0, min(100, skor + 10)))
     hk = ("YÜKSEK — dip ve dönüş birlikte destekleniyor" if skor >= 70 else "ORTA — dip olası, onay eksik" if skor >= 45 else "DÜŞÜK — dönüş için erken")
     print(f"\nYUKARI DÖNÜŞ GÜVEN SKORU: {skor}/100 -> {hk}")
-    print(f"  bileşenler: dip {d5}/10 | yanan sinyallerin bu hissedeki geçmiş başarısı %{guvenilir:.0f} | trend {adim}/4 ({asama.split(' — ')[0]}) | genişlik 50G %{r['50']:.0f} | hacim birikimi {'var' if hacim_puan else 'yok'} | 1d+4h yapı {mtf:+d}")
+    print(f"  bileşenler: dip {d5}/10 | yanan sinyallerin taban orana göre farkı {guvenilir - 50:+.0f} puan | trend {adim}/4 ({asama.split(' — ')[0]}) | genişlik 50G %{r['50']:.0f} | hacim birikimi {'var' if hacim_puan else 'yok'} | 1d+4h yapı {mtf:+d}")
     print("BASİT HÜKÜM: " + (f"Dip ihtimali güçleniyor ama trend {adim}/4 onaylı; " if d5 >= 5 else "Dip işaretleri zayıf; ") +
           ("piyasa genişliği yıkanmış, bu dip için olumlu; " if r["50"] < 15 else "piyasa genişliği henüz tam yıkanmadı; " if r["50"] < 35 else "") +
           ("hacimde sessiz birikim izi var." if hacim_puan else "hacimde birikim izi yok."))

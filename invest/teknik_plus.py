@@ -79,6 +79,8 @@ def main(t):
     for h in (5, 20, 60):
         s = b[f"f{h}"].dropna()
         if len(s): ozet[h] = (s.median(), (s > 0).mean() * 100, s.min(), s.max())
+    from veri_kalite import taban_oran
+    print(f"   (taban oran: rastgele bir günden 20 gün sonra yukarıda %{taban_oran(d.close):.0f}; yöntemin bu hissede işe yarayıp yaramadığı: veri_kalite.py {t} --dogrula)")
     for h, (m, p, mn, mx) in ozet.items():
         print(f"   -> {h:2d} gün sonra: medyan {m:+.1f}%, yukarıda biten %{p:.0f}, en kötü {mn:+.1f}%, en iyi {mx:+.1f}%")
     bh, yil, yuz = beklenen(d)
@@ -104,7 +106,7 @@ def main(t):
     print(f"\n5) TEPE RİSKİ SKORU: {tepe}/100 ({'YÜKSEK' if tepe >= 60 else 'ORTA' if tepe >= 35 else 'DÜŞÜK'}) — tepe işaretleri {tp}/10, RSI {rsi:.0f}, 200G'den {uz:+.1f} ATR")
     m20 = ozet.get(20, (0, 50, 0, 0))
     print("\nBASİT HÜKÜM:")
-    print(f"   Geçmişte bugüne en çok benzeyen {len(b)} günün %{m20[1]:.0f}'inde {'endeks' if t.startswith('^') or t=='QQQ' else 'hisse'} 1 ay sonra yukarıdaydı (medyan {m20[0]:+.1f}%).")
+    print(f"   (taban oran %{taban_oran(d.close):.0f}) Geçmişte bugüne en çok benzeyen {len(b)} günün %{m20[1]:.0f}'inde {'endeks' if t.startswith('^') or t=='QQQ' else 'hisse'} 1 ay sonra yukarıdaydı (medyan {m20[0]:+.1f}%).")
     print(f"   Önümüzdeki hafta için normal aralık {bh['1 hafta'][0]:,.0f} – {bh['1 hafta'][1]:,.0f}; bunun dışına çıkış haber/kırılım demek.")
     print(f"   Dip işaretleri {dp}/10, tepe riski {tepe}/100: " + ("düşüş tarafı yorgun, tepe riski yok." if dp >= 5 and tepe < 35 else
           "yükseliş uzamış, kâr satışı riski arttı." if tepe >= 60 else "net bir uç yok, seviyelere göre hareket."))
