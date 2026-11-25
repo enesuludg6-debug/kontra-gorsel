@@ -31,6 +31,13 @@ Enes 25.11.2026 22:11: "kurulumu onaylıyorum ayrıca yeteneklere ekle başka he
 - Kalibrasyon: aynı skorun 20 yılda 10/20/60 gün sonraki sonucu + ONAYLI GİRİŞ TESTİ (skor sonrası ilk 20 günlük ortalama üstü kapanışta giriş). NDX 25.11: dip skoru 7/10 tek başına 20 günde %46 yukarı; onaylı girişte %82 (11 olay). Ana ders: DİP SKORU "nerede bakmalı"yı, TREND ONAYI "ne zaman girmeli"yi söyler.
 - ANLATIM (Enes'e, çok basit, 5-6 satır, jargon yok ya da parantezde): 1) Dip mi tepe mi: skor + tek cümle. 2) Trend: hangi aşamada + onay için sıradaki şart ve seviyesi. 3) Geçmiş ne diyor: tek cümle, olay sayısıyla. 4) Ne yapmalı (senaryo, tavsiye değil): "beklenecek seviye", "geçersiz olduğu seviye". 5) Bir benzetme serbest (ör. "satıcılar yoruldu ama alıcılar daha kapıyı açmadı").
 
+## ÇİZİMLİ ANALİZ — VARSAYILAN (Enes 25.11 23:01: "artık gerektiğinde analizleri çizimle beraber yap")
+- Her teknik analizde (teknik X, dip/tepe, seviye, trade planı, ekran görüntüsü) metinle birlikte ÇİZİMLİ GRAFİK gönder: `python3 invest/cizim.py <T> [--tf 4h|1d] [--seviyeler a,b] [--fib] [--onay X] [--bozulma Y] --out /tmp/cizim_<T>.png` -> SendUserFile.
+- Otomatik çizilenler: mumlar, düşen/yükselen trend çizgisi, en güçlü direnç/destek kutuları (çakışma puanı ≥3, hangi araçlardan geldiği yazılı), Enes seviyeleri (mavi), belirgin dip/tepe okları, istenirse Fibonacci, A (onay) ve B (bozulma) senaryo okları; etiketler üst üste binmez.
+- Planın onay/bozulma seviyelerini --onay/--bozulma ile metindekiyle AYNI ver; metin ile çizim çelişmez.
+- Enes kendi ekran görüntüsüne çizim isterse: sağdaki fiyat etiketlerinden ölçeği çıkar (iki etiketin piksel y'si ile fiyat arasında doğrusal eşleme), PIL ile aynı öğeleri görüntünün üstüne çiz; ölçek belirsizse Yahoo verisiyle cizim.py kullan ve bunu söyle.
+- Tweet için de bu çizim kullanılabilir (Enes atacaksa); yazılar Türkçe, kart3 renkleri.
+
 ## AMAÇ: ENES'İN ANALİZ KALİTESİ — OTOMATİK TWEET YOK (Enes 25.11 22:20)
 - Bu yeteneğin hiçbir çıktısı (kart, seviye, plan, tarama, alarm) otomatik tweete/Buffer'a GİTMEZ; paylaşım turlarında konu adayı da yapılmaz. Yalnız Enes'e SendUserMessage/SendUserFile. Enes açıkça "bunu tweet at" derse ayrı iş olarak kural 84/86/89 ile ele alınır.
 - Kaliteyi artıran döngü:

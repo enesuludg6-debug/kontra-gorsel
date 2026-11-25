@@ -681,3 +681,4 @@ Durdurmak için en alta `DURDUR` yazılı bir satır ekle (Enes ya da Claude, En
 - 22:36 (25.11) TUR-2511-2235 (C3): sistem tweeti atılmadı — hedge fon re-gross ve Nasdaq dip konusu Enes'in kendi tweetleri (çakışma olmasın); Micron 2. kaynak yok. 20/18-26. Sonraki tur 23:10.
 - 23:00 (25.11) ENES-ISTEGI: DOCN teknik analiz görseli (g/20261125_docn_teknik.jpg) + tweet metni Enes'e; ENES ATACAK. dip 7/10, trend 0/4, RSI 31->38 (20.11->25.11), dipler 65,55/65,32, EMA20 83, 4h OTE 83-87, POC 88, AVWAP-dip 70, göreli güç −20,6 (60 g), 6 olay (2021 IPO'dan beri).
 - 23:01 (25.11) TEST-AYRISMA-2511 ara kontrol: NVDA 147,99 > 125,53; AMD 403,41 < 424,39; AVGO 297,02 < 304,41 (Yahoo canlı) -> üçü sağlanıyor; ikinci kaynak + resmi kapanış için 00:10'a TEST-AYRISMA-KAP kuruldu.
+- 23:08 (25.11) AUTO C3 Enes 23:01 'analizleri çizimle yap': invest/cizim.py (trend çizgisi, çakışma bölgeleri, Enes seviyeleri, dip/tepe, Fib, A/B senaryo okları); skill bölümü.
