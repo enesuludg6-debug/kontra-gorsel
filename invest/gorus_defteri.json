@@ -1,10 +1,5 @@
 [
 {
-"acilis": "benim bu veride",
-"kaliplar": [],
-"metin": "Benim bu veride baktığım asıl yer güven endeksi değil, enflasyon beklentileri. 10 yıllık faiz %5'in üstünde ve teknoloji hisselerine en çok o baskı yapıyor. Enf"
-},
-{
 "acilis": "asml en gelişmiş",
 "kaliplar": [],
 "metin": "ASML, en gelişmiş çiplerin üretildiği EUV makinelerini yapan tek şirket. TSMC, Samsung ve Intel yeni fabrika kurdukça bu makineleri ondan almak zorunda. Bugünkü"
@@ -308,5 +303,10 @@
 "\\bçünkü\\b"
 ],
 "metin": "Tayvan için haberlerde bir tavan geçmiyor. Bence Tayvan'a yüzde 15'in üstünde bir oran gelirse en açık risk $TSM tarafında olur, çünkü $NVDA ve $AMD çipleri ora"
+},
+{
+"acilis": "bence çin deki",
+"kaliplar": [],
+"metin": "Bence Çin'deki yapay zekâ talebi doluluk rakamında görünüyor; şirketin önceliği büyümeden borç kontrolüne kaymış durumda."
 }
 ]
