@@ -538,7 +538,7 @@ def _sonuc(fig, renk, sonuc):
     fig.add_artist(Rectangle((0.0555, 0.112), 0.008, 0.042, transform=fig.transFigure, color=renk))
     _t(fig, 0.0755, 0.133, sonuc, 34 if len(sonuc) < 42 else 30, "black", INK, va="center")
 
-def haber_dosya(ticker, kicker, baslik, spot, maddeler, etkilenen, sonuc, kaynak, out, yontem="", tarih=""):
+def haber_dosya(ticker, kicker, baslik, spot, maddeler, etkilenen, sonuc, kaynak, out, yontem="", tarih="", etk_et="ETKİLENENLER • 5 GÜN"):
     """HABER: numaralı 3 olgu + etkilenen hisselerin 5 günlük mini grafikleri. maddeler: [(büyük, açıklama)];
     etkilenen: [(ticker, [(tarih,değer)])]"""
     fig, y, renk = _kabuk(ticker, kicker, "HABER", baslik, spot, kaynak, yontem, tarih)
@@ -552,7 +552,7 @@ def haber_dosya(ticker, kicker, baslik, spot, maddeler, etkilenen, sonuc, kaynak
         _t(fig, L + 0.085, y0 + h / 2, b, 46, "black", INK, va="center")
         _t(fig, L + 0.33, y0 + h / 2, a, 25, "bold", "#C9CED8", va="center")
     y = y - 3 * (h + 0.01) - 0.035
-    fig.text(L, y, "ETKİLENENLER • 5 GÜN", fontsize=19 * 0.72, color=MUTED, family=MONO, va="center"); y -= 0.015
+    fig.text(L, y, etk_et, fontsize=19 * 0.72, color=MUTED, family=MONO, va="center"); y -= 0.015
     n = len(etkilenen); cw = (R - L) / n; ch = y - 0.18
     for i, (t, s_) in enumerate(etkilenen):
         x0 = L + i * cw; vv = [b for _, b in s_]; dv = 100 * (vv[-1] / vv[0] - 1); c = UP if dv >= 0 else DOWN
