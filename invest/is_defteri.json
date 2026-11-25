@@ -2280,11 +2280,24 @@
    "ne": "C3 ilk tur (sohbet devri)",
    "ticker": "",
    "tur": "tek",
-   "durum": "kuruldu",
+   "durum": "yapildi",
    "not": "",
    "trigger": "trig_014HHNNRJKLaw5xt3gRT6EFd",
    "soz": "",
-   "guncelleme": "25.11 08:43"
+   "guncelleme": "25.11 11:06"
+  },
+  {
+   "id": "TUR-2511-1128",
+   "ad": "Otomatik paylaşım turu",
+   "zaman": "2026-11-25T11:28",
+   "ne": "C3 tur",
+   "ticker": "",
+   "tur": "tek",
+   "durum": "kuruldu",
+   "not": "",
+   "trigger": "trig_014DwDrHdKtfL3YCDY7HzQq2",
+   "soz": "",
+   "guncelleme": "25.11 11:06"
   },
   {
    "id": "DELL-1125-cagri",
