@@ -1,10 +1,5 @@
 [
 {
-"acilis": "benim için önemli",
-"kaliplar": [],
-"metin": "Benim için önemli olan rakamın büyüklüğü değil, yönetimin verdiği mesaj. Bir şirket nakit akışının kalıcı olduğuna inanmıyorsa iki yıl üst üste temettüyü bu kad"
-},
-{
 "acilis": "keysight çip ve",
 "kaliplar": [],
 "metin": "Keysight çip ve veri merkezi ekipmanlarını test eden cihazlar yapıyor, yani yapay zekâ yatırımlarından doğrudan pay alan bir şirket. Bugünkü düşüşte Keysight'a "
@@ -306,5 +301,10 @@
 "acilis": "beklenen tavan yüzde",
 "kaliplar": [],
 "metin": "Beklenen tavan yüzde 15'ti, USTR'nin resmi önerisi de Tayvan için en çok yüzde 15. Taipei'deki yetkililer bunu nihai karar değil, prosedürel öneri sayıyor ve or"
+},
+{
+"acilis": "kredi temerrüt swabı",
+"kaliplar": [],
+"metin": "Kredi temerrüt swabı (CDS), bir şirketin borcunu batma ihtimaline karşı sigortalatmanın yıllık maliyeti; baz puanla ölçülür. Maliyet ne kadar yüksekse borç vere"
 }
 ]

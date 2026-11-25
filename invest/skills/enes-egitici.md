@@ -12,7 +12,7 @@ Veri: EGITICI tweetler ort. 5,8 beğeni (sistem ort. 2,3); "DRAM ve NAND ayrım�
 - Aynı kavram 30 gün içinde tekrar edilmez (`grep -i kavram performans_veri.csv DONGU.md`).
 
 ## Yapı (3 paragraf, kalıp E)
-1. İlk satır (en çok 12 kelime): kavramın adı + okurun neden umursaması gerektiği, Enes'in birinci tekil sesiyle. Ör. "Bugün herkes çekirdek PCE'yi konuştu, kısaca ne olduğunu anlatayım."
+1. İlk satır (en çok 12 kelime): kavramın adı + okurun neden umursaması gerektiği, Enes'in birinci tekil sesiyle. Ör. "Yapay zekâ şirketlerinin borç riskine tek bir ölçüyle bakıyorum." ("kısaca", "okuyorum" gibi kalıplar yasak.py'ye takılır; kavram adı tekrarı kural 62 'aile' sınırına girer, eş anlamlı kullan)
 2. Tanım: tek cümle, gündelik Türkçe, İngilizce terim parantezde en çok bir kez. Ardından tek somut örnek (bir şirket ya da bir hane).
 3. Bugün nerede: tek güncel rakam (2 kaynak) + bu rakamın piyasada neyi değiştirdiği, tek cümle.
 - En çok 3 farklı rakam; tanım cümlesinde rakam yok.

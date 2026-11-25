@@ -3,20 +3,6 @@
 "jargon": {},
 "tarih": [],
 "terim": [],
-"acilis": "mu bugün 19 yükseldi",
-"kapanis": "micron da asıl soru",
-"rekor": 0,
-"tur": "BAGLAM-GORUS",
-"zaman": "23.11 21:01",
-"gun": "23.11",
-"uzunluk": 582,
-"imza": "3p-duz-o-rakam",
-"kalip": ""
-},
-{
-"jargon": {},
-"tarih": [],
-"terim": [],
 "acilis": "bellek hisselerini tek bir",
 "kapanis": "yapay zekâ talebi en",
 "rekor": 0,
@@ -919,5 +905,22 @@
 "zaman": "25.11 18:52",
 "gun": "25.11",
 "uzunluk": 404
+},
+{
+"jargon": {},
+"tarih": [],
+"terim": [],
+"acilis": "iddia",
+"kapanis": "kredi temerrüt swabı cds",
+"rekor": 0,
+"k89": [],
+"k89_son": "",
+"k89_hazir": [],
+"imza": "2p-duz-o-cerceve",
+"kalip": "I",
+"tur": "EGITICI",
+"zaman": "25.11 19:52",
+"gun": "25.11",
+"uzunluk": 460
 }
 ]
