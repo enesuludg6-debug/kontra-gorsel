@@ -262,3 +262,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 25.11 | 18:22 | PORTFOY | [A:normal] CRWV/NBIS tahvil baskısı: kredi primi rekor, 2031 tahvil %16 üstü; eşik %16 | dosya | 6b06fd325fe597980b65b3cf |
 | 25.11 | 18:52 | HABER | [A:iddia] Tayvan USTR resmi öneri en çok %15 (anlaşma tavanı); TSM −%7 gümrükten değil çip satışından | haber_dosya | 6b070424304332fdc8e12c9b |
 | 25.11 | 20:02 | EGITICI | [A:normal] Kredi temerrüt swabı (CDS) nedir; CRWV 1.155 / ORCL 298 / NVDA 139 bp (6.11) | siralama | 6b07125a95a0fa08d474a277 |
+| 25.11 | 20:14 | ENES-HABER | [A:iddia] FCC SpaceX Starmind 1 milyon uydu izni; Starlink Gen2 15.000; ilk etki fırlatma talebi/Starship | haber_dosya | 6b0713abdb153417ca0fe4e1 |
