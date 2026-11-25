@@ -12,7 +12,7 @@ description: Enes'in X hesabında iyi giden tweete yeni veriyle güncelleme twee
 - Tür GUNCELLEME; kayıtta `--konu` içine önceki Buffer id.
 
 ## B) Haftalık karne (86-g) — Cumartesi 20:25, sabit görev `karne`
-- Kaynak: son 7 günün kural 66 TEST-xxx kayıtları (`python3 invest/isler.py`, DONGU 'TEST-' satırları, enes-sonuc-takibi defteri).
+- Kaynak TEK: `python3 invest/yorumlar.py karne 7` (repodaki yorum defteri; Enes sık sohbet/hesap değiştirdiği için sohbet geçmişine ve görevlere güvenilmez). Önce `python3 invest/yorumlar.py bekleyen`: kontrol tarihi geçmiş ama sonucu yazılmamış yorumu önce sına, `yorumlar.py sonuc` ile yaz.
 - YALNIZ TUTAN yorumlar paylaşılır (Enes 25.11 18:06: "tutmayanları paylaşma sadece tutanlar"). Tutmayan ve kısmen tutanlar tweete, karta, alt metne yazılmaz; yalnız DONGU iç notu. İsabet oranı ya da "X/Y tuttu" yazılmaz.
 - Tutan 2'den azsa karne atılmaz; DONGU'ya "karne: yeterli tutan yok".
 - Metin: "Bu hafta tutan yorumlarım" + en çok 6 satır "GG.AA • konu • ne dedim • ne oldu (rakam)" + tek kapanış cümlesi (gelecek haftanın izlenecek tek eşiği).
