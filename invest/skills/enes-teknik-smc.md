@@ -25,6 +25,12 @@ Enes 25.11.2026 22:11: "kurulumu onaylıyorum ayrıca yeteneklere ekle başka he
 4. Plan: en az 2 senaryo (trend yönünde + karşı trend), her birinde giriş bölgesi, tetik (alt zaman diliminde CHoCH/MSS), stop, 2-3 hedef, kabaca R:R; geçersizlik seviyeleri (günlük kapanış bazında). "Tavsiye değil, senaryo" notu tek satır; pozisyon küçüklüğü/ince piyasa uyarısı gerekiyorsa.
 5. Mobil: 2 ekranı geçme; başlıklar + kısa maddeler.
 
+## DİP / TEPE / TREND DEĞİŞİMİ RADARI (Enes 25.11 22:22: "dip tahmini, trend değişimi, tepeye yakınken çok iyi analiz et, bana çok basit anlat")
+- Enes "dip mi?", "tepe mi?", "dönüyor mu?", "trend değişti mi?" derse ya da herhangi bir teknik analizde İLK `python3 invest/dip_tepe.py <T>` çalıştır.
+- Ne ölçer: 10 dip işareti (RSI ≤32, 200 günlükten 4 ATR uzak, zirveden −%15, Bollinger altı, VIX/VXN ≥30, teslimiyet mumu, 5+ gün düşüş, RSI boğa uyumsuzluğu, gün içi güçlü dönüş, önceki gün tepesi üstü kapanış) ve 10 tepe işareti (aynalanmış); son 5 günde yanan işaret sayılır. Trend değişimi 4 şartla: 20 günlük üstü kapanış, yükselen dip, son tepenin kırılması, 20/50 kesişimi -> YOK / ERKEN / GELİŞİYOR / GÜÇLÜ / ONAYLI.
+- Kalibrasyon: aynı skorun 20 yılda 10/20/60 gün sonraki sonucu + ONAYLI GİRİŞ TESTİ (skor sonrası ilk 20 günlük ortalama üstü kapanışta giriş). NDX 25.11: dip skoru 7/10 tek başına 20 günde %46 yukarı; onaylı girişte %82 (11 olay). Ana ders: DİP SKORU "nerede bakmalı"yı, TREND ONAYI "ne zaman girmeli"yi söyler.
+- ANLATIM (Enes'e, çok basit, 5-6 satır, jargon yok ya da parantezde): 1) Dip mi tepe mi: skor + tek cümle. 2) Trend: hangi aşamada + onay için sıradaki şart ve seviyesi. 3) Geçmiş ne diyor: tek cümle, olay sayısıyla. 4) Ne yapmalı (senaryo, tavsiye değil): "beklenecek seviye", "geçersiz olduğu seviye". 5) Bir benzetme serbest (ör. "satıcılar yoruldu ama alıcılar daha kapıyı açmadı").
+
 ## AMAÇ: ENES'İN ANALİZ KALİTESİ — OTOMATİK TWEET YOK (Enes 25.11 22:20)
 - Bu yeteneğin hiçbir çıktısı (kart, seviye, plan, tarama, alarm) otomatik tweete/Buffer'a GİTMEZ; paylaşım turlarında konu adayı da yapılmaz. Yalnız Enes'e SendUserMessage/SendUserFile. Enes açıkça "bunu tweet at" derse ayrı iş olarak kural 84/86/89 ile ele alınır.
 - Kaliteyi artıran döngü:
