@@ -270,6 +270,10 @@ def main():
         if len(sy) > 5: hata.append(f'kural 86: {len(sy)} farklı rakam; tek fikir, en çok 3 (sınır 5). Fazlasını karta taşı.')
         elif len(sy) > 3: uyari.append(f'kural 86: {len(sy)} farklı rakam; hedef en çok 3, fazlası kartta.')
         if len(paragraflar(t)) > 3: hata.append('kural 86: 3 paragraftan uzun; tek fikir, kısa yaz.')
+    # KURAL 89 (Enes 25.11 18:31): hedge fon yöneticisi üslubu
+    if tur not in MUAF86 and tur not in {'EGITICI'}:
+        if not re.search(r"fiyatl|beklenti|konsens|olasılı|ihtimal|eşi[kğ]|katalizör|risk|asimetri|pozisyonlan|kalabalık|görüşümü değiştir", l):
+            uyari.append('kural 89: fon yöneticisi dili yok — fiyatlanan ne, beklentiden fark, risk/eşik ya da katalizörden en az birini yaz (skill enes-fon-yoneticisi-dili).')
     # 7b) KURAL 62 piyasa jargonu sıklığı
     jg = f['jargon']
     for k, n in jg.items():
