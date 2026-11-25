@@ -16,6 +16,9 @@ import matplotlib; matplotlib.use("Agg"); import matplotlib.pyplot as plt
 import kart3 as K
 from smc_analiz import veri
 
+def kaynak(k):
+    return ', '.join(sorted(set(x.replace('ENES', 'yatay seviye') for x in k['k'])))
+
 def arg(a, k, d=None, t=str): return t(a[a.index(k) + 1]) if k in a else d
 
 def yerlestir(ys, min_ara):
@@ -56,9 +59,9 @@ def main(a):
         i1, i2 = sorted([i1, i2]); m = (l[i2] - l[i1]) / max(1, i2 - i1); xs = np.array([i1, n + 12])
         ax.plot(xs, l[i1] + m * (xs - i1), color=K.GOLD, lw=2); ax.text(i1, l[i1] - 3 * pad, "Yükselen trend çizgisi", color=K.GOLD, fontsize=10.5)
     etiketler = []
-    for k_ in ust: lo_, hi_ = min(k_["v"]), max(k_["v"]); ax.add_patch(plt.Rectangle((n - 35, lo_ - pad / 2), 47, (hi_ - lo_) + pad, color=K.DOWN, alpha=0.16)); etiketler.append((k_["ort"], f"Direnç {k_['ort']:,.0f} • {', '.join(sorted(set(k_['k'])))[:34]}".replace(",", "."), K.DOWN))
-    for k_ in alt: lo_, hi_ = min(k_["v"]), max(k_["v"]); ax.add_patch(plt.Rectangle((n - 35, lo_ - pad / 2), 47, (hi_ - lo_) + pad, color=K.UP, alpha=0.16)); etiketler.append((k_["ort"], f"Destek {k_['ort']:,.0f} • {', '.join(sorted(set(k_['k'])))[:34]}".replace(",", "."), K.UP))
-    for e in enes: ax.axhline(e, color="#5BC0DE", lw=1, alpha=0.8); etiketler.append((e, f"Enes {e:,.1f}".replace(",", "X").replace(".", ",").replace("X", "."), "#5BC0DE"))
+    for k_ in ust: lo_, hi_ = min(k_["v"]), max(k_["v"]); ax.add_patch(plt.Rectangle((n - 35, lo_ - pad / 2), 47, (hi_ - lo_) + pad, color=K.DOWN, alpha=0.16)); etiketler.append((k_["ort"], f"Direnç {k_['ort']:,.0f} • {kaynak(k_)[:34]}".replace(",", "."), K.DOWN))
+    for k_ in alt: lo_, hi_ = min(k_["v"]), max(k_["v"]); ax.add_patch(plt.Rectangle((n - 35, lo_ - pad / 2), 47, (hi_ - lo_) + pad, color=K.UP, alpha=0.16)); etiketler.append((k_["ort"], f"Destek {k_['ort']:,.0f} • {kaynak(k_)[:34]}".replace(",", "."), K.UP))
+    for e in enes: ax.axhline(e, color="#5BC0DE", lw=1, alpha=0.8); etiketler.append((e, f"Seviye {e:,.1f}".replace(",", "X").replace(".", ",").replace("X", "."), "#5BC0DE"))
     if "--fib" in a:
         hi_i, lo_i = int(np.argmax(h)), int(np.argmin(l)); hi, lo = h[hi_i], l[lo_i]
         for f in (0.382, 0.5, 0.618, 0.786):

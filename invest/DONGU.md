@@ -682,3 +682,4 @@ Durdurmak için en alta `DURDUR` yazılı bir satır ekle (Enes ya da Claude, En
 - 23:00 (25.11) ENES-ISTEGI: DOCN teknik analiz görseli (g/20261125_docn_teknik.jpg) + tweet metni Enes'e; ENES ATACAK. dip 7/10, trend 0/4, RSI 31->38 (20.11->25.11), dipler 65,55/65,32, EMA20 83, 4h OTE 83-87, POC 88, AVWAP-dip 70, göreli güç −20,6 (60 g), 6 olay (2021 IPO'dan beri).
 - 23:01 (25.11) TEST-AYRISMA-2511 ara kontrol: NVDA 147,99 > 125,53; AMD 403,41 < 424,39; AVGO 297,02 < 304,41 (Yahoo canlı) -> üçü sağlanıyor; ikinci kaynak + resmi kapanış için 00:10'a TEST-AYRISMA-KAP kuruldu.
 - 23:08 (25.11) AUTO C3 Enes 23:01 'analizleri çizimle yap': invest/cizim.py (trend çizgisi, çakışma bölgeleri, Enes seviyeleri, dip/tepe, Fib, A/B senaryo okları); skill bölümü.
+- 23:10 (25.11) AUTO C3 Enes 23:04: grafik içinde 'Enes' yazmaz (Seviye / yatay seviye), isim yalnız sağ alt imza; cizim.py, teknik_pro.py, teknik_ek.py, skill.

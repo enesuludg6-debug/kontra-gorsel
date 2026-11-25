@@ -37,6 +37,7 @@ Enes 25.11.2026 22:11: "kurulumu onaylıyorum ayrıca yeteneklere ekle başka he
 - Planın onay/bozulma seviyelerini --onay/--bozulma ile metindekiyle AYNI ver; metin ile çizim çelişmez.
 - Enes kendi ekran görüntüsüne çizim isterse: sağdaki fiyat etiketlerinden ölçeği çıkar (iki etiketin piksel y'si ile fiyat arasında doğrusal eşleme), PIL ile aynı öğeleri görüntünün üstüne çiz; ölçek belirsizse Yahoo verisiyle cizim.py kullan ve bunu söyle.
 - Tweet için de bu çizim kullanılabilir (Enes atacaksa); yazılar Türkçe, kart3 renkleri.
+- GÖRSEL İMZA KURALI (Enes 25.11 23:04): grafik/kart İÇİNDE hiçbir yerde "Enes" yazmaz (seviye etiketi "Seviye 26.980", çakışma kaynağı "yatay seviye"); isim yalnız sağ altta "ENES ULUDAĞ" imzası olarak, grafik alanının dışında durur.
 
 ## AMAÇ: ENES'İN ANALİZ KALİTESİ — OTOMATİK TWEET YOK (Enes 25.11 22:20)
 - Bu yeteneğin hiçbir çıktısı (kart, seviye, plan, tarama, alarm) otomatik tweete/Buffer'a GİTMEZ; paylaşım turlarında konu adayı da yapılmaz. Yalnız Enes'e SendUserMessage/SendUserFile. Enes açıkça "bunu tweet at" derse ayrı iş olarak kural 84/86/89 ile ele alınır.

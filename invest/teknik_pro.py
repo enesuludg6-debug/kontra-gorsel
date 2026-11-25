@@ -122,7 +122,7 @@ def main(a):
         ax.axhspan(min(o1, o3), max(o1, o3), color="#E8B44C" if asagi else "#3D8BFF", alpha=0.15); ax.text(1, max(o1, o3), "OTE", color="#E8B44C", fontsize=9)
         if "1h" in D and D["1h"].volume.sum() > 0: cizgi(poc, "POC", "#3D8BFF", ":")
         cizgi(giris, "Giriş", "#F2F4F8", "-."); cizgi(stop, "Stop", "#FF5A5F", "-."); cizgi(hedef[1], "Hedef", "#2BD47D", "-.")
-        for s in seviyeler: cizgi(s, "Enes", "#5BC0DE", "-")
+        for s in seviyeler: cizgi(s, "Seviye", "#5BC0DE", "-")
         ax.set_xticks(x[::12]); ax.set_xticklabels([i.strftime("%d.%m") for i in d.index[::12]], color="#8A94A6")
         ax.tick_params(colors="#8A94A6"); [s_.set_color("#222A36") for s_ in ax.spines.values()]; ax.set_xlim(-1, len(d) + 9)
         ax.set_title(f"{t} 4 saatlik • yön {yon} (MTF {top:+d}) • OTE, POC, plan", color="#F2F4F8", loc="left")

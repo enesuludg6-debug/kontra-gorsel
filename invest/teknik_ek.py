@@ -23,6 +23,9 @@ D0 = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, D0)
 from smc_analiz import veri
 PORTFOY = ["DOCN", "RKLB", "SITM", "AXON", "CBRS", "VRT", "AVGO", "NBIS"]
 
+def kaynak(k):
+    return ', '.join(sorted(set(x.replace('ENES', 'yatay seviye') for x in k['k'])))
+
 def _ta():
     import pandas_ta as ta; return ta
 
@@ -196,8 +199,8 @@ def kart(t, enes, out):
     alt = sorted([k for k in Kl if k["ort"] <= son], key=lambda k: -k["ort"])[:1]
     yon = "GÜÇLÜ AŞAĞI" if top <= -8 else "AŞAĞI" if top <= -3 else "GÜÇLÜ YUKARI" if top >= 8 else "YUKARI" if top >= 3 else "KARARSIZ"
     madde = [(f"{top:+d}", f"çoklu zaman dilimi yönü: {yon}")]
-    for k in ust[:1]: madde.append((f"{k['ort']:,.0f}".replace(",", "."), f"direnç • {', '.join(sorted(set(k['k'])))[:38]}"))
-    for k in alt: madde.append((f"{k['ort']:,.0f}".replace(",", "."), f"destek • {', '.join(sorted(set(k['k'])))[:38]}"))
+    for k in ust[:1]: madde.append((f"{k['ort']:,.0f}".replace(",", "."), f"direnç • {kaynak(k)[:38]}"))
+    for k in alt: madde.append((f"{k['ort']:,.0f}".replace(",", "."), f"destek • {kaynak(k)[:38]}"))
     h4 = veri(t, "4h")
     s1 = [(str(i.date()), v) for i, v in d1.close.tail(120).items()]
     s4 = [(str(i.date()), v) for i, v in h4.close.tail(60).items()]
