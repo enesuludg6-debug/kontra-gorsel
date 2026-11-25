@@ -390,3 +390,99 @@ def esleme_video(kicker, baslik, alt, yollar, sonuc, kaynak, out_mp4, sure=7, fp
                     "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", "-pix_fmt", "yuv420p", "-movflags", "+faststart",
                     os.path.join(D, out_mp4)], check=True)
     shutil.rmtree(tmp); return out_mp4
+
+# ================= v4 'dosya' (25.11 11:50: veri katmanı + sinematik + video + 'çok emek verilmiş' hissi) =================
+import numpy as _np
+MARKA = {"NVDA": "#76B900", "AMD": "#ED1C24", "AVGO": "#CC092F", "DELL": "#0076CE", "MU": "#2E8BC0", "TSM": "#E60012",
+         "RKLB": "#E03C31", "NBIS": "#D9F95E", "VRT": "#E8A33D", "DOCN": "#0080FF", "AXON": "#FFD100", "SITM": "#E31B23",
+         "CBRS": "#F15A29", "ORCL": "#C74634", "MSFT": "#00A4EF", "GOOGL": "#4285F4", "META": "#0866FF", "AMZN": "#FF9900", "PLTR": "#D8D8D8"}
+
+def _zemin(fig, renk):
+    """Sinematik zemin: koyu taban + sağ üstte marka renginde yumuşak ışık + ince doku."""
+    ax = fig.add_axes([0, 0, 1, 1], zorder=-20); ax.axis("off")
+    yy, xx = _np.mgrid[0:1350, 0:1080]
+    d = _np.sqrt(((xx - 900) / 900) ** 2 + ((yy - 120) / 800) ** 2)
+    g = _np.clip(1 - d, 0, 1) ** 2.2 * 0.32
+    base = _np.array(matplotlib.colors.to_rgb(BG)); c = _np.array(matplotlib.colors.to_rgb(renk))
+    img = base[None, None, :] * (1 - g[..., None]) + c[None, None, :] * g[..., None]
+    img += (_np.random.default_rng(7).random((1350, 1080, 1)) - 0.5) * 0.018
+    ax.imshow(_np.clip(img, 0, 1), aspect="auto", extent=[0, 1, 0, 1])
+
+def _parlak(ax, x, y, renk, lw=4.5):
+    for k, a in ((5.0, 0.05), (3.2, 0.08), (2.0, 0.12)):
+        ax.plot(x, y, color=renk, lw=lw * k, alpha=a, solid_capstyle="round", zorder=3)
+    ax.plot(x, y, color=renk, lw=lw, solid_capstyle="round", zorder=4)
+
+def dosya(ticker, kicker, baslik, spot, seri, kiyas, olaylar, sonuc, kaynak, out, kiyas_ad="Nasdaq 100"):
+    """Hisse dosyası: marka ışıklı zemin, parlayan fiyat çizgisi + kıyas, olay şeritleri, alt panelde 'zirveden uzaklık',
+    altta 4 istatistik ve yöntem notu. olaylar: [(tarih, kısa etiket)]. Yerleşim yukarıdan aşağı sırayla hesaplanır."""
+    import textwrap
+    renk = MARKA.get(ticker, ACC)
+    fig = plt.figure(figsize=(W, H), dpi=100, facecolor=BG); _zemin(fig, renk)
+    son = dt.date.fromisoformat(seri[-1][0]); L = 0.0555; R = 0.944
+    fig.text(L, 0.94, kicker.upper(), fontsize=24 * 0.72, color=renk, family=FAM, fontweight="black", va="center")
+    fig.text(R, 0.94, f"DOSYA • {son.day:02d}.{son.month:02d}.{son.year}", fontsize=22 * 0.72, color=MUTED, family=MONO, ha="right", va="center")
+    fig.add_artist(Rectangle((L, 0.922), R - L, 0.0012, transform=fig.transFigure, color=GRID))
+    lg = _logo_png(ticker); lw_ = 0
+    if lg:
+        h = 100; lg = lg.resize((int(lg.width * h / lg.height), h)); lw_ = lg.width
+        fig.figimage(lg, xo=int(1080 * R) - lg.width, yo=int(1350 * 0.905) - h, zorder=10)
+    size = 64; y = 0.905
+    for s_ in textwrap.wrap(baslik, 26 if lg else 30)[:3]:
+        _t(fig, L, y, s_, size, "black", INK, va="top"); y -= 0.056
+    y -= 0.006
+    fig.text(L, y, spot, fontsize=32 * 0.72, color="#C9CED8", family="Instrument Serif", style="italic", va="top"); y -= 0.045
+    # lejant
+    fig.add_artist(Rectangle((L, y - 0.012), 0.03, 0.005, transform=fig.transFigure, color=renk))
+    fig.text(L + 0.038, y - 0.0095, ticker, fontsize=22 * 0.72, color=renk, family=FAM, fontweight="black", va="center")
+    fig.add_artist(Rectangle((L + 0.13, y - 0.012), 0.03, 0.005, transform=fig.transFigure, color="#6B7385"))
+    fig.text(L + 0.168, y - 0.0095, f"{kiyas_ad} (aynı başlangıca ölçekli)", fontsize=22 * 0.72, color="#8A94A6", family=FAM, fontweight="bold", va="center")
+    ust = y - 0.03
+    x = [dt.date.fromisoformat(a) for a, _ in seri]; yv = [b for _, b in seri]
+    kd = dict(kiyas); yk = [kd[a] * yv[0] / kd[seri[0][0]] for a, _ in seri if a in kd]; xk = [dt.date.fromisoformat(a) for a, _ in seri if a in kd]
+    ana_alt = 0.43
+    ax = fig.add_axes([L, ana_alt, 0.78, ust - ana_alt]); ax.set_facecolor("none")
+    for s_ in ax.spines.values(): s_.set_visible(False)
+    ax.tick_params(colors=MUTED, labelsize=22 * 0.72, length=0); ax.grid(axis="y", color=GRID, lw=1)
+    ax.plot(xk, yk, color="#6B7385", lw=2.2, alpha=0.85, zorder=2)
+    ax.fill_between(x, yv, min(yv + yk) * 0.95, color=renk, alpha=0.07, lw=0, zorder=1)
+    _parlak(ax, x, yv, renk)
+    lo = min(yv + yk); hi = max(yv + yk); ax.set_ylim(lo - (hi - lo) * 0.05, hi + (hi - lo) * 0.30)
+    ax.set_xlim(x[0], x[-1]); ax.set_xticks([])
+    ax.yaxis.set_major_formatter(matplotlib.ticker.FuncFormatter(lambda v, _: f"{v:.0f}"))
+    for j, (td, et) in enumerate(olaylar):
+        d0 = dt.date.fromisoformat(td); i = min(range(len(x)), key=lambda k: abs((x[k] - d0).days))
+        ax.axvline(x[i], color=INK, lw=1, alpha=0.35, ls=(0, (2, 3)), zorder=2)
+        ty = hi + (hi - lo) * (0.26 - 0.15 * j)
+        ax.text(x[i], ty, et, ha="right", va="center", fontsize=19 * 0.72, color=BG, family=FAM, fontweight="black",
+                bbox=dict(boxstyle="round,pad=0.35", fc=INK, ec="none"), zorder=6)
+        ax.scatter([x[i]], [yv[i]], s=90, color=INK, edgecolor=BG, lw=2, zorder=7)
+    yl = ax.get_ylim(); fy = ana_alt + (ust - ana_alt) * (yv[-1] - yl[0]) / (yl[1] - yl[0])
+    fig.text(L + 0.79, fy, _sayi(yv[-1]), fontsize=30 * 0.72, color=renk, family=FAM, fontweight="black", va="center")
+    # zirveden uzaklık paneli
+    tepe = []; m = -1
+    for v in yv: m = max(m, v); tepe.append(100 * (v / m - 1))
+    fig.text(L, 0.405, "ZİRVEDEN UZAKLIK", fontsize=19 * 0.72, color=MUTED, family=MONO, va="center")
+    a2 = fig.add_axes([L, 0.31, 0.78, 0.085]); a2.set_facecolor("none")
+    for s_ in a2.spines.values(): s_.set_visible(False)
+    a2.fill_between(x, tepe, 0, color=DOWN, alpha=0.35, lw=0); a2.plot(x, tepe, color=DOWN, lw=1.6)
+    a2.set_xlim(x[0], x[-1]); a2.tick_params(colors=MUTED, labelsize=20 * 0.72, length=0)
+    a2.yaxis.tick_right(); a2.set_yticks([0, round(min(tepe) / 10) * 10]); a2.grid(axis="y", color=GRID, lw=1)
+    a2.yaxis.set_major_formatter(matplotlib.ticker.FuncFormatter(lambda v, _: f"%{v:.0f}".replace("%-", "−%")))
+    a2.xaxis.set_major_locator(mdates.MonthLocator(interval=2)); a2.xaxis.set_major_formatter(matplotlib.ticker.FuncFormatter(lambda v, _: AYLAR[mdates.num2date(v).month]))
+    # 4 istatistik
+    yil = 100 * (yv[-1] / yv[0] - 1); kyil = 100 * (yk[-1] / yk[0] - 1)
+    st4 = [(_yuzde(yil, 0), f"{ticker}, dönem"), (_yuzde(kyil, 0), f"{kiyas_ad}, dönem"), (_yuzde(min(tepe), 0), "en derin düşüş"), (_yuzde(tepe[-1], 0), "bugün zirveden")]
+    for i, (rk, et) in enumerate(st4):
+        x0 = L + i * (R - L) / 4
+        fig.add_artist(FancyBboxPatch((x0 + 0.003, 0.17), (R - L) / 4 - 0.006, 0.08, boxstyle="round,pad=0,rounding_size=0.01",
+                                      transform=fig.transFigure, fc=(1, 1, 1, 0.04), ec=(1, 1, 1, 0.08), lw=1))
+        _t(fig, x0 + 0.02, 0.225, rk, 40, "black", UP if rk.startswith("+") else DOWN, va="center")
+        _t(fig, x0 + 0.02, 0.188, et, 20, "bold", MUTED, va="center")
+    fig.add_artist(Rectangle((L, 0.112), 0.008, 0.042, transform=fig.transFigure, color=renk))
+    _t(fig, L + 0.02, 0.133, sonuc, 34 if len(sonuc) < 42 else 30, "black", INK, va="center")
+    fig.text(L, 0.083, "YÖNTEM  günlük kapanış • zirveden uzaklık: o güne kadarki en yüksek kapanışa göre", fontsize=17 * 0.72, color="#6B7385", family=MONO, va="center")
+    fig.add_artist(Rectangle((L, 0.062), R - L, 0.0012, transform=fig.transFigure, color=GRID))
+    fig.text(L, 0.035, ("KAYNAK  " + kaynak).upper(), fontsize=20 * 0.72, color=MUTED, family=MONO, va="center")
+    _t(fig, R, 0.035, HANDLE, 26, "black", INK, ha="right", va="center")
+    return kaydet(fig, out)
