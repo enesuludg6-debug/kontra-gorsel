@@ -63,6 +63,21 @@ for r_, ad in [
     if re.search(r_, low):
         hata.append("54-F: " + ad)
 
+# Kural 54-G (Enes 26.11 11:50: "'bunu talep sorunu saymam' çok ai gibi, bu ifadeleri kullanma"):
+# hüküm yerine "saymam / olarak görmem / aynı gözle" sınıflandırma kalıpları ve "X değil, Y" karşıtlık hükümleri yasak.
+# Görüş somut söylenir: hangi rakam, hangi seviye, ne olursa ne yaparım (ör. "1,03 milyonun altında kapanırsa satış derinleşir.").
+for r_, ad in [
+    (r"\b\w+ (sorunu|meselesi|krizi|sinyali|problemi|riski|zaafı)\s+(saymam|saymıyorum|sayılmaz|saymak için|olarak görmem|olarak görmüyorum)", "'bunu X sorunu saymam' sınıflandırma kalıbı"),
+    (r"\b(saymam|saymıyorum|saymazdım|sayarım|sayıyorum)\b", "'saymam / sayarım' hüküm kalıbı"),
+    (r"\bolarak (görmem|görmüyorum|görüyorum|görürüm|değerlendiririm|değerlendirmiyorum|okurum)\b", "'X olarak görmem/görüyorum' kalıbı"),
+    (r"aynı gözle|bu gözle|o gözle", "'aynı gözle değerlendiririm' kalıbı"),
+    (r"\b\w+(e|a|ye|ya) değil, \w+(e|a|ye|ya) bağlıyorum|\bbağlıyorum\b", "'X'e değil Y'ye bağlıyorum' kalıbı"),
+    (r"fiyatlanan şey .{0,60}\bdeğil\b", "'fiyatlanan şey X değil, Y' karşıtlık kalıbı"),
+    (r"kırılma noktam|benim eşiğim|benim çizgim", "'kırılma noktam' kişisel çerçeve kalıbı"),
+]:
+    if re.search(r_, low):
+        hata.append("54-G: " + ad)
+
 # Kural 54-E (Enes 24.11 09:10: "'Nakit tarafı da güçlü.' çok yapay zekâ ibaresi gibi duruyor, böyle şeyler kullanmasın"):
 # rakamsız "X tarafı/cephesi (da) güçlü/zayıf/sağlam..." hüküm cümleleri ve rakamsız kısa sıfat-hüküm cümleleri yasak.
 SIFAT = r"(güçlü|zayıf|sağlam|temiz|olumlu|olumsuz|iyi|kötü|parlak|sağlıklı|net|rahat|sorunlu|cılız|kuvvetli|istikrarlı|dengeli|sıkıntılı)"

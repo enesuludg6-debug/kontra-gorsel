@@ -55,3 +55,7 @@ Okur tweeti bitirince şunu düşünmeli: "Bu adam haberi değil, haberin fiyata
 ## 5. Kontrol
 - Yazdıktan sonra sor: (1) fiyatlanan ne yazıldı mı, (2) farkım net mi, (3) fikrimi değiştiren eşik var mı. Üçünden biri eksikse yeniden yaz.
 - `python3 invest/yasak.py` (hype kelimeleri, 'fonumuz/pozisyonumuz', 'akıllı para') ve `python3 invest/kalite.py kontrol` (kural 89 uyarısı: fiyatlama/beklenti/olasılık/eşik dili yoksa).
+## 54-G YASAK KALIPLAR (Enes 26.11 11:50: "'bunu talep sorunu saymam' çok ai gibi, bu ifadeleri kullanma")
+- Yasak: "X sorunu saymam", "saymam / sayarım", "X olarak görmem / görüyorum / değerlendiririm", "aynı gözle / bu gözle değerlendiririm", "X'e değil Y'ye bağlıyorum", "fiyatlanan şey X değil, Y", "kırılma noktam / benim eşiğim".
+- Yerine düz, somut cümle: seviye + ne olursa ne demek. Kötü: "O kapanışın altı gelmedikçe bunu talep sorunu saymam." İyi: "Hynix 1,03 milyon wonun altında kapanırsa satış derinleşir; üstünde kaldıkça bu düşüş bir düzeltme."
+- yasak.py (54-G) yakalar; çıkış 1 ise tweet atılmaz.
