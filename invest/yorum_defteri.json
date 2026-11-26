@@ -64,5 +64,16 @@
   "sonuc": "",
   "ne_oldu": "",
   "sonuc_tarih": ""
+ },
+ {
+  "id": "Y-MDB-0212",
+  "tweet": "26.11 22:24",
+  "buffer": "6b08876b3accdac92cf3b9ab",
+  "yorum": "MDB Atlas 3Ç büyümesi %29'a yakın gelir, yavaşlama korkusu boşa çıkar",
+  "esik": "Atlas yıllık büyüme >=%28 tutar; <%26 tutmaz",
+  "kontrol": "2026-12-02",
+  "sonuc": "",
+  "ne_oldu": "",
+  "sonuc_tarih": ""
  }
 ]
