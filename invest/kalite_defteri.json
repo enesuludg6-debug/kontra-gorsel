@@ -3,20 +3,6 @@
 "jargon": {},
 "tarih": [],
 "terim": [],
-"acilis": "rklb kayıtlardaki en kötü",
-"kapanis": "hisse mayıstaki 151 zirvesinin",
-"rekor": 0,
-"imza": "3p-duz-o-ticker",
-"kalip": "A",
-"tur": "PORTFOY",
-"zaman": "24.11 11:39",
-"gun": "24.11",
-"uzunluk": 738
-},
-{
-"jargon": {},
-"tarih": [],
-"terim": [],
 "acilis": "huang ın dönüşünün ikinci",
 "kapanis": "pazartesi nvidia 31 5",
 "rekor": 0,
@@ -1012,5 +998,25 @@
 "zaman": "26.11 16:57",
 "gun": "26.11",
 "uzunluk": 623
+},
+{
+"jargon": {},
+"tarih": [],
+"terim": [],
+"acilis": "iddia",
+"kapanis": "eskiden sunucular fanla soğutuluyordu",
+"rekor": 0,
+"k89": [
+"fark",
+"asimetri"
+],
+"k89_son": "asimetri",
+"k89_hazir": [],
+"imza": "2p-duz-o-cerceve",
+"kalip": "I",
+"tur": "PORTFOY",
+"zaman": "26.11 17:50",
+"gun": "26.11",
+"uzunluk": 648
 }
 ]

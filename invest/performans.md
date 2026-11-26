@@ -278,3 +278,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 26.11 | 15:40 | DERIN-ANALIZ | [A:iddia] AÇIKLAYICI 1/5: Neocloud iş modeli ve Nebius peşin ödeme | bilanco | 6b0824615b429f9be00a73ae |
 | 26.11 | 16:20 | VERI-KUYRUK | [A:normal] Kuyruk riski: VVIX 115 (%87), SKEW ortalama | cizgi_pro | 6b08306eb56b3bb7f9fd0f73 |
 | 26.11 | 16:57 | DERIN-ANALIZ | [A:iddia] AÇIKLAYICI 2/5: XPU / özel yapay zekâ çipi, AVGO | sutun | 6b083ac080ee2e8b6680cb1f |
+| 26.11 | 17:50 | PORTFOY | [A:normal] AÇIKLAYICI 3/5: sıvı soğutma neden zorunlu, VRT ön ödemeler | dosya | 6b084713a9607f755582e90f |
