@@ -3083,11 +3083,11 @@
    "ne": "tur zinciri",
    "ticker": "",
    "tur": "tek",
-   "durum": "kuruldu",
+   "durum": "yapildi",
    "not": "",
    "trigger": "trig_013ruhaZkd9mcJ51NCdwcwnR",
    "soz": "",
-   "guncelleme": "27.11 00:04"
+   "guncelleme": "27.11 00:41"
   },
   {
    "id": "SABIT-KORKU",
@@ -3101,6 +3101,19 @@
    "trigger": "",
    "soz": "",
    "guncelleme": "26.11 08:43"
+  },
+  {
+   "id": "TUR-2711-1115",
+   "ad": "Otomatik paylaşım turu",
+   "zaman": "2026-11-27T11:15",
+   "ne": "tur zinciri",
+   "ticker": "",
+   "tur": "tek",
+   "durum": "kuruldu",
+   "not": "",
+   "trigger": "trig_01FiJENoC6oYJU9YDS3RS8Gj",
+   "soz": "",
+   "guncelleme": "27.11 00:41"
   },
   {
    "id": "SABIT-fed",
