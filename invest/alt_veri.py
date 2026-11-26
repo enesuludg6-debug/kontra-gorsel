@@ -15,6 +15,8 @@ Kullanım:
   python3 invest/alt_veri.py opsiyon <T> <fiyat> < opsiyon.csv      (başlık: expiration,call_open_interest,put_open_interest,...,put_call_ratio,max_pain)
   python3 invest/alt_veri.py karanlik <T> --offex 44.5 --offex30 46.1 [--kisa 19.8] [--ats_degisim -39.8] [--odunc 0.28]
   python3 invest/alt_veri.py analiz <T>
+  ALPHA VANTAGE (bağlı): put/call JSON -> python3 invest/alt_veri.py pc <T> < av.json ; içeriden işlem JSON -> alt_veri.py iceriden <T> < av.json
+                         her çağrıdan sonra python3 invest/alt_veri.py av 1  (günlük 25 sınırı sayacı)
 """
 import sys, os, io, json, datetime as dt
 import pandas as pd, numpy as np
@@ -74,9 +76,68 @@ def analiz(t):
         if k["odunc"] is not None: print(f"   ödünç ücreti %{k['odunc']:.2f} " + ("(açığa satış pahalı, sıkışma riski)" if k["odunc"] > 5 else "(kolay ödünç, açığa satış ucuz)"))
     else: print("KARANLIK HAVUZ: kayıt yok (WebFetch: chartexchange stats / short-volume, tapeboard)")
 
+# ---------- Alpha Vantage (Enes 26.11 08:26 bağladı; ücretsiz anahtar: günde 25 istek, saniyede 1, SIRAYLA çağır) ----------
+# ÜCRETSİZ çalışanlar: REALTIME_PUT_CALL_RATIO, HISTORICAL_PUT_CALL_RATIO (2008'den), INSIDER_TRANSACTIONS (+ temel/teknik uçlar)
+# ÜCRETLİ (çalışmıyor): REALTIME_OPTIONS, HISTORICAL_OPTIONS (Yunan harfleri), NEWS_SENTIMENT
+SAY = os.path.join(KLAS, "av_sayac.json")
+def av(n=1):
+    S = json.load(open(SAY)) if os.path.exists(SAY) else {}; g = dt.date.today().isoformat(); S[g] = S.get(g, 0) + n
+    json.dump(S, open(SAY, "w")); print(f"Alpha Vantage bugün {S[g]}/25 istek"); return S[g]
+
+def pc_kaydet(t, js):
+    """Alpha Vantage put/call JSON'unu (REALTIME ya da HISTORICAL) stdin'den kaydeder."""
+    J = json.loads(js); tarih = J.get("date") or dt.date.today().isoformat(); D = oku(t); D.setdefault("pc", [])
+    k = {"tarih": tarih, "tam": float(J["put_call_ratio_full_chain"]),
+         "vadeler": {z["date"]: float(z["value"]) for z in J.get("put_call_ratio_by_expiration", [])}}
+    D["pc"] = sorted([z for z in D["pc"] if z["tarih"] != tarih] + [k], key=lambda z: z["tarih"]); yaz(t, D)
+    print(f"put/call kaydedildi {t} {tarih}: {k['tam']} ({len(D['pc'])} kayıt)")
+
+def pc_analiz(t):
+    D = oku(t); P = D.get("pc", [])
+    if not P: print("PUT/CALL: kayıt yok"); return
+    s = pd.Series({z["tarih"]: z["tam"] for z in P}); s.index = pd.to_datetime(s.index); son = s.iloc[-1]
+    print(f"PUT/CALL (Alpha Vantage, işlem hacmi bazlı, tüm zincir) {s.index[-1]:%d.%m.%Y}: {son:.2f} "
+          + ("(≤0,6 iyimser/kalabalık call)" if son <= .6 else "(≥1,0 korku/korunma)" if son >= 1 else "(nötr)"))
+    if len(s) >= 5:
+        z = (son - s.mean()) / (s.std() + 1e-9)
+        print(f"   kendi geçmişine göre ({len(s)} kayıt, ort {s.mean():.2f}): z {z:+.1f} -> " + ("aşırı korku (karşıt okuma: dip yakını olabilir)" if z > 1.5 else "aşırı iyimserlik (karşıt: tepe riski)" if z < -1.5 else "olağan"))
+    if len(s) >= 30:
+        try:
+            from gosterge import veri
+            from veri_kalite import kanit
+            c = veri(t, "20y").close; ileri = (c.shift(-10) / c - 1).reindex(s.index, method="nearest").dropna()
+            esik = s.quantile(.8); g = ileri[s.reindex(ileri.index) >= esik].tolist(); tb = (ileri > 0).mean() * 100
+            r = kanit(g, tb); print(f"   KANIT: put/call en yüksek %20'deyken 10 gün sonra yukarı %{r['oran']:.0f} (taban %{tb:.0f}, {r['n']} olay) -> {r['hukum'].split(' (')[0]}")
+        except Exception as e: print("   kanıt hesaplanamadı:", e)
+    else: print(f"   kanıt için {30 - len(s)} kayıt daha gerekiyor (her gün HISTORICAL_PUT_CALL_RATIO ile geçmiş doldurulur)")
+
+def iceriden(t, js):
+    J = json.loads(js).get("data", []); df = pd.DataFrame(J)
+    if df.empty: print("içeriden işlem yok"); return
+    df["shares"] = df.shares.astype(float); df["share_price"] = df.share_price.astype(float); df["tutar"] = df.shares * df.share_price
+    al = df[df.acquisition_or_disposal == "A"]; sat = df[df.acquisition_or_disposal.isin(["D", "S"])]
+    pazar_al = al[al.share_price > 0]
+    print(f"İÇERİDEN İŞLEM {t} ({df.transaction_date.min()} – {df.transaction_date.max()}): satış {sat.tutar.sum() / 1e6:,.1f} Mn $ ({sat.executive.nunique()} kişi), "
+          f"piyasadan alım {pazar_al.tutar.sum() / 1e6:,.1f} Mn $ ({pazar_al.executive.nunique()} kişi)")
+    for (ad, unvan), g in sat.groupby(["executive", "executive_title"]): print(f"   satış: {ad} ({unvan}) {g.tutar.sum() / 1e6:,.1f} Mn $")
+    print("   not: kurucu/yönetici satışları çoğu zaman planlı (10b5-1) ve vergi amaçlıdır; anlamlı sinyal piyasadan ALIM ve birden çok yöneticinin aynı anda alımıdır.")
+
+def doldur_plan(n=10, liste=("QQQ", "AVGO", "NVDA", "VRT", "RKLB")):
+    """Geçmiş put/call doldurma planı: her hisse için kayıtlı en eski tarihten geriye, haftanın son işlem günü (Cuma)."""
+    plan = []; per = max(1, n // len(liste))
+    for t in liste:
+        P = oku(t).get("pc", []); en = pd.Timestamp(min([z["tarih"] for z in P])) if P else pd.Timestamp(dt.date.today())
+        g = en - pd.Timedelta(days=(en.weekday() - 4) % 7 or 7)
+        for _ in range(per): plan.append((t, g.strftime("%Y-%m-%d"))); g -= pd.Timedelta(days=7)
+    for t, g in plan[:n]: print(f"HISTORICAL_PUT_CALL_RATIO symbol={t} date={g}")
+
 if __name__ == "__main__":
     a = sys.argv[1:]
     if not a: print(__doc__); sys.exit()
     if a[0] == "opsiyon": opsiyon(a[1], float(a[2]), sys.stdin.read())
     elif a[0] == "karanlik": karanlik(a[1], a)
-    elif a[0] == "analiz": analiz(a[1])
+    elif a[0] == "analiz": analiz(a[1]); pc_analiz(a[1])
+    elif a[0] == "pc": pc_kaydet(a[1], sys.stdin.read())
+    elif a[0] == "iceriden": iceriden(a[1], sys.stdin.read())
+    elif a[0] == "plan": doldur_plan(int(a[1]) if len(a) > 1 else 10)
+    elif a[0] == "av": av(int(a[1]) if len(a) > 1 else 1)
