@@ -1,10 +1,5 @@
 [
 {
-"acilis": "kasım başından beri",
-"kaliplar": [],
-"metin": "Kasım başından beri önce sert bir çöküş geldi, ardından iki güçlü tepki günü, sonra yine satış. Bu sürede bilanço açıklayan Nvidia ve Keysight güçlü rakamlar ve"
-},
-{
 "acilis": "bence bu alphabet",
 "kaliplar": [],
 "metin": "Bence bu Alphabet için bir zayıflık değil, yapay zekâ talebinin hâlâ ne kadar güçlü olduğunun kanıtı. Dünyanın en kârlı şirketlerinden biri nakit akışını eksiye"
@@ -306,5 +301,12 @@
 "acilis": "önceki hafta 30",
 "kaliplar": [],
 "metin": "Önceki hafta 30'du, bugün 17. Kendi taramamda piyasa genişliği bu kadar kötü değil; Nasdaq hisselerinin yalnız %1'i yıllık dibine yakın. Duygu fiyattan hızlı bo"
+},
+{
+"acilis": "yön bence doğru",
+"kaliplar": [
+"\\bçünkü\\b"
+],
+"metin": "Yön bence doğru, çünkü yapay zekâda darboğaz belleğe kayıyor; bu yüzden ortada sipariş değil test olsa da hareket boş değil. Asıl ikinci etki SanDisk ve Micron'"
 }
 ]

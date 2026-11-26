@@ -2,20 +2,6 @@
 {
 "jargon": {},
 "tarih": [],
-"terim": [],
-"acilis": "korku endeksi vix cuma",
-"kapanis": "vix in tek günde",
-"rekor": 0,
-"imza": "4p-satir-o-rakam",
-"kalip": "E+C",
-"tur": "BAGLAM-GORUS",
-"zaman": "23.11 22:17",
-"gun": "23.11",
-"uzunluk": 660
-},
-{
-"jargon": {},
-"tarih": [],
 "terim": [
 "brüt marj"
 ],
@@ -941,5 +927,24 @@
 "zaman": "26.11 08:43",
 "gun": "26.11",
 "uzunluk": 299
+},
+{
+"jargon": {},
+"tarih": [],
+"terim": [],
+"acilis": "iddia",
+"kapanis": "yön bence doğru çünkü",
+"rekor": 0,
+"k89": [
+"fark"
+],
+"k89_son": "",
+"k89_hazir": [],
+"imza": "3p-duz-o-rakam",
+"kalip": "A",
+"tur": "HABER",
+"zaman": "26.11 11:19",
+"gun": "26.11",
+"uzunluk": 558
 }
 ]
