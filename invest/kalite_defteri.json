@@ -2,23 +2,6 @@
 {
 "jargon": {},
 "tarih": [],
-"terim": [
-"brüt marj",
-"faaliyet marjı"
-],
-"acilis": "dünkü notta hpe için",
-"kapanis": "hisse sonuçtan önce pazartesi",
-"rekor": 0,
-"imza": "5p-duz-u-rakam",
-"kalip": "G",
-"tur": "BILANCO-ANALIZ",
-"zaman": "24.11 11:17",
-"gun": "24.11",
-"uzunluk": 866
-},
-{
-"jargon": {},
-"tarih": [],
 "terim": [],
 "acilis": "rklb kayıtlardaki en kötü",
 "kapanis": "hisse mayıstaki 151 zirvesinin",
@@ -1006,5 +989,28 @@
 "zaman": "26.11 16:13",
 "gun": "26.11",
 "uzunluk": 455
+},
+{
+"jargon": {
+"katalizör": 1
+},
+"tarih": [],
+"terim": [
+"faaliyet marjı"
+],
+"acilis": "iddia",
+"kapanis": "avgo bu çeyrek yapay",
+"rekor": 0,
+"k89": [
+"katalizor"
+],
+"k89_son": "",
+"k89_hazir": [],
+"imza": "3p-duz-o-cerceve",
+"kalip": "E",
+"tur": "DERIN-ANALIZ",
+"zaman": "26.11 16:57",
+"gun": "26.11",
+"uzunluk": 623
 }
 ]
