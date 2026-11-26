@@ -2,20 +2,6 @@
 {
 "jargon": {},
 "tarih": [],
-"terim": [],
-"acilis": "pazartesi 6 9 yükselen",
-"kapanis": "yarın 16 30 daki",
-"rekor": 0,
-"imza": "3p-duz-o-rakam",
-"kalip": "C",
-"tur": "SONDAKIKA",
-"zaman": "24.11 14:36",
-"gun": "24.11",
-"uzunluk": 531
-},
-{
-"jargon": {},
-"tarih": [],
 "terim": [
 "brüt marj"
 ],
@@ -1050,5 +1036,26 @@
 "zaman": "26.11 23:13",
 "gun": "26.11",
 "uzunluk": 441
+},
+{
+"jargon": {},
+"tarih": [
+"2024"
+],
+"terim": [],
+"acilis": "iddia",
+"kapanis": "japonya merkez bankası nın",
+"rekor": 0,
+"k89": [
+"fiyatlanan"
+],
+"k89_son": "",
+"k89_hazir": [],
+"imza": "2p-duz-o-cerceve",
+"kalip": "E",
+"tur": "HABER",
+"zaman": "27.11 00:04",
+"gun": "26.11",
+"uzunluk": 470
 }
 ]
