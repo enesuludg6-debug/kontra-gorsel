@@ -22,6 +22,8 @@ G = {
  "perfogren":   ("Sabit: performans öğrenme 10:15", "gunluk", "10:15", None),  # kural 57
  "ayinozeti":   ("Sabit: ayın özeti + mevsimsellik 10:55", "ay_ilk7", "10:55", None),
  "korku":       ("Sabit: korku-açgözlülük endeksi 10:40", "seans_ertesi", "10:40", None),  # kural 90 (Enes 26.11 08:40)
+ "aaii":        ("Sabit: AAII anketi yeni hafta Per 18:40", "haftalik", "18:40", 3),  # kural 91 (Enes 26.11 08:45)
+ "aaii2":       ("Sabit: AAII anketi perspektif Sal 12:40", "haftalik", "12:40", 1),  # kural 91
  "13f":         ("Sabit: 13F serisi başlangıcı 09:05", "yillik", "09:05", [(2, 15), (5, 16), (8, 15), (11, 15)]),
 }
 def sonraki(k, simdi=None):
