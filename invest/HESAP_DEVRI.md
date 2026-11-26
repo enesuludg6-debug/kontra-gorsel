@@ -2,6 +2,7 @@
 - Aynı Claude hesabı, yeni sohbet; etiket **C3**. Aşağıdaki "SOHBET DEVRİ" bölümünü 1-6 uygula, kilit `AKTIF: C3`. "HESAP=C2" ile başlayan eski görevler kilit yüzünden kendini kapatır (çift tweet olmaz).
 
 ## KALICI ONAYLAR (her hesap/sohbet)
+- 26.11.2026 08:33 Bigdata.com bağlandı (Enes'in hesabı, 1000 kredi = 10 $): günlük ~30 kredi üst sınırı; sabah görevi ve teknik analizde haber/duygu/açığa satış için kullan (skill enes-teknik-smc BIGDATA bölümü).
 
 - 26.11.2026 08:30 Enes: "başka yararı olacak şeylere de bağlanayım, sen bağlan, ONAY VERİYORUM". Bağlayıcılar yalnız Enes'in kendi tıklamasıyla bağlanır (Claude bağlayamaz); bağlı olan veri bağlayıcıları (Alpha Vantage, Financial Datasets, Bigdata.com, Morningstar, MT Newswires, Daloopa) sormadan okuma amaçlı kullanılabilir. Interactive Brokers bağlanırsa: okuma serbest, GERÇEK EMİR her emir için Enes'in ayrı açık onayı olmadan ASLA.
 - Enes 25.11.2026 22:11: `pip install --break-system-packages -q smartmoneyconcepts pandas_ta` onaylı ('başka hesapta da onayladığımı bilsin'); teknik/SMC analizi `invest/smc_analiz.py`, skill enes-teknik-smc. TEXT TO QUANT bağlı (yalnız kripto planı).

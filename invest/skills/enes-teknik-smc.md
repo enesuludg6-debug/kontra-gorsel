@@ -130,3 +130,13 @@ Shell yalnız Yahoo'ya çıkar (diğer siteler 403); bu yüzden: Yahoo'dan alın
 - Akış: put/call JSON → `alt_veri.py pc <T>` (stdin; JSON'da "date" yoksa bugünün tarihi yazılır, gerçek tarihi ekle) ; içeriden işlem JSON → `alt_veri.py iceriden <T>` ; `alt_veri.py analiz <T>` = opsiyon OI/max pain (chartexchange) + karanlık havuz + put/call geçmişi (z skoru, 30+ kayıtta 10 gün sonrası kanıtı). Geçmiş doldurma planı: `alt_veri.py plan 10`.
 - Put/call iki türü karıştırma: chartexchange = AÇIK POZİSYON (OI) oranı; Alpha Vantage = İŞLEM HACMİ oranı. Raporda hangisi olduğunu yaz.
 - Anlık fiyat için Yahoo 1 dk (canli.py) yeterli; Alpha Vantage GLOBAL_QUOTE'u bütçe yemesin diye yalnız Yahoo'nun boş kaldığı durumda kullan.
+
+## BIGDATA.COM (Enes 26.11 08:33 bağladı) — kredili (1000 kredi = 10 $)
+- Maliyet: `bigdata_search` ~7 kredi, tablo araçları (portfolio/history tearsheet) ~3, `find_securities` ~0. Günlük üst sınır ~30 kredi; bakiyeyi `bigdata_help` ile gör. Gereksiz arama yapma, `max_chunks` 6-8 yeter.
+- Portföy ID'leri `invest/alt_veri/bigdata_id.json` (AVGO 09DE1F, DOCN 5B1011, RKLB 8BBCDA, SITM 96A2D3, AXON D2AC74, CBRS BD0A16, VRT 96D34D, NBIS B45FD2). Yeni hisse için `find_securities` (ücretsiz) ve dosyaya ekle.
+- Ne için kullan:
+  1. `bigdata_portfolio_tearsheet` (tek çağrı, 8 hisse): seans öncesi/sonrası fiyat ve alış-satış, haber duygu skoru (−1..+1, yön oku), analist hedefi (düşük/medyan/yüksek), son EPS sürprizi. Hedefler eski kalmış olabilir; fiyata göre %100+ uzak hedefi "güncellenmemiş" say.
+  2. `bigdata_history_tearsheet`: ORTEX günlük açığa satış tahmini (serbest dolaşıma oran, kapatma günü, ödünç ücreti), en çok 5 hisse/çağrı → CSV'yi `python3 invest/alt_veri.py si` ile kaydet; `alt_veri.py analiz <T>` "açığa satış 4 haftada ve fiyat" okumasını verir (düşüşe ekleme = baskı + sıkışma yakıtı; düşüşte azalma = satıcı yorgunluğu). Bu, karanlık havuz verisinden daha doğrudan bir konumlanma ölçüsüdür.
+  3. `bigdata_search` (smart): "neden hareket etti" haberleri, bilanço görüşmesi metinleri, SEC belgeleri, analist notları; kaynak + tarih + bağlantıyla alıntıla. Teknik analizde "haber/katalizör" satırı için.
+  4. `bigdata_events_calendar`: bilanço ve makro takvim (teknik plandaki takvim riski kontrolü).
+- Bilgi Enes'e gidiyorsa kaynak adını "Bigdata.com" yaz. Tweet'e girecekse kural 23 (iki kaynak) geçerli.

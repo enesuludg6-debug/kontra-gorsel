@@ -131,12 +131,41 @@ def doldur_plan(n=10, liste=("QQQ", "AVGO", "NVDA", "VRT", "RKLB")):
         for _ in range(per): plan.append((t, g.strftime("%Y-%m-%d"))); g -= pd.Timedelta(days=7)
     for t, g in plan[:n]: print(f"HISTORICAL_PUT_CALL_RATIO symbol={t} date={g}")
 
+# ---------- Bigdata.com (Enes 26.11 08:33 bağladı; 1000 kredi = 10 $; arama ~7, tablo ~3 kredi) ----------
+BD = os.path.join(KLAS, "bigdata_id.json")
+def bd_id(t):
+    M = json.load(open(BD)) if os.path.exists(BD) else {}; return M.get(t.upper())
+
+def si_kaydet(csv_metin):
+    """bigdata_history_tearsheet CSV'si (ORTEX açığa satış: shares_short, percent_of_free_float, days_to_cover, cost_to_borrow)."""
+    df = pd.read_csv(io.StringIO(csv_metin)); M = {v: k for k, v in (json.load(open(BD)) if os.path.exists(BD) else {}).items()}
+    for rid, g in df.groupby("rp_entity_id"):
+        t = M.get(rid, rid); D = oku(t); eski = {z["tarih"]: z for z in D.get("si", [])}
+        for _, r in g.iterrows():
+            if pd.notna(r.get("percent_of_free_float")):
+                eski[r.date] = {"tarih": r.date, "fiyat": r.close, "kisa_yuzde": r.percent_of_free_float, "gun": r.get("days_to_cover"), "odunc": r.get("cost_to_borrow")}
+        D["si"] = sorted(eski.values(), key=lambda z: z["tarih"]); yaz(t, D); print(f"açığa satış kaydedildi {t}: {len(D['si'])} hafta")
+
+def si_analiz(t):
+    S = oku(t).get("si", [])
+    if len(S) < 2: print("AÇIĞA SATIŞ (ORTEX): kayıt yok — bigdata_history_tearsheet metrics=[close, short_interest, days_to_cover, cost_to_borrow] frequency=weekly"); return
+    d = pd.DataFrame(S); son = d.iloc[-1]; d4 = d.iloc[max(0, len(d) - 5)]; d12 = d.iloc[0]
+    fk4 = son.kisa_yuzde - d4.kisa_yuzde; fy4 = (son.fiyat / d4.fiyat - 1) * 100
+    print(f"AÇIĞA SATIŞ (ORTEX, {son.tarih}): serbest dolaşımın %{son.kisa_yuzde:.2f}'i açıkta, kapatma {son.gun:.1f} gün, ödünç %{son.odunc:.2f}")
+    print(f"   4 haftada {fk4:+.2f} puan (fiyat {fy4:+.1f}%), {len(d)} haftada {son.kisa_yuzde - d12.kisa_yuzde:+.2f} puan")
+    if fk4 > 0.5 and fy4 < 0: yorum = "açığa satanlar düşüşe EKLİYOR (baskı sürüyor; sert dönüşte kısa sıkışması yakıtı da birikir)"
+    elif fk4 < -0.5 and fy4 > 0: yorum = "açığa satanlar KAPATIYOR (yükselişin bir kısmı kısa kapatma olabilir)"
+    elif fk4 < -0.5 and fy4 < 0: yorum = "düşüşe rağmen açığa satış azalıyor (satıcı yorgunluğu işareti)"
+    else: yorum = "belirgin değişim yok"
+    print(f"   okuma: {yorum}" + ("; kısa sıkışması potansiyeli YÜKSEK (>%10 ve >5 gün)" if son.kisa_yuzde > 10 and son.gun > 5 else ""))
+
 if __name__ == "__main__":
     a = sys.argv[1:]
     if not a: print(__doc__); sys.exit()
     if a[0] == "opsiyon": opsiyon(a[1], float(a[2]), sys.stdin.read())
     elif a[0] == "karanlik": karanlik(a[1], a)
-    elif a[0] == "analiz": analiz(a[1]); pc_analiz(a[1])
+    elif a[0] == "analiz": analiz(a[1]); pc_analiz(a[1]); si_analiz(a[1])
+    elif a[0] == "si": si_kaydet(sys.stdin.read())
     elif a[0] == "pc": pc_kaydet(a[1], sys.stdin.read())
     elif a[0] == "iceriden": iceriden(a[1], sys.stdin.read())
     elif a[0] == "plan": doldur_plan(int(a[1]) if len(a) > 1 else 10)
