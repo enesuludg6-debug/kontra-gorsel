@@ -2,22 +2,6 @@
 {
 "jargon": {},
 "tarih": [],
-"terim": [
-"serbest nakit akışı"
-],
-"acilis": "docn un yıllık gelir",
-"kapanis": "yapay zekâ payı bu",
-"rekor": 0,
-"imza": "3p-duz-o-rakam",
-"kalip": "H",
-"tur": "PORTFOY",
-"zaman": "23.11 23:36",
-"gun": "23.11",
-"uzunluk": 632
-},
-{
-"jargon": {},
-"tarih": [],
 "terim": [],
 "acilis": "s p 500 bugün",
 "kapanis": "s p 500 bugün",
@@ -984,5 +968,27 @@
 "zaman": "26.11 14:27",
 "gun": "26.11",
 "uzunluk": 563
+},
+{
+"jargon": {},
+"tarih": [],
+"terim": [
+"sipariş defteri"
+],
+"acilis": "iddia",
+"kapanis": "rklb neutron a daha",
+"rekor": 0,
+"k89": [
+"fark",
+"asimetri"
+],
+"k89_son": "asimetri",
+"k89_hazir": [],
+"imza": "2p-duz-o-cerceve",
+"kalip": "L",
+"tur": "PORTFOY",
+"zaman": "26.11 14:56",
+"gun": "26.11",
+"uzunluk": 669
 }
 ]
