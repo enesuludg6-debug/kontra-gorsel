@@ -2,7 +2,7 @@
 Son güncelleme: 26.11.2026 11:19 TSİ (C2). Turlar şunu okur: tur_basi.sh çıktısı (KURAL_DIZINI.md + bu dosya + DONGU son 30 + dersler + defter). Kuralların tam metni KURALLAR_TAM.md ve skills/*.md: yalnız gerektiğinde grep ile.
 
 ## Hesap
-- AKTIF: C3 (25.11 08:40 sohbet devri; görev mesajları HESAP=C3; tur_basi.sh C3). Chrome bağlı değil (fikir taramasının Chrome adımı atlanır).
+- AKTIF: D (26.11 11:27 hesap devri C3 → D; görev mesajları HESAP=D; tur_basi.sh D). Bigdata.com bu hesapta bağlı değil. Chrome bağlı değil (fikir taramasının Chrome adımı atlanır).
 
 ## İÇERİK AYARI (kural 57; perfogren görevi günceller — son: 25.11 10:18, veri 7 gün, 221 olgun tweet, medyan 343)
 - BILANCO DAGILIM (kural 67/70, 24.11): toplam en fazla 6 — BEKLENTI 1 (+opsiyon cümlesi, + kural 71 belirleyici kalem), RAKAM 1, ANALIZ 1 (kural 66 testiyle açılır), DETAY en çok 2, CAGRI/HAREKET 1. bilanco_perf.py 30 gün: BEKLENTI 0,99 ANALIZ 0,99 HAREKET 0,92 CAGRI 0,90 RAKAM 0,86 DETAY 0,80 (en zayıf) -> sonraki bilançolarda DETAY 1, ANALIZ 2 (25.11 perfogren teyit: DETAY 0,80 n=19 en zayıf; BEKLENTI/ANALIZ ~0,98-0,99 eşit, fazladan hak ANALIZ'de kalır).

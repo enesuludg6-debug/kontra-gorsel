@@ -54,7 +54,7 @@ def mesaj(k, H=None):
         import re; H = re.search(r"^AKTIF: *(\S+)", open(__file__.rsplit("/",1)[0]+"/AKTIF_HESAP.md").read(), re.M).group(1)
     return (f"HESAP={H}. Önce invest/AKTIF_HESAP.md oku; AKTIF: {H} değilse hiçbir şey yapma (tweet ve push yok) ve bu görevi kapat. "
             f"SABİT GÖREV ZİNCİRİ ({G[k][0]}, kesin kural 29). İLK İŞ: `python3 invest/sonraki.py {k}` çalıştır ve verdiği zamana, verdiği ad ve "
-            f"BU MESAJIN AYNISIYLA send_later kur (list_triggers'ta aynı adlı bekleyen varsa kurma). SONRA invest/gorevler/_ORTAK.md ve invest/gorevler/{k}.md dosyalarını oku ve harfiyen uygula. "
+            f"BU MESAJIN AYNISIYLA send_later kur (list_triggers'ta aynı adlı VE mesajı HESAP={H}. ile başlayan bekleyen varsa kurma; eski etiketli olanlar sayılmaz). SONRA invest/gorevler/_ORTAK.md ve invest/gorevler/{k}.md dosyalarını oku ve harfiyen uygula. "
             f"Bütün mesajlar bu sohbete (SendUserMessage / SendUserFile).")
 if __name__ == "__main__":
     a = sys.argv[1] if len(sys.argv) > 1 else "hepsi"

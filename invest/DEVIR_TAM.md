@@ -1,3 +1,5 @@
+# D AKTİF (26.11.2026 11:41) — hesap devri C3 → D tamamlandı; görevler HESAP=D.
+
 C AKTİF (23.11 20:05) — hesap devri tamam; görev ID listesi DONGU 23.11 20:05 satırında.
 
 

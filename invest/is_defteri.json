@@ -2804,6 +2804,19 @@
    "guncelleme": "26.11 11:16"
   },
   {
+   "id": "TUR-2611-1135",
+   "ad": "Otomatik paylaşım turu",
+   "zaman": "2026-11-26T11:35",
+   "ne": "tur zinciri",
+   "ticker": "",
+   "tur": "tek",
+   "durum": "kuruldu",
+   "not": "",
+   "trigger": "trig_01AbGoxrUwPTN2bMSG9uKHK8",
+   "soz": "",
+   "guncelleme": "26.11 11:25"
+  },
+  {
    "id": "TUR-2611-1155",
    "ad": "Otomatik paylaşım turu",
    "zaman": "2026-11-26T11:55",
@@ -2916,9 +2929,9 @@
    "tur": "sonuctakip",
    "durum": "kuruldu",
    "not": "",
-   "trigger": "trig_01HfGajivj3VbbcvSxzBEx9p",
+   "trigger": "trig_01BiMWJSSysJVLSqATmd8Wer",
    "soz": "",
-   "guncelleme": "25.11 20:58",
+   "guncelleme": "26.11 11:41",
    "mesaj": "HESAP=C3. Önce invest/AKTIF_HESAP.md oku; AKTIF: C3 değilse hiçbir şey yapma ve bu görevi kapat. git pull. TEST-NDX-AYI (kural 66, skill enes-sonuc-takibi): 25.11 20:57 tweeti (Buffer 6b07218d52de4830633e1512) 'Nasdaq 100 ayı çizgisine (zirve 31.224'ün −%20'si = 24.980) dokunup döndü; bence satış bitmedi, eşik savunuldu; çizgi kapanış bazında kırılırsa ayı piyasası' dedi. 27.11 Cuma yarım gün kapanışında ^NDX'i Yahoo günlük kapanıştan + 2. kaynaktan al. 24.980 üstünde kaldıysa 'eşik savunuldu' kısmı tuttu (sonuç tweeti, kural 86 kısa, fon yöneticisi üslubu); altında kapandıysa tweet atma, yalnız DONGU iç notu. `python3 invest/yorumlar.py sonuc TEST-NDX-AYI tuttu|tutmadi \"<kapanış>\"`, `python3 invest/isler.py durum TEST-NDX-AYI yapildi`. Hafta sonu sayacı (en çok 10) içinde. Mesajlar bu sohbete (SendUserMessage / SendUserFile)."
   },
   {
@@ -3086,9 +3099,9 @@
    "tur": "test",
    "durum": "kuruldu",
    "not": "",
-   "trigger": "trig_017SwQuS4bFBDogT9V5q1x2t",
+   "trigger": "trig_01Mz26ahLXGrMwocFDk2Bqyq",
    "soz": "",
-   "guncelleme": "25.11 08:43",
+   "guncelleme": "26.11 11:41",
    "mesaj": "HESAP=C3. Önce invest/AKTIF_HESAP.md oku; AKTIF: C3 değilse hiçbir şey yapma (tweet ve push yok) ve bu görevi kapat. git pull, DURDUR kontrolü. İŞ TEST-SNOW-0312 (Sonuç takibi: SNOW RPO). KURAL 66: 24.11 21:53 SNOW önizleme (Buffer 6b05dd3720f9e770f087da78) — eşik: RPO yıllık büyümesi %30 altına indi mi; ürün geliri 1,588-1,593 Mr $ rehberi. SNOW 3. çeyrek bülteni (2 Aralık kapanış sonrası) rakamlarıyla sına; kural 67 SNOW bilanço sayacını DONGU'dan say (bu tweet ANALIZ hakkı sayılır); kural 23: tutmayan tahmin anılmaz. Sonucu `python3 invest/yorumlar.py sonuc TEST-SNOW-0312 ...` ile yaz. invest/gorevler/_ORTAK.md + skill enes-sonuc-takibi, enes-bilanco-13f, enes-analiz-kalitesi, enes-uzman-dil (yoksa invest/skills/*.md) oku. Bitince `python3 invest/isler.py durum TEST-SNOW-0312 yapildi`. Bütün mesajlar bu sohbete (SendUserMessage / SendUserFile)."
   },
   {
@@ -3100,9 +3113,9 @@
    "tur": "tek",
    "durum": "kuruldu",
    "not": "",
-   "trigger": "trig_01Xi6uaX1vmsuNAo5tJPkLyC",
+   "trigger": "trig_01RDpia13MFtx11QMNAMxmih",
    "soz": "",
-   "guncelleme": "25.11 18:22",
+   "guncelleme": "26.11 11:41",
    "mesaj": "HESAP=C3. Önce invest/AKTIF_HESAP.md oku; AKTIF: C3 değilse hiçbir şey yapma ve bu görevi kapat. git pull. TEST-CRWV-TAHVIL (kural 66, skill enes-sonuc-takibi): 25.11 18:22 tweeti (Buffer 6b06fd325fe597980b65b3cf) 'CoreWeave tahvil getirisi %16 altına inerse hissedeki toparlanmaya daha çok güvenirim' dedi (CRWV 25.11 ~38,25 $). Bugün CoreWeave 2031/2032 tahvil getirisini 2 kaynaktan (FINRA TRACE aktaran haber, CNBC, Bloomberg) ve CRWV fiyatını Yahoo'dan al. Getiri %16 altındaysa ve CRWV 38,25 üstündeyse yorum TUTTU -> sonuç tweeti (kural 66, kural 86 kısa). Değilse tweet atma, yalnız DONGU'ya iç not (karnede tutmayan paylaşılmaz). Sonucu `python3 invest/yorumlar.py sonuc TEST-CRWV-TAHVIL tuttu|tutmadi \"<rakam>\"` ile yaz. Bitince `python3 invest/isler.py durum TEST-CRWV-TAHVIL yapildi`. Bütün mesajlar bu sohbete (SendUserMessage / SendUserFile)."
   }
  ]
