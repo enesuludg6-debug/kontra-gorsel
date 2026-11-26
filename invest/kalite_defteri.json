@@ -2,20 +2,6 @@
 {
 "jargon": {},
 "tarih": [],
-"terim": [],
-"acilis": "bernstein nvda notunu 12",
-"kapanis": "270 ın 20 katla",
-"rekor": 0,
-"imza": "3p-satir-o-rakam",
-"kalip": "K",
-"tur": "BAGLAM-GORUS",
-"zaman": "24.11 13:31",
-"gun": "24.11",
-"uzunluk": 583
-},
-{
-"jargon": {},
-"tarih": [],
 "terim": [
 "serbest nakit akışı"
 ],
@@ -1039,5 +1025,25 @@
 "zaman": "26.11 21:47",
 "gun": "26.11",
 "uzunluk": 533
+},
+{
+"jargon": {},
+"tarih": [],
+"terim": [],
+"acilis": "iddia",
+"kapanis": "1 aralık akşamı atlas",
+"rekor": 0,
+"k89": [
+"katalizor",
+"esik"
+],
+"k89_son": "esik",
+"k89_hazir": [],
+"imza": "3p-duz-k-cerceve",
+"kalip": "C",
+"tur": "HABER",
+"zaman": "26.11 22:24",
+"gun": "26.11",
+"uzunluk": 419
 }
 ]
