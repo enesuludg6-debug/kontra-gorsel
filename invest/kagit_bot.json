@@ -1,0 +1,21 @@
+{
+ "nakit": 100000.0,
+ "acik": [],
+ "bekleyen": [
+  {
+   "t": "MSTR",
+   "strateji": "derin_dip",
+   "sinyal_tarih": "2026-11-25",
+   "atr": 9.022094975852458,
+   "tutar": 20000.0
+  }
+ ],
+ "kapanan": [],
+ "son_mum": "2026-11-25",
+ "egri": [
+  {
+   "tarih": "2026-11-25",
+   "ozsermaye": 100000.0
+  }
+ ]
+}

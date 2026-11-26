@@ -11,3 +11,4 @@
 - (Enes 25.11 18:26) `python3 invest/yorumlar.py bekleyen` ve `python3 invest/isler.py devir | grep 'TAM MESAJ YOK\|GECIKMIS'`: kontrol tarihi gelmiş yorum varsa görevi bu sohbette yoksa bugünkü ilk turda sına (skill enes-sonuc-takibi); eksik görev varsa `isler.py mesaj <ID> <ETİKET>` ile kur.
 - (Enes 25.11 22:20) `python3 invest/teknik_ek.py gunluk kontrol`: Enes analiz günlüğünde HEDEF/STOP olanları ve isabet karnesini Enes'e kısa bildir (tweet yok).
 - (Enes 26.11 07:56) `python3 invest/tarama.py izle`: 13 hazır taramayı 122 hisselik evrende çalıştır, dinamik izleme listesini güncelle; yeni girenleri (kalite ≥60) ve 30 günü dolan tarama karnesini Enes'e en çok 6 satırla bildir (tweet yok). Borsa kapalı günlerde (hafta sonu, tatil) atla.
+- (Enes 26.11 08:21) `python3 invest/kagit_bot.py calis`: sanal işlem botu (gerçek emir YOK); yeni sinyal/alış/satış varsa Enes'e en çok 4 satır bildir (tweet yok). Yeni mum yoksa kendisi atlar.

@@ -1,0 +1,154 @@
+{
+ "opsiyon": [
+  {
+   "tarih": "2026-11-26",
+   "fiyat": 300.86,
+   "toplam_call": 1173233,
+   "toplam_put": 1226168,
+   "vadeler": [
+    {
+     "expiration": "2026-11-27",
+     "call_open_interest": 57999,
+     "put_open_interest": 40155,
+     "max_pain": 317.5
+    },
+    {
+     "expiration": "2026-11-30",
+     "call_open_interest": 6326,
+     "put_open_interest": 4187,
+     "max_pain": 325.0
+    },
+    {
+     "expiration": "2026-12-02",
+     "call_open_interest": 3337,
+     "put_open_interest": 1129,
+     "max_pain": 320.0
+    },
+    {
+     "expiration": "2026-12-04",
+     "call_open_interest": 40366,
+     "put_open_interest": 33892,
+     "max_pain": 320.0
+    },
+    {
+     "expiration": "2026-12-07",
+     "call_open_interest": 2819,
+     "put_open_interest": 1430,
+     "max_pain": 302.5
+    },
+    {
+     "expiration": "2026-12-11",
+     "call_open_interest": 26798,
+     "put_open_interest": 21077,
+     "max_pain": 335.0
+    },
+    {
+     "expiration": "2026-12-18",
+     "call_open_interest": 194523,
+     "put_open_interest": 231060,
+     "max_pain": 340.0
+    },
+    {
+     "expiration": "2026-12-24",
+     "call_open_interest": 7790,
+     "put_open_interest": 5868,
+     "max_pain": 325.0
+    },
+    {
+     "expiration": "2026-12-31",
+     "call_open_interest": 4623,
+     "put_open_interest": 3268,
+     "max_pain": 330.0
+    },
+    {
+     "expiration": "2027-01-15",
+     "call_open_interest": 258429,
+     "put_open_interest": 197098,
+     "max_pain": 330.0
+    },
+    {
+     "expiration": "2027-02-19",
+     "call_open_interest": 55894,
+     "put_open_interest": 49640,
+     "max_pain": 340.0
+    },
+    {
+     "expiration": "2027-03-19",
+     "call_open_interest": 96106,
+     "put_open_interest": 109829,
+     "max_pain": 370.0
+    },
+    {
+     "expiration": "2027-04-16",
+     "call_open_interest": 19641,
+     "put_open_interest": 43105,
+     "max_pain": 340.0
+    },
+    {
+     "expiration": "2027-05-21",
+     "call_open_interest": 12880,
+     "put_open_interest": 18635,
+     "max_pain": 340.0
+    },
+    {
+     "expiration": "2027-06-17",
+     "call_open_interest": 99584,
+     "put_open_interest": 135343,
+     "max_pain": 350.0
+    },
+    {
+     "expiration": "2027-07-16",
+     "call_open_interest": 613,
+     "put_open_interest": 1035,
+     "max_pain": 320.0
+    },
+    {
+     "expiration": "2027-09-17",
+     "call_open_interest": 40390,
+     "put_open_interest": 68776,
+     "max_pain": 360.0
+    },
+    {
+     "expiration": "2027-12-17",
+     "call_open_interest": 64793,
+     "put_open_interest": 50253,
+     "max_pain": 280.0
+    },
+    {
+     "expiration": "2028-01-21",
+     "call_open_interest": 94938,
+     "put_open_interest": 90591,
+     "max_pain": 360.0
+    },
+    {
+     "expiration": "2028-06-16",
+     "call_open_interest": 22270,
+     "put_open_interest": 19188,
+     "max_pain": 340.0
+    },
+    {
+     "expiration": "2028-12-15",
+     "call_open_interest": 52294,
+     "put_open_interest": 85148,
+     "max_pain": 340.0
+    },
+    {
+     "expiration": "2029-01-19",
+     "call_open_interest": 10820,
+     "put_open_interest": 15461,
+     "max_pain": 320.0
+    }
+   ]
+  }
+ ],
+ "karanlik": [
+  {
+   "tarih": "2026-11-26",
+   "offex": null,
+   "offex30": null,
+   "kisa": 19.8,
+   "ats_degisim": null,
+   "odunc": 0.28
+  }
+ ]
+}
