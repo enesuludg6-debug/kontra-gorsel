@@ -1,0 +1,5 @@
+# Fed net likidite Cum 12:10 (kural 92; Enes 26.11 08:49 '1-8 hepsi okey')
+VERİ: WebFetch FRED WALCL, WTREGEN (cosd=bugün−120 gün) ve RRPONTSYD (cosd=bugün−30 gün) -> fred_ekle. Net likidite = bilanço − Hazine hesabı − ters repo (kendi hesabım). Ana mesaj: haftalık değişim ve hangi kalemden geldiği.
+
+ADIMLAR: (1) veri (yukarıda) -> `python3 invest/veri_icerik.py fed` özet. (2) Tweet KISA (Enes isteği): ilk satır ≤12 kelime 'X şu seviyeye indi/çıktı' gibi net olgu; en çok 2 paragraf, en çok 3 farklı rakam; kural 65 ikinci katman (başka bir nabız verisiyle uyum/ayrışma: korku.py ozet, nabiz.py oku, veri_icerik.py genislik/vix) + kural 89 tek fon yöneticisi cümlesi; 89-B çeşitlilik (fiil, kalıp, kapanış türü). (3) Kart `python3 invest/veri_icerik.py fed --kart g/YYYYMMDD_HHMM_fed.jpg` -> yayinla_gorsel.sh -> Buffer shareNow; tür VERI-FED. (4) Kontroller yasak.py, kalite.py kontrol --tur VERI-FED --kalip X, gorus.py kontrol; kayıt kayit.py, kalite/gorus kaydet, commit/push.
+Veri yoksa / değişim anlamsızsa (ör. tatil, aynı değer) TWEET YOK, DONGU'ya yaz. Al/sat, hedef, emoji, hashtag, link, soru yok. Kaynak adını kartta yaz.

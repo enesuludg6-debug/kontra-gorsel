@@ -1,0 +1,5 @@
+# Nasdaq 100 genişlik Cmt 12:10 (kural 92; Enes 26.11 08:49 '1-8 hepsi okey')
+VERİ: Kendi hesabım (Yahoo kapanışları). 50G üstü oran, haftalık değişim, 200G üstü, yıllık dibe yakın hisse sayısı; endeks ile genişlik ayrışıyorsa ana mesaj o.
+
+ADIMLAR: (1) veri (yukarıda) -> `python3 invest/veri_icerik.py genislik` özet. (2) Tweet KISA (Enes isteği): ilk satır ≤12 kelime 'X şu seviyeye indi/çıktı' gibi net olgu; en çok 2 paragraf, en çok 3 farklı rakam; kural 65 ikinci katman (başka bir nabız verisiyle uyum/ayrışma: korku.py ozet, nabiz.py oku, veri_icerik.py genislik/vix) + kural 89 tek fon yöneticisi cümlesi; 89-B çeşitlilik (fiil, kalıp, kapanış türü). (3) Kart `python3 invest/veri_icerik.py genislik --kart g/YYYYMMDD_HHMM_genislik.jpg` -> yayinla_gorsel.sh -> Buffer shareNow; tür VERI-GENISLIK. (4) Kontroller yasak.py, kalite.py kontrol --tur VERI-GENISLIK --kalip X, gorus.py kontrol; kayıt kayit.py, kalite/gorus kaydet, commit/push.
+Veri yoksa / değişim anlamsızsa (ör. tatil, aynı değer) TWEET YOK, DONGU'ya yaz. Al/sat, hedef, emoji, hashtag, link, soru yok. Kaynak adını kartta yaz.

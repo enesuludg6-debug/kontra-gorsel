@@ -2791,6 +2791,19 @@
    "mesaj": "HESAP=C3. Önce invest/AKTIF_HESAP.md oku; AKTIF: C3 değilse hiçbir şey yapma (tweet ve push yok) ve bu görevi kapat. git pull, DURDUR kontrolü. İŞ TEST-TARIFE-2511 (Sonuç takibi: Tayvan gümrük oranı). Önce `isler.py liste | grep TARIFE` ve DONGU: duyuru 25.11'de bir turda zaten işlendiyse 'yapildi' yap ve bitir. KURAL 66: 25.11 14:04 tweeti (Buffer 6b06c0a64f2f059ad9a4f8a6) — 'Tayvan'a %15 üstü oran gelirse en açık risk TSM'. USTR Section 301 aşırı kapasite duyurusu çıktı mı (2 kaynak): Tayvan oranı ve yarı iletken muafiyeti. Çıktıysa sonuç takibi tweeti (kart3 haber_dosya, skill enes-gorsel + enes-sonuc-takibi); kural 23: yön tutmadıysa tahmin anılmaz, yalnız haber + yorum. Sonucu `python3 invest/yorumlar.py sonuc TEST-TARIFE-2511 ...` ile yaz. Duyuru yoksa tarihi 1 gün ileri al (`isler.py` ile) ve send_later'ı yeniden kur (`isler.py mesaj --yaz` ile mesajı da güncelle). Perşembe ABD borsası kapalı. invest/gorevler/_ORTAK.md oku. Bitince `python3 invest/isler.py durum TEST-TARIFE-2511 yapildi`. Bütün mesajlar bu sohbete (SendUserMessage / SendUserFile)."
   },
   {
+   "id": "SABIT-iceriden",
+   "ad": "Sabit veri tweeti iceriden",
+   "zaman": "2026-11-26T12:00",
+   "ne": "kural 92 zincir",
+   "ticker": "",
+   "tur": "tek",
+   "durum": "bekliyor",
+   "not": "",
+   "trigger": "",
+   "soz": "",
+   "guncelleme": "26.11 08:53"
+  },
+  {
    "id": "SABIT-AAII",
    "ad": "Sabit: AAII anketi yeni hafta Per 18:40",
    "zaman": "2026-11-26T18:40",
@@ -2817,6 +2830,32 @@
    "guncelleme": "26.11 08:43"
   },
   {
+   "id": "SABIT-fed",
+   "ad": "Sabit veri tweeti fed",
+   "zaman": "2026-11-27T12:00",
+   "ne": "kural 92 zincir",
+   "ticker": "",
+   "tur": "tek",
+   "durum": "bekliyor",
+   "not": "",
+   "trigger": "",
+   "soz": "",
+   "guncelleme": "26.11 08:53"
+  },
+  {
+   "id": "SABIT-vix",
+   "ad": "Sabit veri tweeti vix",
+   "zaman": "2026-11-27T12:00",
+   "ne": "kural 92 zincir",
+   "ticker": "",
+   "tur": "tek",
+   "durum": "bekliyor",
+   "not": "",
+   "trigger": "",
+   "soz": "",
+   "guncelleme": "26.11 08:53"
+  },
+  {
    "id": "TEST-NDX-AYI",
    "ad": "Sonuç takibi: Nasdaq 100 ayı çizgisi",
    "zaman": "2026-11-28T11:10",
@@ -2829,6 +2868,32 @@
    "soz": "",
    "guncelleme": "25.11 20:58",
    "mesaj": "HESAP=C3. Önce invest/AKTIF_HESAP.md oku; AKTIF: C3 değilse hiçbir şey yapma ve bu görevi kapat. git pull. TEST-NDX-AYI (kural 66, skill enes-sonuc-takibi): 25.11 20:57 tweeti (Buffer 6b07218d52de4830633e1512) 'Nasdaq 100 ayı çizgisine (zirve 31.224'ün −%20'si = 24.980) dokunup döndü; bence satış bitmedi, eşik savunuldu; çizgi kapanış bazında kırılırsa ayı piyasası' dedi. 27.11 Cuma yarım gün kapanışında ^NDX'i Yahoo günlük kapanıştan + 2. kaynaktan al. 24.980 üstünde kaldıysa 'eşik savunuldu' kısmı tuttu (sonuç tweeti, kural 86 kısa, fon yöneticisi üslubu); altında kapandıysa tweet atma, yalnız DONGU iç notu. `python3 invest/yorumlar.py sonuc TEST-NDX-AYI tuttu|tutmadi \"<kapanış>\"`, `python3 invest/isler.py durum TEST-NDX-AYI yapildi`. Hafta sonu sayacı (en çok 10) içinde. Mesajlar bu sohbete (SendUserMessage / SendUserFile)."
+  },
+  {
+   "id": "SABIT-genislik",
+   "ad": "Sabit veri tweeti genislik",
+   "zaman": "2026-11-28T12:00",
+   "ne": "kural 92 zincir",
+   "ticker": "",
+   "tur": "tek",
+   "durum": "bekliyor",
+   "not": "",
+   "trigger": "",
+   "soz": "",
+   "guncelleme": "26.11 08:53"
+  },
+  {
+   "id": "SABIT-putcall",
+   "ad": "Sabit veri tweeti putcall",
+   "zaman": "2026-11-28T12:00",
+   "ne": "kural 92 zincir",
+   "ticker": "",
+   "tur": "tek",
+   "durum": "bekliyor",
+   "not": "",
+   "trigger": "",
+   "soz": "",
+   "guncelleme": "26.11 08:53"
   },
   {
    "id": "KARNE-2811",
@@ -2844,6 +2909,32 @@
    "guncelleme": "25.11 18:06"
   },
   {
+   "id": "SABIT-aciga",
+   "ad": "Sabit veri tweeti aciga",
+   "zaman": "2026-11-30T12:00",
+   "ne": "kural 92 zincir",
+   "ticker": "",
+   "tur": "tek",
+   "durum": "bekliyor",
+   "not": "",
+   "trigger": "",
+   "soz": "",
+   "guncelleme": "26.11 08:53"
+  },
+  {
+   "id": "SABIT-faiz",
+   "ad": "Sabit veri tweeti faiz",
+   "zaman": "2026-11-30T12:00",
+   "ne": "kural 92 zincir",
+   "ticker": "",
+   "tur": "tek",
+   "durum": "bekliyor",
+   "not": "",
+   "trigger": "",
+   "soz": "",
+   "guncelleme": "26.11 08:53"
+  },
+  {
    "id": "SABIT-AAII2",
    "ad": "Sabit: AAII anketi perspektif Sal 12:40",
    "zaman": "2026-12-01T12:40",
@@ -2855,6 +2946,19 @@
    "trigger": "",
    "soz": "",
    "guncelleme": "26.11 08:47"
+  },
+  {
+   "id": "SABIT-kredi",
+   "ad": "Sabit veri tweeti kredi",
+   "zaman": "2026-12-02T12:00",
+   "ne": "kural 92 zincir",
+   "ticker": "",
+   "tur": "tek",
+   "durum": "bekliyor",
+   "not": "",
+   "trigger": "",
+   "soz": "",
+   "guncelleme": "26.11 08:53"
   },
   {
    "id": "TEST-SNOW-0312",

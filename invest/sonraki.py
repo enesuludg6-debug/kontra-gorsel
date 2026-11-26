@@ -24,6 +24,14 @@ G = {
  "korku":       ("Sabit: korku-açgözlülük endeksi 10:40", "seans_ertesi", "10:40", None),  # kural 90 (Enes 26.11 08:40)
  "aaii":        ("Sabit: AAII anketi yeni hafta Per 18:40", "haftalik", "18:40", 3),  # kural 91 (Enes 26.11 08:45)
  "aaii2":       ("Sabit: AAII anketi perspektif Sal 12:40", "haftalik", "12:40", 1),  # kural 91
+ "vix": ("Sabit: Korku vade yapısı (VIX/VIX3M) Cum 18:10", "haftalik", "18:10", 4),  # kural 92
+ "kredi": ("Sabit: Kredi stresi (HY primi) Çar 12:10", "haftalik", "12:10", 2),  # kural 92
+ "genislik": ("Sabit: Nasdaq 100 genişlik Cmt 12:10", "haftalik", "12:10", 5),  # kural 92
+ "putcall": ("Sabit: CBOE put/call haftalık Cmt 15:10", "haftalik", "15:10", 5),  # kural 92
+ "aciga": ("Sabit: Açığa satış radarı Pzt 12:10", "haftalik", "12:10", 0),  # kural 92
+ "fed": ("Sabit: Fed net likidite Cum 12:10", "haftalik", "12:10", 4),  # kural 92
+ "iceriden": ("Sabit: Yönetici alım radarı Per 12:10", "haftalik", "12:10", 3),  # kural 92
+ "faiz": ("Sabit: Faiz eğrisi + reel faiz Pzt 16:10 (çift hafta)", "haftalik", "16:10", 0),  # kural 92
  "13f":         ("Sabit: 13F serisi başlangıcı 09:05", "yillik", "09:05", [(2, 15), (5, 16), (8, 15), (11, 15)]),
 }
 def sonraki(k, simdi=None):

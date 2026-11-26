@@ -1,0 +1,5 @@
+# CBOE put/call haftalık Cmt 15:10 (kural 92; Enes 26.11 08:49 '1-8 hepsi okey')
+VERİ: Veri sabah nabız rutininde günlük birikir (nabiz.json pc_hisse). 5 günden az kayıt varsa TWEET YOK (DONGU'ya yaz). Endeks put/call ile hisse put/call farkı (kurum korunması vs bireysel) ikinci katman.
+
+ADIMLAR: (1) veri (yukarıda) -> `python3 invest/veri_icerik.py putcall` özet. (2) Tweet KISA (Enes isteği): ilk satır ≤12 kelime 'X şu seviyeye indi/çıktı' gibi net olgu; en çok 2 paragraf, en çok 3 farklı rakam; kural 65 ikinci katman (başka bir nabız verisiyle uyum/ayrışma: korku.py ozet, nabiz.py oku, veri_icerik.py genislik/vix) + kural 89 tek fon yöneticisi cümlesi; 89-B çeşitlilik (fiil, kalıp, kapanış türü). (3) Kart `python3 invest/veri_icerik.py putcall --kart g/YYYYMMDD_HHMM_putcall.jpg` -> yayinla_gorsel.sh -> Buffer shareNow; tür VERI-PUTCALL. (4) Kontroller yasak.py, kalite.py kontrol --tur VERI-PUTCALL --kalip X, gorus.py kontrol; kayıt kayit.py, kalite/gorus kaydet, commit/push.
+Veri yoksa / değişim anlamsızsa (ör. tatil, aynı değer) TWEET YOK, DONGU'ya yaz. Al/sat, hedef, emoji, hashtag, link, soru yok. Kaynak adını kartta yaz.
