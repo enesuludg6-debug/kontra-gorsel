@@ -269,3 +269,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 26.11 | 10:40 | KORKU | [A:normal] Korku-Açgözlülük 17,4 aşırı korku (kural 90 ilk) | cizgi_pro | 6b07c6f4b96dd8d351914536 |
 | 26.11 | 11:19 | HABER | [A:iddia] Kioxia +%12,6 yalnız Nvidia değil; 2,21 trilyon yen iç temettü + 144 SSD deneme; ikinci etki SanDisk/Micron | cizgi_olay | 6b07eb84aca8612480906cfc |
 | 26.11 | 11:46 | HABER | [A:normal] SK Hynix Kore toparlanması akşama taşınmadı | dosya | 6b07f1fb63939e1d00875fa7 |
+| 26.11 | 12:23 | HABER | [A:iddia] SpaceX yörünge veri merkezi FCC onayı 10 ayda | siralama | 6b07fa6c17fc84b971bcaa01 |
