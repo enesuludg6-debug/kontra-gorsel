@@ -2,20 +2,6 @@
 {
 "jargon": {},
 "tarih": [],
-"terim": [],
-"acilis": "sitm bugün 20 ye",
-"kapanis": "satın almanın katkısı gelecek",
-"rekor": 0,
-"imza": "3p-duz-o-rakam",
-"kalip": "I",
-"tur": "PORTFOY",
-"zaman": "23.11 23:36",
-"gun": "23.11",
-"uzunluk": 621
-},
-{
-"jargon": {},
-"tarih": [],
 "terim": [
 "serbest nakit akışı"
 ],
@@ -974,5 +960,29 @@
 "zaman": "26.11 13:54",
 "gun": "26.11",
 "uzunluk": 520
+},
+{
+"jargon": {
+"konsensüs": 1
+},
+"tarih": [],
+"terim": [
+"konsensüs"
+],
+"acilis": "iddia",
+"kapanis": "tedarikçi belli nvda bu",
+"rekor": 0,
+"k89": [
+"fark",
+"fiyatlanan"
+],
+"k89_son": "fark",
+"k89_hazir": [],
+"imza": "3p-duz-o-cerceve",
+"kalip": "J",
+"tur": "HABER",
+"zaman": "26.11 14:27",
+"gun": "26.11",
+"uzunluk": 563
 }
 ]
