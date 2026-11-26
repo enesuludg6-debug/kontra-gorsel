@@ -30,7 +30,7 @@ Repo `/home/claude/kontra-gorsel/invest`, her zaman Türkçe. Bu dosya kural 46-
 - Hafta içi EN AZ 5, hafta sonu en az 2 sistem tweeti AÇIKLAYICI türde (DONGU 'AÇIKLAYICI n/5'). Örnek ve model: 23.11 "Bellek DRAM ve NAND ayrımı" (4.008 görüntülenme, son 2 haftanın 1 numarası), 23.11 "AVGO Kuo TPU kesintisi" (3.167).
 - Yapı: günün haberinden çıkan TEK kavram ya da ayrım (DRAM/NAND, HBM, CoWoS, TPU/GPU, gizli hesaplama, fırlatma fiyatı, kredi notu izlemesi, sipariş defteri) + bugün neden önemli + hangi şirkete nasıl yansıyor + Enes'in net hükmü. Haber cümlesi en çok 1, gerisi açıklama.
 - Kural 86-d akşam eğiticisinden farkı: eğitici akşam 1 kez ve kavram odaklı; AÇIKLAYICI gün boyu ve haber odaklı (haberi açıklayarak verir). İkisi aynı gün aynı kavramı işlemez.
-- Tür adı AÇIKLAYICI; kalite.py için --tur DERIN-ANALIZ (tavan 1200), kalıp E/J/A/H. Kart: kucuk_coklu, sutun, siralama ya da dosya; kartta kavramı anlatan tek satır.
+- Tür adı AÇIKLAYICI; kalite.py için --tur DERIN-ANALIZ (tavan 1200; kural 63 günde en çok 2 DERIN-ANALIZ -> 3. AÇIKLAYICI'dan itibaren portföy hissesiyse --tur PORTFOY (tavan 800), değilse --tur HABER (tavan 600)), kalıp E/J/A/H. Kart: kucuk_coklu, sutun, siralama ya da dosya; kartta kavramı anlatan tek satır.
 - Haber turunda konu seçilirken konu_puan.py ile birlikte şu soru: "Bu haberi açıklayıcıya çevirebilir miyim?" Cevap evetse ve günün AÇIKLAYICI sayısı 5'in altındaysa açıklayıcı yaz.
 
 ## 4. Enes taslakları (kural 69 güncel, Enes 26.11 15:06 "arttır")
