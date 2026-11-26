@@ -272,3 +272,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 26.11 | 12:23 | HABER | [A:iddia] SpaceX yörünge veri merkezi FCC onayı 10 ayda | siralama | 6b07fa6c17fc84b971bcaa01 |
 | 26.11 | 12:52 | HABER | [A:normal] Nvidia kredi notu S&P izleme / Moody's teyit | cizgi_pro | 6b08013510c0f7816e972e48 |
 | 26.11 | 13:28 | HABER | [A:iddia] Asya veri merkezi kredileri ABD çip lisansına takıldı | bilanco | 6b0809d2a35d913b496dbd04 |
+| 26.11 | 13:54 | HABER | [A:normal] Nikkei yükselişinin yarısı Advantest'ten, Topix +%0,1 | cizgi_olay | 6b080ff5b56cc066e5beaa97 |
