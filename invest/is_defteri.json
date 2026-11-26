@@ -2953,11 +2953,24 @@
    "ne": "tur zinciri",
    "ticker": "",
    "tur": "tek",
-   "durum": "kuruldu",
+   "durum": "yapildi",
    "not": "",
    "trigger": "trig_017Tb1Hpik8PQ5HnTB849ttR",
    "soz": "",
-   "guncelleme": "26.11 15:22"
+   "guncelleme": "26.11 16:57"
+  },
+  {
+   "id": "TUR-2611-1747",
+   "ad": "Otomatik paylaşım turu",
+   "zaman": "2026-11-26T17:47",
+   "ne": "tur zinciri",
+   "ticker": "",
+   "tur": "tek",
+   "durum": "kuruldu",
+   "not": "",
+   "trigger": "trig_01THeryvWGZves5mm4qtRcAS",
+   "soz": "",
+   "guncelleme": "26.11 16:57"
   },
   {
    "id": "SABIT-AAII",
