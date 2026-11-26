@@ -127,16 +127,17 @@ def siralama(kicker, baslik, alt, satirlar, sonuc, kaynak, out, vurgu=(), birim=
     fig, r = cerceve(kicker, baslik, alt, sonuc, kaynak)
     ax = _ax(fig, r, (0.14, 0.02, 0.10, 0.02)); ax.grid(False); ax.set_xticks([])
     s = sorted(satirlar, key=lambda x: x[1])
+    _rng = max(0, max(v for _, v in s)) - min(0, min(v for _, v in s)) or 1  # 26.11: negatif etiket y-ekseni yazısına binmesin
     for i, (et, v) in enumerate(s):
         c = ((UP if v >= 0 else DOWN) if birim == "%" else ACC) if et in vurgu or not vurgu else GREY
         ax.barh(i, v, color=c, height=0.62)
         _et = (f"+%{v:.1f}" if v >= 0 else f"−%{abs(v):.1f}").replace(".", ",") if birim == "%" else (f"{v:,.0f}".replace(",", ".") if float(v).is_integer() else _sayi(v)) + birim
-        ax.text(v + (0.6 if v >= 0 else -0.6) + (0.01 * abs(v) if birim != "%" else 0), i, _et,
+        ax.text(v + (1 if v >= 0 else -1) * (0.6 if birim != "%" else 0.025 * _rng) + (0.01 * abs(v) if birim != "%" else 0), i, _et,
                 va="center", ha="left" if v >= 0 else "right", fontsize=26 * 0.72, color=INK, family=FAM, fontweight="bold")
     ax.set_yticks(range(len(s))); ax.set_yticklabels([e for e, _ in s], fontsize=28 * 0.72, color=INK, fontweight="bold")
     ax.axvline(0, color=GREY, lw=1.5)
     lo = min(0, min(v for _, v in s)); hi = max(0, max(v for _, v in s)); pad = (hi - lo) * 0.22
-    ax.set_xlim(lo - (pad if lo < 0 else 0), hi + (pad if hi > 0 else 0))
+    ax.set_xlim(lo - (pad * 1.6 if lo < 0 else 0), hi + (pad if hi > 0 else 0))
     return kaydet(fig, out)
 
 # ---------- 4. Isı haritası ----------
