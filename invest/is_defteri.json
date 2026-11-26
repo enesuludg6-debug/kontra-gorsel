@@ -2797,11 +2797,24 @@
    "ne": "sabah kurdu",
    "ticker": "",
    "tur": "tek",
-   "durum": "bekliyor",
+   "durum": "yapildi",
    "not": "",
    "trigger": "",
    "soz": "",
-   "guncelleme": "26.11 09:00"
+   "guncelleme": "26.11 11:16"
+  },
+  {
+   "id": "TUR-2611-1155",
+   "ad": "Otomatik paylaşım turu",
+   "zaman": "2026-11-26T11:55",
+   "ne": "tur zinciri",
+   "ticker": "",
+   "tur": "tek",
+   "durum": "kuruldu",
+   "not": "",
+   "trigger": "trig_01Cn8Mwyw9sjBxAtcMJVr8dz",
+   "soz": "",
+   "guncelleme": "26.11 11:16"
   },
   {
    "id": "SABIT-iceriden",
