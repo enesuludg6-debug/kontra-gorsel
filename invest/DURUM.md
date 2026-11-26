@@ -2,6 +2,7 @@
 Son güncelleme: 26.11.2026 14:56 TSİ (C2). Turlar şunu okur: tur_basi.sh çıktısı (KURAL_DIZINI.md + bu dosya + DONGU son 30 + dersler + defter). Kuralların tam metni KURALLAR_TAM.md ve skills/*.md: yalnız gerektiğinde grep ile.
 
 ## Hesap
+- Takipçi (Enes 26.11 15:05): 2.070. Kural 95 ölçümü: medyan görüntülenme/takipçi (26.11: sistem %17, Enes %26).
 - AKTIF: D (26.11 11:27 hesap devri C3 → D; görev mesajları HESAP=D; tur_basi.sh D). Bigdata.com bu hesapta bağlı değil. Chrome bağlı değil (fikir taramasının Chrome adımı atlanır).
 
 ## İÇERİK AYARI (kural 57; perfogren görevi günceller — son: 25.11 10:18, veri 7 gün, 221 olgun tweet, medyan 343)
@@ -58,3 +59,6 @@ Atılanlar: Berkshire, Ackman, Druckenmiller, Tepper, Soros, Third Point/Loeb. A
 ## Bekleyen tek seferlik görevler → ARTIK `python3 invest/isler.py liste` (kural 43; is_defteri.json tek kaynak)
 
 - ESLEME SERISI (kural 82): sıradaki #1, Cuma 27.11 22:30 ya da Cmt 28.11 12:30 (python3 invest/esleme.py)
+
+## KURAL 95 (26.11 15:06) — X ALGORİTMASI + AÇIKLAYICI + 4 TASLAK
+- Tur aralığı 35-50 dk, turda 1 tweet; AÇIKLAYICI hafta içi en az 5 (DONGU 'AÇIKLAYICI n/5'); Enes taslağı hafta içi 4 (ENES-TASLAK n/4). Skill enes-x-algoritma. Bugün (26.11) AÇIKLAYICI 0/5, ENES-TASLAK 1/4.
