@@ -1,19 +1,5 @@
 [
 {
-"jargon": {},
-"tarih": [],
-"terim": [],
-"acilis": "geçen haftaki düşüşte en",
-"kapanis": "şimdi korelasyon 30 a",
-"rekor": 0,
-"imza": "4p-satir-o-cerceve",
-"kalip": "B+A",
-"tur": "BAGLAM-GORUS",
-"zaman": "23.11 22:44",
-"gun": "23.11",
-"uzunluk": 656
-},
-{
 "jargon": {
 "fiyatlama": 1
 },
@@ -961,5 +947,24 @@
 "zaman": "26.11 12:23",
 "gun": "26.11",
 "uzunluk": 497
+},
+{
+"jargon": {},
+"tarih": [],
+"terim": [],
+"acilis": "iddia",
+"kapanis": "s p aa notunu",
+"rekor": 0,
+"k89": [
+"fark"
+],
+"k89_son": "fark",
+"k89_hazir": [],
+"imza": "2p-duz-o-cerceve",
+"kalip": "C",
+"tur": "HABER",
+"zaman": "26.11 12:51",
+"gun": "26.11",
+"uzunluk": 510
 }
 ]
