@@ -1,5 +1,5 @@
 # DURUM — tek sayfa GÜNCEL DURUM (kural 18; 23.11 20:50'den beri yalnız durum, kurallar KURAL_DIZINI.md)
-Son güncelleme: 26.11.2026 20:12 TSİ (C2). Turlar şunu okur: tur_basi.sh çıktısı (KURAL_DIZINI.md + bu dosya + DONGU son 30 + dersler + defter). Kuralların tam metni KURALLAR_TAM.md ve skills/*.md: yalnız gerektiğinde grep ile.
+Son güncelleme: 26.11.2026 21:03 TSİ (C2). Turlar şunu okur: tur_basi.sh çıktısı (KURAL_DIZINI.md + bu dosya + DONGU son 30 + dersler + defter). Kuralların tam metni KURALLAR_TAM.md ve skills/*.md: yalnız gerektiğinde grep ile.
 
 ## Hesap
 - Takipçi (Enes 26.11 15:05): 2.070. Kural 95 ölçümü: medyan görüntülenme/takipçi (26.11: sistem %17, Enes %26).
@@ -26,7 +26,7 @@ Son güncelleme: 26.11.2026 20:12 TSİ (C2). Turlar şunu okur: tur_basi.sh çı
 
 ## Kart
 - 25.11 11:38 KART3 VARSAYILAN (kural 84): Enes 6 örneğin hepsini beğendi (cizgi_olay, esleme, siralama, isi, bilanco, goreli); grafikler ham veriyle birebir, 'son veri' damgası, kart3.dogrula. Ölçüm: 2 hafta kart3 vs eski kart göreli görüntülenme (perfogren).
-- Son 3 düzen: dosya ([A:normal] AÇIKLAYIC), egim ([A:iddia] TARİHSEL (), bilanco ([A:normal] AÇIKLAYIC).
+- Son 3 düzen: egim ([A:iddia] TARİHSEL (), bilanco ([A:normal] AÇIKLAYIC), sutun (SNOW tüketim bazlı g).
 - LOGO_BUYUT 1.8, küçültme YOK; bento ve skor kare logoyu taşımıyor (bilanço rakamı = uclu); dortlu/isi kartında logolu ticker rakama biniyor (logosuz isim).
 
 ## 13F serisi (Q3 2026)
