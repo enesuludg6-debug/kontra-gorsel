@@ -53,5 +53,16 @@
   "sonuc": "",
   "ne_oldu": "",
   "sonuc_tarih": ""
+ },
+ {
+  "id": "TEST-SKH-0412",
+  "tweet": "26.11 11:46",
+  "buffer": "6b07f1fb63939e1d00875fa7",
+  "yorum": "SK Hynix 1,03 milyon won Çarşamba kapanışının altına inmedikçe satış talep sorunu değil",
+  "esik": "000660.KS kapanış 1.030.000 won üstünde kalır mı (4.12 kapanışa kadar)",
+  "kontrol": "2026-12-04",
+  "sonuc": "",
+  "ne_oldu": "",
+  "sonuc_tarih": ""
  }
 ]
