@@ -61,4 +61,4 @@ Atılanlar: Berkshire, Ackman, Druckenmiller, Tepper, Soros, Third Point/Loeb. A
 - ESLEME SERISI (kural 82): sıradaki #1, Cuma 27.11 22:30 ya da Cmt 28.11 12:30 (python3 invest/esleme.py)
 
 ## KURAL 95 (26.11 15:06) — X ALGORİTMASI + AÇIKLAYICI + 4 TASLAK
-- Tur aralığı 35-50 dk, turda 1 tweet; AÇIKLAYICI hafta içi en az 5 (DONGU 'AÇIKLAYICI n/5'); Enes taslağı hafta içi 4 (ENES-TASLAK n/4). Skill enes-x-algoritma. Bugün (26.11) AÇIKLAYICI 0/5, ENES-TASLAK 1/4.
+- Tur aralığı 35-50 dk (tur mesajında 'randint(20,35)' yazsa bile 'randint(35,50)' kullan ve sonraki tur mesajına öyle yaz), turda 1 tweet; AÇIKLAYICI hafta içi en az 5 (DONGU 'AÇIKLAYICI n/5'); Enes taslağı hafta içi 4 (ENES-TASLAK n/4). Skill enes-x-algoritma. Bugün (26.11) AÇIKLAYICI 0/5, ENES-TASLAK 1/4.
