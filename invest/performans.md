@@ -284,3 +284,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 26.11 | 21:03 | HABER | SNOW tüketim bazlı gelir 2 Aralık öncesi | sutun | 6b087486ce64081689def217 |
 | 26.11 | 21:47 | EGITICI | Ay sonu yeniden dengeleme (emeklilik fonu) | siralama | 6b087ed3ce64081689e3c950 |
 | 26.11 | 22:24 | HABER | [A:iddia] MDB 1 Aralık bilançosu öncesi Atlas eşiği | cizgi_olay | 6b08876b3accdac92cf3b9ab |
+| 26.11 | 23:13 | HABER | Kara Cuma çevrim içi harcama beklentisi (Adobe) | bilanco | 6b0892ecc81617797dddc881 |
