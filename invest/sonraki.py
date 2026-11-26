@@ -32,6 +32,13 @@ G = {
  "fed": ("Sabit: Fed net likidite Cum 12:10", "haftalik", "12:10", 4),  # kural 92
  "iceriden": ("Sabit: Yönetici alım radarı Per 12:10", "haftalik", "12:10", 3),  # kural 92
  "faiz": ("Sabit: Faiz eğrisi + reel faiz Pzt 16:10 (çift hafta)", "haftalik", "16:10", 0),  # kural 92
+ "fedwatch": ("Sabit: Fed beklentisi (fon vadelileri) Sal 18:10", "haftalik", "18:10", 1),  # kural 93
+ "kuyruk": ("Sabit: Kuyruk riski (SKEW + VVIX) Per 16:10", "haftalik", "16:10", 3),  # kural 93
+ "korelasyon": ("Sabit: Hisse-tahvil korelasyonu Çar 16:10 (tek hafta)", "haftalik", "16:10", 2),  # kural 93
+ "rotasyon": ("Sabit: Sektör rotasyon haritası Paz 16:10", "haftalik", "16:10", 6),  # kural 93
+ "faktor": ("Sabit: Faktör panosu Cum 16:10", "haftalik", "16:10", 4),  # kural 93
+ "bakir_altin": ("Sabit: Bakır/altın + 10Y Sal 16:10 (tek hafta)", "haftalik", "16:10", 1),  # kural 93
+ "revizyon": ("Sabit: Kâr tahmini revizyonu Pzt 18:10", "haftalik", "18:10", 0),  # kural 93
  "13f":         ("Sabit: 13F serisi başlangıcı 09:05", "yillik", "09:05", [(2, 15), (5, 16), (8, 15), (11, 15)]),
 }
 def sonraki(k, simdi=None):

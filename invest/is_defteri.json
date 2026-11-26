@@ -2804,6 +2804,19 @@
    "guncelleme": "26.11 08:53"
   },
   {
+   "id": "SABIT-kuyruk",
+   "ad": "Sabit veri tweeti kuyruk",
+   "zaman": "2026-11-26T16:00",
+   "ne": "kural 93 zincir",
+   "ticker": "",
+   "tur": "tek",
+   "durum": "bekliyor",
+   "not": "",
+   "trigger": "",
+   "soz": "",
+   "guncelleme": "26.11 08:59"
+  },
+  {
    "id": "SABIT-AAII",
    "ad": "Sabit: AAII anketi yeni hafta Per 18:40",
    "zaman": "2026-11-26T18:40",
@@ -2854,6 +2867,19 @@
    "trigger": "",
    "soz": "",
    "guncelleme": "26.11 08:53"
+  },
+  {
+   "id": "SABIT-faktor",
+   "ad": "Sabit veri tweeti faktor",
+   "zaman": "2026-11-27T16:00",
+   "ne": "kural 93 zincir",
+   "ticker": "",
+   "tur": "tek",
+   "durum": "bekliyor",
+   "not": "",
+   "trigger": "",
+   "soz": "",
+   "guncelleme": "26.11 08:59"
   },
   {
    "id": "TEST-NDX-AYI",
@@ -2909,6 +2935,19 @@
    "guncelleme": "25.11 18:06"
   },
   {
+   "id": "SABIT-rotasyon",
+   "ad": "Sabit veri tweeti rotasyon",
+   "zaman": "2026-11-29T16:00",
+   "ne": "kural 93 zincir",
+   "ticker": "",
+   "tur": "tek",
+   "durum": "bekliyor",
+   "not": "",
+   "trigger": "",
+   "soz": "",
+   "guncelleme": "26.11 08:59"
+  },
+  {
    "id": "SABIT-aciga",
    "ad": "Sabit veri tweeti aciga",
    "zaman": "2026-11-30T12:00",
@@ -2935,6 +2974,19 @@
    "guncelleme": "26.11 08:53"
   },
   {
+   "id": "SABIT-revizyon",
+   "ad": "Sabit veri tweeti revizyon",
+   "zaman": "2026-11-30T16:00",
+   "ne": "kural 93 zincir",
+   "ticker": "",
+   "tur": "tek",
+   "durum": "bekliyor",
+   "not": "",
+   "trigger": "",
+   "soz": "",
+   "guncelleme": "26.11 08:59"
+  },
+  {
    "id": "SABIT-AAII2",
    "ad": "Sabit: AAII anketi perspektif Sal 12:40",
    "zaman": "2026-12-01T12:40",
@@ -2948,6 +3000,32 @@
    "guncelleme": "26.11 08:47"
   },
   {
+   "id": "SABIT-bakir_altin",
+   "ad": "Sabit veri tweeti bakir_altin",
+   "zaman": "2026-12-01T16:00",
+   "ne": "kural 93 zincir",
+   "ticker": "",
+   "tur": "tek",
+   "durum": "bekliyor",
+   "not": "",
+   "trigger": "",
+   "soz": "",
+   "guncelleme": "26.11 08:59"
+  },
+  {
+   "id": "SABIT-fedwatch",
+   "ad": "Sabit veri tweeti fedwatch",
+   "zaman": "2026-12-01T16:00",
+   "ne": "kural 93 zincir",
+   "ticker": "",
+   "tur": "tek",
+   "durum": "bekliyor",
+   "not": "",
+   "trigger": "",
+   "soz": "",
+   "guncelleme": "26.11 08:59"
+  },
+  {
    "id": "SABIT-kredi",
    "ad": "Sabit veri tweeti kredi",
    "zaman": "2026-12-02T12:00",
@@ -2959,6 +3037,19 @@
    "trigger": "",
    "soz": "",
    "guncelleme": "26.11 08:53"
+  },
+  {
+   "id": "SABIT-korelasyon",
+   "ad": "Sabit veri tweeti korelasyon",
+   "zaman": "2026-12-02T16:00",
+   "ne": "kural 93 zincir",
+   "ticker": "",
+   "tur": "tek",
+   "durum": "bekliyor",
+   "not": "",
+   "trigger": "",
+   "soz": "",
+   "guncelleme": "26.11 08:59"
   },
   {
    "id": "TEST-SNOW-0312",

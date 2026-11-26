@@ -1,0 +1,3 @@
+# Bilanço öncesi tepki istatistiği (kural 93-8)
+Tetikleyici: sabah görevi `python3 invest/veri_icerik2.py yaklasan 2` -> portföyde 2 gün içinde bilanço varsa, o gün 16:10'a bu sohbette send_later kur (ad 'Bilanço öncesi tepki <T>', mesaj: 'HESAP=<etiket>. AKTIF kontrol. invest/gorevler/bilanco_tepki.md uygula, T=<T>').
+ADIMLAR: `python3 invest/veri_icerik2.py bilanco --t <T> --kart g/YYYYMMDD_1610_bilanco_<T>.jpg`. Tweet kısa: son 8 bilançoda ortalama mutlak hareket, kaç kez yükseldi, en büyük hareket; kural 65 ikinci katman (opsiyon piyasasının beklediği hareket varsa chartexchange/AV put-call ya da açığa satış); kural 89 tek cümle (beklentinin fiyatlanması). Tür VERI-BILANCO. Kontroller ve kayıt diğer veri tweetleri gibi. Hedef/al-sat yok.
