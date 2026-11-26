@@ -2914,11 +2914,24 @@
    "ne": "tur zinciri",
    "ticker": "",
    "tur": "tek",
-   "durum": "kuruldu",
+   "durum": "yapildi",
    "not": "",
    "trigger": "trig_01GjJpxfbysvvTsQUWh591jY",
    "soz": "",
-   "guncelleme": "26.11 14:27"
+   "guncelleme": "26.11 14:56"
+  },
+  {
+   "id": "TUR-2611-1520",
+   "ad": "Otomatik paylaşım turu",
+   "zaman": "2026-11-26T15:20",
+   "ne": "tur zinciri",
+   "ticker": "",
+   "tur": "tek",
+   "durum": "kuruldu",
+   "not": "",
+   "trigger": "trig_013PvJ2s7zKE1HkrFS63ont6",
+   "soz": "",
+   "guncelleme": "26.11 14:56"
   },
   {
    "id": "SABIT-kuyruk",
