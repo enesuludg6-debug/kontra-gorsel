@@ -267,3 +267,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 25.11 | 22:10 | MAKRO | [A:iddia] Fed Bej Kitap: 8/12 bölge büyüme, girdi maliyeti > satış fiyatı, ücret hızlandı; Aralık artırımı değişmez, baskı marjlarda; 13 Ocak sonraki Bej Kitap | haber_dosya | 6b07329c636c52154b99315f |
 | 26.11 | 00:16 | SONUC | [A:iddia] TEST-AYRISMA-2511 sonuç takibi: NVDA 149,30>125,53, AMD 406,03<424,39, AVGO 300,86<304,41 tuttu | haber_dosya | 6b075026b96dd8d35161b98e |
 | 26.11 | 10:40 | KORKU | [A:normal] Korku-Açgözlülük 17,4 aşırı korku (kural 90 ilk) | cizgi_pro | 6b07c6f4b96dd8d351914536 |
+| 26.11 | 11:19 | HABER | [A:iddia] Kioxia +%12,6 yalnız Nvidia değil; 2,21 trilyon yen iç temettü + 144 SSD deneme; ikinci etki SanDisk/Micron | cizgi_olay | 6b07eb84aca8612480906cfc |
