@@ -280,3 +280,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 26.11 | 16:57 | DERIN-ANALIZ | [A:iddia] AÇIKLAYICI 2/5: XPU / özel yapay zekâ çipi, AVGO | sutun | 6b083ac080ee2e8b6680cb1f |
 | 26.11 | 17:50 | PORTFOY | [A:normal] AÇIKLAYICI 3/5: sıvı soğutma neden zorunlu, VRT ön ödemeler | dosya | 6b084713a9607f755582e90f |
 | 26.11 | 19:21 | TARIHSEL | [A:iddia] TARİHSEL (kural 96) ilk: VIX 25 üstü -> Nasdaq 100 6 ay | egim | 6b085ca54e32cfdd23069e88 |
+| 26.11 | 20:12 | PORTFOY | [A:normal] AÇIKLAYICI 4/5: zamanlama çipi, SITM | bilanco | 6b08688c3accdac92ce4d4f2 |
