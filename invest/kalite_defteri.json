@@ -3,20 +3,6 @@
 "jargon": {},
 "tarih": [],
 "terim": [],
-"acilis": "s p 500 bugün",
-"kapanis": "s p 500 bugün",
-"rekor": 0,
-"imza": "1p-duz-k-rakam",
-"kalip": "C",
-"tur": "BAGLAM-GORUS",
-"zaman": "24.11 08:31",
-"gun": "24.11",
-"uzunluk": 47
-},
-{
-"jargon": {},
-"tarih": [],
-"terim": [],
 "acilis": "nasdaq 100 ün 6",
 "kapanis": "geçen hafta nasdaq 100",
 "rekor": 0,
@@ -990,5 +976,24 @@
 "zaman": "26.11 14:56",
 "gun": "26.11",
 "uzunluk": 669
+},
+{
+"jargon": {},
+"tarih": [],
+"terim": [],
+"acilis": "iddia",
+"kapanis": "neocloud nvidia gpu larını",
+"rekor": 0,
+"k89": [
+"fark"
+],
+"k89_son": "",
+"k89_hazir": [],
+"imza": "2p-satir-o-cerceve",
+"kalip": "A",
+"tur": "DERIN-ANALIZ",
+"zaman": "26.11 15:22",
+"gun": "26.11",
+"uzunluk": 599
 }
 ]

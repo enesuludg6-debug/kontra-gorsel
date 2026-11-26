@@ -275,3 +275,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 26.11 | 13:54 | HABER | [A:normal] Nikkei yükselişinin yarısı Advantest'ten, Topix +%0,1 | cizgi_olay | 6b080ff5b56cc066e5beaa97 |
 | 26.11 | 14:27 | HABER | [A:iddia] OpenAI Private Inference / gizli hesaplama tedarikçileri | kucuk_coklu | 6b08178c3d35a6c490d28670 |
 | 26.11 | 14:56 | PORTFOY | [A:normal] RKLB fiyatlama gücü / SpaceX yörünge veri merkezi ikinci derece etkisi | dosya | 6b081e6096d200044e41cfe6 |
+| 26.11 | 15:40 | DERIN-ANALIZ | [A:iddia] AÇIKLAYICI 1/5: Neocloud iş modeli ve Nebius peşin ödeme | bilanco | 6b0824615b429f9be00a73ae |
