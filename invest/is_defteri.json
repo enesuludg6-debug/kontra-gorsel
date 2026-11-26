@@ -3005,11 +3005,24 @@
    "ne": "tur zinciri",
    "ticker": "",
    "tur": "tek",
-   "durum": "kuruldu",
+   "durum": "yapildi",
    "not": "",
    "trigger": "trig_01P9gCfPdR8CnKg4tHjaCRA6",
    "soz": "",
-   "guncelleme": "26.11 19:22"
+   "guncelleme": "26.11 20:13"
+  },
+  {
+   "id": "TUR-2611-2100",
+   "ad": "Otomatik paylaşım turu",
+   "zaman": "2026-11-26T21:00",
+   "ne": "tur zinciri",
+   "ticker": "",
+   "tur": "tek",
+   "durum": "kuruldu",
+   "not": "",
+   "trigger": "trig_01XyzppH3X8XYW2F93XpeZxP",
+   "soz": "",
+   "guncelleme": "26.11 20:13"
   },
   {
    "id": "SABIT-KORKU",
