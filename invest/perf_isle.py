@@ -42,6 +42,9 @@ def zaman(s): return dt.datetime.fromisoformat(s.replace("Z", "+00:00"))
 
 def isle(yollar):
     R = list(csv.DictReader(open(P, encoding="utf-8")))
+    for r in R:  # bozuk satır koruması: fazla alan varsa konu'ya ekle, yazımı çökertmesin
+        fazla = r.pop(None, None)
+        if fazla: r["konu"] = (r.get("konu") or "") + " " + " ".join(fazla)
     idx = {r["buffer_id"]: r for r in R if r.get("buffer_id")}
     guncel = yeni = bekleyen = 0; en_erken = None
     for y in yollar:

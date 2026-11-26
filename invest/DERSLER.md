@@ -75,6 +75,9 @@ O-012 (24.11 20:30) Tekrar kontrolü yalnız DONGU'ya değil performans_veri.csv
 - 17.11: Buffer metrikleri ~24 saat gecikmeli; aynı günün tweetleri ertesi sabah ölçülür.
 - 17.11 (ders_analiz, 120 tweet, 15-17.11, türler tahmini*): saat 21-24 göreli 1,21 (n=27), 12-15 1,20 (n=15, tek hafta), 18-21 0,98 (n=36), 09-12 0,88; tür farkları < %25 (13F 0,83 n=8). Enes'in kendi tweetleri göreli 1,37 (n=15, haftalar çelişkili). En yüksek tekil tweetler hepsi görüş/duruş içeriyor (YTD 9,35x, RKLB grafik görüşü 4,19x, NBIS 4,16x).
 
+- 26.11 (perfogren): 25.11 olgun 17 tweet, toplam 8.084, medyan 432 (7 gün genel 374). En iyi: 12:54 BAGLAM-GORUS YZ çipleri 52 hafta sıralaması 879; Enes elle PCE 738.
+- 26.11: 7 gün saat dilimi 18-21 medyan 484 en yüksek, 00-03 275 en düşük (n=27); Enes elle medyan 532 vs sistem 347 sürüyor. Eşik geçen ders yok (ders_analiz 14 gün).
+- 26.11: bilanco_perf 30 gün DETAY 0,80 en zayıf, BEKLENTI en güçlü; mevcut BILANCO DAGILIM (DETAY 1, ANALIZ 2) teyit, değişiklik yok.
 ## Deneyler
 - (yok)
 
