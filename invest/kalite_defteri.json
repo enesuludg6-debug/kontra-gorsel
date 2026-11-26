@@ -1,21 +1,5 @@
 [
 {
-"jargon": {
-"fiyatlama": 1
-},
-"tarih": [],
-"terim": [],
-"acilis": "geçen hafta vix 86",
-"kapanis": "bence bu tablo satışın",
-"rekor": 0,
-"imza": "4p-duz-o-rakam",
-"kalip": "F",
-"tur": "BAGLAM-GORUS",
-"zaman": "23.11 23:11",
-"gun": "23.11",
-"uzunluk": 525
-},
-{
 "jargon": {},
 "tarih": [],
 "terim": [],
@@ -966,5 +950,24 @@
 "zaman": "26.11 12:51",
 "gun": "26.11",
 "uzunluk": 510
+},
+{
+"jargon": {},
+"tarih": [],
+"terim": [],
+"acilis": "iddia",
+"kapanis": "bridge data centres ın",
+"rekor": 0,
+"k89": [
+"fark"
+],
+"k89_son": "",
+"k89_hazir": [],
+"imza": "2p-satir-o-cerceve",
+"kalip": "I",
+"tur": "HABER",
+"zaman": "26.11 13:28",
+"gun": "26.11",
+"uzunluk": 496
 }
 ]
