@@ -94,3 +94,22 @@ Enes telefondan kısa mesaj yazar ya da grafik ekran görüntüsü atar; sen aş
 - GEÇMİŞ TESTİ (kanıt kuralı, bu enstrüman ve bu zaman dilimi): süpürme, süpürme+MSS, FVG'ye ilk dönüş (itkili/hacimli/doğru bölge) sonrası 10 mum; taban oran + Wilson. Sonuçlar `invest/smc_karne.json`'a yazılır; analizde yalnız GÜÇLÜ/zayıf kanıtlı araçları dayanak yap, TERS çıkanı (ör. NDX 4h tepe süpürmesi+MSS %9) Enes'e açıkça söyle.
 - A+ KONTROL LİSTESİ 7 madde (üst TF uyumu, lehte süpürme, MSS, yakın kaliteli FVG, doğru bölge, SMT, geçmişte işe yarama): ≥6 A+, 4-5 B (onay bekle/küçük), ≤3 kurulum yok.
 - 26.11 bulguları: AVGO günlükte dip süpürmesi tabanı geçiyor (%69 vs %60, 144 olay, GÜÇLÜ) ve 25.11'de 279,31 dibi süpürüldü; 4h'de süpürme+MSS TERS. NDX 4h'de süpürmeler farksız; hacimli FVG'ye dönüş zayıf üstünlük.
+
+## İSVİÇRE ÇAKISI KATMANI (Enes 26.11 07:55-07:56 "TrendSpider'ın tüm özelliklerine bak, eksikleri bul, daha iyisini yap")
+TrendSpider karşılıkları ve fazlası; hepsi Enes'e özel analiz için, otomatik tweet yok. Ortak motor `invest/gosterge.py` (70+ gösterge adı; `python3 invest/gosterge.py` listeler), Türkçe kural dili: "rsi<35 ve kapanis>ema200 ve h_trend=1" (ve / veya / değil). h_ önekli adlar HAFTALIK (son tamamlanan hafta) = çoklu zaman dilimi.
+| Enes yazarsa | Çalıştır |
+|---|---|
+| "tara dip" / "tara rsi<30 ve h_trend=1" | `tarama.py <hazır|ifade> [--evren portfoy|ndx|hepsi|A,B] [--sirala rs20]` — 122 hisse; kalite puanı, 1 hafta bandı, kaç gündür, GEÇMİŞ KANIT satırı |
+| "hazır taramalar" | `tarama.py hazir` (13 hazır: dip_avcisi, derin_dip, supurme_donus, kirilim, zirve_kirilim, sikisma, lider, trend_donus, altin_kesisim, geri_cekilme, birikim, asiri_alim, kirilim_asagi; yanında ÜSTÜN/FARKSIZ/TERS) |
+| "izleme listesi" | `tarama.py liste` (dinamik liste; her sabah `tarama.py izle` günceller, 30 günde kapanır -> tarama karnesi = ileriye dönük test) |
+| "backtest …" / "bu strateji çalışır mı" | `backtest.py <T|portfoy|ndx|hepsi> --giris "<ifade>" [--cikis] [--stop 2] [--hedef 4] [--sure 20] [--yon kisa] [--png]` |
+| "formasyon AVGO" / "trend çizgisi" | `formasyon.py <T> [--tf 1d|4h|1wk] [--mtf]` |
+| "ısı haritası" | `tarama.py isi --evren ndx --olcu getiri1|getiri5|rs20|rsi --out g/isi.png` -> SendUserFile |
+| "raindrop AVGO" | `raindrop.py <T> --gun 30 --out g/rd.png` -> SendUserFile |
+| "alarm: portföyde dip süpürmesi olursa" | `tarama.py alarm ekle <T|evren> "<ifade>" "<not>"`; her tur başında `alarm kontrol` (yanlıştan doğruya geçişte bir kez) |
+| "ML AVGO" | `ml.py <T|evren> [--ufuk 10] [--model orman|lojistik]` |
+- BACKTEST kuralları: sinyal kapanışta, giriş ertesi gün açılışta (ileriye bakma yok); stop ve hedef aynı gün = stop (kötümser); maliyet %0,1 gidiş-dönüş. Rapor: TABAN = rastgele girişler AYNI stop/hedef/süreyle (giriş üstünlüğünü adil ölçer), Wilson aralığı, örnek dışı (ilk %70 / son %30), eşik duyarlılığı (±%10/±%20), Monte Carlo (2000), çok hisselide her işlem sermayenin 1/5'i; HÜKÜM SAĞLAM / UMUT VERİCİ / ZAYIF. Tabanı geçmeyen strateji en fazla ZAYIF.
+- Evren uyarısı: NDX listesi BUGÜNKÜ bileşenler (hayatta kalanlar) — geçmiş testler iyimser; bunu söyle. Tek hisse yerine evren testi tercih et.
+- 26.11 KANIT (122 hisse, 10 yıl, 2 ATR stop / 4 ATR hedef / 15 gün): ÜSTÜN yalnız dip_avcisi (ort +1,29 vs rastgele +0,70) ve derin_dip (+2,13 vs +0,70); kirilim, lider, sikisma, trend_donus, geri_cekilme, altin_kesisim FARKSIZ; birikim TERS. ML (portföy, orman, 10 gün) AUC 0,46 -> İŞE YARAMIYOR. Bu sonuçları Enes'e açıkça söyle; FARKSIZ taramayı "fırsat" diye sunma, "izleme" diye sun.
+- FORMASYON: ikili dip/tepe, OBO ve ters OBO, yükselen/alçalan/simetrik üçgen, yükselen/düşen kama, bayrak; boyun/kırılım, ölçülen hedef, geçersizlik, ONAY durumu ve BU hissede geçmiş başarısı (taban oranlı). Trend çizgileri pivot dokunma sayısıyla (≥3), ihlalsiz, fiyatın doğru tarafında ve ≤6 ATR uzaklıkta; --mtf ile haftalık çizgiler. Doldurulmamış boşluklar, otomatik Fibonacci.
+- TrendSpider'da olup bizde OLMAYAN: gerçek zamanlı veri (Yahoo gecikmeli/gün sonu), opsiyon zinciri ve karanlık havuz verisi, aracı kurum emri/bot. Bizde olup onda olmayan: her sinyal için taban oranlı kanıt, örnek dışı + duyarlılık + Monte Carlo zorunlu, dürüst ML hükmü, SMC/ICT geçmiş testi.

@@ -1,0 +1,132 @@
+{
+ "dip_avcisi": {
+  "n": 966,
+  "kazanma": 51,
+  "taban": 47,
+  "ort": 1.29,
+  "taban_ort": 0.7,
+  "pf": 1.46,
+  "hukum": "ÜSTÜN",
+  "tarih": "2026-11-26"
+ },
+ "derin_dip": {
+  "n": 1127,
+  "kazanma": 52,
+  "taban": 47,
+  "ort": 2.13,
+  "taban_ort": 0.7,
+  "pf": 1.46,
+  "hukum": "ÜSTÜN",
+  "tarih": "2026-11-26"
+ },
+ "supurme_donus": {
+  "n": 3996,
+  "kazanma": 49,
+  "taban": 47,
+  "ort": 0.75,
+  "taban_ort": 0.7,
+  "pf": 1.21,
+  "hukum": "FARKSIZ",
+  "tarih": "2026-11-26"
+ },
+ "kirilim": {
+  "n": 2248,
+  "kazanma": 48,
+  "taban": 47,
+  "ort": 0.8,
+  "taban_ort": 0.7,
+  "pf": 1.26,
+  "hukum": "FARKSIZ",
+  "tarih": "2026-11-26"
+ },
+ "zirve_kirilim": {
+  "n": 2827,
+  "kazanma": 47,
+  "taban": 47,
+  "ort": 0.4,
+  "taban_ort": 0.7,
+  "pf": 1.14,
+  "hukum": "FARKSIZ",
+  "tarih": "2026-11-26"
+ },
+ "sikisma": {
+  "n": 2426,
+  "kazanma": 47,
+  "taban": 47,
+  "ort": 0.82,
+  "taban_ort": 0.7,
+  "pf": 1.28,
+  "hukum": "FARKSIZ",
+  "tarih": "2026-11-26"
+ },
+ "lider": {
+  "n": 3707,
+  "kazanma": 48,
+  "taban": 47,
+  "ort": 0.61,
+  "taban_ort": 0.7,
+  "pf": 1.2,
+  "hukum": "FARKSIZ",
+  "tarih": "2026-11-26"
+ },
+ "trend_donus": {
+  "n": 3515,
+  "kazanma": 50,
+  "taban": 47,
+  "ort": 0.98,
+  "taban_ort": 0.7,
+  "pf": 1.32,
+  "hukum": "FARKSIZ",
+  "tarih": "2026-11-26"
+ },
+ "altin_kesisim": {
+  "n": 642,
+  "kazanma": 51,
+  "taban": 47,
+  "ort": 1.07,
+  "taban_ort": 0.7,
+  "pf": 1.39,
+  "hukum": "FARKSIZ",
+  "tarih": "2026-11-26"
+ },
+ "geri_cekilme": {
+  "n": 3245,
+  "kazanma": 49,
+  "taban": 47,
+  "ort": 0.84,
+  "taban_ort": 0.7,
+  "pf": 1.29,
+  "hukum": "FARKSIZ",
+  "tarih": "2026-11-26"
+ },
+ "birikim": {
+  "n": 340,
+  "kazanma": 45,
+  "taban": 47,
+  "ort": 0.0,
+  "taban_ort": 0.7,
+  "pf": 1.0,
+  "hukum": "TERS",
+  "tarih": "2026-11-26"
+ },
+ "asiri_alim": {
+  "n": 2258,
+  "kazanma": 37,
+  "taban": 39,
+  "ort": -1.07,
+  "taban_ort": -0.84,
+  "pf": 0.71,
+  "hukum": "FARKSIZ",
+  "tarih": "2026-11-26"
+ },
+ "kirilim_asagi": {
+  "n": 2236,
+  "kazanma": 38,
+  "taban": 39,
+  "ort": -1.23,
+  "taban_ort": -0.84,
+  "pf": 0.75,
+  "hukum": "FARKSIZ",
+  "tarih": "2026-11-26"
+ }
+}

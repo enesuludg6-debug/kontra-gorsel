@@ -75,3 +75,4 @@ E
 
 # Fiyat alarmları (teknik_ek.py, Enes 25.11 22:16)
 { [ -f teknik_ek.py ] && python3 teknik_ek.py alarm kontrol; } 2>/dev/null || { [ -f invest/teknik_ek.py ] && python3 invest/teknik_ek.py alarm kontrol; } 2>/dev/null
+{ [ -f tarama.py ] && timeout 120 python3 tarama.py alarm kontrol; } 2>/dev/null || { [ -f invest/tarama.py ] && timeout 120 python3 invest/tarama.py alarm kontrol; } 2>/dev/null
