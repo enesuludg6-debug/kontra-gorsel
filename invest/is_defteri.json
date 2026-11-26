@@ -2791,6 +2791,19 @@
    "mesaj": "HESAP=C3. Önce invest/AKTIF_HESAP.md oku; AKTIF: C3 değilse hiçbir şey yapma (tweet ve push yok) ve bu görevi kapat. git pull, DURDUR kontrolü. İŞ TEST-TARIFE-2511 (Sonuç takibi: Tayvan gümrük oranı). Önce `isler.py liste | grep TARIFE` ve DONGU: duyuru 25.11'de bir turda zaten işlendiyse 'yapildi' yap ve bitir. KURAL 66: 25.11 14:04 tweeti (Buffer 6b06c0a64f2f059ad9a4f8a6) — 'Tayvan'a %15 üstü oran gelirse en açık risk TSM'. USTR Section 301 aşırı kapasite duyurusu çıktı mı (2 kaynak): Tayvan oranı ve yarı iletken muafiyeti. Çıktıysa sonuç takibi tweeti (kart3 haber_dosya, skill enes-gorsel + enes-sonuc-takibi); kural 23: yön tutmadıysa tahmin anılmaz, yalnız haber + yorum. Sonucu `python3 invest/yorumlar.py sonuc TEST-TARIFE-2511 ...` ile yaz. Duyuru yoksa tarihi 1 gün ileri al (`isler.py` ile) ve send_later'ı yeniden kur (`isler.py mesaj --yaz` ile mesajı da güncelle). Perşembe ABD borsası kapalı. invest/gorevler/_ORTAK.md oku. Bitince `python3 invest/isler.py durum TEST-TARIFE-2511 yapildi`. Bütün mesajlar bu sohbete (SendUserMessage / SendUserFile)."
   },
   {
+   "id": "TUR-2611-1115",
+   "ad": "Otomatik paylaşım turu",
+   "zaman": "2026-11-26T11:15",
+   "ne": "sabah kurdu",
+   "ticker": "",
+   "tur": "tek",
+   "durum": "bekliyor",
+   "not": "",
+   "trigger": "",
+   "soz": "",
+   "guncelleme": "26.11 09:00"
+  },
+  {
    "id": "SABIT-iceriden",
    "ad": "Sabit veri tweeti iceriden",
    "zaman": "2026-11-26T12:00",
