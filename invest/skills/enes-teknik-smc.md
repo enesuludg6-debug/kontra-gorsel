@@ -140,3 +140,14 @@ Shell yalnız Yahoo'ya çıkar (diğer siteler 403); bu yüzden: Yahoo'dan alın
   3. `bigdata_search` (smart): "neden hareket etti" haberleri, bilanço görüşmesi metinleri, SEC belgeleri, analist notları; kaynak + tarih + bağlantıyla alıntıla. Teknik analizde "haber/katalizör" satırı için.
   4. `bigdata_events_calendar`: bilanço ve makro takvim (teknik plandaki takvim riski kontrolü).
 - Bilgi Enes'e gidiyorsa kaynak adını "Bigdata.com" yaz. Tweet'e girecekse kural 23 (iki kaynak) geçerli.
+
+## ÜCRETSİZ KAYNAKLAR (Enes 26.11 08:35 "ücretsiz sitelere de bağlanalım")
+WebFetch ile çalışan, test edilmiş (26.11) ücretsiz kaynaklar; değerler `invest/nabiz.py kaydet` ile birikir, `nabiz.py oku` karşıt duygu göstergesi verir:
+- CNN Korku-Açgözlülük: `https://production.dataviz.cnn.io/index/fearandgreed/graphdata` (skor + 7 alt gösterge, 1 hafta/1 ay önce).
+- CBOE put/call: `https://www.cboe.com/us/options/market_statistics/daily/` (toplam, hisse, endeks, SPX).
+- AAII bireysel yatırımcı anketi: `https://www.aaii.com/sentimentsurvey` (haftalık).
+- FRED (her seri): `https://fred.stlouisfed.org/graph/fredgraph.csv?id=<SERİ>` — BAMLH0A0HYM2 (yüksek getirili tahvil primi, kredi stresi), T10Y2Y (eğri), VIXCLS, DFII10 (reel faiz), WALCL (Fed bilançosu), RRPONTSYD (ters repo). İstem: "son 10 satırı CSV olarak ver".
+- stockanalysis.com: `https://stockanalysis.com/stocks/<t>/statistics/` — RESMİ (borsa, 2 haftalık) açığa satış %, kapatma günü, kurumsal/içeriden sahiplik, değerleme oranları. ORTEX (Bigdata.com) günlük TAHMİNDİR; ikisi farklıysa ikisini de yaz (26.11 SITM: resmi %4,85, ORTEX %7,0).
+- chartexchange (opsiyon, karanlık havuz, ödünç) ve tapeboard: alt_veri.py bölümüne bak.
+- ÇALIŞMAYAN (deneme): finviz, openinsider, SEC EDGAR (robots), quiverquant ve NAAIM (JS), Nasdaq API (robots), Polymarket etiket filtresi.
+- Kullanım: endeks dip/tepe analizinde ve "piyasa nasıl" sorularında `nabiz.py oku` satırlarını ekle; karşıt gösterge tek başına sinyal değil, fiyat onayıyla birlikte bağlamdır.
