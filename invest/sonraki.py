@@ -6,7 +6,7 @@ Kullanim: python3 invest/sonraki.py <anahtar>   -> send_later 'at' degeri (2026-
 import sys, datetime as dt
 from zoneinfo import ZoneInfo
 TZ = ZoneInfo("Europe/Istanbul")
-# anahtar: (ad, tur, saat, ek)  tur: gunluk | hafta_ici | haftalik(gun 0=Pzt..6=Paz) | ay_ilk7 | yillik([(ay,gun),...])
+# anahtar: (ad, tur, saat, ek)  tur: gunluk | hafta_ici | seans_ertesi(Sal-Cmt) | haftalik(gun 0=Pzt..6=Paz) | ay_ilk7 | yillik([(ay,gun),...])
 G = {
  "sabah":       ("Sabit: sabah kontrolü 09:00", "gunluk", "09:00", None),
  "keylevels":   ("Sabit: key levels 10:30", "hafta_ici", "11:00", None),  # kural 42: tweet penceresi 11:00
@@ -21,6 +21,7 @@ G = {
  "karne":       ("Sabit: tutan yorumlar karnesi Cmt 20:25", "haftalik", "20:25", 5),  # kural 86 F-018
  "perfogren":   ("Sabit: performans öğrenme 10:15", "gunluk", "10:15", None),  # kural 57
  "ayinozeti":   ("Sabit: ayın özeti + mevsimsellik 10:55", "ay_ilk7", "10:55", None),
+ "korku":       ("Sabit: korku-açgözlülük endeksi 10:40", "seans_ertesi", "10:40", None),  # kural 90 (Enes 26.11 08:40)
  "13f":         ("Sabit: 13F serisi başlangıcı 09:05", "yillik", "09:05", [(2, 15), (5, 16), (8, 15), (11, 15)]),
 }
 def sonraki(k, simdi=None):
@@ -28,7 +29,7 @@ def sonraki(k, simdi=None):
     for i in range(0, 400):
         g = (s + dt.timedelta(days=i)).date(); t = dt.datetime(g.year, g.month, g.day, h, m, tzinfo=TZ)
         if t <= s + dt.timedelta(minutes=2): continue
-        if tur == "gunluk" or (tur == "hafta_ici" and g.weekday() < 5) or (tur == "haftalik" and g.weekday() == ek) \
+        if tur == "gunluk" or (tur == "hafta_ici" and g.weekday() < 5) or (tur == "seans_ertesi" and 1 <= g.weekday() <= 5) or (tur == "haftalik" and g.weekday() == ek) \
            or (tur == "ay_ilk7" and g.day <= 7) or (tur == "yillik" and (g.month, g.day) in ek):
             return t
 def mesaj(k, H=None):

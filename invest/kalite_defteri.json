@@ -1,21 +1,5 @@
 [
 {
-"jargon": {
-"izleme kapanışı": 1
-},
-"tarih": [],
-"terim": [],
-"acilis": "bu hafta abd borsalarında",
-"kapanis": "pce fed in 8",
-"rekor": 0,
-"imza": "3p-satir-o-cerceve",
-"kalip": "M+C",
-"tur": "MAKRO",
-"zaman": "23.11 21:53",
-"gun": "23.11",
-"uzunluk": 652
-},
-{
 "jargon": {},
 "tarih": [],
 "terim": [],
@@ -938,5 +922,24 @@
 "zaman": "26.11 00:16",
 "gun": "25.11",
 "uzunluk": 465
+},
+{
+"jargon": {},
+"tarih": [],
+"terim": [],
+"acilis": "iddia",
+"kapanis": "önceki hafta 30 du",
+"rekor": 0,
+"k89": [
+"fiyatlanan"
+],
+"k89_son": "fiyatlanan",
+"k89_hazir": [],
+"imza": "2p-duz-k-rakam",
+"kalip": "B",
+"tur": "KORKU",
+"zaman": "26.11 08:43",
+"gun": "26.11",
+"uzunluk": 299
 }
 ]
