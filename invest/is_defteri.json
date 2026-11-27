@@ -3109,11 +3109,11 @@
    "ne": "tur zinciri",
    "ticker": "",
    "tur": "tek",
-   "durum": "kuruldu",
+   "durum": "yapildi",
    "not": "",
    "trigger": "trig_01FiJENoC6oYJU9YDS3RS8Gj",
    "soz": "",
-   "guncelleme": "27.11 00:41"
+   "guncelleme": "27.11 11:16"
   },
   {
    "id": "SABIT-fed",
@@ -3140,6 +3140,19 @@
    "trigger": "",
    "soz": "",
    "guncelleme": "26.11 08:53"
+  },
+  {
+   "id": "TUR-2711-1220",
+   "ad": "Otomatik paylaşım turu",
+   "zaman": "2026-11-27T12:20",
+   "ne": "tur zinciri",
+   "ticker": "",
+   "tur": "tek",
+   "durum": "kuruldu",
+   "not": "",
+   "trigger": "trig_01JtjypvQWyNjn5ZRnPmrhY1",
+   "soz": "",
+   "guncelleme": "27.11 11:16"
   },
   {
    "id": "SABIT-faktor",
