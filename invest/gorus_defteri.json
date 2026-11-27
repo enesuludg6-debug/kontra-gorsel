@@ -1,10 +1,5 @@
 [
 {
-"acilis": "ben bir yazılım",
-"kaliplar": [],
-"metin": "Ben bir yazılım şirketinde ilk olarak ARR büyümesinin hızlanıp hızlanmadığına bakarım. Gelir büyürken ARR yavaşlıyorsa büyümenin bir kısmı tek seferlik işlerden"
-},
-{
 "acilis": "fiyatları aşağı çeken",
 "kaliplar": [],
 "metin": "Fiyatları aşağı çeken bilançolar değil, yapay zekâ işlemindeki pozisyon azaltımı. Yapay zekâ capex döngüsü sürerken endekslerin %10-17 aşağıda fiyatlanması, uzu"
@@ -308,5 +303,10 @@
 "acilis": "bence nasdaq ta",
 "kaliplar": [],
 "metin": "Bence Nasdaq'ta dip oluştu."
+},
+{
+"acilis": "mu 7 yi",
+"kaliplar": [],
+"metin": "$MU %7'yi aştı, $AMD %4'ün üstünde kapattı. $NVDA ise sektöre göre geride kaldı, açılıştaki yükselişini geri verdi. Çin'de bir veri merkezinde kısıtlı Blackwell"
 }
 ]
