@@ -39,6 +39,7 @@ G = {
  "faktor": ("Sabit: Faktör panosu Cum 16:10", "haftalik", "16:10", 4),  # kural 93
  "bakir_altin": ("Sabit: Bakır/altın + 10Y Sal 16:10 (tek hafta)", "haftalik", "16:10", 1),  # kural 93
  "revizyon": ("Sabit: Kâr tahmini revizyonu Pzt 18:10", "haftalik", "18:10", 0),  # kural 93
+ "kalabalik": ("Sabit: Kalabalık endeksi Cmt 18:10", "haftalik", "18:10", 5),  # kural 97 (Enes 27.11 12:09)
  "13f":         ("Sabit: 13F serisi başlangıcı 09:05", "yillik", "09:05", [(2, 15), (5, 16), (8, 15), (11, 15)]),
 }
 def sonraki(k, simdi=None):

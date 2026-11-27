@@ -3208,6 +3208,19 @@
    "guncelleme": "26.11 08:53"
   },
   {
+   "id": "SABIT-kalabalik",
+   "ad": "Sabit: Kalabalık endeksi Cmt 18:10",
+   "zaman": "2026-11-28T18:10",
+   "ne": "kural 97 zincir",
+   "ticker": "",
+   "tur": "tek",
+   "durum": "kuruldu",
+   "not": "",
+   "trigger": "trig_01HpJaVWeDTLshpaSwjy8fcc",
+   "soz": "",
+   "guncelleme": "27.11 12:11"
+  },
+  {
    "id": "KARNE-2811",
    "ad": "Sabit: tutan yorumlar karnesi",
    "zaman": "2026-11-28T20:25",

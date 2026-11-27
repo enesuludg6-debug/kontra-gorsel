@@ -27,3 +27,5 @@ FOMC karar günleri kodda (`FOMC` listesi; Fed 12.11.2026 revize takvim: 09.12.2
 - Kart → `bash invest/yayinla_gorsel.sh` → Buffer shareNow; tür VERI-<ANAHTAR>. Kontroller: `yasak.py`, `kalite.py kontrol`, `gorus.py kontrol`; kayıt `kayit.py`, kalite/gorus kaydet, commit/push.
 - Veri yoksa / değişim anlamsızsa TWEET YOK. Hafta sonu tavanı 10 (kural 86): Cumartesi/Pazar dolarsa bu tweetler önce atlanır.
 - Al/sat, hedef, emoji, hashtag, link, soru yok; Anthropic adı geçmez.
+## Kalabalık endeksi (kural 97, 27.11)
+Cumartesi 18:10: `python3 invest/kalabalik.py hesap` + `kart`. Bireysel iyimserlik (CNN korku, AAII farkı, hisse put/call) ve kurumsal sakinlik (VIX/VIX3M yüzdelik, SKEW, endeks put/call), 0-100, kendi ölçeğimiz. SentimenTrader gibi ücretli kaynakların verisi, grafiği ya da linki kullanılmaz. Fark ≥+25: kalabalık korkuyor, kurumlar korunmuyor (dip davranışı); ≤−25: tepe riski. Tweet kısa, 'kendi ölçeğim', tek başına sinyal değil cümlesi.
