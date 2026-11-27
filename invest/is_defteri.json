@@ -2823,11 +2823,11 @@
    "ne": "tur zinciri",
    "ticker": "",
    "tur": "tek",
-   "durum": "kuruldu",
+   "durum": "yapildi",
    "not": "",
    "trigger": "trig_01Cn8Mwyw9sjBxAtcMJVr8dz",
    "soz": "",
-   "guncelleme": "26.11 11:16"
+   "guncelleme": "27.11 09:04"
   },
   {
    "id": "SABIT-iceriden",
@@ -2836,11 +2836,11 @@
    "ne": "kural 92 zincir",
    "ticker": "",
    "tur": "tek",
-   "durum": "bekliyor",
+   "durum": "yapildi",
    "not": "",
    "trigger": "",
    "soz": "",
-   "guncelleme": "26.11 08:53"
+   "guncelleme": "27.11 09:04"
   },
   {
    "id": "TUR-2611-1220",
@@ -2940,11 +2940,11 @@
    "ne": "kural 93 zincir",
    "ticker": "",
    "tur": "tek",
-   "durum": "bekliyor",
+   "durum": "yapildi",
    "not": "",
    "trigger": "",
    "soz": "",
-   "guncelleme": "26.11 08:59"
+   "guncelleme": "27.11 09:04"
   },
   {
    "id": "TUR-2611-1655",
@@ -2979,11 +2979,11 @@
    "ne": "kural 91 zincir",
    "ticker": "",
    "tur": "tek",
-   "durum": "bekliyor",
+   "durum": "yapildi",
    "not": "",
    "trigger": "",
    "soz": "",
-   "guncelleme": "26.11 08:47"
+   "guncelleme": "27.11 09:04"
   },
   {
    "id": "TUR-2611-1920",
