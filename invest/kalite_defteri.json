@@ -1,19 +1,5 @@
 [
 {
-"jargon": {},
-"tarih": [],
-"terim": [],
-"acilis": "rklb bugün 8 civarı",
-"kapanis": "hisse günlük olarak yz",
-"rekor": 0,
-"imza": "4p-duz-o-rakam",
-"kalip": "H",
-"tur": "PORTFOY",
-"zaman": "24.11 20:21",
-"gun": "24.11",
-"uzunluk": 671
-},
-{
 "jargon": {
 "izleme kapanışı": 1
 },
@@ -1109,5 +1095,25 @@
 "zaman": "27.11 18:14",
 "gun": "27.11",
 "uzunluk": 448
+},
+{
+"jargon": {},
+"tarih": [],
+"terim": [],
+"acilis": "iddia",
+"kapanis": "panik günlerinde hisse düşer",
+"rekor": 0,
+"k89": [
+"fark",
+"fiyatlanan"
+],
+"k89_son": "",
+"k89_hazir": [],
+"imza": "2p-duz-k-rakam",
+"kalip": "N",
+"tur": "HABER",
+"zaman": "27.11 18:52",
+"gun": "27.11",
+"uzunluk": 282
 }
 ]
