@@ -1,19 +1,5 @@
 [
 {
-"jargon": {},
-"tarih": [],
-"terim": [],
-"acilis": "hpe nin 8 k",
-"kapanis": "bu yüzden 2027 için",
-"rekor": 0,
-"imza": "3p-duz-o-rakam",
-"kalip": "I",
-"tur": "BILANCO-ANALIZ",
-"zaman": "24.11 17:42",
-"gun": "24.11",
-"uzunluk": 686
-},
-{
 "jargon": {
 "izleme kapanışı": 1
 },
@@ -1075,5 +1061,24 @@
 "zaman": "27.11 12:22",
 "gun": "27.11",
 "uzunluk": 462
+},
+{
+"jargon": {},
+"tarih": [],
+"terim": [
+"sipariş defteri"
+],
+"acilis": "iddia",
+"kapanis": "abd gelişmiş çip makinelerinin",
+"rekor": 0,
+"k89": [],
+"k89_son": "",
+"k89_hazir": [],
+"imza": "2p-satir-o-cerceve",
+"kalip": "A",
+"tur": "HABER",
+"zaman": "27.11 13:05",
+"gun": "27.11",
+"uzunluk": 511
 }
 ]

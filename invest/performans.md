@@ -289,3 +289,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 27.11 | 11:01 | VADELI | [A:normal] GÜNÜN BAŞLIKLARI: vadeliler +, Tokyo TÜFE beklenti altı, yarım gün | siralama | 6b0938e71fd46e62e7253a5e |
 | 27.11 | 11:42 | AAII | [A:iddia] AAII ayı %45, nötr %18'e indi | aaii | 6b094271049983dcfba1ed3d |
 | 27.11 | 12:22 | HABER | [A:normal] AÇIKLAYICI 1/5: jeopolitik risk primi  Brent 92 / ekim 117 | cizgi_olay | 6b094bd9062ed764a8ffd7b7 |
+| 27.11 | 13:05 | HABER | [A:iddia] AÇIKLAYICI 2/5: ihracat kısıtlaması / Çin payı  ASML | dosya | 6b0955d1776ce21276079a57 |
