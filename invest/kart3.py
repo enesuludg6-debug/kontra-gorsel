@@ -95,7 +95,8 @@ def denetle(fig):
         for j in range(i + 1, len(kutular)):
             a, b = kutular[i][0], kutular[j][0]
             ox = min(a.x1, b.x1) - max(a.x0, b.x0); oy = min(a.y1, b.y1) - max(a.y0, b.y0)
-            if ox > 6 and oy > 6 and kutular[i][1] != kutular[j][1]:
+            kucuk = min(a.width * a.height, b.width * b.height) or 1
+            if ox > 6 and oy > 6 and ox * oy / kucuk > 0.15 and kutular[i][1] != kutular[j][1]:
                 sorun.append(f"ÇAKIŞMA: '{kutular[i][1]}' ile '{kutular[j][1]}'")
     return sorun
 
@@ -223,7 +224,7 @@ def _yuzde(v, ondalik=1):
 def _kahraman(fig, rect, deger, etiket, renk):
     """Grafiğin sol üstüne büyük 'kahraman rakam' (okur ilk bunu görür)."""
     _t(fig, rect[0] + 0.005, rect[1] + rect[3] - 0.005, deger, 96, "black", renk, va="top")
-    _t(fig, rect[0] + 0.008, rect[1] + rect[3] - 0.085, etiket, 26, "bold", MUTED, va="top")
+    _t(fig, rect[0] + 0.008, rect[1] + rect[3] - 0.092, etiket, 26, "bold", MUTED, va="top")
 
 def cizgi_pro(kicker, baslik, alt, seri, olaylar, sonuc, kaynak, out, kahraman=None, zirve=True, golge=None, ref=None, renk=ACC):
     """Açıklamalı çizgi: zirve çizgisi + zirveden düşüş gölgesi + kahraman rakam + olay notları.
@@ -456,10 +457,10 @@ def dosya(ticker, kicker, baslik, spot, seri, kiyas, olaylar, sonuc, kaynak, out
     fig.add_artist(Rectangle((L, 0.922), R - L, 0.0012, transform=fig.transFigure, color=GRID))
     lg = _logo_png(ticker); lw_ = 0
     if lg:
-        h = 100; lg = lg.resize((int(lg.width * h / lg.height), h)); lw_ = lg.width
+        h = 150; lg = lg.resize((int(lg.width * h / lg.height), h)); lw_ = lg.width  # Enes: logo çok belirgin (27.11 100->150)
         fig.figimage(lg, xo=int(1080 * R) - lg.width, yo=int(1350 * 0.905) - h, zorder=10)
     size = 64; y = 0.905
-    for s_ in textwrap.wrap(baslik, 26 if lg else 30)[:3]:
+    for s_ in textwrap.wrap(baslik, 22 if lg else 30)[:3]:
         _t(fig, L, y, s_, size, "black", INK, va="top"); y -= 0.056
     y -= 0.006
     fig.text(L, y, spot, fontsize=32 * 0.72, color="#C9CED8", family="Instrument Serif", style="italic", va="top"); y -= 0.045
@@ -550,9 +551,9 @@ def _kabuk(ticker, kicker, etiket, baslik, spot, kaynak, yontem, son_tarih=None)
     fig.add_artist(Rectangle((L, 0.922), R - L, 0.0012, transform=fig.transFigure, color=GRID))
     lg = _logo_png(ticker)
     if lg:
-        h = 100; lg = lg.resize((int(lg.width * h / lg.height), h)); fig.figimage(lg, xo=int(1080 * R) - lg.width, yo=int(1350 * 0.905) - h, zorder=10)
+        h = 150; lg = lg.resize((int(lg.width * h / lg.height), h)); fig.figimage(lg, xo=int(1080 * R) - lg.width, yo=int(1350 * 0.905) - h, zorder=10)
     y = 0.905
-    for s_ in textwrap.wrap(baslik, 26 if lg else 30)[:3]:
+    for s_ in textwrap.wrap(baslik, 22 if lg else 30)[:3]:
         _t(fig, L, y, s_, 64, "black", INK, va="top"); y -= 0.056
     y -= 0.006
     fig.text(L, y, spot, fontsize=32 * 0.72, color="#C9CED8", family="Instrument Serif", style="italic", va="top"); y -= 0.05
