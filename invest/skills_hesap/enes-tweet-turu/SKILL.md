@@ -331,3 +331,6 @@ Veri 13-26.11: Enes'in elle attıkları medyan 522, sistem 341 (her saat dilimin
 - (b) ENES-TASLAK hafta içi 6 (11-13, 13-15, 15-17, 17-19, 19-21, 21-24 dilimlerinde birer), Cumartesi 3, Pazar 2. Her biri 1-3 kısa cümle, 'ben' dili, tartışma açan net hüküm, en çok 1 rakam, kart yok. Altına 'Atarsan ilk 1 saatte gelen yanıtlara cevap ver.'. Sayaç 'ENES-TASLAK n/6'.
 - (c) BİÇİM ROTASYONU her gün: sistem tweetlerinin en az 3'ü KARTSIZ tek-iki cümle (görselsiz, yalnız metin; Buffer'a asset gönderme), en az 2'si TARTIŞMA AÇAN GÖRÜŞ (karşı görüşü davet eden net iddia; Enes kuralı gereği SORU İŞARETİYLE BİTMEZ), kalanı kartlı analiz. Art arda iki tweet aynı biçimde olmaz. DONGU satırına 'biçim: kartsız | görüş | kartlı' yazılır.
 - Ölçüm 04.12: sistem medyanı ≥450 hedef; tutmazsa hacim 12-15'e iner (Enes'e bildir).
+
+## KURAL 99 (27.11): tur akışı
+Tur talimatı `invest/gorevler/tur.md` (sabit), sayaçlar `python3 invest/gun_ozet.py`, yayın kapısı `bash invest/yayin_kontrol.sh <TUR> <KALIP> < metin` ('GEÇTİ' olmadan Buffer yok). Sonraki tur send_later mesajı tur.md'deki KISA ŞABLON.
