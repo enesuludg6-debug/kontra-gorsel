@@ -51,3 +51,4 @@ Eski 106 satırlık dizin hiçbir şey silinmeden `KURAL_DIZINI_ARSIV_2711.md`'d
 ## G. Enes'e özel (tweet değil)
 - Portföy "ben olsam" notları ve aday karşılaştırma: skill enes-portfoy-analiz. 94 Unusual Whales ekranı → akis_puan.py. IB gerçek emir Enes'in ayrı açık onayı olmadan YOK.
 - 103 (27.11 23:39) Kart denetimi: kart3.denetle taşma/çakışma bulursa .denetim dosyası yazar, yayinla_gorsel.sh yayınlamaz. Olay etiketi doğru güne, kanıt satırında taban oran.
+- 105 (27.11 23:57) Takipçi psikolojisi: skill enes-takipci-psikolojisi; her tweet en az 1 kaldıraç (K1-K17), DONGU'ya 'psiko: Kx'; günde ≥2 kişisel kendini açma, mesleki övünme haftada ≤1, her ölçülebilir yorum açık döngü (TEST), seri tema bağı, haftada 1 kaydetmelik içerik; sahte aciliyet/FOMO/uydurma sosyal kanıt YASAK.
