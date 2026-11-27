@@ -22,3 +22,5 @@ KURAL 58 GÜNLÜK KOTA (Enes 20.11 10:04 "tüm mecraların hepsinden günlük to
 10. KURAL 69 (F-001): Enes'in elle attığı tweetleri DONGU 'ENES-TASLAK' satırlarıyla eşleştir (aynı konu, benzer ilk cümle); eşleşenleri performans_veri.csv'de tur=ENES-TASLAK yap. 08.12'de ENES-TASLAK medyanı / sistem medyanı / Enes'in diğer elle tweetleri karşılaştırmasını DERSLER Gözlemler'e yaz.
 
 11. (24.11 kural 79/80) 08.12 sabahı: performans_veri.csv konu öneki [A:iddia] vs [A:normal] ve [ALINTI] vs diğer; göreli görüntülenme, beğeni/1000, yanıt+repost; Buffer kanal takipçi değişimi. Sonucu Enes'e sun; iddia açılışı ≥%20 öndeyse kural 79 'tüm tweetler' olur.
+
+- KURAL 101 (27.11): PAZAR günleri SES_ORNEKLERI.md'yi yenile: performans_veri.csv'de kaynak=enes en çok görüntülenen 15 tweetten portföy güncellemesi/grup duyurusu/link-only olmayanları seç, metinlerini Buffer get_post ile al, ÖRNEKLER bölümünü güncelle (tam metin kopyalanmaz, en fazla 2-3 cümle), ses özelliklerini gerekirse düzelt.

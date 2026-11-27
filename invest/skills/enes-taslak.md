@@ -41,3 +41,8 @@ Veri 13-26.11: Enes'in elle attıkları medyan 522, sistem 341 (her saat dilimin
 - (b) ENES-TASLAK hafta içi 6 (11-13, 13-15, 15-17, 17-19, 19-21, 21-24 dilimlerinde birer), Cumartesi 3, Pazar 2. Her biri 1-3 kısa cümle, 'ben' dili, tartışma açan net hüküm, en çok 1 rakam, kart yok. Altına 'Atarsan ilk 1 saatte gelen yanıtlara cevap ver.'. Sayaç 'ENES-TASLAK n/6'.
 - (c) BİÇİM ROTASYONU her gün: sistem tweetlerinin en az 3'ü KARTSIZ tek-iki cümle (görselsiz, yalnız metin; Buffer'a asset gönderme), en az 2'si TARTIŞMA AÇAN GÖRÜŞ (karşı görüşü davet eden net iddia; Enes kuralı gereği SORU İŞARETİYLE BİTMEZ), kalanı kartlı analiz. Art arda iki tweet aynı biçimde olmaz. DONGU satırına 'biçim: kartsız | görüş | kartlı' yazılır.
 - Ölçüm 04.12: sistem medyanı ≥450 hedef; tutmazsa hacim 12-15'e iner (Enes'e bildir).
+
+
+## KURAL 100-101 (Enes 27.11 19:37 'hepsini yap, yeteneklere ekle')
+- 100: Buffer create_post/edit_post öncesi hook (buffer_kapi.py) yalnız yayin_kontrol.sh GEÇTİ almış metni geçirir; GEÇTİ sonrası metin değişirse kontrol yeniden. Göndermeden önce Enes gözüyle son okuma: (1) Enes bunu böyle der mi, (2) yapay zekâ kokan cümle var mı, (3) her rakamın 2 kaynağı DONGU'da mı.
+- 101: yazmadan önce `python3 invest/ses_ornek.py` (Enes'in kendi en çok okunan tweetlerinden 3 örnek + ses özellikleri; kısa, konuşur gibi, süssüz hüküm). Kural dizini sadeleşti: KURAL_DIZINI.md 52 satır, tek geçerli rakamlar; eskisi KURAL_DIZINI_ARSIV_2711.md. Pazar perfogren SES_ORNEKLERI.md'yi yeniler.
