@@ -3,20 +3,6 @@
 "jargon": {},
 "tarih": [],
 "terim": [],
-"acilis": "abd açılışında satış pazartesi",
-"kapanis": "nasdaq 100 deki 2",
-"rekor": 0,
-"imza": "3p-duz-o-cerceve",
-"kalip": "J",
-"tur": "BAGLAM-GORUS",
-"zaman": "24.11 17:37",
-"gun": "24.11",
-"uzunluk": 566
-},
-{
-"jargon": {},
-"tarih": [],
-"terim": [],
 "acilis": "hpe nin 8 k",
 "kapanis": "bu yüzden 2027 için",
 "rekor": 0,
@@ -1065,5 +1051,29 @@
 "zaman": "27.11 11:42",
 "gun": "27.11",
 "uzunluk": 354
+},
+{
+"jargon": {
+"prim": 1
+},
+"tarih": [],
+"terim": [
+"risk primi"
+],
+"acilis": "iddia",
+"kapanis": "nasdaq a etkisi enflasyon",
+"rekor": 0,
+"k89": [
+"fiyatlanan",
+"esik"
+],
+"k89_son": "esik",
+"k89_hazir": [],
+"imza": "3p-duz-o-cerceve",
+"kalip": "C",
+"tur": "HABER",
+"zaman": "27.11 12:22",
+"gun": "27.11",
+"uzunluk": 462
 }
 ]

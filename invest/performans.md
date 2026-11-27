@@ -288,3 +288,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 27.11 | 00:04 | HABER | [A:iddia] Tokyo enflasyonu bu gece, yen taşıma işlemi riski | cizgi_pro | 6b089ed5ce64081689f2aad0 |
 | 27.11 | 11:01 | VADELI | [A:normal] GÜNÜN BAŞLIKLARI: vadeliler +, Tokyo TÜFE beklenti altı, yarım gün | siralama | 6b0938e71fd46e62e7253a5e |
 | 27.11 | 11:42 | AAII | [A:iddia] AAII ayı %45, nötr %18'e indi | aaii | 6b094271049983dcfba1ed3d |
+| 27.11 | 12:22 | HABER | [A:normal] AÇIKLAYICI 1/5: jeopolitik risk primi  Brent 92 / ekim 117 | cizgi_olay | 6b094bd9062ed764a8ffd7b7 |
