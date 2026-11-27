@@ -3,20 +3,6 @@
 "jargon": {},
 "tarih": [],
 "terim": [],
-"acilis": "veri merkezinin güç zincirinde",
-"kapanis": "ekipmancının geliri hiper ölçekli",
-"rekor": 0,
-"imza": "4p-duz-o-cerceve",
-"kalip": "J",
-"tur": "BAGLAM-GORUS",
-"zaman": "24.11 20:00",
-"gun": "24.11",
-"uzunluk": 690
-},
-{
-"jargon": {},
-"tarih": [],
-"terim": [],
 "acilis": "rklb bugün 8 civarı",
 "kapanis": "hisse günlük olarak yz",
 "rekor": 0,
@@ -1104,5 +1090,24 @@
 "zaman": "27.11 16:52",
 "gun": "27.11",
 "uzunluk": 470
+},
+{
+"jargon": {},
+"tarih": [],
+"terim": [],
+"acilis": "iddia",
+"kapanis": "bence bu bölge tek",
+"rekor": 0,
+"k89": [
+"fark"
+],
+"k89_son": "",
+"k89_hazir": [],
+"imza": "3p-duz-k-rakam",
+"kalip": "C",
+"tur": "VERI-VIX",
+"zaman": "27.11 18:14",
+"gun": "27.11",
+"uzunluk": 448
 }
 ]
