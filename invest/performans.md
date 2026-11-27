@@ -293,3 +293,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 27.11 | 13:55 | HABER | [A:normal] Gelecek hafta bilanço takvimi: MRVL CRWD MDB OKTA CRDO / CRM SNOW ZS | bilanco | 6b0961b9658222306c05eefc |
 | 27.11 | 14:40 | ICERIDEN | [A:normal] COHR yönetim kurulu üyesi Pagliuca ~50 Mn $ açık piyasa alımı | cizgi_pro | 6b096c36049983dcfbb542df |
 | 27.11 | 15:25 | HABER | [A:normal] AÇIKLAYICI 3/5: özel çip (ASIC)  MRVL 1 Aralık önizleme | sutun | 6b09769f062ed764a813b168 |
+| 27.11 | 16:15 | VERI-FAKTOR | [A:iddia] Faktör panosu: momentum −11 puan, eşit ağırlık +6 | siralama | 6b09825a062ed764a8197aaf |
