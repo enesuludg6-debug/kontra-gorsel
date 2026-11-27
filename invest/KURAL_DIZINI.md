@@ -32,7 +32,7 @@ Eski 106 satırlık dizin hiçbir şey silinmeden `KURAL_DIZINI_ARSIV_2711.md`'d
 - Kartta grafik ham veriyle birebir (84); başlık güncel fiyatla çelişmez; kanıt satırında taban oran (vix kartı dersi 27.11).
 
 ## E. Yazım (yasak.py + kalite.py + gorus.py otomatik yakalar)
-- SES: Enes'in kendi tweetleri gibi; her tur yazmadan önce `python3 invest/ses_ornek.py` (3 gerçek Enes örneği + ses özellikleri, kural 101). Kural listesi değil örnek önce.
+- 102 SES (her tweet, istisnasız): Enes'in kendi tweetleri gibi; `ses_kontrol.py` yayin_kontrol içinde DUR verir; kural 60/89 içerik içindir, kelimede Enes sesi kazanır; her tur yazmadan önce `python3 invest/ses_ornek.py` (3 gerçek Enes örneği + ses özellikleri, kural 101). Kural listesi değil örnek önce.
 - Uzunluk: HABER 600, görüş/portföy 800, EGITICI 900, derin analiz 1200. İlk satır ≤12 kelime. En çok 3 farklı rakam (TARIHSEL muaf), en az 2 doğrulanmış.
 - Her tweet: haber + yorum, birinci tekil net görüş (25/50), görüş ifadesi tekrar etmez (50-B gorus.py), "bence" en çok 1.
 - Analiz açısı kalıbı A-N (63-B/C/D): birincil kalıp son 4'te yok, yapı imzası son 3'te yok, kapanış türü son 2'de yok (89-B).

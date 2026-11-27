@@ -340,3 +340,6 @@ Tur talimatı `invest/gorevler/tur.md` (sabit), sayaçlar `python3 invest/gun_oz
 ## KURAL 100-101 (Enes 27.11 19:37 'hepsini yap, yeteneklere ekle')
 - 100: Buffer create_post/edit_post öncesi hook (buffer_kapi.py) yalnız yayin_kontrol.sh GEÇTİ almış metni geçirir; GEÇTİ sonrası metin değişirse kontrol yeniden. Göndermeden önce Enes gözüyle son okuma: (1) Enes bunu böyle der mi, (2) yapay zekâ kokan cümle var mı, (3) her rakamın 2 kaynağı DONGU'da mı.
 - 101: yazmadan önce `python3 invest/ses_ornek.py` (Enes'in kendi en çok okunan tweetlerinden 3 örnek + ses özellikleri; kısa, konuşur gibi, süssüz hüküm). Kural dizini sadeleşti: KURAL_DIZINI.md 52 satır, tek geçerli rakamlar; eskisi KURAL_DIZINI_ARSIV_2711.md. Pazar perfogren SES_ORNEKLERI.md'yi yeniler.
+
+
+## KURAL 102 (Enes 27.11 23:34: "artık her tweet benim sesimle yazılacak"): İSTİSNASIZ HER TWEET (tur, sabit veri görevi, bilanço, sonuç takibi, alıntı, eğitici, tarihsel) Enes'in sesiyle yazılır. Yazmadan önce `python3 invest/ses_ornek.py`; yayından önce yayin_kontrol.sh içindeki `ses_kontrol.py` (28 kelimeyi aşan cümle, ortalama 18 kelime üstü, rapor dili = DUR). Ses: kısa, konuşur gibi, birinci tekil, süssüz hüküm, kendi davranışını anlatır ("ben ... bekliyorum"). Kural 60/89 (profesyonel, fon yöneticisi) İÇERİK derinliği içindir; KELİME seçiminde Enes sesi önce gelir, çelişirse Enes sesi kazanır.

@@ -31,3 +31,6 @@ Veri: en çok beğenilen 10 tweetin 5'i Enes'in kişisel/iddialı tonunda ("Hani
 - Yasak: "X sorunu saymam", "saymam / sayarım", "X olarak görmem / görüyorum / değerlendiririm", "aynı gözle / bu gözle değerlendiririm", "X'e değil Y'ye bağlıyorum", "fiyatlanan şey X değil, Y", "kırılma noktam / benim eşiğim".
 - Yerine düz, somut cümle: seviye + ne olursa ne demek. Kötü: "O kapanışın altı gelmedikçe bunu talep sorunu saymam." İyi: "Hynix 1,03 milyon wonun altında kapanırsa satış derinleşir; üstünde kaldıkça bu düşüş bir düzeltme."
 - yasak.py (54-G) yakalar; çıkış 1 ise tweet atılmaz.
+
+
+## KURAL 102 (Enes 27.11 23:34: "artık her tweet benim sesimle yazılacak"): İSTİSNASIZ HER TWEET (tur, sabit veri görevi, bilanço, sonuç takibi, alıntı, eğitici, tarihsel) Enes'in sesiyle yazılır. Yazmadan önce `python3 invest/ses_ornek.py`; yayından önce yayin_kontrol.sh içindeki `ses_kontrol.py` (28 kelimeyi aşan cümle, ortalama 18 kelime üstü, rapor dili = DUR). Ses: kısa, konuşur gibi, birinci tekil, süssüz hüküm, kendi davranışını anlatır ("ben ... bekliyorum"). Kural 60/89 (profesyonel, fon yöneticisi) İÇERİK derinliği içindir; KELİME seçiminde Enes sesi önce gelir, çelişirse Enes sesi kazanır.

@@ -61,3 +61,6 @@ Okur tweeti bitirince şunu düşünmeli: "Bu adam haberi değil, haberin fiyata
 - Yerine düz, somut cümle: seviye + ne olursa ne demek. Kötü: "O kapanışın altı gelmedikçe bunu talep sorunu saymam." İyi: "Hynix 1,03 milyon wonun altında kapanırsa satış derinleşir; üstünde kaldıkça bu düşüş bir düzeltme."
 - KURAL 54-H (Enes 27.11 19:30): fon yöneticisi gibi yazmak mecazla süslemek değildir. "Risk masada kalır", "denklem değişti", "terazi", "ibre döndü", "tabloyu bozar", "pusula", "perde aralandı" gibi vecize kapanışlar yasak. Kötü: "Oran normale dönene kadar risk masada kalır." İyi: "Oran 1'in altına inene kadar temkinliyim."
 - yasak.py (54-G) yakalar; çıkış 1 ise tweet atılmaz.
+
+
+## KURAL 102 (Enes 27.11 23:34: "artık her tweet benim sesimle yazılacak"): İSTİSNASIZ HER TWEET (tur, sabit veri görevi, bilanço, sonuç takibi, alıntı, eğitici, tarihsel) Enes'in sesiyle yazılır. Yazmadan önce `python3 invest/ses_ornek.py`; yayından önce yayin_kontrol.sh içindeki `ses_kontrol.py` (28 kelimeyi aşan cümle, ortalama 18 kelime üstü, rapor dili = DUR). Ses: kısa, konuşur gibi, birinci tekil, süssüz hüküm, kendi davranışını anlatır ("ben ... bekliyorum"). Kural 60/89 (profesyonel, fon yöneticisi) İÇERİK derinliği içindir; KELİME seçiminde Enes sesi önce gelir, çelişirse Enes sesi kazanır.

@@ -2,7 +2,9 @@
 
 > **KURALLAR (23.11 20:50, kredi tasarrufu):** Bu dosyanın başındaki "!!!" kural blokları kelimesi kelimesine `invest/KURALLAR_TAM.md`'ye taşındı (hiçbiri silinmedi). Güncel kısa liste `invest/KURAL_DIZINI.md` (tur_basi.sh basar). Ayrıntı gerekince ilgili kural grep ile açılır.
 
-# SABİT GÖREVLERİN ORTAK KURALLARI (kesin kural 29: hepsi bu sohbette send_later zinciri)
+# SABİT GÖREVLERİN ORTAK KURALLARI
+
+- KURAL 102 (Enes 27.11 23:34: "artık her tweet benim sesimle yazılacak"): İSTİSNASIZ HER TWEET (tur, sabit veri görevi, bilanço, sonuç takibi, alıntı, eğitici, tarihsel) Enes'in sesiyle yazılır. Yazmadan önce `python3 invest/ses_ornek.py`; yayından önce yayin_kontrol.sh içindeki `ses_kontrol.py` (28 kelimeyi aşan cümle, ortalama 18 kelime üstü, rapor dili = DUR). Ses: kısa, konuşur gibi, birinci tekil, süssüz hüküm, kendi davranışını anlatır ("ben ... bekliyorum"). Kural 60/89 (profesyonel, fon yöneticisi) İÇERİK derinliği içindir; KELİME seçiminde Enes sesi önce gelir, çelişirse Enes sesi kazanır. Sabit görevler de tweet öncesi `bash invest/yayin_kontrol.sh <TUR> <KALIP> < metin` kullanır (GEÇTİ olmadan Buffer yok, kural 100 hook). (kesin kural 29: hepsi bu sohbette send_later zinciri)
 
 - Başlangıç: `bash invest/tur_basi.sh <etiket>` (<etiket> = görev mesajındaki HESAP=, şu an A2) (kilit, DURDUR, DURUM, DONGU son 30, dersler, periyot, takvim). Çıkış 2/3 → dur. DEVIR_TAM baştan okunmaz.
 - TASARRUF (23.11 20:50): skill dosyalarını ve KURALLAR_TAM.md'yi BAŞTAN OKUMA; tur_basi.sh çıktısındaki KURAL_DIZINI.md her kuralı içerir. Ayrıntı gerekirse yalnız ilgili bölümü grep ile aç (ör. `grep -n "## 5. Kart" invest/skills/enes-tweet-turu.md`). Skill aracını çağırma.
