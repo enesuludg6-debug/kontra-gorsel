@@ -18,11 +18,12 @@ import csv,datetime as dt
 n=dt.datetime.now(dt.timezone(dt.timedelta(hours=3))); g=n-dt.timedelta(hours=2)
 b=g.strftime("%Y-%m-%d")
 R=[r for r in csv.DictReader(open("performans_veri.csv",encoding="utf-8")) if (r["tarih"]==b and int(r["saat"][:2])>=2) or (r["tarih"]==(g+dt.timedelta(days=1)).strftime("%Y-%m-%d") and int(r["saat"][:2])<2)]
-pazar=g.weekday()==6; alt=0 if pazar else 30
+R=[r for r in R if r.get("kaynak","sistem")!="enes"]
+pazar=g.weekday()>=5; alt=0 if pazar else 15; ust=8 if pazar else 20
 son=(g.replace(hour=0,minute=0,second=0)+dt.timedelta(days=1,hours=2)); kalan_dk=max(0,int((son-n).total_seconds()//60))
 eksik=max(0,alt-len(R)); tempo=(kalan_dk//eksik) if eksik else None
 ak=sum(1 for r in R if 18<=int(r["saat"][:2])<21)
-print(f"  bugun {len(R)} tweet | hedef {'Pazar: ust 40' if pazar else '30-40'} | kalan sure {kalan_dk} dk | {'ortalama gereken ~'+str(tempo)+' dk (aralik serbest)' if tempo else 'alt sinir tamam'}")
+print(f"  bugun {len(R)} tweet | hedef {'hafta sonu: ust 8' if pazar else '15-20 (kural 98: yalniz guclu konu)'}{' | UST SINIR DOLDU -> tweet atma' if len(R)>=ust else ''} | kalan sure {kalan_dk} dk | {'ortalama gereken ~'+str(tempo)+' dk (aralik serbest)' if tempo else 'alt sinir tamam'}")
 P
 echo "=== IS DEFTERI (kural 43)"; python3 isler.py kontrol; python3 isler.py liste 2>/dev/null | head -8
 echo "=== OPSIYON KONTROL (kural 39)"; python3 - <<'P'

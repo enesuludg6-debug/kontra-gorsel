@@ -32,5 +32,12 @@ SendUserMessage, tweet mesajlarından ayrı ve kısa:
 
 
 ## 26.11 15:06 GÜNCELLEME (Enes 'arttır', kural 95)
-- Hafta içi günde 4 taslak (12-15, 15-18, 18-21, 21-24 dilimlerinin ilk uygun turu), Cumartesi 2, Pazar 1. Sayaç 'ENES-TASLAK n/4'.
+- Hafta içi günde 4 taslak (12-15, 15-18, 18-21, 21-24 dilimlerinin ilk uygun turu), Cumartesi 2, Pazar 1. Sayaç 'ENES-TASLAK n/4' [GÜNCEL kural 98: hafta içi 6, Cmt 3, Paz 2, sayaç n/6].
 - Her taslağın altına: 'Atarsan ilk 1 saatte gelen yanıtlara cevap ver.' Ayrıntı skills/enes-x-algoritma.md bölüm 4.
+
+## KURAL 98 (Enes 27.11 17:39 'hepsini yeteneklere ekle') — hacim, taslak, biçim
+Veri 13-26.11: Enes'in elle attıkları medyan 522, sistem 341 (her saat diliminde); sistem hacmi düşünce medyan 420+'ya çıktı. X kodunda zamanlanmış/yapay zekâ yazımı gönderiye ceza yok; fark hacim (yazar çeşitliliği cezası), kalıp görünüm ve yanıt farkından.
+- (a) SİSTEM TWEETİ hafta içi günde 15-20, Cumartesi/Pazar en çok 8 (kural 86'nın 18-26'sının yerine). Yalnız GÜÇLÜ konu: konu_puan ≥75, son dakika, bilanço ya da 2 kaynaklı yeni haber. Zayıf konuda tur TWEETSİZ kapanır, DONGU'ya gerekçe. Sabit veri zincirleri bu sayıya dahil; verisi zayıf haftada atlanır. tur_basi.sh hedefi '15-20' gösterir, 20'de 'UST SINIR DOLDU'.
+- (b) ENES-TASLAK hafta içi 6 (11-13, 13-15, 15-17, 17-19, 19-21, 21-24 dilimlerinde birer), Cumartesi 3, Pazar 2. Her biri 1-3 kısa cümle, 'ben' dili, tartışma açan net hüküm, en çok 1 rakam, kart yok. Altına 'Atarsan ilk 1 saatte gelen yanıtlara cevap ver.'. Sayaç 'ENES-TASLAK n/6'.
+- (c) BİÇİM ROTASYONU her gün: sistem tweetlerinin en az 3'ü KARTSIZ tek-iki cümle (görselsiz, yalnız metin; Buffer'a asset gönderme), en az 2'si TARTIŞMA AÇAN GÖRÜŞ (karşı görüşü davet eden net iddia; Enes kuralı gereği SORU İŞARETİYLE BİTMEZ), kalanı kartlı analiz. Art arda iki tweet aynı biçimde olmaz. DONGU satırına 'biçim: kartsız | görüş | kartlı' yazılır.
+- Ölçüm 04.12: sistem medyanı ≥450 hedef; tutmazsa hacim 12-15'e iner (Enes'e bildir).
