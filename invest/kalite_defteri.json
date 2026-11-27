@@ -5,22 +5,6 @@
 "terim": [
 "brüt marj"
 ],
-"acilis": "sonuçtan önce 17 yükselen",
-"kapanis": "pazartesi sonuçtan önce 40",
-"rekor": 0,
-"imza": "2p-duz-o-rakam",
-"kalip": "G",
-"tur": "BILANCO-ANALIZ",
-"zaman": "24.11 15:00",
-"gun": "24.11",
-"uzunluk": 505
-},
-{
-"jargon": {},
-"tarih": [],
-"terim": [
-"brüt marj"
-],
 "acilis": "bilançodan önce sert yükselen",
 "kapanis": "hpe de hisseyi düşüren",
 "rekor": 0,
@@ -1057,5 +1041,25 @@
 "zaman": "27.11 00:04",
 "gun": "26.11",
 "uzunluk": 470
+},
+{
+"jargon": {},
+"tarih": [],
+"terim": [],
+"acilis": "iddia",
+"kapanis": "abd borsası bugün yarım",
+"rekor": 0,
+"k89": [
+"fiyatlanan",
+"pozisyon"
+],
+"k89_son": "pozisyon",
+"k89_hazir": [],
+"imza": "4p-duz-k-rakam",
+"kalip": "G",
+"tur": "VADELI",
+"zaman": "27.11 11:01",
+"gun": "27.11",
+"uzunluk": 398
 }
 ]
