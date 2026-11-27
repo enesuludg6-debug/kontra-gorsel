@@ -42,7 +42,7 @@ Eski 106 satırlık dizin hiçbir şey silinmeden `KURAL_DIZINI_ARSIV_2711.md`'d
 - YASAK: al/sat, hedef fiyat, emoji, hashtag, @, link, soruyla bitirme, portföy tutarı/ağırlığı.
 
 ## F. Kart, yayın, kayıt
-- kart3 varsayılan, son 3 düzen tekrar yok, logo büyük, Read ile bak, `yayinla_gorsel.sh` OK + raw URL 200.
+- 104 GÖRSEL STANDARDI (Enes 27.11 23:53 'görseller bunlar olacak artık'): VARSAYILAN kart4 ailesi (14 tür, g/tur/ katalog, skill enes-gorsel tablosu); kart3 yalnız kart4'te karşılığı olmayan özel düzen için. Son 3 tweette kullanılan tür tekrar yok, logo büyük, Read ile bak, denetim temiz, `yayinla_gorsel.sh` OK + raw URL 200.
 - Buffer: org 6af5719777bce44fa736607b, kanal 6af99a1aece6dfde5fd109c7, automatic; 35 dk dolmadıysa customScheduled.
 - 47 Her tweetten sonra Enes'e "Paylaşıldı + Ne anlama geliyor?" (3-6 madde).
 - 26 Kayıt: `kayit.py` (--kaynak YALNIZ sistem|enes), `kalite.py kaydet`, `gorus.py kaydet`; DERSLER.md aktif dersler.

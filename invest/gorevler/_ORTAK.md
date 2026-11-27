@@ -4,6 +4,8 @@
 
 # SABİT GÖREVLERİN ORTAK KURALLARI
 
+- KURAL 104 (Enes 27.11 23:53): sabit veri görevlerinin kartları da kart4 ailesiyle çizilir (görev dosyasındaki kart3/veri_icerik --kart çağrısı yerine aynı veriyle uygun kart4 türü: korku/kalabalık -> olcer, vix/genişlik/kredi/faiz -> cizgi, faktör/rotasyon -> kiyas ya da siralama, putcall -> cizgi, iceriden -> iceriden, AAII -> kiyas, takvim -> takvim, tarihsel -> tarihsel).
+
 - KURAL 102 (Enes 27.11 23:34: "artık her tweet benim sesimle yazılacak"): İSTİSNASIZ HER TWEET (tur, sabit veri görevi, bilanço, sonuç takibi, alıntı, eğitici, tarihsel) Enes'in sesiyle yazılır. Yazmadan önce `python3 invest/ses_ornek.py`; yayından önce yayin_kontrol.sh içindeki `ses_kontrol.py` (28 kelimeyi aşan cümle, ortalama 18 kelime üstü, rapor dili = DUR). Ses: kısa, konuşur gibi, birinci tekil, süssüz hüküm, kendi davranışını anlatır ("ben ... bekliyorum"). Kural 60/89 (profesyonel, fon yöneticisi) İÇERİK derinliği içindir; KELİME seçiminde Enes sesi önce gelir, çelişirse Enes sesi kazanır. Sabit görevler de tweet öncesi `bash invest/yayin_kontrol.sh <TUR> <KALIP> < metin` kullanır (GEÇTİ olmadan Buffer yok, kural 100 hook). (kesin kural 29: hepsi bu sohbette send_later zinciri)
 
 - Başlangıç: `bash invest/tur_basi.sh <etiket>` (<etiket> = görev mesajındaki HESAP=, şu an A2) (kilit, DURDUR, DURUM, DONGU son 30, dersler, periyot, takvim). Çıkış 2/3 → dur. DEVIR_TAM baştan okunmaz.
