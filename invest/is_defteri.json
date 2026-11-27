@@ -3187,11 +3187,24 @@
    "ne": "tur zinciri",
    "ticker": "",
    "tur": "tek",
-   "durum": "kuruldu",
+   "durum": "yapildi",
    "not": "",
    "trigger": "trig_01B4NaUEpn73LzevrD1vq1rn",
    "soz": "",
-   "guncelleme": "27.11 13:56"
+   "guncelleme": "27.11 14:41"
+  },
+  {
+   "id": "TUR-2711-1523",
+   "ad": "Otomatik paylaşım turu",
+   "zaman": "2026-11-27T15:23",
+   "ne": "tur zinciri",
+   "ticker": "",
+   "tur": "tek",
+   "durum": "kuruldu",
+   "not": "",
+   "trigger": "trig_01FZSH1eVFPYuk9scNfZYczZ",
+   "soz": "",
+   "guncelleme": "27.11 14:41"
   },
   {
    "id": "SABIT-faktor",
