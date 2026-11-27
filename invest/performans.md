@@ -296,3 +296,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 27.11 | 16:15 | VERI-FAKTOR | [A:iddia] Faktör panosu: momentum −11 puan, eşit ağırlık +6 | siralama | 6b09825a062ed764a8197aaf |
 | 27.11 | 16:51 | HABER | [A:normal] AÇIKLAYICI 4/5: kontrol düzlemi  Air Force Cloud One ihlali | bilanco | 6b098af732c212878fd46ded |
 | 27.11 | 18:14 | VERI-VIX | VIX vade eğrisi 8 gündür ters, oran 1,05 (biçim: görüş) | cizgi_pro | 6b099e5b32c212878fdeac6b |
+| 27.11 | 18:52 | HABER | Faiz +7 bp iken Nasdaq +%1,7: para tahvilden hisseye (biçim: kartsız) | kartsiz | 6b09a722bb117e5ba75c43de |
