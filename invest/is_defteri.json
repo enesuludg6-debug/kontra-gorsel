@@ -3239,11 +3239,24 @@
    "ne": "tur zinciri",
    "ticker": "",
    "tur": "tek",
-   "durum": "kuruldu",
+   "durum": "yapildi",
    "not": "",
    "trigger": "trig_01YXTCWKV6hULUNLtj2oQZwv",
    "soz": "",
-   "guncelleme": "27.11 16:52"
+   "guncelleme": "27.11 17:33"
+  },
+  {
+   "id": "TUR-2711-1850",
+   "ad": "Otomatik paylaşım turu",
+   "zaman": "2026-11-27T18:50",
+   "ne": "tur zinciri",
+   "ticker": "",
+   "tur": "tek",
+   "durum": "kuruldu",
+   "not": "",
+   "trigger": "trig_01JjRdzVT3LaBrb3da4LpDXx",
+   "soz": "",
+   "guncelleme": "27.11 17:33"
   },
   {
    "id": "TEST-NDX-AYI",
