@@ -49,8 +49,8 @@ def vix(a):
     print(f"KANIT: oran 1'in üstüne ilk çıktığında ({k['n']} olay, ≥30 gün arayla) Nasdaq 100 20 gün sonra yukarı %{k['oran']:.0f} (taban %{tb:.0f}) -> {k['hukum'].split(' (')[0]}; medyan {np.median(g) * 100:+.1f}%")
     if arg(a, "--kart"):
         s = r.tail(250); kart_cizgi(arg(a, "--kart"), "Piyasa nabzı • Korku vade yapısı", f"VIX / VIX3M: {son:.2f}".replace(".", ","),
-            "Kısa vadeli korkunun 3 aylığa oranı; 1 üstü = ters dönmüş", list(zip(s.index.date, s.values)),
-            f"20 yılda bu bölge: {k['n']} olay, Nasdaq 20 gün sonra %{k['oran']:.0f} yukarı", "Cboe VIX ve VIX3M (Yahoo Finance), kendi hesabım", ref=[(1.0, "1,00")])
+            "Kısa vadeli korkunun 3 aylığa oranı; 1 üstü = ters", list(zip(s.index.date, s.values)),
+            f"20 yılda {k['n']} olay: Nasdaq 20 günde %{k['oran']:.0f} yukarı (tüm günler %{tb:.0f})", "Cboe VIX ve VIX3M (Yahoo Finance), kendi hesabım", ref=[(1.0, "")])
 
 def kredi(a):
     x = fred("BAMLH0A0HYM2"); son = x.iloc[-1]; h = x.iloc[-6] if len(x) > 5 else x.iloc[0]
