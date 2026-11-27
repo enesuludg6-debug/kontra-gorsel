@@ -1,0 +1,10 @@
+{
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "mcp__buffer__create_post|mcp__buffer__edit_post",
+        "hooks": [{"type": "command", "command": "python3 /home/claude/kontra-gorsel/invest/buffer_kapi.py"}]
+      }
+    ]
+  }
+}

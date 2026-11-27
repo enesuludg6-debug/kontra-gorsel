@@ -8,4 +8,4 @@ python3 kalite.py kontrol --tur "$1" --kalip "$2" < "$T" | tail -6 | tee /tmp/yk
 O=$(python3 gun_ozet.py); echo "$O" | sed -n '1p;3p'
 echo "$O" | grep -q "ÜST SINIR DOLDU" && { echo "  günlük üst sınır doldu"; HATA=1; }
 echo "$O" | grep -q "BEKLE / customScheduled" && echo "  UYARI: 35 dk dolmadı -> Buffer customScheduled en erken saatle"
-rm -f "$T"; [ $HATA = 0 ] && echo "GEÇTİ" || echo "DUR"
+[ $HATA = 0 ] && python3 buffer_kapi.py onayla < "$T" >/dev/null; rm -f "$T"; [ $HATA = 0 ] && echo "GEÇTİ" || echo "DUR"

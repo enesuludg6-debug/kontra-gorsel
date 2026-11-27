@@ -103,3 +103,4 @@ Bu dosya kural 1-63'ün GÜNCEL hâlinin kısa listesidir; hiçbir kural silinme
 - Kalite (61-63): `skills/enes-analiz-kalitesi.md`. Sonuç takibi (66): `skills/enes-sonuc-takibi.md`. Uzman dili (74): `skills/enes-uzman-dil.md`.
 - Kuralların tam metni: `KURALLAR_TAM.md`; eski geçmiş: `DEVIR_TAM.md`.
 - 54-H (27.11 19:30): süslü mecaz/vecize kapanış yasak ('risk masada kalır', denklem, terazi, ibre, tabloyu bozar, pusula, perde aralandı...). Kapanış düz, rakamlı koşul. yasak.py.
+- 100 (27.11, Claude Academy Hooks + değerlendirici): Buffer create_post/edit_post PreToolUse hook'u (buffer_kapi.py) yalnız yayin_kontrol.sh GEÇTİ almış metni geçirir; gönderim öncesi 'Enes gözüyle son okuma' 3 soru (tur.md 7-B/7-C).
