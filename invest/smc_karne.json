@@ -115,5 +115,83 @@
    "fark": 8,
    "hukum": "ZAYIF KANIT"
   }
+ },
+ "TSLA|1d": {
+  "tarih": "27.11.2026",
+  "sup_boga": {
+   "oran": 54,
+   "n": 147,
+   "fark": -1,
+   "hukum": "FARK YOK"
+  },
+  "mss_boga": {
+   "oran": 62,
+   "n": 26,
+   "fark": 7,
+   "hukum": "FARK YOK"
+  },
+  "sup_ayi": {
+   "oran": 47,
+   "n": 138,
+   "fark": 2,
+   "hukum": "FARK YOK"
+  },
+  "mss_ayi": {
+   "oran": 36,
+   "n": 28,
+   "fark": -10,
+   "hukum": "TERS İŞARET"
+  },
+  "fvg_boga_kalite": {
+   "oran": 62,
+   "n": 13,
+   "fark": 7,
+   "hukum": "FARK YOK"
+  },
+  "fvg_ayi_kalite": {
+   "oran": 35,
+   "n": 17,
+   "fark": -10,
+   "hukum": "TERS İŞARET"
+  }
+ },
+ "TSLA|4h": {
+  "tarih": "27.11.2026",
+  "sup_boga": {
+   "oran": 60,
+   "n": 45,
+   "fark": 10,
+   "hukum": "ZAYIF KANIT"
+  },
+  "mss_boga": {
+   "oran": 14,
+   "n": 7,
+   "fark": -35,
+   "hukum": "KANIT YOK"
+  },
+  "sup_ayi": {
+   "oran": 51,
+   "n": 59,
+   "fark": 0,
+   "hukum": "FARK YOK"
+  },
+  "mss_ayi": {
+   "oran": 42,
+   "n": 12,
+   "fark": -9,
+   "hukum": "TERS İŞARET"
+  },
+  "fvg_boga_kalite": {
+   "oran": 40,
+   "n": 10,
+   "fark": -10,
+   "hukum": "TERS İŞARET"
+  },
+  "fvg_ayi_kalite": {
+   "oran": 58,
+   "n": 12,
+   "fark": 8,
+   "hukum": "FARK YOK"
+  }
  }
 }

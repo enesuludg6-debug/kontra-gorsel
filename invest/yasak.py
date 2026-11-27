@@ -78,6 +78,18 @@ for r_, ad in [
     if re.search(r_, low):
         hata.append("54-G: " + ad)
 
+# Kural 54-H (Enes 27.11 19:30: "'risk masada kalır.' böyle ibareler istemiyorum, çok yapay zekâ yazmış gibi"):
+# süslü mecaz / kapanış vecizesi yasak. Kapanış düz ve ölçülebilir olur (ör. "Oran 1'in altına inene kadar temkinliyim.").
+for r_, ad in [
+    (r"\bmasa(da|ya|dan|nın|daki)\b", "'risk masada kalır / masaya geldi' mecazı"),
+    (r"\bdenklem(i|in|de|e)?\b|\bterazi(si|de|nin)?\b|\bibre(si|yi|nin)?\b", "'denklem / terazi / ibre' mecazı"),
+    (r"oyunun kural|kartlar(ı)? yeniden|top (artık )?\w+ (sahasında|elinde)|rüzgar(ı)? arka", "'oyunun kuralları / kartlar / top sahasında / rüzgar arkada' mecazı"),
+    (r"\b(tablo|resim)(yu|u|yı|ı)? (boz|değiştir|netleş)|\bpusula|\bfırtına(nın)? (göz|öncesi)", "'tabloyu bozar / pusula / fırtına' mecazı"),
+    (r"(perde|sahne)(si)? (aralan|kapan|açıl)|\bsahneye çık|\bsöz(ü)? (artık )?\w+(da|de)\b", "'perde aralandı / söz X'te' mecazı"),
+]:
+    if re.search(r_, low):
+        hata.append("54-H: " + ad)
+
 # Kural 54-E (Enes 24.11 09:10: "'Nakit tarafı da güçlü.' çok yapay zekâ ibaresi gibi duruyor, böyle şeyler kullanmasın"):
 # rakamsız "X tarafı/cephesi (da) güçlü/zayıf/sağlam..." hüküm cümleleri ve rakamsız kısa sıfat-hüküm cümleleri yasak.
 SIFAT = r"(güçlü|zayıf|sağlam|temiz|olumlu|olumsuz|iyi|kötü|parlak|sağlıklı|net|rahat|sorunlu|cılız|kuvvetli|istikrarlı|dengeli|sıkıntılı)"

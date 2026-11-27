@@ -71,6 +71,7 @@ Enes bir şey atarsa:
 
 ## 4. Yazım
 
+- KURAL 54-H (Enes 27.11 19:30: "'risk masada kalır.' böyle ibareler istemiyorum, çok yapay zekâ yazmış gibi"): süslü mecaz ve vecize kapanış YASAK: "risk masada kalır", "masaya geldi", "denklem", "terazi", "ibre", "oyunun kuralları", "kartlar yeniden dağıtılıyor", "top X'in sahasında", "rüzgar arkasında", "tabloyu bozar", "pusula", "fırtına öncesi", "perde aralandı", "söz artık X'te". Kapanış düz ve ölçülebilir: ne olursa ne düşünürüm/yaparım, rakamla (ör. "Oran 1'in altına inene kadar temkinliyim.", "Faiz %5'i aşarsa bu yükseliş zayıflar."). yasak.py 54-H yakalar.
 - Arkadaşına anlatır gibi, sade ve doğal cümleler. Terimleri sadeleştir: EPS = hisse başı kâr, guidance = şirketin verdiği tahmin/yönlendirme, capex = yatırım harcaması.
 - Şirketi ilk geçtiği yerde ne iş yaptığıyla tanıt. Ticker'lar gerektiğinde $TICKER.
 - İlk satır durdurmalı: rakam, tezat ya da net tespit.

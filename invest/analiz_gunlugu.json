@@ -23,5 +23,17 @@
   "tarih": "2026-11-25",
   "sonuc": "STOP",
   "kapanis": "2026-11-26"
+ },
+ {
+  "id": 3,
+  "t": "TSLA",
+  "yon": "yukari",
+  "giris": 398.0,
+  "stop": 367.0,
+  "hedef": 433.0,
+  "gun": 20,
+  "gerekce": "Enes 2x swing; düşen trend çizgisi 400-408 kırılım denemesi, destek 382/374/366 çakışma, TP1 414 TP2 433 TP3 455",
+  "tarih": "2026-11-27",
+  "sonuc": ""
  }
 ]

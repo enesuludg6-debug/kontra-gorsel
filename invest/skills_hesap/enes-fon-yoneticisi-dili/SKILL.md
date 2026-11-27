@@ -58,4 +58,5 @@ Okur tweeti bitirince şunu düşünmeli: "Bu adam haberi değil, haberin fiyata
 ## 54-G YASAK KALIPLAR (Enes 26.11 11:50: "'bunu talep sorunu saymam' çok ai gibi, bu ifadeleri kullanma")
 - Yasak: "X sorunu saymam", "saymam / sayarım", "X olarak görmem / görüyorum / değerlendiririm", "aynı gözle / bu gözle değerlendiririm", "X'e değil Y'ye bağlıyorum", "fiyatlanan şey X değil, Y", "kırılma noktam / benim eşiğim".
 - Yerine düz, somut cümle: seviye + ne olursa ne demek. Kötü: "O kapanışın altı gelmedikçe bunu talep sorunu saymam." İyi: "Hynix 1,03 milyon wonun altında kapanırsa satış derinleşir; üstünde kaldıkça bu düşüş bir düzeltme."
+- KURAL 54-H (Enes 27.11 19:30): fon yöneticisi gibi yazmak mecazla süslemek değildir. "Risk masada kalır", "denklem değişti", "terazi", "ibre döndü", "tabloyu bozar", "pusula", "perde aralandı" gibi vecize kapanışlar yasak. Kötü: "Oran normale dönene kadar risk masada kalır." İyi: "Oran 1'in altına inene kadar temkinliyim."
 - yasak.py (54-G) yakalar; çıkış 1 ise tweet atılmaz.
