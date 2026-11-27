@@ -226,7 +226,7 @@ def _kahraman(fig, rect, deger, etiket, renk):
     _t(fig, rect[0] + 0.005, rect[1] + rect[3] - 0.005, deger, 96, "black", renk, va="top")
     _t(fig, rect[0] + 0.008, rect[1] + rect[3] - 0.092, etiket, 26, "bold", MUTED, va="top")
 
-def cizgi_pro(kicker, baslik, alt, seri, olaylar, sonuc, kaynak, out, kahraman=None, zirve=True, golge=None, ref=None, renk=ACC):
+def cizgi_pro(kicker, baslik, alt, seri, olaylar, sonuc, kaynak, out, kahraman=None, zirve=True, golge=None, ref=None, renk=ACC, seritler=None):
     """Açıklamalı çizgi: zirve çizgisi + zirveden düşüş gölgesi + kahraman rakam + olay notları.
     golge: (baş_tarih, son_tarih, etiket) gri dönem bandı; ref: [(değer, etiket)] yatay referans çizgileri."""
     alt = _damga(alt, seri[-1][0])
@@ -241,6 +241,7 @@ def cizgi_pro(kicker, baslik, alt, seri, olaylar, sonuc, kaynak, out, kahraman=N
         ax.axvspan(a, b, color=INK, alpha=0.06, lw=0)
         ax.text(a + (b - a) / 2, hi + pad * 1.6, et, ha="center", fontsize=22 * 0.72, color=MUTED, family=FAM, fontweight="bold")
     ax.plot(x, y, color=renk, lw=4.5, solid_joinstyle="round", zorder=3)
+    ax.fill_between(x, y, lo - pad, color=renk, alpha=0.08, lw=0, zorder=1)  # PRO v4: hafif alan
     if zirve:
         zi = y.index(hi)
         ax.axhline(hi, color=MUTED, lw=1.4, ls=(0, (4, 4)))
@@ -248,17 +249,34 @@ def cizgi_pro(kicker, baslik, alt, seri, olaylar, sonuc, kaynak, out, kahraman=N
         ax.fill_between(x[zi:], y[zi:], hi, color=DOWN, alpha=0.12, lw=0)
     for v, et in (ref or []):
         ax.axhline(v, color=GOLD, lw=1.6, ls=(0, (2, 3)))
-        ax.text(x[-1] + (x[-1] - x[0]) * 0.13, v, " " + et, va="center", ha="right", fontsize=22 * 0.72, color=GOLD, family=FAM, fontweight="bold")
+        if et: ax.text(x[0], v + pad * 0.35, et, va="bottom", ha="left", fontsize=20 * 0.72, color=GOLD, family=MONO, fontweight="bold")
     for j, (td, et) in enumerate(olaylar):
         d0 = dt.date.fromisoformat(td); i = min(range(len(x)), key=lambda k: abs((x[k] - d0).days))
         ax.scatter([x[i]], [y[i]], s=150, color=INK, zorder=5, edgecolor=BG, lw=3)
         ax.annotate(et, (x[i], y[i]), xytext=(-190, 40 + 62 * j), textcoords="offset points", ha="center",
                     fontsize=22 * 0.72, color=INK, family=FAM, fontweight="bold",
                     bbox=dict(boxstyle="round,pad=0.45", fc=PANEL, ec=GRID), arrowprops=dict(arrowstyle="-", color=MUTED, lw=1.4))
-    ax.scatter([x[-1]], [y[-1]], s=120, color=renk, zorder=6)
-    ax.annotate(_sayi(y[-1]), (x[-1], y[-1]), xytext=(14, 0), textcoords="offset points", va="center",
-                fontsize=28 * 0.72, color=renk, family=FAM, fontweight="black")
+    ax.scatter([x[-1]], [y[-1]], s=140, color=renk, zorder=6, edgecolor=BG, lw=3)
+    ax.annotate(_sayi(y[-1]), (x[-1], y[-1]), xytext=(16, 0), textcoords="offset points", va="center",
+                fontsize=26 * 0.72, color=BG, family=FAM, fontweight="black", zorder=7,
+                bbox=dict(boxstyle="round,pad=0.35,rounding_size=0.5", fc=renk, ec="none"))  # PRO v4: son değer etiketi
     ax.xaxis.set_major_locator(mdates.MonthLocator()); _tr_eksen(ax)
+    ax.yaxis.set_major_locator(matplotlib.ticker.MaxNLocator(5))
+    fig.canvas.draw()
+    for lab in ax.get_yticklabels():  # PRO v4: eksen yazıları mono, son değer etiketine yakın olanı gizle
+        lab.set_family(MONO)
+        try:
+            if abs(float(str(lab.get_text()).replace(".", "").replace(",", ".")) - y[-1]) < (hi - lo) * 0.07: lab.set_visible(False)
+        except ValueError: pass
+    for lab in ax.get_xticklabels(): lab.set_family(MONO)
+    if seritler:  # PRO v4: terminal tarzı kilit rakam şeridi (sağ üst)
+        n = len(seritler); x1 = r[0] + r[2]; w = 0.17; ytop = r[1] + r[3] - 0.012
+        for k, sv in enumerate(seritler):
+            et, deg = sv[0], sv[1]; rk = sv[2] if len(sv) > 2 else INK
+            xx = x1 - (n - k) * w + 0.01
+            fig.add_artist(Rectangle((xx - 0.008, ytop - 0.062), 0.0018, 0.062, transform=fig.transFigure, color=GRID))
+            fig.text(xx, ytop, et.replace("i", "İ").upper(), fontsize=17 * 0.72, color=MUTED, family=MONO, va="top")
+            _t(fig, xx, ytop - 0.024, deg, 34, "black", rk, va="top")
     if kahraman: _kahraman(fig, r, kahraman[0], kahraman[1], kahraman[2] if len(kahraman) > 2 else (DOWN if kahraman[0].startswith("−") else UP))
     return kaydet(fig, out)
 
