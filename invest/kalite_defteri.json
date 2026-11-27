@@ -1,22 +1,6 @@
 [
 {
 "jargon": {
-"izleme kapanışı": 1
-},
-"tarih": [],
-"terim": [],
-"acilis": "abd tüketici güveni kasım",
-"kapanis": "yarın 16 30 da",
-"rekor": 1,
-"imza": "5p-duz-o-rakam",
-"kalip": "A+M",
-"tur": "MAKRO",
-"zaman": "24.11 18:15",
-"gun": "24.11",
-"uzunluk": 663
-},
-{
-"jargon": {
 "ayrışma": 1
 },
 "tarih": [],
@@ -1080,5 +1064,27 @@
 "zaman": "27.11 13:05",
 "gun": "27.11",
 "uzunluk": 511
+},
+{
+"jargon": {},
+"tarih": [],
+"terim": [
+"sipariş defteri"
+],
+"acilis": "normal",
+"kapanis": "mongodb de atlas büyümesi",
+"rekor": 0,
+"k89": [
+"katalizor",
+"esik"
+],
+"k89_son": "",
+"k89_hazir": [],
+"imza": "3p-duz-o-rakam",
+"kalip": "M",
+"tur": "HABER",
+"zaman": "27.11 13:56",
+"gun": "27.11",
+"uzunluk": 475
 }
 ]
