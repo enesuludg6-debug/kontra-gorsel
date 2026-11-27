@@ -35,5 +35,17 @@
   "gerekce": "Enes 2x swing; düşen trend çizgisi 400-408 kırılım denemesi, destek 382/374/366 çakışma, TP1 414 TP2 433 TP3 455",
   "tarih": "2026-11-27",
   "sonuc": ""
+ },
+ {
+  "id": 4,
+  "t": "QQQ",
+  "yon": "yukari",
+  "giris": 651.0,
+  "stop": 606.0,
+  "hedef": 685.0,
+  "gun": 20,
+  "gerekce": "Dip skoru 7/10, onaylı giriş testi: 664 (20G) üstü kapanış; hedef 685 çakışma 6; geçersiz 606 (20.11 dip)",
+  "tarih": "2026-11-27",
+  "sonuc": ""
  }
 ]

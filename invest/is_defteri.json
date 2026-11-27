@@ -3343,11 +3343,11 @@
    "ne": "tur zinciri",
    "ticker": "",
    "tur": "tek",
-   "durum": "kuruldu",
+   "durum": "yapildi",
    "not": "",
    "trigger": "trig_014ab4qa2kDKoVmDRKeMhT3v",
    "soz": "",
-   "guncelleme": "27.11 22:43"
+   "guncelleme": "27.11 23:27"
   },
   {
    "id": "TEST-NDX-AYI",
@@ -3388,6 +3388,19 @@
    "trigger": "",
    "soz": "",
    "guncelleme": "26.11 08:53"
+  },
+  {
+   "id": "TUR-2811-1305",
+   "ad": "Otomatik paylaşım turu",
+   "zaman": "2026-11-28T13:05",
+   "ne": "tur zinciri",
+   "ticker": "",
+   "tur": "tek",
+   "durum": "kuruldu",
+   "not": "",
+   "trigger": "trig_01HvrigxmvDAi7e3qnezNTpR",
+   "soz": "",
+   "guncelleme": "27.11 23:27"
   },
   {
    "id": "SABIT-kalabalik",

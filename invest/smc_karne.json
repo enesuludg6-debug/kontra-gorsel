@@ -193,5 +193,44 @@
    "fark": 8,
    "hukum": "FARK YOK"
   }
+ },
+ "QQQ|1d": {
+  "tarih": "27.11.2026",
+  "sup_boga": {
+   "oran": 64,
+   "n": 177,
+   "fark": 2,
+   "hukum": "FARK YOK"
+  },
+  "mss_boga": {
+   "oran": 62,
+   "n": 53,
+   "fark": 0,
+   "hukum": "FARK YOK"
+  },
+  "sup_ayi": {
+   "oran": 34,
+   "n": 161,
+   "fark": -4,
+   "hukum": "FARK YOK"
+  },
+  "mss_ayi": {
+   "oran": 46,
+   "n": 26,
+   "fark": 9,
+   "hukum": "ZAYIF KANIT"
+  },
+  "fvg_boga_kalite": {
+   "oran": 100,
+   "n": 1,
+   "fark": 38,
+   "hukum": "KANIT YOK"
+  },
+  "fvg_ayi_kalite": {
+   "oran": 36,
+   "n": 36,
+   "fark": -1,
+   "hukum": "FARK YOK"
+  }
  }
 }
