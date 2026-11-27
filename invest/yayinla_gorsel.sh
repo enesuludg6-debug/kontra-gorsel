@@ -3,6 +3,8 @@
 # Kullanim: bash invest/yayinla_gorsel.sh g/20261117_1740_x.jpg
 cd "$(dirname "$0")" || exit 1
 F=$1; [ -f "$F" ] || { echo "dosya yok: $F"; exit 1; }
+# Kart denetimi (27.11): kart3 taşma/çakışma bulduysa yayınlama
+[ -s "$F.denetim" ] && { echo "KART DENETİM SORUNU -> düzelt, yeniden çiz:"; cat "$F.denetim"; exit 1; }
 MSG="kart $(basename "$F")
 
 Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>"; [ -n "$CS" ] && MSG="$MSG

@@ -78,7 +78,33 @@ def _ax(fig, rect, pad=(0.06, 0.04, 0.02, 0.02)):
     ax.grid(axis="y", color=GRID, lw=1.2); ax.set_axisbelow(True)
     return ax
 
+def denetle(fig):
+    """KART DENETİMİ (Enes 27.11 23:39 'görselleri daha da geliştirelim'): taşan/kırpılan yazı ve üst üste binen etiketleri bulur."""
+    fig.canvas.draw(); r = fig.canvas.get_renderer(); W_, H_ = fig.bbox.width, fig.bbox.height; sorun = []; kutular = []
+    yazilar = list(fig.texts)
+    for ax in fig.axes:
+        yazilar += [t for t in ax.texts] + [c for c in ax.get_children() if c.__class__.__name__ == "Annotation"]
+    for t in yazilar:
+        if not t.get_visible() or not str(t.get_text()).strip(): continue
+        try: b = t.get_window_extent(r)
+        except Exception: continue
+        if b.x0 < -2 or b.x1 > W_ + 2 or b.y0 < -2 or b.y1 > H_ + 2:
+            sorun.append(f"TAŞMA: '{t.get_text()[:40]}' kart dışına çıkıyor")
+        kutular.append((b, t.get_text()[:30]))
+    for i in range(len(kutular)):
+        for j in range(i + 1, len(kutular)):
+            a, b = kutular[i][0], kutular[j][0]
+            ox = min(a.x1, b.x1) - max(a.x0, b.x0); oy = min(a.y1, b.y1) - max(a.y0, b.y0)
+            if ox > 6 and oy > 6 and kutular[i][1] != kutular[j][1]:
+                sorun.append(f"ÇAKIŞMA: '{kutular[i][1]}' ile '{kutular[j][1]}'")
+    return sorun
+
 def kaydet(fig, out):
+    sorun = denetle(fig)
+    rap = os.path.join(D, out) + ".denetim"
+    if sorun:
+        open(rap, "w", encoding="utf-8").write("\n".join(sorun)); print("KART DENETİM SORUNU:\n  " + "\n  ".join(sorun))
+    elif os.path.exists(rap): os.remove(rap)
     fig.savefig(os.path.join(D, out), dpi=100, facecolor=BG, pil_kwargs={"quality": 92})
     plt.close(fig); return out
 
