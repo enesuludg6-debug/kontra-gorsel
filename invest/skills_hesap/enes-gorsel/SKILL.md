@@ -55,3 +55,23 @@ Okurda "bunu hazırlarken çok emek vermiş" hissi uyandırmak için: daha çok 
 - Denetim kart3.kaydet ile aynı (taşma/çakışma -> yayın yok).
 
 - kart4 v3 TASARIMCI DÜZENİ (Enes 27.11 23:47 'bir tasarımcı gibi düşün'): tek kahraman (beyaz serif dev rakam, işaret küçük-soluk, yön yalnız küçük ▲/▼), tek vurgu rengi (çizgi + italik başlık satırı), 90 px kenar ızgarası, tip ölçeği 11/17/34/58/180, kenardan kenara eksensiz grafik (yalnız zirve, olay, son değer etiketli), sağda yan=[(etiket, değer)] en çok 2 küçük veri, alıntı biçiminde Enes hükmü, ince ayraç çizgileri, iki ışık + gren + vinyet zemin.
+
+## KART4 AİLESİ — 14 TÜR (Enes 27.11 23:49 'en az 10-15 görsel türü, hepsi estetik'); örnekler g/tur/
+Hepsi aynı iskelet: üst şerit (mono, harf aralıklı) + iki satırlı serif başlık (2. satır italik vurgu, Enes sesiyle) + ince ayraç + içerik + alıntı biçiminde Enes hükmü + alt bilgi. Tek vurgu rengi (şirket rengi ya da yön). Son 3 tweette kullanılan tür tekrar edilmez.
+| tür | fonksiyon | ne zaman |
+|---|---|---|
+| 01 çizgi | kart4.cizgi | endeks/hisse seyri, kahraman yüzde + 2 yan veri |
+| 02 sıralama | kart4.siralama | aynı gün/hafta birden çok hisse kıyası, vurgulanan satır |
+| 03 beklenti | kart4.beklenti | bilanço öncesi konsensüs (kural 49), logo |
+| 04 sütun | kart4.sutun | çeyreklik gelir/kâr, son çubuk kesikli = beklenti |
+| 05 kıyas | kart4.kiyas | A vs B iki dev rakam (faktör, iki şirket, iki dönem) |
+| 06 ölçer | kart4.olcer | 0-100 göstergeler (CNN korku, kalabalık endeksi) |
+| 07 ısı | kart4.isi | haftalık/günlük getiri ızgarası (6-12 hisse) |
+| 08 takvim | kart4.takvim | gelecek hafta bilanço/veri takvimi |
+| 09 tarihsel | kart4.tarihsel | taban oranlı tarihsel istatistik (kural 96) |
+| 10 söz | kart4.soz | tartışma açan görüş tweeti, yalnız tipografi |
+| 11 haber | kart4.haber | son dakika: logo + 3 numaralı olgu |
+| 12 aralık | kart4.aralik | 52 haftalık aralıkta konum (2-5 hisse) |
+| 13 küçük çoklu | kart4.kucuk_coklu | 4 mini grafik, aynı sektör farklı seyir |
+| 14 içeriden | kart4.iceriden | yönetici alımı: dev tutar + kişi + işlem şeridi |
+Kurallar: kartlardaki her rakam tweet rakamı gibi 2 kaynak; alıntı Enes sesi (kural 102), alıntı ile veri çelişmez (27.11 dersi: 'bellek ayakta' yazıp Micron −%34 göstermek yanlıştı). Denetim (kural 103) her türde çalışır.
