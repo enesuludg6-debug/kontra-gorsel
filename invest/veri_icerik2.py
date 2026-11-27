@@ -116,7 +116,7 @@ def faktor(a):
     if arg(a, "--kart"):
         import kart3 as K
         K.siralama("Piyasa nabzı • Faktörler", "Piyasayı kim taşıyor, son 1 ay", "S&P 500'e göre getiri farkı, puan", [(ad, round(m1, 1)) for ad, m1, m3 in R],
-                   "3 aylıkta: " + ", ".join(f"{ad} {m3:+.1f}" for ad, m1, m3 in R[:3]).replace(".", ","), "iShares, Invesco ETF'leri (Yahoo Finance), kendi hesabım", arg(a, "--kart")); print("kart:", arg(a, "--kart"))
+                   "3 aylıkta: " + ", ".join(f"{ad} {m3:+.1f}" for ad, m1, m3 in R[:3]).replace(".", ","), "ETF verisi (Yahoo), kendi hesabım", arg(a, "--kart")); print("kart:", arg(a, "--kart"))
 
 def bakir_altin(a):
     hg, gc, tnx = veri("HG=F", "5y").close, veri("GC=F", "5y").close, veri("^TNX", "5y").close
