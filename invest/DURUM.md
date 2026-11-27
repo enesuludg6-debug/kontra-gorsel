@@ -11,6 +11,7 @@ Son güncelleme: 27.11.2026 00:04 TSİ (C2). Turlar şunu okur: tur_basi.sh çı
 - DENE: portföy hisselerinde grafik/teknik ve bilanço sonrası görüş en iyi gidiyor (RKLB grafik 2.243, RKLB 1.475, NBIS 1.466) → portföy hissesinde haber varsa öncelik ver; teknik tweetleri Enes atar (kural 38), sistem onun için taslak + seviye hazırlar.
 - DENE: Enes'in kısa, iddialı elle tweetleri (medyan 472) sistemin uzun tweetlerini (327) geçiyor → ilk cümle kısa ve iddialı olsun, ilk 2 satırda haber + görüş; 900 karakteri yalnız bilanço/analizde aş.
 - DENE: 13F tweetleri düşük (medyan 247) → 13F günde en çok 1, akşam 21-24 arasında.
+- DENE (27.11, 7 gün sonra 04.12 ölç): akşam 20-23 arasında günde 1 endeks seviyesi + net iddia tweeti (25.11 NDX 24.980 eşiği 2.621, en iyi 3'te); bilanço DETAY tweetlerini azalt (göreli 0,80), hakkı BEKLENTI'ye kaydır (kural 70 önerisi).
 - İZLE: kapanış (534) ve vadeli (497) iyi görünüyor ama n<5; 7 gün daha ölç.
 - DENE (20.11): bilanço DETAY tweetleri en zayıf grup (detay med 226, bilanco-detay 212, en kötü 5'in 4'ü detay) → ayrı detay tweeti açma; detayı rakam tweetine ya da 15 dk sonraki analize göm (kural 67: bilanço başına en fazla 6 tweet, beklenti dahil).
 - DENE (20.11): son dakika haberleri (med 497) ve genel haber (382) bilanço tweetlerinin (336) üstünde → her turda son dakikaya öncelik sürsün; boş kalan slotu detay yerine haberle doldur.

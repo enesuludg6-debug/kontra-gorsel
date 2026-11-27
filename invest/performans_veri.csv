@@ -360,85 +360,90 @@ tarih,saat,kaynak,tur,gorus,konu,duzen,buffer_id,gorunt,begeni,yanit,repost,er,o
 2026-11-23,23:35,sistem,PORTFOY,evet,SITM satin alinan buyume,spotlight,6b04a3745678330d31d88a1f,432,4,0,0,2.55,2026-11-26T00:42
 2026-11-23,23:47,sistem,PORTFOY,evet,DOCN YZ payi ve nakit,halka,6b04a3b6f80929239f3f3bea,305,2,0,0,2.95,2026-11-26T00:42
 2026-11-24,00:09,sistem,BAGLAM-GORUS,evet,kapanis rekora uzaklik,terminal,6b04ab7407fee37ee600eee5,,,,,,
-2026-11-24,11:04,sistem,KEYLEVELS,evet,gunun basliklari DELL PCE,takvim,6b05450eb34a1444db97adfd,494,3,0,0,2.23,2026-11-26T00:42
-2026-11-24,11:17,sistem,BILANCO-ANALIZ,evet,HPE Q4 sonuc takibi marj gider,uclu,6b05480df1f0435123304e80,444,2,0,0,0.9,2026-11-26T00:42
-2026-11-24,11:39,sistem,PORTFOY,evet,RKLB Electron fiyat gucu Neutron,once_sonra,6b054d47e7f2021e56805e1a,1037,9,0,0,3.57,2026-11-26T00:42
-2026-11-24,12:02,sistem,BAGLAM-GORUS,evet,Asya cip zincir TSMC Foxconn,siralama,6b0552a42acbde8befbc8dc1,567,3,0,0,1.23,2026-11-26T00:42
-2026-11-24,12:23,sistem,PORTFOY,evet,CBRS beta iki kat satis carpani,spotlight,6b055794428d2546b7f950a7,397,0,1,0,1.26,2026-11-26T00:42
-2026-11-24,12:46,sistem,PORTFOY,evet,AXON rehber revizyonu Dedrone zamanlama,editoryal,6b055d03387f16878f837677,509,2,0,0,1.77,2026-11-26T00:42
-2026-11-24,13:10,sistem,EGITICI,evet,PCE TUFE farki Fed hedefi,uclu,6b0562768feb7d2bb85ea89f,306,2,0,0,0.98,2026-11-26T00:42
-2026-11-24,13:31,sistem,BAGLAM-GORUS,evet,NVDA not degisikligi F/K tersine hesap,siralama,6b056796b2a80eb8e45d2744,359,1,0,0,0.28,2026-11-26T00:42
-2026-11-24,14:22,sistem,GERI-ALIM,evet,HPE geri alim 5 Mr FCF %75,halka,6b05738c81eea170c9176e00,380,1,0,0,1.05,2026-11-26T00:42
-2026-11-24,14:36,sistem,SONDAKIKA,evet,vadeliler geri cekilme NQ -2,once_sonra,6b0576b498255767f867683d,773,3,0,0,0.91,2026-11-26T00:42
-2026-11-24,15:00,sistem,BILANCO-ANALIZ,evet,HPE islem oncesi -10 marj,terminal,6b057c3fbc0aa0829453a3b5,290,1,0,0,1.38,2026-11-26T00:42
-2026-11-24,16:42,sistem,BAGLAM-GORUS,evet,DELL bilanco oncesi HPE kiyasi,dortlu,6b05944ba9e62b5051a850e6,540,3,0,0,2.78,2026-11-26T00:42
-2026-11-24,17:29,enes,ENES-TASLAK,?,"HPE, kritik bileşen kıtlığının en az 2028'in ikinci yarısına",,6b059f519c32ec001603311b,426,2,1,0,0.7,2026-11-26T00:42
-2026-11-24,17:37,sistem,BAGLAM-GORUS,evet,ABD acilis sunucu bellek satis,siralama,6b05a1086bb1e3ab6a388fc4,640,2,1,0,1.88,2026-11-26T00:42
-2026-11-24,17:42,sistem,BILANCO-ANALIZ,evet,HPE nakit akis tedarikci borcu,uclu,6b05a25bc592f5a905e46428,311,1,0,0,0.32,2026-11-26T00:42
-2026-11-24,18:15,sistem,MAKRO-YORUM,evet,Tüketici güveni Kasım 103 3,once_sonra,6b05a9f1e86dabb983d85d4a,428,4,0,0,1.87,2026-11-26T00:42
-2026-11-24,18:32,sistem,BAGLAM-GORUS,evet,Çip rallisi geri verme oranı,dortlu,6b05adf387ca84f8fe769833,1236,5,0,0,2.18,2026-11-26T00:42
-2026-11-24,18:54,sistem,BILANCO-ANALIZ,evet,ADI rehber: gelir +0 6 HBK -5 9,editoryal,6b05b334dac0a74131de0d38,278,1,0,0,1.08,2026-11-26T00:42
-2026-11-24,19:17,sistem,EGITICI,evet,Neocloud neden sert oynar,siralama,6b05b88684a6c936472b8ada,462,0,0,0,1.95,2026-11-26T00:42
-2026-11-24,19:38,sistem,BAGLAM-GORUS,evet,SOX-IGV korelasyon koptu  güvenlik artıda,terminal,6b05bd9e78f91355c97a0071,239,0,0,0,0.84,2026-11-26T00:42
-2026-11-24,19:59,sistem,BAGLAM-GORUS,evet,Güç zinciri: ekipman vs elektrik satıcısı (VRT portföy),halka,6b05c2882aa1a78e43941fc2,329,0,0,0,1.82,2026-11-26T00:42
-2026-11-24,20:21,sistem,PORTFOY,evet,RKLB Neutron fiyat 55->70,once_sonra,6b05c7919694e6b567041954,821,10,1,0,4.63,2026-11-26T00:42
-2026-11-24,20:32,enes,HABER*,?,"$META Muse, Walmart entegrasyonuyla Black Friday alışverişin",,6b05ca3b591a735d2dd629c7,542,2,0,0,0.55,2026-11-26T00:42
-2026-11-24,20:44,sistem,PORTFOY,evet,[A:iddia] SITM 3'e 1 bölünme,spotlight,6b05ccdabd6e90a3281cf52d,381,3,0,0,2.62,2026-11-26T00:42
-2026-11-24,21:07,sistem,MAKRO-YORUM,evet,[A:normal] Fed kararı Kasım TÜFE'den 1 gün önce  PCE eşiği,takvim,6b05d2749694e6b567097272,380,3,0,0,1.58,2026-11-26T00:42
-2026-11-24,21:29,sistem,ANALIST,evet,[A:iddia] PLTR analist hedefleri 80-265  3 3 kat,siralama,6b05d79220f9e770f0855c16,416,2,0,0,3.13,2026-11-26T00:42
-2026-11-24,21:53,sistem,BILANCO-BEKLENTI,evet,[A:normal] SNOW 2 Aralık önizleme: RPO kırılma noktası,uclu,6b05dd3720f9e770f087da78,306,0,0,0,1.31,2026-11-26T00:42
-2026-11-24,22:16,sistem,TAKVIM,evet,[A:iddia] Yarın ne var: hafta tek seansa sıkıştı,dortlu,6b05e2912db23f32428c5d3a,355,1,1,0,1.69,2026-11-26T00:42
-2026-11-24,23:01,sistem,BILANCO-BEKLENTI,evet,[A:normal] DELL bilanço beklentisi + brüt marj %20 eşiği,terminal,6b05ecfe53ba61949d6178ac,634,3,0,0,3.79,2026-11-26T00:42
-2026-11-25,00:15,sistem,BILANCO-RAKAM,evet,[A:muaf] DELL 3Ç rakam: 54 9 / 9 45 / defter 132 3,uclu,6b05fe72bbd94e83696f6f13,412,3,0,0,2.18,2026-11-26T00:42
-2026-11-25,00:17,sistem,BILANCO-ANALIZ,evet,[A:normal] DELL analiz: defter kâra dönüyor  marj sabit  4Ç HBK -%11,once_sonra,6b05fec99dd8377af120a802,522,5,0,0,2.87,2026-11-26T00:42
-2026-11-25,00:31,sistem,KAPANIS,evet,[A:iddia] [ALINTI-kendi] NDX sonuç takibi: rallinin %31'i geri verildi  %50 eşiği aşılmadı,halka,6b060233bbd94e83697121fe,365,4,0,0,2.74,2026-11-26T00:42
-2026-11-25,08:28,enes,HABER*,?,Son zamanlarda EU Finans topluluğu hakkında çok sayıda soru ,,6b0671e90d3f3b92db47c44e,455,1,0,0,2.2,2026-11-26T00:42
-2026-11-25,09:50,enes,HABER*,?,"Herkese günaydın, umarım harikasınızdır. Düşüşlerde psikoloj",,6b06855aee6bc922599629b3,471,8,0,0,2.97,2026-11-26T00:42
-2026-11-25,11:02,sistem,KEYLEVELS,evet,[A:normal] Günün başlıkları: NQ -2 vadeli  DELL primi geri verdi  PCE 0 3=yıllık 3 7,takvim,6b069620c68d7845a492dc71,521,3,0,0,3.07,2026-11-26T00:42
-2026-11-25,11:07,sistem,HABER,evet,[A:iddia] BIS kara liste 7 şirket MY/SG/TH  Megaspeed; ABD merkezli muafiyet -> kanal temizliği,editoryal,6b069756d8874a038c0514ea,432,3,0,0,2.31,2026-11-26T00:42
-2026-11-25,11:20,sistem,GUNUN-OLAYLARI,evet,[A:normal] Bugünün önemli olayları (TSİ) listesi 25.11 — kural 83 ilk,terminal,6b069874b6204bca46dbff6c,344,1,0,0,2.03,2026-11-26T00:42
-2026-11-25,11:43,sistem,BILANCO-CAGRI,evet,[A:iddia] DELL görüşme: her sipariş 4 kontrol (sermaye  müşteri kalitesi  ihracat  arazi/elektrik)  açık 2027'de büyüyor,sutun,6b069fa2b6204bca46deda4e,337,1,0,0,2.37,2026-11-26T00:42
-2026-11-25,12:07,sistem,BAGLAM-GORUS,evet,[A:iddia] NVDA dosya: zirveden −35 vs NDX −16  1 yıl −14 vs +4  DELL defter 51->132,dosya,6b06a53222dfb7833a979788,423,3,0,0,1.89,2026-11-26T00:42
-2026-11-25,12:08,enes,HABER*,?,"Bugün 16:30'da çekirdek PCE aylık yüzde 0,3 gelirse bu yıllı",,6b06a58d7edd6667c143dd69,738,8,0,0,2.85,2026-11-26T00:42
-2026-11-25,12:54,sistem,BAGLAM-GORUS,evet,[A:normal] YZ çipleri 52 hafta: MU +180/−48  AMD ×2/−36  ANET −22 TSM −28  NBIS/CRWV −69/70; CRWV tahvil %14-16,aralik,6b06b03f6212ba833cb06fb0,879,5,0,0,3.3,2026-11-26T00:42
-2026-11-25,13:17,sistem,MAKRO,evet,[A:iddia] Yeni gümrük vergileri: Çin  AB + 14 ekonomi  USTR aşırı kapasite; PCE 0 3 ile zincir,haber_dosya,6b06b5a6f7449faeec45287e,414,2,0,0,2.17,2026-11-26T00:42
-2026-11-25,13:40,enes,HABER*,?,"YTD +%51,68   Durumlara bakınca,performansımdan gayet memnun",,6b06bb12062c3f24d95c3df1,691,6,0,0,7.24,2026-11-26T00:42
-2026-11-25,14:04,sistem,HABER,evet,[A:normal] Gümrük listesi 16 ekonomi: Tayvan  Kore  Japonya  Malezya  Singapur; tavan %15/%19  Tayvan tavansız -> TSM riski,haber_dosya,6b06c0a64f2f059ad9a4f8a6,479,4,0,0,2.92,2026-11-26T00:42
-2026-11-25,14:36,sistem,BILANCO-RAKAM,hayir,[A:muaf] GDS 3Ç26 rakam: gelir 3 18 Mr yuan +10 1  net marj 0 9  alan +25 5  capex 8 5,bilanco_dosya,6b06c849e3ac2fcff79fbc05,304,2,0,0,1.97,2026-11-26T00:42
-2026-11-25,15:22,sistem,BILANCO-ANALIZ,evet,[A:normal] GDS analiz: FAVÖK +2 8  doluluk 74 4->81 2  marj 46 5->43 4  capex 8 5  net borç/FAVÖK ~5 3,sutun,6b06d2fca98b4d223dac3eba,297,3,0,0,1.68,2026-11-26T00:42
-2026-11-25,16:47,sistem,MAKRO,evet,[A:iddia] [TEST-SONUC] PCE: çekirdek 3 3 yıllık / 0 3 aylık  GDP 4 3; eşik tuttu  50 bp sorusu,haber_dosya,6b06e6ec3b100906e7587db1,,,,,,
-2026-11-25,17:37,sistem,BAGLAM-GORUS,evet,[A:normal] Açılış: NDX ~−4  SPX ~−2 7; MU −11  CRWV/NBIS −10  NVDA −8 5; en az HPE/AXON/CRWD,isi,6b06f2c1232e485be0cd5b9a,,,,,,
-2026-11-25,18:00,sistem,MAKRO,evet,[A:iddia] Hisse düşerken tahvil yükseldi: 10Y 4 90->4 82  ZT/ZQ yukarı  NDX −3 (açılış −4); 17:37 açıklaması düzeltildi,haber_dosya,6b06f80ecabcf2e3e37bd992,,,,,,
-2026-11-25,18:22,sistem,PORTFOY,evet,[A:normal] CRWV/NBIS tahvil baskısı: kredi primi rekor  2031 tahvil %16 üstü; eşik %16,dosya,6b06fd325fe597980b65b3cf,,,,,,
-2026-11-25,18:52,sistem,HABER,evet,[A:iddia] Tayvan USTR resmi öneri en çok %15 (anlaşma tavanı); TSM −%7 gümrükten değil çip satışından,haber_dosya,6b070424304332fdc8e12c9b,,,,,,
-2026-11-25,20:02,sistem,EGITICI,hayir,[A:normal] Kredi temerrüt swabı (CDS) nedir; CRWV 1.155 / ORCL 298 / NVDA 139 bp (6.11),siralama,6b07125a95a0fa08d474a277,,,,,,
-2026-11-25,20:14,sistem,ENES-HABER,evet,[A:iddia] FCC SpaceX Starmind 1 milyon uydu izni; Starlink Gen2 15.000; ilk etki fırlatma talebi/Starship,haber_dosya,6b0713abdb153417ca0fe4e1,,,,,,
-2026-11-25,20:24,enes,HABER*,?,"Trump, seçim sonuçlarını borsadaki sert düşüşün sorumlusu il",,6b0719ce726d055a8b889abb,,,,,,
-2026-11-25,20:57,sistem,BAGLAM-GORUS,evet,[A:normal] Nasdaq 100 ayı çizgisine (24.980) dokunup döndü; VIX gün içi zirveden ~5 puan geri; çizgi %3 yukarıda,cizgi_pro,6b07218d52de4830633e1512,,,,,,
-2026-11-25,21:24,enes,TEKNIK*,?,Endekste kritik destek seviyelerine yakın seyrimizi koruyoru,,6b0728033c437bbdd6b645a7,,,,,,
-2026-11-25,21:45,enes,HABER*,?,Ben diplere yakınız deyince bu kadar değerli olmuyor. Buyrun,,6b072cd44d306f178048f29d,,,,,,
-2026-11-25,21:50,enes,HABER*,?,AXON %8 yukarda.,,6b072dfd4d306f178048fd73,,,,,,
-2026-11-25,22:10,sistem,MAKRO,evet,[A:iddia] Fed Bej Kitap: 8/12 bölge büyüme  girdi maliyeti > satış fiyatı  ücret hızlandı; Aralık artırımı değişmez  baskı marjlarda; 13 Ocak sonraki Bej Kitap,haber_dosya,6b07329c636c52154b99315f,,,,,,
-2026-11-25,22:30,enes,HABER*,?,"Nasdaq 100’de Dip Bölgesine Yaklaşıyor Olabiliriz, Ancak Dön",,6b07376803a78e02e042c843,,,,,,
-2026-11-25,23:12,enes,HABER*,?,"Cerebras’ta Şirket Hızlanıyor, Hisse Senedi İse Hâlâ Satıcıl",,6b07413d61d5564381c876d5,,,,,,
-2026-11-26,00:16,sistem,SONUC,evet,[A:iddia] TEST-AYRISMA-2511 sonuç takibi: NVDA 149 30>125 53  AMD 406 03<424 39  AVGO 300 86<304 41 tuttu,haber_dosya,6b075026b96dd8d35161b98e,,,,,,
-2026-11-26,10:40,sistem,KORKU,duygu fiyattan hızlı bozuldu,[A:normal] Korku-Açgözlülük 17 4 aşırı korku (kural 90 ilk),cizgi_pro,6b07c6f4b96dd8d351914536,,,,,,
-2026-11-26,11:19,sistem,HABER,evet,[A:iddia] Kioxia +%12 6 yalnız Nvidia değil; 2 21 trilyon yen iç temettü + 144 SSD deneme; ikinci etki SanDisk/Micron,cizgi_olay,6b07eb84aca8612480906cfc,,,,,,
-2026-11-26,11:46,sistem,HABER,evet,[A:normal] SK Hynix Kore toparlanması akşama taşınmadı,dosya,6b07f1fb63939e1d00875fa7,,,,,,
-2026-11-26,12:23,sistem,HABER,evet,[A:iddia] SpaceX yörünge veri merkezi FCC onayı 10 ayda,siralama,6b07fa6c17fc84b971bcaa01,,,,,,
-2026-11-26,12:52,sistem,HABER,evet,[A:normal] Nvidia kredi notu S&P izleme / Moody's teyit,cizgi_pro,6b08013510c0f7816e972e48,,,,,,
-2026-11-26,13:28,sistem,HABER,evet,[A:iddia] Asya veri merkezi kredileri ABD çip lisansına takıldı,bilanco,6b0809d2a35d913b496dbd04,,,,,,
-2026-11-26,13:54,sistem,HABER,evet,[A:normal] Nikkei yükselişinin yarısı Advantest'ten  Topix +%0 1,cizgi_olay,6b080ff5b56cc066e5beaa97,,,,,,
-2026-11-26,14:27,sistem,HABER,evet,[A:iddia] OpenAI Private Inference / gizli hesaplama tedarikçileri,kucuk_coklu,6b08178c3d35a6c490d28670,,,,,,
+2026-11-24,11:04,sistem,KEYLEVELS,evet,gunun basliklari DELL PCE,takvim,6b05450eb34a1444db97adfd,498,3,0,0,2.21,2026-11-26T23:42
+2026-11-24,11:17,sistem,BILANCO-ANALIZ,evet,HPE Q4 sonuc takibi marj gider,uclu,6b05480df1f0435123304e80,446,2,0,0,0.9,2026-11-26T23:42
+2026-11-24,11:39,sistem,PORTFOY,evet,RKLB Electron fiyat gucu Neutron,once_sonra,6b054d47e7f2021e56805e1a,1041,9,0,0,3.55,2026-11-26T23:42
+2026-11-24,12:02,sistem,BAGLAM-GORUS,evet,Asya cip zincir TSMC Foxconn,siralama,6b0552a42acbde8befbc8dc1,570,3,0,0,1.23,2026-11-26T23:42
+2026-11-24,12:23,sistem,PORTFOY,evet,CBRS beta iki kat satis carpani,spotlight,6b055794428d2546b7f950a7,401,0,1,0,1.25,2026-11-26T23:42
+2026-11-24,12:46,sistem,PORTFOY,evet,AXON rehber revizyonu Dedrone zamanlama,editoryal,6b055d03387f16878f837677,514,2,0,0,1.75,2026-11-26T23:42
+2026-11-24,13:10,sistem,EGITICI,evet,PCE TUFE farki Fed hedefi,uclu,6b0562768feb7d2bb85ea89f,309,2,0,0,0.97,2026-11-26T23:42
+2026-11-24,13:31,sistem,BAGLAM-GORUS,evet,NVDA not degisikligi F/K tersine hesap,siralama,6b056796b2a80eb8e45d2744,360,1,0,0,0.28,2026-11-26T23:42
+2026-11-24,14:22,sistem,GERI-ALIM,evet,HPE geri alim 5 Mr FCF %75,halka,6b05738c81eea170c9176e00,384,1,0,0,1.04,2026-11-26T23:42
+2026-11-24,14:36,sistem,SONDAKIKA,evet,vadeliler geri cekilme NQ -2,once_sonra,6b0576b498255767f867683d,776,3,0,0,0.9,2026-11-26T23:42
+2026-11-24,15:00,sistem,BILANCO-ANALIZ,evet,HPE islem oncesi -10 marj,terminal,6b057c3fbc0aa0829453a3b5,294,1,0,0,1.36,2026-11-26T23:42
+2026-11-24,16:42,sistem,BAGLAM-GORUS,evet,DELL bilanco oncesi HPE kiyasi,dortlu,6b05944ba9e62b5051a850e6,545,3,0,0,2.94,2026-11-26T23:42
+2026-11-24,17:29,enes,ENES-TASLAK,?,"HPE, kritik bileşen kıtlığının en az 2028'in ikinci yarısına",,6b059f519c32ec001603311b,428,2,1,0,0.7,2026-11-26T23:42
+2026-11-24,17:37,sistem,BAGLAM-GORUS,evet,ABD acilis sunucu bellek satis,siralama,6b05a1086bb1e3ab6a388fc4,642,2,1,0,1.87,2026-11-26T23:42
+2026-11-24,17:42,sistem,BILANCO-ANALIZ,evet,HPE nakit akis tedarikci borcu,uclu,6b05a25bc592f5a905e46428,316,1,0,0,0.32,2026-11-26T23:42
+2026-11-24,18:15,sistem,MAKRO-YORUM,evet,Tüketici güveni Kasım 103 3,once_sonra,6b05a9f1e86dabb983d85d4a,430,4,0,0,1.86,2026-11-26T23:42
+2026-11-24,18:32,sistem,BAGLAM-GORUS,evet,Çip rallisi geri verme oranı,dortlu,6b05adf387ca84f8fe769833,1238,5,0,0,2.18,2026-11-26T23:42
+2026-11-24,18:54,sistem,BILANCO-ANALIZ,evet,ADI rehber: gelir +0 6 HBK -5 9,editoryal,6b05b334dac0a74131de0d38,290,1,1,0,2.76,2026-11-26T23:42
+2026-11-24,19:17,sistem,EGITICI,evet,Neocloud neden sert oynar,siralama,6b05b88684a6c936472b8ada,464,0,0,0,1.94,2026-11-26T23:42
+2026-11-24,19:38,sistem,BAGLAM-GORUS,evet,SOX-IGV korelasyon koptu  güvenlik artıda,terminal,6b05bd9e78f91355c97a0071,243,0,0,0,0.82,2026-11-26T23:42
+2026-11-24,19:59,sistem,BAGLAM-GORUS,evet,Güç zinciri: ekipman vs elektrik satıcısı (VRT portföy),halka,6b05c2882aa1a78e43941fc2,338,0,0,0,2.07,2026-11-26T23:42
+2026-11-24,20:21,sistem,PORTFOY,evet,RKLB Neutron fiyat 55->70,once_sonra,6b05c7919694e6b567041954,828,10,1,0,4.59,2026-11-26T23:42
+2026-11-24,20:32,enes,HABER*,?,"$META Muse, Walmart entegrasyonuyla Black Friday alışverişin",,6b05ca3b591a735d2dd629c7,552,2,0,0,0.54,2026-11-26T23:42
+2026-11-24,20:44,sistem,PORTFOY,evet,[A:iddia] SITM 3'e 1 bölünme,spotlight,6b05ccdabd6e90a3281cf52d,394,3,0,0,2.54,2026-11-26T23:42
+2026-11-24,21:07,sistem,MAKRO-YORUM,evet,[A:normal] Fed kararı Kasım TÜFE'den 1 gün önce  PCE eşiği,takvim,6b05d2749694e6b567097272,387,3,0,0,1.55,2026-11-26T23:42
+2026-11-24,21:29,sistem,ANALIST,evet,[A:iddia] PLTR analist hedefleri 80-265  3 3 kat,siralama,6b05d79220f9e770f0855c16,421,2,0,0,3.09,2026-11-26T23:42
+2026-11-24,21:53,sistem,BILANCO-BEKLENTI,evet,[A:normal] SNOW 2 Aralık önizleme: RPO kırılma noktası,uclu,6b05dd3720f9e770f087da78,316,0,0,0,1.27,2026-11-26T23:42
+2026-11-24,22:16,sistem,TAKVIM,evet,[A:iddia] Yarın ne var: hafta tek seansa sıkıştı,dortlu,6b05e2912db23f32428c5d3a,362,1,1,0,1.66,2026-11-26T23:42
+2026-11-24,23:01,sistem,BILANCO-BEKLENTI,evet,[A:normal] DELL bilanço beklentisi + brüt marj %20 eşiği,terminal,6b05ecfe53ba61949d6178ac,642,3,0,0,3.74,2026-11-26T23:42
+2026-11-25,00:15,sistem,BILANCO-RAKAM,evet,[A:muaf] DELL 3Ç rakam: 54 9 / 9 45 / defter 132 3,uclu,6b05fe72bbd94e83696f6f13,425,3,0,0,2.59,2026-11-26T23:42
+2026-11-25,00:17,sistem,BILANCO-ANALIZ,evet,[A:normal] DELL analiz: defter kâra dönüyor  marj sabit  4Ç HBK -%11,once_sonra,6b05fec99dd8377af120a802,531,5,0,0,2.82,2026-11-26T23:42
+2026-11-25,00:31,sistem,KAPANIS,evet,[A:iddia] [ALINTI-kendi] NDX sonuç takibi: rallinin %31'i geri verildi  %50 eşiği aşılmadı,halka,6b060233bbd94e83697121fe,370,4,0,0,2.7,2026-11-26T23:42
+2026-11-25,08:28,enes,HABER*,?,Son zamanlarda EU Finans topluluğu hakkında çok sayıda soru ,,6b0671e90d3f3b92db47c44e,584,1,0,0,2.4,2026-11-26T23:42
+2026-11-25,09:50,enes,HABER*,?,"Herkese günaydın, umarım harikasınızdır. Düşüşlerde psikoloj",,6b06855aee6bc922599629b3,480,8,0,0,2.92,2026-11-26T23:42
+2026-11-25,11:02,sistem,KEYLEVELS,evet,[A:normal] Günün başlıkları: NQ -2 vadeli  DELL primi geri verdi  PCE 0 3=yıllık 3 7,takvim,6b069620c68d7845a492dc71,534,3,0,0,3,2026-11-26T23:42
+2026-11-25,11:07,sistem,HABER,evet,[A:iddia] BIS kara liste 7 şirket MY/SG/TH  Megaspeed; ABD merkezli muafiyet -> kanal temizliği,editoryal,6b069756d8874a038c0514ea,442,3,0,0,2.26,2026-11-26T23:42
+2026-11-25,11:20,sistem,GUNUN-OLAYLARI,evet,[A:normal] Bugünün önemli olayları (TSİ) listesi 25.11 — kural 83 ilk,terminal,6b069874b6204bca46dbff6c,364,1,0,0,1.92,2026-11-26T23:42
+2026-11-25,11:43,sistem,BILANCO-CAGRI,evet,[A:iddia] DELL görüşme: her sipariş 4 kontrol (sermaye  müşteri kalitesi  ihracat  arazi/elektrik)  açık 2027'de büyüyor,sutun,6b069fa2b6204bca46deda4e,346,1,0,0,2.31,2026-11-26T23:42
+2026-11-25,12:07,sistem,BAGLAM-GORUS,evet,[A:iddia] NVDA dosya: zirveden −35 vs NDX −16  1 yıl −14 vs +4  DELL defter 51->132,dosya,6b06a53222dfb7833a979788,432,3,0,0,1.85,2026-11-26T23:42
+2026-11-25,12:08,enes,HABER*,?,"Bugün 16:30'da çekirdek PCE aylık yüzde 0,3 gelirse bu yıllı",,6b06a58d7edd6667c143dd69,748,8,0,0,2.81,2026-11-26T23:42
+2026-11-25,12:54,sistem,BAGLAM-GORUS,evet,[A:normal] YZ çipleri 52 hafta: MU +180/−48  AMD ×2/−36  ANET −22 TSM −28  NBIS/CRWV −69/70; CRWV tahvil %14-16,aralik,6b06b03f6212ba833cb06fb0,902,5,0,0,3.22,2026-11-26T23:42
+2026-11-25,13:17,sistem,MAKRO,evet,[A:iddia] Yeni gümrük vergileri: Çin  AB + 14 ekonomi  USTR aşırı kapasite; PCE 0 3 ile zincir,haber_dosya,6b06b5a6f7449faeec45287e,422,2,0,0,2.13,2026-11-26T23:42
+2026-11-25,13:40,enes,HABER*,?,"YTD +%51,68   Durumlara bakınca,performansımdan gayet memnun",,6b06bb12062c3f24d95c3df1,714,6,0,0,7.28,2026-11-26T23:42
+2026-11-25,14:04,sistem,HABER,evet,[A:normal] Gümrük listesi 16 ekonomi: Tayvan  Kore  Japonya  Malezya  Singapur; tavan %15/%19  Tayvan tavansız -> TSM riski,haber_dosya,6b06c0a64f2f059ad9a4f8a6,488,4,0,0,2.87,2026-11-26T23:42
+2026-11-25,14:36,sistem,BILANCO-RAKAM,hayir,[A:muaf] GDS 3Ç26 rakam: gelir 3 18 Mr yuan +10 1  net marj 0 9  alan +25 5  capex 8 5,bilanco_dosya,6b06c849e3ac2fcff79fbc05,321,2,0,0,1.87,2026-11-26T23:42
+2026-11-25,15:22,sistem,BILANCO-ANALIZ,evet,[A:normal] GDS analiz: FAVÖK +2 8  doluluk 74 4->81 2  marj 46 5->43 4  capex 8 5  net borç/FAVÖK ~5 3,sutun,6b06d2fca98b4d223dac3eba,314,3,0,0,1.59,2026-11-26T23:42
+2026-11-25,16:47,sistem,MAKRO,evet,[A:iddia] [TEST-SONUC] PCE: çekirdek 3 3 yıllık / 0 3 aylık  GDP 4 3; eşik tuttu  50 bp sorusu,haber_dosya,6b06e6ec3b100906e7587db1,518,3,0,0,2.12,2026-11-26T23:42
+2026-11-25,17:37,sistem,BAGLAM-GORUS,evet,[A:normal] Açılış: NDX ~−4  SPX ~−2 7; MU −11  CRWV/NBIS −10  NVDA −8 5; en az HPE/AXON/CRWD,isi,6b06f2c1232e485be0cd5b9a,582,3,0,0,2.41,2026-11-26T23:42
+2026-11-25,18:00,sistem,MAKRO,evet,[A:iddia] Hisse düşerken tahvil yükseldi: 10Y 4 90->4 82  ZT/ZQ yukarı  NDX −3 (açılış −4); 17:37 açıklaması düzeltildi,haber_dosya,6b06f80ecabcf2e3e37bd992,360,2,0,0,1.67,2026-11-26T23:42
+2026-11-25,18:22,sistem,PORTFOY,evet,[A:normal] CRWV/NBIS tahvil baskısı: kredi primi rekor  2031 tahvil %16 üstü; eşik %16,dosya,6b06fd325fe597980b65b3cf,434,6,0,0,3.92,2026-11-26T23:42
+2026-11-25,18:52,sistem,HABER,evet,[A:iddia] Tayvan USTR resmi öneri en çok %15 (anlaşma tavanı); TSM −%7 gümrükten değil çip satışından,haber_dosya,6b070424304332fdc8e12c9b,329,3,0,0,3.04,2026-11-26T23:42
+2026-11-25,20:02,sistem,EGITICI,hayir,[A:normal] Kredi temerrüt swabı (CDS) nedir; CRWV 1.155 / ORCL 298 / NVDA 139 bp (6.11),siralama,6b07125a95a0fa08d474a277,282,0,0,0,0.71,2026-11-26T23:42
+2026-11-25,20:14,sistem,ENES-HABER,evet,[A:iddia] FCC SpaceX Starmind 1 milyon uydu izni; Starlink Gen2 15.000; ilk etki fırlatma talebi/Starship,haber_dosya,6b0713abdb153417ca0fe4e1,288,1,1,0,1.39,2026-11-26T23:42
+2026-11-25,20:24,enes,HABER*,?,"Trump, seçim sonuçlarını borsadaki sert düşüşün sorumlusu il",,6b0719ce726d055a8b889abb,449,2,0,0,1.78,2026-11-26T23:42
+2026-11-25,20:57,sistem,BAGLAM-GORUS,evet,[A:normal] Nasdaq 100 ayı çizgisine (24.980) dokunup döndü; VIX gün içi zirveden ~5 puan geri; çizgi %3 yukarıda,cizgi_pro,6b07218d52de4830633e1512,2621,14,0,0,4.16,2026-11-26T23:42
+2026-11-25,21:24,enes,TEKNIK*,?,Endekste kritik destek seviyelerine yakın seyrimizi koruyoru,,6b0728033c437bbdd6b645a7,457,3,1,0,3.28,2026-11-26T23:42
+2026-11-25,21:45,enes,HABER*,?,Ben diplere yakınız deyince bu kadar değerli olmuyor. Buyrun,,6b072cd44d306f178048f29d,1940,20,2,0,2.58,2026-11-26T23:42
+2026-11-25,21:50,enes,HABER*,?,AXON %8 yukarda.,,6b072dfd4d306f178048fd73,394,5,0,1,3.81,2026-11-26T23:42
+2026-11-25,22:10,sistem,MAKRO,evet,[A:iddia] Fed Bej Kitap: 8/12 bölge büyüme  girdi maliyeti > satış fiyatı  ücret hızlandı; Aralık artırımı değişmez  baskı marjlarda; 13 Ocak sonraki Bej Kitap,haber_dosya,6b07329c636c52154b99315f,384,4,0,0,2.08,2026-11-26T23:42
+2026-11-25,22:30,enes,HABER*,?,"Nasdaq 100’de Dip Bölgesine Yaklaşıyor Olabiliriz, Ancak Dön",,6b07376803a78e02e042c843,1335,11,0,0,4.42,2026-11-26T23:42
+2026-11-25,23:12,enes,HABER*,?,"Cerebras’ta Şirket Hızlanıyor, Hisse Senedi İse Hâlâ Satıcıl",,6b07413d61d5564381c876d5,814,11,0,0,5.77,2026-11-26T23:42
+2026-11-26,00:16,sistem,SONUC,evet,[A:iddia] TEST-AYRISMA-2511 sonuç takibi: NVDA 149 30>125 53  AMD 406 03<424 39  AVGO 300 86<304 41 tuttu,haber_dosya,6b075026b96dd8d35161b98e,523,4,0,0,5.54,2026-11-26T23:42
+2026-11-26,07:53,enes,HABER*,?,Günaydınlar.Keyifler yerinde mi?,,6b07bb4d050d96bc57dcc25c,295,5,0,0,2.03,2026-11-26T23:42
+2026-11-26,10:09,enes,TEKNIK*,?,Gruba artık kurumsal ayak izini de getirdik.  Her işlem günü,,6b07db1d763f8c3b8efeed83,959,6,0,0,3.96,2026-11-26T23:42
+2026-11-26,10:40,sistem,KORKU,duygu fiyattan hızlı bozuldu,[A:normal] Korku-Açgözlülük 17 4 aşırı korku (kural 90 ilk),cizgi_pro,6b07c6f4b96dd8d351914536,322,3,0,0,2.48,2026-11-26T23:42
+2026-11-26,11:01,enes,HABER*,?,Sistem tamam.👌🏻 https://t.co/rCpNsLPN2U,,6b07e76d15ed9e1da0e25bc6,777,5,0,0,15.32,2026-11-26T23:42
+2026-11-26,11:19,sistem,HABER,evet,[A:iddia] Kioxia +%12 6 yalnız Nvidia değil; 2 21 trilyon yen iç temettü + 144 SSD deneme; ikinci etki SanDisk/Micron,cizgi_olay,6b07eb84aca8612480906cfc,339,2,0,0,1.47,2026-11-26T23:42
+2026-11-26,11:46,sistem,HABER,evet,[A:normal] SK Hynix Kore toparlanması akşama taşınmadı,dosya,6b07f1fb63939e1d00875fa7,813,9,0,0,2.95,2026-11-26T23:42
+2026-11-26,12:23,sistem,HABER,evet,[A:iddia] SpaceX yörünge veri merkezi FCC onayı 10 ayda,siralama,6b07fa6c17fc84b971bcaa01,280,1,0,0,1.07,2026-11-26T23:42
+2026-11-26,12:52,sistem,HABER,evet,[A:normal] Nvidia kredi notu S&P izleme / Moody's teyit,cizgi_pro,6b08013510c0f7816e972e48,315,1,0,0,0.95,2026-11-26T23:42
+2026-11-26,13:28,sistem,HABER,evet,[A:iddia] Asya veri merkezi kredileri ABD çip lisansına takıldı,bilanco,6b0809d2a35d913b496dbd04,309,2,0,0,1.29,2026-11-26T23:42
+2026-11-26,13:54,sistem,HABER,evet,[A:normal] Nikkei yükselişinin yarısı Advantest'ten  Topix +%0 1,cizgi_olay,6b080ff5b56cc066e5beaa97,262,0,0,0,0.76,2026-11-26T23:42
+2026-11-26,14:27,sistem,HABER,evet,[A:iddia] OpenAI Private Inference / gizli hesaplama tedarikçileri,kucuk_coklu,6b08178c3d35a6c490d28670,365,5,0,0,3.01,2026-11-26T23:42
 2026-11-26,14:56,sistem,PORTFOY,evet,[A:normal] RKLB fiyatlama gücü / SpaceX yörünge veri merkezi ikinci derece etkisi,dosya,6b081e6096d200044e41cfe6,,,,,,
 2026-11-26,15:40,sistem,DERIN-ANALIZ,evet,[A:iddia] AÇIKLAYICI 1/5: Neocloud iş modeli ve Nebius peşin ödeme,bilanco,6b0824615b429f9be00a73ae,,,,,,
 2026-11-26,16:20,sistem,VERI-KUYRUK,evet,[A:normal] Kuyruk riski: VVIX 115 (%87)  SKEW ortalama,cizgi_pro,6b08306eb56b3bb7f9fd0f73,,,,,,
 2026-11-26,16:57,sistem,DERIN-ANALIZ,evet,[A:iddia] AÇIKLAYICI 2/5: XPU / özel yapay zekâ çipi  AVGO,sutun,6b083ac080ee2e8b6680cb1f,,,,,,
+2026-11-26,17:45,enes,HABER*,?,"Makroekonomik konjonktürün mevcut likidite sıkışıklığı, tari",,6b084600b89f63179f188cb1,,,,,,
 2026-11-26,17:50,sistem,PORTFOY,evet,[A:normal] AÇIKLAYICI 3/5: sıvı soğutma neden zorunlu  VRT ön ödemeler,dosya,6b084713a9607f755582e90f,,,,,,
+2026-11-26,18:58,enes,HABER*,?,Ucuz hesaplama herkesi AI’ya çekince çıkarım talebi uçuşa ge,,6b0857196866adb41fe3ce4a,,,,,,
 2026-11-26,19:21,sistem,TARIHSEL,evet,[A:iddia] TARİHSEL (kural 96) ilk: VIX 25 üstü -> Nasdaq 100 6 ay,egim,6b085ca54e32cfdd23069e88,,,,,,
 2026-11-26,20:12,sistem,PORTFOY,evet,[A:normal] AÇIKLAYICI 4/5: zamanlama çipi  SITM,bilanco,6b08688c3accdac92ce4d4f2,,,,,,
-2026-11-26,21:03,Zacks, RTTNews, TIKR,HABER,evet,SNOW tüketim bazlı gelir 2 Aralık öncesi,sutun,6b087486ce64081689def217,,,,,,
-2026-11-26,21:47,Yahoo, Webull,EGITICI,evet,Ay sonu yeniden dengeleme (emeklilik fonu),siralama,6b087ed3ce64081689e3c950,,,,,,
-2026-11-26,22:24,Zacks, Briefing, PR Newswire,HABER,evet,[A:iddia] MDB 1 Aralık bilançosu öncesi Atlas eşiği,cizgi_olay,6b08876b3accdac92cf3b9ab,,,,,,
-2026-11-26,23:13,Adobe, Retail Dive,HABER,evet,Kara Cuma çevrim içi harcama beklentisi (Adobe),bilanco,6b0892ecc81617797dddc881,,,,,,
-2026-11-27,00:04,stat.go.jp, Reuters/investinglive, Yahoo,HABER,evet,[A:iddia] Tokyo enflasyonu bu gece  yen taşıma işlemi riski,cizgi_pro,6b089ed5ce64081689f2aad0,,,,,,
+2026-11-26,21:03,sistem,HABER,evet,[A:iddia] AÇIKLAYICI 5/5: tüketim bazlı gelir  SNOW 2 Aralık öncesi,sutun,6b087486ce64081689def217,,,,,,
+2026-11-26,21:47,sistem,EGITICI,evet,[A:normal] EĞİTİCİ: ay sonu yeniden dengeleme (emeklilik fonu),siralama,6b087ed3ce64081689e3c950,,,,,,
+2026-11-26,22:24,sistem,HABER,evet,[A:iddia] MDB 1 Aralık bilançosu öncesi Atlas eşiği,cizgi_olay,6b08876b3accdac92cf3b9ab,,,,,,
+2026-11-26,23:13,sistem,HABER,evet,[A:normal] Kara Cuma çevrim içi harcama beklentisi (Adobe),bilanco,6b0892ecc81617797dddc881,,,,,,
+2026-11-27,00:04,sistem,HABER,evet,[A:iddia] Tokyo enflasyonu bu gece  yen taşıma işlemi riski,cizgi_pro,6b089ed5ce64081689f2aad0,,,,,,
