@@ -298,3 +298,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 27.11 | 18:14 | VERI-VIX | VIX vade eğrisi 8 gündür ters, oran 1,05 (biçim: görüş) | cizgi_pro | 6b099e5b32c212878fdeac6b |
 | 27.11 | 18:52 | HABER | Faiz +7 bp iken Nasdaq +%1,7: para tahvilden hisseye (biçim: kartsız) | kartsiz | 6b09a722bb117e5ba75c43de |
 | 27.11 | 19:32 | HABER | AÇIKLAYICI 5/5: dikey entegrasyon  Tesla EMAG başvurusu (biçim: kartlı) | dosya | 6b09b0a832c212878fe786d8 |
+| 27.11 | 20:09 | EGITICI | EĞİTİCİ: yarım gün ve ince hacim, QQQ hacim 0,5x (biçim: kartsız) | kartsiz | 6b09b932d5bf252ef53a399a |
