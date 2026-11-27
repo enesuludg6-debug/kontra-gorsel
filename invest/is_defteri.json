@@ -3304,11 +3304,24 @@
    "ne": "tur zinciri",
    "ticker": "",
    "tur": "tek",
-   "durum": "kuruldu",
+   "durum": "yapildi",
    "not": "",
    "trigger": "trig_01DhnKwT3SL1DiUy1HgrFdYJ",
    "soz": "",
-   "guncelleme": "27.11 20:51"
+   "guncelleme": "27.11 21:14"
+  },
+  {
+   "id": "TUR-2711-2204",
+   "ad": "Otomatik paylaşım turu",
+   "zaman": "2026-11-27T22:04",
+   "ne": "tur zinciri",
+   "ticker": "",
+   "tur": "tek",
+   "durum": "kuruldu",
+   "not": "",
+   "trigger": "trig_01C3RJKdFwMijaw7WVDTDCfp",
+   "soz": "",
+   "guncelleme": "27.11 21:14"
   },
   {
    "id": "TEST-NDX-AYI",
@@ -3427,6 +3440,19 @@
    "trigger": "",
    "soz": "",
    "guncelleme": "26.11 08:59"
+  },
+  {
+   "id": "TEST-NDX-26000",
+   "ad": "Sonuç takibi: NDX 26.000",
+   "zaman": "2026-12-01T11:35",
+   "ne": "30.11 kapanışı 26.000 üstü mü",
+   "ticker": "",
+   "tur": "test",
+   "durum": "kuruldu",
+   "not": "",
+   "trigger": "trig_013sV7qVs5LhjdWhDbn34Fu8",
+   "soz": "",
+   "guncelleme": "27.11 21:14"
   },
   {
    "id": "SABIT-AAII2",

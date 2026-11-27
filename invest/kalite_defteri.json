@@ -1,21 +1,5 @@
 [
 {
-"jargon": {
-"iştah": 1
-},
-"tarih": [],
-"terim": [],
-"acilis": "iddia",
-"kapanis": "pltr bugün çipler 9",
-"rekor": 0,
-"imza": "4p-duz-o-cerceve",
-"kalip": "D",
-"tur": "ANALIST",
-"zaman": "24.11 21:29",
-"gun": "24.11",
-"uzunluk": 607
-},
-{
 "jargon": {},
 "tarih": [],
 "terim": [
@@ -1126,5 +1110,25 @@
 "zaman": "27.11 20:09",
 "gun": "27.11",
 "uzunluk": 429
+},
+{
+"jargon": {},
+"tarih": [],
+"terim": [],
+"acilis": "iddia",
+"kapanis": "nasdaq 100 geçen cuma",
+"rekor": 0,
+"k89": [
+"fark",
+"esik"
+],
+"k89_son": "esik",
+"k89_hazir": [],
+"imza": "2p-duz-k-cerceve",
+"kalip": "M",
+"tur": "HABER",
+"zaman": "27.11 21:14",
+"gun": "27.11",
+"uzunluk": 420
 }
 ]

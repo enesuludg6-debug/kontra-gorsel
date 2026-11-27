@@ -75,5 +75,16 @@
   "sonuc": "",
   "ne_oldu": "",
   "sonuc_tarih": ""
+ },
+ {
+  "id": "TEST-NDX-26000",
+  "tweet": "27.11 21:14",
+  "buffer": "6b09c8720dc186ddf75d6d5e",
+  "yorum": "Nasdaq'ta dip oluştu; haftaya ilk tam seansta 26.000 üstü teyit",
+  "esik": "NDX 30.11 kapanış 26.000 üstü",
+  "kontrol": "2026-12-01",
+  "sonuc": "",
+  "ne_oldu": "",
+  "sonuc_tarih": ""
  }
 ]

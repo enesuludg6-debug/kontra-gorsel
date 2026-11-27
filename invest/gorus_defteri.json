@@ -1,10 +1,5 @@
 [
 {
-"acilis": "fiyattaki düşüşün sebebi",
-"kaliplar": [],
-"metin": "Fiyattaki düşüşün sebebi şirketin kendisi değil. Büyüme hedefini yeni yükselten bir şirketin sektörle birlikte bu kadar satılması bence fiyatı rakamlardan uzakl"
-},
-{
 "acilis": "ben bir yazılım",
 "kaliplar": [],
 "metin": "Ben bir yazılım şirketinde ilk olarak ARR büyümesinin hızlanıp hızlanmadığına bakarım. Gelir büyürken ARR yavaşlıyorsa büyümenin bir kısmı tek seferlik işlerden"
@@ -308,5 +303,10 @@
 "acilis": "bugünkü 2 lik",
 "kaliplar": [],
 "metin": "Bugünkü %2'lik yükselişin gücünü Pazartesi tam seansta hacimle tutunup tutunmadığı gösterecek."
+},
+{
+"acilis": "bence nasdaq ta",
+"kaliplar": [],
+"metin": "Bence Nasdaq'ta dip oluştu."
 }
 ]
