@@ -287,3 +287,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 26.11 | 23:13 | HABER | Kara Cuma çevrim içi harcama beklentisi (Adobe) | bilanco | 6b0892ecc81617797dddc881 |
 | 27.11 | 00:04 | HABER | [A:iddia] Tokyo enflasyonu bu gece, yen taşıma işlemi riski | cizgi_pro | 6b089ed5ce64081689f2aad0 |
 | 27.11 | 11:01 | VADELI | [A:normal] GÜNÜN BAŞLIKLARI: vadeliler +, Tokyo TÜFE beklenti altı, yarım gün | siralama | 6b0938e71fd46e62e7253a5e |
+| 27.11 | 11:42 | AAII | [A:iddia] AAII ayı %45, nötr %18'e indi | aaii | 6b094271049983dcfba1ed3d |
