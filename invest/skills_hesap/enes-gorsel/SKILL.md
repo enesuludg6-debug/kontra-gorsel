@@ -47,3 +47,9 @@ Okurda "bunu hazırlarken çok emek vermiş" hissi uyandırmak için: daha çok 
 ## PRO v4 (Enes 27.11 23:42 'daha da geliştir, daha profesyonel')
 - cizgi_pro: seritler=[(etiket, değer, renk)] ile sağ üstte 3'lü terminal tarzı kilit rakam şeridi (ör. Zirveden / 200 günlük / Cuma hacmi), son değer renkli etiket kutusunda, eksen yazıları JetBrains Mono ve en çok 5 aralık, son değere yakın eksen yazısı gizlenir, çizgi altı hafif alan dolgusu, referans çizgisi etiketi solda mono (TEYİT 26.000). Logolu dosya kartında logo 150 px.
 - Başlık Enes sesiyle (kural 102), sonuç bandı birinci tekil hüküm. Şerit rakamları da tweet rakamları gibi doğrulanmış olmalı.
+
+
+## ESTETİK KART — kart4 (Enes 27.11 23:43 'görünüş olarak daha estetik istiyorum')
+- Yeni varsayılan çizgi kartı: `kart4.cizgi(kicker, baslik, vurgu, seri, kahraman, kahraman_alt, olaylar, ref, alinti, kaynak, out, renk, ticker=, kiyas=, kiyas_ad=)`. Editoryal: Instrument Serif başlık (2. satır italik ve renkli), serif büyük kahraman rakam (Türkçe biçim +%6,8), mono küçük harfli etiketler, ızgarasız grafik, parlayan ince çizgi + yumuşak geçişli alan, köşeden hafif renk ışığı, alıntı biçiminde Enes'in tek cümlelik hükmü, sağ altta serif 'Enes Uludağ'. Şirket kartında logo 170 px sağ üstte, vurgu rengi şirket rengi (NVDA #76B900).
+- Fontlar repoda invest/fonts/ (Instrument Serif, JetBrains Mono; OFL). kart4 import edilince yüklenir.
+- Denetim kart3.kaydet ile aynı (taşma/çakışma -> yayın yok).

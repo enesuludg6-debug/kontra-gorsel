@@ -96,7 +96,8 @@ def denetle(fig):
             a, b = kutular[i][0], kutular[j][0]
             ox = min(a.x1, b.x1) - max(a.x0, b.x0); oy = min(a.y1, b.y1) - max(a.y0, b.y0)
             kucuk = min(a.width * a.height, b.width * b.height) or 1
-            if ox > 6 and oy > 6 and ox * oy / kucuk > 0.15 and kutular[i][1] != kutular[j][1]:
+            hmin = min(a.height, b.height) or 1  # font satır boşluğu yanlış alarm vermesin: dikey örtüşme küçük yüksekliğin %35'i üstünde olmalı
+            if ox > 6 and oy > 0.35 * hmin and ox * oy / kucuk > 0.15 and kutular[i][1] != kutular[j][1]:
                 sorun.append(f"ÇAKIŞMA: '{kutular[i][1]}' ile '{kutular[j][1]}'")
     return sorun
 
