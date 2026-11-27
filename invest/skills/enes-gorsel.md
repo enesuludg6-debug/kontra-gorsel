@@ -7,3 +7,8 @@ VARSAYILAN DOSYA AİLESİ (Enes 25.11 11:51 beğendi): dosya (hisse/endeks), dos
 
 
 ## KART DENETİMİ (Enes 27.11 23:39 "görselleri daha da geliştirelim"): kart3.kaydet() kaydetmeden önce `denetle()` çalıştırır: kart dışına taşan/kırpılan yazı ve üst üste binen etiket bulursa `<kart>.denetim` dosyası yazar ve ekrana "KART DENETİM SORUNU" basar; yayinla_gorsel.sh bu dosya doluyken yayınlamaz. 27.11 dersleri: (1) alt başlık/spot uzun olunca sağdan kırpılıyordu, (2) olay etiketi yanlış güne konmuştu (gün içi dip ≠ kapanış dibi; etiketi doğru güne ve rakamıyla koy), (3) kanıt satırında taban oran yoktu, (4) TSLA logosu yok (logo/ klasöründe değil; shell CDN'e çıkamıyor, Enes logo PNG atarsa logo/'ya eklenir ve logo_dogrula.py ile onaylanır).
+
+
+## PRO v4 (Enes 27.11 23:42 'daha da geliştir, daha profesyonel')
+- cizgi_pro: seritler=[(etiket, değer, renk)] ile sağ üstte 3'lü terminal tarzı kilit rakam şeridi (ör. Zirveden / 200 günlük / Cuma hacmi), son değer renkli etiket kutusunda, eksen yazıları JetBrains Mono ve en çok 5 aralık, son değere yakın eksen yazısı gizlenir, çizgi altı hafif alan dolgusu, referans çizgisi etiketi solda mono (TEYİT 26.000). Logolu dosya kartında logo 150 px.
+- Başlık Enes sesiyle (kural 102), sonuç bandı birinci tekil hüküm. Şerit rakamları da tweet rakamları gibi doğrulanmış olmalı.
