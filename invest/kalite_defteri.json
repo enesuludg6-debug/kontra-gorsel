@@ -1,19 +1,5 @@
 [
 {
-"jargon": {},
-"tarih": [],
-"terim": [],
-"acilis": "adi çeyreği beklentinin üstünde",
-"kapanis": "gelir yerinde sayarken kâr",
-"rekor": 0,
-"imza": "4p-duz-o-ticker",
-"kalip": "G",
-"tur": "BILANCO-ANALIZ",
-"zaman": "24.11 18:54",
-"gun": "24.11",
-"uzunluk": 619
-},
-{
 "jargon": {
 "fiyatlama": 1
 },
@@ -1087,5 +1073,26 @@
 "zaman": "27.11 14:40",
 "gun": "27.11",
 "uzunluk": 453
+},
+{
+"jargon": {},
+"tarih": [],
+"terim": [
+"sipariş defteri"
+],
+"acilis": "iddia",
+"kapanis": "piyasa beklentisi gelirde 52",
+"rekor": 0,
+"k89": [
+"fiyatlanan"
+],
+"k89_son": "",
+"k89_hazir": [],
+"imza": "3p-duz-o-cerceve",
+"kalip": "E",
+"tur": "HABER",
+"zaman": "27.11 15:25",
+"gun": "27.11",
+"uzunluk": 558
 }
 ]
