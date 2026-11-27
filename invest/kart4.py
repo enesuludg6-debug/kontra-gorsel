@@ -33,72 +33,77 @@ def _zemin(fig, renk):
 
 def _aralik(t): return "\u2009".join(t)  # mono etiketlerde hafif harf aralığı
 
-def cizgi(kicker, baslik, vurgu, seri, kahraman, kahraman_alt, olaylar, ref, alinti, kaynak, out, renk=ACC, birim="", ticker=None, kiyas=None, kiyas_ad=""):
-    """baslik: düz kısım; vurgu: başlığın italik ve renkli ikinci satırı. kahraman: '+6,8%' gibi. olaylar: [(tarih, 'METİN')]. ref: [(değer, 'METİN')]."""
+def cizgi(kicker, baslik, vurgu, seri, kahraman, kahraman_alt, olaylar, ref, alinti, kaynak, out, renk=ACC, birim="", ticker=None, kiyas=None, kiyas_ad="", yan=None):
+    """v3 — TASARIMCI DÜZENİ (Enes 27.11 23:47 'daha estetik, bir tasarımcı gibi düşün').
+    İlkeler: tek kahraman (rakam), tek vurgu rengi (yalnız çizgi + italik satır + küçük yön oku), 90 px ızgara kenarı,
+    modüler tip ölçeği 12/17/34/58/180, kenardan kenara (full-bleed) grafik, eksensiz grafik: yalnız zirve/dip/son değer
+    çizgi üstünde etiketli, bol negatif alan. yan: [(etiket, değer)] kahramanın sağında en çok 2 küçük veri."""
     fig = plt.figure(figsize=(10.8, 13.5), dpi=100, facecolor=BG); _zemin(fig, renk)
-    L, R = 0.074, 0.926
+    L, R = 90 / 1080, 1 - 90 / 1080
     son = dt.date.fromisoformat(seri[-1][0])
-    fig.text(L, 0.945, _aralik(_up(kicker)), fontsize=13, family=MONO, color=MUTED, va="center")
-    fig.text(R, 0.945, _aralik(f"{son.day:02d} {AY[son.month]} {son.year}"), fontsize=13, family=MONO, color=MUTED, va="center", ha="right")
-    fig.add_artist(Rectangle((L, 0.925), R - L, 0.0008, transform=fig.transFigure, color=HAIR))
-    fig.text(L, 0.905, baslik, fontsize=66, family=SERIF, color=INK, va="top")
-    fig.text(L, 0.838, vurgu, fontsize=66, family=SERIF, style="italic", color=renk, va="top")
+    # üst şerit
+    fig.text(L, 0.948, _aralik(_up(kicker)), fontsize=12, family=MONO, color=MUTED, va="center")
+    fig.text(R, 0.948, _aralik(f"{son.day:02d} {AY[son.month]} {son.year}"), fontsize=12, family=MONO, color=MUTED, va="center", ha="right")
+    # başlık (58 pt, iki satır, ikincisi italik vurgu)
+    fig.text(L, 0.912, baslik, fontsize=58, family=SERIF, color=INK, va="top")
+    fig.text(L, 0.858, vurgu, fontsize=58, family=SERIF, style="italic", color=renk, va="top")
     lg = K3._logo_png(ticker) if ticker else None
-    if lg:  # Enes: logo çok belirgin
-        h = 170; lg = lg.resize((int(lg.width * h / lg.height), h)); fig.figimage(lg, xo=int(1080 * R) - lg.width, yo=int(1350 * 0.905) - h, zorder=10)
-    # kahraman
-    hr = UP if kahraman.strip().startswith("+") else (DOWN if kahraman.strip().startswith(("−", "-")) else INK)
+    if lg:
+        h = 150; lg = lg.resize((int(lg.width * h / lg.height), h)); fig.figimage(lg, xo=int(1080 * R) - lg.width, yo=int(1350 * 0.912) - h, zorder=10)
+    # ince ayraç
+    fig.add_artist(Rectangle((L, 0.775), R - L, 0.0007, transform=fig.transFigure, color=HAIR))
+    # kahraman satırı: rakam beyaz, işaret küçük ve soluk; yön yalnız küçük okla renkli
     import re as _re
     m = _re.match(r"^([+\-−]?%?)(.*)$", kahraman.strip()); on, govde = m.group(1), m.group(2)
-    t1 = fig.text(L - 0.004, 0.752, on, fontsize=70, family=SERIF, color=hr, alpha=0.55, va="top")
-    fig.canvas.draw(); bx = t1.get_window_extent(fig.canvas.get_renderer()).x1 / 1080 if on else L - 0.004
-    fig.text(bx + 0.004, 0.772, govde, fontsize=128, family=SERIF, color=hr, va="top")
-    fig.text(L, 0.6, _aralik(_up(kahraman_alt)), fontsize=12, family=MONO, color=MUTED, va="top")
-    # grafik
-    ax = fig.add_axes([L, 0.25, R - L - 0.09, 0.33]); ax.set_facecolor("none")
-    for s_ in ax.spines.values(): s_.set_visible(False)
+    yon = UP if on.startswith("+") else (DOWN if on.startswith(("-", "−")) else MUTED)
+    r_ = fig.canvas.get_renderer()
+    t1 = fig.text(L - 0.003, 0.742, on, fontsize=64, family=SERIF, color=MUTED, va="top"); fig.canvas.draw()
+    x2 = (t1.get_window_extent(fig.canvas.get_renderer()).x1 / 1080 + 0.004) if on else L - 0.005
+    fig.text(x2, 0.762, govde, fontsize=180, family=SERIF, color=INK, va="top")
+    fig.text(L, 0.522, ("▲ " if yon == UP else "▼ " if yon == DOWN else "") , fontsize=11, family=MONO, color=yon, va="top")
+    fig.text(L + 0.022, 0.522, _aralik(_up(kahraman_alt)), fontsize=11.5, family=MONO, color=MUTED, va="top")
+    for k, (et, dg) in enumerate((yan or [])[:2]):  # sağ sütun: küçük veri, rakamın taban çizgisine hizalı
+        yy = 0.70 - k * 0.085
+        fig.text(R, yy, _aralik(_up(et)), fontsize=11, family=MONO, color=MUTED, ha="right", va="top")
+        fig.text(R, yy - 0.018, dg, fontsize=34, family=SERIF, color=INK, ha="right", va="top")
+    # kenardan kenara grafik
+    ax = fig.add_axes([0, 0.255, 1, 0.24]); ax.set_facecolor("none"); ax.axis("off")
     x = [dt.date.fromisoformat(a) for a, _ in seri]; y = np.array([b for _, b in seri], float); xn = mdates.date2num(x)
-    lo, hi = y.min(), y.max(); pad = (hi - lo) * 0.08; ymin = lo - pad
-    ax.set_ylim(ymin, hi + pad); ax.set_xlim(xn[0], xn[-1] + (xn[-1] - xn[0]) * 0.02)
-    # yumuşak geçişli alan
-    grad = np.zeros((256, 1, 4)); grad[..., :3] = matplotlib.colors.to_rgb(renk); grad[:, 0, 3] = np.linspace(0, 0.28, 256)
+    lo, hi = y.min(), y.max(); pad = (hi - lo) * 0.10; ymin = lo - pad * 2.2
+    span = xn[-1] - xn[0]; ax.set_xlim(xn[0] - span * 0.0, xn[-1] + span * 0.16); ax.set_ylim(ymin, hi + pad * 1.6)
+    grad = np.zeros((256, 1, 4)); grad[..., :3] = matplotlib.colors.to_rgb(renk); grad[:, 0, 3] = np.linspace(0, 0.22, 256) ** 1.4
     im = ax.imshow(grad, extent=[xn[0], xn[-1], ymin, hi + pad], origin="lower", aspect="auto", zorder=1)
-    poly = Polygon(np.column_stack([np.r_[xn[0], xn, xn[-1]], np.r_[ymin, y, ymin]]), closed=True, transform=ax.transData)
-    im.set_clip_path(poly)
-    if kiyas:  # kıyas serisi: aynı başlangıca ölçekli, ince gri
+    im.set_clip_path(Polygon(np.column_stack([np.r_[xn[0], xn, xn[-1]], np.r_[ymin, y, ymin]]), closed=True, transform=ax.transData))
+    if kiyas:
         kd = dict(kiyas); xk = [mdates.date2num(dt.date.fromisoformat(a)) for a, _ in seri if a in kd]
-        yk = [kd[a] * y[0] / kd[seri[0][0]] for a, _ in seri if a in kd]
-        ax.plot(xk, yk, color=MUTED, lw=1.4, alpha=0.8, zorder=2)
-        ax.set_ylim(min(ymin, min(yk) - pad), max(hi + pad, max(yk) + pad))
-        fig.text(L, 0.612 - 0.0, "", fontsize=1)
-        fig.text(R - 0.09, ax.transData.transform((xk[-1], yk[-1]))[1] / 1350, _up(kiyas_ad), fontsize=12.5, family=MONO, color=MUTED, ha="right", va="bottom")
-    for lw, a in [(14, 0.05), (8, 0.10), (2.6, 1.0)]:  # parlama
+        yk = np.array([kd[a] * y[0] / kd[seri[0][0]] for a, _ in seri if a in kd])
+        ax.plot(xk, yk, color=MUTED, lw=1.1, alpha=0.7, zorder=2)
+        ky = yk[-1]
+        if abs(ky - y[-1]) < (hi - lo) * 0.12: ky = y[-1] + np.sign(ky - y[-1] or 1) * (hi - lo) * 0.14
+        ax.text(xk[-1] + span * 0.025, ky, _aralik(_up(kiyas_ad)), fontsize=10.5, family=MONO, color=MUTED, va="center")
+        ax.set_ylim(min(ymin, yk.min() - pad), max(hi + pad * 1.6, yk.max() + pad))
+    for lw, a in [(16, 0.04), (9, 0.08), (2.4, 1.0)]:
         ax.plot(xn, y, color=renk, lw=lw, alpha=a, solid_capstyle="round", solid_joinstyle="round", zorder=3)
     for v, et in ref or []:
-        ax.axhline(v, color=GOLD, lw=1, ls=(0, (1, 4)), zorder=2)
-        ax.text(xn[0], v + pad * 0.25, _up(et), fontsize=12.5, family=MONO, color=GOLD, va="bottom")
+        ax.axhline(v, xmin=0, xmax=(xn[-1] - xn[0]) / (span * 1.16), color=GOLD, lw=0.9, ls=(0, (1, 4)), zorder=2)
+        ax.text(xn[0] + span * 0.083, v + pad * 0.3, _aralik(_up(et)), fontsize=10.5, family=MONO, color=GOLD, va="bottom")
+    ih, il = int(np.argmax(y)), int(np.argmin(y))
+    ax.scatter([xn[ih]], [y[ih]], s=22, color=INK, zorder=5)
+    ax.text(xn[ih], y[ih] + pad * 0.45, _aralik(_s(y[ih])), fontsize=10.5, family=MONO, color=MUTED, ha="center", va="bottom")
     for td, et in olaylar or []:
         d0 = mdates.date2num(dt.date.fromisoformat(td)); i = int(np.argmin(abs(xn - d0)))
-        ax.plot([xn[i], xn[i]], [y[i], ymin], color=MUTED, lw=0.8, alpha=0.6, zorder=2)
-        ax.scatter([xn[i]], [y[i]], s=40, color=INK, zorder=5)
-        ax.text(xn[i] - (xn[-1] - xn[0]) * 0.015, ymin + pad * 0.3, _up(et), fontsize=12.5, family=MONO, color=INK, ha="right", va="bottom")
-    ax.scatter([xn[-1]], [y[-1]], s=900, color=renk, alpha=0.15, zorder=4); ax.scatter([xn[-1]], [y[-1]], s=90, color=renk, zorder=6, edgecolor=BG, lw=2)
-    fig.text(R - 0.012, ax.transData.transform((xn[-1], y[-1]))[1] / 1350, _s(y[-1]) + birim, fontsize=17, family=MONO, color=INK, ha="right", va="center",
-             bbox=dict(boxstyle="round,pad=0.5,rounding_size=0.9", fc=BG, ec=renk, lw=1.2))
-    # sade eksen: 3 seviye, ızgara yok
-    ax.set_yticks([]); ax.set_xticks([])
-    for v in np.linspace(lo, hi, 3):
-        yy = ax.transData.transform((xn[0], v))[1] / 1350
-        if abs(v - y[-1]) > (hi - lo) * 0.12: fig.text(R, yy, _s(v), fontsize=12.5, family=MONO, color=MUTED, ha="right", va="center")
-    aylar = sorted({(d.year, d.month) for d in x})[1:]
-    for yl, ay in aylar:
+        ax.scatter([xn[i]], [y[i]], s=22, color=INK, zorder=5)
+        tepe = y[i] >= y[max(i - 1, 0)] and y[i] >= y[min(i + 1, len(y) - 1)]
+        ax.text(xn[i], y[i] + (pad * 0.5 if tepe else -pad * 0.55), _aralik(_up(et)), fontsize=10.5, family=MONO, color=INK, ha="center", va="bottom" if tepe else "top")
+    ax.scatter([xn[-1]], [y[-1]], s=700, color=renk, alpha=0.14, zorder=4); ax.scatter([xn[-1]], [y[-1]], s=60, color=renk, zorder=6, edgecolor=BG, lw=2)
+    ax.text(xn[-1] + span * 0.025, y[-1], _s(y[-1]) + birim, fontsize=17, family=SERIF, color=INK, va="center", zorder=7)
+    # ay çentikleri (grafiğin altında, ızgara kenarına hizalı)
+    for yl, ay in sorted({(d.year, d.month) for d in x})[1:]:
         xx = ax.transData.transform((mdates.date2num(dt.date(yl, ay, 1)), 0))[0] / 1080
-        fig.add_artist(Rectangle((xx - 0.0004, 0.243), 0.0008, 0.006, transform=fig.transFigure, color=MUTED, alpha=0.6))
-        fig.text(xx, 0.232, _aralik(AY[ay]), fontsize=11.5, family=MONO, color=MUTED, ha="center", va="top")
+        if L <= xx <= R: fig.text(xx, 0.24, _aralik(AY[ay]), fontsize=10.5, family=MONO, color=MUTED, ha="center", va="top", alpha=0.8)
     # alıntı
-    fig.add_artist(Rectangle((L, 0.185), 0.04, 0.0012, transform=fig.transFigure, color=renk))
-    fig.text(L, 0.168, alinti, fontsize=34, family=SERIF, style="italic", color=INK, va="top")
-    fig.add_artist(Rectangle((L, 0.075), R - L, 0.0008, transform=fig.transFigure, color=HAIR))
-    fig.text(L, 0.05, _aralik("KAYNAK") + "   " + _aralik(_up(kaynak)), fontsize=11, family=MONO, color=MUTED, va="center")
-    fig.text(R, 0.05, "Enes Uludağ", fontsize=24, family=SERIF, color=INK, va="center", ha="right")
+    fig.text(L, 0.175, alinti, fontsize=32, family=SERIF, style="italic", color=INK, va="top")
+    fig.add_artist(Rectangle((L, 0.075), R - L, 0.0007, transform=fig.transFigure, color=HAIR))
+    fig.text(L, 0.048, _aralik("KAYNAK") + "   " + _aralik(_up(kaynak)), fontsize=10.5, family=MONO, color=MUTED, va="center")
+    fig.text(R, 0.048, "Enes Uludağ", fontsize=22, family=SERIF, color=INK, va="center", ha="right")
     return K3.kaydet(fig, out)
