@@ -3200,11 +3200,11 @@
    "ne": "tur zinciri",
    "ticker": "",
    "tur": "tek",
-   "durum": "kuruldu",
+   "durum": "yapildi",
    "not": "",
    "trigger": "trig_01FZSH1eVFPYuk9scNfZYczZ",
    "soz": "",
-   "guncelleme": "27.11 14:41"
+   "guncelleme": "27.11 15:25"
   },
   {
    "id": "SABIT-faktor",
@@ -3218,6 +3218,19 @@
    "trigger": "",
    "soz": "",
    "guncelleme": "26.11 08:59"
+  },
+  {
+   "id": "TUR-2711-1650",
+   "ad": "Otomatik paylaşım turu",
+   "zaman": "2026-11-27T16:50",
+   "ne": "tur zinciri",
+   "ticker": "",
+   "tur": "tek",
+   "durum": "kuruldu",
+   "not": "",
+   "trigger": "trig_018Cux3p5tgcYeR3UohVGAR5",
+   "soz": "",
+   "guncelleme": "27.11 15:25"
   },
   {
    "id": "TEST-NDX-AYI",
