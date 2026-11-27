@@ -1,10 +1,5 @@
 [
 {
-"acilis": "bence bu açıklama",
-"kaliplar": [],
-"metin": "Bence bu açıklama ABD içindeki veri merkezi zincirine yarar. Microsoft, Amazon ve Google yurt dışı yatırımlarının bir kısmını ABD'ye kaydırırsa güç, soğutma, el"
-},
-{
 "acilis": "fiyattaki düşüşün sebebi",
 "kaliplar": [],
 "metin": "Fiyattaki düşüşün sebebi şirketin kendisi değil. Büyüme hedefini yeni yükselten bir şirketin sektörle birlikte bu kadar satılması bence fiyatı rakamlardan uzakl"
@@ -308,5 +303,10 @@
 "acilis": "bence bu optimus",
 "kaliplar": [],
 "metin": "Bence bu, Optimus robotunun seri üretim planındaki en somut adım. Hisse bugün %5'e yakın yukarıda ama fiyat açıklanmadığı için katalizör etkisi şimdilik sınırlı"
+},
+{
+"acilis": "bugünkü 2 lik",
+"kaliplar": [],
+"metin": "Bugünkü %2'lik yükselişin gücünü Pazartesi tam seansta hacimle tutunup tutunmadığı gösterecek."
 }
 ]

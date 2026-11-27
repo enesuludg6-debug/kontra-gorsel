@@ -1,19 +1,5 @@
 [
 {
-"jargon": {},
-"tarih": [],
-"terim": [],
-"acilis": "normal",
-"kapanis": "pce nin çekirdeği de",
-"rekor": 0,
-"imza": "3p-duz-o-rakam",
-"kalip": "C",
-"tur": "MAKRO",
-"zaman": "24.11 21:07",
-"gun": "24.11",
-"uzunluk": 629
-},
-{
 "jargon": {
 "iştah": 1
 },
@@ -1123,5 +1109,22 @@
 "zaman": "27.11 19:32",
 "gun": "27.11",
 "uzunluk": 548
+},
+{
+"jargon": {},
+"tarih": [],
+"terim": [],
+"acilis": "iddia",
+"kapanis": "bugünkü 2 lik yükselişin",
+"rekor": 0,
+"k89": [],
+"k89_son": "",
+"k89_hazir": [],
+"imza": "3p-duz-k-cerceve",
+"kalip": "F",
+"tur": "EGITICI",
+"zaman": "27.11 20:09",
+"gun": "27.11",
+"uzunluk": 429
 }
 ]
