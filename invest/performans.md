@@ -295,3 +295,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 27.11 | 15:25 | HABER | [A:normal] AÇIKLAYICI 3/5: özel çip (ASIC)  MRVL 1 Aralık önizleme | sutun | 6b09769f062ed764a813b168 |
 | 27.11 | 16:15 | VERI-FAKTOR | [A:iddia] Faktör panosu: momentum −11 puan, eşit ağırlık +6 | siralama | 6b09825a062ed764a8197aaf |
 | 27.11 | 16:51 | HABER | [A:normal] AÇIKLAYICI 4/5: kontrol düzlemi  Air Force Cloud One ihlali | bilanco | 6b098af732c212878fd46ded |
+| 27.11 | 18:14 | VERI-VIX | VIX vade eğrisi 8 gündür ters, oran 1,05 (biçim: görüş) | cizgi_pro | 6b099e5b32c212878fdeac6b |
