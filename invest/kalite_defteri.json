@@ -1,21 +1,5 @@
 [
 {
-"jargon": {
-"ayrışma": 1
-},
-"tarih": [],
-"terim": [],
-"acilis": "pazartesi rallisinin ne kadarı",
-"kapanis": "bu ayrışma sürerse para",
-"rekor": 0,
-"imza": "4p-satir-o-cerceve",
-"kalip": "L",
-"tur": "ANALIZ",
-"zaman": "24.11 18:32",
-"gun": "24.11",
-"uzunluk": 641
-},
-{
 "jargon": {},
 "tarih": [],
 "terim": [],
@@ -1086,5 +1070,22 @@
 "zaman": "27.11 13:56",
 "gun": "27.11",
 "uzunluk": 475
+},
+{
+"jargon": {},
+"tarih": [],
+"terim": [],
+"acilis": "iddia",
+"kapanis": "yönetim kurulu üyesi pagliuca",
+"rekor": 0,
+"k89": [],
+"k89_son": "",
+"k89_hazir": [],
+"imza": "2p-duz-o-rakam",
+"kalip": "I",
+"tur": "ICERIDEN",
+"zaman": "27.11 14:40",
+"gun": "27.11",
+"uzunluk": 453
 }
 ]
