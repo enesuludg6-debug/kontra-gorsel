@@ -469,3 +469,17 @@ Yapı (her tweet): 1) olgu + rakam + kıyas, 2) piyasanın fiyatladığı / kons
 - İKİ YÖNLÜ SENARYO: yukarı teyit seviyesi (X üstü kapanış) VE aşağı geçersizlik seviyesi (Y altı tezi bozar) birlikte.
 - Veri kaynakları öncelik sırası: şirket belgesi (8-K, sunum, görüşme), konsensüs (FactSet/LSEG haberleri), kendi hesabımız (Yahoo), sonra haber. DONGU satırında her metriğin kaynağı.
 Örnek (biçim): "$NVDA 12,5 kat ileri F/K ile S&P 500'ün 18,3 katına %32 iskontolu, 2012'den beri en düşük seviye. Piyasa YZ yatırım harcamasında 2027 yavaşlamasını fiyatlıyor, konsensüs ise kâr tahminini indirmedi. Benim ayrıştığım yer bu: daralma tamamen fiyattan geldi, kazanç tarafında revizyon yok. 160 üstü haftalık kapanış teyit, 145 altı tezi bozar; bu aralıkta risk/ödül alım tarafında."
+
+## KURAL 113-MAX — EN YÜKSEK PROFESYONELLİK STANDARDI (Enes 28.11 19:37 'YETMEZ, EN YÜKSEK PROFESYONELLİK')
+Bundan sonra tek standart vardır: EN YÜKSEK. 113, 113-B, C, D, E'nin hepsi zorunlu, ayrıca:
+1. KIDEMLİ PM EDİTÖR GEÇİŞİ (her tweet, yayin_kontrol GEÇTİ'den sonra, Buffer'dan önce): metni bir kez büyük bir fonun kıdemli portföy yöneticisi gözüyle oku ve 5 soruyu yanıtla; biri hayırsa yeniden yaz, kapıdan yeniden geçir:
+   a) İlk cümle tek başına okunsa masadaki biri "bunu bilmiyordum" der mi (yeni bilgi ya da yeni açı)?
+   b) Konsensüsün tam rakamı ya da piyasanın fiyatladığı şey açıkça yazılı mı?
+   c) Benim tezim konsensüsten hangi değişkende ayrışıyor (kâr, marj, çarpan, zamanlama) ve bu tek cümlede söylenmiş mi?
+   d) Asimetri rakamla var mı (teyit seviyesine uzaklık / geçersizlik seviyesine uzaklık)?
+   e) Gereksiz kelime var mı? Varsa sil; her kelime bilgi taşımalı.
+2. VERİ STANDARDI: her tweette en az 1 birincil ya da konsensüs verisi (şirket belgesi, FactSet/LSEG konsensüsü, borsa verisi) ve kaynağı DONGU'da. Haber cümlesi tek başına veri sayılmaz.
+3. ÖLÇÜLEBİLİR TEZ: her tez ileride doğrulanabilir bir rakama bağlanır (kural 66 sonuç takibine girer).
+4. DİL: kurumsal Türkçe, Enes'in birinci tekil sesi; İngilizce terim yalnız Türkçesi yerleşik değilse (capex, EPS), ilk geçişte Türkçesiyle.
+5. DONGU satırına 'PM: a✓ b✓ c✓ d✓ e✓' yazılır; eksik işaretli tweet atılmaz.
+Not: 113-MAX yazım çıtasıdır; asıl fark veri derinliğinden gelir. Pazar perfogren 113 öncesi/sonrası görüntülenmeyi kıyaslar, sonuç Enes'e rakamla bildirilir.
