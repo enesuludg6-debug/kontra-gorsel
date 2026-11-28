@@ -78,6 +78,28 @@ for r_, ad in [
     if re.search(r_, low):
         hata.append("54-G: " + ad)
 
+
+# KURAL 109 (Enes 28.11 11:49 "artık şirket isimlerini tweetlerde $TICKER şeklinde yazacaksın"): şirket adı yazılmaz, $TICKER yazılır.
+SIRKET_TICKER = {
+    "nvidia": "NVDA", "tesla": "TSLA", "apple": "AAPL", "microsoft": "MSFT", "alphabet": "GOOGL", "google": "GOOGL",
+    "amazon": "AMZN", "meta": "META", "broadcom": "AVGO", "amd": "AMD", "marvell": "MRVL", "micron": "MU",
+    "intel": "INTC", "tsmc": "TSM", "oracle": "ORCL", "netflix": "NFLX", "palantir": "PLTR", "nebius": "NBIS",
+    "coreweave": "CRWV", "arm": "ARM", "qualcomm": "QCOM", "salesforce": "CRM", "adobe": "ADBE", "servicenow": "NOW",
+    "snowflake": "SNOW", "crowdstrike": "CRWD", "cisco": "CSCO", "ibm": "IBM", "dell": "DELL", "supermicro": "SMCI",
+    "super micro": "SMCI", "asml": "ASML", "applied materials": "AMAT", "lam research": "LRCX", "kla": "KLAC",
+    "lumentum": "LITE", "coherent": "COHR", "astera": "ALAB", "vertiv": "VRT", "robinhood": "HOOD", "coinbase": "COIN",
+    "uber": "UBER", "shopify": "SHOP", "spacex": "SPCX", "berkshire": "BRK.B", "jpmorgan": "JPM", "walmart": "WMT",
+    "costco": "COST", "eli lilly": "LLY", "novo nordisk": "NVO", "applovin": "APP", "iren": "IREN", "oklo": "OKLO",
+    "rocket lab": "RKLB", "sandisk": "SNDK", "western digital": "WDC", "seagate": "STX", "sk hynix": "SKHY",
+}
+_ek = r"(?:'?(?:nin|nın|nun|nün|in|ın|un|ün|a|e|ya|ye|da|de|ta|te|dan|den|tan|ten|ı|i|u|ü|yı|yi|yu|yü|la|le|yla|yle))?"
+for ad_, tk_ in SIRKET_TICKER.items():
+    m_ = re.search(r"(?<![\$\w])" + re.escape(ad_) + _ek + r"(?!\w)", low)
+    if m_ and ("$" + tk_.lower()) not in low.replace(" ", "") or (m_ and ad_ in ("google", "alphabet") and "$goog" not in low):
+        hata.append(f"109: şirket adı '{m_.group(0)}' yerine ${tk_} yaz (Türkçe ek kesme işaretiyle: ${tk_}'ın)")
+    elif m_:
+        hata.append(f"109: '{m_.group(0)}' ad olarak geçmesin; yalnız ${tk_} kullan")
+
 # Kural 54-H (Enes 27.11 19:30: "'risk masada kalır.' böyle ibareler istemiyorum, çok yapay zekâ yazmış gibi"):
 # süslü mecaz / kapanış vecizesi yasak. Kapanış düz ve ölçülebilir olur (ör. "Oran 1'in altına inene kadar temkinliyim.").
 for r_, ad in [

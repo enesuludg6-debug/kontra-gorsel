@@ -775,3 +775,4 @@ Durdurmak için en alta `DURDUR` yazılı bir satır ekle (Enes ya da Claude, En
 - 11:45 TA-STIL düzeltme (D): Enes 'onunkini kabul et' -> 12:50 tweeti referans çizgiyle (Aralık 498,83 -> Mayıs 453,40, şimdi 389,8) yeniden çizildi, metin 'kırılım' yönüne çevrildi, kalıp A; Buffer edit 6b0a9386. Kural 108-K eklendi.
 - 11:48 TA-STIL metin düzeltme: 'Bu yüzden ben bu kırılımı ciddiye alıyorum' çıkarıldı (Enes: yapay), yasak.py 54-H'ye eklendi; tweet 12:50'de görselle.
 - 11:48 Enes 'at hemen': TSLA TA-STİL shareNow (11:48). Sonuç tweeti 12:12 -> 12:26 (35 dk). Sonraki sistem tweeti en erken 13:01; 12:10 genişlik görevi bu kurala göre kayar.
+- 11:50 KURAL 109: şirket adı -> $TICKER (yasak.py). 12:26 sonuç tweetinde 'Marvell' -> '$MRVL' düzeltildi (Buffer edit).

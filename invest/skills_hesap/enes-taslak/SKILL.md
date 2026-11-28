@@ -44,3 +44,5 @@ Veri 13-26.11: Enes'in elle attıkları medyan 522, sistem 341 (her saat dilimin
 ## KURAL 100-101 (Enes 27.11 19:37 'hepsini yap, yeteneklere ekle')
 - 100: Buffer create_post/edit_post öncesi hook (buffer_kapi.py) yalnız yayin_kontrol.sh GEÇTİ almış metni geçirir; GEÇTİ sonrası metin değişirse kontrol yeniden. Göndermeden önce Enes gözüyle son okuma: (1) Enes bunu böyle der mi, (2) yapay zekâ kokan cümle var mı, (3) her rakamın 2 kaynağı DONGU'da mı.
 - 101: yazmadan önce `python3 invest/ses_ornek.py` (Enes'in kendi en çok okunan tweetlerinden 3 örnek + ses özellikleri; kısa, konuşur gibi, süssüz hüküm). Kural dizini sadeleşti: KURAL_DIZINI.md 52 satır, tek geçerli rakamlar; eskisi KURAL_DIZINI_ARSIV_2711.md. Pazar perfogren SES_ORNEKLERI.md'yi yeniler.
+
+KURAL 109 (28.11): şirket adı yazılmaz, $TICKER yazılır ($NVDA'nın, $TSLA'da). Ayrıntı enes-tweet-turu KURAL 109.

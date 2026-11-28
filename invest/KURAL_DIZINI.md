@@ -57,3 +57,4 @@ Eski 106 satırlık dizin hiçbir şey silinmeden `KURAL_DIZINI_ARSIV_2711.md`'d
 - 108 (28.11) TA-STİL günde 1: takip hesaplarının AYNI GÜN teknik tweetleri (dünkü yok) → kendi analizimizle karşılaştır → en beğenilenin çizim tarzında benzer ama birebir olmayan kendi grafiğimiz (stil_cizim.py) → Enes sesinde görselli tweet, sistem atar. Hafta içi ≥23:00, hafta sonu ≥19:00 ilk tur. Enes'in kendi TradingView'lı teknik tweetleri ayrı, o kural aynen.
 - 108-K (28.11 11:43) TA-STİL'de onların tezi/çizgisi kabul; bizim analiz yalnız beğenme süzgeci (çizim net mi, veri doğru mu), farklı görüş tweete yazılmaz.
 - 54-H ek (28.11): 'ciddiye alıyorum' / 'Bu yüzden ben ...' kanaat kalıbı yasak.
+- 109 (28.11) Tweetlerde şirket adı yerine $TICKER ($TSLA, $NVDA'nın); yasak.py SIRKET_TICKER yakalar. Taslak ve kart başlığı dahil.
