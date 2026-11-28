@@ -89,3 +89,5 @@ O-012 (24.11 20:30) Tekrar kontrolü yalnız DONGU'ya değil performans_veri.csv
 
 - 20.11 gözlem (248 olgun, 15-19.11): detay/bilanço-detay med 212-226 en zayıf; son-dakika 497, vadeli 497, kapanış 534, haber 382; portföy evet 400 vs hayır 318; Enes elle 486 vs sistem 318. 19.11: 59 tweet, toplam 22.679 gösterim, medyan 261.
 - 27.11 19:30 Enes: 18:14 VIX tweetindeki 'Oran normale dönene kadar risk masada kalır.' yapay zekâ gibi -> kural 54-H. Aynı gün 18:52 'bu tabloyu bozar' da aynı tür; yasak.py artık ikisini de durduruyor.
+- 28.11 sabah gözlem (ders_analiz 7 gün): en iyi skorlar EĞİTİCİ (bellek DRAM/NAND 11,7) ve PORTFÖY tweetleri (AVGO 9,2); en zayıflar 27.11 AÇIKLAYICI Brent (0,67) ve AAII (0,72). Açıklayıcı tweet konusu portföye/YZ'ye yakın olmalı; makro/petrol açıklayıcıları zayıf.
+- 28.11 teknik günlük karnesi: 25.11 iki senaryo (NDX aşağı, AVGO yukarı) ikisi de STOP (isabet 0/2). Kısa vadeli senaryolarda 4h FVG/OB tabanlı girişler bu oynaklıkta stop yedi; analizlerde 'kanıt yok' çıkan SMC araçları dayanak yapılmamalı (kural zaten var, uygulamada vurgula).

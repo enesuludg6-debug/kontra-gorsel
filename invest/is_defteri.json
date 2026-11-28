@@ -3096,11 +3096,11 @@
    "ne": "send_later zinciri, kural 90 (Sal-Cmt)",
    "ticker": "",
    "tur": "tek",
-   "durum": "bekliyor",
+   "durum": "yapildi",
    "not": "",
    "trigger": "",
    "soz": "",
-   "guncelleme": "26.11 08:43"
+   "guncelleme": "28.11 09:01"
   },
   {
    "id": "TUR-2711-1115",
@@ -3122,11 +3122,11 @@
    "ne": "kural 92 zincir",
    "ticker": "",
    "tur": "tek",
-   "durum": "bekliyor",
+   "durum": "yapildi",
    "not": "",
    "trigger": "",
    "soz": "",
-   "guncelleme": "26.11 08:53"
+   "guncelleme": "28.11 09:01"
   },
   {
    "id": "SABIT-vix",
@@ -3135,11 +3135,11 @@
    "ne": "kural 92 zincir",
    "ticker": "",
    "tur": "tek",
-   "durum": "bekliyor",
+   "durum": "yapildi",
    "not": "",
    "trigger": "",
    "soz": "",
-   "guncelleme": "26.11 08:53"
+   "guncelleme": "28.11 09:01"
   },
   {
    "id": "TUR-2711-1220",
@@ -3213,11 +3213,11 @@
    "ne": "kural 93 zincir",
    "ticker": "",
    "tur": "tek",
-   "durum": "bekliyor",
+   "durum": "yapildi",
    "not": "",
    "trigger": "",
    "soz": "",
-   "guncelleme": "26.11 08:59"
+   "guncelleme": "28.11 09:01"
   },
   {
    "id": "TUR-2711-1650",
@@ -3370,11 +3370,11 @@
    "ne": "kural 92 zincir",
    "ticker": "",
    "tur": "tek",
-   "durum": "bekliyor",
+   "durum": "kuruldu",
    "not": "",
    "trigger": "",
    "soz": "",
-   "guncelleme": "26.11 08:53"
+   "guncelleme": "28.11 09:01"
   },
   {
    "id": "SABIT-putcall",
@@ -3383,11 +3383,11 @@
    "ne": "kural 92 zincir",
    "ticker": "",
    "tur": "tek",
-   "durum": "bekliyor",
+   "durum": "kuruldu",
    "not": "",
    "trigger": "",
    "soz": "",
-   "guncelleme": "26.11 08:53"
+   "guncelleme": "28.11 09:01"
   },
   {
    "id": "TUR-2811-1305",
@@ -3435,11 +3435,11 @@
    "ne": "kural 93 zincir",
    "ticker": "",
    "tur": "tek",
-   "durum": "bekliyor",
+   "durum": "kuruldu",
    "not": "",
    "trigger": "",
    "soz": "",
-   "guncelleme": "26.11 08:59"
+   "guncelleme": "28.11 09:01"
   },
   {
    "id": "SABIT-aciga",
@@ -3448,11 +3448,11 @@
    "ne": "kural 92 zincir",
    "ticker": "",
    "tur": "tek",
-   "durum": "bekliyor",
+   "durum": "kuruldu",
    "not": "",
    "trigger": "",
    "soz": "",
-   "guncelleme": "26.11 08:53"
+   "guncelleme": "28.11 09:01"
   },
   {
    "id": "SABIT-faiz",

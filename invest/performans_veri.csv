@@ -421,44 +421,47 @@ tarih,saat,kaynak,tur,gorus,konu,duzen,buffer_id,gorunt,begeni,yanit,repost,er,o
 2026-11-25,22:10,sistem,MAKRO,evet,[A:iddia] Fed Bej Kitap: 8/12 bölge büyüme  girdi maliyeti > satış fiyatı  ücret hızlandı; Aralık artırımı değişmez  baskı marjlarda; 13 Ocak sonraki Bej Kitap,haber_dosya,6b07329c636c52154b99315f,384,4,0,0,2.08,2026-11-26T23:42
 2026-11-25,22:30,enes,HABER*,?,"Nasdaq 100’de Dip Bölgesine Yaklaşıyor Olabiliriz, Ancak Dön",,6b07376803a78e02e042c843,1335,11,0,0,4.42,2026-11-26T23:42
 2026-11-25,23:12,enes,HABER*,?,"Cerebras’ta Şirket Hızlanıyor, Hisse Senedi İse Hâlâ Satıcıl",,6b07413d61d5564381c876d5,814,11,0,0,5.77,2026-11-26T23:42
-2026-11-26,00:16,sistem,SONUC,evet,[A:iddia] TEST-AYRISMA-2511 sonuç takibi: NVDA 149 30>125 53  AMD 406 03<424 39  AVGO 300 86<304 41 tuttu,haber_dosya,6b075026b96dd8d35161b98e,523,4,0,0,5.54,2026-11-26T23:42
-2026-11-26,07:53,enes,HABER*,?,Günaydınlar.Keyifler yerinde mi?,,6b07bb4d050d96bc57dcc25c,295,5,0,0,2.03,2026-11-26T23:42
-2026-11-26,10:09,enes,TEKNIK*,?,Gruba artık kurumsal ayak izini de getirdik.  Her işlem günü,,6b07db1d763f8c3b8efeed83,959,6,0,0,3.96,2026-11-26T23:42
-2026-11-26,10:40,sistem,KORKU,duygu fiyattan hızlı bozuldu,[A:normal] Korku-Açgözlülük 17 4 aşırı korku (kural 90 ilk),cizgi_pro,6b07c6f4b96dd8d351914536,322,3,0,0,2.48,2026-11-26T23:42
-2026-11-26,11:01,enes,HABER*,?,Sistem tamam.👌🏻 https://t.co/rCpNsLPN2U,,6b07e76d15ed9e1da0e25bc6,777,5,0,0,15.32,2026-11-26T23:42
-2026-11-26,11:19,sistem,HABER,evet,[A:iddia] Kioxia +%12 6 yalnız Nvidia değil; 2 21 trilyon yen iç temettü + 144 SSD deneme; ikinci etki SanDisk/Micron,cizgi_olay,6b07eb84aca8612480906cfc,339,2,0,0,1.47,2026-11-26T23:42
-2026-11-26,11:46,sistem,HABER,evet,[A:normal] SK Hynix Kore toparlanması akşama taşınmadı,dosya,6b07f1fb63939e1d00875fa7,813,9,0,0,2.95,2026-11-26T23:42
-2026-11-26,12:23,sistem,HABER,evet,[A:iddia] SpaceX yörünge veri merkezi FCC onayı 10 ayda,siralama,6b07fa6c17fc84b971bcaa01,280,1,0,0,1.07,2026-11-26T23:42
-2026-11-26,12:52,sistem,HABER,evet,[A:normal] Nvidia kredi notu S&P izleme / Moody's teyit,cizgi_pro,6b08013510c0f7816e972e48,315,1,0,0,0.95,2026-11-26T23:42
-2026-11-26,13:28,sistem,HABER,evet,[A:iddia] Asya veri merkezi kredileri ABD çip lisansına takıldı,bilanco,6b0809d2a35d913b496dbd04,309,2,0,0,1.29,2026-11-26T23:42
-2026-11-26,13:54,sistem,HABER,evet,[A:normal] Nikkei yükselişinin yarısı Advantest'ten  Topix +%0 1,cizgi_olay,6b080ff5b56cc066e5beaa97,262,0,0,0,0.76,2026-11-26T23:42
-2026-11-26,14:27,sistem,HABER,evet,[A:iddia] OpenAI Private Inference / gizli hesaplama tedarikçileri,kucuk_coklu,6b08178c3d35a6c490d28670,365,5,0,0,3.01,2026-11-26T23:42
-2026-11-26,14:56,sistem,PORTFOY,evet,[A:normal] RKLB fiyatlama gücü / SpaceX yörünge veri merkezi ikinci derece etkisi,dosya,6b081e6096d200044e41cfe6,,,,,,
-2026-11-26,15:40,sistem,DERIN-ANALIZ,evet,[A:iddia] AÇIKLAYICI 1/5: Neocloud iş modeli ve Nebius peşin ödeme,bilanco,6b0824615b429f9be00a73ae,,,,,,
-2026-11-26,16:20,sistem,VERI-KUYRUK,evet,[A:normal] Kuyruk riski: VVIX 115 (%87)  SKEW ortalama,cizgi_pro,6b08306eb56b3bb7f9fd0f73,,,,,,
-2026-11-26,16:57,sistem,DERIN-ANALIZ,evet,[A:iddia] AÇIKLAYICI 2/5: XPU / özel yapay zekâ çipi  AVGO,sutun,6b083ac080ee2e8b6680cb1f,,,,,,
-2026-11-26,17:45,enes,HABER*,?,"Makroekonomik konjonktürün mevcut likidite sıkışıklığı, tari",,6b084600b89f63179f188cb1,,,,,,
-2026-11-26,17:50,sistem,PORTFOY,evet,[A:normal] AÇIKLAYICI 3/5: sıvı soğutma neden zorunlu  VRT ön ödemeler,dosya,6b084713a9607f755582e90f,,,,,,
-2026-11-26,18:58,enes,HABER*,?,Ucuz hesaplama herkesi AI’ya çekince çıkarım talebi uçuşa ge,,6b0857196866adb41fe3ce4a,,,,,,
-2026-11-26,19:21,sistem,TARIHSEL,evet,[A:iddia] TARİHSEL (kural 96) ilk: VIX 25 üstü -> Nasdaq 100 6 ay,egim,6b085ca54e32cfdd23069e88,,,,,,
-2026-11-26,20:12,sistem,PORTFOY,evet,[A:normal] AÇIKLAYICI 4/5: zamanlama çipi  SITM,bilanco,6b08688c3accdac92ce4d4f2,,,,,,
-2026-11-26,21:03,sistem,HABER,evet,[A:iddia] AÇIKLAYICI 5/5: tüketim bazlı gelir  SNOW 2 Aralık öncesi,sutun,6b087486ce64081689def217,,,,,,
-2026-11-26,21:47,sistem,EGITICI,evet,[A:normal] EĞİTİCİ: ay sonu yeniden dengeleme (emeklilik fonu),siralama,6b087ed3ce64081689e3c950,,,,,,
-2026-11-26,22:24,sistem,HABER,evet,[A:iddia] MDB 1 Aralık bilançosu öncesi Atlas eşiği,cizgi_olay,6b08876b3accdac92cf3b9ab,,,,,,
-2026-11-26,23:13,sistem,HABER,evet,[A:normal] Kara Cuma çevrim içi harcama beklentisi (Adobe),bilanco,6b0892ecc81617797dddc881,,,,,,
-2026-11-27,00:04,sistem,HABER,evet,[A:iddia] Tokyo enflasyonu bu gece  yen taşıma işlemi riski,cizgi_pro,6b089ed5ce64081689f2aad0,,,,,,
-2026-11-27,11:01,sistem,VADELI,evet,[A:normal] GÜNÜN BAŞLIKLARI: vadeliler +  Tokyo TÜFE beklenti altı  yarım gün,siralama,6b0938e71fd46e62e7253a5e,,,,,,
-2026-11-27,11:42,sistem,AAII,evet,[A:iddia] AAII ayı %45  nötr %18'e indi,aaii,6b094271049983dcfba1ed3d,,,,,,
-2026-11-27,12:22,sistem,HABER,evet,[A:normal] AÇIKLAYICI 1/5: jeopolitik risk primi  Brent 92 / ekim 117,cizgi_olay,6b094bd9062ed764a8ffd7b7,,,,,,
-2026-11-27,13:05,sistem,HABER,evet,[A:iddia] AÇIKLAYICI 2/5: ihracat kısıtlaması / Çin payı  ASML,dosya,6b0955d1776ce21276079a57,,,,,,
+2026-11-26,00:16,sistem,SONUC,evet,[A:iddia] TEST-AYRISMA-2511 sonuç takibi: NVDA 149 30>125 53  AMD 406 03<424 39  AVGO 300 86<304 41 tuttu,haber_dosya,6b075026b96dd8d35161b98e,529,4,0,0,5.48,2026-11-27T22:42
+2026-11-26,07:53,enes,HABER*,?,Günaydınlar.Keyifler yerinde mi?,,6b07bb4d050d96bc57dcc25c,301,5,0,0,1.99,2026-11-27T22:42
+2026-11-26,10:09,enes,TEKNIK*,?,Gruba artık kurumsal ayak izini de getirdik.  Her işlem günü,,6b07db1d763f8c3b8efeed83,1024,6,0,0,3.71,2026-11-27T22:42
+2026-11-26,10:40,sistem,KORKU,duygu fiyattan hızlı bozuldu,[A:normal] Korku-Açgözlülük 17 4 aşırı korku (kural 90 ilk),cizgi_pro,6b07c6f4b96dd8d351914536,331,3,0,0,2.42,2026-11-27T22:42
+2026-11-26,11:01,enes,HABER*,?,Sistem tamam.👌🏻 https://t.co/rCpNsLPN2U,,6b07e76d15ed9e1da0e25bc6,842,5,0,0,15.08,2026-11-27T22:42
+2026-11-26,11:19,sistem,HABER,evet,[A:iddia] Kioxia +%12 6 yalnız Nvidia değil; 2 21 trilyon yen iç temettü + 144 SSD deneme; ikinci etki SanDisk/Micron,cizgi_olay,6b07eb84aca8612480906cfc,354,2,0,0,1.41,2026-11-27T22:42
+2026-11-26,11:46,sistem,HABER,evet,[A:normal] SK Hynix Kore toparlanması akşama taşınmadı,dosya,6b07f1fb63939e1d00875fa7,844,9,0,0,2.84,2026-11-27T22:42
+2026-11-26,12:23,sistem,HABER,evet,[A:iddia] SpaceX yörünge veri merkezi FCC onayı 10 ayda,siralama,6b07fa6c17fc84b971bcaa01,295,1,0,0,1.02,2026-11-27T22:42
+2026-11-26,12:52,sistem,HABER,evet,[A:normal] Nvidia kredi notu S&P izleme / Moody's teyit,cizgi_pro,6b08013510c0f7816e972e48,328,1,0,0,0.91,2026-11-27T22:42
+2026-11-26,13:28,sistem,HABER,evet,[A:iddia] Asya veri merkezi kredileri ABD çip lisansına takıldı,bilanco,6b0809d2a35d913b496dbd04,323,2,0,0,1.24,2026-11-27T22:42
+2026-11-26,13:54,sistem,HABER,evet,[A:normal] Nikkei yükselişinin yarısı Advantest'ten  Topix +%0 1,cizgi_olay,6b080ff5b56cc066e5beaa97,277,0,0,0,0.72,2026-11-27T22:42
+2026-11-26,14:27,sistem,HABER,evet,[A:iddia] OpenAI Private Inference / gizli hesaplama tedarikçileri,kucuk_coklu,6b08178c3d35a6c490d28670,385,5,0,0,2.86,2026-11-27T22:42
+2026-11-26,14:56,sistem,PORTFOY,evet,[A:normal] RKLB fiyatlama gücü / SpaceX yörünge veri merkezi ikinci derece etkisi,dosya,6b081e6096d200044e41cfe6,1219,14,0,0,4.18,2026-11-27T22:42
+2026-11-26,15:40,sistem,DERIN-ANALIZ,evet,[A:iddia] AÇIKLAYICI 1/5: Neocloud iş modeli ve Nebius peşin ödeme,bilanco,6b0824615b429f9be00a73ae,846,12,1,0,4.37,2026-11-27T22:42
+2026-11-26,16:20,sistem,VERI-KUYRUK,evet,[A:normal] Kuyruk riski: VVIX 115 (%87)  SKEW ortalama,cizgi_pro,6b08306eb56b3bb7f9fd0f73,300,2,0,0,1,2026-11-27T22:42
+2026-11-26,16:57,sistem,DERIN-ANALIZ,evet,[A:iddia] AÇIKLAYICI 2/5: XPU / özel yapay zekâ çipi  AVGO,sutun,6b083ac080ee2e8b6680cb1f,386,5,0,0,2.33,2026-11-27T22:42
+2026-11-26,17:45,enes,HABER*,?,"Makroekonomik konjonktürün mevcut likidite sıkışıklığı, tari",,6b084600b89f63179f188cb1,579,6,2,0,2.25,2026-11-27T22:42
+2026-11-26,17:50,sistem,PORTFOY,evet,[A:normal] AÇIKLAYICI 3/5: sıvı soğutma neden zorunlu  VRT ön ödemeler,dosya,6b084713a9607f755582e90f,436,6,0,0,2.75,2026-11-27T22:42
+2026-11-26,18:58,enes,HABER*,?,Ucuz hesaplama herkesi AI’ya çekince çıkarım talebi uçuşa ge,,6b0857196866adb41fe3ce4a,315,2,0,0,1.9,2026-11-27T22:42
+2026-11-26,19:21,sistem,TARIHSEL,evet,[A:iddia] TARİHSEL (kural 96) ilk: VIX 25 üstü -> Nasdaq 100 6 ay,egim,6b085ca54e32cfdd23069e88,555,8,0,0,4.68,2026-11-27T22:42
+2026-11-26,20:12,sistem,PORTFOY,evet,[A:normal] AÇIKLAYICI 4/5: zamanlama çipi  SITM,bilanco,6b08688c3accdac92ce4d4f2,384,4,0,0,2.34,2026-11-27T22:42
+2026-11-26,21:03,sistem,HABER,evet,[A:iddia] AÇIKLAYICI 5/5: tüketim bazlı gelir  SNOW 2 Aralık öncesi,sutun,6b087486ce64081689def217,280,1,0,0,0.71,2026-11-27T22:42
+2026-11-26,21:47,sistem,EGITICI,evet,[A:normal] EĞİTİCİ: ay sonu yeniden dengeleme (emeklilik fonu),siralama,6b087ed3ce64081689e3c950,317,3,0,0,2.21,2026-11-27T22:42
+2026-11-26,22:24,sistem,HABER,evet,[A:iddia] MDB 1 Aralık bilançosu öncesi Atlas eşiği,cizgi_olay,6b08876b3accdac92cf3b9ab,301,1,0,0,1.99,2026-11-27T22:42
+2026-11-26,23:13,sistem,HABER,evet,[A:normal] Kara Cuma çevrim içi harcama beklentisi (Adobe),bilanco,6b0892ecc81617797dddc881,368,4,0,0,1.9,2026-11-27T22:42
+2026-11-27,00:04,sistem,HABER,evet,[A:iddia] Tokyo enflasyonu bu gece  yen taşıma işlemi riski,cizgi_pro,6b089ed5ce64081689f2aad0,478,7,1,0,4.39,2026-11-27T22:42
+2026-11-27,11:01,sistem,VADELI,evet,[A:normal] GÜNÜN BAŞLIKLARI: vadeliler +  Tokyo TÜFE beklenti altı  yarım gün,siralama,6b0938e71fd46e62e7253a5e,723,8,0,0,2.77,2026-11-27T22:42
+2026-11-27,11:42,sistem,AAII,evet,[A:iddia] AAII ayı %45  nötr %18'e indi,aaii,6b094271049983dcfba1ed3d,295,0,1,0,2.71,2026-11-27T22:42
+2026-11-27,12:22,sistem,HABER,evet,[A:normal] AÇIKLAYICI 1/5: jeopolitik risk primi  Brent 92 / ekim 117,cizgi_olay,6b094bd9062ed764a8ffd7b7,275,0,0,0,0.73,2026-11-27T22:42
+2026-11-27,13:05,sistem,HABER,evet,[A:iddia] AÇIKLAYICI 2/5: ihracat kısıtlaması / Çin payı  ASML,dosya,6b0955d1776ce21276079a57,400,4,0,0,3,2026-11-27T22:42
 2026-11-27,13:55,sistem,HABER,evet,[A:normal] Gelecek hafta bilanço takvimi: MRVL CRWD MDB OKTA CRDO / CRM SNOW ZS,bilanco,6b0961b9658222306c05eefc,,,,,,
+2026-11-27,14:39,enes,HABER*,?,Reuters: Hackerlar ABD Hava Kuvvetleri’nin Cloud One platfor,,6b096bf1c17a1e250d4489b8,,,,,,
 2026-11-27,14:40,sistem,ICERIDEN,evet,[A:normal] COHR yönetim kurulu üyesi Pagliuca ~50 Mn $ açık piyasa alımı,cizgi_pro,6b096c36049983dcfbb542df,,,,,,
 2026-11-27,15:25,sistem,HABER,evet,[A:normal] AÇIKLAYICI 3/5: özel çip (ASIC)  MRVL 1 Aralık önizleme,sutun,6b09769f062ed764a813b168,,,,,,
 2026-11-27,16:15,sistem,VERI-FAKTOR,evet,[A:iddia] Faktör panosu: momentum −11 puan  eşit ağırlık +6,siralama,6b09825a062ed764a8197aaf,,,,,,
 2026-11-27,16:51,sistem,HABER,evet,[A:normal] AÇIKLAYICI 4/5: kontrol düzlemi  Air Force Cloud One ihlali,bilanco,6b098af732c212878fd46ded,,,,,,
 2026-11-27,18:14,sistem,VERI-VIX,evet,VIX vade eğrisi 8 gündür ters  oran 1 05 (biçim: görüş),cizgi_pro,6b099e5b32c212878fdeac6b,,,,,,
 2026-11-27,18:52,sistem,HABER,evet,Faiz +7 bp iken Nasdaq +%1 7: para tahvilden hisseye (biçim: kartsız),kartsiz,6b09a722bb117e5ba75c43de,,,,,,
+2026-11-27,19:18,enes,HABER*,?,$TSLA,,6b09ad754939e1931f010710,,,,,,
 2026-11-27,19:32,sistem,HABER,evet,AÇIKLAYICI 5/5: dikey entegrasyon  Tesla EMAG başvurusu (biçim: kartlı),dosya,6b09b0a832c212878fe786d8,,,,,,
 2026-11-27,20:09,sistem,EGITICI,evet,EĞİTİCİ: yarım gün ve ince hacim  QQQ hacim 0 5x (biçim: kartsız),kartsiz,6b09b932d5bf252ef53a399a,,,,,,
 2026-11-27,21:14,sistem,HABER,evet,Nasdaq 100 haftalık +%7  dip görüşü  26.000 teyit eşiği (biçim: görüş),cizgi_olay,6b09c8720dc186ddf75d6d5e,,,,,,
+2026-11-27,21:18,enes,HABER*,?,"YTD 58,10-Günlük getiri 4,83  (Portföyümüzü tüm detayları il",,6b09c98ca6147a84fe189995,,,,,,
 2026-11-27,22:05,sistem,HABER,evet,Çipler +%5  Nvidia geride: Çin veri merkezinde Blackwell haberi (biçim: kartsız),kartsiz,6b09d46802e606c3af771a00,,,,,,
