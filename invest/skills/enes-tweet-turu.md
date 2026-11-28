@@ -453,3 +453,12 @@ Yazım düzeyi: kurumsal araştırma notunun tek paragraflık özeti gibi. Sıra
 - Her tweette İKİ ÇAPA birden: (a) değerleme/beklenti çapası: çarpan, konsensüs, revizyon, iskonto/prim, marj, piyasanın fiyatladığı; (b) risk/eşik çapası: tezi bozan seviye, kapanış teyidi, destek/direnç, asimetri.
 Yazım düzeyi: hedge fon portföy yöneticisinin sabah notu. Ne oldu (rakam) → piyasa neyi fiyatlıyor, konsensüsten fark → benim pozisyonum ve asimetri → tezi bozan eşik. Kelimeler: asimetri, risk/ödül, pozisyon artırma/azaltma, kısa pozisyon kapatma, çarpan genişlemesi/daralması, kâr tahmini revizyonu, akış, teyit kapanışı. Ses yine Enes: birinci tekil, kısa cümle, süssüz; terim yığını yok, her terim bir rakama bağlı.
 Örnek: "$SMH haftayı %10 yükselişle kapattı, 200 günlük ortalamanın hâlâ %16 altında. Hacim ortalamanın 1,4 katı, bu kısa pozisyon kapatmanın ötesinde gerçek alım. Konsensüs 2027 kâr tahminini düşürmedikçe çarpan daralması aşırı; risk/ödül alım tarafında. 200 günlük ortalamanın üstünde kapanış teyit, haftanın dibi altı tezi bozar."
+
+## KURAL 113-D — KURUMSAL ARAŞTIRMA NOTU DÜZEYİ (Enes 28.11 19:33 'olmaz, daha da prof')
+113-C'nin üstüne kalite.py ZORUNLU (HATA):
+- KIYAS ÇAPASI: her rakam bir ölçüte bağlanır: endeks, akran, tarihsel ortalama/yüzdelik, 'X'ten beri en düşük', konsensüs. Çıplak rakam yok.
+- FARKLI GÖRÜŞ (variant perception): piyasanın/konsensüsün ne fiyatladığı VE benim nerede ayrıştığım aynı tweette. Haber aktarmak yetmez; fark yaratan tez yazılır.
+- AMATÖR DİL YASAK: güzel, harika, müthiş, uçtu, çakıldı, patladı, roket, fırsat, kaçırma, bomba, efsane, süper, inanılmaz, resmen, 'alım gerçek'. Kurumsal karşılık: fırsat -> asimetrik risk/ödül; uçtu -> %X prim; alım gerçek -> hacim teyitli.
+- Jargon sınırı 5 (terim yığını değil, her biri rakama bağlı).
+Yapı (her tweet): 1) olgu + rakam + kıyas, 2) piyasanın fiyatladığı / konsensüs, 3) benim ayrıştığım nokta (tez), 4) asimetri + teyit seviyesi + tezi bozan seviye.
+Örnek (biçim örneği; rakamlar her seferinde 2 kaynakla doğrulanır): "$SMH haftayı %10 primle kapattı ama 200 günlük ortalamanın %16 altında. Piyasa çip kârlarında aşağı revizyon fiyatlıyor, konsensüs ise $NVDA'da tahmini indirmedi. Benim ayrıştığım yer bu: değerleme daralması tamamen fiyattan geldi. Hacim teyitli yükseliş, risk/ödül asimetrik. 200 günlük ortalama üstü kapanış teyit, haftanın dibi altı tezi bozar."

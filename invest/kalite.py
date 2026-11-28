@@ -325,8 +325,8 @@ def main():
         pencere = 5 if k == 'izleme kapanışı' else 6
         sonN = [x for x in d[-pencere:] if k in x.get('jargon', {})]
         if sonN: hata.append(f'kural 62/64-B: "{k}" ailesi son {pencere} tweette {len(sonN)} kez geçti: bu tweette kullanma. Kapanışı "ben şunu izleyeceğim" ile değil, verinin vardığı sonuçla bitir.')
-    if len(jg) > 3:  # kural 113 (Enes 28.11 19:26 'çok çok profesyonel borsacı'): 1 -> 3
-        hata.append(f'kural 62/113: bir tweette 3ten fazla piyasa jargonu {sorted(jg)}: en çok 3, her biri doğru yerde.')
+    if len(jg) > 5:  # kural 113-D 3->5; kural 113 (Enes 28.11 19:26 'çok çok profesyonel borsacı'): 1 -> 3
+        hata.append(f'kural 62/113: bir tweette 3ten fazla piyasa jargonu {sorted(jg)}: en çok 5, her biri doğru yerde.')
     # 8) Tekrar (bölüm 8): son tweetlerle aynı tarihsel örnek / açılış / kapanış / terim seti
     son15, son30 = d[-15:], d[-30:]
     for y in f['tarih']:
@@ -348,6 +348,13 @@ def main():
         _risk = re.search(r'bozar|bozulur|eşik|seviye|destek|direnç|kapanış|risk|asimetri|stop|geçersiz', _l)
         if not _deger: hata.append('kural 113-C: değerleme/beklenti çapası yok (çarpan, konsensüs, revizyon, iskonto, marj, fiyatlanan).')
         if not _risk: hata.append('kural 113-C: risk/eşik çapası yok (tezi bozan seviye, kapanış teyidi, destek/direnç).')
+        # KURAL 113-D (Enes 19:33 'olmaz, daha da prof'): kıyas çapası + farklı görüş + amatör dil yasağı
+        if not re.search(r'ortalama|akran|endekse göre|endeksin|s&p 500|nasdaq|tarihsel|yüzdelik|en düşük|en yüksek|\d{4}.den beri|beri|rakip|sektör|konsensüs', _l):
+            hata.append('kural 113-D: kıyas çapası yok (endeks, akran, tarihsel ortalama/yüzdelik, konsensüs). Rakamı bir ölçüte bağla.')
+        _amator = re.findall(r'\b(güzel|harika|müthiş|uçtu|uçuyor|çakıldı|patladı|roket|fırsat|kaçırma|bomba|efsane|gerçek alım|alım gerçek|süper|inanılmaz|resmen)\b', _l)
+        if _amator: hata.append(f'kural 113-D: amatör ifade {sorted(set(_amator))}: kurumsal karşılığını yaz (ör. fırsat -> asimetrik risk/ödül, uçtu -> %X prim, alım gerçek -> hacim teyitli).')
+        if not re.search(r'piyasa|fiyatl|konsensüs|beklenti|herkes|ortak görüş|pozisyonlanma', _l) or not re.search(r'\bben\b|benim|bence', _l):
+            hata.append('kural 113-D: farklı görüş (variant perception) yok: piyasanın/konsensüsün ne düşündüğünü ve benim nerede ayrıştığımı birlikte yaz.')
         if n_pro < 4: hata.append(f'kural 113-B: kurumsal masa dili zayıf ({n_pro}/4 borsacı öğesi, 113-C). Konsensüs, çarpan, marj, pozisyonlanma, katalizör, kapanış teyidi, hacim, revizyon, eşik gibi en az 4 öğe kullan.')
         _ted = re.findall(r'\b(olabilir|sanırım|galiba|gibi görünüyor|belki|muhtemelen|düşünüyorum)\b', _l)
         if _ted: hata.append(f'kural 113-B: tereddüt dili {sorted(set(_ted))}: hükmü net kur.')
