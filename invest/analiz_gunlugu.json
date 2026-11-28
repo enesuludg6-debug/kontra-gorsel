@@ -48,5 +48,17 @@
   "gerekce": "Dip skoru 7/10, onaylı giriş testi: 664 (20G) üstü kapanış; hedef 685 çakışma 6; geçersiz 606 (20.11 dip)",
   "tarih": "2026-11-27",
   "sonuc": ""
+ },
+ {
+  "id": 5,
+  "t": "TSLA",
+  "yon": "yukari",
+  "giris": 409.0,
+  "stop": 345.0,
+  "hedef": 453.0,
+  "gun": 20,
+  "gerekce": "TA-STIL 28.11: haftalık düşen trend 498,83->414,23 şimdi 408,6; kırılım haftalık kapanışla, eşik 345 (20.11 dip), hedef Mayıs tepesi 453",
+  "tarih": "2026-11-28",
+  "sonuc": ""
  }
 ]

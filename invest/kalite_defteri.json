@@ -1,22 +1,5 @@
 [
 {
-"jargon": {},
-"tarih": [],
-"terim": [
-"brüt marj",
-"sipariş defteri"
-],
-"acilis": "normal",
-"kapanis": "soru işareti 4 çeyrek",
-"rekor": 0,
-"imza": "4p-duz-o-ticker",
-"kalip": "B",
-"tur": "BILANCO-ANALIZ",
-"zaman": "25.11 00:17",
-"gun": "24.11",
-"uzunluk": 662
-},
-{
 "jargon": {
 "ayrışma": 1
 },
@@ -1137,5 +1120,24 @@
 "zaman": "28.11 11:11",
 "gun": "28.11",
 "uzunluk": 304
+},
+{
+"jargon": {},
+"tarih": [],
+"terim": [],
+"acilis": "iddia",
+"kapanis": "aralık zirvesinden çizdiğim çizgi",
+"rekor": 0,
+"k89": [
+"esik"
+],
+"k89_son": "",
+"k89_hazir": [],
+"imza": "2p-duz-k-cerceve",
+"kalip": "N",
+"tur": "TEKNIK",
+"zaman": "28.11 11:40",
+"gun": "28.11",
+"uzunluk": 437
 }
 ]

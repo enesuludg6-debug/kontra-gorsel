@@ -378,3 +378,10 @@ Adımlar:
 6. KAPI + KAYIT: `bash yayin_kontrol.sh TEKNIK <kalip>` GEÇTİ → Buffer (kart = stil çizim), `kayit.py --tur TEKNIK --duzen stil_cizim`, teknik_ek gunluk ekle (seviyeler), ertesi gün kural 66 takibi (yalnız tutan seviye anılır).
 Kural ilişkisi: Enes'in kendi 'ben olsam' teknik tweetleri (TradingView ekran görüntüsü, Enes atar) AYNEN devam eder; 108 ayrı bir format: sistem atar, görsel kendi çizimimiz (Enes 28.11 açık talimatı).
 Not: Enes'in 28.11'de örnek attığı TSLA haftalık (düşen trend + 40H HO + 275-295 mor bölge + CCI trend kırılımı + turuncu halka) bu formatın referans tarzıdır; örnek: g/stil_tsla.png.
+
+108 HASSASİYET (Enes 28.11 11:38 'milimi milimine, mumlar kayıyor, çizgi yanlış çekilmesin'):
+- Veri: stil_cizim.temiz() Yahoo haftalık serideki ÇİFT SON HAFTAYI siler (Yahoo son günü ayrı 'hafta' döndürür -> mum kayması). Çizimden önce son 3 mumu günlük veriyle karşılaştır (açılış/en yüksek/en düşük/kapanış).
+- Trend çizgisi: --noktalar <tarih1>,<tarih2> ile İKİ GERÇEK fitil ucundan çizilir; araç 'gövde ihlali' sayar, 0 olmalı. Başkasının çizgisi gövdeleri kesiyorsa onu çizmeyiz, doğru çizgiyi çizip farkı tweette söyleriz (28.11 TSLA: Mayıs çizgisi Kasım başında kırılıp başarısız olmuştu; doğru çizgi Aralık tepesi -> 2 Kasım tepesi, 408,6).
+- Osilatör çizgisi de --osc-noktalar ile gerçek tepelerden.
+- Görsel Read ile açılır: son mum doğru mu, çizgi fitillere değiyor mu, etiketler mumların üstüne binmiyor mu. Hepsi tamam olmadan yayınlanmaz.
+- Aynı gün tweet aramada çıkmazsa ve Enes o gün bir grafik gönderdiyse referans o grafiktir.
