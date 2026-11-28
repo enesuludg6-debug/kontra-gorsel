@@ -528,3 +528,17 @@ Yöntem (x.com'a giriş YOK):
 ## KURAL 111-M İPTAL — ORAN ESAS (Enes 28.11 20:33 'en çok okunan önemli değil, takipçi sayısına kıyasla en çok patlayan önemli')
 Mutlak görüntülenme yedeği KALDIRILDI. Yalnız ORAN ≥5x sayılır.
 BULMA YÖNTEMİ (28.11'de işe yarayan): günün en sıcak konusunu bul (ör. Leopold mektubu), o konuya TEPKİ veren küçük hesapların tweetlerini ara ('<konu> Views', '<konu> thread', '<ticker> <konu>'); snippet'te 30B+ görüntülenmesi olan ama adı tanınmayan hesapları profil aramasıyla kontrol et. Örnek: EhrmantrautCap_ 3.152 takipçi, 123B görüntülenme = 39x (tek cümlelik karşı çıkış + belge görüntüsü). Büyük hesaplar (100B+ takipçi) atlanır.
+
+## KURAL 111 ÖZET (28.11 akşamı, Enes 20:26-20:33) — PATLAYAN TWEET = TAKİPÇİYE ORAN
+- Ölçü YALNIZ oran: görüntülenme ≥ 5 x takipçi VE ≥ 10B. 'En çok okunan' sayılmaz (111-M iptal).
+- Takipçi: `takipci.py bak`; yoksa tek WebSearch '<handle> followers' (allowed_domains x.com/twitter.com) -> `takipci.py ekle`; `takipci.py oran` PATLAMA demezse aday elenir. Konu 'K111 ORAN:<n>x'; gun_ozet yalnız ≥5x sayar.
+- Bulma: günün en sıcak konusuna TEPKİ veren küçük hesaplar ('<konu> Views', '<konu> thread'); snippet'te 30B+ görüntülenen tanınmamış hesapların profili kontrol edilir. Büyük hesaplar (100B+ takipçi) atlanır.
+- 28.11 ölçümü: Leopold takip 0,57x, MMMT 0,62x, Serenity 0,21x, Jukan 0,23x, bert_gilfoyle 4,88x (sayılmaz), EhrmantrautCap_ 39x (PATLAMA: tek cümlelik karşı çıkış + belge görüntüsü).
+- Uyarlama: aynı konu + aynı kanca, çeviri yok, hesap adı yok, Enes sesi, kural 113/114/116.
+
+## KURAL 116 — İŞLEM FİİLİ YOK, TEKNİK YALNIZ TA TWEETİNDE (Enes 28.11 20:36 'seviyelerde eklerim, çıkarırım vs deme; teknikten teknik analiz tweetleri dışında bahsetme')
+kalite.py ZORUNLU (HATA):
+- İşlem fiili YASAK (tüm tweetler, TA dahil): eklerim, çıkarırım, alırım, satarım, alıcı olurum, kenarda kalırım, kenara çekilirim, pozisyonu büyütürüm/küçültürüm, kâr alırım, stop olurum. Görüş ve koşul söylenir, işlem bildirilmez.
+- Teknik öğeler YALNIZ TA tweetinde (tur TEKNIK / TA-STİL): 200/50 günlük ortalama, hareketli ortalama, destek, direnç, kırılım/kırılırsa, trend çizgisi, haftalık kapanış, 'X üstü kapanış', RSI, MACD, Fibonacci, 'üstüne çıkarsa / altına inerse'. Diğer tweetlerde fiyat seviyesi senaryosu yerine TEMEL tetikleyici yazılır: 'kâr tahminleri aşağı dönerse görüşümü değiştiririm', 'EUV siparişleri gerilerse', 'rehber düşürülürse', 'brüt marj %X'in altında kalırsa'.
+- 113-C/113-E bu nedenle TA dışı tweetlerde temel tetikleyiciyle de sağlanır.
+- 28.11 uygulaması: 20:47 ($NVDA/Aschenbrenner) ve 21:08 ($ASML) zamanlanmış tweetleri yayından önce bu kurala göre düzeltildi.

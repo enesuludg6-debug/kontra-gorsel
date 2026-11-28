@@ -360,7 +360,7 @@ def main():
                   r'oynaklık|vix', r'akış', r'değerleme', r'ortalama', r'eşik|seviye', r'trend', r'genişli', r'geri alım', r'kredi']
         n_pro = sum(1 for r_ in PRO113 if re.search(r_, _l))
         _deger = re.search(r'konsens|beklenti|f/k|çarpan|katı|iskonto|prim|değerleme|revizyon|marj|nakit akış|fiyatl', _l)
-        _risk = re.search(r'bozar|bozulur|eşik|seviye|destek|direnç|kapanış|risk|asimetri|stop|geçersiz', _l)
+        _risk = re.search(r'bozar|bozulur|eşik|seviye|destek|direnç|kapanış|risk|asimetri|stop|geçersiz|görüşümü değiştir|aşağı dönerse|düşürülürse|gerilerse|indirirse|kesilirse|daralırsa|altında kalırsa', _l)
         if not _deger: hata.append('kural 113-C: değerleme/beklenti çapası yok (çarpan, konsensüs, revizyon, iskonto, marj, fiyatlanan).')
         if not _risk: hata.append('kural 113-C: risk/eşik çapası yok (tezi bozan seviye, kapanış teyidi, destek/direnç).')
         # KURAL 113-D (Enes 19:33 'olmaz, daha da prof'): kıyas çapası + farklı görüş + amatör dil yasağı
@@ -373,11 +373,17 @@ def main():
         # KURAL 113-E (Enes 19:35 'daha da prof'): kurumsal veri derinliği (fiyat dışı, rakamlı metrik) + senaryo
         if not re.search(r'\d[\d,\.]*\s*(kat\b|katı|x\b|baz puan)|(marj|f/k|konsensüs|revizyon|nakit akış|rehber|beklenti|ima edilen|eps|hisse başı)[^.\n]{0,50}\d', _l):
             hata.append('kural 113-E: fiyat dışı kurumsal metrik yok: rakamıyla çarpan (x kat), marj, konsensüs/beklenti, revizyon, rehber, EPS ya da opsiyon ima edilen hareket ekle.')
-        if not (re.search(r'üstü|üstünde|aşarsa|geçerse', _l) and re.search(r'altı|altında|kırılırsa|kaybederse|bozar', _l)):
-            hata.append('kural 113-E: iki yönlü senaryo yok: yukarı teyit seviyesi VE aşağı geçersizlik seviyesi birlikte yazılmalı.')
+        if not ((re.search(r'üstü|üstünde|aşarsa|geçerse', _l) and re.search(r'altı|altında|kırılırsa|kaybederse|bozar', _l)) or re.search(r'(revizyon|tahmin|rehber|marj|sipariş|talep|gelir)\w*[^.\n]{0,40}(dönerse|düşürülürse|gerilerse|indirirse|kesilirse|daralırsa|yükselirse|artarsa)', _l)):
+            hata.append('kural 113-E/116: tetikleyici yok: TA tweetinde iki yönlü seviye, diğerlerinde temel tetikleyici ("tahmin revizyonu aşağı dönerse görüşümü değiştiririm").')
         # KURAL 113-F (Enes 19:40 'terimler hem prof hem anlaşılır'): en ağır terim aynı cümlede sade Türkçeyle açılır
         if re.search(r'f/k|ileri çarpan|konsensüs|revizyon|asimetri|ima edilen|pozisyonlanma|baz puan|rehber', _l) and not re.search(r'\byani\b|demek|\(|anlamına|diye bilinen|olarak bilinen', _l):
             hata.append('kural 113-F: profesyonel terim var ama açıklaması yok: en ağır terimi aynı cümlede "yani ..." ile sade Türkçe aç (ör. ileri F/K, yani fiyatın gelecek yıl beklenen kâra oranı).')
+        # KURAL 116 (Enes 28.11 20:36): seviyede 'eklerim/çıkarırım' gibi işlem fiili yok; teknik yalnız TA tweetinde
+        if re.search(r'\b(eklerim|eklerdim|çıkarım|çıkarırım|alırım|satarım|alıcı olurum|satıcı olurum|kenarda kalırım|kenara çekilirim|pozisyonu? (büyütürüm|küçültürüm|azaltırım|artırırım)|kâr alırım|stop olurum)\b', _l):
+            hata.append('kural 116: işlem fiili (eklerim, çıkarırım, alıcı olurum, kenara çekilirim...) yok; görüşü ve koşulu söyle, işlem bildirme.')
+        if tur not in {'TEKNIK', 'TA-STIL'}:
+            _tek = re.findall(r'(\d+\s*günlük ortalama|hareketli ortalama|\bdestek\b|\bdirenç\b|kırılırsa|kırılım|trend çizgisi|haftalık kapanış|\bkapanış(ı)? (gelirse|gelmezse)|\büstü kapanış|\brsi\b|\bmacd\b|\bfibonacci\b|\bdip(in)? (altı|kırıl)|üstüne çıkarsa|altına inerse)', _l)
+            if _tek: hata.append(f'kural 116: teknik analiz öğesi {sorted(set(x if isinstance(x,str) else x[0] for x in _tek))} yalnız TA tweetlerinde (tur TEKNIK); bu tweette temel tetikleyici kullan (tahmin revizyonu, rehber, marj, sipariş).')
         if n_pro < 4: hata.append(f'kural 113-B: kurumsal masa dili zayıf ({n_pro}/4 borsacı öğesi, 113-C). Konsensüs, çarpan, marj, pozisyonlanma, katalizör, kapanış teyidi, hacim, revizyon, eşik gibi en az 4 öğe kullan.')
         _ted = re.findall(r'\b(olabilir|sanırım|galiba|gibi görünüyor|belki|muhtemelen|düşünüyorum)\b', _l)
         if _ted: hata.append(f'kural 113-B: tereddüt dili {sorted(set(_ted))}: hükmü net kur.')
