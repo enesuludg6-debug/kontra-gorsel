@@ -3383,11 +3383,11 @@
    "ne": "kural 92 zincir",
    "ticker": "",
    "tur": "tek",
-   "durum": "kuruldu",
+   "durum": "yapildi",
    "not": "",
    "trigger": "",
    "soz": "",
-   "guncelleme": "28.11 09:01"
+   "guncelleme": "28.11 15:12"
   },
   {
    "id": "TUR-2811-1305",
@@ -3409,11 +3409,24 @@
    "ne": "tur zinciri",
    "ticker": "",
    "tur": "tek",
-   "durum": "kuruldu",
+   "durum": "yapildi",
    "not": "",
    "trigger": "trig_01DaeH26ihrbLen2dC1WnYX7",
    "soz": "",
-   "guncelleme": "28.11 13:22"
+   "guncelleme": "28.11 15:12"
+  },
+  {
+   "id": "TUR-2811-1533",
+   "ad": "Otomatik paylaşım turu",
+   "zaman": "2026-11-28T15:33",
+   "ne": "tur zinciri",
+   "ticker": "",
+   "tur": "tek",
+   "durum": "bekliyor",
+   "not": "",
+   "trigger": "",
+   "soz": "",
+   "guncelleme": "28.11 15:12"
   },
   {
    "id": "SABIT-kalabalik",
