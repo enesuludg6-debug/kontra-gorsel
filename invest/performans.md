@@ -309,3 +309,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 28.11 | 13:22 | TEMEL-FIKIR | K107 HBM 2027 200 mlr $ fiyat 2 kat, MU SKHY marj (biçim: kartsız görüş) | kartsiz | 6b0aab62d2df6f06d3a2f889 |
 | 28.11 | 15:11 | SEKTOR | Sektör haftalık: malzeme 7,9 teknoloji 7,5 önde, savunma 2,5 geride (biçim: kart4 isi) | k4_isi | 6b0ac50b0f9559e0ce0dac83 |
 | 28.11 | 15:35 | K111-LISTE | K111 YZ hisseleri 52H zirveden düşüş listesi Kara Cuma (biçim: kart4 siralama, tartışma görüşü) | k4_siralama | 6b0aca77b8ec87c6cec48b55 |
+| 28.11 | 16:06 | K111-HABER | K111 NVDA Blackwell Şanghay veri merkezi haberi, hisse %2,6 düşüp artıda kapattı (biçim: kartsız görüş) | kartsiz | 6b0ad1dd0f9559e0ce13ae48 |
