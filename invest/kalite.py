@@ -344,7 +344,11 @@ def main():
                   r'sipariş', r'fiyatl', r'prim|iskonto', r'baz puan|bps', r'yıllık bazda|çeyreklik bazda|çeyrekte', r'getiri',
                   r'oynaklık|vix', r'akış', r'değerleme', r'ortalama', r'eşik|seviye', r'trend', r'genişli', r'geri alım', r'kredi']
         n_pro = sum(1 for r_ in PRO113 if re.search(r_, _l))
-        if n_pro < 3: hata.append(f'kural 113-B: kurumsal masa dili zayıf ({n_pro}/3 borsacı terimi). Konsensüs, çarpan, marj, pozisyonlanma, katalizör, kapanış teyidi, hacim, revizyon, eşik gibi en az 3 öğe kullan.')
+        _deger = re.search(r'konsens|beklenti|f/k|çarpan|katı|iskonto|prim|değerleme|revizyon|marj|nakit akış|fiyatl', _l)
+        _risk = re.search(r'bozar|bozulur|eşik|seviye|destek|direnç|kapanış|risk|asimetri|stop|geçersiz', _l)
+        if not _deger: hata.append('kural 113-C: değerleme/beklenti çapası yok (çarpan, konsensüs, revizyon, iskonto, marj, fiyatlanan).')
+        if not _risk: hata.append('kural 113-C: risk/eşik çapası yok (tezi bozan seviye, kapanış teyidi, destek/direnç).')
+        if n_pro < 4: hata.append(f'kural 113-B: kurumsal masa dili zayıf ({n_pro}/4 borsacı öğesi, 113-C). Konsensüs, çarpan, marj, pozisyonlanma, katalizör, kapanış teyidi, hacim, revizyon, eşik gibi en az 4 öğe kullan.')
         _ted = re.findall(r'\b(olabilir|sanırım|galiba|gibi görünüyor|belki|muhtemelen|düşünüyorum)\b', _l)
         if _ted: hata.append(f'kural 113-B: tereddüt dili {sorted(set(_ted))}: hükmü net kur.')
         if len(re.findall(r'\bbence\b', _l)) > 1: hata.append('kural 113-B: "bence" en çok 1 kez.')

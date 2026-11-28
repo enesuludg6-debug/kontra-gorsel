@@ -64,3 +64,4 @@ Eski 106 satırlık dizin hiçbir şey silinmeden `KURAL_DIZINI_ARSIV_2711.md`'d
 - 54-H ek-3 (28.11): 'Yönü X belirler / son sözü X söyler' kehanet kapanışı yasak.
 - 113 (28.11 19:26) Enes sesi + ÇOK ÜST DÜZEY BORSACI: net hüküm + seviye, 2-3 doğru borsacı terimi (kalite sınırı 1->3), en az 1 masa detayı (fiyatlanan / beklenti farkı / pozisyonlanma / tetikleyici / geçersiz kılan seviye), tereddüt kelimesi yok; taslak ve açıklamalar dahil. Ses Enes, içerik kıdemli borsacı.
 - 113-B (28.11 19:29 'daha da prof') kalite.py ZORUNLU: en az 3 borsacı öğesi, tereddüt kelimesi yok (olabilir/sanırım/galiba/belki/muhtemelen/düşünüyorum), 'bence' ≤1, somut rakam; sıra olgu -> fiyatlanan/beklenti farkı -> benim seviyem -> tezi bozan eşik.
+- 113-C (28.11 19:30 'yetmez') kalite.py ZORUNLU: en az 4 borsacı öğesi + iki çapa (değerleme/beklenti VE risk/eşik); hedge fon sabah notu düzeyi, her terim bir rakama bağlı.

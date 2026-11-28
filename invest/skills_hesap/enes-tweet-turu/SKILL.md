@@ -444,3 +444,10 @@ Taslaklar (kural 69) ve "Ne anlama geliyor?" açıklamaları da aynı seviyede y
 - Somut rakam/seviye zorunlu.
 Yazım düzeyi: kurumsal araştırma notunun tek paragraflık özeti gibi. Sıra: (1) olgu + rakam, (2) piyasanın fiyatladığı / beklentiden fark, (3) benim pozisyonum ve seviyem, (4) tezi bozan eşik. Ses yine Enes: birinci tekil, kısa cümle, süssüz.
 Örnek: "$NVDA 12,5 kat ileri F/K ile S&P 500'e %32 iskontolu. Konsensüs kâr tahminini düşürmedi, yani çarpan daralması tamamen fiyattan geldi. Ben 145 desteğini pozisyon artırma bölgesi görüyorum; tahmin revizyonu aşağı dönerse tez bozulur."
+
+## KURAL 113-C — HEDGE FON MASASI (Enes 28.11 19:30 'daha da prof istiyorum, yetmez')
+113-B'nin üstüne kalite.py ZORUNLU (HATA):
+- EN AZ 4 borsacı öğesi (3 değil).
+- Her tweette İKİ ÇAPA birden: (a) değerleme/beklenti çapası: çarpan, konsensüs, revizyon, iskonto/prim, marj, piyasanın fiyatladığı; (b) risk/eşik çapası: tezi bozan seviye, kapanış teyidi, destek/direnç, asimetri.
+Yazım düzeyi: hedge fon portföy yöneticisinin sabah notu. Ne oldu (rakam) → piyasa neyi fiyatlıyor, konsensüsten fark → benim pozisyonum ve asimetri → tezi bozan eşik. Kelimeler: asimetri, risk/ödül, pozisyon artırma/azaltma, kısa pozisyon kapatma, çarpan genişlemesi/daralması, kâr tahmini revizyonu, akış, teyit kapanışı. Ses yine Enes: birinci tekil, kısa cümle, süssüz; terim yığını yok, her terim bir rakama bağlı.
+Örnek: "$SMH haftayı %10 yükselişle kapattı, 200 günlük ortalamanın hâlâ %16 altında. Hacim ortalamanın 1,4 katı, bu kısa pozisyon kapatmanın ötesinde gerçek alım. Konsensüs 2027 kâr tahminini düşürmedikçe çarpan daralması aşırı; risk/ödül alım tarafında. 200 günlük ortalamanın üstünde kapanış teyit, haftanın dibi altı tezi bozar."
