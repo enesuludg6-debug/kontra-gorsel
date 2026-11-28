@@ -67,3 +67,5 @@ Okur tweeti bitirince şunu düşünmeli: "Bu adam haberi değil, haberin fiyata
 54-H EK (Enes 28.11 11:46 'Bu yüzden ben bu kırılımı ciddiye alıyorum' -> 'çok yapay zeka yazmış'): 'X'i ciddiye alıyorum / ciddiye alırım / ciddiye almak gerek' ve 'Bu yüzden ben ...' kanaat kalıbı YASAK (yasak.py yakalar). Kanaat düz söylenir: '390 altına dönmedikçe kırılım geçerli', 'yön yukarı'.
 
 54-H EK-2 (Enes 28.11 12:16 'kalabalık henüz inanmadı' -> 'çok AI gibi'): piyasayı/kalabalığı kişileştiren kanaat kalıpları YASAK: 'kalabalık henüz inanmadı', 'piyasa ikna olmadı', 'yatırımcılar kabullenmedi'. Düz ve ölçülebilir yaz: 'çoğu yatırımcı hâlâ korkuyor', 'korku endeksi hâlâ 25 altında' (yasak.py 54-H yakalar).
+
+54-H EK-3 (Enes 28.11 13:03 'Yönü Pazartesi'nin tam seansı ve Salı gecesi $MRVL bilançosu belirler' -> 'çok AI ibaresi'): 'Yönü X belirler / belirleyecek', 'son sözü X söyleyecek', 'belirleyici olacak şey' gibi kehanet/sunucu kapanışları YASAK. Düz ve kişisel yaz: 'Salı gecesi $MRVL bilançosuna bakacağım', 'Pazartesi 26.000 üstünde kalırsa dip geride'. yasak.py 54-H yakalar.

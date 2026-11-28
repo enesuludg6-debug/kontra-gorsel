@@ -11,7 +11,7 @@
   8. Otomatik paylaşım turu: 11:00-02:00 içindeyse 10 dk sonra, değilse 11:05. Mesaj: "HESAP=E. Önce invest/AKTIF_HESAP.md oku; AKTIF: E değilse hiçbir şey yapma (tweet ve push yok) ve bu görevi kapat. OTOMATİK PAYLAŞIM TURU (TUR-GGAA-SSDD). git pull, sonra invest/gorevler/tur.md dosyasını oku ve harfiyen uygula; sayaçlar `python3 invest/gun_ozet.py`'den. Not: KURAL 112 her gün 20-40 sistem tweeti, aralık en az 20 dk, tur 20-30 dk arayla; önce eksik alt sınırlar (110/111). Bütün mesajlar bu sohbete (SendUserMessage / SendUserFile)." Her tur bir sonrakini kurar.
   9. Enes'e tek mesaj: "Devraldım (E): N zincir, M iş kuruldu; bağlı/bağlı olmayan bağlayıcılar; kaydedilecek skill kartları; ilk tur saati".
 - 28.11'DE EKLENEN KURALLAR (hepsi KURAL_DIZINI.md + skills/enes-tweet-turu.md'de; Enes onaylı):
-  * 102 her tweet Enes sesiyle (ses_ornek.py, ses_kontrol.py); 54-H süslü mecaz yasak; 54-H ek: 'Bu yüzden ben X'i ciddiye alıyorum' yasak; 54-H ek-2: 'kalabalık henüz inanmadı' gibi kişileştirme yasak (yasak.py yakalar).
+  * 102 her tweet Enes sesiyle (ses_ornek.py, ses_kontrol.py); 54-H süslü mecaz yasak; 54-H ek: 'Bu yüzden ben X'i ciddiye alıyorum' yasak; 54-H ek-2: 'kalabalık henüz inanmadı' gibi kişileştirme yasak; 54-H ek-3: 'Yönü X belirler' kehanet kapanışı yasak (yasak.py yakalar).
   * 104 kartlar kart4 ailesi (Instrument Serif + JetBrains Mono, koyu, estetik; logolar büyük). 103 kart denetimi (.denetim boş değilse yayın yok).
   * 105 takipçi psikolojisi (skill enes-takipci-psikolojisi).
   * 106 X NABZI: WebSearch allowed_domains x.com/twitter.com; X'e giriş/x.com WebFetch/otomasyon YOK. Üçüncü taraf ayna (xcancel) okumasına Enes izin verdi ama site bot korumasıyla reddediyor.

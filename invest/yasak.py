@@ -108,6 +108,7 @@ for r_, ad in [
     (r"oyunun kural|kartlar(ı)? yeniden|top (artık )?\w+ (sahasında|elinde)|rüzgar(ı)? arka", "'oyunun kuralları / kartlar / top sahasında / rüzgar arkada' mecazı"),
     (r"\b(tablo|resim)(yu|u|yı|ı)? (boz|değiştir|netleş)|\bpusula|\bfırtına(nın)? (göz|öncesi)", "'tabloyu bozar / pusula / fırtına' mecazı"),
     (r"(kalabalık|piyasa|yatırımcı(lar)?|herkes)\w* (henüz |hâlâ |hala |daha )?(inanma|inanmıyor|ikna olma|ikna olmuş değil|kabullenme)", "'kalabalık henüz inanmadı' kişileştirme kalıbı (Enes 28.11 12:16 'çok AI gibi'); düz yaz: 'çoğu yatırımcı hâlâ korkuyor', 'korku endeksi hâlâ 25 altında'"),
+    (r"\byönü(nü)? .{0,60}(belirler|belirleyecek|tayin eder|gösterecek)|(asıl )?(sözü|kararı|son sözü) .{0,30}(söyleyecek|verecek)|(belirleyici|kilit) (olacak|olan) (şey|gelişme)", "'Yönü X ve Y belirler' kehanet/sunucu kapanışı (Enes 28.11 13:03 'çok AI ibaresi'); düz yaz: 'Pazartesi 26.000 üstünde kalırsa ...', 'Salı gecesi $MRVL bilançosuna bakacağım'"),
     (r"ciddiye al(ıyorum|ırım|mak gerek|mak lazım|ınmalı)|\bbu yüzden ben\b", "'bu yüzden ben X'i ciddiye alıyorum' yapay kanaat kalıbı (Enes 28.11 11:46); kanaati düz söyle: 'kırılım geçerli', '390 altına dönmedikçe yukarı bakıyorum'"),
     (r"(perde|sahne)(si)? (aralan|kapan|açıl)|\bsahneye çık|\bsöz(ü)? (artık )?\w+(da|de)\b", "'perde aralandı / söz X'te' mecazı"),
 ]:

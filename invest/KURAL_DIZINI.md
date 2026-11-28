@@ -61,3 +61,4 @@ Eski 106 satırlık dizin hiçbir şey silinmeden `KURAL_DIZINI_ARSIV_2711.md`'d
 - 110 (28.11) Günlük alt sınır: TA-STİL ≥2 (hafta içi ≥19:00 ve ≥23:00, hafta sonu ≥11:00 ve ≥19:00), TEMEL-FİKİR (K107 hesapları) ≥1; üst sınır yok, günlük toplam içinde öncelikli; gun_ozet sayar.
 - 54-H ek-2 (28.11): 'kalabalık henüz inanmadı / piyasa ikna olmadı' kişileştirme kalıbı yasak.
 - 111 (28.11) PATLAYAN TWEET AVCISI: kaynak YALNIZ yabancı/İngilizce finans hesapları (Türk hesaplar sadece kıyas); günde EN AZ 2 K111 tweeti; görüntülenme ≥5x takipçi ve ≥10B olan finans tweetinin nedenini çıkar, aynı konu/biçimde kendi verimiz + Enes sesiyle yaz (kopya/çeviri yok, isim anılmaz); konu 'K111'; 48 saat sonra kıyas.
+- 54-H ek-3 (28.11): 'Yönü X belirler / son sözü X söyler' kehanet kapanışı yasak.

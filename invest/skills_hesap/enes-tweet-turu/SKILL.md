@@ -421,3 +421,5 @@ Amaç: takipçisine göre olağandışı yayılan finans tweetini bul, NEDEN yay
 
 ## KURAL 112 — GÜNLÜK 20-40 (Enes 28.11 12:20 'günlük tweet sayılarını 20-40 arası yap')
 Her gün (hafta sonu dahil) sistem tweeti EN AZ 20, EN ÇOK 40 (kural 98'in 15-20 / hafta sonu 8 sayıları geçersiz). Aralık en az 20 dk (35 dk kuralı yerine), tur 20-30 dk arayla, turda 1-2 tweet. Konu eşiği konu_puan ≥60; K107/K108/K111 her zaman yeterli. Alt sınıra yetişmek için tur boş geçmez: haber zayıfsa açıklayıcı, eğitici, tarihsel istatistik ya da veri tweeti. Kalite kapısı (yayin_kontrol.sh) aynen.
+
+54-H EK-3 (Enes 28.11 13:03 'Yönü Pazartesi'nin tam seansı ve Salı gecesi $MRVL bilançosu belirler' -> 'çok AI ibaresi'): 'Yönü X belirler / belirleyecek', 'son sözü X söyleyecek', 'belirleyici olacak şey' gibi kehanet/sunucu kapanışları YASAK. Düz ve kişisel yaz: 'Salı gecesi $MRVL bilançosuna bakacağım', 'Pazartesi 26.000 üstünde kalırsa dip geride'. yasak.py 54-H yakalar.
