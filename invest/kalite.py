@@ -277,7 +277,8 @@ def main():
         hata.append(f'kural 63-D: yapı imzası {imza} son 3 tweetten biriyle aynı; paragraf sayısını, satır biçimini (kısa satır/düz yazı), uzunluğu ya da açılış türünü (rakam/soru-olmayan çerçeve/isim/kavram) değiştir.')
     # KURAL 65 (Enes 23.11 22:03 "örnek tweetler senin yaptıklarından çok daha profesyonel, o derecede profesyonel şeyler istiyorum"): fiyat yüzdesi ve manşetin ötesinde en az bir İKİNCİ KATMAN veri
     if tur not in KALIP_MUAF and tur not in {'EGITICI', 'SONDAKIKA', 'HABER'}:
-        if not re.search(IKINCI_KATMAN, l):
+        ik = IKINCI_KATMAN + (r'|hacim|cci|rsi|macd|obv|bollinger|uyumsuzluk|haftalık ortalama|günlük ortalama' if tur == 'TEKNIK' else '')  # kural 108: teknik tweette ikinci katman = gösterge/hacim teyidi
+        if not re.search(ik, l):
             hata.append('kural 65: ikinci katman veri yok. Fiyat yüzdesi ve manşet yetmez; oynaklık yapısı (VIX vade eğrisi, VVIX, SKEW, VXN), örtük korelasyon, piyasa genişliği, açığa satış oranı, marj borcu, ETF/fon akışı, CFTC pozisyonu, analist tahmin revizyonu, ertelenmiş gelir/RPO, serbest nakit akışı, yatırım harcamasının gelire oranı, hisse sayısı/seyrelme, birleşme farkı, piyasa değeri/kâr ya da satış katı gibi bir veri ekle (2 kaynak ya da kendi hesabın).')
     # 7a) KURAL 63: ham jargon ve derin analiz günlük sınırı
     hj = [re.search(k, l).group(0) for k in HAM_JARGON if re.search(k, l)]

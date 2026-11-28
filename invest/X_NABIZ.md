@@ -10,6 +10,7 @@ Sınır: her tweeti değil, arama motorunun dizinlediklerini görür; en yeni da
 ## Takip listesi (Enes düzeltir)
 Haber/kurum: Reuters, Bloomberg, CNBC, WSJ, FT, nytimes, business, markets, zerohedge (yalnız başlık, teyitsiz rakam alınmaz), unusual_whales, DeItaone (Walter Bloomberg), FirstSquawk.
 Şirket: nvidia, AMD, Marvell, Broadcom, Tesla, elonmusk, sama, OpenAI, AnthropicAI (tweete Anthropic GİRMEZ, yalnız bağlam), Microsoft, Google, Meta.
+Teknik analiz (kural 108, aynı gün tweetleri): J_TradezZ, Jake__Wujastyk, TrendSpider, spluscollective (First Fellow), Venu_7_.
 Analist/yatırımcı (Enes favorisi, kural 107): Shay Boloor (StockSavvyShay), Serenity (aleabitoreddit), Venu (Venu_7_), Duhan Samet Akdağ (DSAkdag). Diğer: dualityresearch, Dan Ives (DivesTech), Gene Munster (munster_gene), Chamath, BG2Pod, SemiAnalysis_, PeterSchiff (karşı görüş örneği).
 Türkçe finans (rakip/benchmark): DSAkdag; Enes isim verdikçe eklenir.
 
@@ -36,3 +37,6 @@ Kurallar (106'nın üstüne):
 - Onların "aldım/ekledim" pozisyonu bizim için sinyal değil, konu adayıdır. Enes'e "ben olsam" notunda geçerse: "Serenity X'i darboğaz diye anlatıyor, bizim puan: N/50" biçiminde, kaynaklı.
 - Yüksek görüntülenmeli tweetleri (ör. 100 bin+) konu_puan'a +10; DONGU'ya `xnabiz: <hesap> <görüntülenme> <konu>`.
 - Her Pazar (perfogren) bu 4 hesabın haftanın en çok görüntülenen 1'er tweetine bakılır: hangi FORMAT tuttu (liste, tek metrik, grafik, karşı görüş) → DERSLER.md'ye 1 satır.
+
+## KURAL 108 özeti
+Günde 1: aynı gün TA tweetleri → kendi analizimiz → beğenilenin tarzında kendi çizimimiz (stil_cizim.py) → görselli tweet. Ayrıntı skills enes-tweet-turu KURAL 108.

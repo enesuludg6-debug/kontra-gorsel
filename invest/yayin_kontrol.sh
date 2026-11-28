@@ -3,6 +3,7 @@
 # Kullanım: bash invest/yayin_kontrol.sh <TUR> <KALIP> < metin.txt   -> son satır GEÇTİ ya da DUR
 cd "$(dirname "$0")" || exit 1
 T=$(mktemp); cat > "$T"; HATA=0
+[ -s "$T" ] && grep -q "[[:alnum:]]" "$T" || { echo "  BOŞ METİN (stdin verilmedi?)"; HATA=1; }
 python3 yasak.py < "$T" | tail -5 | tee /tmp/yk_yasak.txt; grep -q "YASAK VAR" /tmp/yk_yasak.txt && HATA=1
 python3 kalite.py kontrol --tur "$1" --kalip "$2" < "$T" | tail -6 | tee /tmp/yk_kalite.txt; grep -q "KALITE HATA" /tmp/yk_kalite.txt && HATA=1
 python3 ses_kontrol.py < "$T" | tee /tmp/yk_ses.txt; grep -q "SES HATA" /tmp/yk_ses.txt && HATA=1
