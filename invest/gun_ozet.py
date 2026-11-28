@@ -26,7 +26,7 @@ temel = sum(1 for r in R if "K107" in r["konu"].upper())  # kural 110: favori 4 
 import re as _re
 def _oran(k):
     m = _re.search(r"ORAN:([0-9.]+)", k.upper()); return float(m.group(1)) if m else 0
-patlama = sum(1 for r in R if "K111" in r["konu"].upper() and (_oran(r["konu"]) >= 5 or "K111-M" in r["konu"].upper()))  # kural 111-T: yalnız takipçi oranı ≥5x doğrulananlar  # kural 111-Y: yabancı patlayan tweet uyarlaması, en az 2
+patlama = sum(1 for r in R if "K111" in r["konu"].upper() and _oran(r["konu"]) >= 5)  # kural 111-T: yalnız takipçi oranı ≥5x doğrulananlar  # kural 111-Y: yabancı patlayan tweet uyarlaması, en az 2
 kartsiz = sum(1 for r in R if not r["duzen"] or r["duzen"] in ("yok", "kartsiz"))
 gorus = sum(1 for l in dongu if "biçim: görüş" in l or "bicim: gorus" in l)
 ust = 40; alt = 20  # kural 112 (Enes 28.11 12:20): her gün 20-40
