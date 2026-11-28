@@ -57,3 +57,10 @@ Yöntem (x.com'a giriş YOK):
 3. `python3 invest/takipci.py oran <handle> <görüntülenme>` -> 'ORAN:Nx PATLAMA' değilse aday ELENİR, sıradakine geçilir. Takipçi 1 aramada bulunamazsa aday elenir.
 4. Hızlı süzgeç: büyük hesaplar (100B+ takipçi: Kobeissi, unusual_whales, Wall St Engine, takip/haber hesapları) nadiren 5x yapar; öncelik 5-50B takipçili analist hesapları (snippet görüntülenmesi 50B+ olanlar).
 5. Kayıt: kayit.py --konu 'K111 ORAN:<n>x ...'; gun_ozet yalnız ORAN>=5 olanları PATLAMA sayar. DONGU: 'PATLAMA: <hesap> <görüntülenme>/<takipçi> = <n>x <neden>'.
+
+## KURAL 111-M — MUTLAK PATLAMA YEDEĞİ (Enes 28.11 20:32 'daha iyisini bulabilirsin, daha çok patlamışını')
+28.11 ölçümü: yabancı finans hesaplarında 5x oran nadir; günün en çok görüntülenenleri büyük hesaplardan (Leopold takip 411,5B/715,8B = 0,57x, Serenity 148,3B/719,5B = 0,21x, Jukan 53,1B/228B = 0,23x). Kural:
+1. Önce 111-T ile ≥5x aday aranır (öncelik 5-50B takipçili analistler; aday başına tek profil araması).
+2. Tur içinde 2 profil kontrolünden sonra ≥5x yoksa: günün EN ÇOK görüntülenen yabancı finans tweeti (≥100B görüntülenme, son 24 saat) seçilir; konu 'K111-M <görüntülenme>' ile kaydedilir ve günlük 2'ye sayılır. Aynı tweet/konu iki kez kullanılmaz.
+3. Seçim sırası: görüntülenme yüksek -> bizim kitleye uygun (YZ/çip/bellek/Nasdaq) -> bugün işlemediğimiz açı.
+4. Takipçi sayısı bulunan her hesap takipci.py defterine yazılır (tekrar aranmaz).
