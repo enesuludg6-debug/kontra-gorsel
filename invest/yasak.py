@@ -107,6 +107,7 @@ for r_, ad in [
     (r"\bdenklem(i|in|de|e)?\b|\bterazi(si|de|nin)?\b|\bibre(si|yi|nin)?\b", "'denklem / terazi / ibre' mecazı"),
     (r"oyunun kural|kartlar(ı)? yeniden|top (artık )?\w+ (sahasında|elinde)|rüzgar(ı)? arka", "'oyunun kuralları / kartlar / top sahasında / rüzgar arkada' mecazı"),
     (r"\b(tablo|resim)(yu|u|yı|ı)? (boz|değiştir|netleş)|\bpusula|\bfırtına(nın)? (göz|öncesi)", "'tabloyu bozar / pusula / fırtına' mecazı"),
+    (r"(kalabalık|piyasa|yatırımcı(lar)?|herkes)\w* (henüz |hâlâ |hala |daha )?(inanma|inanmıyor|ikna olma|ikna olmuş değil|kabullenme)", "'kalabalık henüz inanmadı' kişileştirme kalıbı (Enes 28.11 12:16 'çok AI gibi'); düz yaz: 'çoğu yatırımcı hâlâ korkuyor', 'korku endeksi hâlâ 25 altında'"),
     (r"ciddiye al(ıyorum|ırım|mak gerek|mak lazım|ınmalı)|\bbu yüzden ben\b", "'bu yüzden ben X'i ciddiye alıyorum' yapay kanaat kalıbı (Enes 28.11 11:46); kanaati düz söyle: 'kırılım geçerli', '390 altına dönmedikçe yukarı bakıyorum'"),
     (r"(perde|sahne)(si)? (aralan|kapan|açıl)|\bsahneye çık|\bsöz(ü)? (artık )?\w+(da|de)\b", "'perde aralandı / söz X'te' mecazı"),
 ]:

@@ -407,3 +407,5 @@ Not: Enes'in 28.11'de örnek attığı TSLA haftalık (düşen trend + 40H HO + 
 - 22:00 TSİ'de gun_ozet 'KURAL 110 ... EKSİK' diyorsa sonraki turlar önce eksik olanı atar.
 - Günlük toplam (hafta içi 15-20, hafta sonu 8) ve 35 dk aralık geçerli; 110 alt sınırları bu toplamın içinde öncelikli yer alır.
 - Aynı gün tweet bulunamazsa (dizin gecikmesi) arama 2 kez daha denenir (farklı sorgu: hisse adı + 'chart', 'breakout', 'weekly'); yine yoksa DONGU'ya gerekçe yazılır, alt sınır o gün düşer.
+
+54-H EK-2 (Enes 28.11 12:16 'kalabalık henüz inanmadı' -> 'çok AI gibi'): piyasayı/kalabalığı kişileştiren kanaat kalıpları YASAK: 'kalabalık henüz inanmadı', 'piyasa ikna olmadı', 'yatırımcılar kabullenmedi'. Düz ve ölçülebilir yaz: 'çoğu yatırımcı hâlâ korkuyor', 'korku endeksi hâlâ 25 altında' (yasak.py 54-H yakalar).
