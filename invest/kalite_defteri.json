@@ -1,19 +1,5 @@
 [
 {
-"jargon": {},
-"tarih": [],
-"terim": [],
-"acilis": "normal",
-"kapanis": "bence çin deki yapay",
-"rekor": 0,
-"imza": "5p-duz-o-rakam",
-"kalip": "I",
-"tur": "BILANCO-ANALIZ",
-"zaman": "25.11 15:22",
-"gun": "25.11",
-"uzunluk": 711
-},
-{
 "jargon": {
 "fiyatlama": 1
 },
@@ -1184,5 +1170,22 @@
 "zaman": "28.11 18:34",
 "gun": "28.11",
 "uzunluk": 405
+},
+{
+"jargon": {},
+"tarih": [],
+"terim": [],
+"acilis": "normal",
+"kapanis": "200 günlük ortalamanın üstünde",
+"rekor": 0,
+"k89": [],
+"k89_son": "",
+"k89_hazir": [],
+"imza": "3p-satir-k-rakam",
+"kalip": "N",
+"tur": "VERI",
+"zaman": "28.11 19:32",
+"gun": "28.11",
+"uzunluk": 357
 }
 ]
