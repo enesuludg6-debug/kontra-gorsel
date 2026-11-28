@@ -304,3 +304,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 28.11 | 10:57 | HAFTALIK-OZET | Haftalık özet: 1,5 yılın en iyi haftası, Nvidia ~%20, genişlik (biçim: kartlı, kart4 siralama) | k4_siralama | 6b0a8949fe7140cdac9d63c2 |
 | 28.11 | 11:35 | KORKU | Korku endeksi 24,9, aşırı korku, 25 eşiği (biçim: kartlı, kart4 olcer) | k4_olcer | 6b0a89f4fe7140cdac9d93e7 |
 | 28.11 | 12:12 | SONUC | TEST-NDX-AYI tuttu: 24.980 savunuldu, kapanış 26.726 (biçim: kartsız) | kartsiz | 6b0a8caefe7140cdac9f0d29 |
+| 28.11 | 12:50 | TEKNIK | TA-STİL TSLA haftalık: düşen trend 409, kırılım henüz yok, eşik 345 (biçim: stil çizim) | stil_cizim | 6b0a9386ced9496800aa44f9 |
