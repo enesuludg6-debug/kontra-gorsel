@@ -30,3 +30,4 @@ Kaynak: Enes'in kendi attığı tweetler (Buffer via=network) + portföyü + soh
 
 ## !!! KURAL 54-B (Enes 20.11 11:08: "Ben panik yapmıyorum ifadesi çok yapay zeka gibi"): "panik yapmıyorum / panik yok / sakin kalıyorum / soğukkanlı / büyük resim / gürültüye kulak asmıyorum / duygusal davranmıyorum / uzun vadeli düşünüyorum" gibi KENDİ RUH HALİNİ ANLATAN klişe cümleler YASAK (yasak.py'ye eklendi). Görüş duygu durumu değil, somut bir şeyle söylenir: ne yapacağım ya da neye bakacağım + somut gerekçe/rakam (ör. "Bu fiyatlardan satacak bir şey görmüyorum, Keysight'ın siparişleri hâlâ büyüyor").
 
+- 27.11: $TSLA paylaştı (2x swing açtığını Claude'a söyledi, teknik plan 367 stop / 414-433-455); portföy YTD %58,1 (kendi güncellemesi). 26.11: elektrik darboğazı görüşü (kapasitenin önemli kısmı 2028'e kadar elektrik bekliyor).
