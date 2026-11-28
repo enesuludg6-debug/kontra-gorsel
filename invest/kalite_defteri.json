@@ -4,20 +4,6 @@
 "tarih": [],
 "terim": [],
 "acilis": "iddia",
-"kapanis": "perşembe borsa kapalı bence",
-"rekor": 0,
-"imza": "4p-satir-o-rakam",
-"kalip": "",
-"tur": "GUNUN-OLAYLARI",
-"zaman": "25.11 11:12",
-"gun": "25.11",
-"uzunluk": 516
-},
-{
-"jargon": {},
-"tarih": [],
-"terim": [],
-"acilis": "iddia",
 "kapanis": "şirket arz ile talep",
 "rekor": 0,
 "imza": "3p-satir-o-cerceve",
@@ -1148,5 +1134,24 @@
 "zaman": "28.11 15:12",
 "gun": "28.11",
 "uzunluk": 328
+},
+{
+"jargon": {},
+"tarih": [],
+"terim": [],
+"acilis": "iddia",
+"kapanis": "aaoi ve iren 52",
+"rekor": 0,
+"k89": [
+"fark"
+],
+"k89_son": "fark",
+"k89_hazir": [],
+"imza": "2p-duz-k-cerceve",
+"kalip": "L",
+"tur": "K111-LISTE",
+"zaman": "28.11 15:35",
+"gun": "28.11",
+"uzunluk": 306
 }
 ]
