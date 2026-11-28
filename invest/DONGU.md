@@ -781,3 +781,4 @@ Durdurmak için en alta `DURDUR` yazılı bir satır ekle (Enes ya da Claude, En
 - 12:17 genişlik tweeti düzeltildi: 'kalabalık henüz inanmadı' -> 'çoğu yatırımcı hâlâ korkuyor' (Buffer edit); yasak.py 54-H'ye eklendi.
 - 12:21 KURAL 112: günlük 20-40 (hafta sonu dahil), aralık 20 dk, konu eşiği 60. Bugün 5 tweet var, 15+ daha gerek; tur aralığı 20-30 dk.
 - 12:25 HESAP DEVRİ HAZIRLIĞI D -> E: HESAP_DEVRI.md başına 28.11 bölümü yazıldı. Kilit hâlâ D; E devralınca D görevleri kapanır.
+- 13:22 (28.11) AUTO (TEMEL-FIKIR): yok (kartsiz) - TUR-2811-1321 (D) 6. tweet kalip H, psiko: K3 (merak) + K7, K107: Shay Boloor 27.11 HBM tweeti (fikir). Rakam: 2027 HBM >200 mlr $ ve ASP +%122 -> nai500 (Ekim 2026) + Shay/GS aktarımı; GS'nin önceki notu 116 mlr $ (Benzinga) çelişti -> GS adı verilmedi. biçim: kartsız Buffer 6b0aab62d2df6f06d3a2f889. Son 3 duzen: stil_cizim, k4_cizgi, kartsiz.
