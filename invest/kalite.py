@@ -102,7 +102,7 @@ def kalip_kontrol(k, l, t):
         bag = len(re.findall(r'\b(bu yüzden|bu da|böylece|dolayısıyla|bu nedenle|o yüzden|bunun sonucunda|sonra|ardından|bu durumda)\b|→', l))
         return bag >= 2 and len(cumle) >= 4, 'A zinciri: en az 3 adım ve en az 2 bağlaç (bu yüzden, bu da, böylece, dolayısıyla, ardından...) gerekli'
     if k == 'B':
-        return bool(re.search(r'\b(o zaman|o dönem|geçen sefer|önceki|o seferde)\b', l)) and bool(re.search(r'\b(bugün|şimdi|bu kez|bu sefer)\b', l)), 'B: geçmişteki durum (o zaman/önceki) ve bugünkü durum (bugün/şimdi/bu kez) açıkça karşılaştırılmalı'
+        return bool(re.search(r'\b(o zaman|o dönem|geçen sefer|önceki|o seferde|ağustos(ta)? sonunda|geçen (ay|çeyrek|yıl)|aylar önce)\b', l)) and bool(re.search(r'\b(bugün|şimdi|bu kez|bu sefer)\b', l)), 'B: geçmişteki durum (o zaman/önceki) ve bugünkü durum (bugün/şimdi/bu kez) açıkça karşılaştırılmalı'
     if k == 'C':
         return bool(re.search(r'\w+(?:ırsa|irse|ursa|ürse|arsa|erse|sa|se)\b', l)) and len(_sayilar(l)) >= 2, 'C eşik: en az bir koşul (-sa/-se) ve eşik rakamı gerekli'
     if k == 'D':
@@ -360,6 +360,9 @@ def main():
             hata.append('kural 113-E: fiyat dışı kurumsal metrik yok: rakamıyla çarpan (x kat), marj, konsensüs/beklenti, revizyon, rehber, EPS ya da opsiyon ima edilen hareket ekle.')
         if not (re.search(r'üstü|üstünde|aşarsa|geçerse', _l) and re.search(r'altı|altında|kırılırsa|kaybederse|bozar', _l)):
             hata.append('kural 113-E: iki yönlü senaryo yok: yukarı teyit seviyesi VE aşağı geçersizlik seviyesi birlikte yazılmalı.')
+        # KURAL 113-F (Enes 19:40 'terimler hem prof hem anlaşılır'): en ağır terim aynı cümlede sade Türkçeyle açılır
+        if re.search(r'f/k|ileri çarpan|konsensüs|revizyon|asimetri|ima edilen|pozisyonlanma|baz puan|rehber', _l) and not re.search(r'\byani\b|demek|\(|anlamına|diye bilinen|olarak bilinen', _l):
+            hata.append('kural 113-F: profesyonel terim var ama açıklaması yok: en ağır terimi aynı cümlede "yani ..." ile sade Türkçe aç (ör. ileri F/K, yani fiyatın gelecek yıl beklenen kâra oranı).')
         if n_pro < 4: hata.append(f'kural 113-B: kurumsal masa dili zayıf ({n_pro}/4 borsacı öğesi, 113-C). Konsensüs, çarpan, marj, pozisyonlanma, katalizör, kapanış teyidi, hacim, revizyon, eşik gibi en az 4 öğe kullan.')
         _ted = re.findall(r'\b(olabilir|sanırım|galiba|gibi görünüyor|belki|muhtemelen|düşünüyorum)\b', _l)
         if _ted: hata.append(f'kural 113-B: tereddüt dili {sorted(set(_ted))}: hükmü net kur.')
