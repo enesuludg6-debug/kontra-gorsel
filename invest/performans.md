@@ -322,3 +322,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 28.11 | 21:29 | TEKNIK | NE DEMİŞTİM NE OLDU teknik: NDX 24.980 ayı eşiği tuttu, 26.726 (biçim: kart4 kiyas) | k4_kiyas | 6b0b13191a50ad40505464b9 |
 | 28.11 | 20:49 | TEKNIK | NE DEMİŞTİK NE OLDU teknik NDX 24980 (117-B format) | N | 6b0b142a64285fb33724b27a |
 | 28.11 | 21:29 | EGITICI | EGITICI 13F bildirimi nedir (45 gün, 30 Eylül fotoğrafı) | E | 6b0b14775e276ead9fc0133f |
+| 28.11 | 21:39 | UZUN | UZUN MRVL bilanço öncesi: %42 düşüş vs rehber artışı, beklenti 3,15B/1,10 | D | 6b0b1fd1c2c05b6cf491a22f |
