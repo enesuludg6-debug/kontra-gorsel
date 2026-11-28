@@ -1182,31 +1182,32 @@
 "zaman": "28.11 20:27",
 "gun": "28.11",
 "uzunluk": 463,
-"metin": "Aschenbrenner'ın fonu $NVDA, $AMD ve $AVGO'dan uzak duruyor.\n\nQ3 mektubuna göre YZ sohbetten ajanlara geçtikçe darboğaz hesaplamadan belleğe kayıyor, fon da $SKHY, $SNDK ve $MU tarafında. Bellekte ben de aynı yerdeyim. $NVDA'da ayrılıyorum: hisse beklenen kârının 12,5 katından (ileri F/K) işlem görüyor, piyasa en kötü senaryoyu fiyatlıyor ama konsensüsün tahmin revizyonu yukarı.\n\n$NVDA'da 165 üstü kapanış gelirse alıcı olurum, 124,5 kırılırsa kenarda kalırım."
+"metin": "Aschenbrenner'ın fonu $NVDA, $AMD ve $AVGO'dan uzak duruyor.\n\nQ3 mektubuna göre YZ sohbetten ajanlara geçtikçe darboğaz hesaplamadan belleğe kayıyor, fon da $SKHY, $SNDK ve $MU tarafında. Bellekte ben de aynı yerdeyim. $NVDA'da ayrılıyorum: hisse beklenen kârının 12,5 katından (ileri F/K) işlem görüyor, piyasa en kötü senaryoyu fiyatlıyor ama konsensüsün tahmin revizyonu yukarı.\n\nKâr tahminleri aşağı dönerse görüşümü değiştiririm."
 },
 {
 "jargon": {
 "fiyatlama": 1,
-"iskonto": 1
+"iskonto": 2
 },
 "tarih": [],
-"terim": [],
-"acilis": "iddia",
-"kapanis": "bellek tezinde fonla aynı",
+"terim": [
+"sipariş defteri"
+],
+"acilis": "normal",
+"kapanis": "sipariş defteri gerilerse fikrim",
 "rekor": 0,
 "k89": [
-"fiyatlanan",
 "fark",
-"esik"
+"fiyatlanan"
 ],
-"k89_son": "esik",
+"k89_son": "",
 "k89_hazir": [],
-"imza": "3p-duz-o-cerceve",
+"imza": "3p-duz-k-ticker",
 "kalip": "L",
 "tur": "K111-HABER",
-"zaman": "28.11 20:34",
+"zaman": "28.11 20:40",
 "gun": "28.11",
-"uzunluk": 468,
-"metin": "Aschenbrenner'ın mektubunda en zayıf bulduğum yer $ASML kısmı.\n\nYapay zekânın $ASML'in teknolojik üstünlüğünü aşacağını savunup hisseyi kaçınılacaklar listesine koymuş. EUV makinesini (en ileri çipleri basan litografi cihazı) dünyada tek $ASML yapıyor; piyasa bu tekeli zirveden %34 iskontoyla fiyatlıyor.\n\nBellek tezinde fonla aynı yerdeyim, $ASML'de ben ayrılıyorum. 1.600'deki 200 günlük ortalamanın üstüne çıkarsa eklerim, 1.235'teki son destek kırılırsa beklerim."
+"uzunluk": 363,
+"metin": "$ASML'i kaçınılacaklar listesine koymak bence Leopold'un mektubundaki en sorunlu karar.\n\nEUV makinesini (en ileri çipleri basan litografi cihazı) dünyada tek $ASML yapıyor. Mektup yapay zekânın bu üstünlüğü aşacağını savunuyor; piyasa da tekeli zirveden %34 iskontoyla fiyatlıyor.\n\nSipariş defteri gerilerse fikrim değişir. Şimdilik bu iskontoyu haksız buluyorum."
 }
 ]

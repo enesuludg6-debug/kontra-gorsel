@@ -51,3 +51,14 @@ yasak.py (YZ114 ek liste) ve kalite.py (aynı gün tekrar) HATA verir.
 5. Sahte samimiyet: dürüst olmak gerekirse, açık konuşayım, açıkçası, itiraf etmeliyim, şunu söyleyeyim. 'yani' tweet başına en çok 1.
 6. Belirsiz zaman/miktar: son dönemde, kısa vadede, önümüzdeki süreçte, uzun zamandır, bir süredir, yakın zamanda. Yerine tarih/rakam ('3 haftadır', 'Aralık'ta').
 7. AYNI GÜN TEKRAR YASAĞI (kalite.py, kaydedilen metinlerle): aynı ilk 3 kelime, aynı kapanış fiili, aynı hüküm kelimesi (aşırı, gerçek, güçlü, zayıf, net, ciddi, karamsar, iyimser, temkinli, ucuz, pahalı, sağlam, abartılı, fazla) aynı gün ikinci tweette kullanılmaz. kalite.py kaydet artık metni de saklar.
+
+## KURAL 114-C — ART ARDA AYNI KALIP YASAĞI (Enes 28.11 20:39 'ikisi de aynı kalıpta, bu tarz şeyleri engelleyecek yetenekler koy')
+Örnek hata: 20:47 'Aschenbrenner'ın fonu ... Bellekte ben de aynı yerdeyim. $NVDA'da ayrılıyorum ... görüşümü değiştiririm.' ve 21:08 'Aschenbrenner'ın mektubunda ... fonla aynı yerdeyim, $ASML'de ayrılıyorum ... görüşümü değiştiririm.' -> aynı iskelet.
+kalite.py ZORUNLU, son 3 tweete karşı (kaydedilen metinlerle):
+- Yapı benzerliği: ticker ve rakamlar soyutlanınca kelime dizisi benzerliği ≥%45 ise HATA.
+- İlk kelime aynıysa HATA (ör. iki tweet de 'Aschenbrenner'ın' ile başlıyor).
+- Son 3 kelime (kapanış) aynıysa HATA.
+- Kalıp ifade son 3 tweette tekrar ederse HATA: 'görüşümü değiştir', 'fikrim değiş', 'aynı yerdeyim', 'ayrılıyorum', 'en zayıf', 'uzak duruyor'.
+- 114-B (aynı gün kapanış fiili, açılış, hüküm kelimesi) aynen.
+- Buffer'da düzenlenen tweetin metni kalite_defteri.json'da da güncellenir (yoksa sonraki kontrol eski metne bakar).
+- Aynı konuda (ör. aynı mektup) art arda iki tweet atılacaksa ikincisi farklı biçimle (113-F: makas, o zaman/şimdi, senaryo, akran, tersine hesap, takvim) ve farklı açılış özne/fiiliyle kurulur.

@@ -544,3 +544,14 @@ kalite.py ZORUNLU (HATA):
 - Teknik öğeler YALNIZ TA tweetinde (tur TEKNIK / TA-STİL): 200/50 günlük ortalama, hareketli ortalama, destek, direnç, kırılım/kırılırsa, trend çizgisi, haftalık kapanış, 'X üstü kapanış', RSI, MACD, Fibonacci, 'üstüne çıkarsa / altına inerse'. Diğer tweetlerde fiyat seviyesi senaryosu yerine TEMEL tetikleyici yazılır: 'kâr tahminleri aşağı dönerse görüşümü değiştiririm', 'EUV siparişleri gerilerse', 'rehber düşürülürse', 'brüt marj %X'in altında kalırsa'.
 - 113-C/113-E bu nedenle TA dışı tweetlerde temel tetikleyiciyle de sağlanır.
 - 28.11 uygulaması: 20:47 ($NVDA/Aschenbrenner) ve 21:08 ($ASML) zamanlanmış tweetleri yayından önce bu kurala göre düzeltildi.
+
+## KURAL 114-C — ART ARDA AYNI KALIP YASAĞI (Enes 28.11 20:39 'ikisi de aynı kalıpta, bu tarz şeyleri engelleyecek yetenekler koy')
+Örnek hata: 20:47 'Aschenbrenner'ın fonu ... Bellekte ben de aynı yerdeyim. $NVDA'da ayrılıyorum ... görüşümü değiştiririm.' ve 21:08 'Aschenbrenner'ın mektubunda ... fonla aynı yerdeyim, $ASML'de ayrılıyorum ... görüşümü değiştiririm.' -> aynı iskelet.
+kalite.py ZORUNLU, son 3 tweete karşı (kaydedilen metinlerle):
+- Yapı benzerliği: ticker ve rakamlar soyutlanınca kelime dizisi benzerliği ≥%45 ise HATA.
+- İlk kelime aynıysa HATA (ör. iki tweet de 'Aschenbrenner'ın' ile başlıyor).
+- Son 3 kelime (kapanış) aynıysa HATA.
+- Kalıp ifade son 3 tweette tekrar ederse HATA: 'görüşümü değiştir', 'fikrim değiş', 'aynı yerdeyim', 'ayrılıyorum', 'en zayıf', 'uzak duruyor'.
+- 114-B (aynı gün kapanış fiili, açılış, hüküm kelimesi) aynen.
+- Buffer'da düzenlenen tweetin metni kalite_defteri.json'da da güncellenir (yoksa sonraki kontrol eski metne bakar).
+- Aynı konuda (ör. aynı mektup) art arda iki tweet atılacaksa ikincisi farklı biçimle (113-F: makas, o zaman/şimdi, senaryo, akran, tersine hesap, takvim) ve farklı açılış özne/fiiliyle kurulur.

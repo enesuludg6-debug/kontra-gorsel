@@ -226,6 +226,21 @@ def main():
         if _ac(_o) and _ac(_o) == _ac(t): hata.append(f'kural 114-B: açılış "{_ac(t)}" bugün kullanıldı.'); break
     for _o in _bugun:
         if _kf(t) and len(_kf(t)) > 3 and _kf(_o) == _kf(t): hata.append(f'kural 114-B: kapanış fiili "{_kf(t)}" bugün kullanıldı; farklı fiil.'); break
+    # KURAL 114-C (Enes 28.11 20:39 'ikisi de aynı kalıpta'): son 3 tweetle yapı benzerliği
+    import difflib as _dl
+    def _iskelet(x):
+        x = re.sub(r'\$[A-Za-z]+', 'T', x.lower()); x = re.sub(r'[\d.,%]+', '9', x)
+        return re.sub(r'[^\wçğıöşü ]', ' ', x).split()
+    _son3 = [x['metin'] for x in d[-3:] if x.get('metin')]
+    for _o in _son3:
+        _r = _dl.SequenceMatcher(None, _iskelet(_o), _iskelet(t)).ratio()
+        if _r >= 0.45: hata.append(f'kural 114-C: son tweetlerden biriyle yapı benzerliği %{int(_r*100)}; açılış, cümle dizilişi ve kapanışı değiştir.'); break
+        _ilk = lambda x: (re.sub(r'[^\wçğıöşü$ ]', ' ', x.lower()).split() or [''])[0]
+        if _ilk(_o) == _ilk(t): hata.append(f'kural 114-C: ilk kelime "{_ilk(t)}" son tweetlerden biriyle aynı.'); break
+        _son = lambda x: ' '.join(re.sub(r'[^\wçğıöşü ]', ' ', x.lower().strip().split('\n')[-1]).split()[-3:])
+        if _son(_o) and _son(_o) == _son(t): hata.append(f'kural 114-C: kapanış "{_son(t)}" son tweetlerden biriyle aynı.'); break
+    _ortak_kal = [k for k in ['görüşümü değiştir', 'fikrim değiş', 'aynı yerdeyim', 'ayrılıyorum', 'en zayıf', 'uzak duruyor'] if k in l and any(k in _o.lower() for _o in _son3)]
+    if _ortak_kal: hata.append(f'kural 114-C: kalıp ifade {_ortak_kal} son 3 tweette de geçti.')
     _tekrar = sorted(_hk.intersection(*[set()]) if False else {w for w in _hk if any(re.search(r'\b' + w + r'\b', _o.lower()) for _o in _bugun)})
     if _tekrar: hata.append(f'kural 114-B: hüküm kelimesi {_tekrar} bugün başka tweette geçti; rakamla ya da başka kelimeyle söyle.')
     # 1) Uzunluk (bölüm 8-9: uzunluğu konu belirler, derinlik != kelime sayısı)

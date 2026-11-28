@@ -76,3 +76,4 @@ Eski 106 satırlık dizin hiçbir şey silinmeden `KURAL_DIZINI_ARSIV_2711.md`'d
 - 111-T (28.11 20:29) K111 takipçi doğrulaması zorunlu: takipci.py (defter + oran), profil için tek WebSearch '<handle> followers'; ORAN<5x aday elenir; konu 'K111 ORAN:<n>x', gun_ozet yalnız ≥5x sayar.
 - 111-M İPTAL (28.11 20:33): yalnız ORAN ≥5x; bulma: günün sıcak konusuna tepki veren küçük hesaplar (EhrmantrautCap_ 39x örneği).
 - 116 (28.11 20:36) İşlem fiili yok (eklerim, çıkarırım, alıcı olurum, kenara çekilirim...); teknik öğeler (ortalama, destek, direnç, kırılım, kapanış seviyesi, RSI...) yalnız TA tweetinde; diğerlerinde temel tetikleyici ('kâr tahminleri aşağı dönerse görüşümü değiştiririm'). kalite.py zorunlu.
+- 114-C (28.11 20:39) art arda aynı kalıp yasağı: son 3 tweetle yapı benzerliği ≥%45, aynı ilk kelime, aynı kapanış, tekrar eden kalıp ifade (görüşümü değiştir, aynı yerdeyim, ayrılıyorum...) HATA; Buffer'da düzenlenen metin kalite defterinde de güncellenir.
