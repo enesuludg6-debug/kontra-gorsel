@@ -460,3 +460,10 @@ Yazım düzeyi: hedge fon portföy yöneticisinin sabah notu. Ne oldu (rakam) �
 - Jargon sınırı 5 (terim yığını değil, her biri rakama bağlı).
 Yapı (her tweet): 1) olgu + rakam + kıyas, 2) piyasanın fiyatladığı / konsensüs, 3) benim ayrıştığım nokta (tez), 4) asimetri + teyit seviyesi + tezi bozan seviye.
 Örnek (biçim örneği; rakamlar her seferinde 2 kaynakla doğrulanır): "$SMH haftayı %10 primle kapattı ama 200 günlük ortalamanın %16 altında. Piyasa çip kârlarında aşağı revizyon fiyatlıyor, konsensüs ise $NVDA'da tahmini indirmedi. Benim ayrıştığım yer bu: değerleme daralması tamamen fiyattan geldi. Hacim teyitli yükseliş, risk/ödül asimetrik. 200 günlük ortalama üstü kapanış teyit, haftanın dibi altı tezi bozar."
+
+## KURAL 113-E — KURUMSAL VERİ DERİNLİĞİ + İKİ YÖNLÜ SENARYO (Enes 28.11 19:35 'daha da prof')
+113-D'nin üstüne kalite.py ZORUNLU (HATA):
+- FİYAT DIŞI KURUMSAL METRİK: rakamıyla en az biri: çarpan (12,5 kat), marj, konsensüs/beklenti rakamı, revizyon yüzdesi, rehber, EPS/hisse başı kâr, opsiyon ima edilen hareket. Yalnız fiyat yüzdesi yetmez.
+- İKİ YÖNLÜ SENARYO: yukarı teyit seviyesi (X üstü kapanış) VE aşağı geçersizlik seviyesi (Y altı tezi bozar) birlikte.
+- Veri kaynakları öncelik sırası: şirket belgesi (8-K, sunum, görüşme), konsensüs (FactSet/LSEG haberleri), kendi hesabımız (Yahoo), sonra haber. DONGU satırında her metriğin kaynağı.
+Örnek (biçim): "$NVDA 12,5 kat ileri F/K ile S&P 500'ün 18,3 katına %32 iskontolu, 2012'den beri en düşük seviye. Piyasa YZ yatırım harcamasında 2027 yavaşlamasını fiyatlıyor, konsensüs ise kâr tahminini indirmedi. Benim ayrıştığım yer bu: daralma tamamen fiyattan geldi, kazanç tarafında revizyon yok. 160 üstü haftalık kapanış teyit, 145 altı tezi bozar; bu aralıkta risk/ödül alım tarafında."

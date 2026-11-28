@@ -355,6 +355,11 @@ def main():
         if _amator: hata.append(f'kural 113-D: amatör ifade {sorted(set(_amator))}: kurumsal karşılığını yaz (ör. fırsat -> asimetrik risk/ödül, uçtu -> %X prim, alım gerçek -> hacim teyitli).')
         if not re.search(r'piyasa|fiyatl|konsensüs|beklenti|herkes|ortak görüş|pozisyonlanma', _l) or not re.search(r'\bben\b|benim|bence', _l):
             hata.append('kural 113-D: farklı görüş (variant perception) yok: piyasanın/konsensüsün ne düşündüğünü ve benim nerede ayrıştığımı birlikte yaz.')
+        # KURAL 113-E (Enes 19:35 'daha da prof'): kurumsal veri derinliği (fiyat dışı, rakamlı metrik) + senaryo
+        if not re.search(r'\d[\d,\.]*\s*(kat\b|katı|x\b|baz puan)|(marj|f/k|konsensüs|revizyon|nakit akış|rehber|beklenti|ima edilen|eps|hisse başı)[^.\n]{0,50}\d', _l):
+            hata.append('kural 113-E: fiyat dışı kurumsal metrik yok: rakamıyla çarpan (x kat), marj, konsensüs/beklenti, revizyon, rehber, EPS ya da opsiyon ima edilen hareket ekle.')
+        if not (re.search(r'üstü|üstünde|aşarsa|geçerse', _l) and re.search(r'altı|altında|kırılırsa|kaybederse|bozar', _l)):
+            hata.append('kural 113-E: iki yönlü senaryo yok: yukarı teyit seviyesi VE aşağı geçersizlik seviyesi birlikte yazılmalı.')
         if n_pro < 4: hata.append(f'kural 113-B: kurumsal masa dili zayıf ({n_pro}/4 borsacı öğesi, 113-C). Konsensüs, çarpan, marj, pozisyonlanma, katalizör, kapanış teyidi, hacim, revizyon, eşik gibi en az 4 öğe kullan.')
         _ted = re.findall(r'\b(olabilir|sanırım|galiba|gibi görünüyor|belki|muhtemelen|düşünüyorum)\b', _l)
         if _ted: hata.append(f'kural 113-B: tereddüt dili {sorted(set(_ted))}: hükmü net kur.')
