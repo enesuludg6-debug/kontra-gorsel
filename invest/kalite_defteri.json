@@ -1,27 +1,5 @@
 [
 {
-"jargon": {
-"prim": 1
-},
-"tarih": [],
-"terim": [],
-"acilis": "iddia",
-"kapanis": "bence bu iki hissede",
-"rekor": 0,
-"imza": "3p-duz-k-cerceve",
-"kalip": "C",
-"tur": "PORTFOY",
-"zaman": "25.11 18:22",
-"gun": "25.11",
-"uzunluk": 446,
-"k89": [
-"fark",
-"esik"
-],
-"k89_son": "esik",
-"k89_hazir": []
-},
-{
 "jargon": {},
 "tarih": [],
 "terim": [],
@@ -1209,5 +1187,26 @@
 "gun": "28.11",
 "uzunluk": 363,
 "metin": "$ASML'i kaçınılacaklar listesine koymak bence Leopold'un mektubundaki en sorunlu karar.\n\nEUV makinesini (en ileri çipleri basan litografi cihazı) dünyada tek $ASML yapıyor. Mektup yapay zekânın bu üstünlüğü aşacağını savunuyor; piyasa da tekeli zirveden %34 iskontoyla fiyatlıyor.\n\nSipariş defteri gerilerse fikrim değişir. Şimdilik bu iskontoyu haksız buluyorum."
+},
+{
+"jargon": {},
+"tarih": [],
+"terim": [],
+"acilis": "iddia",
+"kapanis": "ne demiştim ne oldu",
+"rekor": 0,
+"k89": [
+"esik",
+"katalizor"
+],
+"k89_son": "",
+"k89_hazir": [],
+"imza": "3p-duz-k-rakam",
+"kalip": "B",
+"tur": "TEKNIK",
+"zaman": "28.11 20:45",
+"gun": "28.11",
+"uzunluk": 342,
+"metin": "Geçen hafta Nasdaq 100 için yazdığım eşik tuttu.\n\n25 Kasım'da endeks gün içinde 24.971'e, 24.980'deki ayı piyasası eşiğinin 9 puan altına indi ve oradan döndü. O akşam eşik kapanış bazında kırılmadıkça ayı piyasası başlamaz demiştim. Kırılmadı, cuma günü 26.726'dan kapattı; eşiğin %7 üstünde.\n\nNe demiştim, ne oldu serisinin teknik ayağı bu."
 }
 ]

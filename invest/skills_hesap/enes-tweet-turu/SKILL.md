@@ -553,3 +553,10 @@ kalite.py ZORUNLU, son 3 tweete karşı (kaydedilen metinlerle):
 - 114-B (aynı gün kapanış fiili, açılış, hüküm kelimesi) aynen.
 - Buffer'da düzenlenen tweetin metni kalite_defteri.json'da da güncellenir (yoksa sonraki kontrol eski metne bakar).
 - Aynı konuda (ör. aynı mektup) art arda iki tweet atılacaksa ikincisi farklı biçimle (113-F: makas, o zaman/şimdi, senaryo, akran, tersine hesap, takvim) ve farklı açılış özne/fiiliyle kurulur.
+
+## KURAL 117 — "NE DEMİŞTİM, NE OLDU" SERİSİ (Enes 28.11 20:44; eski 'Bu hafta tutan yorumlarım' listesi İPTAL)
+- Haftada 2: 1 TEKNİK (Cumartesi 20:25 sabit görevi), 1 TEMEL (aynı görev, 25 dk sonra). Görev dosyası: invest/gorevler/karne.md.
+- Yalnız TUTAN ve BİLMESİ EN ZOR tek yorum (piyasa tersini bekliyordu / eşiğe %1'den yakın / kısa sürede tuttu). Tutmayan hiç yazılmaz.
+- Anlaşılır biçim: ilk satır neyin tuttuğunu net söyler; sonra 'ne zaman ne demiştim' + 'ne oldu (rakam, tarih)'; son satır 'Ne demiştim, ne oldu serisinin teknik/temel ayağı bu.' Liste, '•', birden çok yorum yok. Kart kart4 kiyas (NE DEMİŞTİM / NE OLDU).
+- Örnek (teknik, 28.11): 'Geçen hafta Nasdaq 100 için yazdığım eşik tuttu. 25 Kasım'da endeks gün içinde 24.971'e, 24.980'deki ayı piyasası eşiğinin 9 puan altına indi ve oradan döndü. O akşam eşik kapanış bazında kırılmadıkça ayı piyasası başlamaz demiştim. Kırılmadı, cuma günü 26.726'dan kapattı; eşiğin %7 üstünde. Ne demiştim, ne oldu serisinin teknik ayağı bu.'
+- Seriyi beslemek için her gün en az 1 ölçülebilir TEMEL yorum (bilanço/rehber/marj/konsensüs, tarih + eşik) `yorumlar.py ekle` ile deftere yazılır.
