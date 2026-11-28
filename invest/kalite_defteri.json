@@ -4,26 +4,6 @@
 "tarih": [],
 "terim": [],
 "acilis": "iddia",
-"kapanis": "bence dönüş satışın bittiğini",
-"rekor": 0,
-"k89": [
-"esik",
-"fark"
-],
-"k89_son": "",
-"k89_hazir": [],
-"imza": "3p-duz-o-rakam",
-"kalip": "N",
-"tur": "BAGLAM-GORUS",
-"zaman": "25.11 20:58",
-"gun": "25.11",
-"uzunluk": 524
-},
-{
-"jargon": {},
-"tarih": [],
-"terim": [],
-"acilis": "iddia",
 "kapanis": "vadeli işlemler aralık artırımını",
 "rekor": 0,
 "k89": [
@@ -1225,5 +1205,28 @@
 "gun": "28.11",
 "uzunluk": 1885,
 "metin": "$MRVL salı akşamı bilanço açıklıyor ve bence haftanın en önemli yapay zekâ bilançosu bu.\n\nHisse 27 Ağustos'taki son bilançodan bu yana 241 dolardan 141 dolara indi, %42 düşüş. Oysa o akşam şirket mali 2027 gelir hedefini 11,5 milyar dolardan 12 milyar dolara, mali 2028 hedefini de 16,5 milyar dolardan 18 milyar dolara çekmişti. Rehberini yükselten bir şirketin değerinin yarıya yakın erimesi bana fiyatla temel arasında açılmış bir makas gibi geliyor.\n\nBu çeyrek için şirketin kendi rehberi 3,15 milyar dolar gelir ve hisse başı 1,10 dolar düzeltilmiş kâr. Wall Street beklentisi de neredeyse aynı yerde, gelirde 3,15-3,16 milyar dolar ve kârda 1,10 dolar. Geçen yılın aynı çeyreğine göre bu gelirde %52, kârda %45 büyüme demek. Brüt marj rehberi %57,5-58,5 aralığında.\n\n$MRVL'in işi iki ayaklı. Birinci ayak bağlantı, yani veri merkezinde binlerce çipi birbirine bağlayan optik ve elektriksel parçalar. İkinci ayak özel çip (ASIC), bir bulut devi için sadece onun yazılımına göre tasarlanan yapay zekâ işlemcisi. $NVDA'nın genel amaçlı çipine alternatif arayan her bulut şirketi bu ikinci kapıdan geçiyor.\n\nPiyasanın korktuğu yer de burası. Susquehanna bu hafta hedef fiyatını düşürdü ve gerekçe olarak özel çip büyümesinin zamanlamasını gösterdi. Analistler kâr tahminini kesmeden çarpanı kesiyor. Bu ayrım önemli, çünkü tahmin aşağı dönmediği sürece düşen tek şey hissenin kârının kaç katından işlem gördüğü.\n\nSalı akşamı üç şeye bakacağım. İlki 4. çeyrek rehberi; analistler 3,7 milyar dolar civarı bekliyor. İkincisi veri merkezi büyümesinin hızlanıp hızlanmadığı. Üçüncüsü yönetimin mali 2028 için koyduğu 18 milyar dolarlık hedefi koruyup korumadığı.\n\nBilançoyu beğenip beğenmediğimi açıklanır açıklanmaz yazacağım. Mali 2028 rehberi düşürülürse fikrim değişebilir ama elimizdeki rehberde böyle bir zayıflık gözükmüyor, o yüzden bu düşüşün temelde bir karşılığını göremiyorum."
+},
+{
+"jargon": {
+"prim": 1
+},
+"tarih": [],
+"terim": [],
+"acilis": "normal",
+"kapanis": "düşüş gelmedi spy cuma",
+"rekor": 0,
+"k89": [
+"katalizor",
+"esik"
+],
+"k89_son": "",
+"k89_hazir": [],
+"imza": "3p-duz-o-rakam",
+"kalip": "G",
+"tur": "AKIS",
+"zaman": "28.11 21:48",
+"gun": "28.11",
+"uzunluk": 628,
+"metin": "$SPY'da 24 Kasım sabahı düşüşe yaklaşık 470 bin dolarlık bahis açıldı.\n\nKontrat 27 Kasım vadeli 694 put, yani endeks fonu 694 doların altına inerse para kazandıran bir sigorta. Alıcı 2.180 kontratı satıcının istediği fiyattan (ask), ortalama 2,15 dolardan topladı. Bu fiyat, piyasanın 3 günde %3'lük bir düşüşe hâlâ ciddi ihtimal verdiğini gösteriyordu.\n\nDüşüş gelmedi. $SPY cuma günü 728 dolardan kapattı ve put vadeyi 0,01 dolardan bitirdi. Bu boyutta prim çoğu zaman bir portföyün sigortası oluyor. O yüzden tek bir akıştan yön çıkarmayı doğru bulmuyorum, ama hangi tarafa ne kadar para aktığını her gün buradan paylaşacağım."
 }
 ]
