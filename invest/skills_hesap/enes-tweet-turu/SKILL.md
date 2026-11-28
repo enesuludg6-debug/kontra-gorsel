@@ -391,3 +391,5 @@ Not: Enes'in 28.11'de örnek attığı TSLA haftalık (düşen trend + 40H HO + 
 - Bizim analizin işi yalnız BEĞENME süzgeci: çizim net mi, veri doğru mu (mum, kapanış, kırılım gerçekten oldu mu), kitleye uygun mu. Beğenmezsek o tweeti seçmeyiz, sıradakine geçeriz.
 - Çizim: onların çizgisini aynı iki noktadan (--noktalar) çizeriz, gövde ihlali olsa bile; veri (mumlar, kapanış) yine birebir doğru olmalı.
 - Tweet onların fikrini Enes sesiyle anlatır; seviyeler kendi verimizden hesaplanmış hâliyle yazılır.
+
+54-H EK (Enes 28.11 11:46 'Bu yüzden ben bu kırılımı ciddiye alıyorum' -> 'çok yapay zeka yazmış'): 'X'i ciddiye alıyorum / ciddiye alırım / ciddiye almak gerek' ve 'Bu yüzden ben ...' kanaat kalıbı YASAK (yasak.py yakalar). Kanaat düz söylenir: '390 altına dönmedikçe kırılım geçerli', 'yön yukarı'.

@@ -63,3 +63,5 @@ Okur tweeti bitirince şunu düşünmeli: "Bu adam haberi değil, haberin fiyata
 
 
 ## KURAL 102 (Enes 27.11 23:34: "artık her tweet benim sesimle yazılacak"): İSTİSNASIZ HER TWEET (tur, sabit veri görevi, bilanço, sonuç takibi, alıntı, eğitici, tarihsel) Enes'in sesiyle yazılır. Yazmadan önce `python3 invest/ses_ornek.py`; yayından önce yayin_kontrol.sh içindeki `ses_kontrol.py` (28 kelimeyi aşan cümle, ortalama 18 kelime üstü, rapor dili = DUR). Ses: kısa, konuşur gibi, birinci tekil, süssüz hüküm, kendi davranışını anlatır ("ben ... bekliyorum"). Kural 60/89 (profesyonel, fon yöneticisi) İÇERİK derinliği içindir; KELİME seçiminde Enes sesi önce gelir, çelişirse Enes sesi kazanır.
+
+54-H EK (Enes 28.11 11:46 'Bu yüzden ben bu kırılımı ciddiye alıyorum' -> 'çok yapay zeka yazmış'): 'X'i ciddiye alıyorum / ciddiye alırım / ciddiye almak gerek' ve 'Bu yüzden ben ...' kanaat kalıbı YASAK (yasak.py yakalar). Kanaat düz söylenir: '390 altına dönmedikçe kırılım geçerli', 'yön yukarı'.
