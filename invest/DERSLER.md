@@ -94,3 +94,4 @@ O-012 (24.11 20:30) Tekrar kontrolü yalnız DONGU'ya değil performans_veri.csv
 - 28.11 perfogren (7 gün, 133 olgun): Enes elle med 498 vs sistem 394 (fark sürüyor, kural 98/102 ses değişikliğinin etkisi 04.12'de ölçülecek). En iyi saat 09-12 (446) ve 15-21 (432), en zayıf 21-24 (387). Tür: haber 442 (n=41), görüş 430, eğitici 432, sondakika 588 (n=2), tarihsel 555 (n=1) -> az veri, DENE: tarihsel/sondakika fırsat çıkınca öncelikli.
 
 - 28.11 TA-STİL: Yahoo haftalık seride son gün ayrı mum olarak geliyor (mum kayması). Haftalık çizimde ISO hafta tekilleştir; trend çizgisini gerçek fitil uçlarından çiz, gövde ihlali 0 olsun.
+- 28.11 akran kıyası: 3,1K takipçili @Umitkirmizialan ortanca ~%95 görüntülenme/takipçi, biz %17-25. Fark: kışkırtıcı uyarı/tartışma tweetleri ve İngilizce büyük hesapları Türkçe alıntılama. Sistem tweetlerinde tartışma görüşü payı artmalı (gun_ozet 'tartışma görüşü' 2/gün hedefi doldurulsun).

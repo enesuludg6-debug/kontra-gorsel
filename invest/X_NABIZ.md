@@ -40,3 +40,9 @@ Kurallar (106'nın üstüne):
 
 ## KURAL 108 özeti
 Günde 1: aynı gün TA tweetleri → kendi analizimiz → beğenilenin tarzında kendi çizimimiz (stil_cizim.py) → görselli tweet. Ayrıntı skills enes-tweet-turu KURAL 108.
+
+## AKRAN KIYASI (Enes 28.11 12:04-12:11)
+Bizim: ~2.070 takipçi; son 2 hafta görüntülenme ortancası sistem 345 (%17), Enes 522 (%25), en iyi 4.008 (~2x).
+@Umitkirmizialan (3.137 takipçi, Eylül 2025'te açıldı, ~5.962 gönderi): 27.11 ekran kaydından 6 tweet: 2,9B / 2,7B / 27B / 1,5B / 3,1B / 3,1B görüntülenme -> ortanca ~3B (takipçinin ~%95'i), viral 27B (8,6x). En iyi: 'kaldıraçlı 3x yarı iletken ETF'i DCA yapmak yanlış' uyarısı (95 beğeni, 19 yanıt, 29 yer imi). Tarz: kışkırtıcı/eleştirel görüş, ücretli 'guru'lara iğne, büyük İngilizce hesapları Türkçe yorumla alıntılama, ekran görüntüsü fiyat kartı, emoji/mizah, açık portföy ağırlıkları, akşam 18-22 TSİ.
+Ders: kitleye doğrudan dokunan uyarı/tartışma tweeti + alıntı tweet en çok yayılan; sistem tweetlerinde bu tür az.
+Üçüncü taraf ayna (xcancel vb.) okuma: Enes 28.11 12:11 'hesabıma etkisi kötü olmayacaksa izin vereyim' -> yalnız herkese açık profil okuma, giriş/çerez yok, Enes hesabına dokunmaz.
