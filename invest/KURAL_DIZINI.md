@@ -58,3 +58,4 @@ Eski 106 satırlık dizin hiçbir şey silinmeden `KURAL_DIZINI_ARSIV_2711.md`'d
 - 108-K (28.11 11:43) TA-STİL'de onların tezi/çizgisi kabul; bizim analiz yalnız beğenme süzgeci (çizim net mi, veri doğru mu), farklı görüş tweete yazılmaz.
 - 54-H ek (28.11): 'ciddiye alıyorum' / 'Bu yüzden ben ...' kanaat kalıbı yasak.
 - 109 (28.11) Tweetlerde şirket adı yerine $TICKER ($TSLA, $NVDA'nın); yasak.py SIRKET_TICKER yakalar. Taslak ve kart başlığı dahil.
+- 110 (28.11) Günlük alt sınır: TA-STİL ≥2 (hafta içi ≥19:00 ve ≥23:00, hafta sonu ≥11:00 ve ≥19:00), TEMEL-FİKİR (K107 hesapları) ≥1; üst sınır yok, günlük toplam içinde öncelikli; gun_ozet sayar.

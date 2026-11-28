@@ -400,3 +400,10 @@ Not: Enes'in 28.11'de örnek attığı TSLA haftalık (düşen trend + 40H HO + 
 - İlk satır dahil her yerde. Endeks, emtia, kripto ve kurum (Fed, Goldman gibi halka açık olmayan bağlam) bu kuralın dışında; halka açık banka şirket olarak geçerse $GS, $JPM.
 - yasak.py SIRKET_TICKER sözlüğü adı yakalar ve atmayı durdurur; yeni şirket geçince sözlüğe eklenir.
 - Enes taslakları (ENES-TASLAK) ve kart başlıkları da aynı kurala uyar; kartta logo yanında $TICKER.
+
+## KURAL 110 — GÜNLÜK ALT SINIR: TEKNİK ≥2, TEMEL ≥1 (Enes 28.11 12:00 'temelde en az 1, teknikte en az iki olsun, üst sınır yok')
+- TA-STİL (kural 108): her gün EN AZ 2 tweet, üst sınır yok. Hafta içi 1. ≥19:00 TSİ (ABD seansı açıldıktan sonra dizinlenen grafikler), 2. ≥23:00; hafta sonu 1. ≥11:00, 2. ≥19:00. İkisi farklı hisse ve farklı hesaptan olur.
+- TEMEL-FİKİR (kural 107: Shay Boloor, Serenity, Venu, Akdağ): her gün EN AZ 1 tweet, üst sınır yok. Fikir onların, tweet bizim verimiz + Enes sesi; isim anılmaz; rakam 2 kaynak. kayit.py --konu içine 'K107' yazılır (gun_ozet sayar).
+- 22:00 TSİ'de gun_ozet 'KURAL 110 ... EKSİK' diyorsa sonraki turlar önce eksik olanı atar.
+- Günlük toplam (hafta içi 15-20, hafta sonu 8) ve 35 dk aralık geçerli; 110 alt sınırları bu toplamın içinde öncelikli yer alır.
+- Aynı gün tweet bulunamazsa (dizin gecikmesi) arama 2 kez daha denenir (farklı sorgu: hisse adı + 'chart', 'breakout', 'weekly'); yine yoksa DONGU'ya gerekçe yazılır, alt sınır o gün düşer.
