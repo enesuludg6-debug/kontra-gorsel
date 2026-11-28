@@ -53,11 +53,11 @@
   "id": 5,
   "t": "TSLA",
   "yon": "yukari",
-  "giris": 409.0,
-  "stop": 345.0,
-  "hedef": 453.0,
+  "giris": 400,
+  "stop": 390,
+  "hedef": 453,
   "gun": 20,
-  "gerekce": "TA-STIL 28.11: haftalık düşen trend 498,83->414,23 şimdi 408,6; kırılım haftalık kapanışla, eşik 345 (20.11 dip), hedef Mayıs tepesi 453",
+  "gerekce": "TA-STIL 28.11 (referans çizgi kabul): Aralık 498,83 -> Mayıs 453,40 düşen trend 389,8; haftalık 400 üstünde kapanış + CCI kırılımı; eşik 390, hedef Mayıs tepesi 453",
   "tarih": "2026-11-28",
   "sonuc": ""
  }
