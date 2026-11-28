@@ -48,3 +48,12 @@ Ders: kitleye doğrudan dokunan uyarı/tartışma tweeti + alıntı tweet en ço
 Üçüncü taraf ayna (xcancel vb.) okuma: Enes 28.11 12:11 'hesabıma etkisi kötü olmayacaksa izin vereyim' -> yalnız herkese açık profil okuma, giriş/çerez yok, Enes hesabına dokunmaz.
 
 Not 28.11 12:18: xcancel.com WebFetch 'client_error' (bot koruması) -> ayna yolu şimdilik çalışmıyor; kural 111 arama motoru + Enes ekran kayıtlarıyla yürür.
+
+## KURAL 111-T — TAKİPÇİ SAYISI ZORUNLU DOĞRULAMA (Enes 28.11 20:29 'takipçi sayısını neden bulamadın, önüne geçecek düzenleme yap')
+Sebep (28.11): adaylar yalnız görüntülenmeye bakılarak seçildi; takipçi aranmadı. Sonradan bakıldı: LeopoldTracker_ 411,5B görüntülenme / 715,8B takipçi = 0,57x; MMMTwealth 40,2B / 64,7B = 0,62x; Kobeissi 422B / 1M+ -> üçü de PATLAMA DEĞİL. Bugünkü 3 'K111' tweeti sayılmadı.
+Yöntem (x.com'a giriş YOK):
+1. Aday tweet bulunur (WebSearch allowed_domains x.com/twitter.com; snippet'te görüntülenme yazar).
+2. Takipçi: önce `python3 invest/takipci.py bak <handle>` (defter, 30 gün geçerli). Yoksa TEK WebSearch: '<handle> followers' (allowed_domains x.com/twitter.com, mode standard). Profil sonucu 'NNN.NK Followers' ya da JSON 'Follows' sayısını verir -> `takipci.py ekle <handle> <sayı>`. socialblade/xcancel aynaları reddediyor, deneme.
+3. `python3 invest/takipci.py oran <handle> <görüntülenme>` -> 'ORAN:Nx PATLAMA' değilse aday ELENİR, sıradakine geçilir. Takipçi 1 aramada bulunamazsa aday elenir.
+4. Hızlı süzgeç: büyük hesaplar (100B+ takipçi: Kobeissi, unusual_whales, Wall St Engine, takip/haber hesapları) nadiren 5x yapar; öncelik 5-50B takipçili analist hesapları (snippet görüntülenmesi 50B+ olanlar).
+5. Kayıt: kayit.py --konu 'K111 ORAN:<n>x ...'; gun_ozet yalnız ORAN>=5 olanları PATLAMA sayar. DONGU: 'PATLAMA: <hesap> <görüntülenme>/<takipçi> = <n>x <neden>'.
