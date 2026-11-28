@@ -62,3 +62,11 @@ kalite.py ZORUNLU, son 3 tweete karşı (kaydedilen metinlerle):
 - 114-B (aynı gün kapanış fiili, açılış, hüküm kelimesi) aynen.
 - Buffer'da düzenlenen tweetin metni kalite_defteri.json'da da güncellenir (yoksa sonraki kontrol eski metne bakar).
 - Aynı konuda (ör. aynı mektup) art arda iki tweet atılacaksa ikincisi farklı biçimle (113-F: makas, o zaman/şimdi, senaryo, akran, tersine hesap, takvim) ve farklı açılış özne/fiiliyle kurulur.
+
+## KURAL 118 — TETİKLEYİCİ + HÜKÜM KAPANIŞI KONUŞUR GİBİ, TEK AKIŞTA (Enes 28.11 21:12)
+Enes 21:08 ASML tweetinin kapanışına baktı: "Sipariş defteri gerilerse fikrim değişir. Şimdilik bu iskontoyu haksız buluyorum." → "şöyle yazabilirdin: sipariş defteri gerilerse fikrim değişebilir ama şu an böyle bir şey gözükmüyor, o yüzden bu fiyatlamayı mantıksız buluyorum. Ben böyle söylerdim."
+- Kapanış üç parçayı TEK CÜMLEDE, konuşma bağlaçlarıyla bağlar: (1) tetikleyici + "fikrim değişebilir", (2) "ama şu an böyle bir şey gözükmüyor" (bugünkü durum), (3) "o yüzden bu fiyatlamayı mantıksız buluyorum" (hüküm). Gerekçe zinciri görünür olur.
+- YASAK: kesik iki cümle ("... fikrim değişir. Şimdilik ...") ve yazı dili hüküm ("Şimdilik bu iskontoyu haksız buluyorum"). yasak.py 118 bunu yakalar.
+- Kelime seçimi Enes'in ağzından: "değişebilir", "gözükmüyor", "mantıksız buluyorum", "o yüzden". "haksız/yersiz bulmak", "şimdilik" yazı dili.
+- Her tweette aynı kalıp tekrar edilmez (114-C): parçaların sırası ve kelimeleri değişir, ör. "Talep zayıflarsa görüşüm değişebilir ama sipariş tarafında öyle bir işaret yok, o yüzden bu kadar ucuz kalmasını anlamıyorum."
+- Bu kural "olabilir/değişebilir" yasağına (113-B hedge) istisnadır: koşullu tetikleyici cümlesinde "değişebilir" serbest; hüküm kısmı yine kesin.

@@ -79,3 +79,4 @@ Eski 106 satırlık dizin hiçbir şey silinmeden `KURAL_DIZINI_ARSIV_2711.md`'d
 - 114-C (28.11 20:39) art arda aynı kalıp yasağı: son 3 tweetle yapı benzerliği ≥%45, aynı ilk kelime, aynı kapanış, tekrar eden kalıp ifade (görüşümü değiştir, aynı yerdeyim, ayrılıyorum...) HATA; Buffer'da düzenlenen metin kalite defterinde de güncellenir.
 - 117 (28.11 20:44) 'Ne demiştim, ne oldu' serisi: haftada 1 teknik + 1 temel, yalnız tutan ve bilmesi en zor tek yorum, net biçim (ne demiştim + ne oldu), kart4 kiyas; eski karne listesi iptal; her gün 1 ölçülebilir temel yorum deftere.
 - 117-B (28.11 20:48): 'Ne demiştik, ne oldu' başlığı + 'Bildiğiniz üzere <tarih> ... demiştik' + ne oldu; meta kapanış yok.
+- 118 (28.11 21:12): tetikleyici+hüküm kapanışı tek akışta konuşur gibi ('...gerilerse fikrim değişebilir ama şu an böyle bir şey gözükmüyor, o yüzden bu fiyatlamayı mantıksız buluyorum'); kesik kapanış yasak.py'de.

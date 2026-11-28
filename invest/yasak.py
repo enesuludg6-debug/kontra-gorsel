@@ -178,6 +178,11 @@ for r_, ad in YZ114:
 _baglac = re.findall(r"\b(dolayısıyla|bu nedenle|bu yüzden|öte yandan|buna karşın|ayrıca|üstelik|bununla birlikte)\b", low)
 if len(_baglac) > 1: hata.append(f"114-B: bağlaç fazla {_baglac}: tweet başına en çok 1")
 if len(re.findall(r"\byani\b", low)) > 1: hata.append("114-B: 'yani' en çok 1 kez (terim açıklamasında)")
+# KURAL 118 (Enes 28.11 21:12): kesik kesik tetikleyici + hüküm kapanışı yasak; konuşur gibi bağla
+if re.search(r"(değişir|değiştiririm|değiştirir)\.\s*(şimdilik|şu an|şu anda|bugün için)\b", low):
+    hata.append("118: kapanış kesik ('...fikrim değişir. Şimdilik...'). Enes böyle konuşmaz: '<tetikleyici> olursa fikrim değişebilir ama şu an böyle bir şey gözükmüyor, o yüzden bu fiyatlamayı mantıksız buluyorum' gibi tek akışta bağla")
+if re.search(r"\bşimdilik bu [^.\n]{0,30}(haksız|yersiz|abartılı) buluyorum", low):
+    hata.append("118: 'Şimdilik bu X'i haksız buluyorum' yazı dili; 'şu an ... gözükmüyor, o yüzden bu fiyatlamayı mantıksız buluyorum' gibi gerekçeyle bağla")
 # üçlü sıfat/isim yığını: 'A, B ve C' (rakamsız, $'sız) -> YZ üçlüsü
 for m_ in re.finditer(r"(?<![$\w])([a-zçğıöşü]{3,}), (?<!\$)([a-zçğıöşü]{3,}) ve (?<!\$)([a-zçğıöşü]{3,})\b", low):
     hata.append(f"114: üçlü yığın '{m_.group(0)}': bir tanesini seç")

@@ -569,3 +569,11 @@ Enes: "başlık şu olacak: ne demiştik ne oldu. Bildiğiniz üzere şu şu tar
 - Kapanışta "serinin teknik/temel ayağı bu" gibi meta satır YOK.
 - Kart: kart4.kiyas kicker 'NE DEMİŞTİK, NE OLDU', sol 'Ne demiştik · tarih', sağ 'Ne oldu · tarih'.
 - Örnek (28.11 atılan): "Ne demiştik, ne oldu / Bildiğiniz üzere 25 Kasım'da Nasdaq 100 gün içinde 24.971'e inmiş, 24.980'deki ayı piyasası eşiğinin 9 puan altını görmüştü. O akşam eşik kapanışta kırılmadıkça ayı piyasası başlamaz demiştik. / Eşik kapanışta kırılmadı. Endeks cuma günü 26.726'dan kapattı, eşiğin %7 üstünde."
+
+## KURAL 118 — TETİKLEYİCİ + HÜKÜM KAPANIŞI KONUŞUR GİBİ, TEK AKIŞTA (Enes 28.11 21:12)
+Enes 21:08 ASML tweetinin kapanışına baktı: "Sipariş defteri gerilerse fikrim değişir. Şimdilik bu iskontoyu haksız buluyorum." → "şöyle yazabilirdin: sipariş defteri gerilerse fikrim değişebilir ama şu an böyle bir şey gözükmüyor, o yüzden bu fiyatlamayı mantıksız buluyorum. Ben böyle söylerdim."
+- Kapanış üç parçayı TEK CÜMLEDE, konuşma bağlaçlarıyla bağlar: (1) tetikleyici + "fikrim değişebilir", (2) "ama şu an böyle bir şey gözükmüyor" (bugünkü durum), (3) "o yüzden bu fiyatlamayı mantıksız buluyorum" (hüküm). Gerekçe zinciri görünür olur.
+- YASAK: kesik iki cümle ("... fikrim değişir. Şimdilik ...") ve yazı dili hüküm ("Şimdilik bu iskontoyu haksız buluyorum"). yasak.py 118 bunu yakalar.
+- Kelime seçimi Enes'in ağzından: "değişebilir", "gözükmüyor", "mantıksız buluyorum", "o yüzden". "haksız/yersiz bulmak", "şimdilik" yazı dili.
+- Her tweette aynı kalıp tekrar edilmez (114-C): parçaların sırası ve kelimeleri değişir, ör. "Talep zayıflarsa görüşüm değişebilir ama sipariş tarafında öyle bir işaret yok, o yüzden bu kadar ucuz kalmasını anlamıyorum."
+- Bu kural "olabilir/değişebilir" yasağına (113-B hedge) istisnadır: koşullu tetikleyici cümlesinde "değişebilir" serbest; hüküm kısmı yine kesin.
