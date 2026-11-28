@@ -814,3 +814,4 @@ Durdurmak için en alta `DURDUR` yazılı bir satır ekle (Enes ya da Claude, En
 - 28.11 20:47 Enes 'hemen at' → NE DEMİŞTİM teknik 21:29 yerine shareNow (6b0b1319). 21:29 slotu boş; ASML 21:08 aynen.
 - 20:49 (28.11) AUTO (TEKNIK): g/20261128_2050_nedemistik.jpg (N) - Enes 2. kez sildi; 117-B başlık formatıyla yeniden atıldı Buffer 6b0b142a64285fb33724b27a. Son 3 duzen: kartsiz, k4_kiyas, N.
 - 28.11 20:49 Enes ikinci kez sildi → 117-B formatıyla yeniden atıldı (6b0b142a).
+- 21:29 (28.11) AUTO (EGITICI): - (E) - TUR-2811-2048 EGITICI 1/1; 21:29 eski NE DEMİŞTİM kaydı silindi (Enes sildi, 20:49 yerine geçti) Buffer 6b0b14775e276ead9fc0133f. Son 3 duzen: k4_kiyas, N, E.
