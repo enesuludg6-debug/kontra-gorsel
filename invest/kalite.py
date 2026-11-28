@@ -207,12 +207,27 @@ def main():
     f = ozellik(t); f.update(k89(t)); d = yukle()
     if m == 'kaydet':
         _n = dt.datetime.now(dt.timezone(dt.timedelta(hours=3)))
-        f.update({'imza': yapi_imzasi(t), 'kalip': (a[a.index('--kalip') + 1].upper() if '--kalip' in a else ''), 'tur': tur, 'zaman': _n.strftime('%d.%m %H:%M'), 'gun': (_n - dt.timedelta(hours=2)).strftime('%d.%m'), 'uzunluk': len(t.strip()), 'acilis': acilis_tipi(t)})
+        f.update({'imza': yapi_imzasi(t), 'kalip': (a[a.index('--kalip') + 1].upper() if '--kalip' in a else ''), 'tur': tur, 'zaman': _n.strftime('%d.%m %H:%M'), 'gun': (_n - dt.timedelta(hours=2)).strftime('%d.%m'), 'uzunluk': len(t.strip()), 'acilis': acilis_tipi(t), 'metin': t.strip()})
         print('ACILIS (kural 79):', f['acilis'], '-> kayit.py --konu basina [A:' + f['acilis'] + '] ekle')
         d.append(f); json.dump(d[-60:], open(D, 'w', encoding='utf-8'), ensure_ascii=False, indent=0)
         print('KALITE KAYDEDILDI'); return
 
     l = low(t); n = len(t.strip()); hata = []; uyari = []
+    # KURAL 114-B (Enes 28.11 20:22): aynı gün tekrar yasağı (açılış 3 kelime, kapanış fiili, hüküm kelimesi)
+    _bg114 = (dt.datetime.now(dt.timezone(dt.timedelta(hours=3))) - dt.timedelta(hours=2)).strftime('%d.%m')
+    _bugun = [x['metin'] for x in d if x.get('gun') == _bg114 and x.get('metin')]
+    def _ac(x): return ' '.join(re.sub(r'[^\wçğıöşüÇĞİÖŞÜ$ ]', ' ', x.lower()).split()[:3])
+    def _kf(x):
+        w = re.sub(r'[^\wçğıöşü ]', ' ', x.lower().strip().split('\n')[-1]).split()
+        return w[-1] if w else ''
+    HUKUM = r'\b(aşırı|gerçek|güçlü|zayıf|net|ciddi|karamsar|iyimser|temkinli|ucuz|pahalı|sağlam|abartılı|fazla)\b'
+    _hk = set(re.findall(HUKUM, l))
+    for _o in _bugun:
+        if _ac(_o) and _ac(_o) == _ac(t): hata.append(f'kural 114-B: açılış "{_ac(t)}" bugün kullanıldı.'); break
+    for _o in _bugun:
+        if _kf(t) and len(_kf(t)) > 3 and _kf(_o) == _kf(t): hata.append(f'kural 114-B: kapanış fiili "{_kf(t)}" bugün kullanıldı; farklı fiil.'); break
+    _tekrar = sorted(_hk.intersection(*[set()]) if False else {w for w in _hk if any(re.search(r'\b' + w + r'\b', _o.lower()) for _o in _bugun)})
+    if _tekrar: hata.append(f'kural 114-B: hüküm kelimesi {_tekrar} bugün başka tweette geçti; rakamla ya da başka kelimeyle söyle.')
     # 1) Uzunluk (bölüm 8-9: uzunluğu konu belirler, derinlik != kelime sayısı)
     sinir = SINIR.get(tur, VARSAYILAN)
     if n > sinir:

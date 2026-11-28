@@ -155,9 +155,29 @@ YZ114 = [
     (r"(yatırımcılar|okurlar) için (ne )?anlamı|ne anlama geliyor", "'yatırımcılar için ne anlama geliyor' sunucu kalıbı (yalnız Enes'e mesajda serbest)"),
     (r"ilginç bir (çelişki|tablo|durum)|garip bir durum var", "hazır açılış ('ilginç bir çelişki / garip bir durum var'): doğrudan olguyla başla"),
 ]
+YZ114 += [
+    # --- 114-B (Enes 28.11 20:22 'hepsini yasakla') ---
+    # 1) bizim tekrarladıklarımız
+    (r"tek başına (bir )?sinyal değil|tek başına yetmez", "'tek başına sinyal değil' güvence refleksi"),
+    (r"benim (gördüğüm|baktığım|izlediğim|beklediğim) (risk|yer|nokta|şey|seviye)", "'Benim gördüğüm risk / baktığım yer' açılışı"),
+    (r"\bancak\b[^.\n]{0,50}\b(yapar|yapabilir|olur)\.?$", "'... ancak X yapar' vecizesi"),
+    (r"kalem taşınabilir|taşınabilir (bir )?risk|fazla karamsar|aşırı tepki|aşırı karamsar|abartılı tepki", "hazır hüküm etiketi (aşırı tepki, fazla karamsar)"),
+    (r"kendi ölçeğim", "'kendi ölçeğimde' imza tiki (kartın kaynak satırında kalsın)"),
+    # 2) borsa gazetesi klişeleri
+    (r"yön arayış|soluklan|nefes al(ıyor|dı|ma)|yatay seyir|(satıcılı|alıcılı) seyir|risk iştah|(pozitif|negatif) ayrış|tepki alım|kâr satış(ı|ları) gel|kar satış(ı|ları) gel|güne (yükselişle|düşüşle|başladı|başlad)", "borsa gazetesi klişesi (yön arayışı, soluklanma, risk iştahı, tepki alımı...)"),
+    # 3) boş güçlendiriciler
+    (r"\b(tamamen|kesinlikle|açıkça|son derece|oldukça|bir hayli)\b|net bir şekilde|ciddi (bir )?(düşüş|yükseliş|alım|satış|artış)|güçlü (bir )?sinyal|önemli (bir )?gelişme|dikkat çeken", "boş güçlendirici (tamamen, kesinlikle, oldukça, ciddi düşüş...): rakam yaz"),
+    # 5) sahte samimiyet
+    (r"dürüst olmak gerekirse|açık konuşayım|açıkçası|itiraf etmeliyim|şunu söyleyeyim|açık konuşmak gerekirse", "sahte samimiyet kalıbı"),
+    # 6) belirsiz zaman/miktar
+    (r"son dönemde|kısa vadede|önümüzdeki süreçte|uzun zamandır|bir süredir|yakın zamanda|bir hayli", "belirsiz zaman/miktar: tarih ya da rakam yaz ('3 haftadır', 'Aralık'ta')"),
+]
 for r_, ad in YZ114:
     if re.search(r_, low, flags=re.M):
         hata.append("114: " + ad)
+_baglac = re.findall(r"\b(dolayısıyla|bu nedenle|bu yüzden|öte yandan|buna karşın|ayrıca|üstelik|bununla birlikte)\b", low)
+if len(_baglac) > 1: hata.append(f"114-B: bağlaç fazla {_baglac}: tweet başına en çok 1")
+if len(re.findall(r"\byani\b", low)) > 1: hata.append("114-B: 'yani' en çok 1 kez (terim açıklamasında)")
 # üçlü sıfat/isim yığını: 'A, B ve C' (rakamsız, $'sız) -> YZ üçlüsü
 for m_ in re.finditer(r"\b([a-zçğıöşü]{3,}), ([a-zçğıöşü]{3,}) ve ([a-zçğıöşü]{3,})\b", low):
     hata.append(f"114: üçlü yığın '{m_.group(0)}': bir tanesini seç")
