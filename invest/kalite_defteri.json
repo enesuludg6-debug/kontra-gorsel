@@ -3,20 +3,6 @@
 "jargon": {},
 "tarih": [],
 "terim": [],
-"acilis": "normal",
-"kapanis": "bence bu sabahki satış",
-"rekor": 0,
-"imza": "4p-duz-o-rakam",
-"kalip": "M",
-"tur": "KEYLEVELS",
-"zaman": "25.11 11:02",
-"gun": "25.11",
-"uzunluk": 592
-},
-{
-"jargon": {},
-"tarih": [],
-"terim": [],
 "acilis": "iddia",
 "kapanis": "kuralda abd merkezli alıcılar",
 "rekor": 0,
@@ -1140,5 +1126,22 @@
 "zaman": "28.11 12:16",
 "gun": "28.11",
 "uzunluk": 264
+},
+{
+"jargon": {},
+"tarih": [],
+"terim": [],
+"acilis": "iddia",
+"kapanis": "gigabit başına ortalama fiyat",
+"rekor": 0,
+"k89": [],
+"k89_son": "",
+"k89_hazir": [],
+"imza": "2p-duz-k-rakam",
+"kalip": "H",
+"tur": "TEMEL-FIKIR",
+"zaman": "28.11 13:22",
+"gun": "28.11",
+"uzunluk": 317
 }
 ]

@@ -3396,11 +3396,24 @@
    "ne": "tur zinciri",
    "ticker": "",
    "tur": "tek",
-   "durum": "kuruldu",
+   "durum": "yapildi",
    "not": "",
    "trigger": "trig_01HvrigxmvDAi7e3qnezNTpR",
    "soz": "",
-   "guncelleme": "27.11 23:27"
+   "guncelleme": "28.11 13:22"
+  },
+  {
+   "id": "TUR-2811-1352",
+   "ad": "Otomatik paylaşım turu",
+   "zaman": "2026-11-28T13:52",
+   "ne": "tur zinciri",
+   "ticker": "",
+   "tur": "tek",
+   "durum": "kuruldu",
+   "not": "",
+   "trigger": "trig_01DaeH26ihrbLen2dC1WnYX7",
+   "soz": "",
+   "guncelleme": "28.11 13:22"
   },
   {
    "id": "SABIT-kalabalik",
