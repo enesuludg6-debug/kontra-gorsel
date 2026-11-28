@@ -2,22 +2,6 @@
 {
 "jargon": {},
 "tarih": [],
-"terim": [
-"brüt marj"
-],
-"acilis": "normal",
-"kapanis": "net gelir 3 18",
-"rekor": 0,
-"imza": "2p-satir-k-rakam",
-"kalip": "",
-"tur": "BILANCO-RAKAM",
-"zaman": "25.11 14:36",
-"gun": "25.11",
-"uzunluk": 447
-},
-{
-"jargon": {},
-"tarih": [],
 "terim": [],
 "acilis": "normal",
 "kapanis": "bence çin deki yapay",
@@ -1181,5 +1165,24 @@
 "zaman": "28.11 18:11",
 "gun": "28.11",
 "uzunluk": 316
+},
+{
+"jargon": {},
+"tarih": [],
+"terim": [],
+"acilis": "iddia",
+"kapanis": "çizgi geri alınmadan ben",
+"rekor": 0,
+"k89": [
+"katalizor"
+],
+"k89_son": "",
+"k89_hazir": [],
+"imza": "3p-duz-k-rakam",
+"kalip": "A",
+"tur": "ACIKLAYICI",
+"zaman": "28.11 18:34",
+"gun": "28.11",
+"uzunluk": 405
 }
 ]
