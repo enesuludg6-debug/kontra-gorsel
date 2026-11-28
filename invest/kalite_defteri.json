@@ -4,28 +4,6 @@
 "tarih": [],
 "terim": [],
 "acilis": "iddia",
-"kapanis": "beklenen tavan yüzde 15",
-"rekor": 0,
-"k89": [
-"katalizor",
-"fark"
-],
-"k89_son": "",
-"k89_hazir": [
-"baglamiyorum"
-],
-"imza": "2p-duz-k-cerceve",
-"kalip": "E",
-"tur": "HABER",
-"zaman": "25.11 18:52",
-"gun": "25.11",
-"uzunluk": 404
-},
-{
-"jargon": {},
-"tarih": [],
-"terim": [],
-"acilis": "iddia",
 "kapanis": "kredi temerrüt swabı cds",
 "rekor": 0,
 "k89": [],
@@ -1208,5 +1186,26 @@
 "gun": "28.11",
 "uzunluk": 342,
 "metin": "Geçen hafta Nasdaq 100 için yazdığım eşik tuttu.\n\n25 Kasım'da endeks gün içinde 24.971'e, 24.980'deki ayı piyasası eşiğinin 9 puan altına indi ve oradan döndü. O akşam eşik kapanış bazında kırılmadıkça ayı piyasası başlamaz demiştim. Kırılmadı, cuma günü 26.726'dan kapattı; eşiğin %7 üstünde.\n\nNe demiştim, ne oldu serisinin teknik ayağı bu."
+},
+{
+"jargon": {},
+"tarih": [],
+"terim": [],
+"acilis": "iddia",
+"kapanis": "eşik kapanışta kırılmadı endeks",
+"rekor": 0,
+"k89": [
+"katalizor",
+"esik"
+],
+"k89_son": "esik",
+"k89_hazir": [],
+"imza": "3p-duz-k-cerceve",
+"kalip": "N",
+"tur": "TEKNIK",
+"zaman": "28.11 20:49",
+"gun": "28.11",
+"uzunluk": 297,
+"metin": "Ne demiştik, ne oldu\n\nBildiğiniz üzere 25 Kasım'da Nasdaq 100 gün içinde 24.971'e inmiş, 24.980'deki ayı piyasası eşiğinin 9 puan altını görmüştü. O akşam eşik kapanışta kırılmadıkça ayı piyasası başlamaz demiştik.\n\nEşik kapanışta kırılmadı. Endeks cuma günü 26.726'dan kapattı, eşiğin %7 üstünde."
 }
 ]

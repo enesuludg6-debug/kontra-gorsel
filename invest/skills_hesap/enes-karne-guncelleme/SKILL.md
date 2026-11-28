@@ -25,3 +25,12 @@ description: "Enes'in X hesabında iyi giden tweete yeni veriyle güncelleme twe
 - Anlaşılır biçim: ilk satır neyin tuttuğunu net söyler; sonra 'ne zaman ne demiştim' + 'ne oldu (rakam, tarih)'; son satır 'Ne demiştim, ne oldu serisinin teknik/temel ayağı bu.' Liste, '•', birden çok yorum yok. Kart kart4 kiyas (NE DEMİŞTİM / NE OLDU).
 - Örnek (teknik, 28.11): 'Geçen hafta Nasdaq 100 için yazdığım eşik tuttu. 25 Kasım'da endeks gün içinde 24.971'e, 24.980'deki ayı piyasası eşiğinin 9 puan altına indi ve oradan döndü. O akşam eşik kapanış bazında kırılmadıkça ayı piyasası başlamaz demiştim. Kırılmadı, cuma günü 26.726'dan kapattı; eşiğin %7 üstünde. Ne demiştim, ne oldu serisinin teknik ayağı bu.'
 - Seriyi beslemek için her gün en az 1 ölçülebilir TEMEL yorum (bilanço/rehber/marj/konsensüs, tarih + eşik) `yorumlar.py ekle` ile deftere yazılır.
+
+## KURAL 117-B — SERİ BAŞLIK VE AKIŞ FORMATI (Enes 28.11 20:48, ikinci silmeden sonra; 117'deki biçimin yerine geçer)
+Enes: "başlık şu olacak: ne demiştik ne oldu. Bildiğiniz üzere şu şu tarihte şöyle şöyle demiştik, şöyle şöyle oldu."
+- 1. satır TAM OLARAK: `Ne demiştik, ne oldu` (soru işareti yok, başka kelime yok).
+- 2. paragraf `Bildiğiniz üzere <gün Ay>'da ...` ile başlar: o günkü durum + `... demiştik.` (çoğul "demiştik", "demiştim" değil).
+- 3. paragraf ne oldu: kısa, rakam ve tarihle (`... oldu / kapattı / açıkladı`).
+- Kapanışta "serinin teknik/temel ayağı bu" gibi meta satır YOK.
+- Kart: kart4.kiyas kicker 'NE DEMİŞTİK, NE OLDU', sol 'Ne demiştik · tarih', sağ 'Ne oldu · tarih'.
+- Örnek (28.11 atılan): "Ne demiştik, ne oldu / Bildiğiniz üzere 25 Kasım'da Nasdaq 100 gün içinde 24.971'e inmiş, 24.980'deki ayı piyasası eşiğinin 9 puan altını görmüştü. O akşam eşik kapanışta kırılmadıkça ayı piyasası başlamaz demiştik. / Eşik kapanışta kırılmadı. Endeks cuma günü 26.726'dan kapattı, eşiğin %7 üstünde."

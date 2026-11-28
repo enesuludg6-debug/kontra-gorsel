@@ -813,3 +813,4 @@ Durdurmak için en alta `DURDUR` yazılı bir satır ekle (Enes ya da Claude, En
 - 21:29 (28.11) AUTO (TEKNIK): g/20261128_2130_nedemistim.jpg (k4_kiyas) - Enes 20:44: 20:26 karnesini SİLDİ ('anlaşılmıyor, hangisi tuttu, ne demiştik ne oldu'). Yerine seri: 'Ne demiştim, ne oldu' teknik ayağı. NDX 25.11 gün içi dip 24.970,7, kapanış 26.046,9; 27.11 kapanış 26.726,4 (Yahoo). customScheduled 21:29. Temel ayağı için bu hafta tutan temel yorum yok (yorumlar.py karne 7: 2 tutan, ikisi de fiyat/teknik). Buffer 6b0b13191a50ad40505464b9. Son 3 duzen: kartsiz, kartsiz, k4_kiyas.
 - 28.11 20:47 Enes 'hemen at' → NE DEMİŞTİM teknik 21:29 yerine shareNow (6b0b1319). 21:29 slotu boş; ASML 21:08 aynen.
 - 20:49 (28.11) AUTO (TEKNIK): g/20261128_2050_nedemistik.jpg (N) - Enes 2. kez sildi; 117-B başlık formatıyla yeniden atıldı Buffer 6b0b142a64285fb33724b27a. Son 3 duzen: kartsiz, k4_kiyas, N.
+- 28.11 20:49 Enes ikinci kez sildi → 117-B formatıyla yeniden atıldı (6b0b142a).
