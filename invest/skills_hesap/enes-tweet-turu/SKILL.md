@@ -436,3 +436,11 @@ Her tweette:
 - "Bence bu düşüş fırsat olabilir." -> "$MU zirveden %48 aşağıda, 12 kat kârla işlem görüyor. Ben 600 altını kademeli alım bölgesi sayıyorum, 560 kapanışı tezi bozar."
 - "Hisse güzel yükseldi." -> "$NVDA haftayı güçlü kapattı ama hacim ortalamanın altında. Kapanış teyidi 160 üstü, gelmezse bu bir tepki yükselişi."
 Taslaklar (kural 69) ve "Ne anlama geliyor?" açıklamaları da aynı seviyede yazılır; Enes'e mesajlar Türkçe.
+
+## KURAL 113-B — KURUMSAL MASA SEVİYESİ (Enes 28.11 19:29 'daha da prof istiyorum')
+113'ün üstüne, kalite.py ZORUNLU denetler (HATA, uyarı değil):
+- Her tweette EN AZ 3 borsacı öğesi: konsensüs/beklenti, rehber, çarpan/F/K, marj, nakit akışı, pozisyonlanma, katalizör, risk/ödül-asimetri, destek/direnç, kapanış teyidi, hacim, revizyon, realizasyon, sipariş, fiyatlama, prim/iskonto, baz puan, yıllık/çeyreklik bazda, oynaklık, akış, değerleme, eşik/seviye, trend, genişlik, geri alım, kredi.
+- Tereddüt dili YASAK: olabilir, sanırım, galiba, gibi görünüyor, belki, muhtemelen, düşünüyorum. "bence" en çok 1.
+- Somut rakam/seviye zorunlu.
+Yazım düzeyi: kurumsal araştırma notunun tek paragraflık özeti gibi. Sıra: (1) olgu + rakam, (2) piyasanın fiyatladığı / beklentiden fark, (3) benim pozisyonum ve seviyem, (4) tezi bozan eşik. Ses yine Enes: birinci tekil, kısa cümle, süssüz.
+Örnek: "$NVDA 12,5 kat ileri F/K ile S&P 500'e %32 iskontolu. Konsensüs kâr tahminini düşürmedi, yani çarpan daralması tamamen fiyattan geldi. Ben 145 desteğini pozisyon artırma bölgesi görüyorum; tahmin revizyonu aşağı dönerse tez bozulur."

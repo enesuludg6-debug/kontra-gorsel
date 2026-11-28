@@ -336,6 +336,19 @@ def main():
         hata.append(f'açılış "{f["acilis"]}" son 30 tweette var: farklı kur.')
     if f['kapanis'] and any(x.get('kapanis') == f['kapanis'] for x in son15):
         hata.append(f'kapanış "{f["kapanis"]}" son 15 tweette var: farklı bitir.')
+    # KURAL 113-B (Enes 28.11 19:29 'daha da prof istiyorum'): kurumsal masa seviyesi zorunlu
+    if tur not in {'ENES-ISTEGI', 'ENES-HABER', 'GUNUN-OLAYLARI'}:
+        _l = t.lower()
+        PRO113 = [r'konsens', r'rehber', r'beklenti', r'ileri f/k|f/k|çarpan|katı', r'marj', r'nakit akış', r'pozisyon', r'katalizör',
+                  r'risk/ödül|asimetri', r'destek|direnç', r'kapanış (teyid|onay)|kapanışı', r'hacim', r'revizyon', r'realizasyon',
+                  r'sipariş', r'fiyatl', r'prim|iskonto', r'baz puan|bps', r'yıllık bazda|çeyreklik bazda|çeyrekte', r'getiri',
+                  r'oynaklık|vix', r'akış', r'değerleme', r'ortalama', r'eşik|seviye', r'trend', r'genişli', r'geri alım', r'kredi']
+        n_pro = sum(1 for r_ in PRO113 if re.search(r_, _l))
+        if n_pro < 3: hata.append(f'kural 113-B: kurumsal masa dili zayıf ({n_pro}/3 borsacı terimi). Konsensüs, çarpan, marj, pozisyonlanma, katalizör, kapanış teyidi, hacim, revizyon, eşik gibi en az 3 öğe kullan.')
+        _ted = re.findall(r'\b(olabilir|sanırım|galiba|gibi görünüyor|belki|muhtemelen|düşünüyorum)\b', _l)
+        if _ted: hata.append(f'kural 113-B: tereddüt dili {sorted(set(_ted))}: hükmü net kur.')
+        if len(re.findall(r'\bbence\b', _l)) > 1: hata.append('kural 113-B: "bence" en çok 1 kez.')
+        if not re.search(r'\d', t): hata.append('kural 113-B: somut seviye/rakam yok.')
     if f['terim'] and len(d) >= 3:
         ort = set(f['terim']).intersection(*[set(x.get('terim', [])) for x in d[-3:]])
         if ort: uyari.append(f'terim(ler) {sorted(ort)} son 3 tweetin hepsinde geçti: eş anlamlı ya da somut ifade kullan.')
