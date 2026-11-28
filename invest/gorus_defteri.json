@@ -1,10 +1,5 @@
 [
 {
-"acilis": "bu hamle vertiv",
-"kaliplar": [],
-"metin": "Bu hamle Vertiv'i bir ekipman tedarikçisinden, Nvidia'nın yol haritasıyla eş zamanlı çalışan bir altyapı ortağına dönüştürüyor. Yeni nesil platform için referan"
-},
-{
 "acilis": "bu modelin gücü",
 "kaliplar": [],
 "metin": "Bu modelin gücü talep artarken çok hızlı büyüyebilmesi. Zayıf noktası ise borç ve müşteri yoğunlaşması. Bu yüzden neocloud hisselerinde gelir büyümesinden önce "
@@ -308,5 +303,10 @@
 "acilis": "nvda da 165",
 "kaliplar": [],
 "metin": "$NVDA'da 165 üstü kapanış gelirse alıcı olurum, 124,5 kırılırsa kenarda kalırım."
+},
+{
+"acilis": "bellek tezinde fonla",
+"kaliplar": [],
+"metin": "Bellek tezinde fonla aynı yerdeyim, $ASML'de ben ayrılıyorum. 1.600'deki 200 günlük ortalamanın üstüne çıkarsa eklerim, 1.235'teki son destek kırılırsa beklerim"
 }
 ]

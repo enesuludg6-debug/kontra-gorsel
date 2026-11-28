@@ -1,25 +1,5 @@
 [
 {
-"jargon": {},
-"tarih": [],
-"terim": [],
-"acilis": "iddia",
-"kapanis": "önceki açılış tweetinde satışı",
-"rekor": 0,
-"imza": "3p-duz-o-cerceve",
-"kalip": "B",
-"tur": "MAKRO",
-"zaman": "25.11 18:00",
-"gun": "25.11",
-"uzunluk": 636,
-"k89": [
-"fiyatlanan",
-"fark"
-],
-"k89_son": "fark",
-"k89_hazir": []
-},
-{
 "jargon": {
 "prim": 1
 },
@@ -1203,5 +1183,30 @@
 "gun": "28.11",
 "uzunluk": 463,
 "metin": "Aschenbrenner'ın fonu $NVDA, $AMD ve $AVGO'dan uzak duruyor.\n\nQ3 mektubuna göre YZ sohbetten ajanlara geçtikçe darboğaz hesaplamadan belleğe kayıyor, fon da $SKHY, $SNDK ve $MU tarafında. Bellekte ben de aynı yerdeyim. $NVDA'da ayrılıyorum: hisse beklenen kârının 12,5 katından (ileri F/K) işlem görüyor, piyasa en kötü senaryoyu fiyatlıyor ama konsensüsün tahmin revizyonu yukarı.\n\n$NVDA'da 165 üstü kapanış gelirse alıcı olurum, 124,5 kırılırsa kenarda kalırım."
+},
+{
+"jargon": {
+"fiyatlama": 1,
+"iskonto": 1
+},
+"tarih": [],
+"terim": [],
+"acilis": "iddia",
+"kapanis": "bellek tezinde fonla aynı",
+"rekor": 0,
+"k89": [
+"fiyatlanan",
+"fark",
+"esik"
+],
+"k89_son": "esik",
+"k89_hazir": [],
+"imza": "3p-duz-o-cerceve",
+"kalip": "L",
+"tur": "K111-HABER",
+"zaman": "28.11 20:34",
+"gun": "28.11",
+"uzunluk": 468,
+"metin": "Aschenbrenner'ın mektubunda en zayıf bulduğum yer $ASML kısmı.\n\nYapay zekânın $ASML'in teknolojik üstünlüğünü aşacağını savunup hisseyi kaçınılacaklar listesine koymuş. EUV makinesini (en ileri çipleri basan litografi cihazı) dünyada tek $ASML yapıyor; piyasa bu tekeli zirveden %34 iskontoyla fiyatlıyor.\n\nBellek tezinde fonla aynı yerdeyim, $ASML'de ben ayrılıyorum. 1.600'deki 200 günlük ortalamanın üstüne çıkarsa eklerim, 1.235'teki son destek kırılırsa beklerim."
 }
 ]
