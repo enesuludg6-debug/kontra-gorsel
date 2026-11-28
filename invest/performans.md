@@ -301,3 +301,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 27.11 | 20:09 | EGITICI | EĞİTİCİ: yarım gün ve ince hacim, QQQ hacim 0,5x (biçim: kartsız) | kartsiz | 6b09b932d5bf252ef53a399a |
 | 27.11 | 21:14 | HABER | Nasdaq 100 haftalık +%7, dip görüşü, 26.000 teyit eşiği (biçim: görüş) | cizgi_olay | 6b09c8720dc186ddf75d6d5e |
 | 27.11 | 22:05 | HABER | Çipler +%5, Nvidia geride: Çin veri merkezinde Blackwell haberi (biçim: kartsız) | kartsiz | 6b09d46802e606c3af771a00 |
+| 28.11 | 10:57 | HAFTALIK-OZET | Haftalık özet: 1,5 yılın en iyi haftası, Nvidia ~%20, genişlik (biçim: kartlı, kart4 siralama) | k4_siralama | 6b0a8949fe7140cdac9d63c2 |
