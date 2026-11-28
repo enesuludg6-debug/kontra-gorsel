@@ -23,4 +23,4 @@ KURAL 58 GÜNLÜK KOTA (Enes 20.11 10:04 "tüm mecraların hepsinden günlük to
 
 11. (24.11 kural 79/80) 08.12 sabahı: performans_veri.csv konu öneki [A:iddia] vs [A:normal] ve [ALINTI] vs diğer; göreli görüntülenme, beğeni/1000, yanıt+repost; Buffer kanal takipçi değişimi. Sonucu Enes'e sun; iddia açılışı ≥%20 öndeyse kural 79 'tüm tweetler' olur.
 
-- KURAL 101 (27.11): PAZAR günleri SES_ORNEKLERI.md'yi yenile: performans_veri.csv'de kaynak=enes en çok görüntülenen 15 tweetten portföy güncellemesi/grup duyurusu/link-only olmayanları seç, metinlerini Buffer get_post ile al, ÖRNEKLER bölümünü güncelle (tam metin kopyalanmaz, en fazla 2-3 cümle), ses özelliklerini gerekirse düzelt.
+- KURAL 107 PAZAR: Enes favorisi 4 hesabın (X_NABIZ.md) haftanın en çok görüntülenen 1er tweeti -> hangi format tuttu -> DERSLER.md 1 satır. KURAL 101 (27.11): PAZAR günleri SES_ORNEKLERI.md'yi yenile: performans_veri.csv'de kaynak=enes en çok görüntülenen 15 tweetten portföy güncellemesi/grup duyurusu/link-only olmayanları seç, metinlerini Buffer get_post ile al, ÖRNEKLER bölümünü güncelle (tam metin kopyalanmaz, en fazla 2-3 cümle), ses özelliklerini gerekirse düzelt.
