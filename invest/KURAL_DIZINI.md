@@ -11,7 +11,7 @@ Eski 106 satırlık dizin hiçbir şey silinmeden `KURAL_DIZINI_ARSIV_2711.md`'d
 - EKSİK BULUNCA Enes'e sorma; tek cümleyle ne yapacağını söyle, yap.
 
 ## B. Hacim, zaman, biçim (TEK geçerli rakamlar)
-- 98+95 Pencere 11:00-02:00 TSİ. Sistem tweeti hafta içi 15-20, Cmt/Paz en çok 8. Yalnız GÜÇLÜ konu (konu_puan ≥75, son dakika, bilanço, 2 kaynaklı yeni haber); zayıfsa tur tweetsiz kapanır. Sistem tweetleri arası EN AZ 35 dk, tur aralığı 35-50 dk, turda 1 tweet. Aynı tema günde en çok 2.
+- 112 (Enes 28.11 12:20, 98'in sayılarını değiştirir) Pencere 11:00-02:00 TSİ. Sistem tweeti HER GÜN (hafta sonu dahil) EN AZ 20, EN ÇOK 40. Sistem tweetleri arası EN AZ 20 dk, tur aralığı 20-30 dk, turda 1-2 tweet. Konu eşiği konu_puan ≥60 (son dakika, bilanço, 2 kaynaklı haber, K107/K108/K111 her zaman yeterli); alt sınıra yetişmek için tur boş geçmez, zayıf konu yerine açıklayıcı/eğitici/tarihsel/veri tweeti atılır. Aynı tema günde en çok 2.
 - 98 Biçim her gün: ≥3 kartsız (1-2 cümle, görselsiz), ≥2 tartışma açan görüş (soru işaretsiz), kalanı kartlı; art arda iki tweet aynı biçimde olmaz.
 - 98/69 ENES-TASLAK hafta içi 6 (11-13, 13-15, 15-17, 17-19, 19-21, 21-24), Cmt 3, Paz 2; Buffer'a gitmez; altına "Atarsan ilk 1 saatte gelen yanıtlara cevap ver."
 - AÇIKLAYICI (haberi tek kavramla) hafta içi ≥5, hafta sonu ≥2. EGITICI 20-23 günde 1 (86-d). TARIHSEL günde 1-2, yalnız tabandan belirgin iyiyse (96).

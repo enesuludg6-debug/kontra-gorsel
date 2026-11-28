@@ -779,3 +779,4 @@ Durdurmak için en alta `DURDUR` yazılı bir satır ekle (Enes ya da Claude, En
 - 12:02 KURAL 110 eklendi: TA-STİL ≥2/gün, TEMEL-FİKİR ≥1/gün, üst sınır yok. Bugün TA-STİL 1/2 (11:48 TSLA), TEMEL 0/1 -> 19:00 sonrası 2. TA-STİL, gün içinde 1 TEMEL (SA Q3 mektubu adayı).
 - 13:01 (28.11) AUTO (VERI-GENISLIK): g/20261128_1301_genislik.jpg (k4_cizgi) - GENISLIK (D) Cmt 5. tweet, kalip E, customScheduled 13:01 (12:26'dan 35 dk). 50G üstü %52 (1h önce %46), 200G üstü %55, yıllık dibe yakın 4. 13:05 turu 35 dk kuralıyla en erken 13:36. Buffer 6b0a9b189caa4fb9ca97756a. Son 3 duzen: kartsiz, stil_cizim, k4_cizgi.
 - 12:17 genişlik tweeti düzeltildi: 'kalabalık henüz inanmadı' -> 'çoğu yatırımcı hâlâ korkuyor' (Buffer edit); yasak.py 54-H'ye eklendi.
+- 12:21 KURAL 112: günlük 20-40 (hafta sonu dahil), aralık 20 dk, konu eşiği 60. Bugün 5 tweet var, 15+ daha gerek; tur aralığı 20-30 dk.
