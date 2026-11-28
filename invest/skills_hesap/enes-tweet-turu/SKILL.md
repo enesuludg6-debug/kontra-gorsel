@@ -385,3 +385,9 @@ Not: Enes'in 28.11'de örnek attığı TSLA haftalık (düşen trend + 40H HO + 
 - Osilatör çizgisi de --osc-noktalar ile gerçek tepelerden.
 - Görsel Read ile açılır: son mum doğru mu, çizgi fitillere değiyor mu, etiketler mumların üstüne binmiyor mu. Hepsi tamam olmadan yayınlanmaz.
 - Aynı gün tweet aramada çıkmazsa ve Enes o gün bir grafik gönderdiyse referans o grafiktir.
+
+108 KARAR KURALI (Enes 28.11 11:43 'farklı çıkarsa onunkilerini kabul et, sen sadece beğenme olarak kontrol et'):
+- Beğenilen tweetin TEZİ ve ÇİZGİSİ kabul edilir; bizim analiz farklı çıkarsa tweette karşı görüş YAZILMAZ.
+- Bizim analizin işi yalnız BEĞENME süzgeci: çizim net mi, veri doğru mu (mum, kapanış, kırılım gerçekten oldu mu), kitleye uygun mu. Beğenmezsek o tweeti seçmeyiz, sıradakine geçeriz.
+- Çizim: onların çizgisini aynı iki noktadan (--noktalar) çizeriz, gövde ihlali olsa bile; veri (mumlar, kapanış) yine birebir doğru olmalı.
+- Tweet onların fikrini Enes sesiyle anlatır; seviyeler kendi verimizden hesaplanmış hâliyle yazılır.

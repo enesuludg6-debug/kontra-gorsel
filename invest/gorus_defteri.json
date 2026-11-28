@@ -1,10 +1,5 @@
 [
 {
-"acilis": "cumanın haftanın yönünü",
-"kaliplar": [],
-"metin": "Cumanın haftanın yönünü belirleyeceğini söylemiştim. Güçlü bilançolara rağmen satış derinleşti. Bu, piyasanın haber değil pozisyon temizliği fiyatladığını teyit"
-},
-{
 "acilis": "son dört çeyreğin",
 "kaliplar": [],
 "metin": "Son dört çeyreğin düzeltilmiş hisse başı kârı yaklaşık 8,4 dolar. Bu fiyattan F/K 15 civarına iniyor. Gelirini yılda %75 büyütmeyi hedefleyen bir şirket için bu"
@@ -308,5 +303,10 @@
 "acilis": "aralık zirvesinden çizdiğim",
 "kaliplar": [],
 "metin": "Aralık zirvesinden çizdiğim çizgi Kasım başındaki tepeye de değiyor ve bu hafta 409 civarından geçiyor. Fiyat hâlâ hemen altında. Haftalık kapanış çizginin üstü"
+},
+{
+"acilis": "aralık zirvesinden gelen",
+"kaliplar": [],
+"metin": "Aralık zirvesinden gelen çizgi bu hafta 390 civarından geçiyordu, fiyat haftayı 400'den kapattı. CCI de aynı hafta kendi düşen trendini kırdı, böylece fiyat ve "
 }
 ]
