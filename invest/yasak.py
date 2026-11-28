@@ -179,7 +179,7 @@ _baglac = re.findall(r"\b(dolayısıyla|bu nedenle|bu yüzden|öte yandan|buna k
 if len(_baglac) > 1: hata.append(f"114-B: bağlaç fazla {_baglac}: tweet başına en çok 1")
 if len(re.findall(r"\byani\b", low)) > 1: hata.append("114-B: 'yani' en çok 1 kez (terim açıklamasında)")
 # üçlü sıfat/isim yığını: 'A, B ve C' (rakamsız, $'sız) -> YZ üçlüsü
-for m_ in re.finditer(r"\b([a-zçğıöşü]{3,}), ([a-zçğıöşü]{3,}) ve ([a-zçğıöşü]{3,})\b", low):
+for m_ in re.finditer(r"(?<![$\w])([a-zçğıöşü]{3,}), (?<!\$)([a-zçğıöşü]{3,}) ve (?<!\$)([a-zçğıöşü]{3,})\b", low):
     hata.append(f"114: üçlü yığın '{m_.group(0)}': bir tanesini seç")
     break
 

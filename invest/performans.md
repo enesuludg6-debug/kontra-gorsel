@@ -317,3 +317,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 28.11 | 18:34 | ACIKLAYICI | ACIKLAYICI NDX 200 günlük ortalamanın %4,9 altında, 13 kasımdan beri üstünde kapanış yok (biçim: kartsız) | kartsiz | 6b0af46f4ebef2b6d4e6dd4d |
 | 28.11 | 19:31 | VERI | SMH haftalık %10, 200G'nin %16 altında, hacim 1,4x; IGV 200G üstü (biçim: kart4 siralama, kural 113-C ilk tweet) | k4_siralama | 6b0b01f844ee786c1d8435e2 |
 | 28.11 | 20:26 | KARNE | Haftalık karne: tutan 2 yorum (çip hisseleri 24.11, NDX ayı eşiği 25.11) (biçim: kart4 haber) | k4_haber | 6b0b0ec45d4376bde3c4b3bd |
+| 28.11 | 20:47 | K111-HABER | K111 Situational Awareness Q3: NVDA/AMD/AVGO'dan uzak, bellek SKHY/SNDK/MU; NVDA'da ayrışma 12,5x (biçim: kartsız görüş) | kartsiz | 6b0b0f116deb644351c5d1a4 |
