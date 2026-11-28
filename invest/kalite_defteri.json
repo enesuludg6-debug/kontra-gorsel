@@ -2,22 +2,6 @@
 {
 "jargon": {},
 "tarih": [],
-"terim": [
-"sipariş defteri"
-],
-"acilis": "iddia",
-"kapanis": "bence fiyattaki kayıp müşterinin",
-"rekor": 0,
-"imza": "4p-satir-o-cerceve",
-"kalip": "J",
-"tur": "BAGLAM-GORUS",
-"zaman": "25.11 12:07",
-"gun": "25.11",
-"uzunluk": 515
-},
-{
-"jargon": {},
-"tarih": [],
 "terim": [],
 "acilis": "normal",
 "kapanis": "bence düşüş tek tip",
@@ -1161,5 +1145,24 @@
 "zaman": "28.11 16:06",
 "gun": "28.11",
 "uzunluk": 376
+},
+{
+"jargon": {},
+"tarih": [
+"1986"
+],
+"terim": [],
+"acilis": "iddia",
+"kapanis": "ben şimdi satmak için",
+"rekor": 0,
+"k89": [],
+"k89_son": "",
+"k89_hazir": [],
+"imza": "3p-satir-k-rakam",
+"kalip": "B",
+"tur": "TARIHSEL",
+"zaman": "28.11 16:38",
+"gun": "28.11",
+"uzunluk": 331
 }
 ]
