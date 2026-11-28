@@ -780,3 +780,4 @@ Durdurmak için en alta `DURDUR` yazılı bir satır ekle (Enes ya da Claude, En
 - 13:01 (28.11) AUTO (VERI-GENISLIK): g/20261128_1301_genislik.jpg (k4_cizgi) - GENISLIK (D) Cmt 5. tweet, kalip E, customScheduled 13:01 (12:26'dan 35 dk). 50G üstü %52 (1h önce %46), 200G üstü %55, yıllık dibe yakın 4. 13:05 turu 35 dk kuralıyla en erken 13:36. Buffer 6b0a9b189caa4fb9ca97756a. Son 3 duzen: kartsiz, stil_cizim, k4_cizgi.
 - 12:17 genişlik tweeti düzeltildi: 'kalabalık henüz inanmadı' -> 'çoğu yatırımcı hâlâ korkuyor' (Buffer edit); yasak.py 54-H'ye eklendi.
 - 12:21 KURAL 112: günlük 20-40 (hafta sonu dahil), aralık 20 dk, konu eşiği 60. Bugün 5 tweet var, 15+ daha gerek; tur aralığı 20-30 dk.
+- 12:25 HESAP DEVRİ HAZIRLIĞI D -> E: HESAP_DEVRI.md başına 28.11 bölümü yazıldı. Kilit hâlâ D; E devralınca D görevleri kapanır.
