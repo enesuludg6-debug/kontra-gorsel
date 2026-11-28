@@ -95,3 +95,11 @@ O-012 (24.11 20:30) Tekrar kontrolü yalnız DONGU'ya değil performans_veri.csv
 
 - 28.11 TA-STİL: Yahoo haftalık seride son gün ayrı mum olarak geliyor (mum kayması). Haftalık çizimde ISO hafta tekilleştir; trend çizgisini gerçek fitil uçlarından çiz, gövde ihlali 0 olsun.
 - 28.11 akran kıyası: 3,1K takipçili @Umitkirmizialan ortanca ~%95 görüntülenme/takipçi, biz %17-25. Fark: kışkırtıcı uyarı/tartışma tweetleri ve İngilizce büyük hesapları Türkçe alıntılama. Sistem tweetlerinde tartışma görüşü payı artmalı (gun_ozet 'tartışma görüşü' 2/gün hedefi doldurulsun).
+
+## 28.11 Kıyas: GayeSamaner (Enes'in ekran kaydı, 21:53)
+- 3,6B görüntülenme / 30 beğeni: $CRWV borç farkı (2031 tahvil getirisi %18 vs Meta GPU teminatlı kredi %7-7,5, Bloomberg 4,5 mlr $ kredi satışı) + dengeli hüküm ('CoreWeave para buldu, borç sorunu çözüldü sonucu fazla iyimser olur'). = bizim TEZ formatı.
+- 2,3B / 33 beğeni: sabah 'Günaydın herkese' piyasa açılış notu, kişisel ve esprili.
+- 1,3B / 21 beğeni: Fed Bej Kitap, birincil kaynak.
+- 498 / 5 beğeni: 'terimler sözlüğü, bookmark yapın' notu (en zayıf).
+- Beğeni/görüntülenme %0,8-1,6; bizim ~%1,1 (4,5/411). Fark kalitede değil ERİŞİMDE: o topluluk dili, yanıtlar, alıntılar ve ağ (@ulkser = Serkan Ülker, @BSZRESEARCH, @TradersPub) ile büyüyor.
+- Ders: (1) TEZ/sayılı dengeli hüküm tweeti tutuyor, sürdür; (2) sabah açılış notu kişisel/samimi bir tweet dene (emoji yine yasak); (3) sözlük/kaydet tweetleri zayıf.
