@@ -325,8 +325,8 @@ def main():
         pencere = 5 if k == 'izleme kapanışı' else 6
         sonN = [x for x in d[-pencere:] if k in x.get('jargon', {})]
         if sonN: hata.append(f'kural 62/64-B: "{k}" ailesi son {pencere} tweette {len(sonN)} kez geçti: bu tweette kullanma. Kapanışı "ben şunu izleyeceğim" ile değil, verinin vardığı sonuçla bitir.')
-    if len(jg) > 1:
-        hata.append(f'kural 62: bir tweette birden fazla piyasa jargonu {sorted(jg)}: en çok 1.')
+    if len(jg) > 3:  # kural 113 (Enes 28.11 19:26 'çok çok profesyonel borsacı'): 1 -> 3
+        hata.append(f'kural 62/113: bir tweette 3ten fazla piyasa jargonu {sorted(jg)}: en çok 3, her biri doğru yerde.')
     # 8) Tekrar (bölüm 8): son tweetlerle aynı tarihsel örnek / açılış / kapanış / terim seti
     son15, son30 = d[-15:], d[-30:]
     for y in f['tarih']:

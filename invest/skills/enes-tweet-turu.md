@@ -425,3 +425,16 @@ Amaç: takipçisine göre olağandışı yayılan finans tweetini bul, NEDEN yay
 Her gün (hafta sonu dahil) sistem tweeti EN AZ 20, EN ÇOK 40 (kural 98'in 15-20 / hafta sonu 8 sayıları geçersiz). Aralık en az 20 dk (35 dk kuralı yerine), tur 20-30 dk arayla, turda 1-2 tweet. Konu eşiği konu_puan ≥60; K107/K108/K111 her zaman yeterli. Alt sınıra yetişmek için tur boş geçmez: haber zayıfsa açıklayıcı, eğitici, tarihsel istatistik ya da veri tweeti. Kalite kapısı (yayin_kontrol.sh) aynen.
 
 54-H EK-3 (Enes 28.11 13:03 'Yönü Pazartesi'nin tam seansı ve Salı gecesi $MRVL bilançosu belirler' -> 'çok AI ibaresi'): 'Yönü X belirler / belirleyecek', 'son sözü X söyleyecek', 'belirleyici olacak şey' gibi kehanet/sunucu kapanışları YASAK. Düz ve kişisel yaz: 'Salı gecesi $MRVL bilançosuna bakacağım', 'Pazartesi 26.000 üstünde kalırsa dip geride'. yasak.py 54-H yakalar.
+
+## KURAL 113 — ENES SESİ + ÇOK ÜST DÜZEY BORSACI (Enes 28.11 19:26: "artık daha çok benim dilimde benim sesimle ama çok daha profesyonel bir borsacı gibi yazılmasını istiyorum, çok çok prof")
+Kural 102 (Enes sesi) ile kural 60/89 (profesyonel ton) arasındaki denge DEĞİŞTİ: ikisi birlikte, en üst seviyede. Ses Enes (birinci tekil, kısa, konuşur gibi, süssüz); İÇERİK ve KELİME hazinesi masada işlem yapan kıdemli bir borsacı.
+Her tweette:
+1. NET HÜKÜM + SEVİYE: "beğendim/beğenmedim", "ben buradan eklerim / burada beklerim" + somut rakam (fiyat, çarpan, eşik). Belirsiz "olabilir, sanırım, galiba, gibi görünüyor" YOK; "bence" en çok 1 kez.
+2. BORSACI TERİMLERİ doğal ve doğru: konsensüs, rehber (guidance), çarpan / ileri F/K, marj, nakit akışı, pozisyonlanma, katalizör, risk/ödül, destek/direnç, kapanış teyidi, hacim, revizyon, satış baskısı, kâr realizasyonu, sipariş görünürlüğü. Tweet başına 2-3 terim (kalite.py sınırı 3), her biri yerinde; terimi açıklamak açıklayıcı tweetin işi.
+3. EN AZ BİR "MASA" DETAYI: piyasanın neyi fiyatladığı / beklentiden fark / pozisyonlanma / tetikleyici tarih / geçersiz kılan seviye (kural 89 öğelerinden en az biri; uyarı değil hedef).
+4. Kısa: ilk satır ≤12 kelime iddia; toplam 3 paragrafı geçmez; cümle ortalaması ≤18 kelime (ses_kontrol).
+5. YASAK kalır: vecize/mecaz kapanış, 54-F/G/H kalıpları, "X değil Y" süsü, al/sat tavsiyesi, soru, emoji, hashtag.
+Örnek (önce -> sonra):
+- "Bence bu düşüş fırsat olabilir." -> "$MU zirveden %48 aşağıda, 12 kat kârla işlem görüyor. Ben 600 altını kademeli alım bölgesi sayıyorum, 560 kapanışı tezi bozar."
+- "Hisse güzel yükseldi." -> "$NVDA haftayı güçlü kapattı ama hacim ortalamanın altında. Kapanış teyidi 160 üstü, gelmezse bu bir tepki yükselişi."
+Taslaklar (kural 69) ve "Ne anlama geliyor?" açıklamaları da aynı seviyede yazılır; Enes'e mesajlar Türkçe.
