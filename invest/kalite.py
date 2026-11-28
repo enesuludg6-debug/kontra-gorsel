@@ -21,7 +21,7 @@ SINIR = {
     'SONDAKIKA': 600, 'HABER': 600, 'VADELI': 500, 'BEKLENTI': 500, 'OPSIYON': 600, 'KEYLEVELS': 700,
     'BILANCO-RAKAM': 700, 'GUNUN-OLAYLARI': 700, 'TAKIP': 700, 'ICERIDEN-ALIM': 700, 'FED-TAHVIL': 700, 'MAKRO': 700, 'KRIPTO': 700, 'TARIHSEL': 500,
     'BAGLAM-GORUS': 800, 'PORTFOY': 800, 'FIKIR': 800, 'SEKTOR': 800, 'ENES-HABER': 800, 'ENES-ISTEGI': 900,
-    'EGITICI': 900, 'DERIN-ANALIZ': 1200, '13F': 1000, 'ANALIST': 1000, 'BILANCO-ANALIZ': 1200, 'HAFTALIK-OZET': 1200, 'AYIN-OZETI': 1200,
+    'EGITICI': 900, 'UZUN': 4000, 'DERIN-ANALIZ': 1200, '13F': 1000, 'ANALIST': 1000, 'BILANCO-ANALIZ': 1200, 'HAFTALIK-OZET': 1200, 'AYIN-OZETI': 1200,
 }
 VARSAYILAN = 800
 UZUN_UYARI = 700          # bu uzunluğu geçen her metin "kısa yazılınca değer kaybeder mi?" sorusunu cevaplar
@@ -318,7 +318,7 @@ def main():
         n_bugun = sum(1 for x in d if x.get('tur') == 'DERIN-ANALIZ' and x.get('gun') == bugun.strftime('%d.%m'))
         if n_bugun >= DERIN_GUNLUK: hata.append(f'kural 63: bugün zaten {n_bugun} DERIN-ANALIZ atıldı (günde en çok {DERIN_GUNLUK}); başka türde, kısa yaz.')
     # KURAL 86 (Enes 25.11 18:05, F-012/F-017): günlük tavan 20 + kısa, tek fikir
-    MUAF86 = {'GUNUN-OLAYLARI', 'BILANCO-RAKAM', 'BILANCO', 'KEYLEVELS', 'ENES-ISTEGI', 'ENES-HABER', 'VADELI', 'TARIHSEL'}
+    MUAF86 = {'UZUN', 'GUNUN-OLAYLARI', 'BILANCO-RAKAM', 'BILANCO', 'KEYLEVELS', 'ENES-ISTEGI', 'ENES-HABER', 'VADELI', 'TARIHSEL'}
     _bg = (dt.datetime.now(dt.timezone(dt.timedelta(hours=3))) - dt.timedelta(hours=2)).strftime('%d.%m')
     n_gun = sum(1 for x in d if x.get('gun') == _bg)
     _hs = (dt.datetime.now(dt.timezone(dt.timedelta(hours=3))) - dt.timedelta(hours=2)).weekday() >= 5
@@ -333,6 +333,10 @@ def main():
         if len(sy) > 5: hata.append(f'kural 86: {len(sy)} farklı rakam; tek fikir, en çok 3 (sınır 5). Fazlasını karta taşı.')
         elif len(sy) > 3: uyari.append(f'kural 86: {len(sy)} farklı rakam; hedef en çok 3, fazlası kartta.')
         if len(paragraflar(t)) > 3: hata.append('kural 86: 3 paragraftan uzun; tek fikir, kısa yaz.')
+    # KURAL 119 (Enes 28.11 21:36): bazı tweetler aşırı uzun
+    if tur == 'UZUN':
+        if n < 1500: hata.append(f'kural 119: UZUN tweet {n} karakter; en az 1500 (hedef 1800-3500).')
+        if len(paragraflar(t)) < 5: hata.append('kural 119: UZUN tweette en az 5 kısa paragraf olmalı (okunur bloklar).')
     # KURAL 89 (Enes 25.11 18:31): hedge fon yöneticisi üslubu
     if tur not in MUAF86 and tur not in {'EGITICI'}:
         if not re.search(r"fiyatl|beklenti|konsens|olasılı|ihtimal|eşi[kğ]|katalizör|risk|asimetri|pozisyonlan|kalabalık|görüşümü değiştir", l):

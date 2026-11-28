@@ -579,3 +579,19 @@ Enes 21:08 ASML tweetinin kapanışına baktı: "Sipariş defteri gerilerse fikr
 - Kelime seçimi Enes'in ağzından: "değişebilir", "gözükmüyor", "mantıksız buluyorum", "o yüzden". "haksız/yersiz bulmak", "şimdilik" yazı dili.
 - Her tweette aynı kalıp tekrar edilmez (114-C): parçaların sırası ve kelimeleri değişir, ör. "Talep zayıflarsa görüşüm değişebilir ama sipariş tarafında öyle bir işaret yok, o yüzden bu kadar ucuz kalmasını anlamıyorum."
 - Bu kural "olabilir/değişebilir" yasağına (113-B hedge) istisnadır: koşullu tetikleyici cümlesinde "değişebilir" serbest; hüküm kısmı yine kesin.
+
+## KURAL 119 — BAZI TWEETLER AŞIRI UZUN (Enes 28.11 21:36: "bazı tweetlerimiz aşırı uzun olsun")
+- Her gün EN AZ 2 UZUN tweet (tur `UZUN`): biri ABD seansı içinde (16:30-20:00), biri akşam (20:00-23:30). Üst sınır yok; diğer tweetler kısa kalır (kural 86 akışı bozulmaz, uzun/kısa karışık akış).
+- Uzunluk 1500-4000 karakter (kalite.py: <1500 ya da <5 paragraf = hata). X'in uzun gönderisi; ilk 280 karakter "devamını göster"den önce görünür, o yüzden ilk 2 satır tek başına tıklatacak kadar güçlü (kural 79 kanca, 12 kelime sınırı burada da hedef).
+- Konu: günün en büyük hikâyesi ya da bir hissenin derin analizi (bilanço, sektör, değerleme, büyük fon hamlesi). Kısa tweetle zaten atılmış konu da olur, ama aynı cümleler tekrar edilmez; uzun tweet yeni katman ekler.
+- Akış (başlık koymadan, kısa paragraflar):
+  1. Kanca: iddia + en çarpıcı rakam.
+  2. Ne oldu: olgular, rakamlar (her rakam 2 kaynak, kural 61).
+  3. Nasıl çalışıyor: mekanizma, terim açıklaması (113-F: ağır terim + "yani" ile Türkçesi).
+  4. Piyasa ne fiyatlıyor: çarpan, konsensüs, akranla kıyas (113-C/D/E).
+  5. Benim görüşüm ve neden (beğendim/beğenmedim; AI-pozitif çizgi).
+  6. Kapanış kural 118 tek akış: "<tetikleyici> olursa fikrim değişebilir ama şu an ... gözükmüyor, o yüzden ...".
+- Kural 86'nın "tek fikir, en çok 3 rakam, 3 paragraf" sınırı UZUN'da yok; ama her paragraf tek fikir, en çok 3-4 cümle. Liste yok (Enes isterse olur), emoji/hashtag/link/soru ile bitirme yok.
+- 113/114/114-B/114-C/116/118 aynen; uzunluk AI izini artırır, yasak.py/ses_kontrol temiz olmadan atılmaz. Teknik öğeler yalnız TA içerikli UZUN'da.
+- Kart: kart4 (konuya uygun tek kart) ya da kartsız; ölçüm: performans_veri.csv'de UZUN ortalaması diğer türlerle haftalık kıyaslanır, tutmazsa Enes'e rakamla raporlanır.
+- Sayaç: `gun_ozet.py` "UZUN n/2".

@@ -19,6 +19,7 @@ gg = gun.strftime("%d.%m"); dongu = [l for l in open(os.path.join(D, "DONGU.md")
 taslak = len({re.search(r"\d\d:\d\d", l).group() for l in dongu if "ENES-TASLAK" in l and re.search(r"\d\d:\d\d", l)})
 kon = " ".join(r["konu"] for r in R).upper()
 acik = sum(1 for r in R if "AÇIKLAYICI" in r["konu"].upper() or "ACIKLAYICI" in r["konu"].upper())
+uzun = sum(1 for r in R if r["tur"].upper().startswith("UZUN"))
 egit = sum(1 for r in R if r["tur"].upper().startswith("EGITICI"))
 tar = sum(1 for r in R if r["tur"].upper().startswith("TARIHSEL"))
 ta_stil = sum(1 for r in R if "TA-STİL" in r["konu"].upper() or "TA-STIL" in r["konu"].upper())  # kural 110: en az 2
@@ -33,7 +34,7 @@ ust = 40; alt = 20  # kural 112 (Enes 28.11 12:20): her gün 20-40
 ts_hedef = 2 if pazar else 3 if haftasonu else 6
 print(f"GÜN {gg} ({'hafta sonu' if haftasonu else 'hafta içi'}) | sistem tweeti {len(R)} (hedef {alt}-{ust}{', ÜST SINIR DOLDU' if len(R) >= ust else ''})")
 print(f"  KURAL 110: TA-STİL {ta_stil}/2+ | TEMEL-FİKİR (K107) {temel}/1+ | PATLAMA (K111) {patlama}/2+{'  <- EKSİK' if ta_stil < 2 or temel < 1 or patlama < 2 else ''}")
-print(f"  AÇIKLAYICI {acik}/{0 if haftasonu else 5}{'(hafta sonu 2)' if haftasonu else ''} | ENES-TASLAK {taslak}/{ts_hedef} | EGITICI {egit}/1 | TARIHSEL {tar}/1-2 | kartsız {kartsiz}/3 | tartışma görüşü {gorus}/2")
+print(f"  AÇIKLAYICI {acik}/{0 if haftasonu else 5}{'(hafta sonu 2)' if haftasonu else ''} | ENES-TASLAK {taslak}/{ts_hedef} | EGITICI {egit}/1 | UZUN {uzun}/2 | TARIHSEL {tar}/1-2 | kartsız {kartsiz}/3 | tartışma görüşü {gorus}/2")
 if R:
     s = R[-1]; st = dt.datetime.fromisoformat(f"{s['tarih']}T{s['saat']}").replace(tzinfo=n.tzinfo)
     en_erken = st + dt.timedelta(minutes=20); fark = int((n - st).total_seconds() // 60)
