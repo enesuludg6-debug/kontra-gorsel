@@ -409,3 +409,11 @@ Not: Enes'in 28.11'de örnek attığı TSLA haftalık (düşen trend + 40H HO + 
 - Aynı gün tweet bulunamazsa (dizin gecikmesi) arama 2 kez daha denenir (farklı sorgu: hisse adı + 'chart', 'breakout', 'weekly'); yine yoksa DONGU'ya gerekçe yazılır, alt sınır o gün düşer.
 
 54-H EK-2 (Enes 28.11 12:16 'kalabalık henüz inanmadı' -> 'çok AI gibi'): piyasayı/kalabalığı kişileştiren kanaat kalıpları YASAK: 'kalabalık henüz inanmadı', 'piyasa ikna olmadı', 'yatırımcılar kabullenmedi'. Düz ve ölçülebilir yaz: 'çoğu yatırımcı hâlâ korkuyor', 'korku endeksi hâlâ 25 altında' (yasak.py 54-H yakalar).
+
+## KURAL 111 — PATLAYAN TWEET AVCISI (Enes 28.11 12:17 'takipçi sayısına göre tweeti çok patlamış hesapların o tweetini alıp benzer bir tweet atamaz mısın')
+Amaç: takipçisine göre olağandışı yayılan finans tweetini bul, NEDEN yayıldığını çıkar, aynı fikri/biçimi kendi verimiz ve Enes sesiyle yaz.
+- Bulma (her gün en az 1 aday, tur başına en çok 2 ek arama): X nabzı WebSearch (allowed_domains x.com/twitter.com) — sorgular: '<gündem hissesi> Görüntülenme', 'ABD borsası $TICKER', '<tema> views'. Sonuçta görünen görüntülenme ÷ hesabın takipçisi (profil sonucundan ya da X_NABIZ akran tablosundan). PATLAMA = görüntülenme ≥ 5 x takipçi VE ≥ 10 bin. Enes'in attığı ekran kayıtları/görüntüleri de kaynak (28.11 @Umitkirmizialan 27B / 3,1B takipçi).
+- xcancel/nitter aynaları 28.11'de bot korumasıyla reddetti; deneme tur başına en çok 1, başarısızsa arama motoruyla devam. x.com'a giriş YOK.
+- Çözümleme (DONGU'ya 1 satır 'PATLAMA: <hesap> <görüntülenme>/<takipçi> <neden>'): konu (kitlenin acısı mı, haber mi), biçim (uyarı, tartışma, liste, grafik, alıntı), ilk satır kancası, saat.
+- Yazma: AYNI KONU ya da AYNI BİÇİM, cümle kopyası YOK, çeviri YOK, hesap adı anılmaz. Rakamlar 2 kaynak. Enes sesi (102), $TICKER (109), 54-H yasakları. Zamanı mümkünse orijinalin patladığı saat dilimine yakın.
+- Sayılır: günlük toplamın içinde, tür PATLAMA-BENZER; kayit.py --konu içine 'K111'. 48 saat sonra görüntülenmesi bizim ortancamızla karşılaştırılır -> DERSLER.md 1 satır (hangi biçim bizde de tuttu).
