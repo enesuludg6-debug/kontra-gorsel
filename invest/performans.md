@@ -311,3 +311,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 28.11 | 15:35 | K111-LISTE | K111 YZ hisseleri 52H zirveden düşüş listesi Kara Cuma (biçim: kart4 siralama, tartışma görüşü) | k4_siralama | 6b0aca77b8ec87c6cec48b55 |
 | 28.11 | 16:06 | K111-HABER | K111 NVDA Blackwell Şanghay veri merkezi haberi, hisse %2,6 düşüp artıda kapattı (biçim: kartsız görüş) | kartsiz | 6b0ad1dd0f9559e0ce13ae48 |
 | 28.11 | 16:38 | TARIHSEL | TARIHSEL NDX haftada %6,5+ sonrası 3 ay: %74 artıda, medyan %13,3 vs %4,6 (biçim: kart4 kiyas) | k4_kiyas | 6b0ad95bbe536564e4329426 |
+| 28.11 | 17:05 | ACIKLAYICI | ACIKLAYICI SKHY hisse geri alım ve iptal: 2026'da 60 trilyon won, ağustos 40T = hisselerin %3,3'ü (biçim: kartsız) | kartsiz | 6b0adfabc6d7f1e7224a0e19 |

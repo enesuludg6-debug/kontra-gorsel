@@ -292,9 +292,9 @@ def main():
     _bg = (dt.datetime.now(dt.timezone(dt.timedelta(hours=3))) - dt.timedelta(hours=2)).strftime('%d.%m')
     n_gun = sum(1 for x in d if x.get('gun') == _bg)
     _hs = (dt.datetime.now(dt.timezone(dt.timedelta(hours=3))) - dt.timedelta(hours=2)).weekday() >= 5
-    TAVAN = 10 if _hs else 26  # Enes 25.11 18:08: hafta içi en az 18 en çok 26, hafta sonu en çok 10
+    TAVAN = 40  # kural 112 (Enes 28.11): her gün 20-40; eski kural 86 tavanı (hafta sonu 10, hafta içi 26) geçersiz
     if n_gun >= TAVAN and tur not in {'ENES-ISTEGI', 'ENES-HABER', 'SONDAKIKA'}:
-        hata.append(f'kural 86: bugün {n_gun} sistem tweeti atıldı ({"hafta sonu" if _hs else "hafta içi"} en çok {TAVAN}); yalnız son dakika ya da Enes isteği.')
+        hata.append(f'kural 86: bugün {n_gun} sistem tweeti atıldı (kural 112 en çok {TAVAN}); yalnız son dakika ya da Enes isteği.')
     if tur not in MUAF86:
         ilk = t.strip().split('\n')[0]
         if len(re.findall(r'\w+', ilk)) > 12:
