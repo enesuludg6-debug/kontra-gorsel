@@ -115,6 +115,54 @@ for r_, ad in [
     if re.search(r_, low):
         hata.append("54-H: " + ad)
 
+# KURAL 114 — YAPAY ZEKÂ YAZIM İZLERİ (Enes 28.11 19:45: 'tezi bozar, risk masada, ben acele etmiyorum vb. tüm ifadeleri araştır, çok kapsamlı, bunları kullanma')
+# Kaynak: Pangram 'Yapay zeka ile yazılmış metnin 9 belirtisi' (markdown, YZ ifadeleri, uzun tire, madde yığını, üçlüler,
+# 'sadece X değil Y de', olağandışı unicode, sohbet botu açılışı, ✅🚀 emojileri), Decrypt/NCC/Fast Company ('X değil, Y'
+# negatif paralellik, aşırı düzgün ritim, dengeli temkin), Grammarly/Miessler (delve, at its core, crucial, it's worth noting)
+# + kendi tweet geçmişimizden çıkan Türkçe sistem klişeleri. Tam liste ve gerekçe: invest/YZ_IZLERI.md
+YZ114 = [
+    # --- yapısal kalıplar ---
+    (r"\b(sadece|yalnızca|yalnız|salt)\b[^.\n]{0,50}\bdeğil\b", "'sadece X değil, Y de' kalıbı"),
+    (r"\bdeğil\s*[,;]\s*(bu|o|asıl|tam|aksine|tersine|\w+dır\b|\w+dir\b)", "'X değil, Y' negatif paralellik"),
+    (r"\b\w+(dan|den|tan|ten)\s+çok\s+\w+\s+(ile ilgili|meselesi|hikâyesi|hikayesi)", "'X'ten çok Y meselesi' kalıbı"),
+    (r"[—–]", "uzun tire (— / –): virgül ya da nokta kullan"),
+    (r"[→⇒➜✅✔❌🚀⚠️📈📉🔥💡👉]", "YZ unicode/emoji işareti"),
+    (r"^\s*(elbette|tabii ki|tabii!|harika soru|memnuniyetle|işte\b)", "sohbet botu açılışı ('Elbette / İşte ...')"),
+    (r"\b(peki|sonuç mu|neden mi|nasıl mı|ne mi)\b[^.\n]{0,40}\?", "kendi sorup kendi cevaplama (retorik soru)"),
+    (r"\*\*|^#+\s", "markdown biçimi"),
+    # --- Enes'in yasakladığı sistem klişeleri (28.11) ---
+    (r"tez(i|im|imiz)?\s+(boz|çök|geçersiz)", "'tezi bozar / tezim bozulur' klişesi: ne yapacağını düz söyle ('124'ün altına inerse çıkarım')"),
+    (r"\brisk\w*\s+masa|\bmasada\b", "'risk masada' klişesi"),
+    (r"acele etmiyorum|acele etmem|aceleci değilim|sabırla bekliyorum|sabırlı kalıyorum", "'ben acele etmiyorum' klişesi"),
+    (r"panik yapmıyorum|sakin kalıyorum|soğukkanlı", "ruh hali klişesi"),
+    (r"yanıldığımı kabul ederim|yanılmış olurum|haksız çıkarım", "'yanıldığımı kabul ederim' kapanış klişesi"),
+    (r"daha rahat ederim|içim rahat|rahat uyurum", "'daha rahat ederim' duygu klişesi"),
+    (r"\bteyit (eder|sayarım|sayıyorum|olur)\b|\bonay(lar|layacak)\b", "'X üstü teyit eder' şablon kapanışı: 'X'i geçerse eklerim' gibi düz yaz"),
+    (r"risk/ödül\w* (alım|satım) tarafında|asimetri(k)? (alım|yukarı) yönlü", "'risk/ödül alım tarafında' şablonu"),
+    (r"benim ayrıştığım|ayrıştığım (yer|nokta|değişken)", "'benim ayrıştığım yer bu' şablonu"),
+    # --- Türkçe YZ sözlüğü ---
+    (r"(şunu|altını) (özellikle )?(belirtmek|çizmek|vurgulamak) (gerekir|lazım|isterim)|unutmamak gerekir|göz ardı edilmemeli|dikkat çekmek gerekir", "'şunu belirtmek gerekir' YZ kalıbı"),
+    (r"derinlemesine|kritik (öneme|nokta|rol|eşik)|kilit (rol|önem)|hayati önem|vazgeçilmez|çığır açan|dönüştürücü|oyun değiştirici|paradigma", "YZ abartı sözlüğü (kritik, kilit rol, çığır açan...)"),
+    (r"yeni bir (dönem|sayfa|çağ)(ın)? (başla|açıl|kapı)|kapı(larını)? aral|ufuk aç", "'yeni bir dönemin kapısı' mecazı"),
+    (r"\b(sonuç olarak|özetle|kısacası|günün sonunda|nihayetinde|tüm bunlar|her şeyin ötesinde)\b", "YZ özet bağlacı (sonuç olarak, özetle, günün sonunda)"),
+    (r"büyük resim|resmin tamamı|madalyonun (öbür|diğer) yüzü|işin özü|asıl mesele|asıl soru|meselenin özü", "'büyük resim / işin özü' kalıbı"),
+    (r"gözler \w+(e|a|ye|ya|te|ta|de|da)\b|mercek altı|nabzını tut|perde arkası|zaman gösterecek|bekleyip göreceğiz", "'gözler X'te / zaman gösterecek' sunucu kalıbı"),
+    (r"kayda değer|dikkat çekici|çarpıcı bir|merak konusu|göze çarpıyor", "'kayda değer / çarpıcı' YZ sıfatı"),
+    (r"işaret ediyor|sinyal(ini)? veriyor|ipucu veriyor|gösteriyor ki|bu da gösteriyor", "'işaret ediyor / sinyal veriyor' yorum kalıbı: rakamla söyle"),
+    (r"temkinli iyimser|dengeli bir yaklaşım|ölçülü bir|her iki tarafı", "dengeli temkin kalıbı ('temkinli iyimserim')"),
+    (r"yol haritası|\bpusula|\bfırtına|\brüzgar\b|\bdalga(sı)?\b|\bdümen", "mecaz (yol haritası, pusula, fırtına, rüzgar, dalga)"),
+    (r"bir yandan[^.\n]{0,80}diğer yandan", "'bir yandan ... diğer yandan' denge kalıbı"),
+    (r"(yatırımcılar|okurlar) için (ne )?anlamı|ne anlama geliyor", "'yatırımcılar için ne anlama geliyor' sunucu kalıbı (yalnız Enes'e mesajda serbest)"),
+    (r"ilginç bir (çelişki|tablo|durum)|garip bir durum var", "hazır açılış ('ilginç bir çelişki / garip bir durum var'): doğrudan olguyla başla"),
+]
+for r_, ad in YZ114:
+    if re.search(r_, low, flags=re.M):
+        hata.append("114: " + ad)
+# üçlü sıfat/isim yığını: 'A, B ve C' (rakamsız, $'sız) -> YZ üçlüsü
+for m_ in re.finditer(r"\b([a-zçğıöşü]{3,}), ([a-zçğıöşü]{3,}) ve ([a-zçğıöşü]{3,})\b", low):
+    hata.append(f"114: üçlü yığın '{m_.group(0)}': bir tanesini seç")
+    break
+
 # Kural 54-E (Enes 24.11 09:10: "'Nakit tarafı da güçlü.' çok yapay zekâ ibaresi gibi duruyor, böyle şeyler kullanmasın"):
 # rakamsız "X tarafı/cephesi (da) güçlü/zayıf/sağlam..." hüküm cümleleri ve rakamsız kısa sıfat-hüküm cümleleri yasak.
 SIFAT = r"(güçlü|zayıf|sağlam|temiz|olumlu|olumsuz|iyi|kötü|parlak|sağlıklı|net|rahat|sorunlu|cılız|kuvvetli|istikrarlı|dengeli|sıkıntılı)"

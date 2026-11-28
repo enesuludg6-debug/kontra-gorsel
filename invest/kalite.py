@@ -124,7 +124,7 @@ def kalip_kontrol(k, l, t):
     if k == 'M':
         return bool(re.search(r'\b\d{1,2} (ocak|şubat|mart|nisan|mayıs|haziran|temmuz|ağustos|eylül|ekim|kasım|aralık)|aralık|ocak|haftaya|yarın|perşembe|cuma', l)) and bool(re.search(r'bakacağım|izleyeceğim|belirleyecek|gösterecek|netleşecek|kontrol edeceğim|takip edeceğim|merak ediyorum|bekliyorum', l)), 'M tetikleyici takvimi: somut tarih ve o tarihte bakılacak rakam'
     if k == 'N':
-        return bool(re.search(r'bozar|bozulur|yeter|çeyrek boyunca|dayanır|kırılma', l)) and len(_sayilar(l)) >= 2, 'N kırılma noktası: tezi bozacak tek şey ve bugünkü mesafesi, rakamla (ör. nakit kaç çeyrek yeter)'
+        return bool(re.search(r'bozar|bozulur|yeter|çeyrek boyunca|dayanır|kırılma|kırılırsa|altına inerse|kenara çekil|çıkarım', l)) and len(_sayilar(l)) >= 2, 'N kırılma noktası: tezi bozacak tek şey ve bugünkü mesafesi, rakamla (ör. nakit kaç çeyrek yeter)'
     if k == 'F':
         return bool(re.search(r'olağan|normal|sık görülür|alışılmış', l)), 'F: hareketin olağan olduğunu açıkça söyle'
     return False, 'kalıp A-N olmalı'
