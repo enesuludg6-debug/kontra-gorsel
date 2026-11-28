@@ -307,3 +307,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 28.11 | 12:50 | TEKNIK | TA-STİL TSLA haftalık: düşen trend 409, kırılım henüz yok, eşik 345 (biçim: stil çizim) | stil_cizim | 6b0a9386ced9496800aa44f9 |
 | 28.11 | 13:01 | VERI-GENISLIK | Nasdaq 100 genişlik %46->%52, korku hâlâ aşırı (biçim: kart4 cizgi) | k4_cizgi | 6b0a9b189caa4fb9ca97756a |
 | 28.11 | 13:22 | TEMEL-FIKIR | K107 HBM 2027 200 mlr $ fiyat 2 kat, MU SKHY marj (biçim: kartsız görüş) | kartsiz | 6b0aab62d2df6f06d3a2f889 |
+| 28.11 | 15:11 | SEKTOR | Sektör haftalık: malzeme 7,9 teknoloji 7,5 önde, savunma 2,5 geride (biçim: kart4 isi) | k4_isi | 6b0ac50b0f9559e0ce0dac83 |
