@@ -3,20 +3,6 @@
 "jargon": {},
 "tarih": [],
 "terim": [],
-"acilis": "normal",
-"kapanis": "bence düşüş tek tip",
-"rekor": 0,
-"imza": "3p-duz-o-cerceve",
-"kalip": "L",
-"tur": "BAGLAM-GORUS",
-"zaman": "25.11 12:54",
-"gun": "25.11",
-"uzunluk": 629
-},
-{
-"jargon": {},
-"tarih": [],
-"terim": [],
 "acilis": "iddia",
 "kapanis": "bence nasdaq vadeli işlemlerindeki",
 "rekor": 0,
@@ -1164,5 +1150,22 @@
 "zaman": "28.11 16:38",
 "gun": "28.11",
 "uzunluk": 331
+},
+{
+"jargon": {},
+"tarih": [],
+"terim": [],
+"acilis": "normal",
+"kapanis": "bu büyüklükte bir geri",
+"rekor": 0,
+"k89": [],
+"k89_son": "",
+"k89_hazir": [],
+"imza": "3p-duz-k-ticker",
+"kalip": "E",
+"tur": "ACIKLAYICI",
+"zaman": "28.11 17:05",
+"gun": "28.11",
+"uzunluk": 432
 }
 ]
