@@ -1,24 +1,5 @@
 [
 {
-"jargon": {
-"fiyatlama": 1
-},
-"tarih": [],
-"terim": [
-"brüt marj",
-"sipariş defteri"
-],
-"acilis": "normal",
-"kapanis": "belirleyici kalem brüt marj",
-"rekor": 0,
-"imza": "3p-satir-k-rakam",
-"kalip": "G",
-"tur": "BEKLENTI",
-"zaman": "24.11 23:01",
-"gun": "24.11",
-"uzunluk": 444
-},
-{
 "jargon": {},
 "tarih": [],
 "terim": [
@@ -1135,5 +1116,24 @@
 "zaman": "28.11 10:57",
 "gun": "28.11",
 "uzunluk": 405
+},
+{
+"jargon": {},
+"tarih": [],
+"terim": [],
+"acilis": "iddia",
+"kapanis": "ben endeks 25 in",
+"rekor": 0,
+"k89": [
+"esik"
+],
+"k89_son": "esik",
+"k89_hazir": [],
+"imza": "3p-satir-k-rakam",
+"kalip": "C",
+"tur": "KORKU",
+"zaman": "28.11 10:59",
+"gun": "28.11",
+"uzunluk": 291
 }
 ]
