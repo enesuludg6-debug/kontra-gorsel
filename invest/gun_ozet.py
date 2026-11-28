@@ -23,12 +23,13 @@ egit = sum(1 for r in R if r["tur"].upper().startswith("EGITICI"))
 tar = sum(1 for r in R if r["tur"].upper().startswith("TARIHSEL"))
 ta_stil = sum(1 for r in R if "TA-STİL" in r["konu"].upper() or "TA-STIL" in r["konu"].upper())  # kural 110: en az 2
 temel = sum(1 for r in R if "K107" in r["konu"].upper())  # kural 110: favori 4 hesap fikri, en az 1
+patlama = sum(1 for r in R if "K111" in r["konu"].upper())  # kural 111-Y: yabancı patlayan tweet uyarlaması, en az 2
 kartsiz = sum(1 for r in R if not r["duzen"] or r["duzen"] in ("yok", "kartsiz"))
 gorus = sum(1 for l in dongu if "biçim: görüş" in l or "bicim: gorus" in l)
 ust = 8 if haftasonu else 20; alt = 0 if haftasonu else 15
 ts_hedef = 2 if pazar else 3 if haftasonu else 6
 print(f"GÜN {gg} ({'hafta sonu' if haftasonu else 'hafta içi'}) | sistem tweeti {len(R)} (hedef {alt}-{ust}{', ÜST SINIR DOLDU' if len(R) >= ust else ''})")
-print(f"  KURAL 110: TA-STİL {ta_stil}/2+ | TEMEL-FİKİR (K107) {temel}/1+{'  <- EKSİK' if ta_stil < 2 or temel < 1 else ''}")
+print(f"  KURAL 110: TA-STİL {ta_stil}/2+ | TEMEL-FİKİR (K107) {temel}/1+ | PATLAMA (K111) {patlama}/2+{'  <- EKSİK' if ta_stil < 2 or temel < 1 or patlama < 2 else ''}")
 print(f"  AÇIKLAYICI {acik}/{0 if haftasonu else 5}{'(hafta sonu 2)' if haftasonu else ''} | ENES-TASLAK {taslak}/{ts_hedef} | EGITICI {egit}/1 | TARIHSEL {tar}/1-2 | kartsız {kartsiz}/3 | tartışma görüşü {gorus}/2")
 if R:
     s = R[-1]; st = dt.datetime.fromisoformat(f"{s['tarih']}T{s['saat']}").replace(tzinfo=n.tzinfo)
