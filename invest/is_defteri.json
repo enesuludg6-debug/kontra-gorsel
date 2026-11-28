@@ -3356,11 +3356,11 @@
    "ne": "Kural 66: 25.11 20:57 tweeti, eşik 24.980",
    "ticker": "",
    "tur": "sonuctakip",
-   "durum": "kuruldu",
+   "durum": "yapildi",
    "not": "",
    "trigger": "trig_01BiMWJSSysJVLSqATmd8Wer",
    "soz": "",
-   "guncelleme": "26.11 11:41",
+   "guncelleme": "28.11 11:11",
    "mesaj": "HESAP=C3. Önce invest/AKTIF_HESAP.md oku; AKTIF: C3 değilse hiçbir şey yapma ve bu görevi kapat. git pull. TEST-NDX-AYI (kural 66, skill enes-sonuc-takibi): 25.11 20:57 tweeti (Buffer 6b07218d52de4830633e1512) 'Nasdaq 100 ayı çizgisine (zirve 31.224'ün −%20'si = 24.980) dokunup döndü; bence satış bitmedi, eşik savunuldu; çizgi kapanış bazında kırılırsa ayı piyasası' dedi. 27.11 Cuma yarım gün kapanışında ^NDX'i Yahoo günlük kapanıştan + 2. kaynaktan al. 24.980 üstünde kaldıysa 'eşik savunuldu' kısmı tuttu (sonuç tweeti, kural 86 kısa, fon yöneticisi üslubu); altında kapandıysa tweet atma, yalnız DONGU iç notu. `python3 invest/yorumlar.py sonuc TEST-NDX-AYI tuttu|tutmadi \"<kapanış>\"`, `python3 invest/isler.py durum TEST-NDX-AYI yapildi`. Hafta sonu sayacı (en çok 10) içinde. Mesajlar bu sohbete (SendUserMessage / SendUserFile)."
   },
   {

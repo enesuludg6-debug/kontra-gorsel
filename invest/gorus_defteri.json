@@ -1,10 +1,5 @@
 [
 {
-"acilis": "altının hisselerle birlikte",
-"kaliplar": [],
-"metin": "Altının hisselerle birlikte satılması klasik bir zorunlu pozisyon azaltımı işareti. Güvenli liman bu dönemde koruma aracı değil, nakit kaynağı olarak kullanılıy"
-},
-{
 "acilis": "faiz artışı değerleme",
 "kaliplar": [],
 "metin": "Faiz artışı değerleme çarpanını aşağı çeker, şirketin gelir büyümesini değil. Talebi ve sipariş defteri güçlü şirketlerde çarpan daralması fiyatı temelden uzakl"
@@ -308,5 +303,10 @@
 "acilis": "ben endeks 25",
 "kaliplar": [],
 "metin": "Ben endeks 25'in üstüne kalıcı çıkmadan korkunun bittiğini düşünmüyorum, bu eşik bende risk ölçüsü."
+},
+{
+"acilis": "yönü pazartesi nin",
+"kaliplar": [],
+"metin": "Yönü Pazartesi'nin tam seansı ve Salı gecesi Marvell bilançosu belirler."
 }
 ]

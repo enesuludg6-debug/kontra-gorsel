@@ -50,9 +50,9 @@
   "yorum": "Nasdaq 100 ayı çizgisinde döndü; eşik savunuldu, kapanış bazında kırılırsa ayı piyasası",
   "esik": "27.11 kapanış ^NDX > 24.980",
   "kontrol": "2026-11-28",
-  "sonuc": "",
-  "ne_oldu": "",
-  "sonuc_tarih": ""
+  "sonuc": "tuttu",
+  "ne_oldu": "27.11 kapanış 26.726",
+  "sonuc_tarih": "2026-11-28"
  },
  {
   "id": "TEST-SKH-0412",
