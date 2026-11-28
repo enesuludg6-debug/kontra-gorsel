@@ -139,9 +139,9 @@ def _y(v, birim="%"):
     return _s(v) + birim
 
 # 2) SIRALAMA — yatay çubuklar, vurgulanan satır renkli, diğerleri gri
-def siralama(kicker, baslik, vurgu, satirlar, alinti, kaynak, out, renk=ACC, vurgula=(), birim="%", tarih=None):
+def siralama(kicker, baslik, vurgu, satirlar, alinti, kaynak, out, renk=ACC, vurgula=(), birim="%", tarih=None, buyuk_dusus_once=False):
     fig, ust, alt = _iskelet(kicker, baslik, vurgu, renk, tarih=tarih, alinti=alinti, kaynak=kaynak)
-    satirlar = sorted(satirlar, key=lambda r: -r[1]); n = len(satirlar); mx = max(abs(v) for _, v in satirlar) or 1
+    satirlar = sorted(satirlar, key=lambda r: (r[1] if buyuk_dusus_once else -r[1])); n = len(satirlar); mx = max(abs(v) for _, v in satirlar) or 1
     h = (ust - alt - 0.03) / n; x0 = L4 + 0.20; w = R4 - x0 - 0.12
     for i, (et, v) in enumerate(satirlar):
         yy = ust - 0.02 - i * h; vr = et in vurgula
