@@ -26,6 +26,19 @@ TREND, MOR, HALKA = "#FF5C6C", "#A35BFF", "#F2A93B"
 
 def arg(a, k, d=None): return a[a.index(k) + 1] if k in a else d
 
+def temiz(t, tf):
+    """Yahoo haftalık seride son günü ayrı bir 'hafta' olarak tekrar döndürür -> mum kayması. Aynı ISO haftası tek mum."""
+    d = veri(t, tf)
+    if tf == "1wk":
+        iso = [(x.isocalendar()[0], x.isocalendar()[1]) for x in d.index]
+        d = d[[i == 0 or iso[i] != iso[i - 1] for i in range(len(d))]]
+    return d
+
+def tarih_i(d, s):
+    """'2026-11-02' -> o tarihi içeren mumun sırası."""
+    ts = pd.Timestamp(s).tz_localize(d.index.tz)
+    return int(np.argmin(np.abs((d.index - ts).total_seconds())))
+
 def pivotlar(h, l, w):
     n = len(h)
     tp = [i for i in range(w, n - 1) if h[i] == max(h[max(0, i - w):i + w + 1])]
@@ -58,7 +71,7 @@ def rsi(c, p=14):
 
 def main(a):
     t = a[0]; tf = arg(a, "--tf", "1wk"); osc = arg(a, "--osc", "yok"); tr = arg(a, "--trend", "asagi")
-    d = veri(t, tf); d = d.tail({"1wk": 80, "1d": 160, "4h": 120}.get(tf, 120))
+    D = temiz(t, tf); d = D.tail({"1wk": 80, "1d": 160, "4h": 120}.get(tf, 120))
     n = len(d); x = np.arange(n); h, l, c = d.high.values, d.low.values, d.close.values
     paneller = 2 if osc != "yok" else 1
     fig = plt.figure(figsize=(11.25, 10.5 if paneller == 2 else 8.2), dpi=100, facecolor=BG)
@@ -77,17 +90,23 @@ def main(a):
     if tr != "yok":
         asagi = tr == "asagi"
         tc = trend_cizgi(h if asagi else l, tp if asagi else dp, asagi, n)
+        if arg(a, "--noktalar"):
+            i1, i2 = [tarih_i(d, z) for z in arg(a, "--noktalar").split(",")]
+            y = h if asagi else l; tc = (i1, y[i1], (y[i2] - y[i1]) / (i2 - i1), 2)
         if tc:
             i1, y1, m, dok = tc; xs = np.array([i1, n + 3]); ax.plot(xs, y1 + m * (xs - i1), color=TREND, lw=3.2, solid_capstyle="round", zorder=5)
             hat = y1 + m * (x - i1)
             ust = np.where((c > hat) if asagi else (c < hat))[0]; ust = ust[ust > i1 + 3]
             if len(ust): kirilim = int(ust[0])
+            ax.text(n + 1.2, hat[-1] + rng * 0.035, f"{hat[-1]:,.0f}".replace(",", "."), color=TREND, fontsize=12, fontweight="bold", va="center", zorder=9)
+            print("trend çizgisi şimdi:", round(hat[-1], 2), "| son kapanış:", round(c[-1], 2), "| gövde ihlali:", int(sum(1 for i in range(i1 + 1, n) if max(d.open.iloc[i], c[i]) > hat[i] * 1.002)))
     for p in [int(v) for v in (arg(a, "--ma", "") or "").split(",") if v]:
-        d2 = veri(t, tf); ma = d2.close.rolling(p).mean().reindex(d.index)
+        ma = D.close.rolling(p).mean().reindex(d.index)
         ax.plot(x, ma.values, color=ACC if p == max([int(v) for v in arg(a, "--ma").split(",")]) else "#C9D3E3", lw=2.6 if p < 100 else 1.6, zorder=4)
     if arg(a, "--bolge"):
         lo, hi = map(float, arg(a, "--bolge").split("-"))
         ax.axhspan(lo, hi, color=MOR, alpha=0.16, zorder=1); ax.axhline(lo, color=MOR, lw=2.2); ax.axhline(hi, color=MOR, lw=2.2)
+        if arg(a, "--bolge-ad"): ax.text(n * 0.30, (lo + hi) / 2, arg(a, "--bolge-ad"), color="#D9C2FF", fontsize=11.5, va="center", zorder=9)
     for s in [float(v) for v in (arg(a, "--seviye", "") or "").split(",") if v]:
         ax.axhline(s, color=MUT, lw=0.9, ls=(0, (4, 4))); ax.text(n + 4.5, s, f"{s:,.0f}".replace(",", "."), color=INK, fontsize=11, va="center", family=K4.MONO if hasattr(K4, "MONO") else None)
     son = c[-1]
@@ -100,11 +119,13 @@ def main(a):
         ax.add_patch(Ellipse((cx, cy), max(8, n - i0 + 5), (sl.high.max() - sl.low.min()) * 1.12, fc=HALKA, alpha=0.22, ec=HALKA, lw=2.6, zorder=6))
     if osc != "yok":
         ao = fig.add_subplot(gs[2], sharex=ax); ao.set_facecolor(BG)
-        dd = veri(t, tf); o = {"cci": cci(dd), "rsi": rsi(dd.close)}.get(osc, cci(dd)).reindex(d.index).values
+        dd = D; o = {"cci": cci(dd), "rsi": rsi(dd.close)}.get(osc, cci(dd)).reindex(d.index).values
         ao.plot(x, o, color="#6FCF7F", lw=1.4)
         for g_ in ([100, 0, -100] if osc == "cci" else [70, 50, 30]): ao.axhline(g_, color=HAIR, lw=0.8)
         ot, od = pivotlar(np.nan_to_num(o, nan=-1e9), np.nan_to_num(o, nan=1e9), w)
         oc = trend_cizgi(np.nan_to_num(o, nan=-1e9), [p for p in ot if not np.isnan(o[p])], True, n)
+        if arg(a, "--osc-noktalar"):
+            j1, j2 = [tarih_i(d, z) for z in arg(a, "--osc-noktalar").split(",")]; oc = (j1, o[j1], (o[j2] - o[j1]) / (j2 - j1), 2)
         if oc:
             i1, y1, m, _ = oc; xs = np.array([i1, n]); ao.plot(xs, y1 + m * (xs - i1), color=TREND, lw=2.8, solid_capstyle="round")
         if "--halka" in a:
