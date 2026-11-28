@@ -19,3 +19,9 @@ description: "Enes'in X hesabında iyi giden tweete yeni veriyle güncelleme twe
 - Metin: "Bu hafta tutan yorumlarım" + en çok 6 satır "GG.AA • konu • ne dedim • ne oldu (rakam)" + tek kapanış cümlesi (gelecek haftanın izlenecek tek eşiği).
 - Abartı yok ("hep bildim", "yine haklı çıktık"). Getiri yüzdesi/işlem bildirimi yok.
 - Kart: kart3 `siralama` (yeşil), satır başına tarih + konu + sonuç rakamı. Tür KARNE, kalıp N ya da C.
+## KURAL 117 — "NE DEMİŞTİM, NE OLDU" SERİSİ (Enes 28.11 20:44; eski 'Bu hafta tutan yorumlarım' listesi İPTAL)
+- Haftada 2: 1 TEKNİK (Cumartesi 20:25 sabit görevi), 1 TEMEL (aynı görev, 25 dk sonra). Görev dosyası: invest/gorevler/karne.md.
+- Yalnız TUTAN ve BİLMESİ EN ZOR tek yorum (piyasa tersini bekliyordu / eşiğe %1'den yakın / kısa sürede tuttu). Tutmayan hiç yazılmaz.
+- Anlaşılır biçim: ilk satır neyin tuttuğunu net söyler; sonra 'ne zaman ne demiştim' + 'ne oldu (rakam, tarih)'; son satır 'Ne demiştim, ne oldu serisinin teknik/temel ayağı bu.' Liste, '•', birden çok yorum yok. Kart kart4 kiyas (NE DEMİŞTİM / NE OLDU).
+- Örnek (teknik, 28.11): 'Geçen hafta Nasdaq 100 için yazdığım eşik tuttu. 25 Kasım'da endeks gün içinde 24.971'e, 24.980'deki ayı piyasası eşiğinin 9 puan altına indi ve oradan döndü. O akşam eşik kapanış bazında kırılmadıkça ayı piyasası başlamaz demiştim. Kırılmadı, cuma günü 26.726'dan kapattı; eşiğin %7 üstünde. Ne demiştim, ne oldu serisinin teknik ayağı bu.'
+- Seriyi beslemek için her gün en az 1 ölçülebilir TEMEL yorum (bilanço/rehber/marj/konsensüs, tarih + eşik) `yorumlar.py ekle` ile deftere yazılır.
