@@ -1,21 +1,5 @@
 [
 {
-"jargon": {
-"fiyatlama": 1
-},
-"tarih": [],
-"terim": [],
-"acilis": "iddia",
-"kapanis": "bence veri öncesinde yüzde",
-"rekor": 0,
-"imza": "4p-duz-o-cerceve",
-"kalip": "G",
-"tur": "MAKRO",
-"zaman": "25.11 16:47",
-"gun": "25.11",
-"uzunluk": 596
-},
-{
 "jargon": {},
 "tarih": [],
 "terim": [],
@@ -1187,5 +1171,25 @@
 "zaman": "28.11 19:32",
 "gun": "28.11",
 "uzunluk": 357
+},
+{
+"jargon": {},
+"tarih": [],
+"terim": [],
+"acilis": "iddia",
+"kapanis": "gelecek hafta mrvl bilançosu",
+"rekor": 0,
+"k89": [
+"esik"
+],
+"k89_son": "esik",
+"k89_hazir": [],
+"imza": "3p-duz-k-cerceve",
+"kalip": "N",
+"tur": "KARNE",
+"zaman": "28.11 20:26",
+"gun": "28.11",
+"uzunluk": 304,
+"metin": "Bu hafta tutan yorumlarım\n\n24.11 • çip hisseleri • $NVDA cuma kapanışının üstünde, $AMD ve $AVGO altında kalır dedim • çarşamba $NVDA 149,30, $AMD 406,03, $AVGO 300,86\n25.11 • Nasdaq 100 ayı eşiği • 24.980 savunulur dedim • cuma kapanışı 26.726\n\nGelecek hafta $MRVL bilançosu için aynı defteri tutacağım."
 }
 ]
