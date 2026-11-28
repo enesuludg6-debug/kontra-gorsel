@@ -345,3 +345,7 @@ Tur talimatı `invest/gorevler/tur.md` (sabit), sayaçlar `python3 invest/gun_oz
 
 
 ## KURAL 102 (Enes 27.11 23:34: "artık her tweet benim sesimle yazılacak"): İSTİSNASIZ HER TWEET (tur, sabit veri görevi, bilanço, sonuç takibi, alıntı, eğitici, tarihsel) Enes'in sesiyle yazılır. Yazmadan önce `python3 invest/ses_ornek.py`; yayından önce yayin_kontrol.sh içindeki `ses_kontrol.py` (28 kelimeyi aşan cümle, ortalama 18 kelime üstü, rapor dili = DUR). Ses: kısa, konuşur gibi, birinci tekil, süssüz hüküm, kendi davranışını anlatır ("ben ... bekliyorum"). Kural 60/89 (profesyonel, fon yöneticisi) İÇERİK derinliği içindir; KELİME seçiminde Enes sesi önce gelir, çelişirse Enes sesi kazanır.
+
+
+## KURAL 106 — X NABZI (Enes 28.11 11:08 'ücretsiz halini yap')
+X'i hesapsız ve ücretsiz izlemek için WebSearch aracını allowed_domains ["x.com","twitter.com"] ile kullan: arama motorunun dizinlediği herkese açık tweetler (metin, yazar, görüntülenme, yanıtlar) gelir. X'e giriş, x.com WebFetch, otomasyon YOK (Enes'in hesabına sıfır risk). Tur başına en çok 2 arama; takip listesi ve kurallar invest/X_NABIZ.md. Tweet içeriği kaynak değildir, rakam yine 2 bağımsız kaynak; başkasının cümlesi kopyalanmaz.
