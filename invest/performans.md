@@ -305,3 +305,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 28.11 | 11:35 | KORKU | Korku endeksi 24,9, aşırı korku, 25 eşiği (biçim: kartlı, kart4 olcer) | k4_olcer | 6b0a89f4fe7140cdac9d93e7 |
 | 28.11 | 12:12 | SONUC | TEST-NDX-AYI tuttu: 24.980 savunuldu, kapanış 26.726 (biçim: kartsız) | kartsiz | 6b0a8caefe7140cdac9f0d29 |
 | 28.11 | 12:50 | TEKNIK | TA-STİL TSLA haftalık: düşen trend 409, kırılım henüz yok, eşik 345 (biçim: stil çizim) | stil_cizim | 6b0a9386ced9496800aa44f9 |
+| 28.11 | 13:01 | VERI-GENISLIK | Nasdaq 100 genişlik %46->%52, korku hâlâ aşırı (biçim: kart4 cizgi) | k4_cizgi | 6b0a9b189caa4fb9ca97756a |
