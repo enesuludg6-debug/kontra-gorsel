@@ -2,20 +2,6 @@
 {
 "jargon": {},
 "tarih": [],
-"terim": [],
-"acilis": "iddia",
-"kapanis": "tayvan için haberlerde bir",
-"rekor": 0,
-"imza": "2p-duz-o-cerceve",
-"kalip": "C+J",
-"tur": "HABER",
-"zaman": "25.11 14:04",
-"gun": "25.11",
-"uzunluk": 508
-},
-{
-"jargon": {},
-"tarih": [],
 "terim": [
 "brüt marj"
 ],
@@ -1174,5 +1160,26 @@
 "zaman": "28.11 17:37",
 "gun": "28.11",
 "uzunluk": 275
+},
+{
+"jargon": {
+"ayrışma": 1
+},
+"tarih": [],
+"terim": [],
+"acilis": "iddia",
+"kapanis": "kendi ölçeğimde bireysel iyimserlik",
+"rekor": 0,
+"k89": [
+"pozisyon"
+],
+"k89_son": "",
+"k89_hazir": [],
+"imza": "2p-duz-k-cerceve",
+"kalip": "C",
+"tur": "VERI-KALABALIK",
+"zaman": "28.11 18:11",
+"gun": "28.11",
+"uzunluk": 316
 }
 ]
