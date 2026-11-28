@@ -314,3 +314,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 28.11 | 17:05 | ACIKLAYICI | ACIKLAYICI SKHY hisse geri alım ve iptal: 2026'da 60 trilyon won, ağustos 40T = hisselerin %3,3'ü (biçim: kartsız) | kartsiz | 6b0adfabc6d7f1e7224a0e19 |
 | 28.11 | 17:36 | GORUS | GORUS NVDA ileri F/K 12,5 vs S&P 500 18,3, 2012'den beri en düşük (biçim: kart4 sutun, tartışma görüşü) | k4_sutun | 6b0ae704b793a21e71ef09c9 |
 | 28.11 | 18:11 | VERI-KALABALIK | Kalabalık endeksi: bireysel 34, kurumsal 33, fark -1 nötr (biçim: kart4 olcer) | k4_olcer | 6b0aef1e0f9559e0ce2142ba |
+| 28.11 | 18:34 | ACIKLAYICI | ACIKLAYICI NDX 200 günlük ortalamanın %4,9 altında, 13 kasımdan beri üstünde kapanış yok (biçim: kartsız) | kartsiz | 6b0af46f4ebef2b6d4e6dd4d |
