@@ -4,20 +4,6 @@
 "tarih": [],
 "terim": [],
 "acilis": "iddia",
-"kapanis": "bence nasdaq vadeli işlemlerindeki",
-"rekor": 0,
-"imza": "4p-duz-o-cerceve",
-"kalip": "A",
-"tur": "MAKRO",
-"zaman": "25.11 13:17",
-"gun": "25.11",
-"uzunluk": 630
-},
-{
-"jargon": {},
-"tarih": [],
-"terim": [],
-"acilis": "iddia",
 "kapanis": "tayvan için haberlerde bir",
 "rekor": 0,
 "imza": "2p-duz-o-cerceve",
@@ -1167,5 +1153,26 @@
 "zaman": "28.11 17:05",
 "gun": "28.11",
 "uzunluk": 432
+},
+{
+"jargon": {
+"çarpan": 1
+},
+"tarih": [],
+"terim": [],
+"acilis": "normal",
+"kapanis": "önümüzdeki 12 ayın beklenen",
+"rekor": 1,
+"k89": [
+"fark"
+],
+"k89_son": "fark",
+"k89_hazir": [],
+"imza": "2p-duz-k-rakam",
+"kalip": "D",
+"tur": "GORUS",
+"zaman": "28.11 17:37",
+"gun": "28.11",
+"uzunluk": 275
 }
 ]

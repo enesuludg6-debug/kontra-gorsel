@@ -1,10 +1,5 @@
 [
 {
-"acilis": "teknolojideki 12 5",
-"kaliplar": [],
-"metin": "Teknolojideki %12,5'lik kayıp, endeksteki ağırlığı yüzünden tüm piyasayı aşağı çekti. Ancak satışın en sert olduğu yer, rehberlerin yukarı revize edildiği yarı "
-},
-{
 "acilis": "ayı piyasası bir",
 "kaliplar": [],
 "metin": "Ayı piyasası bir tanımdır, bir tahmin değildir. Etiket manşetleri ve yatırımcı psikolojisini etkiler, şirketlerin rakamlarını değiştirmez. Hangi eşikte olursak "
@@ -308,5 +303,10 @@
 "acilis": "haber gelince hisse",
 "kaliplar": [],
 "metin": "Haber gelince hisse açılışta %2,6 düştü ama günü artıda kapattı. Bence piyasa bunu bir ihracat denetimi sorunu olarak fiyatladı. Washington Çin satışlarını tama"
+},
+{
+"acilis": "önümüzdeki 12 ayın",
+"kaliplar": [],
+"metin": "Önümüzdeki 12 ayın beklenen kârının 12,5 katından işlem görüyor, endeksin çarpanı 18,3. Bu 2012'den beri en düşük seviyesi. Piyasa YZ harcamalarının yavaşlaması"
 }
 ]
