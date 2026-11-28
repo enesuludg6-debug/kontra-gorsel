@@ -816,3 +816,4 @@ Durdurmak için en alta `DURDUR` yazılı bir satır ekle (Enes ya da Claude, En
 - 28.11 20:49 Enes ikinci kez sildi → 117-B formatıyla yeniden atıldı (6b0b142a).
 - 21:29 (28.11) AUTO (EGITICI): - (E) - TUR-2811-2048 EGITICI 1/1; 21:29 eski NE DEMİŞTİM kaydı silindi (Enes sildi, 20:49 yerine geçti) Buffer 6b0b14775e276ead9fc0133f. Son 3 duzen: k4_kiyas, N, E.
 - 21:39 (28.11) AUTO (UZUN): - (D) - TUR-2811-2136 UZUN 1/2 (Enes 'bir tane hemen şimdi at'); kaynak Yahoo/Zacks, TipRanks, Investing, cryptobriefing; fiyat kendi Yahoo hesabı Buffer 6b0b1fd1c2c05b6cf491a22f. Son 3 duzen: N, E, D.
+- 22:00 (28.11) AUTO (AKIS): - (G) - kural 121 ilk AKIS Buffer 6b0b21d11a50ad40505b2242. Son 3 duzen: E, D, G.

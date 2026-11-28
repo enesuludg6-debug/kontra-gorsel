@@ -21,7 +21,7 @@ SINIR = {
     'SONDAKIKA': 600, 'HABER': 600, 'VADELI': 500, 'BEKLENTI': 500, 'OPSIYON': 600, 'KEYLEVELS': 700,
     'BILANCO-RAKAM': 700, 'GUNUN-OLAYLARI': 700, 'TAKIP': 700, 'ICERIDEN-ALIM': 700, 'FED-TAHVIL': 700, 'MAKRO': 700, 'KRIPTO': 700, 'TARIHSEL': 500,
     'BAGLAM-GORUS': 800, 'PORTFOY': 800, 'FIKIR': 800, 'SEKTOR': 800, 'ENES-HABER': 800, 'ENES-ISTEGI': 900,
-    'EGITICI': 900, 'UZUN': 4000, 'TEZ': 1100, 'DERIN-ANALIZ': 1200, '13F': 1000, 'ANALIST': 1000, 'BILANCO-ANALIZ': 1200, 'HAFTALIK-OZET': 1200, 'AYIN-OZETI': 1200,
+    'EGITICI': 900, 'UZUN': 4000, 'TEZ': 1100, 'AKIS': 900, 'DERIN-ANALIZ': 1200, '13F': 1000, 'ANALIST': 1000, 'BILANCO-ANALIZ': 1200, 'HAFTALIK-OZET': 1200, 'AYIN-OZETI': 1200,
 }
 VARSAYILAN = 800
 UZUN_UYARI = 700          # bu uzunluğu geçen her metin "kısa yazılınca değer kaybeder mi?" sorusunu cevaplar
@@ -318,7 +318,7 @@ def main():
         n_bugun = sum(1 for x in d if x.get('tur') == 'DERIN-ANALIZ' and x.get('gun') == bugun.strftime('%d.%m'))
         if n_bugun >= DERIN_GUNLUK: hata.append(f'kural 63: bugün zaten {n_bugun} DERIN-ANALIZ atıldı (günde en çok {DERIN_GUNLUK}); başka türde, kısa yaz.')
     # KURAL 86 (Enes 25.11 18:05, F-012/F-017): günlük tavan 20 + kısa, tek fikir
-    MUAF86 = {'UZUN', 'TEZ', 'GUNUN-OLAYLARI', 'BILANCO-RAKAM', 'BILANCO', 'KEYLEVELS', 'ENES-ISTEGI', 'ENES-HABER', 'VADELI', 'TARIHSEL'}
+    MUAF86 = {'UZUN', 'TEZ', 'AKIS', 'GUNUN-OLAYLARI', 'BILANCO-RAKAM', 'BILANCO', 'KEYLEVELS', 'ENES-ISTEGI', 'ENES-HABER', 'VADELI', 'TARIHSEL'}
     _bg = (dt.datetime.now(dt.timezone(dt.timedelta(hours=3))) - dt.timedelta(hours=2)).strftime('%d.%m')
     n_gun = sum(1 for x in d if x.get('gun') == _bg)
     _hs = (dt.datetime.now(dt.timezone(dt.timedelta(hours=3))) - dt.timedelta(hours=2)).weekday() >= 5
@@ -400,7 +400,7 @@ def main():
         # KURAL 116 (Enes 28.11 20:36): seviyede 'eklerim/çıkarırım' gibi işlem fiili yok; teknik yalnız TA tweetinde
         if re.search(r'\b(eklerim|eklerdim|çıkarım|çıkarırım|alırım|satarım|alıcı olurum|satıcı olurum|kenarda kalırım|kenara çekilirim|pozisyonu? (büyütürüm|küçültürüm|azaltırım|artırırım)|kâr alırım|stop olurum)\b', _l):
             hata.append('kural 116: işlem fiili (eklerim, çıkarırım, alıcı olurum, kenara çekilirim...) yok; görüşü ve koşulu söyle, işlem bildirme.')
-        if tur not in {'TEKNIK', 'TA-STIL'}:
+        if tur not in {'TEKNIK', 'TA-STIL', 'AKIS'}:
             _tek = re.findall(r'(\d+\s*günlük ortalama|hareketli ortalama|\bdestek\b|\bdirenç\b|kırılırsa|kırılım|trend çizgisi|haftalık kapanış|\bkapanış(ı)? (gelirse|gelmezse)|\büstü kapanış|\brsi\b|\bmacd\b|\bfibonacci\b|\bdip(in)? (altı|kırıl)|üstüne çıkarsa|altına inerse)', _l)
             if _tek: hata.append(f'kural 116: teknik analiz öğesi {sorted(set(x if isinstance(x,str) else x[0] for x in _tek))} yalnız TA tweetlerinde (tur TEKNIK); bu tweette temel tetikleyici kullan (tahmin revizyonu, rehber, marj, sipariş).')
         if n_pro < 4: hata.append(f'kural 113-B: kurumsal masa dili zayıf ({n_pro}/4 borsacı öğesi, 113-C). Konsensüs, çarpan, marj, pozisyonlanma, katalizör, kapanış teyidi, hacim, revizyon, eşik gibi en az 4 öğe kullan.')
