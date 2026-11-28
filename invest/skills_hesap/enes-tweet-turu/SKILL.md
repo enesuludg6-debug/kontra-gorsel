@@ -579,7 +579,7 @@ Enes 21:08 ASML tweetinin kapanışına baktı: "Sipariş defteri gerilerse fikr
 - Bu kural "olabilir/değişebilir" yasağına (113-B hedge) istisnadır: koşullu tetikleyici cümlesinde "değişebilir" serbest; hüküm kısmı yine kesin.
 
 ## KURAL 119 — BAZI TWEETLER AŞIRI UZUN (Enes 28.11 21:36: "bazı tweetlerimiz aşırı uzun olsun")
-- Her gün EN AZ 2 UZUN tweet (tur `UZUN`): biri ABD seansı içinde (16:30-20:00), biri akşam (20:00-23:30). Üst sınır yok; diğer tweetler kısa kalır (kural 86 akışı bozulmaz, uzun/kısa karışık akış).
+- Her gün TAM 2 UZUN tweet (tur `UZUN`, Enes 21:37 "günde 2 tweet aşırı uzun olacak"): biri ABD seansı içinde (16:30-20:00), biri akşam (20:00-23:30); diğer tweetler kısa kalır (kural 86 akışı bozulmaz, uzun/kısa karışık akış).
 - Uzunluk 1500-4000 karakter (kalite.py: <1500 ya da <5 paragraf = hata). X'in uzun gönderisi; ilk 280 karakter "devamını göster"den önce görünür, o yüzden ilk 2 satır tek başına tıklatacak kadar güçlü (kural 79 kanca, 12 kelime sınırı burada da hedef).
 - Konu: günün en büyük hikâyesi ya da bir hissenin derin analizi (bilanço, sektör, değerleme, büyük fon hamlesi). Kısa tweetle zaten atılmış konu da olur, ama aynı cümleler tekrar edilmez; uzun tweet yeni katman ekler.
 - Akış (başlık koymadan, kısa paragraflar):
