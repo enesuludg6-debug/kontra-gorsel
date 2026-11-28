@@ -595,3 +595,15 @@ Enes 21:08 ASML tweetinin kapanışına baktı: "Sipariş defteri gerilerse fikr
 - 113/114/114-B/114-C/116/118 aynen; uzunluk AI izini artırır, yasak.py/ses_kontrol temiz olmadan atılmaz. Teknik öğeler yalnız TA içerikli UZUN'da.
 - Kart: kart4 (konuya uygun tek kart) ya da kartsız; ölçüm: performans_veri.csv'de UZUN ortalaması diğer türlerle haftalık kıyaslanır, tutmazsa Enes'e rakamla raporlanır.
 - Sayaç: `gun_ozet.py` "UZUN n/2".
+
+## KURAL 120 — TEZ ÇÖZÜMÜ FORMATI (Enes 28.11 21:42: "bu tweeti çok beğendim, bu tarz şeyler yapabiliriz")
+Enes'in beğendiği örnek (başka hesap): Leopold'un Q3 mektubu $NBIS, $IREN, $CRWV'nin canlı + sözleşmeli kapasiteye göre ~1,0-1,2 kat değerlendiğini söylüyor → bu değerleme GPU'ların 6 yılda değersizleşeceğini varsayıyor, oysa eski çipler primle kiralanıyor ve spot hesaplama ~%75 marj, sözleşmeli ~%15 → fon bu yüzden çip üreticileri yerine neocloud ve belleği seçiyor; kâr kıt kapasiteyi kontrol edene akacak bahsi.
+Neden işe yarıyor: büyük bir oyuncunun (fon mektubu, analist notu, CEO çağrısı) tezini SAYIYLA çözüyor, piyasanın örtük varsayımını açığa çıkarıyor, karşı veriyi koyuyor ve pozisyonu açıklıyor. Okur "neden" sorusunun cevabını alıyor.
+- Sıklık: kaynak varsa günde 1 (fon mektubu, 13F, analist notu, bilanço çağrısı, yatırımcı günü). Tur: `TEZ`, kalıp ikincil serbest.
+- 3 paragraf, 600-1100 karakter (UZUN değil):
+  1. Kim ne diyor + somut değerleme rakamı ("X'in mektubu $A, $B'nin kapasitesinin ~1,1 katından işlem gördüğünü söylüyor").
+  2. Bu fiyatın örtük varsayımı + onu çürüten/destekleyen karşı veri (marj, kira fiyatı, sipariş, ömür). Ağır terim 113-F ile açıklanır.
+  3. Bu yüzden oyuncu neyi seçiyor / ben nerede duruyorum (Enes sesi, 118 tek akış kapanış, AI-pozitif çizgi).
+- Fikir alınır cümle alınmaz (kural 102): örnek tweetteki kalıplar ("Yani özünde", "temelde ... bahis oynuyorlar", "bir sonraki AI kâr dalgası") 114 yasaklarına girer, kullanılmaz. Rakamlar 2 kaynak (birincil belge tercih: mektup, 10-Q, çağrı metni), tek kaynaksa "civarı".
+- Aynı oyuncu/belge günde en çok 2 tweet; farklı açı zorunlu (ör. Leopold: bellek → ASML → neocloud değerlemesi).
+- Sayaç gun_ozet.py "TEZ n/1".
