@@ -215,7 +215,7 @@ def olcer(kicker, baslik, vurgu, deger, bolgeler, etiket, alinti, kaynak, out, r
     for j, (v, et) in enumerate(onceki):
         m = np.pi * (1 - v / 100); rr = 0.66 - 0.12 * j; ax.plot([0.86 * np.cos(m), 0.78 * np.cos(m)], [0.86 * np.sin(m), 0.78 * np.sin(m)], color=MUTED, lw=1.5)
 
-    ax.text(0, 0.30, f"{deger:.0f}".replace(".", ","), fontsize=150, family=SERIF, color=INK, ha="center", va="center")
+    ax.text(0, 0.30, (f"{deger:.0f}" if float(deger).is_integer() else f"{deger:.1f}").replace(".", ","), fontsize=150, family=SERIF, color=INK, ha="center", va="center")
     ax.text(0, -0.16, _aralik(_up(etiket)), fontsize=13, family=MONO, color=renk, ha="center", va="center")
     if onceki: ax.text(0, -0.25, "   ·   ".join(_aralik(_up(et)) for _, et in onceki), fontsize=10.5, family=MONO, color=MUTED, ha="center", va="center")
     return K3.kaydet(fig, out)

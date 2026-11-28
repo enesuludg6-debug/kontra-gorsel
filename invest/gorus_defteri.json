@@ -1,10 +1,5 @@
 [
 {
-"acilis": "fiyatları aşağı çeken",
-"kaliplar": [],
-"metin": "Fiyatları aşağı çeken bilançolar değil, yapay zekâ işlemindeki pozisyon azaltımı. Yapay zekâ capex döngüsü sürerken endekslerin %10-17 aşağıda fiyatlanması, uzu"
-},
-{
 "acilis": "defansif sektörler resesyonda",
 "kaliplar": [],
 "metin": "Defansif sektörler resesyonda bile talebi değişmeyen ürünler satar. Bu yüzden fonlar belirsizlik dönemlerinde buraya park eder. Ancak bu şirketlerin büyümesi dü"
@@ -308,5 +303,10 @@
 "acilis": "mu 7 yi",
 "kaliplar": [],
 "metin": "$MU %7'yi aştı, $AMD %4'ün üstünde kapattı. $NVDA ise sektöre göre geride kaldı, açılıştaki yükselişini geri verdi. Çin'de bir veri merkezinde kısıtlı Blackwell"
+},
+{
+"acilis": "piyasa genişliği de",
+"kaliplar": [],
+"metin": "Piyasa genişliği de düzeldi, Nasdaq hisselerinin yarısı 50 günlük ortalamasının üstünde. Ben haftayı iyi kapattım ama yarım günün ince hacmi hâlâ risk, teyidi P"
 }
 ]

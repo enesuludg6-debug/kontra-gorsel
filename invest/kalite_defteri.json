@@ -1,19 +1,5 @@
 [
 {
-"jargon": {},
-"tarih": [],
-"terim": [],
-"acilis": "iddia",
-"kapanis": "bu yüzden haftanın fiyat",
-"rekor": 0,
-"imza": "3p-duz-o-cerceve",
-"kalip": "A",
-"tur": "TAKVIM",
-"zaman": "24.11 22:16",
-"gun": "24.11",
-"uzunluk": 692
-},
-{
 "jargon": {
 "fiyatlama": 1
 },
@@ -1132,5 +1118,22 @@
 "zaman": "27.11 22:05",
 "gun": "27.11",
 "uzunluk": 338
+},
+{
+"jargon": {},
+"tarih": [],
+"terim": [],
+"acilis": "iddia",
+"kapanis": "piyasa genişliği de düzeldi",
+"rekor": 0,
+"k89": [],
+"k89_son": "",
+"k89_hazir": [],
+"imza": "3p-duz-k-rakam",
+"kalip": "B",
+"tur": "HAFTALIK-OZET",
+"zaman": "28.11 10:57",
+"gun": "28.11",
+"uzunluk": 405
 }
 ]
