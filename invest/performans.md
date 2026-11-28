@@ -316,3 +316,4 @@ Bulgular: ortalama görüntülenme ~480, tweet türleri arasında fark küçük;
 | 28.11 | 18:11 | VERI-KALABALIK | Kalabalık endeksi: bireysel 34, kurumsal 33, fark -1 nötr (biçim: kart4 olcer) | k4_olcer | 6b0aef1e0f9559e0ce2142ba |
 | 28.11 | 18:34 | ACIKLAYICI | ACIKLAYICI NDX 200 günlük ortalamanın %4,9 altında, 13 kasımdan beri üstünde kapanış yok (biçim: kartsız) | kartsiz | 6b0af46f4ebef2b6d4e6dd4d |
 | 28.11 | 19:31 | VERI | SMH haftalık %10, 200G'nin %16 altında, hacim 1,4x; IGV 200G üstü (biçim: kart4 siralama, kural 113-C ilk tweet) | k4_siralama | 6b0b01f844ee786c1d8435e2 |
+| 28.11 | 20:26 | KARNE | Haftalık karne: tutan 2 yorum (çip hisseleri 24.11, NDX ayı eşiği 25.11) (biçim: kart4 haber) | k4_haber | 6b0b0ec45d4376bde3c4b3bd |
